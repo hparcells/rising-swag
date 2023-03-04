@@ -1,22 +1,37 @@
 {
   "name": "red-rising-merch",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "next dev -p 8000 --turbo",
+    "build:next": "next build",
+    "build": "turbo build:next",
+    "export": "next export",
+    "static": "npm run build && npm run export",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@mantine/core": "^6.0.0",
+    "@mantine/form": "^6.0.0",
+    "@mantine/hooks": "^6.0.0",
+    "next": "13.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^13.2.3",
     "@types/node": "18.14.6",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
-    "eslint": "8.35.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
     "eslint-config-next": "13.2.3",
-    "next": "13.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.9.5"
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "sass": "^1.58.3",
+    "turbo": "^1.8.3",
+    "typescript": "^4.9.5"
   }
 }
