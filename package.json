@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "prepare": "husky install",
     "dev": "next dev -p 8000 --turbo",
     "build:next": "next build",
     "build": "turbo build:next",
@@ -29,6 +30,7 @@
     "eslint-config-next": "13.2.3",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
     "prettier": "^2.8.4",
     "sass": "^1.58.3",
     "turbo": "^1.8.3",

@@ -1,6 +1,7 @@
 {
   "files.exclude": {
     ".github": true,
+    ".husky": true,
     ".next": true,
     "node_modules": true,
     ".eslintignore": true,
