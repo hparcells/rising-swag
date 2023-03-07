@@ -7,6 +7,7 @@
     "dev": "next dev -p 8000",
     "build:next": "next build",
     "build": "turbo build:next",
+    "start": "next start",
     "export": "next export",
     "static": "npm run build && npm run export",
     "lint": "next lint"
@@ -18,7 +19,8 @@
     "@mantine/hooks": "^6.0.0",
     "next": "13.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.2.3",
