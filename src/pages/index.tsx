@@ -1,12 +1,14 @@
+import Content from '@/components/Content/Content';
+import Hero from '@/components/Hero/Hero';
 import Layout from '@/components/Layout';
-
-import { ALL_DATA } from '@/data/data';
 
 function Index() {
   return (
     <Layout>
-      <p>Home</p>
-      {JSON.stringify(ALL_DATA)}
+      <div>
+        <Hero />
+        <Content />
+      </div>
     </Layout>
   );
 }
