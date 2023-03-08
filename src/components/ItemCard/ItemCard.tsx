@@ -1,4 +1,4 @@
-import { Anchor, Button, Card, Group, Image, Text } from '@mantine/core';
+import { Anchor, Button, Card, Image, Text } from '@mantine/core';
 
 import { IItem } from '@/types/item';
 import { IconExternalLink } from '@tabler/icons-react';
@@ -31,6 +31,9 @@ function ItemCard({ item }: { item: IItem }) {
         mt='md'
         radius='md'
         leftIcon={<IconExternalLink size='1rem' />}
+        component='a'
+        href={item.link}
+        target='_blank'
       >
         Check it out
       </Button>
