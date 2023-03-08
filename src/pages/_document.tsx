@@ -9,15 +9,18 @@ function Document() {
       <Head>
         <meta charSet='UTF-8' />
         <meta name='language' content='EN' />
-        <meta name='keywords' content='red,rising,bookish,merch,stores,small,business,pin,pins' />
+        <meta
+          name='keywords'
+          content='red,rising,bookish,merch,stores,small,business,pin,pins,howler,jacket,pierce,brown'
+        />
         <meta name='author' content='Hunter Parcells' />
 
         <meta name='description' content={DESCRIPTION} />
         <meta property='og:description' content={DESCRIPTION} />
         <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://redrising.hunterparcells.com/' />
+        <meta property='og:url' content='https://risingswag.com/' />
         <meta property='og:image' content='/icon/favicon-310.png' />
-        <meta name='theme-color' content='#FD252F' />
+        <meta name='theme-color' content='#C20116' />
 
         <link rel='shortcut icon' href='/icon/favicon.ico' />
         <link rel='icon' sizes='16x16 32x32 64x64' href='/icon/favicon.ico' />
