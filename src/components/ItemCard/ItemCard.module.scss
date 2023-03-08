@@ -2,3 +2,10 @@
   width: 295px;
   height: fit-content;
 }
+
+.badge {
+  cursor: pointer;
+}
+.badge:hover {
+  opacity: 0.9;
+}

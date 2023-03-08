@@ -1,21 +1,42 @@
-import { Paper, Input, Select, Group, Checkbox } from '@mantine/core';
-import { IconArrowsSort, IconSearch } from '@tabler/icons-react';
+import { Paper, Input, Select, Group, Checkbox, MultiSelect } from '@mantine/core';
+import { IconSearch } from '@tabler/icons-react';
+import { unique } from '@reverse/array';
 
 import { useFilter } from '@/hooks/filter';
 
+import { ALL_DATA } from '@/data/data';
+
 function FilterBox() {
-  const { filter, updateFilter: update } = useFilter();
+  const { filter, updateFilter } = useFilter();
 
   return (
     <Paper shadow='sm' p='md' mb='1em' withBorder>
-      <Input
-        icon={<IconSearch />}
-        placeholder='Search'
-        value={filter.search}
-        onChange={(event) => {
-          update({ search: event.target.value });
-        }}
-      />
+      <Group grow>
+        <Input
+          icon={<IconSearch />}
+          placeholder='Search'
+          value={filter.search}
+          onChange={(event) => {
+            updateFilter({ search: event.target.value });
+          }}
+        />
+        <MultiSelect
+          data={unique(
+            ALL_DATA.reduce((acc: string[], item) => {
+              return [...acc, ...item.tags];
+            }, [])
+          ).sort((a: string, b: string) => {
+            return a.localeCompare(b);
+          })}
+          value={filter.tags}
+          onChange={(value) => {
+            updateFilter({ tags: value });
+          }}
+          placeholder='Filter by tags'
+          searchable
+          nothingFound='No results'
+        />
+      </Group>
 
       <Group mt='xs' position='apart'>
         <Group grow>
@@ -28,7 +49,7 @@ function FilterBox() {
             ]}
             value={filter.sort.by}
             onChange={(value) => {
-              update({ sort: { ...filter.sort, by: value } });
+              updateFilter({ sort: { ...filter.sort, by: value } });
             }}
           />
           <Select
@@ -39,7 +60,7 @@ function FilterBox() {
             ]}
             value={filter.sort.order}
             onChange={(value) => {
-              update({ sort: { ...filter.sort, order: value } });
+              updateFilter({ sort: { ...filter.sort, order: value } });
             }}
           />
         </Group>
@@ -49,9 +70,9 @@ function FilterBox() {
             checked={filter.tags.includes('expired')}
             onChange={(event) => {
               if (event.target.checked) {
-                update({ tags: [...filter.tags, 'expired'] });
+                updateFilter({ tags: [...filter.tags, 'expired'] });
               } else {
-                update({
+                updateFilter({
                   tags: filter.tags.filter((tag) => {
                     return tag !== 'expired';
                   })

@@ -1,11 +1,13 @@
+import { useEffect, useState } from 'react';
 import FilterBox from '../FilterBox/FilterBox';
 
 import { useFilter } from '@/hooks/filter';
 
-import classes from './Content.module.scss';
-import { ALL_DATA } from '@/data/data';
 import ItemCard from '../ItemCard/ItemCard';
-import { useEffect, useState } from 'react';
+
+import { ALL_DATA } from '@/data/data';
+
+import classes from './Content.module.scss';
 
 function Content() {
   const { filter } = useFilter();
@@ -46,6 +48,11 @@ function Content() {
         .filter((item) => {
           if (item.tags.includes('expired') && !filter.tags.includes('expired')) {
             return false;
+          }
+          if (filter.tags.length > 0) {
+            return filter.tags.every((tag) => {
+              return item.tags.includes(tag);
+            });
           }
           return true;
         })
