@@ -51,7 +51,7 @@ function Content() {
           }
           if (filter.tags.length > 0) {
             return filter.tags.every((tag) => {
-              return item.tags.includes(tag);
+              return item.tags.includes(tag) || tag === 'expired';
             });
           }
           return true;
