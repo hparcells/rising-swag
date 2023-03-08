@@ -17,6 +17,7 @@
     "@mantine/core": "^6.0.0",
     "@mantine/form": "^6.0.0",
     "@mantine/hooks": "^6.0.0",
+    "@mantine/next": "^6.0.1",
     "@reverse/array": "^1.7.3",
     "@tabler/icons-react": "^2.8.0",
     "next": "13.2.3",
