@@ -1,11 +1,24 @@
 import { MantineProvider } from '@mantine/core';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
+import { useEffect } from 'react';
+import ReactGA from 'react-ga4';
 
-import '@/styles/global.scss';
 import { ProvideFilter } from '@/hooks/filter';
 
+import '@/styles/global.scss';
+
 function App({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    if (process.env.NODE_ENV === 'production') {
+      ReactGA.initialize('G-BC7Q0LC162');
+      ReactGA.send({
+        hitType: 'pageview',
+        page: window.location.pathname
+      });
+    }
+  }, []);
+
   return (
     <div>
       <Head>
