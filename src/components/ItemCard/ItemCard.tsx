@@ -1,6 +1,6 @@
-import { Anchor, Badge, Button, Card, Chip, Group, Image, Text } from '@mantine/core';
+import { Anchor, Badge, Button, Card, Image, Text } from '@mantine/core';
 
-import { IItem } from '@/types/item';
+import { IItem, MERCH_TYPE } from '@/types/item';
 import { IconExternalLink } from '@tabler/icons-react';
 
 import { useFilter } from '@/hooks/filter';
@@ -29,32 +29,40 @@ function ItemCard({ item }: { item: IItem }) {
       <div>
         {item.tags
           .sort((tag) => {
+            // Merch type tags are displayed first.
+            if ((MERCH_TYPE as any).includes(tag)) {
+              return -1;
+            }
+            return 1;
+          })
+          .sort((tag) => {
             // Tags that are in the filter are show first in the list.
             if (filter.tags.includes(tag)) {
               return -1;
             }
             return 1;
           })
-          .map((clickedTag) => {
+          .map((tag) => {
             return (
               <Badge
                 color='red'
                 radius='sm'
-                variant={filter.tags.includes(clickedTag) ? 'outline' : 'filled'}
+                variant={filter.tags.includes(tag) ? 'outline' : 'filled'}
                 mr={3}
                 onClick={() => {
                   // Add the tag to the filter if it is clicked.
                   updateFilter({
-                    tags: filter.tags.includes(clickedTag)
-                      ? filter.tags.filter((tag) => {
-                          return tag !== clickedTag;
+                    tags: filter.tags.includes(tag)
+                      ? filter.tags.filter((filterTag) => {
+                          return filterTag !== tag;
                         })
-                      : [...filter.tags, clickedTag]
+                      : [...filter.tags, tag]
                   });
                 }}
                 className={classes.badge}
+                key={tag}
               >
-                {clickedTag}
+                {tag}
               </Badge>
             );
           })}
