@@ -3,6 +3,7 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 
 import '@/styles/global.scss';
+import { ProvideFilter } from '@/hooks/filter';
 
 function App({ Component, pageProps }: AppProps) {
   return (
@@ -11,7 +12,9 @@ function App({ Component, pageProps }: AppProps) {
         <meta name='viewport' content='width=device-width,initial-scale=1' />
       </Head>
       <MantineProvider withGlobalStyles withNormalizeCSS>
-        <Component {...pageProps} />
+        <ProvideFilter>
+          <Component {...pageProps} />
+        </ProvideFilter>
       </MantineProvider>
     </div>
   );

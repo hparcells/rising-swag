@@ -6,7 +6,14 @@
 
 .content {
   margin: auto;
-  max-width: 900px;
+  max-width: 925px;
 
-  padding: 0.5em;
+  padding: 1em 0.5em;
+}
+
+.cards {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
