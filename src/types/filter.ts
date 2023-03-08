@@ -1,10 +1,10 @@
 import { ITag } from './item';
 
-type Sort = 'name' | 'shop' | 'price' | 'added';
+type Sort = 'name' | 'shop' | 'added';
 type Order = 'ascending' | 'descending';
 
 interface ISort {
-  sort: Sort;
+  by: Sort;
   order: Order;
 }
 

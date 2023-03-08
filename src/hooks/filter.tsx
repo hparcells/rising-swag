@@ -1,4 +1,4 @@
-import { useState, useContext, createContext, Context } from 'react';
+import { useState, useContext, createContext } from 'react';
 
 import { IFilter } from '@/types/filter';
 
@@ -8,8 +8,8 @@ const FilterContext = createContext({
     search: '',
     tags: [],
     sort: {
-      sort: 'added',
-      order: 'descending'
+      by: 'added',
+      order: 'ascending'
     }
   } as IFilter,
   // eslint-disable-next-line no-empty-function
@@ -30,8 +30,8 @@ function useProvideFilter() {
     search: '',
     tags: [],
     sort: {
-      sort: 'added',
-      order: 'descending'
+      by: 'name',
+      order: 'ascending'
     }
   });
 
