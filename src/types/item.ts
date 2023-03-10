@@ -1,6 +1,6 @@
 import { IBook, ICharacter, IColor } from './red-rising';
 
-export const MERCH_TYPE = ['pin', 'patch', 'shirt', 'other'] as const;
+export const MERCH_TYPE = ['pin', 'patch', 'jewelry', 'shirt', 'other'] as const;
 
 /**
  * Types of merch.
