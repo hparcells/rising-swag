@@ -9,7 +9,7 @@ const FilterContext = createContext({
     tags: [],
     sort: {
       by: 'added',
-      order: 'ascending'
+      order: 'descending'
     }
   } as IFilter,
   // eslint-disable-next-line no-empty-function
@@ -30,8 +30,8 @@ function useProvideFilter() {
     search: '',
     tags: [],
     sort: {
-      by: 'name',
-      order: 'ascending'
+      by: 'added',
+      order: 'descending'
     }
   });
 
