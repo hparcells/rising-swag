@@ -1,6 +1,16 @@
 import { IBook, ICharacter, IColor } from './red-rising';
 
-export const MERCH_TYPE = ['pin', 'patch', 'jewelry', 'shirt', 'other'] as const;
+export const MERCH_TYPE = [
+  'pin',
+  'patch',
+  'jewelry',
+  'shirt',
+  'phone-case',
+  'mug',
+  'sticker',
+  'jacket',
+  'other'
+] as const;
 
 /**
  * Types of merch.
@@ -25,11 +35,11 @@ interface IShop {
 /**
  * A shop item.
  * @param date The date the item is published to the site.
+ * @param image The image of the item.
  * @param name The name of the item.
  * @param tags Tags associated with the item.
  * @param shop The author of the item.
  * @param description The description of the item.
- * @param image The image of the item.
  * @param link A collection of different links to the item.
  */
 export interface IItem {

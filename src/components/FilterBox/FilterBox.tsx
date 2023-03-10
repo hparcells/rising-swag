@@ -7,7 +7,6 @@ import { useEffect, useState } from 'react';
 import { useFilter } from '@/hooks/filter';
 
 import { MERCH_TYPE } from '@/types/item';
-import { BOOKS, COLORS, CHARACTERS } from '@/types/red-rising';
 
 import { ALL_DATA } from '@/data/data';
 
@@ -15,7 +14,7 @@ function FilterBox() {
   const { filter, updateFilter } = useFilter();
 
   const [search, setSearch] = useState('');
-  const [debounced] = useDebouncedValue(search, 200, { leading: true });
+  const [debounced] = useDebouncedValue(search, 250, { leading: true });
 
   useEffect(() => {
     updateFilter({ search: debounced });
