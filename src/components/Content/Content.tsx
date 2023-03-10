@@ -1,14 +1,15 @@
 import { useEffect, useState } from 'react';
+import { Alert, Text } from '@mantine/core';
+import { IconTrafficCone } from '@tabler/icons-react';
+
 import FilterBox from '../FilterBox/FilterBox';
+import ItemCard from '../ItemCard/ItemCard';
 
 import { useFilter } from '@/hooks/filter';
-
-import ItemCard from '../ItemCard/ItemCard';
 
 import { ALL_DATA } from '@/data/data';
 
 import classes from './Content.module.scss';
-import { Text } from '@mantine/core';
 
 function Content() {
   const { filter } = useFilter();
@@ -63,6 +64,18 @@ function Content() {
   return (
     <div className={classes.root}>
       <div className={classes.content}>
+        {/* TODO: Remove this. */}
+        <Alert
+          icon={<IconTrafficCone size='1rem' />}
+          title="I can't find what I'm looking for!"
+          color='orange'
+          variant='filled'
+          mb='sm'
+        >
+          This website is still a work in progress. As you probably suspect, there's a lot of
+          content out there, and finding it all and putting it on here takes time. Check back later!
+        </Alert>
+
         <FilterBox />
 
         <Text mb='sm'>
