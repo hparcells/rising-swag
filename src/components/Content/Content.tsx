@@ -8,6 +8,7 @@ import ItemCard from '../ItemCard/ItemCard';
 import { ALL_DATA } from '@/data/data';
 
 import classes from './Content.module.scss';
+import { Text } from '@mantine/core';
 
 function Content() {
   const { filter } = useFilter();
@@ -63,6 +64,11 @@ function Content() {
     <div className={classes.root}>
       <div className={classes.content}>
         <FilterBox />
+
+        <Text mb='sm'>
+          Showing {filteredData.length}{' '}
+          {filteredData.length !== ALL_DATA.length && ` of ${ALL_DATA.length} `} items
+        </Text>
 
         <div className={classes.cards}>
           {filteredData.length > 0 ? (
