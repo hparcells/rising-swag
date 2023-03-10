@@ -1,6 +1,8 @@
 import { Paper, Input, Select, Group, Checkbox, MultiSelect } from '@mantine/core';
 import { IconSearch } from '@tabler/icons-react';
 import { unique } from '@reverse/array';
+import { useDebouncedValue } from '@mantine/hooks';
+import { useEffect, useState } from 'react';
 
 import { useFilter } from '@/hooks/filter';
 
@@ -9,15 +11,22 @@ import { ALL_DATA } from '@/data/data';
 function FilterBox() {
   const { filter, updateFilter } = useFilter();
 
+  const [search, setSearch] = useState('');
+  const [debounced] = useDebouncedValue(search, 200, { leading: true });
+
+  useEffect(() => {
+    updateFilter({ search: debounced });
+  }, [debounced]);
+
   return (
     <Paper shadow='sm' p='md' mb='1em' withBorder>
       <Group grow>
         <Input
           icon={<IconSearch />}
           placeholder='Search'
-          value={filter.search}
+          value={search}
           onChange={(event) => {
-            updateFilter({ search: event.target.value });
+            setSearch(event.currentTarget.value);
           }}
         />
         <MultiSelect
