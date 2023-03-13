@@ -6,7 +6,7 @@ const data: IItem[] = [
     image:
       'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/engraved-pet-id-tag-silver-front-60e5e09d9578a_1024x1024.jpg',
     name: 'Mangy Angel Engraved Pet ID Tag',
-    tags: ['other', 'official'],
+    tags: ['other', 'morning-star', 'official'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
@@ -16,32 +16,32 @@ const data: IItem[] = [
     link: 'https://www.lit-escalates.com/collections/home-goods/products/mangy-angel-engraved-pet-id-tag'
   },
   {
-    date: '2023-03-10',
+    date: '2023-03-13',
     image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/classic-dad-hat-black-left-front-62c8725c0c331_1024x1024.jpg',
-    name: 'Howler Embroidered Baseball Cap',
+      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/all-over-print-premium-face-mask-white-front-612516771ce0b_1024x1024.jpg',
+    name: 'Sophocles Face Mask',
     tags: ['other', 'official'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
     description:
-      "Now that Sevro is paterfamilias we figure he'd definitely wear a dad hat. Even more definitely, he'd wear this cap with the Howler wolf emblazoned in blood red across the front.",
-    link: 'https://www.lit-escalates.com/collections/apparel/products/howler-embroidered-baseball-cap'
+      "With the Delta Variant raging, we figure it was time to spice up the ol' mask collection. We asked Alexis over at Nerdy Ink to help out and she came through like a boss with this adorable Sophocles illustration.",
+    link: 'https://www.lit-escalates.com/collections/apparel/products/sophocles-face-mask'
   },
   {
-    date: '2023-03-10',
+    date: '2023-03-13',
     image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/classic-dad-hat-black-left-front-61df2cb424816_1024x1024.jpg',
-    name: 'Helldiver Baseball Cap',
-    tags: ['other', 'red', 'official'],
+      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/all-over-print-premium-face-mask-black-front-61251a63d6da4_1024x1024.jpg',
+    name: 'Iron Gold Map Face Mask',
+    tags: ['other', 'iron-gold', 'official'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
     description:
-      'Emblazoned with two crossed Slingblades and the word Helldiver in blood red, this hat is sure to make a statement.',
-    link: 'https://www.lit-escalates.com/collections/apparel/products/helldiver-baseball-cap'
+      "With the Delta Variant raging we figured it was time to spice up the ol' mask collection.",
+    link: 'https://www.lit-escalates.com/collections/apparel/products/iron-gold-map-face-mask'
   }
 ];
 

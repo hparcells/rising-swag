@@ -9,6 +9,8 @@ export const MERCH_TYPE = [
   'mug',
   'sticker',
   'jacket',
+  'hoodie',
+  'hat',
   'other'
 ] as const;
 
