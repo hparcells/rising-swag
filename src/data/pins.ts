@@ -53,6 +53,34 @@ const data: IItem[] = [
     description:
       'The House Minerva symbol has a lapel style pin and includes a nickel plated pin back.',
     link: 'https://badalijewelry.com/collections/red-rising/products/house-minerva-pin'
+  },
+  {
+    date: '2023-03-13',
+    image:
+      'https://cdn.shopify.com/s/files/1/0276/1726/3695/products/il_fullxfull.1835138516_rlcl_1024x1024.jpg',
+    name: 'Howler Enamel Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'Brio + Brandish',
+      url: 'https://brioandbrandish.com/'
+    },
+    description:
+      'Summon the Howlers. Show off your Howler status with this gorgeous hard enamel pin!',
+    link: 'https://brioandbrandish.com/products/howler-enamel-pin'
+  },
+  {
+    date: '2023-03-13',
+    image:
+      'https://cdn.shopify.com/s/files/1/0276/1726/3695/products/il_fullxfull.1882620733_so2n_1024x1024.jpg',
+    name: 'Red Rising Enamel Pin',
+    tags: ['pin', 'expired'],
+    shop: {
+      name: 'Brio + Brandish',
+      url: 'https://brioandbrandish.com/'
+    },
+    description:
+      'I would have lived in peace. But my enemies brought me war. Commemorate this epic series with this gorgeous hard enamel pin!',
+    link: 'https://brioandbrandish.com/products/red-rising-enamel-pin'
   }
 ];
 
