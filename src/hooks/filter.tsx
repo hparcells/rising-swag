@@ -2,6 +2,8 @@ import { useState, useContext, createContext } from 'react';
 
 import { IFilter } from '@/types/filter';
 
+type IFilterUpdate = { [key in keyof IFilter]?: IFilter[key] };
+
 // Context
 const FilterContext = createContext({
   filter: {
@@ -10,16 +12,17 @@ const FilterContext = createContext({
     sort: {
       by: 'added',
       order: 'descending'
-    }
+    },
+    showExpired: false
   } as IFilter,
   // eslint-disable-next-line no-empty-function
-  updateFilter: (filterUpdate: {}) => {}
+  updateFilter: (filterUpdate: IFilterUpdate) => {}
 });
 
 // Our hook.
 export function useFilter(): {
   filter: IFilter;
-  updateFilter: (filterUpdate: {}) => void;
+  updateFilter: (filterUpdate: IFilterUpdate) => void;
 } {
   return useContext(FilterContext);
 }
@@ -32,10 +35,11 @@ function useProvideFilter() {
     sort: {
       by: 'added',
       order: 'descending'
-    }
+    },
+    showExpired: false
   });
 
-  function updateFilter(filterUpdate: {}) {
+  function updateFilter(filterUpdate: IFilterUpdate) {
     setFilter({ ...filter, ...filterUpdate });
   }
 

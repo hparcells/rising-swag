@@ -1,4 +1,5 @@
 import { Anchor, Badge, Button, Card, Image, Text } from '@mantine/core';
+import clsx from 'clsx';
 
 import { IItem, MERCH_TYPE } from '@/types/item';
 import { IconExternalLink } from '@tabler/icons-react';
@@ -11,12 +12,13 @@ function ItemCard({ item }: { item: IItem }) {
   const { filter, updateFilter } = useFilter();
 
   return (
-    <Card className={classes.root} withBorder>
+    <Card className={clsx(classes.root, item.expired && classes.expiredRoot)} withBorder>
       <Card.Section>
         <Image src={item.image} height={200} alt={item.name} />
       </Card.Section>
 
       <Text weight={500} mt='xs'>
+        {item.expired && <strong>(EXPIRED) </strong>}
         {item.name}
       </Text>
 

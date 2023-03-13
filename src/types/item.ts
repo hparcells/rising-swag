@@ -22,7 +22,7 @@ type IMerchType = (typeof MERCH_TYPE)[number];
 /**
  * Tags associated with an {@link IItem}.
  */
-export type ITag = IBook | ICharacter | IColor | IMerchType | 'official' | 'expired';
+export type ITag = IBook | ICharacter | IColor | IMerchType | 'official';
 
 /**
  * A link to an author/shop.
@@ -43,6 +43,7 @@ interface IShop {
  * @param shop The author of the item.
  * @param description The description of the item.
  * @param link A collection of different links to the item.
+ * @param expired Whether the item is expired/attainable.
  */
 export interface IItem {
   date: string;
@@ -52,4 +53,6 @@ export interface IItem {
   shop: IShop;
   description: string;
   link: string;
+
+  expired?: boolean;
 }

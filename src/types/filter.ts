@@ -1,15 +1,16 @@
 import { ITag } from './item';
 
-type Sort = 'name' | 'shop' | 'added';
-type Order = 'ascending' | 'descending';
+export type IBy = 'name' | 'shop' | 'added';
+export type IOrder = 'ascending' | 'descending';
 
 interface ISort {
-  by: Sort;
-  order: Order;
+  by: IBy;
+  order: IOrder;
 }
 
 export interface IFilter {
   search: string;
   tags: ITag[];
   sort: ISort;
+  showExpired: boolean;
 }

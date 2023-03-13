@@ -73,14 +73,15 @@ const data: IItem[] = [
     image:
       'https://cdn.shopify.com/s/files/1/0276/1726/3695/products/il_fullxfull.1882620733_so2n_1024x1024.jpg',
     name: 'Red Rising Enamel Pin',
-    tags: ['pin', 'expired'],
+    tags: ['pin'],
     shop: {
       name: 'Brio + Brandish',
       url: 'https://brioandbrandish.com/'
     },
     description:
       'I would have lived in peace. But my enemies brought me war. Commemorate this epic series with this gorgeous hard enamel pin!',
-    link: 'https://brioandbrandish.com/products/red-rising-enamel-pin'
+    link: 'https://brioandbrandish.com/products/red-rising-enamel-pin',
+    expired: true
   }
 ];
 

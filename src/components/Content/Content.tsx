@@ -48,12 +48,9 @@ function Content() {
           return 0;
         })
         .filter((item) => {
-          if (item.tags.includes('expired') && !filter.tags.includes('expired')) {
-            return false;
-          }
           if (filter.tags.length > 0) {
             return filter.tags.every((tag) => {
-              return item.tags.includes(tag) || tag === 'expired';
+              return item.tags.includes(tag);
             });
           }
           return true;
@@ -78,16 +75,46 @@ function Content() {
 
         <FilterBox />
 
+        {/* This has got to be the worst code I've written. */}
         <Text mb='sm'>
-          Showing {filteredData.length}{' '}
-          {filteredData.length !== ALL_DATA.length && ` of ${ALL_DATA.length} `} items
+          Showing{' '}
+          {
+            filteredData.filter((item) => {
+              return !item.expired || (item.expired && filter.showExpired);
+            }).length
+          }{' '}
+          {filteredData.filter((isExpired) => {
+            return !isExpired;
+          }).length !== ALL_DATA.length && ` of ${ALL_DATA.length} `}
+          items
+          {!filter.showExpired &&
+            filteredData
+              .map((item) => {
+                return item.expired;
+              })
+              .filter((isExpired) => {
+                return isExpired;
+              }).length > 0 &&
+            ` (hiding ${
+              filteredData
+                .map((item) => {
+                  return item.expired;
+                })
+                .filter((isExpired) => {
+                  return isExpired;
+                }).length
+            } expired)`}
         </Text>
 
         <div className={classes.cards}>
           {filteredData.length > 0 ? (
-            filteredData.map((item, i) => {
-              return <ItemCard item={item} key={i} />;
-            })
+            filteredData
+              .filter((item) => {
+                return !item.expired || (item.expired && filter.showExpired);
+              })
+              .map((item, i) => {
+                return <ItemCard item={item} key={i} />;
+              })
           ) : (
             <p>No results</p>
           )}

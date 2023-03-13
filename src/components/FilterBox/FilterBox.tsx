@@ -6,9 +6,10 @@ import { useEffect, useState } from 'react';
 
 import { useFilter } from '@/hooks/filter';
 
-import { MERCH_TYPE } from '@/types/item';
+import { ITag, MERCH_TYPE } from '@/types/item';
 
 import { ALL_DATA } from '@/data/data';
+import { IBy, IOrder } from '@/types/filter';
 
 function FilterBox() {
   const { filter, updateFilter } = useFilter();
@@ -59,7 +60,7 @@ function FilterBox() {
             })}
           value={filter.tags}
           onChange={(value) => {
-            updateFilter({ tags: value });
+            updateFilter({ tags: value as ITag[] });
           }}
           placeholder='Filter by tags'
           searchable
@@ -78,7 +79,7 @@ function FilterBox() {
             ]}
             value={filter.sort.by}
             onChange={(value) => {
-              updateFilter({ sort: { ...filter.sort, by: value } });
+              updateFilter({ sort: { ...filter.sort, by: value as IBy } });
             }}
           />
           <Select
@@ -89,24 +90,16 @@ function FilterBox() {
             ]}
             value={filter.sort.order}
             onChange={(value) => {
-              updateFilter({ sort: { ...filter.sort, order: value } });
+              updateFilter({ sort: { ...filter.sort, order: value as IOrder } });
             }}
           />
         </Group>
         <Group>
           <Checkbox
             label='Show expired items'
-            checked={filter.tags.includes('expired')}
+            checked={filter.showExpired}
             onChange={(event) => {
-              if (event.target.checked) {
-                updateFilter({ tags: [...filter.tags, 'expired'] });
-              } else {
-                updateFilter({
-                  tags: filter.tags.filter((tag) => {
-                    return tag !== 'expired';
-                  })
-                });
-              }
+              updateFilter({ showExpired: event.currentTarget.checked });
             }}
           />
         </Group>
