@@ -55,6 +55,44 @@ const data: IItem[] = [
     description:
       'Book mark with "Home isn\'t where you\'re from, it\'s where you find light when all grows dark." on one side and "Hic Est Lupus Motherfucker" on the other.',
     link: 'https://www.etsy.com/listing/1289914959/home-wolf-bookmark'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/29764445/r/il/c169c3/3801211612/il_794xN.3801211612_9c1a.jpg',
+    name: 'Finished SlingBlade',
+    tags: ['other'],
+    shop: {
+      name: 'OrangeArmory',
+      url: 'https://www.etsy.com/shop/OrangeArmory'
+    },
+    description:
+      "It'll save your life, at the cost of a limb. Fully finished with acrylic paint and simulated leather on the hilt. Nearly 3 feet long, will come shipped in 2 pieces.",
+    link: 'https://www.etsy.com/listing/1199461676/finished-slingblade'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/29764445/r/il/ed1cfa/3848811535/il_794xN.3848811535_3xsv.jpg',
+    name: 'SlingBlade Kit',
+    tags: ['other'],
+    shop: {
+      name: 'OrangeArmory',
+      url: 'https://www.etsy.com/shop/OrangeArmory'
+    },
+    description:
+      "It'll save your life, at the cost of a limb. Nearly 3 feet long, will come shipped in 5 pieces. Will need to be glued, sanded, and painted.",
+    link: 'https://www.etsy.com/listing/1213418629/slingblade-kit'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/29764445/r/il/d7da32/3862382987/il_794xN.3862382987_cp6x.jpg',
+    name: "Mustang's Razor Kit",
+    tags: ['other', 'mustang'],
+    shop: {
+      name: 'OrangeArmory',
+      url: 'https://www.etsy.com/shop/OrangeArmory'
+    },
+    description: "Mustang's razor kit comes in 5 pieces and is printed in PLA plastic.",
+    link: 'https://www.etsy.com/listing/1216893789/mustangs-razor-kit'
   }
 ];
 
