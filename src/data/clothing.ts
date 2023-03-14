@@ -254,6 +254,30 @@ const data: IItem[] = [
     },
     description: '"I didn\'t choose the howler life, the howler life chose me."',
     link: 'https://www.etsy.com/listing/1417408857/howler-life-unisex-heavy-blend-crewneck'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/19365370/r/il/53f8f8/2628740105/il_794xN.2628740105_1b5g.jpg',
+    name: 'HowlerPod Wolf Unisex T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'HowlerPod',
+      url: 'https://www.etsy.com/shop/HowlerPod'
+    },
+    description: 'Represent your favorite podcast with this HowlerPod Wolf T-Shirt.',
+    link: 'https://www.etsy.com/listing/884646969/hp-wolf-unisex-t-shirt'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/19365370/r/il/080965/2566800830/il_1140xN.2566800830_rf00.jpg',
+    name: 'HowlerPod Logo Short-Sleeve Unisex T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'HowlerPod',
+      url: 'https://www.etsy.com/shop/HowlerPod'
+    },
+    description: 'Represent your favorite podcast with this HowlerPod Logo T-Shirt.',
+    link: 'https://www.etsy.com/listing/867027834/howlerpod-logo-short-sleeve-unisex-t'
   }
 ];
 
