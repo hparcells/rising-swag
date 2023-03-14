@@ -82,6 +82,44 @@ const data: IItem[] = [
       'I would have lived in peace. But my enemies brought me war. Commemorate this epic series with this gorgeous hard enamel pin!',
     link: 'https://brioandbrandish.com/products/red-rising-enamel-pin',
     expired: true
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/68c8b4/4675638891/il_794xN.4675638891_1wa0.jpg',
+    name: 'Lived in Peace Pin',
+    tags: ['pin', 'red-god'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description:
+      'The reaper brings war and I bring you pins. Hands down the best opening line in a book immortalized in pin form.',
+    link: 'https://www.etsy.com/listing/1403257792/lived-in-peace-pin-preorder'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/f12dfa/4550077640/il_794xN.4550077640_t1wa.jpg',
+    name: 'Howler Life Enamel Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description:
+      'Show off your HOWLER PRIDE with this new and badass 2in hard enamel pin. If I’m being honest, I really didn’t choose the Howler life, the howler life chose me. And for better and worse I will remain a loyal HOWLER.',
+    link: 'https://www.etsy.com/listing/1400004107/howler-life-enamel-pin-preorder'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/2bdad0/3987226750/il_794xN.3987226750_fxmi.jpg',
+    name: 'Ares Enamel Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Show your allegiance to the Sons! This pin depicts the helmet of Ares.',
+    link: 'https://www.etsy.com/listing/1200643613/ares-enamel-pin'
   }
 ];
 

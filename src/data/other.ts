@@ -42,6 +42,19 @@ const data: IItem[] = [
     description:
       "With the Delta Variant raging we figured it was time to spice up the ol' mask collection.",
     link: 'https://www.lit-escalates.com/collections/apparel/products/iron-gold-map-face-mask'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/ca538f/4144213339/il_794xN.4144213339_n2sc.jpg',
+    name: 'Home - Wolf Bookmark',
+    tags: ['other'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description:
+      'Book mark with "Home isn\'t where you\'re from, it\'s where you find light when all grows dark." on one side and "Hic Est Lupus Motherfucker" on the other.',
+    link: 'https://www.etsy.com/listing/1289914959/home-wolf-bookmark'
   }
 ];
 

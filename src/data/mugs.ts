@@ -98,6 +98,43 @@ const data: IItem[] = [
     description:
       'This long-awaited item features an all new design with the Official Howler Legion Sigil.',
     link: 'https://www.lit-escalates.com/collections/home-goods/products/howler-legion-flag'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/45b61d/4550104660/il_794xN.4550104660_3mnz.jpg',
+    name: 'Shit Escalates Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Handmade mug with "Shit Escalates" on it.',
+    link: 'https://www.etsy.com/listing/1386001470/it-escalates-mug'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/eff21f/3749396947/il_794xN.3749396947_86w6.jpg',
+    name: 'Straight Outta Lykos Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Mug with "Straight Outta Lykos" on it.',
+    link: 'https://www.etsy.com/listing/1187556759/straight-outta-lykos-mug'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/d43467/3380208688/il_794xN.3380208688_i4fg.jpg',
+    name: 'Gorydamn Good Coffee Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description:
+      'Show that you got the best coffee in the office with this mug with "Gorydamn Good Coffee" on it.',
+    link: 'https://www.etsy.com/listing/1187556759/straight-outta-lykos-mug'
   }
 ];
 

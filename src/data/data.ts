@@ -6,6 +6,7 @@ import mugs from './mugs';
 import other from './other';
 import phoneCases from './phone-cases';
 import pins from './pins';
+import prints from './prints';
 import stickers from './stickers';
 
 export const ALL_DATA = [
@@ -17,5 +18,6 @@ export const ALL_DATA = [
   ...other,
   ...phoneCases,
   ...pins,
+  ...prints,
   ...stickers
 ];
