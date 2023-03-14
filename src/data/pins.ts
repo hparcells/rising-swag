@@ -120,6 +120,67 @@ const data: IItem[] = [
     },
     description: 'Show your allegiance to the Sons! This pin depicts the helmet of Ares.',
     link: 'https://www.etsy.com/listing/1200643613/ares-enamel-pin'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/3f1123/3865412446/il_794xN.3865412446_o0zo.jpg',
+    name: 'Jellybean Investigator Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: "Inspired by everyone's favorite fox.",
+    link: 'https://www.etsy.com/listing/1072162845/jellybean-investigator-pin'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/3eaa39/3182577688/il_794xN.3182577688_5a10.jpg',
+    name: 'Pegasus Legion Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Pegasus Legion. Howler Battalion. One of Reapers own.',
+    link: 'https://www.etsy.com/listing/1045709625/pegasus-legion-pin'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/ea6d20/2973265021/il_794xN.2973265021_lzpk.jpg',
+    name: 'Sovereign and Reaper Stamp Set',
+    tags: ['pin'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description:
+      'The first set of the Royally Stamped collection features the Sovereign and the Reaper from the Red Rising series.',
+    link: 'https://www.etsy.com/listing/976631849/sovereign-and-reaper-stamp-set'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/367757/2785649559/il_794xN.2785649559_syqe.jpg',
+    name: 'The Passage Pin',
+    tags: ['pin', 'red-rising'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'An enamel pin depicting The Passage from Red Rising.',
+    link: 'https://www.etsy.com/listing/799484612/the-passage-pin'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/c2128f/3197632479/il_794xN.3197632479_h1yg.jpg',
+    name: 'Valkyrie Spires Pin',
+    tags: ['pin', 'obsidian'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Pin inspired by Ragnar Volarus.',
+    link: 'https://www.etsy.com/listing/1037091535/valkyrie-spires-pin'
   }
 ];
 

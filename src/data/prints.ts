@@ -10,7 +10,7 @@ const data: IItem[] = [
       name: 'CreativeLeighCrafts',
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
-    description: 'A 5z7 print of the Sovereign.',
+    description: 'A 5x7 print of the Sovereign.',
     link: 'https://www.etsy.com/listing/1275246306/sovereign-print'
   },
   {
@@ -22,8 +22,20 @@ const data: IItem[] = [
       name: 'CreativeLeighCrafts',
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
-    description: 'A 5z7 print of the Reaper.',
+    description: 'A 5x7 print of the Reaper.',
     link: 'https://www.etsy.com/listing/1275213580/reaper-print'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/71478a/3225222613/il_794xN.3225222613_2f9w.jpg',
+    name: 'Man of Mars Print',
+    tags: ['print', 'golden-son'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'A 5x7 print inspired by Golden Son.',
+    link: 'https://www.etsy.com/listing/1044378165/man-of-mars-print'
   }
 ];
 

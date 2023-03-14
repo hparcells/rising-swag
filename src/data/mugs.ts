@@ -114,7 +114,7 @@ const data: IItem[] = [
   {
     date: '2023-03-14',
     image: 'https://i.etsystatic.com/16046340/r/il/eff21f/3749396947/il_794xN.3749396947_86w6.jpg',
-    name: 'Straight Outta Lykos Mug',
+    name: 'Straight Outta Lykos Mug (Red)',
     tags: ['mug'],
     shop: {
       name: 'CreativeLeighCrafts',
@@ -122,6 +122,18 @@ const data: IItem[] = [
     },
     description: 'Mug with "Straight Outta Lykos" on it.',
     link: 'https://www.etsy.com/listing/1187556759/straight-outta-lykos-mug'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/1f8166/1926883405/il_794xN.1926883405_oz87.jpg',
+    name: 'Straight Outta Lykos Mug (White)',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Mug with "Straight Outta Lykos" on it.',
+    link: 'https://www.etsy.com/listing/706752423/straight-outta-lykos-mug'
   },
   {
     date: '2023-03-14',
@@ -135,6 +147,43 @@ const data: IItem[] = [
     description:
       'Show that you got the best coffee in the office with this mug with "Gorydamn Good Coffee" on it.',
     link: 'https://www.etsy.com/listing/1187556759/straight-outta-lykos-mug'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/b15746/2206694372/il_794xN.2206694372_luls.jpg',
+    name: 'Iron Rain Mug',
+    tags: ['mug', 'golden-son'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Mug with "When falls the Iron Rain, be brave. Be brave." on it.',
+    link: 'https://www.etsy.com/listing/782524815/iron-rain-mug'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/fcca0a/1531117547/il_794xN.1531117547_1n03.jpg',
+    name: 'Stronger than the Shield of Tinos Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description:
+      'A mug for when you need your coffee stronger than your favorite Obsidian, Ragnar Volarus.',
+    link: 'https://www.etsy.com/listing/609110111/stronger-than-the-shield-of-tinos'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/bc735b/1831155897/il_794xN.1831155897_n258.jpg',
+    name: 'Howler 4 Life Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'A old favorite updated with a new colors.',
+    link: 'https://www.etsy.com/listing/670110412/howler-4-life'
   }
 ];
 
