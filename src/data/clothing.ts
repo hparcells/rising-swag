@@ -278,6 +278,93 @@ const data: IItem[] = [
     },
     description: 'Represent your favorite podcast with this HowlerPod Logo T-Shirt.',
     link: 'https://www.etsy.com/listing/867027834/howlerpod-logo-short-sleeve-unisex-t'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/29c4ea/4400194212/il_1140xN.4400194212_37xl.jpg',
+    name: "Hic Est Lupus Motherfucker Women's Tank",
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'Hic Est Lupus Motherfucker',
+    link: 'https://www.etsy.com/listing/1360171141/hic-est-lupus-explicit-womens-tank'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/071af0/4447608247/il_1588xN.4447608247_529x.jpg',
+    name: 'Hic Est Lupus Motherfucker - Red Rising Unisex Tank Top',
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'Hic Est Lupus Motherfucker.',
+    link: 'https://www.etsy.com/listing/1346190234/hic-est-lupus-explicit-red-rising-unisex'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/552d1d/3533925061/il_1140xN.3533925061_d468.jpg',
+    name: "Iron Rain Men's Premium Heavyweight Tee",
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description:
+      "Forecast is for a small chance of Iron Rain! Let everyone know where you fall with the men's premium heavyweight tee.",
+    link: 'https://www.etsy.com/listing/1125995193/iron-rain-mens-premium-heavyweight-tee'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/388a86/3476807406/il_1140xN.3476807406_bg47.jpg',
+    name: "HWLR Stacked Men's Premium Heavyweight Tee",
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: "Get stacked HWLR style with the men's premium heavyweight tee.",
+    link: 'https://www.etsy.com/listing/1109481330/hwlr-stacked-mens-premium-heavyweight'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/1cbc4a/3529348409/il_1140xN.3529348409_1z92.jpg',
+    name: "Bloodydamn Chibi Style Men's Premium Heavyweight Tee",
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description:
+      "Rise to the occasion with this Bloodydamn Chibi Edition, Red Rising Inspired, men's premium heavyweight tee.",
+    link: 'https://www.etsy.com/listing/1110833186/bloodydamn-chibi-style-mens-premium'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/abf1e3/2312148270/il_1140xN.2312148270_czng.jpg',
+    name: 'Hic Est Lupus - Red Rising Unisex T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'Be the wolf with this Hic Est Lupus fan made Red Rising tee.',
+    link: 'https://www.etsy.com/listing/795719808/hic-est-lupus-red-rising-unisex-t-shirt'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/3c520e/3481600620/il_1140xN.3481600620_njvm.jpg',
+    name: 'Live for More Chibi Edition Tee',
+    tags: ['shirt', 'red-rising'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description:
+      "Show how you live for a little more with this Red Rising inspired Chibi Edition men's premium heavyweight tee.",
+    link: 'https://www.etsy.com/listing/1110808808/lfm-chibi-edition-mens-premium'
   }
 ];
 

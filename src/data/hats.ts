@@ -225,6 +225,19 @@ const data: IItem[] = [
     },
     description: 'Emblazoned with the Official Brown Sigil from Pierce Brown’s Red Rising series.',
     link: 'https://www.lit-escalates.com/collections/apparel/products/brown-sigil-trucker-cap'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/aa3359/4468015025/il_1140xN.4468015025_euy5.jpg',
+    name: 'HWLR Ruster Edition',
+    tags: ['hat'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description:
+      'Cap off your fandom with this HWLR Ruster edition fan made Red Rising inspired snapback hat.',
+    link: 'https://www.etsy.com/listing/1352164846/hwlr-ruster-edition-red-rising-inspired'
   }
 ];
 

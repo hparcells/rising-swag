@@ -87,7 +87,7 @@ const data: IItem[] = [
     date: '2023-03-14',
     image: 'https://i.etsystatic.com/16046340/r/il/68c8b4/4675638891/il_794xN.4675638891_1wa0.jpg',
     name: 'Lived in Peace Pin',
-    tags: ['pin', 'red-god'],
+    tags: ['pin'],
     shop: {
       name: 'CreativeLeighCrafts',
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
