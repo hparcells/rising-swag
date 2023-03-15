@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className={classes.root}>
       <div className={classes.primary}>
-        <p className={classes.big}>Red Rising Merch</p>
+        <p className={classes.big}>Red Rising Swag</p>
         <p className={classes.light}>
           Represent the world of Pierce Brown's Red Rising with style with a curated list of merch
           and other Red Rising related items from members across the community, all in one place.
