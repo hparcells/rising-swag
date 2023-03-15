@@ -13,6 +13,7 @@ export const MERCH_TYPE = [
   'hat',
   'print',
   'disc',
+  'sweatshirt',
   'other'
 ] as const;
 

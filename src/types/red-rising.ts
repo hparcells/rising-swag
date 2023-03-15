@@ -14,7 +14,7 @@ export const BOOKS = [
  */
 export type IBook = (typeof BOOKS)[number];
 
-export const CHARACTERS = ['darrow', 'sevro', 'mustang'] as const;
+export const CHARACTERS = ['darrow', 'sevro', 'mustang', 'cassius', 'sophocles', 'eo'] as const;
 
 /**
  * Characters of the Red Rising series.
