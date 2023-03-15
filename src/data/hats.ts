@@ -238,6 +238,54 @@ const data: IItem[] = [
     description:
       'Cap off your fandom with this HWLR Ruster edition fan made Red Rising inspired snapback hat.',
     link: 'https://www.etsy.com/listing/1352164846/hwlr-ruster-edition-red-rising-inspired'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/266f67/2782733865/il_1140xN.2782733865_ifq8.jpg',
+    name: 'HWLR - Trucker Cap',
+    tags: ['hat'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'Cap off your fandom with this HWLR fan made Red Rising inspired trucker cap.',
+    link: 'https://www.etsy.com/listing/924838705/hwlr-red-rising-inspired-trucker-cap'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/c349f3/3476845396/il_1140xN.3476845396_tmao.jpg',
+    name: 'Distressed HWLR Cap',
+    tags: ['hat'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'This distressed baseball cap will quickly become your go-to accessory!',
+    link: 'https://www.etsy.com/listing/1109497906/distressed-hwlr-cap'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/d9b889/2639279201/il_1140xN.2639279201_lusf.jpg',
+    name: 'HWLR - Snapback Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'Cap off your fandom with this HWLR fan made Red Rising inspired snapback hat.',
+    link: 'https://www.etsy.com/listing/873377636/hwlr-red-rising-inspired-snapback-hat'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/7f6836/3263142151/il_1588xN.3263142151_8hxk.jpg',
+    name: 'HWLR - Flexfit Cap',
+    tags: ['hat'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'Cap off your fandom with this HWLR fan made Red Rising inspired flexfit cap.',
+    link: 'https://www.etsy.com/listing/1054389503/hwlr-red-rising-inspired-flexfit-cap'
   }
 ];
 

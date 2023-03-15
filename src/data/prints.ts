@@ -155,6 +155,42 @@ const data: IItem[] = [
     },
     description: "Physical Print of the everyone's favorite little goblin, Sevro au Barca",
     link: 'https://milesbenskydesigns.square.site/product/sevro-art-print-8-x-10-/5'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/595c8a/2710527910/il_794xN.2710527910_oxl9.jpg',
+    name: 'Persephone Poster',
+    tags: ['print'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'A "Live for More" poster in many different sizes.',
+    link: 'https://www.etsy.com/listing/917504645/persephone-live-for-more-red-rising'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/105e9a/2710531404/il_794xN.2710531404_hv9y.jpg',
+    name: 'Hic Sunt Leones Poster',
+    tags: ['print'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'A "Hic Sunt Leones" poster in many different sizes.',
+    link: 'https://www.etsy.com/listing/917497185/hic-sunt-leones-au-augustus-red-rising'
+  },
+  {
+    date: '2023-03-15',
+    image: 'https://i.etsystatic.com/21279369/r/il/8a1bf7/2710550240/il_794xN.2710550240_5hco.jpg',
+    name: 'Howler Poster',
+    tags: ['print'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'A "Howler" poster in many different sizes.',
+    link: 'https://www.etsy.com/listing/903586930/howler-red-rising-poster'
   }
 ];
 
