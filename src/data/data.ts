@@ -1,5 +1,6 @@
 import books from './books';
 import clothing from './clothing';
+import discs from './discs';
 import hats from './hats';
 import jewelry from './jewelry';
 import mugs from './mugs';
@@ -12,6 +13,7 @@ import stickers from './stickers';
 export const ALL_DATA = [
   ...books,
   ...clothing,
+  ...discs,
   ...hats,
   ...jewelry,
   ...mugs,

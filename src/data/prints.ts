@@ -36,6 +36,125 @@ const data: IItem[] = [
     },
     description: 'A 5x7 print inspired by Golden Son.',
     link: 'https://www.etsy.com/listing/1044378165/man-of-mars-print'
+  },
+  {
+    date: '2023-03-14',
+    image:
+      'https://milesbenskydesigns.square.site/uploads/1/4/1/5/141543876/s308665402237166980_p8_i1_w3024.jpeg',
+    name: 'Volga Art Print (8" x 10")',
+    tags: ['print'],
+    shop: {
+      name: 'Miles Bensky Designs',
+      url: 'https://milesbenskydesigns.square.site/'
+    },
+    description:
+      "Physical Print of everyone's favorite muffin eating, zoo-loving obsidian, Volga Fjorgan",
+    link: 'https://milesbenskydesigns.square.site/product/volga-art-print-8-x-10-/8'
+  },
+  {
+    date: '2023-03-14',
+    image:
+      'https://milesbenskydesigns.square.site/uploads/1/4/1/5/141543876/s308665402237166980_p9_i1_w3024.jpeg',
+    name: 'Cassius Art Print (8" x 10")',
+    tags: ['print'],
+    shop: {
+      name: 'Miles Bensky Designs',
+      url: 'https://milesbenskydesigns.square.site/'
+    },
+    description: 'Physical Print of the Morning Knight, Cassius au Bellona.',
+    link: 'https://milesbenskydesigns.square.site/product/cassius-art-print-8-x-10-/9',
+    expired: true
+  },
+  {
+    date: '2023-03-14',
+    image:
+      'https://milesbenskydesigns.square.site/uploads/1/4/1/5/141543876/s308665402237166980_p10_i1_w3024.jpeg',
+    name: 'Rhonna Art Print (8" x 10")',
+    tags: ['print'],
+    shop: {
+      name: 'Miles Bensky Designs',
+      url: 'https://milesbenskydesigns.square.site/'
+    },
+    description: "Physical Print of Darrow's niece Rhonna.",
+    link: 'https://milesbenskydesigns.square.site/product/rhonna-art-print-8-x-10-/10'
+  },
+  {
+    date: '2023-03-14',
+    image:
+      'https://milesbenskydesigns.square.site/uploads/1/4/1/5/141543876/s308665402237166980_p11_i1_w2828.jpeg',
+    name: 'Lyria Art Print (8" x 10")',
+    tags: ['print'],
+    shop: {
+      name: 'Miles Bensky Designs',
+      url: 'https://milesbenskydesigns.square.site/'
+    },
+    description: 'Physical Print of Lyria of Lagalos.',
+    link: 'https://milesbenskydesigns.square.site/product/lyria-art-print-8-x-10-/11'
+  },
+  {
+    date: '2023-03-14',
+    image:
+      'https://milesbenskydesigns.square.site/uploads/1/4/1/5/141543876/s308665402237166980_p12_i1_w3024.jpeg',
+    name: 'Diomedes Art Print (8" x 10")',
+    tags: ['print'],
+    shop: {
+      name: 'Miles Bensky Designs',
+      url: 'https://milesbenskydesigns.square.site/'
+    },
+    description: 'Physical Print of the one true Storm Knight, Diomedes au Raa.',
+    link: 'https://milesbenskydesigns.square.site/product/diomedes-art-print-8-x-10-/12'
+  },
+  {
+    date: '2023-03-14',
+    image:
+      'https://milesbenskydesigns.square.site/uploads/1/4/1/5/141543876/s308665402237166980_p7_i1_w3024.jpeg',
+    name: 'Victra Art Print (8" x 10")',
+    tags: ['print'],
+    shop: {
+      name: 'Miles Bensky Designs',
+      url: 'https://milesbenskydesigns.square.site/'
+    },
+    description: 'Physical Print of Victra au Julii.',
+    link: 'https://milesbenskydesigns.square.site/product/victra-art-print-8-x-10-/7'
+  },
+  {
+    date: '2023-03-14',
+    image:
+      'https://milesbenskydesigns.square.site/uploads/1/4/1/5/141543876/s308665402237166980_p6_i1_w3024.jpeg',
+    name: 'Mustang Art Print (8" x 10")',
+    tags: ['print', 'mustang'],
+    shop: {
+      name: 'Miles Bensky Designs',
+      url: 'https://milesbenskydesigns.square.site/'
+    },
+    description: 'Physical Print of Virginia au Augustus aka Mustang.',
+    link: 'https://milesbenskydesigns.square.site/product/mustang-art-print-8-x-10-/6'
+  },
+  {
+    date: '2023-03-14',
+    image:
+      'https://milesbenskydesigns.square.site/uploads/1/4/1/5/141543876/s308665402237166980_p4_i2_w3024.jpeg',
+    name: 'Darrow/Reaper Art Print (8" x 10")',
+    tags: ['print', 'darrow'],
+    shop: {
+      name: 'Miles Bensky Designs',
+      url: 'https://milesbenskydesigns.square.site/'
+    },
+    description: 'Physical Print of the Reaper, Darrow.',
+    link: 'https://milesbenskydesigns.square.site/product/darrow-reaper-art-print-8-x-10-/4'
+  },
+  {
+    date: '2023-03-14',
+    image:
+      'https://milesbenskydesigns.square.site/uploads/1/4/1/5/141543876/s308665402237166980_p5_i1_w3024.jpeg',
+    name: 'Sevro Art Print (8" x 10")',
+    tags: ['print', 'sevro'],
+    shop: {
+      name: 'Miles Bensky Designs',
+      url: 'https://milesbenskydesigns.square.site/'
+    },
+    description: "Physical Print of the everyone's favorite little goblin, Sevro au Barca",
+    link: 'https://milesbenskydesigns.square.site/product/sevro-art-print-8-x-10-/5'
   }
 ];
 
