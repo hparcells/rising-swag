@@ -171,7 +171,7 @@ const data: IItem[] = [
   {
     date: '2023-03-15',
     image: 'https://i.etsystatic.com/21279369/r/il/545a57/3089710138/il_794xN.3089710138_plky.jpg',
-    name: 'Howler ghostCloak Edition Spiral Notebook',
+    name: 'Howler GhostCloak Edition Spiral Notebook',
     tags: ['other'],
     shop: {
       name: 'TheMightyPenBookTees',
@@ -204,6 +204,18 @@ const data: IItem[] = [
     description:
       'Color the Rising is an alphabetized collection of Red Rising characters as drawn by me in chibi style. Contains 56 pages of coloring fun.',
     link: 'https://www.etsy.com/listing/793574550/color-the-rising-the-unofficial-little'
+  },
+  {
+    date: '2023-03-16',
+    image: 'https://i.etsystatic.com/10165646/r/il/9c1d99/4594595166/il_1140xN.4594595166_dwbl.jpg',
+    name: 'Custom Howler Name Water Bottle',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Get your Howler name on a water bottle.',
+    link: 'https://www.etsy.com/listing/1396149384/red-rising-custom-howler-name-camelbak'
   }
 ];
 

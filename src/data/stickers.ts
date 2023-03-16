@@ -92,6 +92,19 @@ const data: IItem[] = [
     description:
       'While Quicksilver would probably fight unionization with every ounce of his murky being, we wanted to imaging what would happen if the Helldivers unionized during Dark Age.',
     link: 'https://www.lit-escalates.com/collections/stickers/products/helldivers-union-sticker'
+  },
+  {
+    date: '2023-03-16',
+    image: 'https://i.etsystatic.com/10165646/r/il/416c57/4674871087/il_794xN.4674871087_flcg.jpg',
+    name: 'Let Fall the Rain Metallic Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'The moments before our favorite characters joined the Reaper of Mars in an Iron Rain have always given me chills! This sticker was made on a metallic background.',
+    link: 'https://www.etsy.com/listing/1403074520/sticker-let-fall-the-rain-metallic'
   }
 ];
 

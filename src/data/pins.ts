@@ -181,6 +181,18 @@ const data: IItem[] = [
     },
     description: 'Pin inspired by Ragnar Volarus.',
     link: 'https://www.etsy.com/listing/1037091535/valkyrie-spires-pin'
+  },
+  {
+    date: '2023-03-16',
+    image: 'https://i.etsystatic.com/10165646/r/il/7347a4/4661747506/il_794xN.4661747506_i6v9.jpg',
+    name: 'Omnis vir Lupus Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Omnis vir Lupus: Every man a wolf.',
+    link: 'https://www.etsy.com/listing/1410768606/omnis-vir-lupus-pin-red-rising-enamel'
   }
 ];
 

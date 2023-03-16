@@ -142,6 +142,18 @@ const data: IItem[] = [
     description:
       'Honour the great Ragnar Volarus with this Hyrg La Ragnar fan made Red Rising hoodie.',
     link: 'https://www.etsy.com/listing/928119853/hyrg-la-ragnar-red-rising-hoodie'
+  },
+  {
+    date: '2023-03-16',
+    image: 'https://i.etsystatic.com/10165646/r/il/d62ac9/4615287126/il_794xN.4615287126_bjla.jpg',
+    name: "Children's Hoodie",
+    tags: ['hoodie'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: "A children's hoodie with scattered stars and howling wolves.",
+    link: 'https://www.etsy.com/listing/1414761337/childrens-hoodie'
   }
 ];
 

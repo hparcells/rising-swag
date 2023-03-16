@@ -184,6 +184,18 @@ const data: IItem[] = [
     },
     description: 'A old favorite updated with a new colors.',
     link: 'https://www.etsy.com/listing/670110412/howler-4-life'
+  },
+  {
+    date: '2023-03-16',
+    image: 'https://i.etsystatic.com/10165646/r/il/724bc8/4594592888/il_794xN.4594592888_6pdj.jpg',
+    name: 'Custom Howler Name Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Get your Howler name on a mug.',
+    link: 'https://www.etsy.com/listing/1396149142/red-rising-custom-howler-name-white'
   }
 ];
 
