@@ -196,6 +196,18 @@ const data: IItem[] = [
     },
     description: 'Get your Howler name on a mug.',
     link: 'https://www.etsy.com/listing/1396149142/red-rising-custom-howler-name-white'
+  },
+  {
+    date: '2023-03-16',
+    image: 'https://i.etsystatic.com/10165646/r/il/d26b0f/4594480510/il_794xN.4594480510_esbb.jpg',
+    name: 'Hail Reaper Hail Libertas Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: "LiveForMore's classic Hail Reaper Hail Libertas design on a mug.",
+    link: 'https://www.etsy.com/listing/1396123176/red-rising-hail-libertas-hail-reaper'
   }
 ];
 

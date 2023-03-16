@@ -37,6 +37,18 @@ const data: IItem[] = [
     },
     description: 'For the elegant Howler is this embroidered HWLR sweatshirt.',
     link: 'https://www.etsy.com/listing/887871983/hwlr-embroidered-red-rising-unisex'
+  },
+  {
+    date: '2023-03-16',
+    image: 'https://i.etsystatic.com/10165646/r/il/50bd85/4642724583/il_794xN.4642724583_qjzx.jpg',
+    name: 'Let Fall the Rain Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: "LiveForMore's Let Fall the Rain design on a sweatshirt. ",
+    link: 'https://www.etsy.com/listing/1410341595/iron-rain-red-rising-ares-darrow-let'
   }
 ];
 

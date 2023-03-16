@@ -670,6 +670,42 @@ const data: IItem[] = [
     description:
       "Dress your 'lil jelly bean in this Red Rising inspired baby Sophocles 100% cotton one piece.",
     link: 'https://www.etsy.com/listing/949701817/widdle-ares-and-the-sunblood-unicorn-red'
+  },
+  {
+    date: '2023-03-16',
+    image: 'https://i.etsystatic.com/10165646/r/il/1d5075/4581195161/il_794xN.4581195161_g1mj.jpg',
+    name: 'Let Fall the Rain Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: '☄️Let Fall the Rain ☄️',
+    link: 'https://www.etsy.com/listing/1377456686/iron-rain-ares-sevro-red-rising-unisex'
+  },
+  {
+    date: '2023-03-16',
+    image: 'https://i.etsystatic.com/10165646/r/il/c36c9f/4581207597/il_794xN.4581207597_qrga.jpg',
+    name: 'Let Fall the Rain Long Sleeve Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: '☄️Let Fall the Rain ☄️',
+    link: 'https://www.etsy.com/listing/1377468438/iron-rain-red-rising-unisex-jersey-long'
+  },
+  {
+    date: '2023-03-16',
+    image: 'https://i.etsystatic.com/10165646/r/il/6e92c4/4533835632/il_794xN.4533835632_jkml.jpg',
+    name: 'Goblin Mode Long Sleeve Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'May or may not have been inspired by the meme.',
+    link: 'https://www.etsy.com/listing/1369383430/goblin-mode-red-rising-unisex-jersey'
   }
 ];
 
