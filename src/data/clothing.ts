@@ -183,7 +183,7 @@ const data: IItem[] = [
   {
     date: '2023-03-14',
     image: 'https://i.etsystatic.com/16046340/r/il/98620d/4672320544/il_794xN.4672320544_bil8.jpg',
-    name: 'Littlest Howler Toddler Short Sleeve Tee',
+    name: 'Littlest Howler Toddler Tee',
     tags: ['shirt'],
     shop: {
       name: 'CreativeLeighCrafts',
@@ -207,7 +207,7 @@ const data: IItem[] = [
   {
     date: '2023-03-14',
     image: 'https://i.etsystatic.com/16046340/r/il/fd3e1a/4628213168/il_794xN.4628213168_5noy.jpg',
-    name: 'Howler Life - Unisex Jersey Short Sleeve Tee',
+    name: 'Howler Life - Unisex Jersey Tee',
     tags: ['shirt'],
     shop: {
       name: 'CreativeLeighCrafts',
@@ -704,8 +704,107 @@ const data: IItem[] = [
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
-    description: 'May or may not have been inspired by the meme.',
+    description:
+      'Goblin Mode was the 2022 phrase of the year which has a unique meaning to us Howlers!  ',
     link: 'https://www.etsy.com/listing/1369383430/goblin-mode-red-rising-unisex-jersey'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/4bdad6/4533830312/il_794xN.4533830312_iqcl.jpg',
+    name: 'Goblin Mode Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Goblin Mode was the 2022 phrase of the year which has a unique meaning to us Howlers! Support your enthusiasm for Sevro au Barca by wearing this shirt all seasons.',
+    link: 'https://www.etsy.com/listing/1369394512/goblin-mode-red-rising-sevro-unisex'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/e7d786/4519737316/il_794xN.4519737316_pg9u.jpg',
+    name: 'Omnis vir Lupus, Everyone a Wolf Long Sleeve Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'A long sleeve tee with a simple Omnis vir Lupus design.',
+    link: 'https://www.etsy.com/listing/1369372394/omnis-vir-lupus-everyone-a-wolf-red'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/28632a/4508855920/il_794xN.4508855920_de8p.jpg',
+    name: 'Howler Vibes Long Sleeve Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      "What kind of vibes? Make sure you show how you're feeling with this long sleeve tee.",
+    link: 'https://www.etsy.com/listing/1383346671/howler-vibes-red-rising-unisex-jersey'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/91957e/4612816037/il_794xN.4612816037_o2fa.jpg',
+    name: 'Summon the Howlers Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Summon the Howlers!',
+    link: 'https://www.etsy.com/listing/1403588963/summon-the-howlers-red-rising-darrow'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/ef38e4/4559607593/il_794xN.4559607593_6ke3.jpg',
+    name: 'Howler Vibes Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'What kind of vibes? Make sure you show how you are feeling with this tee.',
+    link: 'https://www.etsy.com/listing/1369394578/howler-vibes-red-rising-unisex-jersey'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/69a154/4583097745/il_794xN.4583097745_jas7.jpg',
+    name: 'Omnis vir Lupus Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: "LiveForMore's Omnis vir Lupus design on a tee.",
+    link: 'https://www.etsy.com/listing/1369394582/omnis-vir-lupus-everyone-a-wolf-red'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/e42ba4/4535743260/il_794xN.4535743260_8qnb.jpg',
+    name: 'Omnis vir Lupus Long Sleeve Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: "LiveForMore's Omnis vir Lupus design on a long sleeve tee.",
+    link: 'https://www.etsy.com/listing/1396584301/omnis-vir-lupus-red-rising-howler-unisex'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/26aad5/4589926595/il_794xN.4589926595_lsi7.jpg',
+    name: "You're Making Me Emotional Tee",
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: '"You\'re making me emotional and I hate it." -Victra au Julii',
+    link: 'https://www.etsy.com/listing/1384125202/red-rising-victra-bookish-valentines-day'
   }
 ];
 

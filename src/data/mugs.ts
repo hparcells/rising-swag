@@ -208,6 +208,18 @@ const data: IItem[] = [
     },
     description: "LiveForMore's classic Hail Reaper Hail Libertas design on a mug.",
     link: 'https://www.etsy.com/listing/1396123176/red-rising-hail-libertas-hail-reaper'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/49fca8/4642725417/il_794xN.4642725417_pery.jpg',
+    name: 'Howler Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: "A mug with LiveForMore's wolf design and stars.",
+    link: 'https://www.etsy.com/listing/1410341807/howler-red-rising-white-ceramic-mug'
   }
 ];
 

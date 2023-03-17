@@ -6,6 +6,7 @@ import hoodies from './hoodies';
 import jewelry from './jewelry';
 import mugs from './mugs';
 import other from './other';
+import patches from './patches';
 import phoneCases from './phone-cases';
 import pins from './pins';
 import prints from './prints';
@@ -21,6 +22,7 @@ export const ALL_DATA = [
   ...jewelry,
   ...mugs,
   ...other,
+  ...patches,
   ...phoneCases,
   ...pins,
   ...prints,

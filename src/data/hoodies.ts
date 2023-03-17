@@ -154,6 +154,31 @@ const data: IItem[] = [
     },
     description: "A children's hoodie with scattered stars and howling wolves.",
     link: 'https://www.etsy.com/listing/1414761337/childrens-hoodie'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/71d88f/4594713762/il_794xN.4594713762_gggz.jpg',
+    name: 'Goblin Mode Hoodie',
+    tags: ['hoodie'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Goblin Mode was the 2022 phrase of the year which has a unique meaning to us Howlers!',
+    link: 'https://www.etsy.com/listing/1369394512/goblin-mode-red-rising-sevro-unisex'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/da82e3/4594717862/il_794xN.4594717862_tm7y.jpg',
+    name: 'Omnis vir Lupus Hoodie',
+    tags: ['hoodie'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'LiveForMores Omnis vir Lupus design on a hoodie.',
+    link: 'https://www.etsy.com/listing/1396123364/red-rising-omnis-vir-lupus-darrow-howler'
   }
 ];
 

@@ -240,6 +240,43 @@ const data: IItem[] = [
     },
     description: "A water bottle with LiveForMore's Omnis Vir Lupus design.",
     link: 'https://www.etsy.com/listing/1410342299/omnis-vir-lupus-red-rising-darrow-sevro'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/babfff/3886048363/il_794xN.3886048363_nfmv.jpg',
+    name: 'Hail Libertas Hail Reaper Bottle Opener',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Hail Libertas! Hail Reaper! Let’s crack open some bottles using this high quality, stainless steel bartenders friend.',
+    link: 'https://www.etsy.com/listing/1222904305/red-rising-bottle-opener-hail-libertas'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/cebac8/4642699815/il_794xN.4642699815_jsfo.jpg',
+    name: 'Hail Reaper Can Cooler',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Hail Reaper! Keep these can coolers on hand this summer!',
+    link: 'https://www.etsy.com/listing/1393169389/red-rising-never-bow-howler-standard'
+  },
+  {
+    date: '2023-03-17',
+    image: 'https://i.etsystatic.com/10165646/r/il/12a8cb/4594485388/il_794xN.4594485388_8a4y.jpg',
+    name: 'Let Fall the Rain Can Cooler',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Let Fall the Rain! Keep these can coolers on hand this summer!',
+    link: 'https://www.etsy.com/listing/1378270526/red-rising-never-bow-howler-standard'
   }
 ];
 
