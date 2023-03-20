@@ -286,6 +286,18 @@ const data: IItem[] = [
     },
     description: 'Cap off your fandom with this HWLR fan made Red Rising inspired flexfit cap.',
     link: 'https://www.etsy.com/listing/1054389503/hwlr-red-rising-inspired-flexfit-cap'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/8e55ed/4543280721/il_794xN.4543280721_993c.jpg',
+    name: 'Hail Libertas Hail Reaper Leather Patch Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Hail Libertas Hail Reaper on a leather patch hat.',
+    link: 'https://www.etsy.com/listing/1369436570/hail-libertas-hail-reaper-red-rising-hat'
   }
 ];
 

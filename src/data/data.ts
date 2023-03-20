@@ -4,6 +4,7 @@ import discs from './discs';
 import hats from './hats';
 import hoodies from './hoodies';
 import jewelry from './jewelry';
+import magnets from './magnets';
 import mugs from './mugs';
 import other from './other';
 import patches from './patches';
@@ -12,6 +13,7 @@ import pins from './pins';
 import prints from './prints';
 import stickers from './stickers';
 import sweatshirts from './sweatshirts';
+import waterBottles from './water-bottles';
 
 export const ALL_DATA = [
   ...books,
@@ -20,6 +22,7 @@ export const ALL_DATA = [
   ...hats,
   ...hoodies,
   ...jewelry,
+  ...magnets,
   ...mugs,
   ...other,
   ...patches,
@@ -27,5 +30,6 @@ export const ALL_DATA = [
   ...pins,
   ...prints,
   ...stickers,
-  ...sweatshirts
+  ...sweatshirts,
+  ...waterBottles
 ];

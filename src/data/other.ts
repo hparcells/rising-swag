@@ -206,42 +206,6 @@ const data: IItem[] = [
     link: 'https://www.etsy.com/listing/793574550/color-the-rising-the-unofficial-little'
   },
   {
-    date: '2023-03-16',
-    image: 'https://i.etsystatic.com/10165646/r/il/9c1d99/4594595166/il_1140xN.4594595166_dwbl.jpg',
-    name: 'Custom Howler Name Water Bottle',
-    tags: ['other'],
-    shop: {
-      name: 'LiveForMore',
-      url: 'https://www.etsy.com/shop/LiveForMore'
-    },
-    description: 'Get your Howler name on a water bottle.',
-    link: 'https://www.etsy.com/listing/1396149384/red-rising-custom-howler-name-camelbak'
-  },
-  {
-    date: '2023-03-16',
-    image: 'https://i.etsystatic.com/10165646/r/il/63ac72/4663526087/il_794xN.4663526087_9k8l.jpg',
-    name: 'Let Fall the Rain Water Bottle',
-    tags: ['other'],
-    shop: {
-      name: 'LiveForMore',
-      url: 'https://www.etsy.com/shop/LiveForMore'
-    },
-    description: 'A Sevro-style flaming skull on a CamelBak Water Bottle.',
-    link: 'https://www.etsy.com/listing/1396123684/iron-rain-red-rising-darrow-sevro-ares'
-  },
-  {
-    date: '2023-03-16',
-    image: 'https://i.etsystatic.com/10165646/r/il/861776/4615278470/il_794xN.4615278470_6jk9.jpg',
-    name: 'Omnis Vir Lupus Water Bottle',
-    tags: ['other'],
-    shop: {
-      name: 'LiveForMore',
-      url: 'https://www.etsy.com/shop/LiveForMore'
-    },
-    description: "A water bottle with LiveForMore's Omnis Vir Lupus design.",
-    link: 'https://www.etsy.com/listing/1410342299/omnis-vir-lupus-red-rising-darrow-sevro'
-  },
-  {
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/babfff/3886048363/il_794xN.3886048363_nfmv.jpg',
     name: 'Hail Libertas Hail Reaper Bottle Opener',
@@ -277,6 +241,68 @@ const data: IItem[] = [
     },
     description: 'Let Fall the Rain! Keep these can coolers on hand this summer!',
     link: 'https://www.etsy.com/listing/1378270526/red-rising-never-bow-howler-standard'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/8d056f/4594468368/il_794xN.4594468368_1114.jpg',
+    name: 'Hail Libertas Hail Reaper Can Cooler',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Hail Libertas! Hail Reaper! Keep these can coolers on hand this summer!',
+    link: 'https://www.etsy.com/listing/1392267243/red-rising-hail-libertas-hail-reaper'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/e56218/4594457874/il_794xN.4594457874_6nva.jpg',
+    name: 'Never Bow Can Cooler',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Never Bow! Keep these can coolers on hand this summer!',
+    link: 'https://www.etsy.com/listing/1392263765/red-rising-never-bow-howler-standard'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/d8b745/4642722343/il_794xN.4642722343_748u.jpg',
+    name: 'Pegasus Legion Can Cooler',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Pegasus Legion! Keep these can coolers on hand this summer!',
+    link: 'https://www.etsy.com/listing/1378261390/red-rising-never-bow-howler-standard'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/13ea13/4594473550/il_794xN.4594473550_e15y.jpg',
+    name: 'Pegasus Legion Can Cooler (Red)',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Pegasus Legion! Keep these can coolers on hand this summer!',
+    link: 'https://www.etsy.com/listing/1378256964/red-rising-never-bow-howler-can-cooler'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/89ccd7/4591413934/il_794xN.4591413934_cxrm.jpg',
+    name: 'Hail Reaper Hail Libertas Fanny Pack',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Hail Reaper! Practical, utilitarian, and packed with style, this custom print fanny pack is the perfect accessory to any adventure.',
+    link: 'https://www.etsy.com/listing/1383435979/hail-libertas-hail-reaper-red-rising'
   }
 ];
 

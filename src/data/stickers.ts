@@ -195,6 +195,108 @@ const data: IItem[] = [
     description:
       "The first rule of being a Howler is that Howlers Never Bow. Sport this sticker with pride. The simulated distressed texture red below gold gives the impression you've gained the ranks of a Howler.",
     link: 'https://www.etsy.com/listing/937864053/sticker-red-rising-sticker-howler'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/cce0b8/4300748851/il_794xN.4300748851_lbvv.jpg',
+    name: 'Hail Libertas Hail Reaper Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Graffiti style sticker of Hail Libertas Hail Reaper.',
+    link: 'https://www.etsy.com/listing/1311542692/sticker-hail-libertas-hail-reaper'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/ca9da3/3034205314/il_794xN.3034205314_ngm1.jpg',
+    name: 'Mars Institute Alumni Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'The Mars Institute class of PCE 738 was W I L D. Our beloved Howlers were born by blood during their time at the Mars Institute. Slap this sticker on a water bottle or laptop. This metallic gold sticker is something of a conversation starter.',
+    link: 'https://www.etsy.com/listing/992402340/sticker-red-rising-metallic-gold-sticker'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/66affc/2909095725/il_794xN.2909095725_lgll.jpg',
+    name: 'Boyo Bubble Gum Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      "Everyone's favorite Bronzie and House Mars proctor is known for his bubblegum popping. But what gum does Fitchner chew? He chews Boyo Bubble of course!! We shouldn’t expect any less from The Rage Knight himself.",
+    link: 'https://www.etsy.com/listing/960142401/sticker-boyo-bubble-red-rising-howler'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/a6351d/3720697367/il_794xN.3720697367_l12v.jpg',
+    name: 'Pitviper Swill Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Top off your mug with Pitviper swill and toast the Laureltide. This sticker has a mirror effect to highlight the sweet brown of the sweet swill.',
+    link: 'https://www.etsy.com/listing/1180137043/sticker-pitviper-swill-red-rising'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/41482f/2842957139/il_794xN.2842957139_ljzg.jpg',
+    name: 'Pixie Tears Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'To gear up for a fight, what quenches ones thirst better than Pixie Tears!! 🥤 Iron Golds and Howlers alike can enjoy this hydrating fuel!!',
+    link: 'https://www.etsy.com/listing/928794458/sticker-red-rising-howler-stickers-never'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/e1687d/2822185806/il_794xN.2822185806_g2mo.jpg',
+    name: 'Meat Carpet Cleaner Sticker',
+    tags: ['sticker', 'dark-age'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Meat Carpet? Yes, I went there.',
+    link: 'https://www.etsy.com/listing/949764905/sticker-red-rising-howler-stickers-never'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/c2d067/3081934247/il_794xN.3081934247_8g4d.jpg',
+    name: 'Omnis vir Lupus Glitter Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Everyone a wolf. Slap this sticker on a water bottle or laptop. This red glitter sticker is something of a conversation starter.',
+    link: 'https://www.etsy.com/listing/992408352/sticker-red-rising-howler-red-glitter'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/5c74c0/2822345752/il_794xN.2822345752_nojk.jpg',
+    name: 'Per Aspera Ad Astra Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: '"Through hardships to the stars." A beloved Latin quote.',
+    link: 'https://www.etsy.com/listing/935882258/sticker-red-rising-per-aspera-ad-astra'
   }
 ];
 
