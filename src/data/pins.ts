@@ -106,7 +106,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description:
-      'Show off your HOWLER PRIDE with this new and badass 2in hard enamel pin. If I’m being honest, I really didn’t choose the Howler life, the howler life chose me. And for better and worse I will remain a loyal HOWLER.',
+      "Show off your HOWLER PRIDE with this new and badass 2in hard enamel pin. If I'm being honest, I really didn't choose the Howler life, the howler life chose me. And for better and worse I will remain a loyal HOWLER.",
     link: 'https://www.etsy.com/listing/1400004107/howler-life-enamel-pin-preorder'
   },
   {

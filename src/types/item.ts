@@ -17,6 +17,7 @@ export const MERCH_TYPE = [
   'patch',
   'magnet',
   'water-bottle',
+  'bookmark',
   'other'
 ] as const;
 

@@ -93,7 +93,7 @@ const data: IItem[] = [
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
-    description: 'Emblazoned with the Official Violet Sigil from Pierce Brown’s Red Rising series.',
+    description: "Emblazoned with the Official Violet Sigil from Pierce Brown's Red Rising series.",
     link: 'https://www.lit-escalates.com/collections/apparel/products/violet-sigil-trucker-cap'
   },
   {
@@ -106,7 +106,7 @@ const data: IItem[] = [
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
-    description: 'Emblazoned with the Official Gray Sigil from Pierce Brown’s Red Rising series.',
+    description: "Emblazoned with the Official Gray Sigil from Pierce Brown's Red Rising series.",
     link: 'https://www.lit-escalates.com/collections/apparel/products/gray-sigil-trucker-cap'
   },
   {
@@ -119,7 +119,7 @@ const data: IItem[] = [
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
-    description: 'Emblazoned with the Official Yellow Sigil from Pierce Brown’s Red Rising series.',
+    description: "Emblazoned with the Official Yellow Sigil from Pierce Brown's Red Rising series.",
     link: 'https://www.lit-escalates.com/collections/apparel/products/yellow-sigil-trucker-cap'
   },
   {
@@ -132,7 +132,7 @@ const data: IItem[] = [
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
-    description: 'Emblazoned with the Official Green Sigil from Pierce Brown’s Red Rising series.',
+    description: "Emblazoned with the Official Green Sigil from Pierce Brown's Red Rising series.",
     link: 'https://www.lit-escalates.com/collections/apparel/products/green-sigil-trucker-cap'
   },
   {
@@ -145,7 +145,7 @@ const data: IItem[] = [
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
-    description: 'Emblazoned with the Official Orange Sigil from Pierce Brown’s Red Rising series.',
+    description: "Emblazoned with the Official Orange Sigil from Pierce Brown's Red Rising series.",
     link: 'https://www.lit-escalates.com/collections/apparel/products/orange-sigil-trucker-cap'
   },
   {
@@ -158,7 +158,7 @@ const data: IItem[] = [
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
-    description: 'Emblazoned with the Official Pink Sigil from Pierce Brown’s Red Rising series.',
+    description: "Emblazoned with the Official Pink Sigil from Pierce Brown's Red Rising series.",
     link: 'https://www.lit-escalates.com/collections/apparel/products/pink-sigil-trucker-cap'
   },
   {
@@ -171,7 +171,7 @@ const data: IItem[] = [
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
-    description: 'Emblazoned with the Official Blue Sigil from Pierce Brown’s Red Rising series.',
+    description: "Emblazoned with the Official Blue Sigil from Pierce Brown's Red Rising series.",
     link: 'https://www.lit-escalates.com/collections/apparel/products/blue-sigil-trucker-cap'
   },
   {
@@ -184,7 +184,7 @@ const data: IItem[] = [
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
-    description: 'Emblazoned with the Official Silver Sigil from Pierce Brown’s Red Rising series.',
+    description: "Emblazoned with the Official Silver Sigil from Pierce Brown's Red Rising series.",
     link: 'https://www.lit-escalates.com/collections/apparel/products/silver-sigil-trucker-cap'
   },
   {
@@ -197,7 +197,7 @@ const data: IItem[] = [
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
-    description: 'Emblazoned with the Official Copper Sigil from Pierce Brown’s Red Rising series.',
+    description: "Emblazoned with the Official Copper Sigil from Pierce Brown's Red Rising series.",
     link: 'https://www.lit-escalates.com/collections/apparel/products/copper-sigil-trucker-cap'
   },
   {
@@ -210,7 +210,7 @@ const data: IItem[] = [
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
-    description: 'Emblazoned with the Official White Sigil from Pierce Brown’s Red Rising series.',
+    description: "Emblazoned with the Official White Sigil from Pierce Brown's Red Rising series.",
     link: 'https://www.lit-escalates.com/collections/apparel/products/white-sigil-trucker-cap'
   },
   {
@@ -223,7 +223,7 @@ const data: IItem[] = [
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
-    description: 'Emblazoned with the Official Brown Sigil from Pierce Brown’s Red Rising series.',
+    description: "Emblazoned with the Official Brown Sigil from Pierce Brown's Red Rising series.",
     link: 'https://www.lit-escalates.com/collections/apparel/products/brown-sigil-trucker-cap'
   },
   {

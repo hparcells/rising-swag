@@ -180,7 +180,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description:
-      'Everyone a wolf. Not many quotes from Red Rising are as iconic as “Omnis vir Lupus”. This clear glitter sticker is perfect for your laptop or tablet. Signal to all the Pixies that you’re a Howler.',
+      "Everyone a wolf. Not many quotes from Red Rising are as iconic as “Omnis vir Lupus”. This clear glitter sticker is perfect for your laptop or tablet. Signal to all the Pixies that you're a Howler.",
     link: 'https://www.etsy.com/listing/1308651450/sticker-glitter-omnis-vir-lupus-red'
   },
   {
@@ -232,7 +232,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description:
-      "Everyone's favorite Bronzie and House Mars proctor is known for his bubblegum popping. But what gum does Fitchner chew? He chews Boyo Bubble of course!! We shouldn’t expect any less from The Rage Knight himself.",
+      "Everyone's favorite Bronzie and House Mars proctor is known for his bubblegum popping. But what gum does Fitchner chew? He chews Boyo Bubble of course!! We shouldn't expect any less from The Rage Knight himself.",
     link: 'https://www.etsy.com/listing/960142401/sticker-boyo-bubble-red-rising-howler'
   },
   {
@@ -297,6 +297,33 @@ const data: IItem[] = [
     },
     description: '"Through hardships to the stars." A beloved Latin quote.',
     link: 'https://www.etsy.com/listing/935882258/sticker-red-rising-per-aspera-ad-astra'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/99d689/3154102381/il_794xN.3154102381_hhrf.jpg',
+    name: 'Cacatne Ursus in Silvis Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      "Does a bear shit in the woods? Everyone's favorite Goblin uttered these words just as he and Reaper were positioned in their launch tubes.",
+    link: 'https://www.etsy.com/listing/1011712838/sticker-red-rising-sevro-au-barca-does-a'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/ba4005/3476697335/il_794xN.3476697335_3w6w.jpg',
+    name: 'Pegasus Legion Sticker',
+    tags: ['sticker'],
+
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'This is an awesome sticker which shows off your rank as a Howler and dedication in breaking the chains ⛓ Join us in the Pegasus Legion!',
+    link: 'https://www.etsy.com/listing/1096646068/sticker-red-rising-pegasus-legion-hail'
   }
 ];
 

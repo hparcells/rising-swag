@@ -215,7 +215,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description:
-      'Hail Libertas! Hail Reaper! Let’s crack open some bottles using this high quality, stainless steel bartenders friend.',
+      "Hail Libertas! Hail Reaper! Let's crack open some bottles using this high quality, stainless steel bartenders friend.",
     link: 'https://www.etsy.com/listing/1222904305/red-rising-bottle-opener-hail-libertas'
   },
   {
@@ -303,6 +303,59 @@ const data: IItem[] = [
     description:
       'Hail Reaper! Practical, utilitarian, and packed with style, this custom print fanny pack is the perfect accessory to any adventure.',
     link: 'https://www.etsy.com/listing/1383435979/hail-libertas-hail-reaper-red-rising'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/e07ece/3429019420/il_794xN.3429019420_r6rx.jpg',
+    name: 'Hail Reaper Hail Libertas Static Window Cling Decal',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Hail Libertas! Hail Reaper! Slap this waterproof, vinyl cling on your car, window, TBR cart, or mirror.',
+    link: 'https://www.etsy.com/listing/1110568493/removable-red-rising-static-window-cling'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/da206f/3429032590/il_794xN.3429032590_r41o.jpg',
+    name: 'Pegasus Legion Static Window Cling Decal',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Pegasus Legion. Slap this waterproof, vinyl cling on your car, window, TBR cart, or mirror.',
+    link: 'https://www.etsy.com/listing/1096648646/removable-red-rising-static-window-cling'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/da1312/3885967861/il_794xN.3885967861_hr1u.jpg',
+    name: 'Red Rising Coasters',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'The sun is out, the drinks are cold, and these coasters are perfect for saving your surface. These high quality rubber backed coasters are excellent conversation starters.',
+    link: 'https://www.etsy.com/listing/1222897013/red-rising-coasters-hail-reaper-scifi'
+  },
+  {
+    date: '2023-03-20',
+    image: 'https://i.etsystatic.com/10165646/r/il/033b6f/3886052759/il_794xN.3886052759_8ysx.jpg',
+    name: 'Per Aspera Ad Astra Bottle Opener',
+    tags: ['other'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      "Per Aspera ad Astra. Let's crack open some bottles using this high quality, stainless steel bartenders friend.",
+    link: 'https://www.etsy.com/listing/1208958020/red-rising-bottle-opener-per-aspera-ad'
   }
 ];
 

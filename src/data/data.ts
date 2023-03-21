@@ -1,3 +1,4 @@
+import bookmarks from './bookmarks';
 import books from './books';
 import clothing from './clothing';
 import discs from './discs';
@@ -16,6 +17,7 @@ import sweatshirts from './sweatshirts';
 import waterBottles from './water-bottles';
 
 export const ALL_DATA = [
+  ...bookmarks,
   ...books,
   ...clothing,
   ...discs,
