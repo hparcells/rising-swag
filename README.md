@@ -1,4 +1,4 @@
-# Red Rising Merch
+# Rising Swag
 > A curated list of Red Rising related items found around the community.
 
 ![](https://wakatime.com/badge/user/6b7d9181-edde-4a25-857c-e7101bfee7ea/project/4b7fb314-2a2d-41ca-9f2f-e74fe11beb5b.svg?style=for-the-badge)
