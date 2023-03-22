@@ -324,6 +324,44 @@ const data: IItem[] = [
     description:
       'This is an awesome sticker which shows off your rank as a Howler and dedication in breaking the chains ⛓ Join us in the Pegasus Legion!',
     link: 'https://www.etsy.com/listing/1096646068/sticker-red-rising-pegasus-legion-hail'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/10165646/r/il/dd2670/3836294397/il_794xN.3836294397_m5w1.jpg',
+    name: 'Hail Reaper Holographic Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Hail Reaper! This sticker the perfect way to signal your allegiance to the rising.',
+    link: 'https://www.etsy.com/listing/1196124016/sticker-holographic-hail-reaper-red'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/10165646/r/il/0fa471/3453757043/il_794xN.3453757043_8t6i.jpg',
+    name: 'Omnis Vir Lupus Holographic Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Omnis vir Lupus! Everyone a wolf! This is an awesome sticker which shows off your rank as a Howler.',
+    link: 'https://www.etsy.com/listing/1090670070/sticker-holographic-red-rising-omnis-vir'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/10165646/r/il/b78292/3297712350/il_794xN.3297712350_sjts.jpg',
+    name: 'Never Bow Holographic Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'Never bow! The first rule of being a Howler is that Howlers Never Bow!',
+    link: 'https://www.etsy.com/listing/1078350983/sticker-holographic-red-rising-sticker'
   }
 ];
 
