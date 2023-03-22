@@ -22,6 +22,25 @@
   }
 }
 
+.primary {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondary {
+  width: 100%;
+  
+  display: flex;
+  justify-content: flex-end;  
+
+  p {
+    text-align: right;
+  }
+}
+
 .big {
   font-size: 48px;
   font-weight: 700;
@@ -33,6 +52,11 @@
   font-weight: 500;
 
   max-width: 800px;  
+}
+
+.lighter {
+  font-weight: 300;
+  font-size: 15px;
 }
 
 .image {
