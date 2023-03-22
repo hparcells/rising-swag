@@ -362,6 +362,58 @@ const data: IItem[] = [
     },
     description: 'Never bow! The first rule of being a Howler is that Howlers Never Bow!',
     link: 'https://www.etsy.com/listing/1078350983/sticker-holographic-red-rising-sticker'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/10165646/r/il/905480/3125117928/il_794xN.3125117928_jrmc.jpg',
+    name: 'Wolves Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      "From Gold to Red, Howlers in Pierce Brown's Red Rising saga are called to arms to break the chains.",
+    link: 'https://www.etsy.com/listing/1030611575/sticker-red-rising-howler-stickers-never'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/10165646/r/il/0ed969/3108975357/il_794xN.3108975357_jhwd.jpg',
+    name: 'Howler Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description: 'A unique wolf sticker.',
+    link: 'https://www.etsy.com/listing/1013562619/sticker-red-rising-sticker-howler'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/10165646/r/il/f79e63/3299282148/il_794xN.3299282148_moux.jpg',
+    name: '"Sevro is my Spirit Animal" Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Sevro is our most beloved goblin! Some might even say that Sevro is their spirit animal.',
+    link: 'https://www.etsy.com/listing/1076949461/red-rising-bumper-sticker-sevro-is-my'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/10165646/r/il/f6d928/2795249950/il_794xN.2795249950_lxk3.jpg',
+    name: '"You\'re Making Me Emotional" Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Prior to becoming Victra au Barca, Victra au Julii uttered these famous and endearing words.',
+    link: 'https://www.etsy.com/listing/919326330/sticker-red-rising-sticker-victra-au'
   }
 ];
 

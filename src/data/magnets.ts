@@ -50,6 +50,32 @@ const data: IItem[] = [
     description:
       "From Gold to Red, Howlers in Pierce Brown's Red Rising saga are called to arms to break the chains.",
     link: 'https://www.etsy.com/listing/1020847442/magnet-red-rising-howler-magnet-never'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/10165646/r/il/78bf85/3143638075/il_794xN.3143638075_tf9f.jpg',
+    name: 'Red Rising Dome Magnets',
+    tags: ['magnet'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'These SUPER strong magnets are perfect for your fridge or bulletin board. Each set includes each of the six unique designs.',
+    link: 'https://www.etsy.com/listing/1008969582/red-rising-glass-dome-magnets-howler'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/10165646/r/il/f8eb35/3720453558/il_794xN.3720453558_qoo6.jpg',
+    name: 'NEW Red Rising Dome Magnets',
+    tags: ['magnet'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'This is a second edition of SUPER strong magnets are perfect for your fridge or bulletin board.',
+    link: 'https://www.etsy.com/listing/1178391296/new-red-rising-glass-dome-magnets-howler'
   }
 ];
 
