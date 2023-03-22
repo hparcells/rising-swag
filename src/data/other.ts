@@ -356,6 +356,90 @@ const data: IItem[] = [
     description:
       "Per Aspera ad Astra. Let's crack open some bottles using this high quality, stainless steel bartenders friend.",
     link: 'https://www.etsy.com/listing/1208958020/red-rising-bottle-opener-per-aspera-ad'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/32661494/r/il/38edf5/4701128616/il_1140xN.4701128616_h099.jpg',
+    name: 'Wood Engraved Sevro Graphic',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'JTRichWood',
+      url: 'https://www.etsy.com/shop/JTRichWood'
+    },
+    description: '3D Laser cut graphic of Sevro from Red Rising.',
+    link: 'https://www.etsy.com/listing/1433882677/wood-engraved-red-rising-graphic-sevro'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/32661494/r/il/ae0e77/4701100172/il_1140xN.4701100172_3osd.jpg',
+    name: 'Wood Engraved Iron Rain Graphic',
+    tags: ['other'],
+    shop: {
+      name: 'JTRichWood',
+      url: 'https://www.etsy.com/shop/JTRichWood'
+    },
+    description: '3D Laser cut graphic of an Iron Rain poster from Red Rising.',
+    link: 'https://www.etsy.com/listing/1419669254/wood-engraved-red-rising-graphic-iron'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/32661494/r/il/b55ca2/4701083050/il_1140xN.4701083050_4zms.jpg',
+    name: 'Wood Engraved Mercury Graphic',
+    tags: ['other'],
+    shop: {
+      name: 'JTRichWood',
+      url: 'https://www.etsy.com/shop/JTRichWood'
+    },
+    description: '3D Laser cut map of Mercury from Red Rising.',
+    link: 'https://www.etsy.com/listing/1419664738/wood-engraved-map-mercury-from-red'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/32661494/r/il/90343d/4707631867/il_1140xN.4707631867_jd7f.jpg',
+    name: 'Wood Engraved Solar System Graphic',
+    tags: ['other'],
+    shop: {
+      name: 'JTRichWood',
+      url: 'https://www.etsy.com/shop/JTRichWood'
+    },
+    description: '3D Laser cut graphic of the solar system from Red Rising.',
+    link: 'https://www.etsy.com/listing/1410243202/wood-engraved-map-of-red-rising-the'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/32661494/r/il/9cabf1/4618543756/il_794xN.4618543756_jcbl.jpg',
+    name: 'Wood Engraved Color Pyramid',
+    tags: ['other'],
+    shop: {
+      name: 'JTRichWood',
+      url: 'https://www.etsy.com/shop/JTRichWood'
+    },
+    description: '3D laser engraved color diagram inspired by the Red Rising book series.',
+    link: 'https://www.etsy.com/listing/1390502854/red-rising-color-pyramid-inspired-by-the'
+  },
+  {
+    date: '2023-03-21',
+    image: 'https://i.etsystatic.com/32661494/r/il/5c2036/4425730987/il_794xN.4425730987_oh9h.jpg',
+    name: 'Wood Engraved Institute Map',
+    tags: ['other'],
+    shop: {
+      name: 'JTRichWood',
+      url: 'https://www.etsy.com/shop/JTRichWood'
+    },
+    description: '3D Laser cut map of The Institute from Red Rising.',
+    link: 'https://www.etsy.com/listing/1340471250/3d-wood-engraved-map-of-red-rising-the'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/32661494/r/il/83941d/3873443214/il_794xN.3873443214_eolu.jpg',
+    name: 'Red Rising Inspired Ceramic Tile Coasters',
+    tags: ['other'],
+    shop: {
+      name: 'JTRichWood',
+      url: 'https://www.etsy.com/shop/JTRichWood'
+    },
+    description: '6 Ceramic Tile Coasters laser engraved and inspired by the world of Red Rising!',
+    link: 'https://www.etsy.com/listing/1232853781/red-rising-inspired-ceramic-tile'
   }
 ];
 

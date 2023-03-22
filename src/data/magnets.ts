@@ -76,6 +76,18 @@ const data: IItem[] = [
     description:
       'This is a second edition of SUPER strong magnets are perfect for your fridge or bulletin board.',
     link: 'https://www.etsy.com/listing/1178391296/new-red-rising-glass-dome-magnets-howler'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/32661494/r/il/3ded0c/4290336250/il_794xN.4290336250_cpoe.jpg',
+    name: 'Red Rising Magnets',
+    tags: ['magnet'],
+    shop: {
+      name: 'JTRichWood',
+      url: 'https://www.etsy.com/shop/JTRichWood'
+    },
+    description: 'Set of 9 ceramic tile magnets inspired by the world of Red Rising.',
+    link: 'https://www.etsy.com/listing/1319809226/red-rising-magnets'
   }
 ];
 

@@ -39,6 +39,42 @@ const data: IItem[] = [
     description:
       "The first rule of being a Howler is that Howlers Never Bow! Pierce Brown's Red Rising saga called us all to arms to break the chains. Sport this bookmark with pride. The simulated distressed texture red below gold gives the impression you've gained the ranks of a Howler.",
     link: 'https://www.etsy.com/listing/1022277971/bookmark-red-rising-howler-bookmark'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/32661494/r/il/e58944/4142757855/il_794xN.4142757855_orho.jpg',
+    name: 'Red Rising Inspired Wooden Bookmarks',
+    tags: ['bookmark'],
+    shop: {
+      name: 'JTRichWood',
+      url: 'https://www.etsy.com/shop/JTRichWood'
+    },
+    description: 'Wooden bookmarks inspired by the world of Red Rising.',
+    link: 'https://www.etsy.com/listing/1275549780/red-rising-inspired-wooden-bookmarks'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/32661494/r/il/077f12/4290382440/il_794xN.4290382440_2fu0.jpg',
+    name: 'Red Rising Inspired Wooden Bookmarks',
+    tags: ['bookmark'],
+    shop: {
+      name: 'JTRichWood',
+      url: 'https://www.etsy.com/shop/JTRichWood'
+    },
+    description: 'Wooden bookmarks inspired by the world of Red Rising.',
+    link: 'https://www.etsy.com/listing/1319821202/red-rising-inspired-wooden-bookmarks'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/32661494/r/il/7b0618/4667283118/il_794xN.4667283118_fvc5.jpg',
+    name: 'Red Rising Inspired Wooden Bookmarks',
+    tags: ['bookmark'],
+    shop: {
+      name: 'JTRichWood',
+      url: 'https://www.etsy.com/shop/JTRichWood'
+    },
+    description: 'Wooden bookmarks inspired by the world of Red Rising.',
+    link: 'https://www.etsy.com/listing/1218915214/red-rising-inspired-wooden-bookmarks'
   }
 ];
 
