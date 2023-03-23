@@ -452,6 +452,19 @@ const data: IItem[] = [
     },
     description: 'A 3D printed Howler logo printed in Marble and Red pla.',
     link: 'https://www.etsy.com/listing/1276452077/howler-sign-red-rising-bookcase-display'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/19636488/r/il/09630b/4331337244/il_794xN.4331337244_o4yp.jpg',
+    name: 'Howler Ornament',
+    tags: ['other'],
+    shop: {
+      name: 'OilyYou',
+      url: 'https://www.etsy.com/shop/OilyYou'
+    },
+    description:
+      'Festive one of a kind ornament for your tree, inspired by one of the best book series!',
+    link: 'https://www.etsy.com/listing/1329117064/red-rising-howler-ornament'
   }
 ];
 
