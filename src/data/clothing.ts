@@ -865,6 +865,18 @@ const data: IItem[] = [
     },
     description: 'Son of Ares shirt featuring a classic Trojan helmet.',
     link: 'https://www.etsy.com/listing/976742855/son-of-ares-shirt-bookish-shirt-sevro-au'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/16496017/r/il/0d3fc3/4617357753/il_794xN.4617357753_ezha.jpg',
+    name: 'Red Sigil Tee',
+    tags: ['shirt', 'red'],
+    shop: {
+      name: 'TheStylishGamer',
+      url: 'https://www.etsy.com/shop/TheStylishGamer'
+    },
+    description: 'Simplistic tee featuring the Red sigil.',
+    link: 'https://www.etsy.com/listing/1404638345/red-rising-sigil-tee-unisex-tshirt'
   }
 ];
 
