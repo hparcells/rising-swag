@@ -465,6 +465,32 @@ const data: IItem[] = [
     description:
       'Festive one of a kind ornament for your tree, inspired by one of the best book series!',
     link: 'https://www.etsy.com/listing/1329117064/red-rising-howler-ornament'
+  },
+  {
+    date: '2023-03-23',
+    image: 'https://i.etsystatic.com/30214316/r/il/2332b9/4565121287/il_794xN.4565121287_3iiw.jpg',
+    name: 'Per Aspera Ad Astra Canvas',
+    tags: ['other'],
+    shop: {
+      name: 'PurpleWoodlands',
+      url: 'https://www.etsy.com/shop/PurpleWoodlands'
+    },
+    description:
+      'Through hardships to the stars. Latin phrase commonly used in literature, music, educational and research institutes, government and military, space exploration, pop culture, fraternities and sororities.',
+    link: 'https://www.etsy.com/listing/1234583764/per-aspera-ad-astra-through-hardships-to'
+  },
+  {
+    date: '2023-03-23',
+    image: 'https://i.etsystatic.com/30214316/r/il/9ab0a5/4335344178/il_794xN.4335344178_tv8p.jpg',
+    name: 'Omnis Vir Lupus Canvas',
+    tags: ['other'],
+    shop: {
+      name: 'PurpleWoodlands',
+      url: 'https://www.etsy.com/shop/PurpleWoodlands'
+    },
+    description:
+      'Howlers motto from Red Rising - Omnis Vir Lupus - Everyone a Wolf. Howler for life.',
+    link: 'https://www.etsy.com/listing/1296971515/omnis-vir-lupus-everyone-a-wolf-pierce'
   }
 ];
 

@@ -191,6 +191,19 @@ const data: IItem[] = [
     },
     description: 'A "Howler" poster in many different sizes.',
     link: 'https://www.etsy.com/listing/903586930/howler-red-rising-poster'
+  },
+  {
+    date: '2023-03-23',
+    image: 'https://i.etsystatic.com/30214316/r/il/9973a2/4310566228/il_794xN.4310566228_8uj2.jpg',
+    name: 'Per Aspera Ad Astra Print',
+    tags: ['print'],
+    shop: {
+      name: 'PurpleWoodlands',
+      url: 'https://www.etsy.com/shop/PurpleWoodlands'
+    },
+    description:
+      'Through hardships to the stars. Latin phrase used in literature, music educational and research institutes, space exploration, government and military, pop culture, fraternities and sororities.',
+    link: 'https://www.etsy.com/listing/1338383161/per-aspera-ad-astra-through-hardships-to'
   }
 ];
 
