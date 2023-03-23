@@ -440,6 +440,18 @@ const data: IItem[] = [
     },
     description: '6 Ceramic Tile Coasters laser engraved and inspired by the world of Red Rising!',
     link: 'https://www.etsy.com/listing/1232853781/red-rising-inspired-ceramic-tile'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/32783179/r/il/429dc5/4090815245/il_1140xN.4090815245_ns8q.jpg',
+    name: 'Howler Shelf Display',
+    tags: ['other'],
+    shop: {
+      name: '3DPrintsbyTheodore',
+      url: 'https://www.etsy.com/shop/3DPrintsbyTheodore'
+    },
+    description: 'A 3D printed Howler logo printed in Marble and Red pla.',
+    link: 'https://www.etsy.com/listing/1276452077/howler-sign-red-rising-bookcase-display'
   }
 ];
 
