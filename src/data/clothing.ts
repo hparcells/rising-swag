@@ -877,6 +877,32 @@ const data: IItem[] = [
     },
     description: 'Simplistic tee featuring the Red sigil.',
     link: 'https://www.etsy.com/listing/1404638345/red-rising-sigil-tee-unisex-tshirt'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/20988095/r/il/661fce/3181883384/il_794xN.3181883384_ey90.jpg',
+    name: 'Red Rising Board Game Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'MeepleMerch',
+      url: 'https://www.etsy.com/shop/MeepleMerch'
+    },
+    description:
+      'Features the cover art from the Red Rising board game masked by the wolf of Mars.',
+    link: 'https://www.etsy.com/listing/1031554094/red-rising-board-game-t-shirt-short'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/20988095/r/il/b53e29/3236427503/il_794xN.3236427503_sx1b.jpg',
+    name: "Red Rising Board Game Shirt (Women's)",
+    tags: ['shirt'],
+    shop: {
+      name: 'MeepleMerch',
+      url: 'https://www.etsy.com/shop/MeepleMerch'
+    },
+    description:
+      'Features the cover art from the Red Rising board game masked by the wolf of Mars.',
+    link: 'https://www.etsy.com/listing/1031554094/red-rising-board-game-t-shirt-short'
   }
 ];
 
