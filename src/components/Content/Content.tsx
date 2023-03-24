@@ -11,11 +11,12 @@ import { useFilter } from '@/hooks/filter';
 import { ALL_DATA } from '@/data/data';
 
 import classes from './Content.module.scss';
+import { IItem } from '@/types/item';
 
 function Content() {
   const { filter } = useFilter();
 
-  const [filteredData, setFilteredData] = useState(ALL_DATA);
+  const [filteredData, setFilteredData] = useState<IItem[]>(null as any);
   useEffect(() => {
     setFilteredData(
       ALL_DATA.filter((item) => {
@@ -79,48 +80,54 @@ function Content() {
           <FilterBox />
 
           {/* This has got to be the worst code I've written. */}
-          <Text mb='sm'>
-            Showing{' '}
-            {
-              filteredData.filter((item) => {
-                return !item.expired || (item.expired && filter.showExpired);
-              }).length
-            }{' '}
-            {filteredData.filter((isExpired) => {
-              return !isExpired;
-            }).length !== ALL_DATA.length && ` of ${ALL_DATA.length} `}
-            items
-            {!filter.showExpired &&
-              filteredData
-                .map((item) => {
-                  return item.expired;
-                })
-                .filter((isExpired) => {
-                  return isExpired;
-                }).length > 0 &&
-              ` (hiding ${
+          {filteredData && (
+            <Text mb='sm'>
+              Showing{' '}
+              {
+                filteredData.filter((item) => {
+                  return !item.expired || (item.expired && filter.showExpired);
+                }).length
+              }{' '}
+              {filteredData.filter((isExpired) => {
+                return !isExpired;
+              }).length !== ALL_DATA.length && ` of ${ALL_DATA.length} `}
+              items
+              {!filter.showExpired &&
                 filteredData
                   .map((item) => {
                     return item.expired;
                   })
                   .filter((isExpired) => {
                     return isExpired;
-                  }).length
-              } expired)`}
-          </Text>
+                  }).length > 0 &&
+                ` (hiding ${
+                  filteredData
+                    .map((item) => {
+                      return item.expired;
+                    })
+                    .filter((isExpired) => {
+                      return isExpired;
+                    }).length
+                } expired)`}
+            </Text>
+          )}
         </div>
 
-        <div className={clsx(classes.cards, classes.squeeze)}>
-          {filteredData.length > 0 ? (
-            filteredData
-              .filter((item) => {
-                return !item.expired || (item.expired && filter.showExpired);
-              })
-              .map((item, i) => {
-                return <ItemCard item={item} key={i} />;
-              })
+        <div className={clsx(classes.cards, !filter.fullWidth && classes.squeeze)}>
+          {filteredData ? (
+            filteredData.length > 0 ? (
+              filteredData
+                .filter((item) => {
+                  return !item.expired || (item.expired && filter.showExpired);
+                })
+                .map((item, i) => {
+                  return <ItemCard item={item} key={i} />;
+                })
+            ) : (
+              <p>No results</p>
+            )
           ) : (
-            <p>No results</p>
+            <p>Loading...</p>
           )}
         </div>
       </div>

@@ -13,7 +13,8 @@ const FilterContext = createContext({
       by: 'added',
       order: 'descending'
     },
-    showExpired: false
+    showExpired: false,
+    fullWidth: false
   } as IFilter,
   // eslint-disable-next-line no-empty-function
   updateFilter: (filterUpdate: IFilterUpdate) => {}
@@ -36,7 +37,8 @@ function useProvideFilter() {
       by: 'added',
       order: 'descending'
     },
-    showExpired: false
+    showExpired: false,
+    fullWidth: false
   });
 
   function updateFilter(filterUpdate: IFilterUpdate) {
