@@ -414,6 +414,18 @@ const data: IItem[] = [
     description:
       'Prior to becoming Victra au Barca, Victra au Julii uttered these famous and endearing words.',
     link: 'https://www.etsy.com/listing/919326330/sticker-red-rising-sticker-victra-au'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/25064526/r/il/7dbb7f/3982858715/il_794xN.3982858715_bx3s.jpg',
+    name: 'Howler Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'SkyBlueStudiosCo',
+      url: 'https://www.etsy.com/shop/SkyBlueStudiosCo'
+    },
+    description: 'High quality vinyl stickers of the wolf of House Mars.',
+    link: 'https://www.etsy.com/listing/1235336532/omnis-vir-lupus-red-rising-howlers-book'
   }
 ];
 
