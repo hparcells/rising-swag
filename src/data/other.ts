@@ -491,6 +491,31 @@ const data: IItem[] = [
     description:
       'Howlers motto from Red Rising - Omnis Vir Lupus - Everyone a Wolf. Howler for life.',
     link: 'https://www.etsy.com/listing/1296971515/omnis-vir-lupus-everyone-a-wolf-pierce'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/22469851/r/il/b24631/3514238135/il_794xN.3514238135_mjqk.jpg',
+    name: "'Happy Howler-Days' Christmas Pine Wood Ornament",
+    tags: ['other'],
+    shop: {
+      name: 'LiteraryLeoCo',
+      url: 'https://www.etsy.com/shop/LiteraryLeoCo'
+    },
+    description: 'The wolf of Mars pressed into a pine wood cookie.',
+    link: 'https://www.etsy.com/listing/1120619399/happy-howler-days-35-4-pine-wood'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/22469851/r/il/eef951/4344774432/il_794xN.4344774432_tgs7.jpg',
+    name: 'Bloody Damn Goblin Wax Melts: Unicorn Poop Scented',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'LiteraryLeoCo',
+      url: 'https://www.etsy.com/shop/LiteraryLeoCo'
+    },
+    description:
+      'Help cover up the smell of dead fish in your room with these wax melts inspired by Sevro from Red Rising! ;)',
+    link: 'https://www.etsy.com/listing/1328197257/bloody-damn-goblin-wax-melts-unicorn'
   }
 ];
 
