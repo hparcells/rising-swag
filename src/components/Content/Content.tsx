@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { Alert, Text } from '@mantine/core';
+import { useEffect, useRef, useState } from 'react';
+import { Alert, Pagination, Text } from '@mantine/core';
 import { IconTrafficCone } from '@tabler/icons-react';
 import clsx from 'clsx';
 
@@ -16,7 +16,11 @@ import { IItem } from '@/types/item';
 function Content() {
   const { filter } = useFilter();
 
+  const topCards = useRef<HTMLDivElement>(null);
+
   const [filteredData, setFilteredData] = useState<IItem[]>(null as any);
+  const [pages, setPages] = useState<number>(1);
+  const [page, setPage] = useState<number>(1);
   useEffect(() => {
     setFilteredData(
       ALL_DATA.filter((item) => {
@@ -59,11 +63,20 @@ function Content() {
         })
     );
   }, [filter]);
+  useEffect(() => {
+    if (!filteredData) {
+      return;
+    }
+    setPages(Math.ceil(filteredData.length / 30));
+  }, [filteredData]);
+  useEffect(() => {
+    setPage(1);
+  }, [filter]);
 
   return (
     <div className={classes.root}>
       <div className={classes.content}>
-        <div className={clsx(classes.aboveCards, classes.squeeze)}>
+        <div className={clsx(classes.aboveCards, classes.squeeze)} ref={topCards}>
           {/* TODO: Remove this. */}
           <Alert
             icon={<IconTrafficCone size='1rem' />}
@@ -123,12 +136,22 @@ function Content() {
                 .map((item, i) => {
                   return <ItemCard item={item} key={i} />;
                 })
+                .splice((page - 1) * 30, 30)
             ) : (
               <p>No results</p>
             )
           ) : (
             <p>Loading...</p>
           )}
+          <Pagination
+            total={pages}
+            value={page}
+            onChange={(newPage) => {
+              setPage(newPage);
+              topCards.current?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            style={{ margin: '1em 0' }}
+          />
         </div>
       </div>
     </div>
