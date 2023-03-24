@@ -87,6 +87,19 @@ const data: IItem[] = [
     },
     description: 'Quotes from Red Rising on bookmarks. Shipped from Canada.',
     link: 'https://www.etsy.com/listing/1207264359/red-rising-saga-quote-bookmarks'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/26674192/r/il/f1b1d8/2838024013/il_794xN.2838024013_pz88.jpg',
+    name: 'Double Sided Darrow and Sevro Bookmark Set',
+    tags: ['bookmark', 'darrow', 'sevro'],
+    shop: {
+      name: 'HailReaperPod',
+      url: 'https://www.etsy.com/shop/HailReaperPod'
+    },
+    description:
+      'Per Aspera Ad Astra and Omnis Vir Lupus designs with the Hail Reaper Podcast logo on the back.',
+    link: 'https://www.etsy.com/listing/927528172/darrow-and-sevro-bookmark-set-2x6-double'
   }
 ];
 

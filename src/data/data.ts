@@ -1,6 +1,7 @@
 import bookmarks from './bookmarks';
 import books from './books';
 import clothing from './clothing';
+import digital from './digital';
 import discs from './discs';
 import hats from './hats';
 import hoodies from './hoodies';
@@ -20,6 +21,7 @@ export const ALL_DATA = [
   ...bookmarks,
   ...books,
   ...clothing,
+  ...digital,
   ...discs,
   ...hats,
   ...hoodies,

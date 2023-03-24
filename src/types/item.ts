@@ -18,6 +18,7 @@ export const MERCH_TYPE = [
   'magnet',
   'water-bottle',
   'bookmark',
+  'digital',
   'other'
 ] as const;
 
