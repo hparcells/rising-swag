@@ -220,6 +220,18 @@ const data: IItem[] = [
     },
     description: "A mug with LiveForMore's wolf design and stars.",
     link: 'https://www.etsy.com/listing/1410341807/howler-red-rising-white-ceramic-mug'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/25476777/r/il/c47786/3669093522/il_794xN.3669093522_jand.jpg',
+    name: 'Red Rising Enamel Mug',
+    tags: ['mug', 'darrow'],
+    shop: {
+      name: 'RavenPostCo',
+      url: 'https://www.etsy.com/shop/RavenPostCo'
+    },
+    description: 'Enamel mug with the quote "I am the reaper and death is my shadow." on it.',
+    link: 'https://www.etsy.com/listing/1179073715/red-rising-enamel-mug'
   }
 ];
 

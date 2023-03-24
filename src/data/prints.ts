@@ -240,6 +240,18 @@ const data: IItem[] = [
     },
     description: 'Features a SlingBlade with the quote: "I am the Reaper, and death is my shadow."',
     link: 'https://www.etsy.com/listing/926281316/darrow-of-lykos-11x17-print-the-reaper'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/25476777/r/il/732368/3716768105/il_794xN.3716768105_f7be.jpg',
+    name: 'Red Rising Print',
+    tags: ['print', 'darrow'],
+    shop: {
+      name: 'RavenPostCo',
+      url: 'https://www.etsy.com/shop/RavenPostCo'
+    },
+    description: 'I would have lived in peace, but my enemies brought me war.',
+    link: 'https://www.etsy.com/listing/1179091611/red-rising-print'
   }
 ];
 
