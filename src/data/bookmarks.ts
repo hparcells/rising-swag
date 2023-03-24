@@ -100,6 +100,18 @@ const data: IItem[] = [
     description:
       'Per Aspera Ad Astra and Omnis Vir Lupus designs with the Hail Reaper Podcast logo on the back.',
     link: 'https://www.etsy.com/listing/927528172/darrow-and-sevro-bookmark-set-2x6-double'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/18049756/r/il/643ce2/3083336175/il_794xN.3083336175_gjpe.jpg',
+    name: 'Red Rising "Reaper" Bookmark',
+    tags: ['bookmark', 'darrow'],
+    shop: {
+      name: 'BookBookOwl',
+      url: 'https://www.etsy.com/shop/BookBookOwl'
+    },
+    description: 'Bookmark with "I am the Reaper and death is my shadow" on it.',
+    link: 'https://www.etsy.com/listing/992787322/red-rising-reaper-bookmark'
   }
 ];
 
