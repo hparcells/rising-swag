@@ -76,7 +76,7 @@ function Content() {
   return (
     <div className={classes.root}>
       <div className={classes.content}>
-        <div className={clsx(classes.aboveCards, classes.squeeze)} ref={topCards}>
+        <div className={clsx(classes.aboveCards, classes.squeeze)}>
           {/* TODO: Remove this. */}
           <Alert
             icon={<IconTrafficCone size='1rem' />}
@@ -94,7 +94,7 @@ function Content() {
 
           {/* This has got to be the worst code I've written. */}
           {filteredData && (
-            <Text mb='sm'>
+            <Text mb='sm' ref={topCards}>
               Showing{' '}
               {
                 filteredData.filter((item) => {
@@ -143,16 +143,16 @@ function Content() {
           ) : (
             <p>Loading...</p>
           )}
-          <Pagination
-            total={pages}
-            value={page}
-            onChange={(newPage) => {
-              setPage(newPage);
-              topCards.current?.scrollIntoView({ behavior: 'smooth' });
-            }}
-            style={{ margin: '1em 0' }}
-          />
         </div>
+        <Pagination
+          total={pages}
+          value={page}
+          onChange={(newPage) => {
+            setPage(newPage);
+            topCards.current?.scrollIntoView({ behavior: 'smooth' });
+          }}
+          className={classes.pagination}
+        />
       </div>
     </div>
   );
