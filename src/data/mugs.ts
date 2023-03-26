@@ -164,7 +164,7 @@ const data: IItem[] = [
     date: '2023-03-14',
     image: 'https://i.etsystatic.com/16046340/r/il/fcca0a/1531117547/il_794xN.1531117547_1n03.jpg',
     name: 'Stronger than the Shield of Tinos Mug',
-    tags: ['mug'],
+    tags: ['mug', 'ragnar'],
     shop: {
       name: 'CreativeLeighCrafts',
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'

@@ -469,7 +469,7 @@ const data: IItem[] = [
     date: '2023-03-15',
     image: 'https://i.etsystatic.com/21279369/r/il/f0ab49/2278191353/il_794xN.2278191353_i0qi.jpg',
     name: 'Hyrg La Ragnar T-Shirt',
-    tags: ['shirt'],
+    tags: ['shirt', 'ragnar'],
     shop: {
       name: 'TheMightyPenBookTees',
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
@@ -675,7 +675,7 @@ const data: IItem[] = [
     date: '2023-03-16',
     image: 'https://i.etsystatic.com/10165646/r/il/1d5075/4581195161/il_794xN.4581195161_g1mj.jpg',
     name: 'Let Fall the Rain Tee',
-    tags: ['shirt'],
+    tags: ['shirt', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -687,7 +687,7 @@ const data: IItem[] = [
     date: '2023-03-16',
     image: 'https://i.etsystatic.com/10165646/r/il/c36c9f/4581207597/il_794xN.4581207597_qrga.jpg',
     name: 'Let Fall the Rain Long Sleeve Tee',
-    tags: ['shirt'],
+    tags: ['shirt', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -699,7 +699,7 @@ const data: IItem[] = [
     date: '2023-03-16',
     image: 'https://i.etsystatic.com/10165646/r/il/6e92c4/4533835632/il_794xN.4533835632_jkml.jpg',
     name: 'Goblin Mode Long Sleeve Tee',
-    tags: ['shirt'],
+    tags: ['shirt', 'sevro'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -712,7 +712,7 @@ const data: IItem[] = [
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/4bdad6/4533830312/il_794xN.4533830312_iqcl.jpg',
     name: 'Goblin Mode Tee',
-    tags: ['shirt'],
+    tags: ['shirt', 'sevro'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -798,7 +798,7 @@ const data: IItem[] = [
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/26aad5/4589926595/il_794xN.4589926595_lsi7.jpg',
     name: "You're Making Me Emotional Tee",
-    tags: ['shirt'],
+    tags: ['shirt', 'victra'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'

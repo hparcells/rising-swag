@@ -109,7 +109,7 @@ const data: IItem[] = [
     image:
       'https://milesbenskydesigns.square.site/uploads/1/4/1/5/141543876/s308665402237166980_p7_i1_w3024.jpeg',
     name: 'Victra Art Print (8" x 10")',
-    tags: ['print'],
+    tags: ['print', 'victra'],
     shop: {
       name: 'Miles Bensky Designs',
       url: 'https://milesbenskydesigns.square.site/'
@@ -160,7 +160,7 @@ const data: IItem[] = [
     date: '2023-03-15',
     image: 'https://i.etsystatic.com/21279369/r/il/595c8a/2710527910/il_794xN.2710527910_oxl9.jpg',
     name: 'Persephone Poster',
-    tags: ['print'],
+    tags: ['print', 'eo'],
     shop: {
       name: 'TheMightyPenBookTees',
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'

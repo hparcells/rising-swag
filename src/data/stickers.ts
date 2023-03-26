@@ -97,7 +97,7 @@ const data: IItem[] = [
     date: '2023-03-16',
     image: 'https://i.etsystatic.com/10165646/r/il/416c57/4674871087/il_794xN.4674871087_flcg.jpg',
     name: 'Let Fall the Rain Metallic Sticker',
-    tags: ['sticker'],
+    tags: ['sticker', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -136,7 +136,7 @@ const data: IItem[] = [
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/33013c/3526099618/il_794xN.3526099618_ja19.jpg',
     name: 'Ragnar Sticker',
-    tags: ['sticker'],
+    tags: ['sticker', 'ragnar'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -148,7 +148,7 @@ const data: IItem[] = [
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/0b8743/3788671150/il_794xN.3788671150_1gh5.jpg',
     name: 'Let Fall the Rain Holographic Sticker',
-    tags: ['sticker'],
+    tags: ['sticker', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -393,7 +393,7 @@ const data: IItem[] = [
     date: '2023-03-21',
     image: 'https://i.etsystatic.com/10165646/r/il/f79e63/3299282148/il_794xN.3299282148_moux.jpg',
     name: '"Sevro is my Spirit Animal" Sticker',
-    tags: ['sticker'],
+    tags: ['sticker', 'sevro'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -406,7 +406,7 @@ const data: IItem[] = [
     date: '2023-03-21',
     image: 'https://i.etsystatic.com/10165646/r/il/f6d928/2795249950/il_794xN.2795249950_lxk3.jpg',
     name: '"You\'re Making Me Emotional" Sticker',
-    tags: ['sticker'],
+    tags: ['sticker', 'victra'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -444,7 +444,7 @@ const data: IItem[] = [
     date: '2023-03-26',
     image: 'https://i.etsystatic.com/12557146/r/il/1c29d1/4587203451/il_794xN.4587203451_egzj.jpg',
     name: 'Break the Chains Sticker',
-    tags: ['sticker'],
+    tags: ['sticker', 'eo'],
     shop: {
       name: 'thebookishbeeco',
       url: 'https://www.etsy.com/shop/thebookishbeeco'

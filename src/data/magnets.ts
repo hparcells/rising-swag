@@ -18,7 +18,7 @@ const data: IItem[] = [
     date: '2023-03-20',
     image: 'https://i.etsystatic.com/10165646/r/il/f3ed12/3836311853/il_794xN.3836311853_d2al.jpg',
     name: 'Let Fall the Rain Magnet',
-    tags: ['magnet'],
+    tags: ['magnet', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'

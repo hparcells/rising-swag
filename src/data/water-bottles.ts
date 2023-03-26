@@ -17,7 +17,7 @@ const data: IItem[] = [
     date: '2023-03-16',
     image: 'https://i.etsystatic.com/10165646/r/il/63ac72/4663526087/il_794xN.4663526087_9k8l.jpg',
     name: 'Let Fall the Rain Water Bottle',
-    tags: ['water-bottle'],
+    tags: ['water-bottle', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'

@@ -20,7 +20,7 @@ const data: IItem[] = [
     image:
       'https://milesbenskydesigns.square.site/uploads/1/4/1/5/141543876/s308665402237166980_p17_i1_w3024.jpeg',
     name: 'Stained Warrior (Gateway Warrior Superglow)',
-    tags: ['disc'],
+    tags: ['disc', 'ragnar'],
     shop: {
       name: 'Miles Bensky Designs',
       url: 'https://milesbenskydesigns.square.site/'

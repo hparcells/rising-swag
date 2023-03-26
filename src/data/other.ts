@@ -47,7 +47,7 @@ const data: IItem[] = [
     date: '2023-03-14',
     image: 'https://i.etsystatic.com/16046340/r/il/ca538f/4144213339/il_794xN.4144213339_n2sc.jpg',
     name: 'Home - Wolf Bookmark',
-    tags: ['other'],
+    tags: ['other', 'roque'],
     shop: {
       name: 'CreativeLeighCrafts',
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
@@ -122,7 +122,7 @@ const data: IItem[] = [
     date: '2023-03-15',
     image: 'https://i.etsystatic.com/21279369/r/il/05f0e5/3137447025/il_794xN.3137447025_pp8q.jpg',
     name: 'Live for More Spiral Notebook',
-    tags: ['other'],
+    tags: ['other', 'eo'],
     shop: {
       name: 'TheMightyPenBookTees',
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
@@ -234,7 +234,7 @@ const data: IItem[] = [
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/12a8cb/4594485388/il_794xN.4594485388_8a4y.jpg',
     name: 'Let Fall the Rain Can Cooler',
-    tags: ['other'],
+    tags: ['other', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
