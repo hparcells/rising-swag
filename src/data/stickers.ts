@@ -426,6 +426,19 @@ const data: IItem[] = [
     },
     description: 'High quality vinyl stickers of the wolf of House Mars.',
     link: 'https://www.etsy.com/listing/1235336532/omnis-vir-lupus-red-rising-howlers-book'
+  },
+  {
+    date: '2023-03-26',
+    image: 'https://i.etsystatic.com/28288409/r/il/268512/3064902715/il_794xN.3064902715_2ems.jpg',
+    name: 'Per Aspera Ad Astra Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'HCBookishDesigns',
+      url: 'https://www.etsy.com/shop/HCBookishDesigns'
+    },
+    description:
+      'Through hardships to the stars. A gorgeous matte vinyl die-cut sticker with the latin phrase: Per Aspera Ad Astra.',
+    link: 'https://www.etsy.com/listing/1001800857/ad-astra-75cm-round-diecut-vinyl-sci-fi'
   }
 ];
 
