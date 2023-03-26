@@ -439,6 +439,18 @@ const data: IItem[] = [
     description:
       'Through hardships to the stars. A gorgeous matte vinyl die-cut sticker with the latin phrase: Per Aspera Ad Astra.',
     link: 'https://www.etsy.com/listing/1001800857/ad-astra-75cm-round-diecut-vinyl-sci-fi'
+  },
+  {
+    date: '2023-03-26',
+    image: 'https://i.etsystatic.com/12557146/r/il/1c29d1/4587203451/il_794xN.4587203451_egzj.jpg',
+    name: 'Break the Chains Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'thebookishbeeco',
+      url: 'https://www.etsy.com/shop/thebookishbeeco'
+    },
+    description: 'A sticker depicting Eo with the text: "Break the Chains My Love"',
+    link: 'https://www.etsy.com/listing/1383526266/break-the-chains-my-love-vinyl'
   }
 ];
 
