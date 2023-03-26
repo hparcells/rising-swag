@@ -516,6 +516,18 @@ const data: IItem[] = [
     description:
       'Help cover up the smell of dead fish in your room with these wax melts inspired by Sevro from Red Rising! ;)',
     link: 'https://www.etsy.com/listing/1328197257/bloody-damn-goblin-wax-melts-unicorn'
+  },
+  {
+    date: '2023-03-26',
+    image: 'https://i.etsystatic.com/14027028/r/il/beb6f8/1528102094/il_794xN.1528102094_g267.jpg',
+    name: 'I Would Have Lived in Peace Wine Glass',
+    tags: ['other', 'darrow'],
+    shop: {
+      name: 'EnchantedFandom',
+      url: 'https://www.etsy.com/shop/EnchantedFandom'
+    },
+    description: 'A glittered wine glass with high quality vinyl.',
+    link: 'https://www.etsy.com/listing/620537679/red-rising-by-pierce-brown-glittered'
   }
 ];
 

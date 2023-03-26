@@ -112,6 +112,19 @@ const data: IItem[] = [
     },
     description: 'Bookmark with "I am the Reaper and death is my shadow" on it.',
     link: 'https://www.etsy.com/listing/992787322/red-rising-reaper-bookmark'
+  },
+  {
+    date: '2023-03-26',
+    image: 'https://i.etsystatic.com/14027028/r/il/74dcbd/2089199288/il_794xN.2089199288_ljur.jpg',
+    name: 'Red Rising Bookmarks',
+    tags: ['bookmark'],
+    shop: {
+      name: 'EnchantedFandom',
+      url: 'https://www.etsy.com/shop/EnchantedFandom'
+    },
+    description:
+      'Set of 4 bookmarks. Bookmarks were featured in one of Enchanted Fandoms monthly box.',
+    link: 'https://www.etsy.com/listing/754253885/red-rising-bookmarks'
   }
 ];
 
