@@ -137,6 +137,19 @@ const data: IItem[] = [
     },
     description: 'Magnetic bookmark of a cartoon-esque Darrow.',
     link: 'https://www.etsy.com/listing/661157735/red-rising-darrow-magnetic-bookmarks-red'
+  },
+  {
+    date: '2023-03-27',
+    image: 'https://i.etsystatic.com/28787456/r/il/07d790/3681673801/il_794xN.3681673801_9bhm.jpg',
+    name: '"Forget a Man\'s Name" Bookmark',
+    tags: ['bookmark', 'morning-star'],
+    shop: {
+      name: 'TheRainbowCourt',
+      url: 'https://www.etsy.com/shop/TheRainbowCourt'
+    },
+    description:
+      "Features the quote \"Forget a man's name and he'll forgive you. Remember it, and he'll defend you forever.\"",
+    link: 'https://www.etsy.com/listing/1110349846/morning-star-inspired-bookmark'
   }
 ];
 
