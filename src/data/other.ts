@@ -528,6 +528,18 @@ const data: IItem[] = [
     },
     description: 'A glittered wine glass with high quality vinyl.',
     link: 'https://www.etsy.com/listing/620537679/red-rising-by-pierce-brown-glittered'
+  },
+  {
+    date: '2023-03-26',
+    image: 'https://i.etsystatic.com/14520538/r/il/c2bcc3/2837260049/il_794xN.2837260049_fp33.jpg',
+    name: 'Darrow O’Lykos Lip Balm',
+    tags: ['other', 'darrow'],
+    shop: {
+      name: 'BookishBalms',
+      url: 'https://www.etsy.com/shop/BookishBalms'
+    },
+    description: 'Darrow is scented of cucumber melon and lime!',
+    link: 'https://www.etsy.com/listing/941229303/darrow-olykos-lip-balm-red-rising'
   }
 ];
 
