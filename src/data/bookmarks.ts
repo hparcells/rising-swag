@@ -125,6 +125,18 @@ const data: IItem[] = [
     description:
       'Set of 4 bookmarks. Bookmarks were featured in one of Enchanted Fandoms monthly box.',
     link: 'https://www.etsy.com/listing/754253885/red-rising-bookmarks'
+  },
+  {
+    date: '2023-03-26',
+    image: 'https://i.etsystatic.com/13764311/r/il/968fe0/2501319969/il_794xN.2501319969_llxr.jpg',
+    name: 'Darrow Magnetic Bookmark',
+    tags: ['bookmark', 'darrow'],
+    shop: {
+      name: 'byEpikPage',
+      url: 'https://www.etsy.com/shop/byEpikPage'
+    },
+    description: 'Magnetic bookmark of a cartoon-esque Darrow.',
+    link: 'https://www.etsy.com/listing/661157735/red-rising-darrow-magnetic-bookmarks-red'
   }
 ];
 
