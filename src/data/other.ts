@@ -540,6 +540,30 @@ const data: IItem[] = [
     },
     description: 'Darrow is scented of cucumber melon and lime!',
     link: 'https://www.etsy.com/listing/941229303/darrow-olykos-lip-balm-red-rising'
+  },
+  {
+    date: '2023-03-27',
+    image: 'https://i.etsystatic.com/17490952/r/il/612087/2775387517/il_794xN.2775387517_h67z.jpg',
+    name: 'Red Rising Inspired Candles',
+    tags: ['other', 'darrow', 'sevro', 'mustang'],
+    shop: {
+      name: 'firenationcreations',
+      url: 'https://www.etsy.com/shop/firenationcreations'
+    },
+    description: 'Choose from Darrow, Mustang, or Sevro candles in 6 oz or 4 oz jars.',
+    link: 'https://www.etsy.com/listing/903972668/red-rising-inspired-candles'
+  },
+  {
+    date: '2023-03-27',
+    image: 'https://i.etsystatic.com/17490952/r/il/90c117/2830626924/il_794xN.2830626924_nybs.jpg',
+    name: 'Song of Persephone Candle',
+    tags: ['other', 'eo'],
+    shop: {
+      name: 'firenationcreations',
+      url: 'https://www.etsy.com/shop/firenationcreations'
+    },
+    description: "Red Rising candle from firenationcreations's Stuck in Space box.",
+    link: 'https://www.etsy.com/listing/952004495/stuck-in-space-sci-fi-box-candles?variation0=1787670255'
   }
 ];
 
