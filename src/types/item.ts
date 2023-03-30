@@ -20,6 +20,8 @@ export const MERCH_TYPE = [
   'bookmark',
   'digital',
   'book',
+  'drinkware',
+  'notebook',
   'other'
 ] as const;
 

@@ -5,7 +5,7 @@ const data: IItem[] = [
     date: '2023-03-16',
     image: 'https://i.etsystatic.com/10165646/r/il/9c1d99/4594595166/il_1140xN.4594595166_dwbl.jpg',
     name: 'Custom Howler Name Water Bottle',
-    tags: ['water-bottle'],
+    tags: ['drinkware', 'water-bottle'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -29,7 +29,7 @@ const data: IItem[] = [
     date: '2023-03-16',
     image: 'https://i.etsystatic.com/10165646/r/il/861776/4615278470/il_794xN.4615278470_6jk9.jpg',
     name: 'Omnis Vir Lupus Water Bottle',
-    tags: ['water-bottle'],
+    tags: ['drinkware', 'water-bottle'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -41,7 +41,7 @@ const data: IItem[] = [
     date: '2023-03-20',
     image: 'https://i.etsystatic.com/10165646/r/il/593cc4/4529899613/il_794xN.4529899613_c1at.jpg',
     name: 'Hail Libertas Hail Reaper Water Bottle',
-    tags: ['water-bottle'],
+    tags: ['drinkware', 'water-bottle'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'

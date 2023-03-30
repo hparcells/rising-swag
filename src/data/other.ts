@@ -16,47 +16,6 @@ const data: IItem[] = [
     link: 'https://www.lit-escalates.com/collections/home-goods/products/mangy-angel-engraved-pet-id-tag'
   },
   {
-    date: '2023-03-13',
-    image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/all-over-print-premium-face-mask-white-front-612516771ce0b_1024x1024.jpg',
-    name: 'Sophocles Face Mask',
-    tags: ['other', 'official'],
-    shop: {
-      name: 'Lit Escalates',
-      url: 'https://www.lit-escalates.com/'
-    },
-    description:
-      "With the Delta Variant raging, we figure it was time to spice up the ol' mask collection. We asked Alexis over at Nerdy Ink to help out and she came through like a boss with this adorable Sophocles illustration.",
-    link: 'https://www.lit-escalates.com/collections/apparel/products/sophocles-face-mask'
-  },
-  {
-    date: '2023-03-13',
-    image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/all-over-print-premium-face-mask-black-front-61251a63d6da4_1024x1024.jpg',
-    name: 'Iron Gold Map Face Mask',
-    tags: ['other', 'iron-gold', 'official'],
-    shop: {
-      name: 'Lit Escalates',
-      url: 'https://www.lit-escalates.com/'
-    },
-    description:
-      "With the Delta Variant raging we figured it was time to spice up the ol' mask collection.",
-    link: 'https://www.lit-escalates.com/collections/apparel/products/iron-gold-map-face-mask'
-  },
-  {
-    date: '2023-03-14',
-    image: 'https://i.etsystatic.com/16046340/r/il/ca538f/4144213339/il_794xN.4144213339_n2sc.jpg',
-    name: 'Home - Wolf Bookmark',
-    tags: ['other', 'roque'],
-    shop: {
-      name: 'CreativeLeighCrafts',
-      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
-    },
-    description:
-      'Book mark with "Home isn\'t where you\'re from, it\'s where you find light when all grows dark." on one side and "Hic Est Lupus Motherfucker" on the other.',
-    link: 'https://www.etsy.com/listing/1289914959/home-wolf-bookmark'
-  },
-  {
     date: '2023-03-14',
     image: 'https://i.etsystatic.com/29764445/r/il/c169c3/3801211612/il_794xN.3801211612_9c1a.jpg',
     name: 'Finished SlingBlade',
@@ -93,104 +52,6 @@ const data: IItem[] = [
     },
     description: "Mustang's razor kit comes in 5 pieces and is printed in PLA plastic.",
     link: 'https://www.etsy.com/listing/1216893789/mustangs-razor-kit'
-  },
-  {
-    date: '2023-03-15',
-    image: 'https://i.etsystatic.com/21279369/r/il/b4db55/3089728740/il_794xN.3089728740_nmlh.jpg',
-    name: 'Ares Riding a Unicorn Spiral Notebook',
-    tags: ['other', 'sevro'],
-    shop: {
-      name: 'TheMightyPenBookTees',
-      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
-    },
-    description: 'A 100 page notebook with a cover featuring Ares riding a unicorn.',
-    link: 'https://www.etsy.com/listing/1007323758/ares-riding-a-unicorn-spiral-notebook'
-  },
-  {
-    date: '2023-03-15',
-    image: 'https://i.etsystatic.com/21279369/r/il/cde421/3089726076/il_794xN.3089726076_apt9.jpg',
-    name: 'Sleepy Sophocles Spiral Notebook',
-    tags: ['other'],
-    shop: {
-      name: 'TheMightyPenBookTees',
-      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
-    },
-    description: 'A 100 page notebook with a cover featuring a sleepy Sophocles.',
-    link: 'https://www.etsy.com/listing/1021299251/sleepy-sophocles-spiral-notebook'
-  },
-  {
-    date: '2023-03-15',
-    image: 'https://i.etsystatic.com/21279369/r/il/05f0e5/3137447025/il_794xN.3137447025_pp8q.jpg',
-    name: 'Live for More Spiral Notebook',
-    tags: ['other', 'eo'],
-    shop: {
-      name: 'TheMightyPenBookTees',
-      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
-    },
-    description: 'A 100 page notebook with a cover featuring Eo and the words "Live for More".',
-    link: 'https://www.etsy.com/listing/1007320876/live-for-more-spiral-notebook'
-  },
-  {
-    date: '2023-03-15',
-    image: 'https://i.etsystatic.com/21279369/r/il/629444/3089719988/il_794xN.3089719988_s7a9.jpg',
-    name: 'Hic Sunt Leones Spiral Notebook',
-    tags: ['other'],
-    shop: {
-      name: 'TheMightyPenBookTees',
-      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
-    },
-    description:
-      'A 100 page notebook with a cover featuring a lion and the words "Hic Sunt Leones".',
-    link: 'https://www.etsy.com/listing/1021297643/hic-sunt-leones-spiral-notebook'
-  },
-  {
-    date: '2023-03-15',
-    image: 'https://i.etsystatic.com/21279369/r/il/7cc179/3089699702/il_794xN.3089699702_rqls.jpg',
-    name: 'Per Aspera Ad Astra Spiral Notebook',
-    tags: ['other'],
-    shop: {
-      name: 'TheMightyPenBookTees',
-
-      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
-    },
-    description: 'A 100 page notebook with a cover with "Per Aspera Ad Astra".',
-    link: 'https://www.etsy.com/listing/1021292115/per-aspera-ad-astra-spiral-notebook'
-  },
-  {
-    date: '2023-03-15',
-    image: 'https://i.etsystatic.com/21279369/r/il/814bad/3137433845/il_794xN.3137433845_4mu5.jpg',
-    name: 'Howler Spiral Notebook',
-    tags: ['other'],
-    shop: {
-      name: 'TheMightyPenBookTees',
-      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
-    },
-    description: 'A 100 page notebook with a wolf on its cover.',
-    link: 'https://www.etsy.com/listing/1021293771/howler-spiral-notebook'
-  },
-  {
-    date: '2023-03-15',
-    image: 'https://i.etsystatic.com/21279369/r/il/545a57/3089710138/il_794xN.3089710138_plky.jpg',
-    name: 'Howler GhostCloak Edition Spiral Notebook',
-    tags: ['other'],
-    shop: {
-      name: 'TheMightyPenBookTees',
-      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
-    },
-    description: 'A 100 page notebook with a wolf on its cover. Special GhostCloak Edition.',
-    link: 'https://www.etsy.com/listing/1007319110/howler-ghostcloak-edition-spiral'
-  },
-  {
-    date: '2023-03-15',
-    image: 'https://i.etsystatic.com/21279369/r/il/1f109e/3137437137/il_794xN.3137437137_qgux.jpg',
-    name: 'S is for Sophocles Spiral Notebook',
-    tags: ['other'],
-    shop: {
-      name: 'TheMightyPenBookTees',
-      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
-    },
-    description: 'A 100 page notebook with a cover featuring Sophocles in the letter S.',
-    link: 'https://www.etsy.com/listing/1021294489/s-is-for-sophocles-spiral-notebook'
   },
   {
     date: '2023-03-15',
@@ -519,18 +380,6 @@ const data: IItem[] = [
   },
   {
     date: '2023-03-26',
-    image: 'https://i.etsystatic.com/14027028/r/il/beb6f8/1528102094/il_794xN.1528102094_g267.jpg',
-    name: 'I Would Have Lived in Peace Wine Glass',
-    tags: ['other', 'darrow'],
-    shop: {
-      name: 'EnchantedFandom',
-      url: 'https://www.etsy.com/shop/EnchantedFandom'
-    },
-    description: 'A glittered wine glass with high quality vinyl.',
-    link: 'https://www.etsy.com/listing/620537679/red-rising-by-pierce-brown-glittered'
-  },
-  {
-    date: '2023-03-26',
     image: 'https://i.etsystatic.com/14520538/r/il/c2bcc3/2837260049/il_794xN.2837260049_fp33.jpg',
     name: 'Darrow O’Lykos Lip Balm',
     tags: ['other', 'darrow'],
@@ -540,42 +389,6 @@ const data: IItem[] = [
     },
     description: 'Darrow is scented of cucumber melon and lime!',
     link: 'https://www.etsy.com/listing/941229303/darrow-olykos-lip-balm-red-rising'
-  },
-  {
-    date: '2023-03-27',
-    image: 'https://i.etsystatic.com/17490952/r/il/612087/2775387517/il_794xN.2775387517_h67z.jpg',
-    name: 'Red Rising Inspired Candles',
-    tags: ['other', 'darrow', 'sevro', 'mustang'],
-    shop: {
-      name: 'firenationcreations',
-      url: 'https://www.etsy.com/shop/firenationcreations'
-    },
-    description: 'Choose from Darrow, Mustang, or Sevro candles in 6 oz or 4 oz jars.',
-    link: 'https://www.etsy.com/listing/903972668/red-rising-inspired-candles'
-  },
-  {
-    date: '2023-03-27',
-    image: 'https://i.etsystatic.com/17490952/r/il/90c117/2830626924/il_794xN.2830626924_nybs.jpg',
-    name: 'Song of Persephone Candle',
-    tags: ['other', 'eo'],
-    shop: {
-      name: 'firenationcreations',
-      url: 'https://www.etsy.com/shop/firenationcreations'
-    },
-    description: "Red Rising candle from firenationcreations's Stuck in Space box.",
-    link: 'https://www.etsy.com/listing/952004495/stuck-in-space-sci-fi-box-candles?variation0=1787670255'
-  },
-  {
-    date: '2023-03-29',
-    image: 'https://i.etsystatic.com/18861441/r/il/6e4cca/3412295655/il_794xN.3412295655_leco.jpg',
-    name: 'Red Rising Themed Candles',
-    tags: ['other', 'darrow', 'eo', 'sevro', 'mustang'],
-    shop: {
-      name: 'InTheBooksWeFindUs',
-      url: 'https://www.etsy.com/shop/InTheBooksWeFindUs'
-    },
-    description: 'Red Rising themed candles. Choose from Darrow, Eo, Sevro, or Mustang.',
-    link: 'https://www.etsy.com/listing/765659952/candele-a-tema-red-rising-2-oz'
   }
 ];
 
