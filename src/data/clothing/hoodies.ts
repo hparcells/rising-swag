@@ -179,30 +179,6 @@ const data: IItem[] = [
     },
     description: 'LiveForMores Omnis vir Lupus design on a hoodie.',
     link: 'https://www.etsy.com/listing/1396123364/red-rising-omnis-vir-lupus-darrow-howler'
-  },
-  {
-    date: '2023-03-21',
-    image: 'https://i.etsystatic.com/10165646/r/il/8dd3fb/4614481191/il_794xN.4614481191_3gpt.jpg',
-    name: 'Omnis Vir Lupus Toddler Hoodie',
-    tags: ['hoodie'],
-    shop: {
-      name: 'LiveForMore',
-      url: 'https://www.etsy.com/shop/LiveForMore'
-    },
-    description: 'Omnis vir Lupus design on a toddler hoodie.',
-    link: 'https://www.etsy.com/listing/1403966849/red-rising-omnis-vir-lupus-toddler'
-  },
-  {
-    date: '2023-03-21',
-    image: 'https://i.etsystatic.com/10165646/r/il/80d25f/4614374225/il_1140xN.4614374225_egt7.jpg',
-    name: 'Omnis Vir Lupus Toddler Hoodie',
-    tags: ['hoodie'],
-    shop: {
-      name: 'LiveForMore',
-      url: 'https://www.etsy.com/shop/LiveForMore'
-    },
-    description: 'Omnis vir Lupus design on a toddler hoodie.',
-    link: 'https://www.etsy.com/listing/1403942321/red-rising-omnis-vir-lupus-toddler'
   }
 ];
 

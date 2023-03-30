@@ -6,7 +6,7 @@ const data: IItem[] = [
     image:
       'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/all-over-print-premium-face-mask-white-front-612516771ce0b_1024x1024.jpg',
     name: 'Sophocles Face Mask',
-    tags: ['other', 'official'],
+    tags: ['mask', 'official'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
@@ -20,7 +20,7 @@ const data: IItem[] = [
     image:
       'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/all-over-print-premium-face-mask-black-front-61251a63d6da4_1024x1024.jpg',
     name: 'Iron Gold Map Face Mask',
-    tags: ['other', 'iron-gold', 'official'],
+    tags: ['mask', 'iron-gold', 'official'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
