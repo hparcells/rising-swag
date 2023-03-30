@@ -953,6 +953,19 @@ const data: IItem[] = [
     },
     description: 'A plain shirt featuring the classic wolf of House Mars.',
     link: 'https://teeherivar.com/product/red-rising-the-howlers-sevro-au-barca-darrow/'
+  },
+  {
+    date: '2023-03-30',
+    image: 'https://i.etsystatic.com/18738093/r/il/bfd5ce/4606134316/il_794xN.4606134316_jt6a.jpg',
+    name: 'Red Rising Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'BertieandMo',
+      url: 'https://www.etsy.com/shop/BertieandMo'
+    },
+    description:
+      'A unique Red Rising shirt with the design on the covers of the FairyLoot editions of the books.',
+    link: 'https://www.etsy.com/listing/1398507990/reaper-howlers-sweatshirt-sevro-au-barca'
   }
 ];
 
