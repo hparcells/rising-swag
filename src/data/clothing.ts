@@ -903,6 +903,32 @@ const data: IItem[] = [
     description:
       'Features the cover art from the Red Rising board game masked by the wolf of Mars.',
     link: 'https://www.etsy.com/listing/1031554094/red-rising-board-game-t-shirt-short'
+  },
+  {
+    date: '2023-03-29',
+    image: 'https://i.etsystatic.com/36119472/r/il/e4fb5b/4539377172/il_794xN.4539377172_jph1.jpg',
+    name: 'A Sage Digs The Roots Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'TooManyBones',
+      url: 'https://www.etsy.com/shop/TooManyBones'
+    },
+    description:
+      'Spread the Red Rising love by representing one of Old Stone Sides great proverbs!',
+    link: 'https://www.etsy.com/listing/1383421762/a-sage-digs-the-roots-red-rising-lorn-au'
+  },
+  {
+    date: '2023-03-29',
+    image: 'https://i.etsystatic.com/36119472/r/il/3f3902/4539504926/il_794xN.4539504926_ts4h.jpg',
+    name: 'A Sage Digs The Roots Tank',
+    tags: ['shirt'],
+    shop: {
+      name: 'TooManyBones',
+      url: 'https://www.etsy.com/shop/TooManyBones'
+    },
+    description:
+      'Suns out guns out! Take your love for the world of Pierce Brown out in the world in maximum comfort!',
+    link: 'https://www.etsy.com/listing/1383453636/fantasy-tank-top-a-sage-digs-the-roots'
   }
 ];
 
