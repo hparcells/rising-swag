@@ -94,12 +94,19 @@ function FilterBox() {
             }}
           />
         </Group>
-        <Group>
+        <Group style={{ flexDirection: 'column' }} align='flex-start'>
           <Checkbox
             label='Show expired items'
             checked={filter.showExpired}
             onChange={(event) => {
               updateFilter({ showExpired: event.currentTarget.checked });
+            }}
+          />
+          <Checkbox
+            label='Full width'
+            checked={filter.fullWidth}
+            onChange={(event) => {
+              updateFilter({ fullWidth: event.currentTarget.checked });
             }}
           />
         </Group>
