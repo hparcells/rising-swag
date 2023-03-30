@@ -163,6 +163,18 @@ const data: IItem[] = [
     description:
       'Book mark with "Home isn\'t where you\'re from, it\'s where you find light when all grows dark." on one side and "Hic Est Lupus Motherfucker" on the other.',
     link: 'https://www.etsy.com/listing/1289914959/home-wolf-bookmark'
+  },
+  {
+    date: '2023-03-30',
+    image: 'https://i.etsystatic.com/28400366/r/il/8a3851/3693954429/il_794xN.3693954429_hv4i.jpg',
+    name: 'If Your Hear Beats Like A Drum Laminated Bookmark',
+    tags: ['bookmark', 'sevro'],
+    shop: {
+      name: 'itsbrittneyd',
+      url: 'https://www.etsy.com/shop/itsbrittneyd'
+    },
+    description: "A laminated bookmark of Sevro's favorite tune.",
+    link: 'https://www.etsy.com/listing/1173134461/reaper-of-mars-double-sided-laminated'
   }
 ];
 
