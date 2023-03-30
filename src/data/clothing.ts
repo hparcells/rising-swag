@@ -929,6 +929,30 @@ const data: IItem[] = [
     description:
       'Suns out guns out! Take your love for the world of Pierce Brown out in the world in maximum comfort!',
     link: 'https://www.etsy.com/listing/1383453636/fantasy-tank-top-a-sage-digs-the-roots'
+  },
+  {
+    date: '2023-03-30',
+    image: 'https://img.teeherivar.com/200514AFD6052-1.jpg',
+    name: 'The Howlers Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'TeeHerivar',
+      url: 'https://teeherivar.com/'
+    },
+    description: 'A simple "The Howlers" shirt featuring a low poly howling wolf.',
+    link: 'https://teeherivar.com/product/the-howlers-red-rising-slim-fit/'
+  },
+  {
+    date: '2023-03-30',
+    image: 'https://teeherivar.com/wp-content/uploads/2021/02/210219AFD30770-1.jpg',
+    name: 'House Mars Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'TeeHerivar',
+      url: 'https://teeherivar.com/'
+    },
+    description: 'A plain shirt featuring the classic wolf of House Mars.',
+    link: 'https://teeherivar.com/product/red-rising-the-howlers-sevro-au-barca-darrow/'
   }
 ];
 
