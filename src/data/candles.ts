@@ -36,6 +36,54 @@ const data: IItem[] = [
     },
     description: 'Red Rising themed candles. Choose from Darrow, Eo, Sevro, or Mustang.',
     link: 'https://www.etsy.com/listing/765659952/candele-a-tema-red-rising-2-oz'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://cdn.shopify.com/s/files/1/2084/8959/products/DARROW_1024x1024.jpg',
+    name: 'Darrow Themed Candle',
+    tags: ['other', 'darrow'],
+    shop: {
+      name: 'Until the Very End Co',
+      url: 'https://untiltheveryendco.com/'
+    },
+    description: 'Candle scented with leather, pine, amber musk, and honey.',
+    link: 'https://untiltheveryendco.com/products/darrow'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://cdn.shopify.com/s/files/1/2084/8959/products/MUSTANG_1024x1024.jpg',
+    name: 'Mustang Themed Candle',
+    tags: ['other', 'mustang'],
+    shop: {
+      name: 'Until the Very End Co',
+      url: 'https://untiltheveryendco.com/'
+    },
+    description: 'Candle scented with whiskey, cedar, orange, and chili powder (strong).',
+    link: 'https://untiltheveryendco.com/products/mustang'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://cdn.shopify.com/s/files/1/2084/8959/products/VICTRA_1024x1024.png',
+    name: 'Victra Themed Candle',
+    tags: ['other', 'victra'],
+    shop: {
+      name: 'Until the Very End Co',
+      url: 'https://untiltheveryendco.com/'
+    },
+    description: 'Candle scented with blood orange, vanilla, and harvest spice.',
+    link: 'https://untiltheveryendco.com/products/victra'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://cdn.shopify.com/s/files/1/2084/8959/products/SEVRO_1024x1024.jpg',
+    name: 'Sevro Themed Candle',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'Until the Very End Co',
+      url: 'https://untiltheveryendco.com/'
+    },
+    description: 'Candle scented with whiskey, cedar, orange, and chili powder.',
+    link: 'https://untiltheveryendco.com/products/sevro'
   }
 ];
 
