@@ -129,14 +129,25 @@ function Content() {
         <div className={clsx(classes.cards, !filter.fullWidth && classes.squeeze)}>
           {filteredData ? (
             filteredData.length > 0 ? (
-              filteredData
-                .filter((item) => {
-                  return !item.expired || (item.expired && filter.showExpired);
-                })
-                .map((item, i) => {
-                  return <ItemCard item={item} key={i} />;
-                })
-                .splice((page - 1) * 30, 30)
+              <>
+                {filteredData
+                  .filter((item) => {
+                    return !item.expired || (item.expired && filter.showExpired);
+                  })
+                  .map((item, i) => {
+                    return <ItemCard item={item} key={i} />;
+                  })
+                  .splice((page - 1) * 30, 30)}
+                <Pagination
+                  total={pages}
+                  value={page}
+                  onChange={(newPage) => {
+                    setPage(newPage);
+                    topCards.current?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className={classes.pagination}
+                />
+              </>
             ) : (
               <p>No results</p>
             )
@@ -144,15 +155,6 @@ function Content() {
             <p>Loading...</p>
           )}
         </div>
-        <Pagination
-          total={pages}
-          value={page}
-          onChange={(newPage) => {
-            setPage(newPage);
-            topCards.current?.scrollIntoView({ behavior: 'smooth' });
-          }}
-          className={classes.pagination}
-        />
       </div>
     </div>
   );
