@@ -18,5 +18,3 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
   });
 }
 export default handler;
-
-// TODO: https://stackoverflow.com/questions/66955625/next-js-with-swagger
