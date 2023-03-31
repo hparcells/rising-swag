@@ -25,6 +25,32 @@ const data: IItem[] = [
     },
     description: 'Pattern for a book combination cut and fold.',
     link: 'https://www.etsy.com/listing/729542650/red-rising-howler-combination-cut-and'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://cdn.shopify.com/s/files/1/0064/5342/8271/products/PRRR3-1200-Front_1200x.jpg',
+    name: 'Red Rising (Juniper Books)',
+    tags: ['book'],
+    shop: {
+      name: 'Juniper Books',
+      url: 'https://www.juniperbooks.com/'
+    },
+    description:
+      'Hardcover copies of the first Red Rising trilogy with custom jackets. Buy standalone jackets too!',
+    link: 'https://www.juniperbooks.com/products/red-rising-book-set'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://cdn.shopify.com/s/files/1/1350/0665/products/RedRisingbookstack_1800x1800.jpg',
+    name: 'Nerdy Ink Dust Jackets',
+    tags: ['book'],
+    shop: {
+      name: 'Nerdy Ink',
+      url: 'https://nerdy.ink/'
+    },
+    description:
+      "Transform your old books and brighten up your bookshelf with our premium dust jackets you'll only find through Nerdy Ink! Books not included! Light Bringer coming soon!",
+    link: 'https://nerdy.ink/products/red-rising-dust-jackets'
   }
 ];
 
