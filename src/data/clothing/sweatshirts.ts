@@ -73,6 +73,18 @@ const data: IItem[] = [
     },
     description: '"You\'re making me emotional and I hate it." -Victra au Julii',
     link: 'https://www.etsy.com/listing/1383629692/red-rising-victra-au-barca-unisex-heavy'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/19915917/r/il/ae5744/4636102867/il_794xN.4636102867_d5l1.jpg',
+    name: 'SlingBlade Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'CheyDoesArt',
+      url: 'https://www.etsy.com/shop/CheyDoesArt'
+    },
+    description: 'Sweatshirt featuring a slingBlade.',
+    link: 'https://www.etsy.com/listing/1394768328/the-reapers-sling-blade-red-rising'
   }
 ];
 

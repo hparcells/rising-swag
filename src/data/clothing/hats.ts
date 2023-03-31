@@ -298,6 +298,18 @@ const data: IItem[] = [
     },
     description: 'Hail Libertas Hail Reaper on a leather patch hat.',
     link: 'https://www.etsy.com/listing/1369436570/hail-libertas-hail-reaper-red-rising-hat'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/19915917/r/il/a8534c/4638585141/il_794xN.4638585141_qzyd.jpg',
+    name: 'SlingBlade Beanie',
+    tags: ['hat'],
+    shop: {
+      name: 'CheyDoesArt',
+      url: 'https://www.etsy.com/shop/CheyDoesArt'
+    },
+    description: "Beanie embroidered with Darrow's sling blade.",
+    link: 'https://www.etsy.com/listing/1395261414/the-reapers-sling-blade-red-rising'
   }
 ];
 
