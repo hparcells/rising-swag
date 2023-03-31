@@ -97,7 +97,7 @@ const data: IItem[] = [
     date: '2023-03-16',
     image: 'https://i.etsystatic.com/10165646/r/il/416c57/4674871087/il_794xN.4674871087_flcg.jpg',
     name: 'Let Fall the Rain Metallic Sticker',
-    tags: ['sticker'],
+    tags: ['sticker', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -136,7 +136,7 @@ const data: IItem[] = [
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/33013c/3526099618/il_794xN.3526099618_ja19.jpg',
     name: 'Ragnar Sticker',
-    tags: ['sticker'],
+    tags: ['sticker', 'ragnar'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -148,7 +148,7 @@ const data: IItem[] = [
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/0b8743/3788671150/il_794xN.3788671150_1gh5.jpg',
     name: 'Let Fall the Rain Holographic Sticker',
-    tags: ['sticker'],
+    tags: ['sticker', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -393,7 +393,7 @@ const data: IItem[] = [
     date: '2023-03-21',
     image: 'https://i.etsystatic.com/10165646/r/il/f79e63/3299282148/il_794xN.3299282148_moux.jpg',
     name: '"Sevro is my Spirit Animal" Sticker',
-    tags: ['sticker'],
+    tags: ['sticker', 'sevro'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -406,7 +406,7 @@ const data: IItem[] = [
     date: '2023-03-21',
     image: 'https://i.etsystatic.com/10165646/r/il/f6d928/2795249950/il_794xN.2795249950_lxk3.jpg',
     name: '"You\'re Making Me Emotional" Sticker',
-    tags: ['sticker'],
+    tags: ['sticker', 'victra'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -414,6 +414,43 @@ const data: IItem[] = [
     description:
       'Prior to becoming Victra au Barca, Victra au Julii uttered these famous and endearing words.',
     link: 'https://www.etsy.com/listing/919326330/sticker-red-rising-sticker-victra-au'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/25064526/r/il/7dbb7f/3982858715/il_794xN.3982858715_bx3s.jpg',
+    name: 'Howler Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'SkyBlueStudiosCo',
+      url: 'https://www.etsy.com/shop/SkyBlueStudiosCo'
+    },
+    description: 'High quality vinyl stickers of the wolf of House Mars.',
+    link: 'https://www.etsy.com/listing/1235336532/omnis-vir-lupus-red-rising-howlers-book'
+  },
+  {
+    date: '2023-03-26',
+    image: 'https://i.etsystatic.com/28288409/r/il/268512/3064902715/il_794xN.3064902715_2ems.jpg',
+    name: 'Per Aspera Ad Astra Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'HCBookishDesigns',
+      url: 'https://www.etsy.com/shop/HCBookishDesigns'
+    },
+    description:
+      'Through hardships to the stars. A gorgeous matte vinyl die-cut sticker with the latin phrase: Per Aspera Ad Astra.',
+    link: 'https://www.etsy.com/listing/1001800857/ad-astra-75cm-round-diecut-vinyl-sci-fi'
+  },
+  {
+    date: '2023-03-26',
+    image: 'https://i.etsystatic.com/12557146/r/il/1c29d1/4587203451/il_794xN.4587203451_egzj.jpg',
+    name: 'Break the Chains Sticker',
+    tags: ['sticker', 'eo'],
+    shop: {
+      name: 'thebookishbeeco',
+      url: 'https://www.etsy.com/shop/thebookishbeeco'
+    },
+    description: 'A sticker depicting Eo with the text: "Break the Chains My Love"',
+    link: 'https://www.etsy.com/listing/1383526266/break-the-chains-my-love-vinyl'
   }
 ];
 

@@ -42,7 +42,7 @@ const data: IItem[] = [
     date: '2023-03-16',
     image: 'https://i.etsystatic.com/10165646/r/il/50bd85/4642724583/il_794xN.4642724583_qjzx.jpg',
     name: 'Let Fall the Rain Sweatshirt',
-    tags: ['sweatshirt'],
+    tags: ['sweatshirt', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -66,7 +66,7 @@ const data: IItem[] = [
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/d3b910/4540275430/il_794xN.4540275430_klky.jpg',
     name: "You're Making Me Emotional Sweatshirt",
-    tags: ['sweatshirt'],
+    tags: ['sweatshirt', 'victra'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'

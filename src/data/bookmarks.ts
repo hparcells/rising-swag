@@ -75,6 +75,81 @@ const data: IItem[] = [
     },
     description: 'Wooden bookmarks inspired by the world of Red Rising.',
     link: 'https://www.etsy.com/listing/1218915214/red-rising-inspired-wooden-bookmarks'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/20140600/r/il/f2a675/3778035380/il_794xN.3778035380_8hcq.jpg',
+    name: 'Red Rising Saga Quote Bookmarks',
+    tags: ['bookmark'],
+    shop: {
+      name: 'BookBubbledShop',
+      url: 'https://www.etsy.com/shop/BookBubbledShop'
+    },
+    description: 'Quotes from Red Rising on bookmarks. Shipped from Canada.',
+    link: 'https://www.etsy.com/listing/1207264359/red-rising-saga-quote-bookmarks'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/26674192/r/il/f1b1d8/2838024013/il_794xN.2838024013_pz88.jpg',
+    name: 'Double Sided Darrow and Sevro Bookmark Set',
+    tags: ['bookmark', 'darrow', 'sevro'],
+    shop: {
+      name: 'HailReaperPod',
+      url: 'https://www.etsy.com/shop/HailReaperPod'
+    },
+    description:
+      'Per Aspera Ad Astra and Omnis Vir Lupus designs with the Hail Reaper Podcast logo on the back.',
+    link: 'https://www.etsy.com/listing/927528172/darrow-and-sevro-bookmark-set-2x6-double'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/18049756/r/il/643ce2/3083336175/il_794xN.3083336175_gjpe.jpg',
+    name: 'Red Rising "Reaper" Bookmark',
+    tags: ['bookmark', 'darrow'],
+    shop: {
+      name: 'BookBookOwl',
+      url: 'https://www.etsy.com/shop/BookBookOwl'
+    },
+    description: 'Bookmark with "I am the Reaper and death is my shadow" on it.',
+    link: 'https://www.etsy.com/listing/992787322/red-rising-reaper-bookmark'
+  },
+  {
+    date: '2023-03-26',
+    image: 'https://i.etsystatic.com/14027028/r/il/74dcbd/2089199288/il_794xN.2089199288_ljur.jpg',
+    name: 'Red Rising Bookmarks',
+    tags: ['bookmark'],
+    shop: {
+      name: 'EnchantedFandom',
+      url: 'https://www.etsy.com/shop/EnchantedFandom'
+    },
+    description:
+      'Set of 4 bookmarks. Bookmarks were featured in one of Enchanted Fandoms monthly box.',
+    link: 'https://www.etsy.com/listing/754253885/red-rising-bookmarks'
+  },
+  {
+    date: '2023-03-26',
+    image: 'https://i.etsystatic.com/13764311/r/il/968fe0/2501319969/il_794xN.2501319969_llxr.jpg',
+    name: 'Darrow Magnetic Bookmark',
+    tags: ['bookmark', 'darrow'],
+    shop: {
+      name: 'byEpikPage',
+      url: 'https://www.etsy.com/shop/byEpikPage'
+    },
+    description: 'Magnetic bookmark of a cartoon-esque Darrow.',
+    link: 'https://www.etsy.com/listing/661157735/red-rising-darrow-magnetic-bookmarks-red'
+  },
+  {
+    date: '2023-03-27',
+    image: 'https://i.etsystatic.com/28787456/r/il/07d790/3681673801/il_794xN.3681673801_9bhm.jpg',
+    name: '"Forget a Man\'s Name" Bookmark',
+    tags: ['bookmark', 'morning-star'],
+    shop: {
+      name: 'TheRainbowCourt',
+      url: 'https://www.etsy.com/shop/TheRainbowCourt'
+    },
+    description:
+      "Features the quote \"Forget a man's name and he'll forgive you. Remember it, and he'll defend you forever.\"",
+    link: 'https://www.etsy.com/listing/1110349846/morning-star-inspired-bookmark'
   }
 ];
 

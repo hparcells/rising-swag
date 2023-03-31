@@ -125,7 +125,7 @@ const data: IItem[] = [
     date: '2023-03-14',
     image: 'https://i.etsystatic.com/16046340/r/il/3f1123/3865412446/il_794xN.3865412446_o0zo.jpg',
     name: 'Jellybean Investigator Pin',
-    tags: ['pin'],
+    tags: ['pin', 'sophocles'],
     shop: {
       name: 'CreativeLeighCrafts',
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'

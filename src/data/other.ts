@@ -47,7 +47,7 @@ const data: IItem[] = [
     date: '2023-03-14',
     image: 'https://i.etsystatic.com/16046340/r/il/ca538f/4144213339/il_794xN.4144213339_n2sc.jpg',
     name: 'Home - Wolf Bookmark',
-    tags: ['other'],
+    tags: ['other', 'roque'],
     shop: {
       name: 'CreativeLeighCrafts',
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
@@ -122,7 +122,7 @@ const data: IItem[] = [
     date: '2023-03-15',
     image: 'https://i.etsystatic.com/21279369/r/il/05f0e5/3137447025/il_794xN.3137447025_pp8q.jpg',
     name: 'Live for More Spiral Notebook',
-    tags: ['other'],
+    tags: ['other', 'eo'],
     shop: {
       name: 'TheMightyPenBookTees',
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
@@ -234,7 +234,7 @@ const data: IItem[] = [
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/12a8cb/4594485388/il_794xN.4594485388_8a4y.jpg',
     name: 'Let Fall the Rain Can Cooler',
-    tags: ['other'],
+    tags: ['other', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -440,6 +440,130 @@ const data: IItem[] = [
     },
     description: '6 Ceramic Tile Coasters laser engraved and inspired by the world of Red Rising!',
     link: 'https://www.etsy.com/listing/1232853781/red-rising-inspired-ceramic-tile'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/32783179/r/il/429dc5/4090815245/il_1140xN.4090815245_ns8q.jpg',
+    name: 'Howler Shelf Display',
+    tags: ['other'],
+    shop: {
+      name: '3DPrintsbyTheodore',
+      url: 'https://www.etsy.com/shop/3DPrintsbyTheodore'
+    },
+    description: 'A 3D printed Howler logo printed in Marble and Red pla.',
+    link: 'https://www.etsy.com/listing/1276452077/howler-sign-red-rising-bookcase-display'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/19636488/r/il/09630b/4331337244/il_794xN.4331337244_o4yp.jpg',
+    name: 'Howler Ornament',
+    tags: ['other'],
+    shop: {
+      name: 'OilyYou',
+      url: 'https://www.etsy.com/shop/OilyYou'
+    },
+    description:
+      'Festive one of a kind ornament for your tree, inspired by one of the best book series!',
+    link: 'https://www.etsy.com/listing/1329117064/red-rising-howler-ornament'
+  },
+  {
+    date: '2023-03-23',
+    image: 'https://i.etsystatic.com/30214316/r/il/2332b9/4565121287/il_794xN.4565121287_3iiw.jpg',
+    name: 'Per Aspera Ad Astra Canvas',
+    tags: ['other'],
+    shop: {
+      name: 'PurpleWoodlands',
+      url: 'https://www.etsy.com/shop/PurpleWoodlands'
+    },
+    description:
+      'Through hardships to the stars. Latin phrase commonly used in literature, music, educational and research institutes, government and military, space exploration, pop culture, fraternities and sororities.',
+    link: 'https://www.etsy.com/listing/1234583764/per-aspera-ad-astra-through-hardships-to'
+  },
+  {
+    date: '2023-03-23',
+    image: 'https://i.etsystatic.com/30214316/r/il/9ab0a5/4335344178/il_794xN.4335344178_tv8p.jpg',
+    name: 'Omnis Vir Lupus Canvas',
+    tags: ['other'],
+    shop: {
+      name: 'PurpleWoodlands',
+      url: 'https://www.etsy.com/shop/PurpleWoodlands'
+    },
+    description:
+      'Howlers motto from Red Rising - Omnis Vir Lupus - Everyone a Wolf. Howler for life.',
+    link: 'https://www.etsy.com/listing/1296971515/omnis-vir-lupus-everyone-a-wolf-pierce'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/22469851/r/il/b24631/3514238135/il_794xN.3514238135_mjqk.jpg',
+    name: "'Happy Howler-Days' Christmas Pine Wood Ornament",
+    tags: ['other'],
+    shop: {
+      name: 'LiteraryLeoCo',
+      url: 'https://www.etsy.com/shop/LiteraryLeoCo'
+    },
+    description: 'The wolf of Mars pressed into a pine wood cookie.',
+    link: 'https://www.etsy.com/listing/1120619399/happy-howler-days-35-4-pine-wood'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/22469851/r/il/eef951/4344774432/il_794xN.4344774432_tgs7.jpg',
+    name: 'Bloody Damn Goblin Wax Melts: Unicorn Poop Scented',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'LiteraryLeoCo',
+      url: 'https://www.etsy.com/shop/LiteraryLeoCo'
+    },
+    description:
+      'Help cover up the smell of dead fish in your room with these wax melts inspired by Sevro from Red Rising! ;)',
+    link: 'https://www.etsy.com/listing/1328197257/bloody-damn-goblin-wax-melts-unicorn'
+  },
+  {
+    date: '2023-03-26',
+    image: 'https://i.etsystatic.com/14027028/r/il/beb6f8/1528102094/il_794xN.1528102094_g267.jpg',
+    name: 'I Would Have Lived in Peace Wine Glass',
+    tags: ['other', 'darrow'],
+    shop: {
+      name: 'EnchantedFandom',
+      url: 'https://www.etsy.com/shop/EnchantedFandom'
+    },
+    description: 'A glittered wine glass with high quality vinyl.',
+    link: 'https://www.etsy.com/listing/620537679/red-rising-by-pierce-brown-glittered'
+  },
+  {
+    date: '2023-03-26',
+    image: 'https://i.etsystatic.com/14520538/r/il/c2bcc3/2837260049/il_794xN.2837260049_fp33.jpg',
+    name: 'Darrow O’Lykos Lip Balm',
+    tags: ['other', 'darrow'],
+    shop: {
+      name: 'BookishBalms',
+      url: 'https://www.etsy.com/shop/BookishBalms'
+    },
+    description: 'Darrow is scented of cucumber melon and lime!',
+    link: 'https://www.etsy.com/listing/941229303/darrow-olykos-lip-balm-red-rising'
+  },
+  {
+    date: '2023-03-27',
+    image: 'https://i.etsystatic.com/17490952/r/il/612087/2775387517/il_794xN.2775387517_h67z.jpg',
+    name: 'Red Rising Inspired Candles',
+    tags: ['other', 'darrow', 'sevro', 'mustang'],
+    shop: {
+      name: 'firenationcreations',
+      url: 'https://www.etsy.com/shop/firenationcreations'
+    },
+    description: 'Choose from Darrow, Mustang, or Sevro candles in 6 oz or 4 oz jars.',
+    link: 'https://www.etsy.com/listing/903972668/red-rising-inspired-candles'
+  },
+  {
+    date: '2023-03-27',
+    image: 'https://i.etsystatic.com/17490952/r/il/90c117/2830626924/il_794xN.2830626924_nybs.jpg',
+    name: 'Song of Persephone Candle',
+    tags: ['other', 'eo'],
+    shop: {
+      name: 'firenationcreations',
+      url: 'https://www.etsy.com/shop/firenationcreations'
+    },
+    description: "Red Rising candle from firenationcreations's Stuck in Space box.",
+    link: 'https://www.etsy.com/listing/952004495/stuck-in-space-sci-fi-box-candles?variation0=1787670255'
   }
 ];
 

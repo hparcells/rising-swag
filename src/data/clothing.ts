@@ -469,7 +469,7 @@ const data: IItem[] = [
     date: '2023-03-15',
     image: 'https://i.etsystatic.com/21279369/r/il/f0ab49/2278191353/il_794xN.2278191353_i0qi.jpg',
     name: 'Hyrg La Ragnar T-Shirt',
-    tags: ['shirt'],
+    tags: ['shirt', 'ragnar'],
     shop: {
       name: 'TheMightyPenBookTees',
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
@@ -675,7 +675,7 @@ const data: IItem[] = [
     date: '2023-03-16',
     image: 'https://i.etsystatic.com/10165646/r/il/1d5075/4581195161/il_794xN.4581195161_g1mj.jpg',
     name: 'Let Fall the Rain Tee',
-    tags: ['shirt'],
+    tags: ['shirt', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -687,7 +687,7 @@ const data: IItem[] = [
     date: '2023-03-16',
     image: 'https://i.etsystatic.com/10165646/r/il/c36c9f/4581207597/il_794xN.4581207597_qrga.jpg',
     name: 'Let Fall the Rain Long Sleeve Tee',
-    tags: ['shirt'],
+    tags: ['shirt', 'roque'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -699,7 +699,7 @@ const data: IItem[] = [
     date: '2023-03-16',
     image: 'https://i.etsystatic.com/10165646/r/il/6e92c4/4533835632/il_794xN.4533835632_jkml.jpg',
     name: 'Goblin Mode Long Sleeve Tee',
-    tags: ['shirt'],
+    tags: ['shirt', 'sevro'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -712,7 +712,7 @@ const data: IItem[] = [
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/4bdad6/4533830312/il_794xN.4533830312_iqcl.jpg',
     name: 'Goblin Mode Tee',
-    tags: ['shirt'],
+    tags: ['shirt', 'sevro'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -798,7 +798,7 @@ const data: IItem[] = [
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/26aad5/4589926595/il_794xN.4589926595_lsi7.jpg',
     name: "You're Making Me Emotional Tee",
-    tags: ['shirt'],
+    tags: ['shirt', 'victra'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -853,6 +853,56 @@ const data: IItem[] = [
     },
     description: "Omnis vir Lupus design on a kid's tee.",
     link: 'https://www.etsy.com/listing/1403955553/omnis-vir-lupus-red-rising-howler'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/23884463/r/il/0402f9/2973735309/il_794xN.2973735309_m434.jpg',
+    name: 'Son of Ares Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Christinehandmadee',
+      url: 'https://www.etsy.com/shop/Christinehandmadee'
+    },
+    description: 'Son of Ares shirt featuring a classic Trojan helmet.',
+    link: 'https://www.etsy.com/listing/976742855/son-of-ares-shirt-bookish-shirt-sevro-au'
+  },
+  {
+    date: '2023-03-22',
+    image: 'https://i.etsystatic.com/16496017/r/il/0d3fc3/4617357753/il_794xN.4617357753_ezha.jpg',
+    name: 'Red Sigil Tee',
+    tags: ['shirt', 'red'],
+    shop: {
+      name: 'TheStylishGamer',
+      url: 'https://www.etsy.com/shop/TheStylishGamer'
+    },
+    description: 'Simplistic tee featuring the Red sigil.',
+    link: 'https://www.etsy.com/listing/1404638345/red-rising-sigil-tee-unisex-tshirt'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/20988095/r/il/661fce/3181883384/il_794xN.3181883384_ey90.jpg',
+    name: 'Red Rising Board Game Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'MeepleMerch',
+      url: 'https://www.etsy.com/shop/MeepleMerch'
+    },
+    description:
+      'Features the cover art from the Red Rising board game masked by the wolf of Mars.',
+    link: 'https://www.etsy.com/listing/1031554094/red-rising-board-game-t-shirt-short'
+  },
+  {
+    date: '2023-03-24',
+    image: 'https://i.etsystatic.com/20988095/r/il/b53e29/3236427503/il_794xN.3236427503_sx1b.jpg',
+    name: "Red Rising Board Game Shirt (Women's)",
+    tags: ['shirt'],
+    shop: {
+      name: 'MeepleMerch',
+      url: 'https://www.etsy.com/shop/MeepleMerch'
+    },
+    description:
+      'Features the cover art from the Red Rising board game masked by the wolf of Mars.',
+    link: 'https://www.etsy.com/listing/1031554094/red-rising-board-game-t-shirt-short'
   }
 ];
 

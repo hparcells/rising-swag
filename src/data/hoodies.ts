@@ -133,7 +133,7 @@ const data: IItem[] = [
     date: '2023-03-15',
     image: 'https://i.etsystatic.com/21279369/r/il/ccb82d/2792480159/il_794xN.2792480159_mp5n.jpg',
     name: 'Hyrg La Ragnar Hoodie',
-    tags: ['hoodie'],
+    tags: ['hoodie', 'ragnar'],
     shop: {
       name: 'TheMightyPenBookTees',
 
@@ -159,7 +159,7 @@ const data: IItem[] = [
     date: '2023-03-17',
     image: 'https://i.etsystatic.com/10165646/r/il/71d88f/4594713762/il_794xN.4594713762_gggz.jpg',
     name: 'Goblin Mode Hoodie',
-    tags: ['hoodie'],
+    tags: ['hoodie', 'sevro'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
