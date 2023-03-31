@@ -372,6 +372,42 @@ const data: IItem[] = [
     },
     description: 'House Minerva ring in various different golds.',
     link: 'https://cdn.shopify.com/s/files/1/0069/6909/8325/products/gold-institute-ring-for-house-minerva-807085_1800x1800.jpg'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/21219660/r/il/7f5615/3732535297/il_794xN.3732535297_blpt.jpg',
+    name: 'Reaper Morse Code Bracelet',
+    tags: ['jewelry', 'darrow'],
+    shop: {
+      name: 'EveningWolfDesigns',
+      url: 'https://www.etsy.com/shop/EveningWolfDesigns'
+    },
+    description: 'A morse code bracelet with red and gold beads spelling out "REAPER".',
+    link: 'https://www.etsy.com/listing/1183170509/red-rising-reaper-morse-code-bracelet'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/21219660/r/il/0c341a/3885431082/il_794xN.3885431082_i44b.jpg',
+    name: 'Mustang Morse Code Bracelet',
+    tags: ['jewelry', 'mustang'],
+    shop: {
+      name: 'EveningWolfDesigns',
+      url: 'https://www.etsy.com/shop/EveningWolfDesigns'
+    },
+    description: 'A morse code bracelet with white and gold beads spelling out "MUSTANG".',
+    link: 'https://www.etsy.com/listing/1220833882/red-rising-mustang-morse-code-slide'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/21219660/r/il/4e057e/3732683095/il_794xN.3732683095_gbsh.jpg',
+    name: 'Goblin Morse Code Bracelet',
+    tags: ['jewelry', 'sevro'],
+    shop: {
+      name: 'EveningWolfDesigns',
+      url: 'https://www.etsy.com/shop/EveningWolfDesigns'
+    },
+    description: 'A morse code bracelet with red and black beads spelling out "GOBLIN".',
+    link: 'https://www.etsy.com/listing/1169260930/red-rising-goblin-morse-code-slide'
   }
 ];
 
