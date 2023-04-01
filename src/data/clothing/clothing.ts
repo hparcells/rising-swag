@@ -734,6 +734,70 @@ const data: IItem[] = [
     description:
       'A unique Red Rising shirt with the design on the covers of the FairyLoot editions of the books.',
     link: 'https://www.etsy.com/listing/1398507990/reaper-howlers-sweatshirt-sevro-au-barca'
+  },
+  {
+    date: '2023-04-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/d736dc/4772969139/il_794xN.4772969139_5kdz.jpg',
+    name: 'Live for More Shirt',
+    tags: ['shirt', 'eo'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'Shirt with "Red Rising" in the Supreme Box Logo style with "Live for More" on the back.',
+    link: 'https://www.etsy.com/listing/1425218162/red-rising-live-for-more-boxlogo-unisex'
+  },
+  {
+    date: '2023-04-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/92ba90/4724591830/il_794xN.4724591830_th80.jpg',
+    name: 'Break the Chains Shirt',
+    tags: ['shirt', 'eo'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'Shirt with "Red Rising" in the Supreme Box Logo style with "Break the Chains" on the back.',
+    link: 'https://www.etsy.com/listing/1439395643/red-rising-break-the-chains-boxlogo'
+  },
+  {
+    date: '2023-04-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/48d385/4725065062/il_794xN.4725065062_tqoa.jpg',
+    name: 'House Mars Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'Shirt with "House Mars" in the Supreme Box Logo style with the sigil on the back.',
+    link: 'https://www.etsy.com/listing/1425147078/red-rising-house-mars-boxlogo-unisex-t'
+  },
+  {
+    date: '2023-04-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/a3a91b/4724373062/il_794xN.4724373062_grcf.jpg',
+    name: 'Howler Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Shirt with "Howler" in the Supreme Box Logo style.',
+    link: 'https://www.etsy.com/listing/1439345569/red-rising-howler-boxlogo-unisex-t-shirt'
+  },
+  {
+    date: '2023-04-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/66ec77/4724358004/il_794xN.4724358004_7og7.jpg',
+    name: 'Peerless Shirt',
+    tags: ['shirt', 'gold'],
+    shop: {
+      name: 'FunnyBoxLogo',
+
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Shirt with "Peerless" in the Supreme Box Logo style.',
+    link: 'https://www.etsy.com/listing/1439342385/red-rising-peerless-boxlogo-unisex-t'
   }
 ];
 

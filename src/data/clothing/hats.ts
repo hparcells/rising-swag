@@ -310,6 +310,18 @@ const data: IItem[] = [
     },
     description: "Beanie embroidered with Darrow's sling blade.",
     link: 'https://www.etsy.com/listing/1395261414/the-reapers-sling-blade-red-rising'
+  },
+  {
+    date: '2023-04-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/6711ed/4774089137/il_794xN.4774089137_bl9e.jpg',
+    name: 'House Mars Sigil Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Six panel twill cap featuring the House Mars sigil.',
+    link: 'https://www.etsy.com/listing/1439714511/red-rising-house-mars-sigil-hat-unisex'
   }
 ];
 
