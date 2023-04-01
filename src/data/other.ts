@@ -389,6 +389,18 @@ const data: IItem[] = [
     },
     description: 'Darrow is scented of cucumber melon and lime!',
     link: 'https://www.etsy.com/listing/941229303/darrow-olykos-lip-balm-red-rising'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/8322668/r/il/19921c/1344151545/il_794xN.1344151545_7itj.jpg',
+    name: 'Howler for Live Decal',
+    tags: ['other'],
+    shop: {
+      name: 'KittenKeepDesigns',
+      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
+    },
+    description: 'Howlers, declare your allegiance with this vinyl decal!',
+    link: 'https://www.etsy.com/listing/558037067/howler-for-life-vinyl-decal-red-rising'
   }
 ];
 

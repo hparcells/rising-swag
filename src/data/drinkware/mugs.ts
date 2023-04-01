@@ -232,6 +232,45 @@ const data: IItem[] = [
     },
     description: 'Enamel mug with the quote "I am the reaper and death is my shadow." on it.',
     link: 'https://www.etsy.com/listing/1179073715/red-rising-enamel-mug'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/8322668/r/il/d481df/1405149540/il_794xN.1405149540_er31.jpg',
+    name: 'Per Aspera Ad Astra Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'KittenKeepDesigns',
+      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
+    },
+    description:
+      '"Through hardships to the stars" - very applicable to the struggles Darrow, Sevro, and The Howlers face.',
+    link: 'https://www.etsy.com/listing/491662406/per-aspera-ad-astra-coffee-mug-red'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/8322668/r/il/fb9613/2610830381/il_794xN.2610830381_n7sn.jpg',
+    name: 'Hic Sunt Leones Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'KittenKeepDesigns',
+      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
+    },
+    description:
+      '"Hic Sunt Leones" (Here Be Lions) is the motto of House Augustus, one of the leading families on the planet Mars.',
+    link: 'https://www.etsy.com/listing/468741002/hic-sunt-leones-coffee-mug-house'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/8322668/r/il/6a2b90/3913926595/il_794xN.3913926595_mh9y.jpg',
+    name: 'Break the Chains Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'KittenKeepDesigns',
+      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
+    },
+    description:
+      '"Break The Chains" were Eo\'s words to Darrow, to rise against the Society that held them down.',
+    link: 'https://www.etsy.com/listing/485111575/break-the-chains-coffee-mug-red-rising'
   }
 ];
 
