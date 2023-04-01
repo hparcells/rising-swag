@@ -5,7 +5,7 @@ const data: IItem[] = [
     date: '2023-03-27',
     image: 'https://i.etsystatic.com/17490952/r/il/612087/2775387517/il_794xN.2775387517_h67z.jpg',
     name: 'Red Rising Inspired Candles',
-    tags: ['other', 'darrow', 'sevro', 'mustang'],
+    tags: ['candle', 'darrow', 'sevro', 'mustang'],
     shop: {
       name: 'firenationcreations',
       url: 'https://www.etsy.com/shop/firenationcreations'
@@ -17,7 +17,7 @@ const data: IItem[] = [
     date: '2023-03-27',
     image: 'https://i.etsystatic.com/17490952/r/il/90c117/2830626924/il_794xN.2830626924_nybs.jpg',
     name: 'Song of Persephone Candle',
-    tags: ['other', 'eo'],
+    tags: ['candle', 'eo'],
     shop: {
       name: 'firenationcreations',
       url: 'https://www.etsy.com/shop/firenationcreations'
@@ -29,7 +29,7 @@ const data: IItem[] = [
     date: '2023-03-29',
     image: 'https://i.etsystatic.com/18861441/r/il/6e4cca/3412295655/il_794xN.3412295655_leco.jpg',
     name: 'Red Rising Themed Candles',
-    tags: ['other', 'darrow', 'eo', 'sevro', 'mustang'],
+    tags: ['candle', 'darrow', 'eo', 'sevro', 'mustang'],
     shop: {
       name: 'InTheBooksWeFindUs',
       url: 'https://www.etsy.com/shop/InTheBooksWeFindUs'
@@ -41,7 +41,7 @@ const data: IItem[] = [
     date: '2023-03-31',
     image: 'https://cdn.shopify.com/s/files/1/2084/8959/products/DARROW_1024x1024.jpg',
     name: 'Darrow Themed Candle',
-    tags: ['other', 'darrow'],
+    tags: ['candle', 'darrow'],
     shop: {
       name: 'Until the Very End Co',
       url: 'https://untiltheveryendco.com/'
@@ -53,7 +53,7 @@ const data: IItem[] = [
     date: '2023-03-31',
     image: 'https://cdn.shopify.com/s/files/1/2084/8959/products/MUSTANG_1024x1024.jpg',
     name: 'Mustang Themed Candle',
-    tags: ['other', 'mustang'],
+    tags: ['candle', 'mustang'],
     shop: {
       name: 'Until the Very End Co',
       url: 'https://untiltheveryendco.com/'
@@ -65,7 +65,7 @@ const data: IItem[] = [
     date: '2023-03-31',
     image: 'https://cdn.shopify.com/s/files/1/2084/8959/products/VICTRA_1024x1024.png',
     name: 'Victra Themed Candle',
-    tags: ['other', 'victra'],
+    tags: ['candle', 'victra'],
     shop: {
       name: 'Until the Very End Co',
       url: 'https://untiltheveryendco.com/'
@@ -77,7 +77,7 @@ const data: IItem[] = [
     date: '2023-03-31',
     image: 'https://cdn.shopify.com/s/files/1/2084/8959/products/SEVRO_1024x1024.jpg',
     name: 'Sevro Themed Candle',
-    tags: ['other', 'sevro'],
+    tags: ['candle', 'sevro'],
     shop: {
       name: 'Until the Very End Co',
       url: 'https://untiltheveryendco.com/'

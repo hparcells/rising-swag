@@ -23,6 +23,7 @@ export const MERCH_TYPE = [
   'drinkware',
   'notebook',
   'mask',
+  'candle',
   'other'
 ] as const;
 
