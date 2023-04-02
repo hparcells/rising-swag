@@ -798,6 +798,66 @@ const data: IItem[] = [
     },
     description: 'Shirt with "Peerless" in the Supreme Box Logo style.',
     link: 'https://www.etsy.com/listing/1439342385/red-rising-peerless-boxlogo-unisex-t'
+  },
+  {
+    date: '2023-04-02',
+    image: 'https://i.etsystatic.com/19780495/r/il/74627c/3320429845/il_794xN.3320429845_bwff.jpg',
+    name: 'Hail Reaper Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Hail Reaper!',
+    link: 'https://www.etsy.com/listing/849318554/red-rising-shirt-hail-reaper-tshirt-the'
+  },
+  {
+    date: '2023-04-02',
+    image: 'https://i.etsystatic.com/19780495/r/il/811371/4130257791/il_794xN.4130257791_8oip.jpg',
+    name: 'Omnis Vir Lupus Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Omnis vir lupus, every man a wolf.',
+    link: 'https://www.etsy.com/listing/1286369669/omnis-vir-lupus-red-rising-shirt-the'
+  },
+  {
+    date: '2023-04-02',
+    image: 'https://i.etsystatic.com/19780495/r/il/e8aff1/3320386339/il_794xN.3320386339_icyu.jpg',
+    name: 'The Reaper of Mars Sweatshirt',
+    tags: ['shirt', 'sweatshirt'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Darrow - The Reaper of Mars.',
+    link: 'https://www.etsy.com/listing/863245011/red-rising-shirt-darrow-the-reaper-of'
+  },
+  {
+    date: '2023-04-02',
+    image: 'https://i.etsystatic.com/19780495/r/il/2345f8/4130275943/il_794xN.4130275943_8inq.jpg',
+    name: 'Summon the Howlers Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Summon the Howlers!',
+    link: 'https://www.etsy.com/listing/863246831/red-rising-shirt-summon-the-howlers'
+  },
+  {
+    date: '2023-04-02',
+    image: 'https://i.etsystatic.com/19780495/r/il/b94bb7/4130286199/il_794xN.4130286199_m7b0.jpg',
+    name: 'Summon the Howlers Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Summon the Howlers!',
+    link: 'https://www.etsy.com/listing/1286376625/red-rising-shirt-summon-the-howlers'
   }
 ];
 

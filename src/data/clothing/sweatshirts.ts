@@ -85,6 +85,18 @@ const data: IItem[] = [
     },
     description: 'Sweatshirt featuring a slingBlade.',
     link: 'https://www.etsy.com/listing/1394768328/the-reapers-sling-blade-red-rising'
+  },
+  {
+    date: '2023-04-02',
+    image: 'https://i.etsystatic.com/19780495/r/il/891305/3272743408/il_794xN.3272743408_7r02.jpg',
+    name: 'Hail Reaper Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Hail Reaper!',
+    link: 'https://www.etsy.com/listing/1055925156/red-rising-sweatshirt-hail-reaper-the'
   }
 ];
 

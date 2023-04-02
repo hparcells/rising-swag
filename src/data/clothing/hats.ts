@@ -322,6 +322,30 @@ const data: IItem[] = [
     },
     description: 'Six panel twill cap featuring the House Mars sigil.',
     link: 'https://www.etsy.com/listing/1439714511/red-rising-house-mars-sigil-hat-unisex'
+  },
+  {
+    date: '2023-04-02',
+    image: 'https://i.etsystatic.com/19780495/r/il/3883bf/3392789799/il_794xN.3392789799_awcz.jpg',
+    name: 'Hail Reaper Dad Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Hail Reaper!',
+    link: 'https://www.etsy.com/listing/1085542491/red-rising-hat-hail-reaper-dad-hat-the'
+  },
+  {
+    date: '2023-04-02',
+    image: 'https://i.etsystatic.com/19780495/r/il/261780/3864489778/il_794xN.3864489778_h9m4.jpg',
+    name: 'Shit Escalates Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Shit Escalates.',
+    link: 'https://www.etsy.com/listing/1216395640/red-rising-hat-shit-escalates-dad-hat'
   }
 ];
 
