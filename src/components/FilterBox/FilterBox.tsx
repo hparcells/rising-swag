@@ -31,6 +31,15 @@ function FilterBox() {
           onChange={(event) => {
             setSearch(event.currentTarget.value);
           }}
+          styles={(theme) => {
+            return {
+              input: {
+                '&:focus-within': {
+                  borderColor: theme.colors.red[6]
+                }
+              }
+            };
+          }}
         />
         <MultiSelect
           data={unique(
@@ -65,6 +74,15 @@ function FilterBox() {
           placeholder='Filter by tags'
           searchable
           nothingFound='No results'
+          styles={(theme) => {
+            return {
+              input: {
+                '&:focus-within': {
+                  borderColor: theme.colors.red[6]
+                }
+              }
+            };
+          }}
         />
       </Group>
 
@@ -81,6 +99,24 @@ function FilterBox() {
             onChange={(value) => {
               updateFilter({ sort: { ...filter.sort, by: value as IBy } });
             }}
+            styles={(theme) => {
+              return {
+                input: {
+                  '&:focus-within': {
+                    borderColor: theme.colors.red[6]
+                  }
+                },
+                item: {
+                  '&[data-selected]': {
+                    '&, &:hover': {
+                      backgroundColor: theme.colors.red[6],
+                      color: theme.white
+                    }
+                  },
+                  '&[data-hovered]': {}
+                }
+              };
+            }}
           />
           <Select
             label='Order by'
@@ -92,6 +128,24 @@ function FilterBox() {
             onChange={(value) => {
               updateFilter({ sort: { ...filter.sort, order: value as IOrder } });
             }}
+            styles={(theme) => {
+              return {
+                input: {
+                  '&:focus-within': {
+                    borderColor: theme.colors.red[6]
+                  }
+                },
+                item: {
+                  '&[data-selected]': {
+                    '&, &:hover': {
+                      backgroundColor: theme.colors.red[6],
+                      color: theme.white
+                    }
+                  },
+                  '&[data-hovered]': {}
+                }
+              };
+            }}
           />
         </Group>
         <Group style={{ flexDirection: 'column' }} align='flex-start'>
@@ -101,6 +155,7 @@ function FilterBox() {
             onChange={(event) => {
               updateFilter({ showExpired: event.currentTarget.checked });
             }}
+            color='red'
           />
           <Checkbox
             label='Full width'
@@ -108,6 +163,7 @@ function FilterBox() {
             onChange={(event) => {
               updateFilter({ fullWidth: event.currentTarget.checked });
             }}
+            color='red'
           />
         </Group>
       </Group>

@@ -146,6 +146,7 @@ function Content() {
                     topCards.current?.scrollIntoView({ behavior: 'smooth' });
                   }}
                   className={classes.pagination}
+                  color='red'
                 />
               </>
             ) : (
