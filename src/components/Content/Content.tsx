@@ -78,19 +78,6 @@ function Content() {
     <div className={classes.root}>
       <div className={classes.content}>
         <div className={clsx(classes.aboveCards, classes.squeeze)}>
-          {/* TODO: Remove this. */}
-          <Alert
-            icon={<IconTrafficCone size='1rem' />}
-            title="I can't find what I'm looking for!"
-            color='orange'
-            variant='filled'
-            mb='sm'
-          >
-            This website is still a work in progress. As you probably suspect, there's a lot of
-            content out there, and finding it all and putting it on here takes time. Check back
-            later!
-          </Alert>
-
           {filteredData && <FilterBox />}
 
           {/* This has got to be the worst code I've written. */}
