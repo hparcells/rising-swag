@@ -91,7 +91,7 @@ function Content() {
             later!
           </Alert>
 
-          <FilterBox />
+          {filteredData && <FilterBox />}
 
           {/* This has got to be the worst code I've written. */}
           {filteredData && (
