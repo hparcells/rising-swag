@@ -12,6 +12,7 @@ import { ALL_DATA } from '@/data/data';
 
 import classes from './Content.module.scss';
 import { IItem } from '@/types/item';
+import SkeletonCard from '../SkeletonCard/SkeletonCard';
 
 function Content() {
   const { filter } = useFilter();
@@ -153,7 +154,17 @@ function Content() {
               <p>No results</p>
             )
           ) : (
-            <p>Loading...</p>
+            <>
+              <SkeletonCard />
+              <SkeletonCard />
+              <SkeletonCard />
+              <SkeletonCard />
+              <SkeletonCard />
+              <SkeletonCard />
+              <SkeletonCard />
+              <SkeletonCard />
+              <SkeletonCard />
+            </>
           )}
         </div>
       </div>
