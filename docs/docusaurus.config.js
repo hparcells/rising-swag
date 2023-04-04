@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/hparcells/rising-swag/tree/master/src/docs',
+            'https://github.com/hparcells/rising-swag/tree/master/src/docs'
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/hparcells/rising-swag/tree/master/src/docs',
+            'https://github.com/hparcells/rising-swag/tree/master/src/docs'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,9 +72,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
             label: 'Docs'
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'communitySidebar',
+            position: 'left',
+            label: 'Community'
           },
           {
             to: '/blog',
@@ -96,11 +102,11 @@ const config = {
             items: [
               {
                 label: 'API Usage',
-                to: '/docs/api'
+                to: '/docs/api-usage'
               },
               {
                 label: 'Communities',
-                to: '/docs/communities'
+                to: '/docs/community/communities'
               }
             ]
           },
@@ -131,7 +137,7 @@ const config = {
             ]
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Hunter Parcells`
+        copyright: 'Copyright © 2023 Hunter Parcells'
       },
       prism: {
         theme: lightCodeTheme,

@@ -19,6 +19,7 @@
     "package-lock.json": true,
     "tsconfig.json": true,
     "docs/.docusaurus": true,
+    "docs/build": true,
     "docs/node_modules": true,
     "docs/static/.nojekyll": true,
     "docs/.gitignore": true,
