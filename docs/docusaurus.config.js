@@ -29,7 +29,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en']
   },
 
   presets: [
@@ -53,9 +53,9 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
-    ],
+        }
+      })
+    ]
   ],
 
   themeConfig:
@@ -67,22 +67,26 @@ const config = {
         title: 'Rising Swag Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.svg'
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Docs'
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
           {
             href: 'https://github.com/hparcells/rising-swag',
             label: 'GitHub',
-            position: 'right',
-          },
-        ],
+            position: 'right'
+          }
+        ]
       },
       footer: {
         style: 'dark',
@@ -92,48 +96,48 @@ const config = {
             items: [
               {
                 label: 'API Usage',
-                to: '/docs/api',
+                to: '/docs/api'
               },
               {
                 label: 'Communities',
-                to: '/docs/communities',
-              },
-            ],
+                to: '/docs/communities'
+              }
+            ]
           },
           {
             title: 'Community',
             items: [
               {
                 label: 'Subreddit',
-                href: 'https://www.reddit.com/r/redrising',
+                href: 'https://www.reddit.com/r/redrising'
               },
               {
                 label: 'Wiki',
                 href: 'https://red-rising.fandom.com/wiki/Red_Rising_Wiki'
               }
-            ],
+            ]
           },
           {
             title: 'More',
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/blog'
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+                href: 'https://github.com/facebook/docusaurus'
+              }
+            ]
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Hunter Parcells`,
+        copyright: `Copyright © ${new Date().getFullYear()} Hunter Parcells`
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+        darkTheme: darkCodeTheme
+      }
+    })
 };
 
 module.exports = config;

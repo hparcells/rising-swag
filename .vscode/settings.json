@@ -25,6 +25,7 @@
     "docs/babel.config.js": true,
     "docs/DOCUSAURUS.md": true,
     "docs/package-lock.json": true,
+    "docs/README.md": true,
     "docs/tsconfig.json": true
   },
   "typescript.tsdk": "node_modules\\typescript\\lib",
