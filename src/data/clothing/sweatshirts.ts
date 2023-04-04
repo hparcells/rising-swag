@@ -97,6 +97,18 @@ const data: IItem[] = [
     },
     description: 'Hail Reaper!',
     link: 'https://www.etsy.com/listing/1055925156/red-rising-sweatshirt-hail-reaper-the'
+  },
+  {
+    date: '2023-04-03',
+    image: 'https://i.etsystatic.com/19780495/r/il/78462e/3320377971/il_794xN.3320377971_k7yz.jpg',
+    name: 'The Reaper of Mars Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Darrow - The Reaper of Mars.',
+    link: 'https://www.etsy.com/listing/1055915612/red-rising-sweatshirt-darrow-the-reaper'
   }
 ];
 
