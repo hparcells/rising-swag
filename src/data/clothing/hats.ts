@@ -346,6 +346,44 @@ const data: IItem[] = [
     },
     description: 'Shit Escalates.',
     link: 'https://www.etsy.com/listing/1216395640/red-rising-hat-shit-escalates-dad-hat'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/24022818/r/il/99fd26/4542625068/il_794xN.4542625068_3sky.jpg',
+    name: 'Sigil and Wolf Twill Hat',
+    tags: ['hat', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description:
+      'Twill hat with the gold sigil, red sigil, and the wolf of mars onto one design. Comes in white and black.',
+    link: 'https://www.etsy.com/listing/1384159480/red-rising-unisex-twill-hat-gold-and-red'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/24022818/r/il/36768e/4353105552/il_794xN.4353105552_85a8.jpg',
+    name: 'Sigil and Wolf Pom Beanie',
+    tags: ['hat', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description:
+      'Pom beanie with the gold sigil, red sigil, and the wolf of mars onto one design. Comes in white and black.',
+    link: 'https://www.etsy.com/listing/1334251008/red-rising-gold-and-red-sigil'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/24022818/r/il/18de80/4353149508/il_794xN.4353149508_1tq6.jpg',
+    name: 'Sigil and Wolf Beanie',
+    tags: ['hat', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description: 'Beanie with the gold sigil, red sigil, and the wolf of mars onto one design.',
+    link: 'https://www.etsy.com/listing/1334259602/red-rising-gold-and-red-sigil'
   }
 ];
 
