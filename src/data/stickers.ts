@@ -451,6 +451,18 @@ const data: IItem[] = [
     },
     description: 'A sticker depicting Eo with the text: "Break the Chains My Love"',
     link: 'https://www.etsy.com/listing/1383526266/break-the-chains-my-love-vinyl'
+  },
+  {
+    date: '2023-04-03',
+    image: 'https://i.etsystatic.com/24022818/r/il/bf8caf/4827111575/il_794xN.4827111575_ro0c.jpg',
+    name: 'Sigil and Wolf Sticker',
+    tags: ['sticker', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description: 'Shirt with the gold sigil, red sigil, and the wolf of mars onto one design.',
+    link: 'https://www.etsy.com/listing/1452191391/red-rising-sticker-gold-and-red-sigil'
   }
 ];
 

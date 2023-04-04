@@ -894,6 +894,18 @@ const data: IItem[] = [
     },
     description: 'Represent House Mars! Fan made House Mars shirt.',
     link: 'https://www.etsy.com/listing/863239571/red-rising-shirt-house-mars-tshirt'
+  },
+  {
+    date: '2023-04-03',
+    image: 'https://i.etsystatic.com/24022818/r/il/a49d9e/4778876806/il_794xN.4778876806_ecdl.jpg',
+    name: 'Sigil and Wolf Shirt',
+    tags: ['shirt', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description: 'Shirt with the gold sigil, red sigil, and the wolf of mars onto one design.',
+    link: 'https://www.etsy.com/listing/1437991630/red-rising-unisex-t-shirt-gold-and-red'
   }
 ];
 

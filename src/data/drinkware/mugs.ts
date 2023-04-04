@@ -271,6 +271,18 @@ const data: IItem[] = [
     description:
       '"Break The Chains" were Eo\'s words to Darrow, to rise against the Society that held them down.',
     link: 'https://www.etsy.com/listing/485111575/break-the-chains-coffee-mug-red-rising'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/24022818/r/il/18e1da/3979743771/il_794xN.3979743771_2egh.jpg',
+    name: 'Sigil and Wolf Mug',
+    tags: ['mug', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description: 'Shirt with the gold sigil, red sigil, and the wolf of mars onto one design.',
+    link: 'https://www.etsy.com/listing/1234533228/red-rising-gold-and-red-sigil-red-coffee'
   }
 ];
 
