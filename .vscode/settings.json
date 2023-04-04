@@ -17,7 +17,15 @@
     "NEXT.md": true,
     "out": true,
     "package-lock.json": true,
-    "tsconfig.json": true
+    "tsconfig.json": true,
+    "docs/.docusaurus": true,
+    "docs/node_modules": true,
+    "docs/static/.nojekyll": true,
+    "docs/.gitignore": true,
+    "docs/babel.config.js": true,
+    "docs/DOCUSAURUS.md": true,
+    "docs/package-lock.json": true,
+    "docs/tsconfig.json": true
   },
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
