@@ -23,7 +23,7 @@ function SectionAdditional() {
           View on GitHub
         </Button>
         <Text size='sm'>
-          <Anchor href='https://docs.risingswag.com/docs/api-usage' target='_blank'>
+          <Anchor href='https://docs.risingswag.com/docs/api' target='_blank'>
             API Docs
           </Anchor>
         </Text>
