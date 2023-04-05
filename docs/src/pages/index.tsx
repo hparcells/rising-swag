@@ -27,9 +27,7 @@ export default function Home(): JSX.Element {
       description='Documentation for Rising Swag, with other community resources around the Red Rising fandom.'
     >
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <HomepageFeatures />
     </Layout>
   );
 }
