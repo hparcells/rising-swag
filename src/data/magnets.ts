@@ -87,7 +87,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: 'Set of 9 ceramic tile magnets inspired by the world of Red Rising.',
-    link: 'https://www.etsy.com/listing/1319809226/red-rising-magnets'
+    link: 'https://www.etsy.com/listing/1319809226/red-rising-magnets',
+    expired: true
   }
 ];
 

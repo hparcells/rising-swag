@@ -300,7 +300,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: '6 Ceramic Tile Coasters laser engraved and inspired by the world of Red Rising!',
-    link: 'https://www.etsy.com/listing/1232853781/red-rising-inspired-ceramic-tile'
+    link: 'https://www.etsy.com/listing/1232853781/red-rising-inspired-ceramic-tile',
+    expired: true
   },
   {
     date: '2023-03-22',
