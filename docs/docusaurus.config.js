@@ -95,8 +95,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'API Usage',
-                to: '/docs/api-usage'
+                label: 'API',
+                to: '/docs/api'
               }
             ]
           },

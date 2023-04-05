@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# API Usage
+# API
 
 There is a public and free API available for use to query for the data that Rising Swag serves. **The base url for which is https://risingswag.com/api/v1**.
 
