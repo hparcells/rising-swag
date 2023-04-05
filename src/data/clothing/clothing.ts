@@ -858,6 +858,54 @@ const data: IItem[] = [
     },
     description: 'Summon the Howlers!',
     link: 'https://www.etsy.com/listing/1286376625/red-rising-shirt-summon-the-howlers'
+  },
+  {
+    date: '2023-04-03',
+    image: 'https://i.etsystatic.com/19780495/r/il/840818/4130250517/il_794xN.4130250517_6owr.jpg',
+    name: 'Omnis Vir Lupus Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Omnis vir lupus, every man a wolf.',
+    link: 'https://www.etsy.com/listing/849323404/red-rising-shirt-omnis-vir-lupus-the'
+  },
+  {
+    date: '2023-04-03',
+    image: 'https://i.etsystatic.com/19780495/r/il/b44325/4082652600/il_794xN.4082652600_71vl.jpg',
+    name: 'Howler for Life Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Howler for life!',
+    link: 'https://www.etsy.com/listing/849321822/red-rising-shirt-the-howlers-howler-for'
+  },
+  {
+    date: '2023-04-03',
+    image: 'https://i.etsystatic.com/19780495/r/il/e00fc5/4082580616/il_794xN.4082580616_mx3w.jpg',
+    name: 'House Mars Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Represent House Mars! Fan made House Mars shirt.',
+    link: 'https://www.etsy.com/listing/863239571/red-rising-shirt-house-mars-tshirt'
+  },
+  {
+    date: '2023-04-03',
+    image: 'https://i.etsystatic.com/24022818/r/il/a49d9e/4778876806/il_794xN.4778876806_ecdl.jpg',
+    name: 'Sigil and Wolf Shirt',
+    tags: ['shirt', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description: 'Shirt with the gold sigil, red sigil, and the wolf of mars onto one design.',
+    link: 'https://www.etsy.com/listing/1437991630/red-rising-unisex-t-shirt-gold-and-red'
   }
 ];
 

@@ -271,6 +271,42 @@ const data: IItem[] = [
     description:
       '"Break The Chains" were Eo\'s words to Darrow, to rise against the Society that held them down.',
     link: 'https://www.etsy.com/listing/485111575/break-the-chains-coffee-mug-red-rising'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/24022818/r/il/18e1da/3979743771/il_794xN.3979743771_2egh.jpg',
+    name: 'Sigil and Wolf Mug',
+    tags: ['mug', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description: 'Shirt with the gold sigil, red sigil, and the wolf of mars onto one design.',
+    link: 'https://www.etsy.com/listing/1234533228/red-rising-gold-and-red-sigil-red-coffee'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/39768594/r/il/27107e/4585451202/il_794xN.4585451202_53hd.jpg',
+    name: 'Hic Sunt Leones Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'ADHDAbby',
+      url: 'https://www.etsy.com/shop/ADHDAbby'
+    },
+    description: 'Mug with a lion and pillar design.',
+    link: 'https://www.etsy.com/listing/1394277566/lion-hic-sunt-leones-white-glossy-mug'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/39768594/r/il/cb1bf7/4578386736/il_794xN.4578386736_1axs.jpg',
+    name: 'Omnis Vir Lupus Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'ADHDAbby',
+      url: 'https://www.etsy.com/shop/ADHDAbby'
+    },
+    description: 'Mug with a wolf and skull design.',
+    link: 'https://www.etsy.com/listing/1392625332/howler-omnis-vir-lupus-white-glossy-mug'
   }
 ];
 

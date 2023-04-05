@@ -179,6 +179,42 @@ const data: IItem[] = [
     },
     description: 'LiveForMores Omnis vir Lupus design on a hoodie.',
     link: 'https://www.etsy.com/listing/1396123364/red-rising-omnis-vir-lupus-darrow-howler'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/39768594/r/il/cb1e6c/4614981059/il_794xN.4614981059_adkf.jpg',
+    name: 'Omnis Vir Lupus Crop Hoodie',
+    tags: ['hoodie'],
+    shop: {
+      name: 'ADHDAbby',
+      url: 'https://www.etsy.com/shop/ADHDAbby'
+    },
+    description: 'Crop hoodie with a wolf and skull design.',
+    link: 'https://www.etsy.com/listing/1389875872/howler-omnis-vir-lupus-crop-hoodie'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/39768594/r/il/695bc6/4563744050/il_794xN.4563744050_n30b.jpg',
+    name: 'Omnis Vir Lupus Embroidered Crop Hoodie',
+    tags: ['hoodie'],
+    shop: {
+      name: 'ADHDAbby',
+      url: 'https://www.etsy.com/shop/ADHDAbby'
+    },
+    description: 'Embroidered crop hoodie with a wolf and skull design.',
+    link: 'https://www.etsy.com/listing/1403372101/embroidered-howler-omnis-vir-lupus-crop'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/39768594/r/il/dbaefd/4563790108/il_794xN.4563790108_apll.jpg',
+    name: 'Omnis Vir Lupus Hoodie',
+    tags: ['hoodie'],
+    shop: {
+      name: 'ADHDAbby',
+      url: 'https://www.etsy.com/shop/ADHDAbby'
+    },
+    description: 'Hoodie with a wolf and skull design.',
+    link: 'https://www.etsy.com/listing/1403379807/howler-omnis-vir-lupus-unisex-hoodie'
   }
 ];
 

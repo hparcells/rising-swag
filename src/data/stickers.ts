@@ -451,6 +451,42 @@ const data: IItem[] = [
     },
     description: 'A sticker depicting Eo with the text: "Break the Chains My Love"',
     link: 'https://www.etsy.com/listing/1383526266/break-the-chains-my-love-vinyl'
+  },
+  {
+    date: '2023-04-03',
+    image: 'https://i.etsystatic.com/24022818/r/il/bf8caf/4827111575/il_794xN.4827111575_ro0c.jpg',
+    name: 'Sigil and Wolf Sticker',
+    tags: ['sticker', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description: 'Shirt with the gold sigil, red sigil, and the wolf of mars onto one design.',
+    link: 'https://www.etsy.com/listing/1452191391/red-rising-sticker-gold-and-red-sigil'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/39768594/r/il/ee20d2/4612190493/il_794xN.4612190493_epbf.jpg',
+    name: 'Omnis Vir Lupus Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'ADHDAbby',
+      url: 'https://www.etsy.com/shop/ADHDAbby'
+    },
+    description: 'Sticker with a wolf and skull design.',
+    link: 'https://www.etsy.com/listing/1403377047/howler-omnis-vir-lupus-bubble-free'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/39768594/r/il/792c97/4612130488/il_794xN.4612130488_meh9.jpg',
+    name: 'Hic Sunt Leones Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'ADHDAbby',
+      url: 'https://www.etsy.com/shop/ADHDAbby'
+    },
+    description: 'Sticker with a lion and pillar design.',
+    link: 'https://www.etsy.com/listing/1414058335/lion-hic-sunt-leones-bubble-free-sticker'
   }
 ];
 
