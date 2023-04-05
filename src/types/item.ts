@@ -35,7 +35,7 @@ type IMerchType = (typeof MERCH_TYPE)[number];
 /**
  * Tags associated with an {@link IItem}.
  */
-export type ITag = IBook | ICharacter | IColor | IMerchType | 'official';
+export type ITag = IBook | ICharacter | IColor | IMerchType | 'official' | 'featured';
 
 /**
  * A link to an author/shop.
