@@ -77,12 +77,6 @@ const config = {
             label: 'Docs'
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'communitySidebar',
-            position: 'left',
-            label: 'Community'
-          },
-          {
             to: '/blog',
             label: 'Blog',
             position: 'left'
@@ -103,16 +97,16 @@ const config = {
               {
                 label: 'API Usage',
                 to: '/docs/api-usage'
-              },
-              {
-                label: 'Communities',
-                to: '/docs/community/communities'
               }
             ]
           },
           {
             title: 'Community',
             items: [
+              {
+                label: 'Communities',
+                to: '/docs/communities'
+              },
               {
                 label: 'Subreddit',
                 href: 'https://www.reddit.com/r/redrising'
