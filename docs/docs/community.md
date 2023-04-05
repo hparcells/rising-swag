@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Communities
+# Community
 
 ## Discord
 - **[The Sons of Ares](https://discord.gg/865AWxh)**: One of the oldest and largest Discord servers for the Red Rising community. Includes a text bot that can search for anything across any of the books. Hosts Q&A sessions with Pierce Brown himself.
@@ -18,3 +18,9 @@ sidebar_position: 1
 
 ## Other
 - **[r/RedRising](https://www.reddit.com/r/redrising/)**: The Red Rising subreddit in-operation since 2014.
+- **[Peerless Lore](https://www.youtube.com/channel/UCmMyW0k6cXvVH-hf0wAD44A)**: Lore-based videos around Red Rising.
+
+## Resources
+- **[The Red Rising Wiki](https://red-rising.fandom.com/wiki/Red_Rising_Wiki)**: Everything you need to know about the Red Rising saga (spoilers).
+- **[The Howler Archives](https://www.thehowlerarchives.com/)**: Character flowcharts, item descriptions, and more!
+- **[Howler Life](https://howlerlife.com/)**: Red Rising related news in short posts.

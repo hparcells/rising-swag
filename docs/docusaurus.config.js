@@ -104,8 +104,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Communities',
-                to: '/docs/communities'
+                label: 'Community Items',
+                to: '/docs/community'
               },
               {
                 label: 'Subreddit',
