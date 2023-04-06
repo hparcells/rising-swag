@@ -500,30 +500,6 @@ const data: IItem[] = [
     description:
       'Stickers for Operation Hazard Bedlam 2.0, a official photo competition, but this time with instant winners.',
     link: 'https://www.lit-escalates.com/collections/limited-edition/products/hazard-bedlam-2-0-gamepiece-pre-order'
-  },
-  {
-    date: '2023-04-06',
-    image: 'https://ih1.redbubble.net/image.2266050286.0427/sss,small,product_square,1000x1000.jpg',
-    name: 'The Reaper Sticker',
-    tags: ['sticker', 'red', 'gold'],
-    shop: {
-      name: 'Son of Ares',
-      url: 'https://www.redbubble.com/people/Bitninjasupply/shop'
-    },
-    description: 'Custom fan art of the the Reaper, featuring Red and Gold sigils.',
-    link: 'https://www.redbubble.com/i/sticker/The-Reaper-Red-Rising-by-Bitninjasupply/75140427.EJUG5'
-  },
-  {
-    date: '2023-04-06',
-    image: 'https://ih1.redbubble.net/image.1081350207.4939/sss,small,product_square,1000x1000.jpg',
-    name: 'Ares Sticker',
-    tags: ['sticker', 'sevro'],
-    shop: {
-      name: 'PallasIllustra',
-      url: 'https://www.redbubble.com/people/PallasIllustra/shop'
-    },
-    description: 'Sticker featuring Ares (Sevro).',
-    link: 'https://www.redbubble.com/i/sticker/Ares-by-PallasIllustra/45234939.EJUG5'
   }
 ];
 

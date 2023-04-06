@@ -252,19 +252,6 @@ const data: IItem[] = [
     },
     description: 'I would have lived in peace, but my enemies brought me war.',
     link: 'https://www.etsy.com/listing/1179091611/red-rising-print'
-  },
-  {
-    date: '2023-04-06',
-    image:
-      'https://ih1.redbubble.net/image.1085211557.9580/farp,medium,wall_texture,product,750x1000.jpg',
-    name: 'Darrow and Pax Print',
-    tags: ['print', 'darrow'],
-    shop: {
-      name: 'PallasIllustra',
-      url: 'https://www.redbubble.com/people/pallasillustra/shop'
-    },
-    description: 'Darrow and young Pax together. Comes in multiple different types of prints.',
-    link: 'https://www.redbubble.com/people/pallasillustra/shop'
   }
 ];
 

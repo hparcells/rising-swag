@@ -637,18 +637,6 @@ const data: IItem[] = [
   },
   {
     date: '2023-03-22',
-    image: 'https://i.etsystatic.com/23884463/r/il/0402f9/2973735309/il_794xN.2973735309_m434.jpg',
-    name: 'Son of Ares Shirt',
-    tags: ['shirt'],
-    shop: {
-      name: 'Christinehandmadee',
-      url: 'https://www.etsy.com/shop/Christinehandmadee'
-    },
-    description: 'Son of Ares shirt featuring a classic Trojan helmet.',
-    link: 'https://www.etsy.com/listing/976742855/son-of-ares-shirt-bookish-shirt-sevro-au'
-  },
-  {
-    date: '2023-03-22',
     image: 'https://i.etsystatic.com/16496017/r/il/0d3fc3/4617357753/il_794xN.4617357753_ezha.jpg',
     name: 'Red Sigil Tee',
     tags: ['shirt', 'red'],
