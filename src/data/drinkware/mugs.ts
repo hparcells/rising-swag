@@ -307,6 +307,18 @@ const data: IItem[] = [
     },
     description: 'Mug with a wolf and skull design.',
     link: 'https://www.etsy.com/listing/1392625332/howler-omnis-vir-lupus-white-glossy-mug'
+  },
+  {
+    date: '2023-04-06',
+    image: 'https://i.etsystatic.com/15170291/r/il/9b7dc8/1271882010/il_794xN.1271882010_ldcd.jpg',
+    name: 'Reaper Graffiti Ceramic Mug',
+    tags: ['mug'],
+    shop: {
+      name: '23rdlegion',
+      url: 'https://www.etsy.com/shop/23rdlegion'
+    },
+    description: 'Graffiti design ceramic mug.',
+    link: 'https://www.etsy.com/listing/537677016/reaper-graffiti-red-rising-inspired'
   }
 ];
 

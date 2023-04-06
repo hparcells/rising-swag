@@ -1,6 +1,7 @@
 import bookmarks from './bookmarks';
 import books from './books';
 import candles from './candles';
+import decals from './decals';
 import digital from './digital';
 import discs from './discs';
 import jewelry from './jewelry';
@@ -32,6 +33,7 @@ export const ALL_DATA = [
   ...bookmarks,
   ...books,
   ...candles,
+  ...decals,
   ...digital,
   ...discs,
   ...hats,

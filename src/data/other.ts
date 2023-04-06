@@ -167,33 +167,6 @@ const data: IItem[] = [
   },
   {
     date: '2023-03-20',
-    image: 'https://i.etsystatic.com/10165646/r/il/e07ece/3429019420/il_794xN.3429019420_r6rx.jpg',
-    name: 'Hail Reaper Hail Libertas Static Window Cling Decal',
-    tags: ['other'],
-    shop: {
-      name: 'LiveForMore',
-
-      url: 'https://www.etsy.com/shop/LiveForMore'
-    },
-    description:
-      'Hail Libertas! Hail Reaper! Slap this waterproof, vinyl cling on your car, window, TBR cart, or mirror.',
-    link: 'https://www.etsy.com/listing/1110568493/removable-red-rising-static-window-cling'
-  },
-  {
-    date: '2023-03-20',
-    image: 'https://i.etsystatic.com/10165646/r/il/da206f/3429032590/il_794xN.3429032590_r41o.jpg',
-    name: 'Pegasus Legion Static Window Cling Decal',
-    tags: ['other'],
-    shop: {
-      name: 'LiveForMore',
-      url: 'https://www.etsy.com/shop/LiveForMore'
-    },
-    description:
-      'Pegasus Legion. Slap this waterproof, vinyl cling on your car, window, TBR cart, or mirror.',
-    link: 'https://www.etsy.com/listing/1096648646/removable-red-rising-static-window-cling'
-  },
-  {
-    date: '2023-03-20',
     image: 'https://i.etsystatic.com/10165646/r/il/da1312/3885967861/il_794xN.3885967861_hr1u.jpg',
     name: 'Red Rising Coasters',
     tags: ['other'],
@@ -390,18 +363,6 @@ const data: IItem[] = [
     },
     description: 'Darrow is scented of cucumber melon and lime!',
     link: 'https://www.etsy.com/listing/941229303/darrow-olykos-lip-balm-red-rising'
-  },
-  {
-    date: '2023-03-31',
-    image: 'https://i.etsystatic.com/8322668/r/il/19921c/1344151545/il_794xN.1344151545_7itj.jpg',
-    name: 'Howler for Live Decal',
-    tags: ['other'],
-    shop: {
-      name: 'KittenKeepDesigns',
-      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
-    },
-    description: 'Howlers, declare your allegiance with this vinyl decal!',
-    link: 'https://www.etsy.com/listing/558037067/howler-for-life-vinyl-decal-red-rising'
   }
 ];
 
