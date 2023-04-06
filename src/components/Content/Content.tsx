@@ -126,16 +126,6 @@ function Content() {
                     return <ItemCard item={item} key={i} />;
                   })
                   .splice((page - 1) * 30, 30)}
-                <Pagination
-                  total={pages}
-                  value={page}
-                  onChange={(newPage) => {
-                    setPage(newPage);
-                    topCards.current?.scrollIntoView({ behavior: 'smooth' });
-                  }}
-                  className={classes.pagination}
-                  color='red'
-                />
               </>
             ) : (
               <p>No results</p>
@@ -154,6 +144,17 @@ function Content() {
             </>
           )}
         </div>
+
+        <Pagination
+          total={pages}
+          value={page}
+          onChange={(newPage) => {
+            setPage(newPage);
+            topCards.current?.scrollIntoView({ behavior: 'smooth' });
+          }}
+          className={classes.pagination}
+          color='red'
+        />
       </div>
     </div>
   );

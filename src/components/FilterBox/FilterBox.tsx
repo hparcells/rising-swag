@@ -22,7 +22,7 @@ function FilterBox() {
   }, [debounced]);
 
   return (
-    <Paper shadow='sm' p='md' mb='1em' withBorder>
+    <Paper shadow='sm' p='md' mt='1em' mb='1em' withBorder>
       <Group grow>
         <Input
           icon={<IconSearch />}
