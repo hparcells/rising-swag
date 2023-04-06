@@ -144,7 +144,7 @@ const data: IItem[] = [
   {
     date: '2023-03-27',
     image: 'https://i.etsystatic.com/28787456/r/il/07d790/3681673801/il_794xN.3681673801_9bhm.jpg',
-    name: '"Forget a Man\'s Name" Bookmark',
+    name: "Forget a Man's Name Bookmark",
     tags: ['bookmark', 'morning-star'],
     shop: {
       name: 'TheRainbowCourt',

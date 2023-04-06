@@ -392,7 +392,7 @@ const data: IItem[] = [
   {
     date: '2023-03-21',
     image: 'https://i.etsystatic.com/10165646/r/il/f79e63/3299282148/il_794xN.3299282148_moux.jpg',
-    name: '"Sevro is my Spirit Animal" Sticker',
+    name: 'Sevro is my Spirit Animal Sticker',
     tags: ['sticker', 'sevro'],
     shop: {
       name: 'LiveForMore',
@@ -405,7 +405,7 @@ const data: IItem[] = [
   {
     date: '2023-03-21',
     image: 'https://i.etsystatic.com/10165646/r/il/f6d928/2795249950/il_794xN.2795249950_lxk3.jpg',
-    name: '"You\'re Making Me Emotional" Sticker',
+    name: "You're Making Me Emotional Sticker",
     tags: ['sticker', 'victra'],
     shop: {
       name: 'LiveForMore',

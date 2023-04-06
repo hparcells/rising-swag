@@ -335,7 +335,7 @@ const data: IItem[] = [
   {
     date: '2023-03-24',
     image: 'https://i.etsystatic.com/22469851/r/il/b24631/3514238135/il_794xN.3514238135_mjqk.jpg',
-    name: "'Happy Howler-Days' Christmas Pine Wood Ornament",
+    name: 'Happy Howler-Days Pine Wood Christmas Ornament',
     tags: ['other'],
     shop: {
       name: 'LiteraryLeoCo',
@@ -360,7 +360,7 @@ const data: IItem[] = [
   {
     date: '2023-03-26',
     image: 'https://i.etsystatic.com/14520538/r/il/c2bcc3/2837260049/il_794xN.2837260049_fp33.jpg',
-    name: 'Darrow O’Lykos Lip Balm',
+    name: "Darrow O'Lykos Lip Balm",
     tags: ['other', 'darrow'],
     shop: {
       name: 'BookishBalms',

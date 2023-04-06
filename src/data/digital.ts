@@ -28,7 +28,7 @@ const data: IItem[] = [
   {
     date: '2023-03-24',
     image: 'https://i.etsystatic.com/26674192/r/il/9fa58c/2763994270/il_794xN.2763994270_i50w.jpg',
-    name: '"I Am the Mustang that Nuzzles the Hand" (Mustang) Digital Artwork Pack',
+    name: 'Mustang that Nuzzles the Hand (Mustang) Digital Artwork Pack',
     tags: ['digital', 'mustang'],
     shop: {
       name: 'HailReaperPod',
