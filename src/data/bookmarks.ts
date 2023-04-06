@@ -50,7 +50,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: 'Wooden bookmarks inspired by the world of Red Rising.',
-    link: 'https://www.etsy.com/listing/1275549780/red-rising-inspired-wooden-bookmarks'
+    link: 'https://www.etsy.com/listing/1275549780/red-rising-inspired-wooden-bookmarks',
+    expired: true
   },
   {
     date: '2023-03-22',
@@ -74,7 +75,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: 'Wooden bookmarks inspired by the world of Red Rising.',
-    link: 'https://www.etsy.com/listing/1218915214/red-rising-inspired-wooden-bookmarks'
+    link: 'https://www.etsy.com/listing/1218915214/red-rising-inspired-wooden-bookmarks',
+    expired: true
   },
   {
     date: '2023-03-22',

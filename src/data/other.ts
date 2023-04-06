@@ -213,7 +213,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: '3D Laser cut graphic of an Iron Rain poster from Red Rising.',
-    link: 'https://www.etsy.com/listing/1419669254/wood-engraved-red-rising-graphic-iron'
+    link: 'https://www.etsy.com/listing/1419669254/wood-engraved-red-rising-graphic-iron',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -225,7 +226,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: '3D Laser cut map of Mercury from Red Rising.',
-    link: 'https://www.etsy.com/listing/1419664738/wood-engraved-map-mercury-from-red'
+    link: 'https://www.etsy.com/listing/1419664738/wood-engraved-map-mercury-from-red',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -237,7 +239,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: '3D Laser cut graphic of the solar system from Red Rising.',
-    link: 'https://www.etsy.com/listing/1410243202/wood-engraved-map-of-red-rising-the'
+    link: 'https://www.etsy.com/listing/1410243202/wood-engraved-map-of-red-rising-the',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -249,7 +252,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: '3D laser engraved color diagram inspired by the Red Rising book series.',
-    link: 'https://www.etsy.com/listing/1390502854/red-rising-color-pyramid-inspired-by-the'
+    link: 'https://www.etsy.com/listing/1390502854/red-rising-color-pyramid-inspired-by-the',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -261,7 +265,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: '3D Laser cut map of The Institute from Red Rising.',
-    link: 'https://www.etsy.com/listing/1340471250/3d-wood-engraved-map-of-red-rising-the'
+    link: 'https://www.etsy.com/listing/1340471250/3d-wood-engraved-map-of-red-rising-the',
+    expired: true
   },
   {
     date: '2023-03-22',
@@ -363,6 +368,19 @@ const data: IItem[] = [
     },
     description: 'Darrow is scented of cucumber melon and lime!',
     link: 'https://www.etsy.com/listing/941229303/darrow-olykos-lip-balm-red-rising'
+  },
+  {
+    date: '2023-04-06',
+    image: 'https://i.etsystatic.com/32661494/r/il/8b6d62/4701091410/il_1140xN.4701091410_34fd.jpg',
+    name: 'Wood Engraved Pulse Armor Graphic',
+    tags: ['other'],
+    shop: {
+      name: 'JTRichWood',
+      url: 'https://www.etsy.com/shop/JTRichWood'
+    },
+    description:
+      '3D Laser cut graphic of Pulse Armor from Red Rising. Laser cut from basswood, layered, stained, and sealed.',
+    link: 'https://www.etsy.com/listing/1433872471/wood-engraved-red-rising-graphic-pulse'
   }
 ];
 
