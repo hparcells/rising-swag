@@ -25,6 +25,7 @@ export const MERCH_TYPE = [
   'mask',
   'candle',
   'decal',
+  'redbubble',
   'other'
 ] as const;
 

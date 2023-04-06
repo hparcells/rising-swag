@@ -12,6 +12,7 @@ import patches from './patches';
 import phoneCases from './phone-cases';
 import pins from './pins';
 import prints from './prints';
+import redbubble from './redbubble';
 import stickers from './stickers';
 
 import clothing from './clothing/clothing';
@@ -48,6 +49,7 @@ export const ALL_DATA = [
   ...phoneCases,
   ...pins,
   ...prints,
+  ...redbubble,
   ...stickers,
   ...sweatshirts
 ].flat();
