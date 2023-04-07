@@ -98,6 +98,18 @@ const data: IItem[] = [
     },
     description: 'Geometric Howler design with a wolf and red sigil.',
     link: 'https://www.redbubble.com/shop/ap/120345653'
+  },
+  {
+    date: '2023-04-07',
+    image: 'https://ih1.redbubble.net/image.235582371.4555/flat,600x600,075,f.jpg',
+    name: 'Sevro Design',
+    tags: ['redbubble', 'sevro'],
+    shop: {
+      name: 'DennyMichael',
+      url: 'https://www.redbubble.com/people/DennyMichael/shop'
+    },
+    description: 'Sevro with a wolf cloak and a knife.',
+    link: 'https://www.redbubble.com/shop/ap/22444555'
   }
 ];
 
