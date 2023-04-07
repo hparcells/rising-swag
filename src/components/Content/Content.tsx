@@ -35,7 +35,7 @@ function Content() {
         );
       })
         .sort((a, b) => {
-          // Filter by filters.
+          // Order by filters.
           if (filter.sort.by === 'name') {
             if (filter.sort.order === 'descending') {
               return b.name.localeCompare(a.name);
@@ -66,7 +66,7 @@ function Content() {
           return true;
         })
         .sort((a, b) => {
-          // Featured
+          // Put featured first.
           return a.tags.includes('featured') ? -1 : 1;
         })
     );
@@ -75,7 +75,13 @@ function Content() {
     if (!filteredData) {
       return;
     }
-    setPages(Math.ceil(filteredData.length / 30));
+    setPages(
+      Math.ceil(
+        filteredData.filter((item) => {
+          return !item.expired;
+        }).length / 30
+      )
+    );
   }, [filteredData]);
   useEffect(() => {
     setPage(1);
