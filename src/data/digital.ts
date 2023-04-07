@@ -28,7 +28,7 @@ const data: IItem[] = [
   {
     date: '2023-03-24',
     image: 'https://i.etsystatic.com/26674192/r/il/9fa58c/2763994270/il_794xN.2763994270_i50w.jpg',
-    name: '"I Am the Mustang that Nuzzles the Hand" (Mustang) Digital Artwork Pack',
+    name: 'Mustang that Nuzzles the Hand (Mustang) Digital Artwork Pack',
     tags: ['digital', 'mustang'],
     shop: {
       name: 'HailReaperPod',
@@ -36,6 +36,18 @@ const data: IItem[] = [
     },
     description: 'Includes a PDF for poster printing and phone backgrounds.',
     link: 'https://www.etsy.com/listing/934489157/virginia-au-augustus-mustang-hic-sunt'
+  },
+  {
+    date: '2023-03-30',
+    image: 'https://i.etsystatic.com/31021523/r/il/1fa28f/4601395999/il_794xN.4601395999_mbs4.jpg',
+    name: 'Break the Chains Digital Print',
+    tags: ['digital', 'print', 'eo'],
+    shop: {
+      name: 'BookishByMaggie',
+      url: 'https://www.etsy.com/shop/BookishByMaggie'
+    },
+    description: 'A digital print of the quote "Break the Chains."',
+    link: 'https://www.etsy.com/listing/1400876233/red-rising-print-digital-download-break'
   }
 ];
 

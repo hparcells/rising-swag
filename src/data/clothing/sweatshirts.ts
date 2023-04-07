@@ -73,6 +73,42 @@ const data: IItem[] = [
     },
     description: '"You\'re making me emotional and I hate it." -Victra au Julii',
     link: 'https://www.etsy.com/listing/1383629692/red-rising-victra-au-barca-unisex-heavy'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/19915917/r/il/ae5744/4636102867/il_794xN.4636102867_d5l1.jpg',
+    name: 'SlingBlade Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'CheyDoesArt',
+      url: 'https://www.etsy.com/shop/CheyDoesArt'
+    },
+    description: 'Sweatshirt featuring a slingBlade.',
+    link: 'https://www.etsy.com/listing/1394768328/the-reapers-sling-blade-red-rising'
+  },
+  {
+    date: '2023-04-02',
+    image: 'https://i.etsystatic.com/19780495/r/il/891305/3272743408/il_794xN.3272743408_7r02.jpg',
+    name: 'Hail Reaper Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Hail Reaper!',
+    link: 'https://www.etsy.com/listing/1055925156/red-rising-sweatshirt-hail-reaper-the'
+  },
+  {
+    date: '2023-04-03',
+    image: 'https://i.etsystatic.com/19780495/r/il/78462e/3320377971/il_794xN.3320377971_k7yz.jpg',
+    name: 'The Reaper of Mars Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Darrow - The Reaper of Mars.',
+    link: 'https://www.etsy.com/listing/1055915612/red-rising-sweatshirt-darrow-the-reaper'
   }
 ];
 

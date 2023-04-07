@@ -50,7 +50,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: 'Wooden bookmarks inspired by the world of Red Rising.',
-    link: 'https://www.etsy.com/listing/1275549780/red-rising-inspired-wooden-bookmarks'
+    link: 'https://www.etsy.com/listing/1275549780/red-rising-inspired-wooden-bookmarks',
+    expired: true
   },
   {
     date: '2023-03-22',
@@ -74,7 +75,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: 'Wooden bookmarks inspired by the world of Red Rising.',
-    link: 'https://www.etsy.com/listing/1218915214/red-rising-inspired-wooden-bookmarks'
+    link: 'https://www.etsy.com/listing/1218915214/red-rising-inspired-wooden-bookmarks',
+    expired: true
   },
   {
     date: '2023-03-22',
@@ -86,7 +88,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/BookBubbledShop'
     },
     description: 'Quotes from Red Rising on bookmarks. Shipped from Canada.',
-    link: 'https://www.etsy.com/listing/1207264359/red-rising-saga-quote-bookmarks'
+    link: 'https://www.etsy.com/listing/1207264359/red-rising-saga-quote-bookmarks',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -141,7 +144,7 @@ const data: IItem[] = [
   {
     date: '2023-03-27',
     image: 'https://i.etsystatic.com/28787456/r/il/07d790/3681673801/il_794xN.3681673801_9bhm.jpg',
-    name: '"Forget a Man\'s Name" Bookmark',
+    name: "Forget a Man's Name Bookmark",
     tags: ['bookmark', 'morning-star'],
     shop: {
       name: 'TheRainbowCourt',
@@ -150,6 +153,31 @@ const data: IItem[] = [
     description:
       "Features the quote \"Forget a man's name and he'll forgive you. Remember it, and he'll defend you forever.\"",
     link: 'https://www.etsy.com/listing/1110349846/morning-star-inspired-bookmark'
+  },
+  {
+    date: '2023-03-14',
+    image: 'https://i.etsystatic.com/16046340/r/il/ca538f/4144213339/il_794xN.4144213339_n2sc.jpg',
+    name: 'Home - Wolf Bookmark',
+    tags: ['other', 'roque'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description:
+      'Book mark with "Home isn\'t where you\'re from, it\'s where you find light when all grows dark." on one side and "Hic Est Lupus Motherfucker" on the other.',
+    link: 'https://www.etsy.com/listing/1289914959/home-wolf-bookmark'
+  },
+  {
+    date: '2023-03-30',
+    image: 'https://i.etsystatic.com/28400366/r/il/8a3851/3693954429/il_794xN.3693954429_hv4i.jpg',
+    name: 'If Your Hear Beats Like A Drum Laminated Bookmark',
+    tags: ['bookmark', 'sevro'],
+    shop: {
+      name: 'itsbrittneyd',
+      url: 'https://www.etsy.com/shop/itsbrittneyd'
+    },
+    description: "A laminated bookmark of Sevro's favorite tune.",
+    link: 'https://www.etsy.com/listing/1173134461/reaper-of-mars-double-sided-laminated'
   }
 ];
 

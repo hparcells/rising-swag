@@ -298,6 +298,92 @@ const data: IItem[] = [
     },
     description: 'Hail Libertas Hail Reaper on a leather patch hat.',
     link: 'https://www.etsy.com/listing/1369436570/hail-libertas-hail-reaper-red-rising-hat'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/19915917/r/il/a8534c/4638585141/il_794xN.4638585141_qzyd.jpg',
+    name: 'SlingBlade Beanie',
+    tags: ['hat'],
+    shop: {
+      name: 'CheyDoesArt',
+      url: 'https://www.etsy.com/shop/CheyDoesArt'
+    },
+    description: "Beanie embroidered with Darrow's sling blade.",
+    link: 'https://www.etsy.com/listing/1395261414/the-reapers-sling-blade-red-rising'
+  },
+  {
+    date: '2023-04-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/6711ed/4774089137/il_794xN.4774089137_bl9e.jpg',
+    name: 'House Mars Sigil Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Six panel twill cap featuring the House Mars sigil.',
+    link: 'https://www.etsy.com/listing/1439714511/red-rising-house-mars-sigil-hat-unisex'
+  },
+  {
+    date: '2023-04-02',
+    image: 'https://i.etsystatic.com/19780495/r/il/3883bf/3392789799/il_794xN.3392789799_awcz.jpg',
+    name: 'Hail Reaper Dad Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Hail Reaper!',
+    link: 'https://www.etsy.com/listing/1085542491/red-rising-hat-hail-reaper-dad-hat-the'
+  },
+  {
+    date: '2023-04-02',
+    image: 'https://i.etsystatic.com/19780495/r/il/261780/3864489778/il_794xN.3864489778_h9m4.jpg',
+    name: 'Shit Escalates Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'InkandStoriesShop',
+      url: 'https://www.etsy.com/shop/InkandStoriesShop'
+    },
+    description: 'Shit Escalates.',
+    link: 'https://www.etsy.com/listing/1216395640/red-rising-hat-shit-escalates-dad-hat'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/24022818/r/il/99fd26/4542625068/il_794xN.4542625068_3sky.jpg',
+    name: 'Sigil and Wolf Twill Hat',
+    tags: ['hat', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description:
+      'Twill hat with the gold sigil, red sigil, and the wolf of mars onto one design. Comes in white and black.',
+    link: 'https://www.etsy.com/listing/1384159480/red-rising-unisex-twill-hat-gold-and-red'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/24022818/r/il/36768e/4353105552/il_794xN.4353105552_85a8.jpg',
+    name: 'Sigil and Wolf Pom Beanie',
+    tags: ['hat', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description:
+      'Pom beanie with the gold sigil, red sigil, and the wolf of mars onto one design. Comes in white and black.',
+    link: 'https://www.etsy.com/listing/1334251008/red-rising-gold-and-red-sigil'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/24022818/r/il/18de80/4353149508/il_794xN.4353149508_1tq6.jpg',
+    name: 'Sigil and Wolf Beanie',
+    tags: ['hat', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description: 'Beanie with the gold sigil, red sigil, and the wolf of mars onto one design.',
+    link: 'https://www.etsy.com/listing/1334259602/red-rising-gold-and-red-sigil'
   }
 ];
 
