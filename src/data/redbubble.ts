@@ -37,6 +37,55 @@ const data: IItem[] = [
     description:
       "Become an initiated member of Sevro's Howlers by sporting this emblem on your favorite merch. Hail Reaper!",
     link: 'https://www.redbubble.com/shop/ap/45915905'
+  },
+  {
+    date: '2023-04-06',
+    image: 'https://ih1.redbubble.net/image.1085211557.9580/flat,600x600,075,f.jpg',
+    name: 'Darrow and Pax Design',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'PallasIllustra',
+      url: 'https://www.redbubble.com/people/PallasIllustra/shop'
+    },
+    description: 'Darrow and young Pax together.',
+    link: 'https://www.redbubble.com/shop/ap/45269580'
+  },
+  {
+    date: '2023-04-06',
+    image: 'https://ih1.redbubble.net/image.1085209469.4939/flat,600x600,075,f.jpg',
+    name: 'Ares Design',
+    tags: ['redbubble', 'sevro'],
+    shop: {
+      name: 'PallasIllustra',
+
+      url: 'https://www.redbubble.com/people/PallasIllustra/shop'
+    },
+    description: 'Sevro au Barca in Ares/Howler pulseArmor.',
+    link: 'https://www.redbubble.com/shop/ap/45234939'
+  },
+  {
+    date: '2023-04-06',
+    image: 'https://ih1.redbubble.net/image.1085207794.4870/flat,600x600,075,f.jpg',
+    name: 'The Morning Knight Design',
+    tags: ['redbubble', 'cassius'],
+    shop: {
+      name: 'PallasIllustra',
+      url: 'https://www.redbubble.com/people/PallasIllustra/shop'
+    },
+    description: 'Cassius au Bellona art.',
+    link: 'https://www.redbubble.com/shop/ap/45234870'
+  },
+  {
+    date: '2023-04-06',
+    image: 'https://ih1.redbubble.net/image.1085205127.4750/flat,600x600,075,f.jpg',
+    name: 'Lady Julii Design',
+    tags: ['redbubble', 'victra'],
+    shop: {
+      name: 'PallasIllustra',
+      url: 'https://www.redbubble.com/people/PallasIllustra/shop'
+    },
+    description: 'Portrait of Victra from the end of Dark Age.',
+    link: 'https://www.redbubble.com/shop/ap/45234750'
   }
 ];
 
