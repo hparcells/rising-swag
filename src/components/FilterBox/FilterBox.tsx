@@ -26,7 +26,7 @@ function FilterBox() {
       <Group grow>
         <Input
           icon={<IconSearch />}
-          placeholder='Search'
+          placeholder='Search items, stores, etc...'
           value={search}
           onChange={(event) => {
             setSearch(event.currentTarget.value);

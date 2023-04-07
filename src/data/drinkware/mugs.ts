@@ -232,6 +232,93 @@ const data: IItem[] = [
     },
     description: 'Enamel mug with the quote "I am the reaper and death is my shadow." on it.',
     link: 'https://www.etsy.com/listing/1179073715/red-rising-enamel-mug'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/8322668/r/il/d481df/1405149540/il_794xN.1405149540_er31.jpg',
+    name: 'Per Aspera Ad Astra Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'KittenKeepDesigns',
+      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
+    },
+    description:
+      '"Through hardships to the stars" - very applicable to the struggles Darrow, Sevro, and The Howlers face.',
+    link: 'https://www.etsy.com/listing/491662406/per-aspera-ad-astra-coffee-mug-red'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/8322668/r/il/fb9613/2610830381/il_794xN.2610830381_n7sn.jpg',
+    name: 'Hic Sunt Leones Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'KittenKeepDesigns',
+      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
+    },
+    description:
+      '"Hic Sunt Leones" (Here Be Lions) is the motto of House Augustus, one of the leading families on the planet Mars.',
+    link: 'https://www.etsy.com/listing/468741002/hic-sunt-leones-coffee-mug-house'
+  },
+  {
+    date: '2023-03-31',
+    image: 'https://i.etsystatic.com/8322668/r/il/6a2b90/3913926595/il_794xN.3913926595_mh9y.jpg',
+    name: 'Break the Chains Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'KittenKeepDesigns',
+      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
+    },
+    description:
+      '"Break The Chains" were Eo\'s words to Darrow, to rise against the Society that held them down.',
+    link: 'https://www.etsy.com/listing/485111575/break-the-chains-coffee-mug-red-rising'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/24022818/r/il/18e1da/3979743771/il_794xN.3979743771_2egh.jpg',
+    name: 'Sigil and Wolf Mug',
+    tags: ['mug', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description: 'Shirt with the gold sigil, red sigil, and the wolf of mars onto one design.',
+    link: 'https://www.etsy.com/listing/1234533228/red-rising-gold-and-red-sigil-red-coffee'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/39768594/r/il/27107e/4585451202/il_794xN.4585451202_53hd.jpg',
+    name: 'Hic Sunt Leones Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'ADHDAbby',
+      url: 'https://www.etsy.com/shop/ADHDAbby'
+    },
+    description: 'Mug with a lion and pillar design.',
+    link: 'https://www.etsy.com/listing/1394277566/lion-hic-sunt-leones-white-glossy-mug'
+  },
+  {
+    date: '2023-04-04',
+    image: 'https://i.etsystatic.com/39768594/r/il/cb1bf7/4578386736/il_794xN.4578386736_1axs.jpg',
+    name: 'Omnis Vir Lupus Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'ADHDAbby',
+      url: 'https://www.etsy.com/shop/ADHDAbby'
+    },
+    description: 'Mug with a wolf and skull design.',
+    link: 'https://www.etsy.com/listing/1392625332/howler-omnis-vir-lupus-white-glossy-mug'
+  },
+  {
+    date: '2023-04-06',
+    image: 'https://i.etsystatic.com/15170291/r/il/9b7dc8/1271882010/il_794xN.1271882010_ldcd.jpg',
+    name: 'Reaper Graffiti Ceramic Mug',
+    tags: ['mug'],
+    shop: {
+      name: '23rdlegion',
+      url: 'https://www.etsy.com/shop/23rdlegion'
+    },
+    description: 'Graffiti design ceramic mug.',
+    link: 'https://www.etsy.com/listing/537677016/reaper-graffiti-red-rising-inspired'
   }
 ];
 
