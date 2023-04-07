@@ -86,6 +86,18 @@ const data: IItem[] = [
     },
     description: 'Portrait of Victra from the end of Dark Age.',
     link: 'https://www.redbubble.com/shop/ap/45234750'
+  },
+  {
+    date: '2023-04-07',
+    image: 'https://ih1.redbubble.net/image.3990229111.5653/flat,600x600,075,f.jpg',
+    name: 'Geometric Howler Design',
+    tags: ['redbubble', 'gold', 'red'],
+    shop: {
+      name: 'AndrewKramsoff',
+      url: 'https://www.redbubble.com/people/AndrewKramsoff/shop'
+    },
+    description: 'Geometric Howler design with a wolf and red sigil.',
+    link: 'https://www.redbubble.com/shop/ap/120345653'
   }
 ];
 
