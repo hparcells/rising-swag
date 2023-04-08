@@ -135,6 +135,18 @@ const data: IItem[] = [
     description:
       'Omnis vir lupus, every man a wolf. A blood thirsty wolf with "Omnis Vir Lupus" on it.',
     link: 'https://www.redbubble.com/shop/ap/49919590'
+  },
+  {
+    date: '2023-04-08',
+    image: 'https://ih1.redbubble.net/image.1034663934.2262/flat,600x600,075,f.jpg',
+    name: 'Sevro au Barca Design',
+    tags: ['redbubble', 'sevro'],
+    shop: {
+      name: 'antiochdesign',
+      url: 'https://www.redbubble.com/people/antiochdesign/shop'
+    },
+    description: 'Silhouette of Sevro au Barca, one-eyed, wolf-cloaked, and ready to escalate.',
+    link: 'https://www.redbubble.com/shop/ap/44082262'
   }
 ];
 
