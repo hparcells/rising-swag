@@ -894,6 +894,32 @@ const data: IItem[] = [
     },
     description: 'Shirt with the gold sigil, red sigil, and the wolf of mars onto one design.',
     link: 'https://www.etsy.com/listing/1437991630/red-rising-unisex-t-shirt-gold-and-red'
+  },
+  {
+    date: '2023-04-08',
+    image:
+      'https://ae01.alicdn.com/kf/Hdbd9e163ec6d4da7a4085a326c7e90a6t/Ares-Rise-Short-Sleeved-T-Shirt-Harajuku-Hip-Hop-T-Shirt-Tee-Tops-Red-Rising-Red.jpg_Q90.jpg',
+    name: 'Ares Rise Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'joogo Store',
+      url: 'https://www.aliexpress.com/store/1101866559'
+    },
+    description: 'Graffiti-style Ares helmet with "Rise" written beneath it.',
+    link: 'https://www.aliexpress.us/item/3256803703293239.html'
+  },
+  {
+    date: '2023-04-08',
+    image:
+      'https://ae01.alicdn.com/kf/He5f60f3df36f4aa2b33310dc15e6bba6i/It-S-A-Howler-Thing-T-Shirts-Pure-Cotton-O-Neck-T-Shirt-Men-Red-Rising.jpg_Q90.jpg',
+    name: "It's a Howler Thing Shirt",
+    tags: ['shirt'],
+    shop: {
+      name: 'GFFG Store',
+      url: 'https://www.aliexpress.com/store/1101789838'
+    },
+    description: "It's a Howler thing, you wouldn't understand.",
+    link: 'https://www.aliexpress.us/item/3256804226755628.html'
   }
 ];
 
