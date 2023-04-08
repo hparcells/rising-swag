@@ -159,6 +159,18 @@ const data: IItem[] = [
     },
     description: 'Hic Sunt Leones. An illustration of dual faces of Virginia Au Augustus.',
     link: 'https://www.redbubble.com/shop/ap/29604907'
+  },
+  {
+    date: '2023-04-08',
+    image: 'https://ih1.redbubble.net/image.774895322.5498/flat,600x600,075,f.jpg',
+    name: 'Darrow Design',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'Booshort',
+      url: 'https://www.redbubble.com/people/Booshort/shop'
+    },
+    description: 'Silhouette of Darrow with a slingBlade.',
+    link: 'https://www.redbubble.com/shop/ap/22185498'
   }
 ];
 
