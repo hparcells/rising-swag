@@ -110,6 +110,31 @@ const data: IItem[] = [
     },
     description: 'Sevro with a wolf cloak and a knife.',
     link: 'https://www.redbubble.com/shop/ap/22444555'
+  },
+  {
+    date: '2023-04-08',
+    image: 'https://ih1.redbubble.net/image.1292581401.7059/flat,600x600,075,f.jpg',
+    name: 'Helldiver of Lykos Design',
+    tags: ['redbubble', 'red'],
+    shop: {
+      name: 'Kaydee Mick',
+      url: 'https://www.redbubble.com/people/kmick/shop'
+    },
+    description: '"Helldiver of Lykos" on a drill.',
+    link: 'https://www.redbubble.com/shop/ap/49977059'
+  },
+  {
+    date: '2023-04-08',
+    image: 'https://ih1.redbubble.net/image.1290070849.9590/flat,600x600,075,f.jpg',
+    name: 'Omnis Vir Lupus Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Kaydee Mick',
+      url: 'https://www.redbubble.com/people/kmick/shop'
+    },
+    description:
+      'Omnis vir lupus, every man a wolf. A blood thirsty wolf with "Omnis Vir Lupus" on it.',
+    link: 'https://www.redbubble.com/shop/ap/49919590'
   }
 ];
 
