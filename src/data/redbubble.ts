@@ -147,6 +147,18 @@ const data: IItem[] = [
     },
     description: 'Silhouette of Sevro au Barca, one-eyed, wolf-cloaked, and ready to escalate.',
     link: 'https://www.redbubble.com/shop/ap/44082262'
+  },
+  {
+    date: '2023-04-08',
+    image: 'https://ih1.redbubble.net/image.487131931.4907/flat,600x600,075,f.jpg',
+    name: 'Mustang Design',
+    tags: ['redbubble', 'mustang'],
+    shop: {
+      name: 'lupusinvesti',
+      url: 'https://www.redbubble.com/people/lupusinvesti/shop'
+    },
+    description: 'Hic Sunt Leones. An illustration of dual faces of Virginia Au Augustus.',
+    link: 'https://www.redbubble.com/shop/ap/29604907'
   }
 ];
 
