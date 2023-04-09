@@ -315,6 +315,30 @@ const data: IItem[] = [
     },
     description: 'A geometric wolf with Gold and Red sigils.',
     link: 'https://www.redbubble.com/shop/ap/81908227'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.2624963937.6503/flat,600x600,075,f.jpg',
+    name: 'Shit Escalates Design - Black Font',
+    tags: ['redbubble'],
+    shop: {
+      name: 'chelseareads',
+      url: 'https://www.redbubble.com/people/chelseareads/shop'
+    },
+    description: 'Shit Escalates design with dark text on white background.',
+    link: 'https://www.redbubble.com/shop/ap/85566503'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.2624977283.6918/flat,600x600,075,f.jpg',
+    name: 'Shit Escalates Design - White Font',
+    tags: ['redbubble'],
+    shop: {
+      name: 'chelseareads',
+      url: 'https://www.redbubble.com/people/chelseareads/shop'
+    },
+    description: 'Shit Escalates design with white text on dark background.',
+    link: 'https://www.redbubble.com/shop/ap/85566918'
   }
 ];
 
