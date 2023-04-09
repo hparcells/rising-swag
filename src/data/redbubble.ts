@@ -436,6 +436,32 @@ const data: IItem[] = [
     },
     description: 'Howling wolf design.',
     link: 'https://www.redbubble.com/shop/ap/38337012'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.513434001.2208/flat,600x600,075,f.jpg',
+    name: 'Peerless Scarred Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'xsnlrocks21x',
+      url: 'https://www.redbubble.com/people/xsnlrocks21x/shop'
+    },
+    description:
+      'The Institute is the place where Gold-born go to become men and women; at least, those who survive. Only the victors of the Institute gain the title of Peerless Scarred, the best humanity has to offer and the rulers of the Society.',
+    link: 'https://www.redbubble.com/shop/ap/30342208'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.405784999.1190/flat,600x600,075,f.jpg',
+    name: 'Roque au Fabii - The Poet of Deimos Design',
+    tags: ['redbubble', 'roque'],
+    shop: {
+      name: 'xsnlrocks21x',
+      url: 'https://www.redbubble.com/people/xsnlrocks21x/shop'
+    },
+    description:
+      'Roque au Fabii. The Poet of Deimos. Imperator of the Sword Armada. Loyal to Gold to the end.',
+    link: 'https://www.redbubble.com/shop/ap/27401190'
   }
 ];
 
