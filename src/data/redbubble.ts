@@ -339,6 +339,55 @@ const data: IItem[] = [
     },
     description: 'Shit Escalates design with white text on dark background.',
     link: 'https://www.redbubble.com/shop/ap/85566918'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.1912072699.4461/flat,600x600,075,f.jpg',
+    name: 'Break the Chains Design',
+    tags: ['redbubble', 'eo'],
+    shop: {
+      name: 'MaaaddArt',
+      url: 'https://www.redbubble.com/people/MaaaddArt/shop'
+    },
+    description: 'Break the chains.',
+    link: 'https://www.redbubble.com/shop/ap/64454461'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.1912038469.3362/flat,600x600,075,f.jpg',
+    name: 'Live for More Design',
+    tags: ['redbubble', 'eo'],
+    shop: {
+      name: 'MaaaddArt',
+      url: 'https://www.redbubble.com/people/MaaaddArt/shop'
+    },
+    description: 'Break the chains.',
+    link: 'https://www.redbubble.com/shop/ap/64453362'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.4933164224.7741/flat,600x600,075,f.jpg',
+    name: 'Break the Chains Design',
+    tags: ['redbubble', 'eo'],
+    shop: {
+      name: 'MaaaddArt',
+
+      url: 'https://www.redbubble.com/people/MaaaddArt/shop'
+    },
+    description: 'Break the chains design with hands in chains.',
+    link: 'https://www.redbubble.com/shop/ap/143647741'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.4933150348.7354/flat,600x600,075,f.jpg',
+    name: 'Live for More Design',
+    tags: ['redbubble', 'eo'],
+    shop: {
+      name: 'MaaaddArt',
+      url: 'https://www.redbubble.com/people/MaaaddArt/shop'
+    },
+    description: 'Live for more design with a polygon wolf.',
+    link: 'https://www.redbubble.com/shop/ap/143647354'
   }
 ];
 
