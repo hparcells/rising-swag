@@ -171,6 +171,18 @@ const data: IItem[] = [
     },
     description: 'Silhouette of Darrow with a slingBlade.',
     link: 'https://www.redbubble.com/shop/ap/22185498'
+  },
+  {
+    date: '2023-04-08',
+    image: 'https://ih1.redbubble.net/image.1055542818.1389/flat,600x600,075,f.jpg',
+    name: 'Sevro is my Spirit Animal Design',
+    tags: ['redbubble', 'sevro'],
+    shop: {
+      name: 'Reptar22',
+      url: 'https://www.redbubble.com/people/Reptar22/shop'
+    },
+    description: 'Sevro is my spirit animal with a howling wolf and splattered blood.',
+    link: 'https://www.redbubble.com/shop/ap/44601389'
   }
 ];
 
