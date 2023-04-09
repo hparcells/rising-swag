@@ -279,6 +279,18 @@ const data: IItem[] = [
     },
     description: "Reaper of Mars' scythe, a Pitviper, and a haemanthus.",
     link: 'https://www.redbubble.com/shop/ap/58302667'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.4250439822.2900/flat,600x600,075,f.jpg',
+    name: 'Red Rising Design',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'mayza-shop',
+      url: 'https://www.redbubble.com/people/mayza-shop/shop'
+    },
+    description: 'A supposed figure of Red Darrow.',
+    link: 'https://www.redbubble.com/shop/ap/126402900'
   }
 ];
 
