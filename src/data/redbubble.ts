@@ -388,6 +388,30 @@ const data: IItem[] = [
     },
     description: 'Live for more design with a polygon wolf.',
     link: 'https://www.redbubble.com/shop/ap/143647354'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.1087897814.4677/flat,600x600,075,f.jpg',
+    name: 'Howler: Never Bow (Wolf) Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Arthur Petty',
+      url: 'https://www.redbubble.com/people/ButchPetty/shop'
+    },
+    description: 'Rule 1: Never Bow. Featuring a howling wolf.',
+    link: 'https://www.redbubble.com/shop/ap/34754677'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.668855217.4583/flat,600x600,075,f.jpg',
+    name: 'Howler: Never Bow (Dragon) Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Arthur Petty',
+      url: 'https://www.redbubble.com/people/ButchPetty/shop'
+    },
+    description: 'Rule 1: Never Bow. Featuring two dragons and sword.',
+    link: 'https://www.redbubble.com/shop/ap/34754583'
   }
 ];
 
