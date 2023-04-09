@@ -183,6 +183,18 @@ const data: IItem[] = [
     },
     description: 'Sevro is my spirit animal with a howling wolf and splattered blood.',
     link: 'https://www.redbubble.com/shop/ap/44601389'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.3113831308.1483/flat,600x600,075,f.jpg',
+    name: 'Break the Chains Design',
+    tags: ['redbubble', 'eo'],
+    shop: {
+      name: 'bewilderedbeest',
+      url: 'https://www.redbubble.com/people/bewilderedbeest/shop'
+    },
+    description: '"Break the Chains" on a banner around a slingBlade.',
+    link: 'https://www.redbubble.com/shop/ap/98441483'
   }
 ];
 
