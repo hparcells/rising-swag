@@ -412,6 +412,30 @@ const data: IItem[] = [
     },
     description: 'Rule 1: Never Bow. Featuring two dragons and sword.',
     link: 'https://www.redbubble.com/shop/ap/34754583'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.801816773.7023/flat,600x600,075,f.jpg',
+    name: 'Geometric Howlers Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'IrisAllin',
+      url: 'https://www.redbubble.com/people/IrisAllin/shop'
+    },
+    description: 'Geometric wolf design.',
+    link: 'https://www.redbubble.com/shop/ap/38337023'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.801815477.7012/flat,600x600,075,f.jpg',
+    name: 'Howlers Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'IrisAllin',
+      url: 'https://www.redbubble.com/people/IrisAllin/shop'
+    },
+    description: 'Howling wolf design.',
+    link: 'https://www.redbubble.com/shop/ap/38337012'
   }
 ];
 
