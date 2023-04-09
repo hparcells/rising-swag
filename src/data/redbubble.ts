@@ -291,6 +291,30 @@ const data: IItem[] = [
     },
     description: 'A supposed figure of Red Darrow.',
     link: 'https://www.redbubble.com/shop/ap/126402900'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.2494075944.8805/flat,600x600,075,f.jpg',
+    name: 'Golden Howler Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'DangeloBins',
+      url: 'https://www.redbubble.com/people/DangeloBins/shop'
+    },
+    description: 'A golden wolf with the text "Howler" beneath it.',
+    link: 'https://www.redbubble.com/shop/ap/81908805'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.2494055650.8227/flat,600x600,075,f.jpg',
+    name: 'Geometric Howler Design',
+    tags: ['redbubble', 'gold', 'red'],
+    shop: {
+      name: 'DangeloBins',
+      url: 'https://www.redbubble.com/people/DangeloBins/shop'
+    },
+    description: 'A geometric wolf with Gold and Red sigils.',
+    link: 'https://www.redbubble.com/shop/ap/81908227'
   }
 ];
 
