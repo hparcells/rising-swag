@@ -85,7 +85,7 @@ function Content() {
   }, [filteredData]);
   useEffect(() => {
     setPage(1);
-  }, [filter]);
+  }, [filter.search, filter.tags, filter.sort, filter.showExpired]);
 
   return (
     <div className={classes.root}>
