@@ -462,6 +462,44 @@ const data: IItem[] = [
     description:
       'Roque au Fabii. The Poet of Deimos. Imperator of the Sword Armada. Loyal to Gold to the end.',
     link: 'https://www.redbubble.com/shop/ap/27401190'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.2417043861.5155/flat,600x600,075,f.jpg',
+    name: 'Ares Helmet Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'gengy93',
+      url: 'https://www.redbubble.com/people/gengy93/shop'
+    },
+    description: 'The helmet of Ares.',
+    link: 'https://www.redbubble.com/shop/ap/79675155'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.2454858199.2894/flat,600x600,075,f.jpg',
+    name: 'Howling Wolf Design',
+    tags: ['redbubble'],
+
+    shop: {
+      name: 'gengy93',
+      url: 'https://www.redbubble.com/people/gengy93/shop'
+    },
+    description: 'Howling wolf behind red and black stripes.',
+    link: 'https://www.redbubble.com/shop/ap/80772894'
+  },
+  {
+    date: '2023-04-09',
+    image: 'https://ih1.redbubble.net/image.2454814322.1639/flat,600x600,075,f.jpg',
+    name: 'I Would Have Lived in Peace Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'gengy93',
+      url: 'https://www.redbubble.com/people/gengy93/shop'
+    },
+    description:
+      'Colorful howling wolf with the quote: I would have lived in peace but my enemies brought me war.',
+    link: 'https://www.redbubble.com/shop/ap/80771639'
   }
 ];
 
