@@ -500,6 +500,18 @@ const data: IItem[] = [
     description:
       'Colorful howling wolf with the quote: I would have lived in peace but my enemies brought me war.',
     link: 'https://www.redbubble.com/shop/ap/80771639'
+  },
+  {
+    date: '2023-04-10',
+    image: 'https://ih1.redbubble.net/image.4698735438.9933/flat,600x600,075,f.jpg',
+    name: 'Team Sevro Design',
+    tags: ['redbubble', 'sevro'],
+    shop: {
+      name: 'RavenPostCoz',
+      url: 'https://www.redbubble.com/people/RavenPostCoz/shop'
+    },
+    description: 'Show your affiliation to Sevro.',
+    link: 'https://www.redbubble.com/shop/ap/137239933'
   }
 ];
 
