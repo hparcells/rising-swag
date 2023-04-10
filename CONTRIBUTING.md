@@ -1,6 +1,6 @@
 Thank you for being interested in contributing to this project of mine.
 
-The Red Rising community is one that I have been a part of quite some time now, and always have been welcoming. Over the years, I've seen many different items being sold online to represent this amazing community. The goal of this project was to gather all of these items onto a single page, and because of how passionate the community is, there is nearly an endless supply of things on sites like Etsy and Redbubble.
+The Red Rising saga by Pierce Brown has been one of my favorite book series, and the community is one that I have been a part of quite some time now, and always have been welcoming. Over the years, I've seen many different items being sold online to rep the fandom. The goal of this project was to gather all of these items onto a single page, and because of how passionate the community is, there is nearly an endless supply of things on sites like Etsy and Redbubble.
 
 # Ways to Contribute
 ## Adding New Items

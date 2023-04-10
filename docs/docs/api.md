@@ -26,11 +26,13 @@ Returns all of the shops and their item counts.
 [
   {
     name: "3DPrintsbyTheodore",
-    url: "https://www.etsy.com/shop/3DPrintsbyTheodore",itemCount:1
+    url: "https://www.etsy.com/shop/3DPrintsbyTheodore",
+    itemCount:1
   },
   {
     name: "Badali Jewelry",
-    url: "https://badalijewelry.com/collections/red-rising/",itemCount: 31
+    url: "https://badalijewelry.com/collections/red-rising/",
+    itemCount: 31
   },
   // ...
 ]
@@ -46,18 +48,18 @@ Returns all the items of a specified shop.
   url: "https://www.etsy.com/shop/OrangeArmory",
   items: [
     {
-      "date": "2023-03-14",
-      "image": "https://i.etsystatic.com/29764445/r/il/c169c3/3801211612/il_794xN.3801211612_9c1a.jpg",
-      "name": "Finished SlingBlade",
-      "tags": [
+      date: "2023-03-14",
+      image: "https://i.etsystatic.com/29764445/r/il/c169c3/3801211612/il_794xN.3801211612_9c1a.jpg",
+      name: "Finished SlingBlade",
+      tags: [
           "other"
       ],
-      "shop": {
-          "name": "OrangeArmory",
-          "url": "https://www.etsy.com/shop/OrangeArmory"
+      shop: {
+          name: "OrangeArmory",
+          url: "https://www.etsy.com/shop/OrangeArmory"
       },
-      "description": "It'll save your life, at the cost of a limb. Fully finished with acrylic paint and simulated leather on the hilt. Nearly 3 feet long, will come shipped in 2 pieces.",
-      "link": "https://www.etsy.com/listing/1199461676/finished-slingblade"
+      description: "It'll save your life, at the cost of a limb. Fully finished with acrylic paint and simulated leather on the hilt. Nearly 3 feet long, will come shipped in 2 pieces.",
+      link: "https://www.etsy.com/listing/1199461676/finished-slingblade"
     },
     // ...
   ]
