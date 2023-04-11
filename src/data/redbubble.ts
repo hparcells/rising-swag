@@ -610,6 +610,42 @@ const data: IItem[] = [
     },
     description: 'Sons of Ares emblem.',
     link: 'https://www.redbubble.com/shop/ap/21234473'
+  },
+  {
+    date: '2023-04-11',
+    image: 'https://ih1.redbubble.net/image.3191763196.2621/flat,600x600,075,f.jpg',
+    name: 'Gold Sigil Design 1',
+    tags: ['redbubble', 'gold'],
+    shop: {
+      name: 'KASCADIA',
+      url: 'https://www.redbubble.com/people/KASCADIA/shop'
+    },
+    description: 'Dark on light Gold sigil design.',
+    link: 'https://www.redbubble.com/shop/ap/100492621'
+  },
+  {
+    date: '2023-04-11',
+    image: 'https://ih1.redbubble.net/image.3191770281.2816/flat,600x600,075,f.jpg',
+    name: 'Gold Sigil Design 2',
+    tags: ['redbubble', 'gold'],
+    shop: {
+      name: 'KASCADIA',
+      url: 'https://www.redbubble.com/people/KASCADIA/shop'
+    },
+    description: 'Gold on light Gold sigil design.',
+    link: 'https://www.redbubble.com/shop/ap/100492816'
+  },
+  {
+    date: '2023-04-11',
+    image: 'https://ih1.redbubble.net/image.3191777695.3018/flat,600x600,075,f.jpg',
+    name: 'Gold Sigil Design 3',
+    tags: ['redbubble', 'gold'],
+    shop: {
+      name: 'KASCADIA',
+      url: 'https://www.redbubble.com/people/KASCADIA/shop'
+    },
+    description: 'Light on dark Gold sigil design.',
+    link: 'https://www.redbubble.com/shop/ap/100493018'
   }
 ];
 
