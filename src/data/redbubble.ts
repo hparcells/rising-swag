@@ -586,6 +586,30 @@ const data: IItem[] = [
     },
     description: 'Bloodydamn!',
     link: 'https://www.redbubble.com/shop/ap/72727432'
+  },
+  {
+    date: '2023-04-11',
+    image: 'https://ih1.redbubble.net/image.201606867.8684/flat,600x600,075,f.jpg',
+    name: 'SlingBlade Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Svava',
+      url: 'https://www.redbubble.com/people/Svava/shop'
+    },
+    description: 'Hand drawn slingBlade.',
+    link: 'https://www.redbubble.com/shop/ap/21288684'
+  },
+  {
+    date: '2023-04-11',
+    image: 'https://ih1.redbubble.net/image.200352624.4473/flat,600x600,075,f.jpg',
+    name: 'Sons of Ares Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Svava',
+      url: 'https://www.redbubble.com/people/Svava/shop'
+    },
+    description: 'Sons of Ares emblem.',
+    link: 'https://www.redbubble.com/shop/ap/21234473'
   }
 ];
 
