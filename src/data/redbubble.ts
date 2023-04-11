@@ -525,6 +525,18 @@ const data: IItem[] = [
     description:
       'Some of the most famous Red Rising quotes thrown onto one design. Individual quote magnets and stickers available.',
     link: 'https://www.redbubble.com/shop/ap/96798053'
+  },
+  {
+    date: '2023-04-11',
+    image: 'https://ih1.redbubble.net/image.775714024.4420/flat,600x600,075,f.jpg',
+    name: 'The Reaper and Howlers Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'TheQuirkySide',
+      url: 'https://www.redbubble.com/people/TheQuirkySide/shop'
+    },
+    description: 'A slingBlade around a howling wolf.',
+    link: 'https://www.redbubble.com/shop/ap/37774420'
   }
 ];
 
