@@ -512,6 +512,19 @@ const data: IItem[] = [
     },
     description: 'Show your affiliation to Sevro.',
     link: 'https://www.redbubble.com/shop/ap/137239933'
+  },
+  {
+    date: '2023-04-11',
+    image: 'https://ih1.redbubble.net/image.3051646526.8053/flat,600x600,075,f.jpg',
+    name: 'Red Rising Quotes Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'BookishWaves',
+      url: 'https://www.redbubble.com/people/BookishWaves/shop'
+    },
+    description:
+      'Some of the most famous Red Rising quotes thrown onto one design. Individual quote magnets and stickers available.',
+    link: 'https://www.redbubble.com/shop/ap/96798053'
   }
 ];
 
