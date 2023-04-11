@@ -646,6 +646,42 @@ const data: IItem[] = [
     },
     description: 'Light on dark Gold sigil design.',
     link: 'https://www.redbubble.com/shop/ap/100493018'
+  },
+  {
+    date: '2023-04-11',
+    image: 'https://ih1.redbubble.net/image.2117765080.5924/flat,600x600,075,f.jpg',
+    name: 'Red Howlers Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'outofflow',
+      url: 'https://www.redbubble.com/people/outofflow/shop'
+    },
+    description: 'A red howling wolf with an ancient-type of art style.',
+    link: 'https://www.redbubble.com/shop/ap/70705924'
+  },
+  {
+    date: '2023-04-11',
+    image: 'https://ih1.redbubble.net/image.2117770125.6088/flat,600x600,075,f.jpg',
+    name: 'Red and Green Howlers Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'outofflow',
+      url: 'https://www.redbubble.com/people/outofflow/shop'
+    },
+    description: 'A red and green howling wolf with an ancient-type of art style.',
+    link: 'https://www.redbubble.com/shop/ap/70706088'
+  },
+  {
+    date: '2023-04-11',
+    image: 'https://ih1.redbubble.net/image.2123977523.6351/flat,600x600,075,f.jpg',
+    name: 'Reaper Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'outofflow',
+      url: 'https://www.redbubble.com/people/outofflow/shop'
+    },
+    description: 'A slingBlade with an ancient-type of art style.',
+    link: 'https://www.redbubble.com/shop/ap/70896351'
   }
 ];
 
