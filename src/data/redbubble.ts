@@ -766,6 +766,54 @@ const data: IItem[] = [
     },
     description: 'A geometric wolf with gold and red sigils.',
     link: 'https://www.redbubble.com/shop/ap/136541379'
+  },
+  {
+    date: '2023-04-12',
+    image: 'https://ih1.redbubble.net/image.2830228384.7178/flat,600x600,075,f.jpg',
+    name: 'Reaper Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'dani-peterson',
+      url: 'https://www.redbubble.com/people/dani-peterson/shop'
+    },
+    description: 'A slingBlade around a howling wolf.',
+    link: 'https://www.redbubble.com/shop/ap/90907178'
+  },
+  {
+    date: '2023-04-12',
+    image: 'https://ih1.redbubble.net/image.2830048647.6662/flat,600x600,075,f.jpg',
+    name: 'Wolf Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'dani-peterson',
+      url: 'https://www.redbubble.com/people/dani-peterson/shop'
+    },
+    description: 'A geometric wolf and a golden slingBlade.',
+    link: 'https://www.redbubble.com/shop/ap/90896662'
+  },
+  {
+    date: '2023-04-12',
+    image: 'https://ih1.redbubble.net/image.2830262228.7085/flat,600x600,075,f.jpg',
+    name: 'Pax au Telemanus Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'dani-peterson',
+      url: 'https://www.redbubble.com/people/dani-peterson/shop'
+    },
+    description: 'Pax au Telemanus!',
+    link: 'https://www.redbubble.com/shop/ap/90907085'
+  },
+  {
+    date: '2023-04-12',
+    image: 'https://ih1.redbubble.net/image.2830103922.3452/flat,600x600,075,f.jpg',
+    name: 'Omnis vir Lupus Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'dani-peterson',
+      url: 'https://www.redbubble.com/people/dani-peterson/shop'
+    },
+    description: 'Omnis vir lupus, every man a wolf.',
+    link: 'https://www.redbubble.com/shop/ap/90903452'
   }
 ];
 
