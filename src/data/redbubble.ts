@@ -742,6 +742,30 @@ const data: IItem[] = [
     },
     description: 'A wolf and jackal holding scythe and Gold standards.',
     link: 'https://www.redbubble.com/shop/ap/78263260'
+  },
+  {
+    date: '2023-04-12',
+    image: 'https://ih1.redbubble.net/image.4698805156.1696/flat,600x600,075,f.jpg',
+    name: 'Hic Sunt Leones Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'LiteraryLeoCoz',
+      url: 'https://www.redbubble.com/people/LiteraryLeoCoz/shop'
+    },
+    description: 'Hic sunt leones, here be lions.',
+    link: 'https://www.redbubble.com/shop/ap/137241696'
+  },
+  {
+    date: '2023-04-12',
+    image: 'https://ih1.redbubble.net/image.4671471881.1379/flat,600x600,075,f.jpg',
+    name: 'Geometric Howler Design',
+    tags: ['redbubble', 'gold', 'red'],
+    shop: {
+      name: 'LiteraryLeoCoz',
+      url: 'https://www.redbubble.com/people/LiteraryLeoCoz/shop'
+    },
+    description: 'A geometric wolf with gold and red sigils.',
+    link: 'https://www.redbubble.com/shop/ap/136541379'
   }
 ];
 
