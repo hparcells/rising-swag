@@ -381,6 +381,19 @@ const data: IItem[] = [
     description:
       '3D Laser cut graphic of Pulse Armor from Red Rising. Laser cut from basswood, layered, stained, and sealed.',
     link: 'https://www.etsy.com/listing/1433872471/wood-engraved-red-rising-graphic-pulse'
+  },
+  {
+    date: '2023-04-12',
+    image: 'https://i.etsystatic.com/30544133/r/il/aa8222/4157945038/il_794xN.4157945038_bi0o.jpg',
+    name: 'Metal Wall LED Light',
+    tags: ['other'],
+    shop: {
+      name: 'MetalLegacyByBlaine',
+      url: 'https://www.etsy.com/shop/MetalLegacyByBlaine'
+    },
+    description:
+      "This sign is perfect for any Red Rising fan and will make a unique statement piece in anyone's room or collection.",
+    link: 'https://www.etsy.com/listing/1264816175/red-rising-light-metal-wall-led-light'
   }
 ];
 
