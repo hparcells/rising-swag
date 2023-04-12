@@ -77,6 +77,19 @@ const data: IItem[] = [
     description:
       'Leather bound copy of Red Rising. Limited edition binding, individually numbered.',
     link: 'https://www.etsy.com/listing/1193391924/red-rising-book-hardcover-limited'
+  },
+  {
+    date: '2023-04-12',
+    image: 'https://i.etsystatic.com/10276540/r/il/7a04f0/4656211286/il_794xN.4656211286_lg8h.jpg',
+    name: 'Hand Bound Leather Books',
+    tags: ['book'],
+    shop: {
+      name: 'CompAidedCrafting',
+      url: 'https://www.etsy.com/shop/CompAidedCrafting'
+    },
+    description:
+      "Pierce Brown's Red Rising saga, hand bound in exquisite genuine red leather. Book 6 available upon release. Made by hand (and machine) in the USA.",
+    link: 'https://www.etsy.com/listing/1057894225/the-red-rising-series-collection-5-books'
   }
 ];
 
