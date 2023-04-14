@@ -925,6 +925,42 @@ const data: IItem[] = [
     },
     description: 'A slingBlade made from the words from the first chapter.',
     link: 'https://www.redbubble.com/shop/ap/54490379'
+  },
+  {
+    date: '2023-04-14',
+    image: 'https://ih1.redbubble.net/image.4861168070.1601/flat,600x600,075,f.jpg',
+    name: 'Omnis Vir Lupus The Howlers Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'SteelDesgins',
+      url: 'https://www.redbubble.com/people/SteelDesigns/shop'
+    },
+    description: 'A red howling wolf with "Omnis Vir Lupus."',
+    link: 'https://www.redbubble.com/shop/ap/141621601'
+  },
+  {
+    date: '2023-04-14',
+    image: 'https://ih1.redbubble.net/image.4857569655.7320/flat,600x600,075,f.jpg',
+    name: 'Bloodydamn Omnis Vir Lupus Design v1',
+    tags: ['redbubble'],
+    shop: {
+      name: 'SteelDesgins',
+      url: 'https://www.redbubble.com/people/SteelDesigns/shop'
+    },
+    description: 'White/gold text of "Bloodydamn" and "Omnis Vir Lupus."',
+    link: 'https://www.redbubble.com/shop/ap/141517320'
+  },
+  {
+    date: '2023-04-14',
+    image: 'https://ih1.redbubble.net/image.4859030001.9087/flat,600x600,075,f.jpg',
+    name: 'Bloodydamn Omnis Vir Lupus Design v2',
+    tags: ['redbubble'],
+    shop: {
+      name: 'SteelDesgins',
+      url: 'https://www.redbubble.com/people/SteelDesigns/shop'
+    },
+    description: 'Red text of "Bloodydamn" and "Omnis Vir Lupus."',
+    link: 'https://www.redbubble.com/shop/ap/141559087'
   }
 ];
 
