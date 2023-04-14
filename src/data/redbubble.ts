@@ -874,6 +874,57 @@ const data: IItem[] = [
     },
     description: 'Art of Darrow, Mustang, Sevro, and Victra.',
     link: 'https://www.redbubble.com/shop/ap/110688562'
+  },
+  {
+    date: '2023-04-13',
+    image: 'https://ih1.redbubble.net/image.1625829929.7867/flat,600x600,075,f.jpg',
+    name: 'Pegasus Legion Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Bitxle',
+      url: 'https://www.redbubble.com/people/Bitxle/shop'
+    },
+    description: 'Pegasus Legion design with the subtext "Howler Battalion."',
+    link: 'https://www.redbubble.com/shop/ap/56877867'
+  },
+  {
+    date: '2023-04-13',
+    image: 'https://ih1.redbubble.net/image.1615302718.1380/flat,600x600,075,f.jpg',
+    name: 'Red Rising Universe Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Bitxle',
+
+      url: 'https://www.redbubble.com/people/Bitxle/shop'
+    },
+    description: 'A word cloud of characters and words from the Red Rising universe.',
+    link: 'https://www.redbubble.com/shop/ap/56651380'
+  },
+  {
+    date: '2023-04-13',
+    image:
+      'https://ih1.redbubble.net/image.1513395811.1156/raf,750x1000,075,t,101010:01c5ca27c6.jpg',
+    name: 'Howler Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Bitxle',
+      url: 'https://www.redbubble.com/people/Bitxle/shop'
+    },
+    description: 'The word "Howler" with a howling wolf.',
+    link: 'https://www.redbubble.com/shop/ap/54491156'
+  },
+  {
+    date: '2023-04-13',
+    image:
+      'https://ih1.redbubble.net/image.1513357427.0379/raf,750x1000,075,t,101010:01c5ca27c6.jpg',
+    name: "Reaper's SlingBlade Design",
+    tags: ['redbubble'],
+    shop: {
+      name: 'Bitxle',
+      url: 'https://www.redbubble.com/people/Bitxle/shop'
+    },
+    description: 'A slingBlade made from the words from the first chapter.',
+    link: 'https://www.redbubble.com/shop/ap/54490379'
   }
 ];
 
