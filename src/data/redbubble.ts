@@ -1021,6 +1021,84 @@ const data: IItem[] = [
     },
     description: "Sevro's favorite words.",
     link: 'https://www.redbubble.com/shop/ap/21176225'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.4911477140.9396/flat,600x600,075,f.jpg',
+    name: 'Break the Chains Design',
+    tags: ['redbubble', 'eo'],
+    shop: {
+      name: 'addie-plays',
+      url: 'https://www.redbubble.com/people/addie-plays/shop'
+    },
+    description:
+      'This design incorporates one of the most iconic phrases from the series "Break the Chains".',
+    link: 'https://www.redbubble.com/shop/ap/143039396'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.4911466214.9075/flat,600x600,075,f.jpg',
+    name: 'I am the Reaper and Death is my Shadow Design',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'addie-plays',
+      url: 'https://www.redbubble.com/people/addie-plays/shop'
+    },
+    description:
+      'This design incorporates the red and gold featured so prominently throughout the series along with Darrow\'s edgy-boy phrase "I am the Reaper and Death is my Shadow"',
+    link: 'https://www.redbubble.com/shop/ap/143039075'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.4911456534.8788/flat,600x600,075,f.jpg',
+    name: 'Hail Reaper SlingBlade Design',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'addie-plays',
+      url: 'https://www.redbubble.com/people/addie-plays/shop'
+    },
+    description:
+      'This design incorporates one of the most iconic phrases from the series "Hail Reaper" in spray paint red in front of a slingBlade-esque weapon for our favorite conflicted hero, Darrow.',
+    link: 'https://www.redbubble.com/shop/ap/143038788'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.4911448168.8554/flat,600x600,075,f.jpg',
+    name: 'I Would Have Lived in Peace but My Enemies Brought Me War Design',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'addie-plays',
+      url: 'https://www.redbubble.com/people/addie-plays/shop'
+    },
+    description:
+      'This design incorporates the red and gold featured so prominently throughout the series along with one of the greatest opening lines in modern sci-fi fantasy literature.',
+    link: 'https://www.redbubble.com/shop/ap/143038554'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.4591388248.0545/flat,600x600,075,f.jpg',
+    name: 'Hic Sunt Leones Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'addie-plays',
+      url: 'https://www.redbubble.com/people/addie-plays/shop'
+    },
+    description:
+      'A little less howler, a little more lion. This one is for the peerless scarred, so go ahead and roar.',
+    link: 'https://www.redbubble.com/shop/ap/134540545'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.4591259995.7185/flat,600x600,075,f.jpg',
+    name: 'Omnis Vir Lupus Wolf Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'addie-plays',
+      url: 'https://www.redbubble.com/people/addie-plays/shop'
+    },
+    description:
+      'This design incorporates the red and gold featured so prominently throughout the series along with the perfectly apt Omnis vir Lupus or "Everyone a wolf"',
+    link: 'https://www.redbubble.com/shop/ap/134537185'
   }
 ];
 
