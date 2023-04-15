@@ -961,6 +961,66 @@ const data: IItem[] = [
     },
     description: 'Red text of "Bloodydamn" and "Omnis Vir Lupus."',
     link: 'https://www.redbubble.com/shop/ap/141559087'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.496335998.2189/flat,600x600,075,f.jpg',
+    name: 'Best Friends Forever Design',
+    tags: ['redbubble', 'darrow', 'sevro'],
+    shop: {
+      name: 'am2c',
+      url: 'https://www.redbubble.com/people/am2c/shop'
+    },
+    description: 'Cute Darrow and Sevro art.',
+    link: 'https://www.redbubble.com/shop/ap/29862189'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.532370793.2459/flat,600x600,075,f.jpg',
+    name: 'Omnis Vir Lupus Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'am2c',
+      url: 'https://www.redbubble.com/people/am2c/shop'
+    },
+    description: 'Omnis vir lupus, every man a wolf.',
+    link: 'https://www.redbubble.com/shop/ap/21992459'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.749602720.5977/flat,600x600,075,f.jpg',
+    name: 'I Was in an Iron Rain Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'am2c',
+      url: 'https://www.redbubble.com/people/am2c/shop'
+    },
+    description: 'I was in an iron rain, and all I got was this t-shirt.',
+    link: 'https://www.redbubble.com/shop/ap/21705977'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.532363971.9919/flat,600x600,075,f.jpg',
+    name: 'Break the Chains Design',
+    tags: ['redbubble', 'eo'],
+    shop: {
+      name: 'am2c',
+      url: 'https://www.redbubble.com/people/am2c/shop'
+    },
+    description: 'Break the chains, featuring a haemanthus.',
+    link: 'https://www.redbubble.com/shop/ap/21299919'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.532370585.6225/flat,600x600,075,f.jpg',
+    name: 'Shit Escalates Design',
+    tags: ['redbubble', 'sevro'],
+    shop: {
+      name: 'am2c',
+      url: 'https://www.redbubble.com/people/am2c/shop'
+    },
+    description: "Sevro's favorite words.",
+    link: 'https://www.redbubble.com/shop/ap/21176225'
   }
 ];
 
