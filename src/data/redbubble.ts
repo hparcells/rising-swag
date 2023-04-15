@@ -1099,6 +1099,93 @@ const data: IItem[] = [
     description:
       'This design incorporates the red and gold featured so prominently throughout the series along with the perfectly apt Omnis vir Lupus or "Everyone a wolf"',
     link: 'https://www.redbubble.com/shop/ap/134537185'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.3074893849.0879/flat,600x600,075,f.jpg',
+    name: 'Pax au Telemanus Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'rrenfroe13',
+      url: 'https://www.redbubble.com/people/rrenfroe13/shop'
+    },
+    description: 'Our favorite golden bear.',
+    link: 'https://www.redbubble.com/shop/ap/97410879'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.496852560.6778/flat,600x600,075,f.jpg',
+    name: 'Son of Ares Before It Was Cool Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'rrenfroe13',
+      url: 'https://www.redbubble.com/people/rrenfroe13/shop'
+    },
+    description: "I mean...the goblin ain't wrong there.",
+    link: 'https://www.redbubble.com/shop/ap/29876778'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.484580848.3536/flat,600x600,075,f.jpg',
+    name: "I'm a Bloodydamn Helldiver Design",
+    tags: ['redbubble', 'red'],
+    shop: {
+      name: 'rrenfroe13',
+      url: 'https://www.redbubble.com/people/rrenfroe13/shop'
+    },
+    description: "I'm a bloodydamn Helldiver.",
+    link: 'https://www.redbubble.com/shop/ap/29533536'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.478224577.4783/flat,600x600,075,f.jpg',
+    name: 'Evey Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'rrenfroe13',
+      url: 'https://www.redbubble.com/people/rrenfroe13/shop'
+    },
+    description:
+      'When you want the very best cosmetic and artistic augmentation offered on Luna, you want Mickey. Come see his latest prized gallery exhibit--Evey, the Pink with Wings!',
+    link: 'https://www.redbubble.com/shop/ap/29354783'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.423312689.1967/flat,600x600,075,f.jpg',
+    name: 'Victra Design',
+    tags: ['redbubble', 'victra'],
+    shop: {
+      name: 'rrenfroe13',
+      url: 'https://www.redbubble.com/people/rrenfroe13/shop'
+    },
+    description: 'Art of Victra and the word "Barca"',
+    link: 'https://www.redbubble.com/shop/ap/27891967'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.478220749.4677/flat,600x600,075,f.jpg',
+    name: "Octavia's Benediction Design",
+    tags: ['redbubble'],
+    shop: {
+      name: 'rrenfroe13',
+      url: 'https://www.redbubble.com/people/rrenfroe13/shop'
+    },
+    description:
+      'Inspire your fellow Reds who sacrifice for a better tomorrow with this motivational poster featuring the resplendent Empress Octavia Au Lune.',
+    link: 'https://www.redbubble.com/shop/ap/29354677'
+  },
+  {
+    date: '2023-04-15',
+    image: 'https://ih1.redbubble.net/image.407227407.1415/flat,600x600,075,f.jpg',
+    name: 'Omnis Vir Lupus Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'rrenfroe13',
+      url: 'https://www.redbubble.com/people/rrenfroe13/shop'
+    },
+    description:
+      'For the day you decide to live for more. Fun fact- the constellation within the wolf head is Leo, the lion.',
+    link: 'https://www.redbubble.com/shop/ap/24971415'
   }
 ];
 
