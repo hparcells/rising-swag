@@ -5,10 +5,11 @@ sidebar_position: 1
 # Community
 
 ## Discord
-- **[The Sons of Ares](https://discord.gg/865AWxh)**: One of the oldest and largest Discord servers for the Red Rising community. Includes a text bot that can search for anything across any of the books. Hosts Q&A sessions with Pierce Brown himself.
+- **[The Sons of Ares](https://discord.gg/865AWxh)**: One of the oldest and largest Discord servers for the Red Rising community. Includes a text bot that can search for anything across any of the books.
 - **[Howlers](https://discord.gg/howlers)**: Another decently sized Discord server, with a group Seattle trip planned for the summer of 2023. 
 - **[r/RedRising](https://discord.com/invite/dhKBx2veKh)**: The official Discord server for the subreddit, created from r/Place 2022.
 - **[War for the Morning Throne](https://discord.gg/dZ6u3ZREwR)**: A Red Rising inspired tabletop RPG.
+- **[The Howler's Den](https://discord.gg/thehowlersden)**: A Discord community created by swlarue ("Salem") for the most dedicated of fans.
 
 ## Podcasts
 - **[HowlerPod](https://open.spotify.com/show/2ahLeUnAR12KjoNXOkYk1t?si=cfeda6b3ac1a45ce)**: The first dedicated Red Rising podcast with series re-reads.
