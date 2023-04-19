@@ -5,7 +5,7 @@ const data: IItem[] = [
     date: '2023-03-29',
     image: 'https://i.etsystatic.com/38199041/r/il/9e1191/4514119290/il_794xN.4514119290_tvz1.jpg',
     name: 'Red Rising (Custom Leather Bound)',
-    tags: ['book'],
+    tags: ['book', 'red-rising'],
     shop: {
       name: 'RareBiblio',
       url: 'https://www.etsy.com/shop/RareBiblio'
@@ -18,7 +18,7 @@ const data: IItem[] = [
     date: '2023-03-28',
     image: 'https://i.etsystatic.com/13219647/r/il/2031ec/2086564479/il_794xN.2086564479_ri50.jpg',
     name: 'Howler Combination Cut and Fold Book Folding Pattern',
-    tags: ['book'],
+    tags: ['book', 'red-rising'],
     shop: {
       name: 'DogEaredCreations',
       url: 'https://www.etsy.com/shop/DogEaredCreations'
@@ -30,7 +30,7 @@ const data: IItem[] = [
     date: '2023-03-31',
     image: 'https://cdn.shopify.com/s/files/1/0064/5342/8271/products/PRRR3-1200-Front_1200x.jpg',
     name: 'Red Rising (Juniper Books)',
-    tags: ['book'],
+    tags: ['book', 'red-rising', 'golden-son', 'morning-star'],
     shop: {
       name: 'Juniper Books',
       url: 'https://www.juniperbooks.com/'
@@ -43,7 +43,7 @@ const data: IItem[] = [
     date: '2023-03-31',
     image: 'https://cdn.shopify.com/s/files/1/1350/0665/products/RedRisingbookstack_1800x1800.jpg',
     name: 'Nerdy Ink Dust Jackets',
-    tags: ['book'],
+    tags: ['book', 'red-rising', 'golden-son', 'morning-star', 'iron-gold', 'dark-age'],
     shop: {
       name: 'Nerdy Ink',
       url: 'https://nerdy.ink/'
@@ -56,7 +56,7 @@ const data: IItem[] = [
     date: '2023-03-31',
     image: 'https://i.etsystatic.com/32055970/r/il/d75a0c/4678221123/il_794xN.4678221123_8s18.jpg',
     name: 'Red Rising (Black Leather Bound)',
-    tags: ['book'],
+    tags: ['book', 'red-rising'],
     shop: {
       name: 'DeluxeBindings',
       url: 'https://www.etsy.com/shop/DeluxeBindings'
@@ -69,7 +69,7 @@ const data: IItem[] = [
     date: '2023-03-31',
     image: 'https://i.etsystatic.com/32055970/r/il/5bf92e/3778350718/il_794xN.3778350718_oadf.jpg',
     name: 'Red Rising (Leather Bound)',
-    tags: ['book'],
+    tags: ['book', 'red-rising'],
     shop: {
       name: 'DeluxeBindings',
       url: 'https://www.etsy.com/shop/DeluxeBindings'
@@ -82,7 +82,7 @@ const data: IItem[] = [
     date: '2023-04-12',
     image: 'https://i.etsystatic.com/10276540/r/il/7a04f0/4656211286/il_794xN.4656211286_lg8h.jpg',
     name: 'Hand Bound Leather Books',
-    tags: ['book'],
+    tags: ['book', 'red-rising', 'golden-son', 'morning-star'],
     shop: {
       name: 'CompAidedCrafting',
       url: 'https://www.etsy.com/shop/CompAidedCrafting'
