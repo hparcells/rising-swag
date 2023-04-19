@@ -1522,6 +1522,107 @@ const data: IItem[] = [
     },
     description: 'A light-on-dark design of a simple wolf and the words: Omnis Vir Lupus.',
     link: 'https://www.redbubble.com/shop/ap/134181790'
+  },
+  {
+    date: '2023-04-18',
+    image: 'https://ih1.redbubble.net/image.4573459785.6131/flat,600x600,075,f.jpg',
+    name: 'Red Gold Wolf Design',
+    tags: ['redbubble', 'gold', 'red'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A dark-on-light design of the wolf of Mars in middle of the Gold and Red sigils.',
+    link: 'https://www.redbubble.com/shop/ap/134086131'
+  },
+  {
+    date: '2023-04-18',
+    image: 'https://ih1.redbubble.net/image.4573445734.5734/flat,600x600,075,f.jpg',
+    name: 'Red Gold Wolf Design',
+    tags: ['redbubble', 'gold', 'red'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A light-on-dark design of the wolf of Mars in middle of the Gold and Red sigils.',
+    link: 'https://www.redbubble.com/shop/ap/134085734'
+  },
+  {
+    date: '2023-04-18',
+    image: 'https://ih1.redbubble.net/image.4570415169.7419/flat,600x600,075,f.jpg',
+    name: 'Geometric Omnis Vir Lupus Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A geometric wolf with the words: Omnis Vir Lupus.',
+    link: 'https://www.redbubble.com/shop/ap/134007419'
+  },
+  {
+    date: '2023-04-18',
+    image: 'https://ih1.redbubble.net/image.4570401409.7027/flat,600x600,075,f.jpg',
+    name: 'House Mars, Gold, and Red Design',
+    tags: ['redbubble', 'gold', 'red'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description:
+      'A light-on-dark design of the sigils of House Mars, the Gold, and the Red stacked upon each other.',
+    link: 'https://www.redbubble.com/shop/ap/134007027'
+  },
+  {
+    date: '2023-04-18',
+    image: 'https://ih1.redbubble.net/image.4567188946.7376/flat,600x600,075,f.jpg',
+    name: 'House Mars, Gold, and Red Design',
+    tags: ['redbubble', 'gold', 'red'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description:
+      'A dark-on-light design of the sigils of House Mars, the Gold, and the Red stacked upon each other.',
+    link: 'https://www.redbubble.com/shop/ap/133927376'
+  },
+  {
+    date: '2023-04-18',
+    image: 'https://ih1.redbubble.net/image.4567180422.7158/flat,600x600,075,f.jpg',
+    name: 'Morning Star Quote FairyLoot Design',
+    tags: ['redbubble', 'morning-star'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description:
+      'The cover of the FairyLoot edition of Morning Star and the quote: "If this is the end, I will rage towards it."',
+    link: 'https://www.redbubble.com/shop/ap/133927158'
+  },
+  {
+    date: '2023-04-18',
+    image: 'https://ih1.redbubble.net/image.4563386510.2103/flat,600x600,075,f.jpg',
+    name: 'Golden Son Quote FairyLoot Design',
+    tags: ['redbubble', 'golden-son'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description:
+      'The cover of the FairyLoot edition of Golden Son and the quote: "Now I am their sword, and I do not forgive I do not forget."',
+    link: 'https://www.redbubble.com/shop/ap/133832103'
+  },
+  {
+    date: '2023-04-18',
+    image: 'https://ih1.redbubble.net/image.4563379179.1891/flat,600x600,075,f.jpg',
+    name: 'Red Rising Quote FairyLoot Design',
+    tags: ['redbubble', 'red-rising'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description:
+      'The cover of the FairyLoot edition of Red Rising and the quote: "I would have lived in peace, but my enemies brought me war."',
+    link: 'https://www.redbubble.com/shop/ap/133831891'
   }
 ];
 
