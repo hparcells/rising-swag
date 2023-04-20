@@ -1933,7 +1933,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.4172824782.2441/flat,600x600,075,f.jpg',
     name: "A Poet's Eulogy Design",
-    tags: ['redbubble'],
+    tags: ['redbubble', 'darrow', 'roque', 'morning-star'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -1941,6 +1941,55 @@ const data: IItem[] = [
     description: 'Darrow and Roque after the Battle of Ilium.',
     link: 'https://www.redbubble.com/shop/ap/124602441',
     spoiler: true
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.3873655882.9496/flat,600x600,075,f.jpg',
+    name: 'ReaperStang on Mars Design',
+    tags: ['redbubble', 'darrow', 'mustang'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: "Everyone's favorite couple sitting on Mars.",
+    link: 'https://www.redbubble.com/shop/ap/117529496'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.3279004003.6856/flat,600x600,075,f.jpg',
+    name: 'Roque and Tactus Morning Star Design',
+    tags: ['redbubble', 'roque', 'tactus', 'morning-star'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Roque and Tactus Morning Star Era',
+    link: 'https://www.redbubble.com/shop/ap/102806856',
+    spoiler: true
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.3278997870.6683/flat,600x600,075,f.jpg',
+    name: 'Roque and Tactus Golden Son Design',
+    tags: ['redbubble', 'roque', 'tactus', 'golden-son'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Roque and Tactus during the Golden Son Era',
+    link: 'https://www.redbubble.com/shop/ap/102806683'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2937374276.3806/flat,600x600,075,f.jpg',
+    name: 'Dassius Design',
+    tags: ['redbubble', 'darrow', 'cassius'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Bringing unsolved romantic tension to the next level',
+    link: 'https://www.redbubble.com/shop/ap/93703806'
   }
 ];
 

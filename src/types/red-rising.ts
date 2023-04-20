@@ -23,7 +23,8 @@ export const CHARACTERS = [
   'eo',
   'roque',
   'victra',
-  'ragnar'
+  'ragnar',
+  'tactus'
 ] as const;
 
 /**
