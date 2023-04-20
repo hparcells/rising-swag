@@ -14,7 +14,11 @@ function ItemCard({ item }: { item: IItem }) {
   return (
     <Card className={clsx(classes.root, item.expired && classes.expiredRoot)} withBorder>
       <Card.Section>
-        <Image src={item.image} height={200} alt={item.name} />
+        <Image
+          src={item.image}
+          height={200}
+          alt={item.image ? item.name : 'Spoiler content. View item for image.'}
+        />
       </Card.Section>
 
       <Text weight={500} mt='xs'>
