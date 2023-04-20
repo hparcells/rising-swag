@@ -1928,6 +1928,19 @@ const data: IItem[] = [
     },
     description: 'A wolf of Mars in red.',
     link: 'https://www.redbubble.com/shop/ap/112242527'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.4172824782.2441/flat,600x600,075,f.jpg',
+    name: "A Poet's Eulogy Design",
+    tags: ['redbubble'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Darrow and Roque after the Battle of Ilium.',
+    link: 'https://www.redbubble.com/shop/ap/124602441',
+    spoiler: true
   }
 ];
 
