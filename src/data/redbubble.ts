@@ -1623,6 +1623,311 @@ const data: IItem[] = [
     description:
       'The cover of the FairyLoot edition of Red Rising and the quote: "I would have lived in peace, but my enemies brought me war."',
     link: 'https://www.redbubble.com/shop/ap/133831891'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4559410430.3580/flat,600x600,075,f.jpg',
+    name: 'Books Design',
+    tags: ['redbubble', 'red-rising', 'golden-son', 'morning-star'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A slingBlade of the colors and titles of the first trilogy.',
+    link: 'https://www.redbubble.com/shop/ap/133733580'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4559399694.3306/flat,600x600,075,f.jpg',
+    name: 'Morning Star FairyLoot Design',
+    tags: ['redbubble', 'morning-star'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A design featuring the cover art of the FairyLoot edition of Morning Star.',
+    link: 'https://www.redbubble.com/shop/ap/133733306'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4552159841.3687/flat,600x600,075,f.jpg',
+    name: 'Golden Son FairyLoot Design',
+    tags: ['redbubble', 'golden-son'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A design featuring the cover art of the FairyLoot edition of Golden Son.',
+    link: 'https://www.redbubble.com/shop/ap/133553687'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4552147449.3406/flat,600x600,075,f.jpg',
+    name: 'Red Haemanthus Design',
+    tags: ['redbubble', 'red'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A haemanthus planted in the middle of the Red sigil.',
+    link: 'https://www.redbubble.com/shop/ap/133553406'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4546538005.4243/flat,600x600,075,f.jpg',
+    name: 'Red Sigil Design',
+    tags: ['redbubble', 'red'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A dark-on-light design of the Red sigil.',
+    link: 'https://www.redbubble.com/shop/ap/133414243'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4546532563.4092/flat,600x600,075,f.jpg',
+    name: 'Red Sigil Design',
+    tags: ['redbubble', 'red'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A light-on-dark design of the Red sigil.',
+    link: 'https://www.redbubble.com/shop/ap/133414092'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4543097411.5561/flat,600x600,075,f.jpg',
+    name: 'Red Sigil Design (Red)',
+    tags: ['redbubble', 'red'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A design of the Red sigil in red.',
+    link: 'https://www.redbubble.com/shop/ap/133325561'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4543086587.5279/flat,600x600,075,f.jpg',
+    name: 'Rise Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'The classic "Rise" design with the helmet of Ares.',
+    link: 'https://www.redbubble.com/shop/ap/133325279'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4539570663.8532/flat,600x600,075,f.jpg',
+    name: 'House Mars Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A dark-on-light design of the sigil of House Mars.',
+    link: 'https://www.redbubble.com/shop/ap/133238532'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4535781102.4926/flat,600x600,075,f.jpg',
+    name: 'House Mars Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A light-on-dark design of the sigil of House Mars.',
+    link: 'https://www.redbubble.com/shop/ap/133144926'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4539564041.8367/flat,600x600,075,f.jpg',
+    name: 'House Mars Design (Red)',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A design of the sigil of House Mars in red.',
+    link: 'https://www.redbubble.com/shop/ap/133238367'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4535774041.4729/flat,600x600,075,f.jpg',
+    name: 'Red Rising FairyLoot Design',
+    tags: ['redbubble', 'red-rising'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description:
+      'A dark-on-light design featuring the cover art of the FairyLoot edition of Red Rising.',
+    link: 'https://www.redbubble.com/shop/ap/133144729'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4531651474.9803/flat,600x600,075,f.jpg',
+    name: 'Red Rising FairyLoot Design',
+    tags: ['redbubble', 'red-rising'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description:
+      'A light-on-dark design featuring the cover art of the FairyLoot edition of Red Rising.',
+    link: 'https://www.redbubble.com/shop/ap/133039803'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4531645453.9639/flat,600x600,075,f.jpg',
+    name: 'Red Rising FairyLoot Design (Red)',
+    tags: ['redbubble', 'red-rising'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A design featuring the cover art of the FairyLoot edition of Red Rising in red.',
+    link: 'https://www.redbubble.com/shop/ap/133039639'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4523170046.2294/flat,600x600,075,f.jpg',
+    name: 'Hail Reaper Design',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A dark-on-light design of the text "Hail Reaper" and a slingBlade.',
+    link: 'https://www.redbubble.com/shop/ap/132832294'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4523166141.2192/flat,600x600,075,f.jpg',
+    name: 'Hail Reaper Design',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A light-on-dark design of the text "Hail Reaper" and a slingBlade.',
+    link: 'https://www.redbubble.com/shop/ap/132832192'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4514613426.2461/flat,600x600,075,f.jpg',
+    name: 'The Reaper of Mars Design (Cursive)',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description:
+      'A light-on-dark design of a slingBlade and the text "The Reaper of Mars" in cursive.',
+    link: 'https://www.redbubble.com/shop/ap/132622461'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4514607414.2294/flat,600x600,075,f.jpg',
+    name: 'The Reaper of Mars Design (Cursive)',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description:
+      'A dark-on-light design of a slingBlade and the text "The Reaper of Mars" in cursive.',
+    link: 'https://www.redbubble.com/shop/ap/132622294'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4509087921.0492/flat,600x600,075,f.jpg',
+    name: 'Hail Reaper Design',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A light-on-dark design of the text "Hail Reaper" and a large slingBlade.',
+    link: 'https://www.redbubble.com/shop/ap/132490492'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.4509082745.0360/flat,600x600,075,f.jpg',
+    name: 'Hail Reaper Design',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A dark-on-light design of the text "Hail Reaper" and a large slingBlade.',
+    link: 'https://www.redbubble.com/shop/ap/132490360'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.3859794413.7128/flat,600x600,075,f.jpg',
+    name: 'Gold Sigil Design',
+    tags: ['redbubble', 'gold'],
+    shop: {
+      name: 'Game911',
+
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A dark-on-light design featuring the Gold sigil.',
+    link: 'https://www.redbubble.com/shop/ap/117197128'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.3859789103.6996/flat,600x600,075,f.jpg',
+    name: 'Gold Sigil Design',
+    tags: ['redbubble', 'gold'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A light-on-dark design featuring the Gold sigil.',
+    link: 'https://www.redbubble.com/shop/ap/117196996'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.3655127783.2668/flat,600x600,075,f.jpg',
+    name: 'Howler Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A light-on-dark design featuring the icon wolf of Mars.',
+    link: 'https://www.redbubble.com/shop/ap/112242668'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.3655115523.2381/flat,600x600,075,f.jpg',
+    name: 'Howler Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A dark-on-light design featuring the icon wolf of Mars.',
+    link: 'https://www.redbubble.com/shop/ap/112242381'
+  },
+  {
+    date: '2023-04-19',
+    image: 'https://ih1.redbubble.net/image.3655121603.2527/flat,600x600,075,f.jpg',
+    name: 'Howler Design (Red)',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Game911',
+      url: 'https://www.redbubble.com/people/Game911/shop'
+    },
+    description: 'A wolf of Mars in red.',
+    link: 'https://www.redbubble.com/shop/ap/112242527'
   }
 ];
 
