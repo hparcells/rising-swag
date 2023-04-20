@@ -72,4 +72,5 @@ export interface IItem {
 
   expired?: boolean;
   spoiler?: boolean;
+  nsfw?: boolean;
 }

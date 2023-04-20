@@ -92,7 +92,7 @@ function ItemCard({ item }: { item: IItem }) {
           Check it out
         </Button>
 
-        {item.spoiler && !confirmedSpoilers && (
+        {(item.spoiler || item.nsfw) && !confirmedSpoilers && (
           <div className={classes.spoilerOverlay}>
             <Button
               color='red'
@@ -101,7 +101,7 @@ function ItemCard({ item }: { item: IItem }) {
               }}
               leftIcon={<IconExclamationCircle size='1rem' />}
             >
-              VIEW SPOILERS
+              VIEW {item.spoiler ? 'SPOILERS' : item.nsfw ? 'NSFW' : 'ITEM'}
             </Button>
           </div>
         )}
