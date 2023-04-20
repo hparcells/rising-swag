@@ -59,6 +59,7 @@ interface IShop {
  * @param description The description of the item.
  * @param link A collection of different links to the item.
  * @param expired Whether the item is expired/attainable.
+ * @param spoiler Whether the item is a spoiler of any content.
  */
 export interface IItem {
   date: string;
@@ -70,4 +71,5 @@ export interface IItem {
   link: string;
 
   expired?: boolean;
+  spoiler?: boolean;
 }
