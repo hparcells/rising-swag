@@ -1963,7 +1963,7 @@ const data: IItem[] = [
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
     },
-    description: 'Roque and Tactus Morning Star Era',
+    description: 'Roque and Tactus Morning Star Era.',
     link: 'https://www.redbubble.com/shop/ap/102806856',
     spoiler: true
   },
@@ -1976,7 +1976,7 @@ const data: IItem[] = [
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
     },
-    description: 'Roque and Tactus during the Golden Son Era',
+    description: 'Roque and Tactus during the Golden Son Era.',
     link: 'https://www.redbubble.com/shop/ap/102806683'
   },
   {
@@ -1988,8 +1988,266 @@ const data: IItem[] = [
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
     },
-    description: 'Bringing unsolved romantic tension to the next level',
+    description: 'Bringing unsolved romantic tension to the next level.',
     link: 'https://www.redbubble.com/shop/ap/93703806'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2937366380.3597/flat,600x600,075,f.jpg',
+    name: 'Wolf Bros Design',
+    tags: ['redbubble', 'darrow', 'sevro'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'We deserve them to be happy.',
+    link: 'https://www.redbubble.com/shop/ap/93703597'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.3130060955.3173/flat,600x600,075,f.jpg',
+    name: "Darrow O'Lykos Design",
+    tags: ['redbubble', 'darrow', 'morning-star'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'A picture of Darrow giving his speech in Morning Star.',
+    link: 'https://www.redbubble.com/shop/ap/98873173'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2937383665.4051/flat,600x600,075,f.jpg',
+    name: 'Death of the Poet Design',
+    tags: ['redbubble', 'roque', 'morning-star'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Roque, renaissance painting style.',
+    link: 'https://www.redbubble.com/shop/ap/93704051',
+    spoiler: true
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2543801690.2409/flat,600x600,075,f.jpg',
+    name: 'Iron Gold Chibis Part 3 The Rim',
+    tags: ['redbubble', 'iron-gold'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Because The Rim needs some love too.',
+    link: 'https://www.redbubble.com/shop/ap/83352409'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2543798471.2318/flat,600x600,075,f.jpg',
+    name: 'Iron Gold Stickers Part 3 The Minotaur',
+    tags: ['redbubble', 'iron-gold'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Because this narcissist needed a whole set for himself.',
+    link: 'https://www.redbubble.com/shop/ap/83352318'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2543805611.2523/flat,600x600,075,f.jpg',
+    name: 'Red Rising Second Trilogy Villain Chibis',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'They took over the Core and they can take over your home too.',
+    link: 'https://www.redbubble.com/shop/ap/83352523'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2937356989.3354/flat,600x600,075,f.jpg',
+    name: 'Summer RoqTus Design',
+    tags: ['redbubble', 'roque', 'tactus'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Because Red Rising deserves a beach episode.',
+    link: 'https://www.redbubble.com/shop/ap/93703354'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2543792431.2140/flat,600x600,075,f.jpg',
+    name: 'Red Rising Character Chibis Part 2 The Telemanuses',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'The family of gentle giants needs a home, will you give them one?',
+    link: 'https://www.redbubble.com/shop/ap/83352140'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2474018520.6056/flat,600x600,075,f.jpg',
+    name: 'Iron Gold Chibis Part 1',
+    tags: ['redbubble', 'iron-gold'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: "All the characters from Ephraim's POV",
+    link: 'https://www.redbubble.com/shop/ap/81326056'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2543796141.2253/flat,600x600,075,f.jpg',
+    name: "Iron Gold Chibis Part 2 Darrow's POV",
+    tags: ['redbubble', 'iron-gold'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: "The important peeps in Darrow's POV in the second trilogy.",
+    link: 'https://www.redbubble.com/shop/ap/83352253'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2469102242.4993/flat,600x600,075,f.jpg',
+    name: 'Devro Design',
+    tags: ['redbubble', 'darrow', 'sevro'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Darrow and Sevro improved version.',
+    link: 'https://www.redbubble.com/shop/ap/81184993'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2469077240.4226/flat,600x600,075,f.jpg',
+    name: 'After Shower Set Part 1: Roque and Tactus',
+    tags: ['redbubble', 'roque', 'tactus'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'After Shower Set Part 1: Roque and Tactus',
+    link: 'https://www.redbubble.com/shop/ap/81184226',
+    nsfw: true
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2469088781.4576/flat,600x600,075,f.jpg',
+    name: 'After Shower Set Part 2: Darrow',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'After Shower Set Part 2: Darrow',
+    link: 'https://www.redbubble.com/shop/ap/81184576',
+    nsfw: true
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2367153597.8448/flat,600x600,075,f.jpg',
+    name: 'Arson Is Okay Apollonius au Valii-Rath Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: "Don't let anyone tell you you're mad. You're a bloodydamn genius.",
+    link: 'https://www.redbubble.com/shop/ap/78208448'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2522868978.4641/flat,600x600,075,f.jpg',
+    name: 'Red Rising First Trilogy Villain Chibis',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Are you a villain stan? This set is for you!',
+    link: 'https://www.redbubble.com/shop/ap/78614641'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2358195157.7336/flat,600x600,075,f.jpg',
+    name: 'Red Rising Character Chibis Part 1',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'The main characters from the Red Rising Saga, now in chibi formats.',
+    link: 'https://www.redbubble.com/shop/ap/77927336'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2356506621.5056/flat,600x600,075,f.jpg',
+    name: 'Bookworm of Deimos Design',
+    tags: ['redbubble', 'roque'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Because everyone needs to find a quiet place to read.',
+    link: 'https://www.redbubble.com/shop/ap/77875056'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2352832904.0626/flat,600x600,075,f.jpg',
+    name: 'The Jackal Design',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Mar B. Heilburg',
+
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: "Everyone's favorite antagonist and his sidekicks",
+    link: 'https://www.redbubble.com/shop/ap/77760626'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2338856208.5534/flat,600x600,075,f.jpg',
+    name: 'Chibi Reaper Design',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'A chibi Reaper for your souls.',
+    link: 'https://www.redbubble.com/shop/ap/77325534'
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2338849379.5298/flat,600x600,075,f.jpg',
+    name: 'Takedown of the Duke of Hands Design',
+    tags: ['redbubble', 'iron-gold'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Ephraim and kids together again.',
+    link: 'https://www.redbubble.com/shop/ap/77325298',
+    spoiler: true
+  },
+  {
+    date: '2023-04-20',
+    image: 'https://ih1.redbubble.net/image.2356510263.5192/flat,600x600,075,f.jpg',
+    name: 'Fall of Heliopolis Design',
+    tags: ['redbubble', 'dark-age', 'darrow'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: "You know that final scene from Darrow's last POV? That one.",
+    link: 'https://www.redbubble.com/shop/ap/77875192',
+    spoiler: true
   }
 ];
 
