@@ -492,14 +492,15 @@ const data: IItem[] = [
     date: '2023-02-05',
     image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/Gamepiece1_1024x1024.jpg',
     name: 'Hazard Bedlam 2.0 Gamepiece',
-    tags: ['sticker', 'official', 'featured'],
+    tags: ['sticker', 'official'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
     description:
       'Stickers for Operation Hazard Bedlam 2.0, a official photo competition, but this time with instant winners.',
-    link: 'https://www.lit-escalates.com/collections/limited-edition/products/hazard-bedlam-2-0-gamepiece-pre-order'
+    link: 'https://www.lit-escalates.com/collections/limited-edition/products/hazard-bedlam-2-0-gamepiece-pre-order',
+    expired: true
   }
 ];
 
