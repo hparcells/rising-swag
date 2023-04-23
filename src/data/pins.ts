@@ -193,6 +193,19 @@ const data: IItem[] = [
     },
     description: 'Omnis vir Lupus: Every man a wolf.',
     link: 'https://www.etsy.com/listing/1410768606/omnis-vir-lupus-pin-red-rising-enamel'
+  },
+  {
+    date: '2023-04-23',
+    image:
+      'https://cdn.shopify.com/s/files/1/0077/4068/6387/products/image_fd5b2d07-c45a-40f5-9a7d-6c58a2ccb89e.jpg',
+    name: 'Darrow-Sevro I Will Go Down With This "Ship" Glitter Pin',
+    tags: ['pin', 'darrow', 'sevro'],
+    shop: {
+      name: 'Wick & Jane',
+      url: 'https://wickandjane.com/'
+    },
+    description: 'Darrow and Sevro, love at first ship, love at first howl.',
+    link: 'https://wickandjane.com/collections/ready-to-ship/products/i-will-go-down-with-this-ship-box-extras'
   }
 ];
 
