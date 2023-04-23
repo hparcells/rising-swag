@@ -2248,6 +2248,54 @@ const data: IItem[] = [
     description: "You know that final scene from Darrow's last POV? That one.",
     link: 'https://www.redbubble.com/shop/ap/77875192',
     spoiler: true
+  },
+  {
+    date: '2023-04-23',
+    image: 'https://ih1.redbubble.net/image.2338842602.5092/flat,600x600,075,f.jpg',
+    name: 'Rath Bros Version 2',
+    tags: ['redbubble'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Portrait of the Rath brothers, another version of it.',
+    link: 'https://www.redbubble.com/shop/ap/77325092'
+  },
+  {
+    date: '2023-04-23',
+    image: 'https://ih1.redbubble.net/image.2296269627.4497/flat,600x600,075,f.jpg',
+    name: 'Roque/Tactus Design',
+    tags: ['redbubble', 'roque', 'tactus'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Kiss the Poet :B',
+    link: 'https://www.redbubble.com/shop/ap/76044497'
+  },
+  {
+    date: '2023-04-23',
+    image: 'https://ih1.redbubble.net/image.2272017081.7120/flat,600x600,075,f.jpg',
+    name: 'Battle of Ilium Poet of Deimos',
+    tags: ['redbubble', 'roque'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Battle of Ilium Chess Edition — The Society.',
+    link: 'https://www.redbubble.com/shop/ap/75317120'
+  },
+  {
+    date: '2023-04-23',
+    image: 'https://ih1.redbubble.net/image.2272013317.7004/flat,600x600,075,f.jpg',
+    name: 'Battle of Ilium Reaper of Mars Design',
+    tags: ['redbubble', 'darrow'],
+    shop: {
+      name: 'Mar B. Heilburg',
+      url: 'https://www.redbubble.com/people/marbheilburg/shop'
+    },
+    description: 'Battle of Ilium Chess Edition — Sons of Ares.',
+    link: 'https://www.redbubble.com/shop/ap/75317004'
   }
 ];
 
