@@ -12,7 +12,6 @@ import patches from './patches';
 import phoneCases from './phone-cases';
 import pins from './pins';
 import prints from './prints';
-import redbubble from './redbubble';
 import stickers from './stickers';
 
 import clothing from './clothing/clothing';
@@ -28,9 +27,13 @@ import drinkware from './drinkware/drinkware';
 import mugs from './drinkware/mugs';
 import waterBottles from './drinkware/water-bottles';
 
+import redbubble from './multiproduct/redbubble';
+import teepublic from './multiproduct/teepublic';
+
 export const ALL_DATA = [
   [...drinkware, ...waterBottles],
   [...clothing, ...jackets, ...kids, ...tanks],
+  [...redbubble, ...teepublic],
   ...bookmarks,
   ...books,
   ...candles,
@@ -49,7 +52,6 @@ export const ALL_DATA = [
   ...phoneCases,
   ...pins,
   ...prints,
-  ...redbubble,
   ...stickers,
   ...sweatshirts
 ].flat();
