@@ -5,7 +5,7 @@ const data: IItem[] = [
     date: '2023-04-06',
     image: 'https://ih1.redbubble.net/image.2266064843.0830/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble', 'red'],
+    tags: ['multiproduct', 'red'],
     shop: {
       name: 'Son of Ares',
       url: 'https://www.redbubble.com/people/Bitninjasupply/shop'
@@ -17,7 +17,7 @@ const data: IItem[] = [
     date: '2023-04-06',
     image: 'https://ih1.redbubble.net/image.2266050174.0427/flat,600x600,075,f.jpg',
     name: 'The Reaper Design',
-    tags: ['redbubble', 'red', 'gold'],
+    tags: ['multiproduct', 'red', 'gold'],
     shop: {
       name: 'Son of Ares',
       url: 'https://www.redbubble.com/people/Bitninjasupply/shop'
@@ -29,7 +29,7 @@ const data: IItem[] = [
     date: '2023-04-06',
     image: 'https://ih1.redbubble.net/image.1109768977.5905/flat,600x600,075,f.jpg',
     name: 'Golden Howler Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Son of Ares',
       url: 'https://www.redbubble.com/people/Bitninjasupply/shop'
@@ -42,7 +42,7 @@ const data: IItem[] = [
     date: '2023-04-06',
     image: 'https://ih1.redbubble.net/image.1085211557.9580/flat,600x600,075,f.jpg',
     name: 'Darrow and Pax Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'PallasIllustra',
       url: 'https://www.redbubble.com/people/PallasIllustra/shop'
@@ -54,7 +54,7 @@ const data: IItem[] = [
     date: '2023-04-06',
     image: 'https://ih1.redbubble.net/image.1085209469.4939/flat,600x600,075,f.jpg',
     name: 'Ares Design',
-    tags: ['redbubble', 'sevro'],
+    tags: ['multiproduct', 'sevro'],
     shop: {
       name: 'PallasIllustra',
 
@@ -67,7 +67,7 @@ const data: IItem[] = [
     date: '2023-04-06',
     image: 'https://ih1.redbubble.net/image.1085207794.4870/flat,600x600,075,f.jpg',
     name: 'The Morning Knight Design',
-    tags: ['redbubble', 'cassius'],
+    tags: ['multiproduct', 'cassius'],
     shop: {
       name: 'PallasIllustra',
       url: 'https://www.redbubble.com/people/PallasIllustra/shop'
@@ -79,7 +79,7 @@ const data: IItem[] = [
     date: '2023-04-06',
     image: 'https://ih1.redbubble.net/image.1085205127.4750/flat,600x600,075,f.jpg',
     name: 'Lady Julii Design',
-    tags: ['redbubble', 'victra'],
+    tags: ['multiproduct', 'victra'],
     shop: {
       name: 'PallasIllustra',
       url: 'https://www.redbubble.com/people/PallasIllustra/shop'
@@ -91,7 +91,7 @@ const data: IItem[] = [
     date: '2023-04-07',
     image: 'https://ih1.redbubble.net/image.3990229111.5653/flat,600x600,075,f.jpg',
     name: 'Geometric Howler Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'AndrewKramsoff',
       url: 'https://www.redbubble.com/people/AndrewKramsoff/shop'
@@ -103,7 +103,7 @@ const data: IItem[] = [
     date: '2023-04-07',
     image: 'https://ih1.redbubble.net/image.235582371.4555/flat,600x600,075,f.jpg',
     name: 'Sevro Design',
-    tags: ['redbubble', 'sevro'],
+    tags: ['multiproduct', 'sevro'],
     shop: {
       name: 'DennyMichael',
       url: 'https://www.redbubble.com/people/DennyMichael/shop'
@@ -115,7 +115,7 @@ const data: IItem[] = [
     date: '2023-04-08',
     image: 'https://ih1.redbubble.net/image.1292581401.7059/flat,600x600,075,f.jpg',
     name: 'Helldiver of Lykos Design',
-    tags: ['redbubble', 'red'],
+    tags: ['multiproduct', 'red'],
     shop: {
       name: 'Kaydee Mick',
       url: 'https://www.redbubble.com/people/kmick/shop'
@@ -127,7 +127,7 @@ const data: IItem[] = [
     date: '2023-04-08',
     image: 'https://ih1.redbubble.net/image.1290070849.9590/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Kaydee Mick',
       url: 'https://www.redbubble.com/people/kmick/shop'
@@ -140,7 +140,7 @@ const data: IItem[] = [
     date: '2023-04-08',
     image: 'https://ih1.redbubble.net/image.1034663934.2262/flat,600x600,075,f.jpg',
     name: 'Sevro au Barca Design',
-    tags: ['redbubble', 'sevro'],
+    tags: ['multiproduct', 'sevro'],
     shop: {
       name: 'antiochdesign',
       url: 'https://www.redbubble.com/people/antiochdesign/shop'
@@ -152,7 +152,7 @@ const data: IItem[] = [
     date: '2023-04-08',
     image: 'https://ih1.redbubble.net/image.487131931.4907/flat,600x600,075,f.jpg',
     name: 'Mustang Design',
-    tags: ['redbubble', 'mustang'],
+    tags: ['multiproduct', 'mustang'],
     shop: {
       name: 'lupusinvesti',
       url: 'https://www.redbubble.com/people/lupusinvesti/shop'
@@ -164,7 +164,7 @@ const data: IItem[] = [
     date: '2023-04-08',
     image: 'https://ih1.redbubble.net/image.774895322.5498/flat,600x600,075,f.jpg',
     name: 'Darrow Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'Booshort',
       url: 'https://www.redbubble.com/people/Booshort/shop'
@@ -176,7 +176,7 @@ const data: IItem[] = [
     date: '2023-04-08',
     image: 'https://ih1.redbubble.net/image.1055542818.1389/flat,600x600,075,f.jpg',
     name: 'Sevro is my Spirit Animal Design',
-    tags: ['redbubble', 'sevro'],
+    tags: ['multiproduct', 'sevro'],
     shop: {
       name: 'Reptar22',
       url: 'https://www.redbubble.com/people/Reptar22/shop'
@@ -188,7 +188,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.3113831308.1483/flat,600x600,075,f.jpg',
     name: 'Break the Chains Design',
-    tags: ['redbubble', 'eo'],
+    tags: ['multiproduct', 'eo'],
     shop: {
       name: 'bewilderedbeest',
       url: 'https://www.redbubble.com/people/bewilderedbeest/shop'
@@ -200,7 +200,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.4600102496.3465/flat,600x600,075,f.jpg',
     name: 'Hic Sunt Leones Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'TheLavenders',
       url: 'https://www.redbubble.com/people/TheLavenders/shop'
@@ -212,7 +212,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.4600070001.2615/flat,600x600,075,f.jpg',
     name: 'Per Aspera Ad Astra Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'TheLavenders',
       url: 'https://www.redbubble.com/people/TheLavenders/shop'
@@ -224,7 +224,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.1028075822.8535/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'TheLavenders',
       url: 'https://www.redbubble.com/people/TheLavenders/shop'
@@ -236,7 +236,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.2338140904.3337/flat,600x600,075,f.jpg',
     name: 'Jackal Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Iparwing',
       url: 'https://www.redbubble.com/people/Iparwing/shop'
@@ -248,7 +248,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.1763168357.6993/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble', 'sevro'],
+    tags: ['multiproduct', 'sevro'],
     shop: {
       name: 'Iparwing',
       url: 'https://www.redbubble.com/people/Iparwing/shop'
@@ -260,7 +260,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.1751774958.2995/flat,600x600,075,f.jpg',
     name: 'Hic Sunt Leones',
-    tags: ['redbubble', 'mustang'],
+    tags: ['multiproduct', 'mustang'],
     shop: {
       name: 'Iparwing',
       url: 'https://www.redbubble.com/people/Iparwing/shop'
@@ -272,7 +272,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.1691924339.2667/flat,600x600,075,f.jpg',
     name: 'For Darrow Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Iparwing',
       url: 'https://www.redbubble.com/people/Iparwing/shop'
@@ -284,7 +284,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.4250439822.2900/flat,600x600,075,f.jpg',
     name: 'Red Rising Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'mayza-shop',
       url: 'https://www.redbubble.com/people/mayza-shop/shop'
@@ -296,7 +296,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.2494075944.8805/flat,600x600,075,f.jpg',
     name: 'Golden Howler Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'DangeloBins',
       url: 'https://www.redbubble.com/people/DangeloBins/shop'
@@ -308,7 +308,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.2494055650.8227/flat,600x600,075,f.jpg',
     name: 'Geometric Howler Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'DangeloBins',
       url: 'https://www.redbubble.com/people/DangeloBins/shop'
@@ -320,7 +320,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.2624963937.6503/flat,600x600,075,f.jpg',
     name: 'Shit Escalates Design - Black Font',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'chelseareads',
       url: 'https://www.redbubble.com/people/chelseareads/shop'
@@ -332,7 +332,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.2624977283.6918/flat,600x600,075,f.jpg',
     name: 'Shit Escalates Design - White Font',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'chelseareads',
       url: 'https://www.redbubble.com/people/chelseareads/shop'
@@ -344,7 +344,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.1912072699.4461/flat,600x600,075,f.jpg',
     name: 'Break the Chains Design',
-    tags: ['redbubble', 'eo'],
+    tags: ['multiproduct', 'eo'],
     shop: {
       name: 'MaaaddArt',
       url: 'https://www.redbubble.com/people/MaaaddArt/shop'
@@ -356,7 +356,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.1912038469.3362/flat,600x600,075,f.jpg',
     name: 'Live for More Design',
-    tags: ['redbubble', 'eo'],
+    tags: ['multiproduct', 'eo'],
     shop: {
       name: 'MaaaddArt',
       url: 'https://www.redbubble.com/people/MaaaddArt/shop'
@@ -368,7 +368,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.4933164224.7741/flat,600x600,075,f.jpg',
     name: 'Break the Chains Design',
-    tags: ['redbubble', 'eo'],
+    tags: ['multiproduct', 'eo'],
     shop: {
       name: 'MaaaddArt',
 
@@ -381,7 +381,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.4933150348.7354/flat,600x600,075,f.jpg',
     name: 'Live for More Design',
-    tags: ['redbubble', 'eo'],
+    tags: ['multiproduct', 'eo'],
     shop: {
       name: 'MaaaddArt',
       url: 'https://www.redbubble.com/people/MaaaddArt/shop'
@@ -393,7 +393,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.1087897814.4677/flat,600x600,075,f.jpg',
     name: 'Howler: Never Bow (Wolf) Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Arthur Petty',
       url: 'https://www.redbubble.com/people/ButchPetty/shop'
@@ -405,7 +405,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.668855217.4583/flat,600x600,075,f.jpg',
     name: 'Howler: Never Bow (Dragon) Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Arthur Petty',
       url: 'https://www.redbubble.com/people/ButchPetty/shop'
@@ -417,7 +417,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.801816773.7023/flat,600x600,075,f.jpg',
     name: 'Geometric Howlers Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'IrisAllin',
       url: 'https://www.redbubble.com/people/IrisAllin/shop'
@@ -429,7 +429,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.801815477.7012/flat,600x600,075,f.jpg',
     name: 'Howlers Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'IrisAllin',
       url: 'https://www.redbubble.com/people/IrisAllin/shop'
@@ -441,7 +441,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.513434001.2208/flat,600x600,075,f.jpg',
     name: 'Peerless Scarred Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'xsnlrocks21x',
       url: 'https://www.redbubble.com/people/xsnlrocks21x/shop'
@@ -454,7 +454,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.405784999.1190/flat,600x600,075,f.jpg',
     name: 'Roque au Fabii - The Poet of Deimos Design',
-    tags: ['redbubble', 'roque'],
+    tags: ['multiproduct', 'roque'],
     shop: {
       name: 'xsnlrocks21x',
       url: 'https://www.redbubble.com/people/xsnlrocks21x/shop'
@@ -467,7 +467,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.2417043861.5155/flat,600x600,075,f.jpg',
     name: 'Ares Helmet Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'gengy93',
       url: 'https://www.redbubble.com/people/gengy93/shop'
@@ -479,7 +479,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.2454858199.2894/flat,600x600,075,f.jpg',
     name: 'Howling Wolf Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
 
     shop: {
       name: 'gengy93',
@@ -492,7 +492,7 @@ const data: IItem[] = [
     date: '2023-04-09',
     image: 'https://ih1.redbubble.net/image.2454814322.1639/flat,600x600,075,f.jpg',
     name: 'I Would Have Lived in Peace Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'gengy93',
       url: 'https://www.redbubble.com/people/gengy93/shop'
@@ -505,7 +505,7 @@ const data: IItem[] = [
     date: '2023-04-10',
     image: 'https://ih1.redbubble.net/image.4698735438.9933/flat,600x600,075,f.jpg',
     name: 'Team Sevro Design',
-    tags: ['redbubble', 'sevro'],
+    tags: ['multiproduct', 'sevro'],
     shop: {
       name: 'RavenPostCoz',
       url: 'https://www.redbubble.com/people/RavenPostCoz/shop'
@@ -517,7 +517,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.3051646526.8053/flat,600x600,075,f.jpg',
     name: 'Red Rising Quotes Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'BookishWaves',
       url: 'https://www.redbubble.com/people/BookishWaves/shop'
@@ -530,7 +530,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.775714024.4420/flat,600x600,075,f.jpg',
     name: 'The Reaper and Howlers Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'TheQuirkySide',
       url: 'https://www.redbubble.com/people/TheQuirkySide/shop'
@@ -542,7 +542,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.2185754148.6400/flat,600x600,075,f.jpg',
     name: 'Cacatne Ursus in Silvis Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Shipoftheseus',
       url: 'https://www.redbubble.com/people/Shipoftheseus/shop'
@@ -555,7 +555,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.2185667704.3748/flat,600x600,075,f.jpg',
     name: 'Gory Damn Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Shipoftheseus',
       url: 'https://www.redbubble.com/people/Shipoftheseus/shop'
@@ -567,7 +567,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.2185691915.4466/flat,600x600,075,f.jpg',
     name: 'Bloody Damn Design 1',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Shipoftheseus',
       url: 'https://www.redbubble.com/people/Shipoftheseus/shop'
@@ -579,7 +579,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.2184760843.7432/flat,600x600,075,f.jpg',
     name: 'Bloody Damn Design 2',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Shipoftheseus',
       url: 'https://www.redbubble.com/people/Shipoftheseus/shop'
@@ -591,7 +591,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.201606867.8684/flat,600x600,075,f.jpg',
     name: 'SlingBlade Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Svava',
       url: 'https://www.redbubble.com/people/Svava/shop'
@@ -603,7 +603,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.200352624.4473/flat,600x600,075,f.jpg',
     name: 'Sons of Ares Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Svava',
       url: 'https://www.redbubble.com/people/Svava/shop'
@@ -615,7 +615,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.3191763196.2621/flat,600x600,075,f.jpg',
     name: 'Gold Sigil Design 1',
-    tags: ['redbubble', 'gold'],
+    tags: ['multiproduct', 'gold'],
     shop: {
       name: 'KASCADIA',
       url: 'https://www.redbubble.com/people/KASCADIA/shop'
@@ -627,7 +627,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.3191770281.2816/flat,600x600,075,f.jpg',
     name: 'Gold Sigil Design 2',
-    tags: ['redbubble', 'gold'],
+    tags: ['multiproduct', 'gold'],
     shop: {
       name: 'KASCADIA',
       url: 'https://www.redbubble.com/people/KASCADIA/shop'
@@ -639,7 +639,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.3191777695.3018/flat,600x600,075,f.jpg',
     name: 'Gold Sigil Design 3',
-    tags: ['redbubble', 'gold'],
+    tags: ['multiproduct', 'gold'],
     shop: {
       name: 'KASCADIA',
       url: 'https://www.redbubble.com/people/KASCADIA/shop'
@@ -651,7 +651,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.2117765080.5924/flat,600x600,075,f.jpg',
     name: 'Red Howlers Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'outofflow',
       url: 'https://www.redbubble.com/people/outofflow/shop'
@@ -663,7 +663,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.2117770125.6088/flat,600x600,075,f.jpg',
     name: 'Red and Green Howlers Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'outofflow',
       url: 'https://www.redbubble.com/people/outofflow/shop'
@@ -675,7 +675,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.2123977523.6351/flat,600x600,075,f.jpg',
     name: 'Reaper Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'outofflow',
       url: 'https://www.redbubble.com/people/outofflow/shop'
@@ -687,7 +687,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.2511235046.9935/flat,600x600,075,f.jpg',
     name: 'The Morning Knight Design 1',
-    tags: ['redbubble', 'cassius'],
+    tags: ['multiproduct', 'cassius'],
     shop: {
       name: 'londonsonas',
       url: 'https://www.redbubble.com/people/londonsonas/shop'
@@ -699,7 +699,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.2511242476.0171/flat,600x600,075,f.jpg',
     name: 'The Morning Knight Design 2',
-    tags: ['redbubble', 'cassius'],
+    tags: ['multiproduct', 'cassius'],
     shop: {
       name: 'londonsonas',
       url: 'https://www.redbubble.com/people/londonsonas/shop'
@@ -711,7 +711,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.2368992472.3039/flat,600x600,075,f.jpg',
     name: 'The Reaper Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'londonsonas',
       url: 'https://www.redbubble.com/people/londonsonas/shop'
@@ -723,7 +723,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.2368987647.2906/flat,600x600,075,f.jpg',
     name: 'The Jackal Design',
-    tags: ['redbubble', 'gold'],
+    tags: ['multiproduct', 'gold'],
     shop: {
       name: 'londonsonas',
       url: 'https://www.redbubble.com/people/londonsonas/shop'
@@ -735,7 +735,7 @@ const data: IItem[] = [
     date: '2023-04-11',
     image: 'https://ih1.redbubble.net/image.2368999839.3260/flat,600x600,075,f.jpg',
     name: 'The Reaper and The Jackal Design',
-    tags: ['redbubble', 'darrow', 'gold'],
+    tags: ['multiproduct', 'darrow', 'gold'],
     shop: {
       name: 'londonsonas',
       url: 'https://www.redbubble.com/people/londonsonas/shop'
@@ -747,7 +747,7 @@ const data: IItem[] = [
     date: '2023-04-12',
     image: 'https://ih1.redbubble.net/image.4698805156.1696/flat,600x600,075,f.jpg',
     name: 'Hic Sunt Leones Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'LiteraryLeoCoz',
       url: 'https://www.redbubble.com/people/LiteraryLeoCoz/shop'
@@ -759,7 +759,7 @@ const data: IItem[] = [
     date: '2023-04-12',
     image: 'https://ih1.redbubble.net/image.4671471881.1379/flat,600x600,075,f.jpg',
     name: 'Geometric Howler Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'LiteraryLeoCoz',
       url: 'https://www.redbubble.com/people/LiteraryLeoCoz/shop'
@@ -771,7 +771,7 @@ const data: IItem[] = [
     date: '2023-04-12',
     image: 'https://ih1.redbubble.net/image.2830228384.7178/flat,600x600,075,f.jpg',
     name: 'Reaper Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'dani-peterson',
       url: 'https://www.redbubble.com/people/dani-peterson/shop'
@@ -783,7 +783,7 @@ const data: IItem[] = [
     date: '2023-04-12',
     image: 'https://ih1.redbubble.net/image.2830048647.6662/flat,600x600,075,f.jpg',
     name: 'Wolf Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'dani-peterson',
       url: 'https://www.redbubble.com/people/dani-peterson/shop'
@@ -795,7 +795,7 @@ const data: IItem[] = [
     date: '2023-04-12',
     image: 'https://ih1.redbubble.net/image.2830262228.7085/flat,600x600,075,f.jpg',
     name: 'Pax au Telemanus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'dani-peterson',
       url: 'https://www.redbubble.com/people/dani-peterson/shop'
@@ -807,7 +807,7 @@ const data: IItem[] = [
     date: '2023-04-12',
     image: 'https://ih1.redbubble.net/image.2830103922.3452/flat,600x600,075,f.jpg',
     name: 'Omnis vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'dani-peterson',
       url: 'https://www.redbubble.com/people/dani-peterson/shop'
@@ -819,7 +819,7 @@ const data: IItem[] = [
     date: '2023-04-13',
     image: 'https://ih1.redbubble.net/image.3588283211.0329/flat,600x600,075,f.jpg',
     name: 'Darrow Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'Nyxarrt',
       url: 'https://www.redbubble.com/people/Nyxarrt/shop'
@@ -831,7 +831,7 @@ const data: IItem[] = [
     date: '2023-04-13',
     image: 'https://ih1.redbubble.net/image.3588263582.9892/flat,600x600,075,f.jpg',
     name: 'Mustang Design',
-    tags: ['redbubble', 'mustang'],
+    tags: ['multiproduct', 'mustang'],
     shop: {
       name: 'Nyxarrt',
       url: 'https://www.redbubble.com/people/Nyxarrt/shop'
@@ -843,7 +843,7 @@ const data: IItem[] = [
     date: '2023-04-13',
     image: 'https://ih1.redbubble.net/image.3588233487.9231/flat,600x600,075,f.jpg',
     name: 'Sevro Design',
-    tags: ['redbubble', 'sevro'],
+    tags: ['multiproduct', 'sevro'],
     shop: {
       name: 'Nyxarrt',
       url: 'https://www.redbubble.com/people/Nyxarrt/shop'
@@ -855,7 +855,7 @@ const data: IItem[] = [
     date: '2023-04-13',
     image: 'https://ih1.redbubble.net/image.3588250817.9615/flat,600x600,075,f.jpg',
     name: 'Victra Design',
-    tags: ['redbubble', 'victra'],
+    tags: ['multiproduct', 'victra'],
     shop: {
       name: 'Nyxarrt',
       url: 'https://www.redbubble.com/people/Nyxarrt/shop'
@@ -867,7 +867,7 @@ const data: IItem[] = [
     date: '2023-04-13',
     image: 'https://ih1.redbubble.net/image.3588203369.8562/flat,600x600,075,f.jpg',
     name: 'Red Rising Design',
-    tags: ['redbubble', 'darrow', 'mustang', 'sevro', 'victra'],
+    tags: ['multiproduct', 'darrow', 'mustang', 'sevro', 'victra'],
     shop: {
       name: 'Nyxarrt',
       url: 'https://www.redbubble.com/people/Nyxarrt/shop'
@@ -879,7 +879,7 @@ const data: IItem[] = [
     date: '2023-04-13',
     image: 'https://ih1.redbubble.net/image.1625829929.7867/flat,600x600,075,f.jpg',
     name: 'Pegasus Legion Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Bitxle',
       url: 'https://www.redbubble.com/people/Bitxle/shop'
@@ -891,7 +891,7 @@ const data: IItem[] = [
     date: '2023-04-13',
     image: 'https://ih1.redbubble.net/image.1615302718.1380/flat,600x600,075,f.jpg',
     name: 'Red Rising Universe Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Bitxle',
 
@@ -905,7 +905,7 @@ const data: IItem[] = [
     image:
       'https://ih1.redbubble.net/image.1513395811.1156/raf,750x1000,075,t,101010:01c5ca27c6.jpg',
     name: 'Howler Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Bitxle',
       url: 'https://www.redbubble.com/people/Bitxle/shop'
@@ -918,7 +918,7 @@ const data: IItem[] = [
     image:
       'https://ih1.redbubble.net/image.1513357427.0379/raf,750x1000,075,t,101010:01c5ca27c6.jpg',
     name: "Reaper's SlingBlade Design",
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Bitxle',
       url: 'https://www.redbubble.com/people/Bitxle/shop'
@@ -930,7 +930,7 @@ const data: IItem[] = [
     date: '2023-04-14',
     image: 'https://ih1.redbubble.net/image.4861168070.1601/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus The Howlers Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'SteelDesgins',
       url: 'https://www.redbubble.com/people/SteelDesigns/shop'
@@ -942,7 +942,7 @@ const data: IItem[] = [
     date: '2023-04-14',
     image: 'https://ih1.redbubble.net/image.4857569655.7320/flat,600x600,075,f.jpg',
     name: 'Bloodydamn Omnis Vir Lupus Design v1',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'SteelDesgins',
       url: 'https://www.redbubble.com/people/SteelDesigns/shop'
@@ -954,7 +954,7 @@ const data: IItem[] = [
     date: '2023-04-14',
     image: 'https://ih1.redbubble.net/image.4859030001.9087/flat,600x600,075,f.jpg',
     name: 'Bloodydamn Omnis Vir Lupus Design v2',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'SteelDesgins',
       url: 'https://www.redbubble.com/people/SteelDesigns/shop'
@@ -966,7 +966,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.496335998.2189/flat,600x600,075,f.jpg',
     name: 'Best Friends Forever Design',
-    tags: ['redbubble', 'darrow', 'sevro'],
+    tags: ['multiproduct', 'darrow', 'sevro'],
     shop: {
       name: 'am2c',
       url: 'https://www.redbubble.com/people/am2c/shop'
@@ -978,7 +978,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.532370793.2459/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'am2c',
       url: 'https://www.redbubble.com/people/am2c/shop'
@@ -990,7 +990,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.749602720.5977/flat,600x600,075,f.jpg',
     name: 'I Was in an Iron Rain Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'am2c',
       url: 'https://www.redbubble.com/people/am2c/shop'
@@ -1002,7 +1002,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.532363971.9919/flat,600x600,075,f.jpg',
     name: 'Break the Chains Design',
-    tags: ['redbubble', 'eo'],
+    tags: ['multiproduct', 'eo'],
     shop: {
       name: 'am2c',
       url: 'https://www.redbubble.com/people/am2c/shop'
@@ -1014,7 +1014,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.532370585.6225/flat,600x600,075,f.jpg',
     name: 'Shit Escalates Design',
-    tags: ['redbubble', 'sevro'],
+    tags: ['multiproduct', 'sevro'],
     shop: {
       name: 'am2c',
       url: 'https://www.redbubble.com/people/am2c/shop'
@@ -1026,7 +1026,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.4911477140.9396/flat,600x600,075,f.jpg',
     name: 'Break the Chains Design',
-    tags: ['redbubble', 'eo'],
+    tags: ['multiproduct', 'eo'],
     shop: {
       name: 'addie-plays',
       url: 'https://www.redbubble.com/people/addie-plays/shop'
@@ -1039,7 +1039,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.4911466214.9075/flat,600x600,075,f.jpg',
     name: 'I am the Reaper and Death is my Shadow Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'addie-plays',
       url: 'https://www.redbubble.com/people/addie-plays/shop'
@@ -1052,7 +1052,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.4911456534.8788/flat,600x600,075,f.jpg',
     name: 'Hail Reaper SlingBlade Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'addie-plays',
       url: 'https://www.redbubble.com/people/addie-plays/shop'
@@ -1065,7 +1065,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.4911448168.8554/flat,600x600,075,f.jpg',
     name: 'I Would Have Lived in Peace but My Enemies Brought Me War Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'addie-plays',
       url: 'https://www.redbubble.com/people/addie-plays/shop'
@@ -1078,7 +1078,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.4591388248.0545/flat,600x600,075,f.jpg',
     name: 'Hic Sunt Leones Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'addie-plays',
       url: 'https://www.redbubble.com/people/addie-plays/shop'
@@ -1091,7 +1091,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.4591259995.7185/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Wolf Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'addie-plays',
       url: 'https://www.redbubble.com/people/addie-plays/shop'
@@ -1104,7 +1104,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.3074893849.0879/flat,600x600,075,f.jpg',
     name: 'Pax au Telemanus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'rrenfroe13',
       url: 'https://www.redbubble.com/people/rrenfroe13/shop'
@@ -1116,7 +1116,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.496852560.6778/flat,600x600,075,f.jpg',
     name: 'Son of Ares Before It Was Cool Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'rrenfroe13',
       url: 'https://www.redbubble.com/people/rrenfroe13/shop'
@@ -1128,7 +1128,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.484580848.3536/flat,600x600,075,f.jpg',
     name: "I'm a Bloodydamn Helldiver Design",
-    tags: ['redbubble', 'red'],
+    tags: ['multiproduct', 'red'],
     shop: {
       name: 'rrenfroe13',
       url: 'https://www.redbubble.com/people/rrenfroe13/shop'
@@ -1140,7 +1140,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.478224577.4783/flat,600x600,075,f.jpg',
     name: 'Evey Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'rrenfroe13',
       url: 'https://www.redbubble.com/people/rrenfroe13/shop'
@@ -1153,7 +1153,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.423312689.1967/flat,600x600,075,f.jpg',
     name: 'Victra Design',
-    tags: ['redbubble', 'victra'],
+    tags: ['multiproduct', 'victra'],
     shop: {
       name: 'rrenfroe13',
       url: 'https://www.redbubble.com/people/rrenfroe13/shop'
@@ -1165,7 +1165,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.478220749.4677/flat,600x600,075,f.jpg',
     name: "Octavia's Benediction Design",
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'rrenfroe13',
       url: 'https://www.redbubble.com/people/rrenfroe13/shop'
@@ -1178,7 +1178,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.407227407.1415/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'rrenfroe13',
       url: 'https://www.redbubble.com/people/rrenfroe13/shop'
@@ -1191,7 +1191,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.3689661225.4749/flat,600x600,075,f.jpg',
     name: 'Red Rising Color Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'geeVea61',
       url: 'https://www.redbubble.com/people/geeVea61/shop'
@@ -1203,7 +1203,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.53963214.5172/flat,600x600,075,f.jpg',
     name: "It's a Howler Thing Design",
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'hicsuntleones',
       url: 'https://www.redbubble.com/people/hicsuntleones/shop'
@@ -1215,7 +1215,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.53962598.5146/flat,600x600,075,f.jpg',
     name: 'Team Sevro Design',
-    tags: ['redbubble', 'sevro'],
+    tags: ['multiproduct', 'sevro'],
     shop: {
       name: 'hicsuntleones',
       url: 'https://www.redbubble.com/people/hicsuntleones/shop'
@@ -1227,7 +1227,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.53962036.5120/flat,600x600,075,f.jpg',
     name: 'Red Adoption Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'hicsuntleones',
       url: 'https://www.redbubble.com/people/hicsuntleones/shop'
@@ -1239,7 +1239,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.53961369.5086/flat,600x600,075,f.jpg',
     name: 'Team Cassius Design',
-    tags: ['redbubble', 'cassius'],
+    tags: ['multiproduct', 'cassius'],
     shop: {
       name: 'hicsuntleones',
       url: 'https://www.redbubble.com/people/hicsuntleones/shop'
@@ -1251,7 +1251,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.53959634.4984/flat,600x600,075,f.jpg',
     name: 'Team Mustang Design',
-    tags: ['redbubble', 'mustang'],
+    tags: ['multiproduct', 'mustang'],
     shop: {
       name: 'hicsuntleones',
       url: 'https://www.redbubble.com/people/hicsuntleones/shop'
@@ -1263,7 +1263,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.53960750.5052/flat,600x600,075,f.jpg',
     name: 'Peerless Scarred/Pixie Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'hicsuntleones',
       url: 'https://www.redbubble.com/people/hicsuntleones/shop'
@@ -1275,7 +1275,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.4705098884.4122/flat,600x600,075,f.jpg',
     name: 'Sons of Ares Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'FR3DXVII',
       url: 'https://www.redbubble.com/people/FR3DXVII/shop'
@@ -1287,7 +1287,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.4705033233.2452/flat,600x600,075,f.jpg',
     name: 'White Geometric Omnis Vir Lupus Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'FR3DXVII',
       url: 'https://www.redbubble.com/people/FR3DXVII/shop'
@@ -1299,7 +1299,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.4704836862.7093/flat,600x600,075,f.jpg',
     name: 'White Geometric Mustang',
-    tags: ['redbubble', 'mustang', 'gold'],
+    tags: ['multiproduct', 'mustang', 'gold'],
     shop: {
       name: 'FR3DXVII',
       url: 'https://www.redbubble.com/people/FR3DXVII/shop'
@@ -1311,7 +1311,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.2104971706.8358/flat,600x600,075,f.jpg',
     name: 'Geometric Howler Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'FR3DXVII',
       url: 'https://www.redbubble.com/people/FR3DXVII/shop'
@@ -1323,7 +1323,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.4704732852.4236/flat,600x600,075,f.jpg',
     name: 'Black Geometric Mustang Design',
-    tags: ['redbubble', 'mustang', 'gold'],
+    tags: ['multiproduct', 'mustang', 'gold'],
     shop: {
       name: 'FR3DXVII',
       url: 'https://www.redbubble.com/people/FR3DXVII/shop'
@@ -1335,7 +1335,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.278730708.6585/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'FR3DXVII',
       url: 'https://www.redbubble.com/people/FR3DXVII/shop'
@@ -1347,7 +1347,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.433564479.5303/flat,600x600,075,f.jpg',
     name: 'Howlers Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'FR3DXVII',
       url: 'https://www.redbubble.com/people/FR3DXVII/shop'
@@ -1359,7 +1359,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.259890256.0521/flat,600x600,075,f.jpg',
     name: 'Hic Sunt Leones Design v1',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'FR3DXVII',
       url: 'https://www.redbubble.com/people/FR3DXVII/shop'
@@ -1371,7 +1371,7 @@ const data: IItem[] = [
     date: '2023-04-15',
     image: 'https://ih1.redbubble.net/image.262739464.2937/flat,600x600,075,f.jpg',
     name: 'Hic Sunt Leones Design v2',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'FR3DXVII',
       url: 'https://www.redbubble.com/people/FR3DXVII/shop'
@@ -1383,7 +1383,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4611956498.7563/flat,600x600,075,f.jpg',
     name: 'Color Pyramid Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1395,7 +1395,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4606906266.1256/flat,600x600,075,f.jpg',
     name: 'Color Pyramid Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1407,7 +1407,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4600469333.3253/flat,600x600,075,f.jpg',
     name: 'Color Pyramid Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1419,7 +1419,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4596709154.8011/flat,600x600,075,f.jpg',
     name: 'Gold and Red Sigil Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1431,7 +1431,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4596696958.7673/flat,600x600,075,f.jpg',
     name: 'Gold and Red Sigil Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1443,7 +1443,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4591232652.6401/flat,600x600,075,f.jpg',
     name: 'Gold and Red Sigil Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1455,7 +1455,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4588091302.7810/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1467,7 +1467,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4584123136.7563/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1479,7 +1479,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4584115989.7373/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1491,7 +1491,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4580552621.7025/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1503,7 +1503,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4577238455.2033/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1515,7 +1515,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4577229082.1790/flat,600x600,075,f.jpg',
     name: 'Omnis Vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1527,7 +1527,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4573459785.6131/flat,600x600,075,f.jpg',
     name: 'Red Gold Wolf Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1539,7 +1539,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4573445734.5734/flat,600x600,075,f.jpg',
     name: 'Red Gold Wolf Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1551,7 +1551,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4570415169.7419/flat,600x600,075,f.jpg',
     name: 'Geometric Omnis Vir Lupus Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1563,7 +1563,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4570401409.7027/flat,600x600,075,f.jpg',
     name: 'House Mars, Gold, and Red Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1576,7 +1576,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4567188946.7376/flat,600x600,075,f.jpg',
     name: 'House Mars, Gold, and Red Design',
-    tags: ['redbubble', 'gold', 'red'],
+    tags: ['multiproduct', 'gold', 'red'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1589,7 +1589,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4567180422.7158/flat,600x600,075,f.jpg',
     name: 'Morning Star Quote FairyLoot Design',
-    tags: ['redbubble', 'morning-star'],
+    tags: ['multiproduct', 'morning-star'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1602,7 +1602,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4563386510.2103/flat,600x600,075,f.jpg',
     name: 'Golden Son Quote FairyLoot Design',
-    tags: ['redbubble', 'golden-son'],
+    tags: ['multiproduct', 'golden-son'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1615,7 +1615,7 @@ const data: IItem[] = [
     date: '2023-04-18',
     image: 'https://ih1.redbubble.net/image.4563379179.1891/flat,600x600,075,f.jpg',
     name: 'Red Rising Quote FairyLoot Design',
-    tags: ['redbubble', 'red-rising'],
+    tags: ['multiproduct', 'red-rising'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1628,7 +1628,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4559410430.3580/flat,600x600,075,f.jpg',
     name: 'Books Design',
-    tags: ['redbubble', 'red-rising', 'golden-son', 'morning-star'],
+    tags: ['multiproduct', 'red-rising', 'golden-son', 'morning-star'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1640,7 +1640,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4559399694.3306/flat,600x600,075,f.jpg',
     name: 'Morning Star FairyLoot Design',
-    tags: ['redbubble', 'morning-star'],
+    tags: ['multiproduct', 'morning-star'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1652,7 +1652,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4552159841.3687/flat,600x600,075,f.jpg',
     name: 'Golden Son FairyLoot Design',
-    tags: ['redbubble', 'golden-son'],
+    tags: ['multiproduct', 'golden-son'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1664,7 +1664,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4552147449.3406/flat,600x600,075,f.jpg',
     name: 'Red Haemanthus Design',
-    tags: ['redbubble', 'red'],
+    tags: ['multiproduct', 'red'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1676,7 +1676,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4546538005.4243/flat,600x600,075,f.jpg',
     name: 'Red Sigil Design',
-    tags: ['redbubble', 'red'],
+    tags: ['multiproduct', 'red'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1688,7 +1688,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4546532563.4092/flat,600x600,075,f.jpg',
     name: 'Red Sigil Design',
-    tags: ['redbubble', 'red'],
+    tags: ['multiproduct', 'red'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1700,7 +1700,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4543097411.5561/flat,600x600,075,f.jpg',
     name: 'Red Sigil Design (Red)',
-    tags: ['redbubble', 'red'],
+    tags: ['multiproduct', 'red'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1712,7 +1712,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4543086587.5279/flat,600x600,075,f.jpg',
     name: 'Rise Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1724,7 +1724,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4539570663.8532/flat,600x600,075,f.jpg',
     name: 'House Mars Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1736,7 +1736,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4535781102.4926/flat,600x600,075,f.jpg',
     name: 'House Mars Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1748,7 +1748,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4539564041.8367/flat,600x600,075,f.jpg',
     name: 'House Mars Design (Red)',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1760,7 +1760,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4535774041.4729/flat,600x600,075,f.jpg',
     name: 'Red Rising FairyLoot Design',
-    tags: ['redbubble', 'red-rising'],
+    tags: ['multiproduct', 'red-rising'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1773,7 +1773,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4531651474.9803/flat,600x600,075,f.jpg',
     name: 'Red Rising FairyLoot Design',
-    tags: ['redbubble', 'red-rising'],
+    tags: ['multiproduct', 'red-rising'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1786,7 +1786,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4531645453.9639/flat,600x600,075,f.jpg',
     name: 'Red Rising FairyLoot Design (Red)',
-    tags: ['redbubble', 'red-rising'],
+    tags: ['multiproduct', 'red-rising'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1798,7 +1798,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4523170046.2294/flat,600x600,075,f.jpg',
     name: 'Hail Reaper Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1810,7 +1810,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4523166141.2192/flat,600x600,075,f.jpg',
     name: 'Hail Reaper Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1822,7 +1822,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4514613426.2461/flat,600x600,075,f.jpg',
     name: 'The Reaper of Mars Design (Cursive)',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1835,7 +1835,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4514607414.2294/flat,600x600,075,f.jpg',
     name: 'The Reaper of Mars Design (Cursive)',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1848,7 +1848,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4509087921.0492/flat,600x600,075,f.jpg',
     name: 'Hail Reaper Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1860,7 +1860,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.4509082745.0360/flat,600x600,075,f.jpg',
     name: 'Hail Reaper Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1872,7 +1872,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.3859794413.7128/flat,600x600,075,f.jpg',
     name: 'Gold Sigil Design',
-    tags: ['redbubble', 'gold'],
+    tags: ['multiproduct', 'gold'],
     shop: {
       name: 'Game911',
 
@@ -1885,7 +1885,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.3859789103.6996/flat,600x600,075,f.jpg',
     name: 'Gold Sigil Design',
-    tags: ['redbubble', 'gold'],
+    tags: ['multiproduct', 'gold'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1897,7 +1897,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.3655127783.2668/flat,600x600,075,f.jpg',
     name: 'Howler Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1909,7 +1909,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.3655115523.2381/flat,600x600,075,f.jpg',
     name: 'Howler Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1921,7 +1921,7 @@ const data: IItem[] = [
     date: '2023-04-19',
     image: 'https://ih1.redbubble.net/image.3655121603.2527/flat,600x600,075,f.jpg',
     name: 'Howler Design (Red)',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Game911',
       url: 'https://www.redbubble.com/people/Game911/shop'
@@ -1933,7 +1933,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.4172824782.2441/flat,600x600,075,f.jpg',
     name: "A Poet's Eulogy Design",
-    tags: ['redbubble', 'darrow', 'roque', 'morning-star'],
+    tags: ['multiproduct', 'darrow', 'roque', 'morning-star'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -1946,7 +1946,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.3873655882.9496/flat,600x600,075,f.jpg',
     name: 'ReaperStang on Mars Design',
-    tags: ['redbubble', 'darrow', 'mustang'],
+    tags: ['multiproduct', 'darrow', 'mustang'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -1958,7 +1958,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.3279004003.6856/flat,600x600,075,f.jpg',
     name: 'Roque and Tactus Morning Star Design',
-    tags: ['redbubble', 'roque', 'tactus', 'morning-star'],
+    tags: ['multiproduct', 'roque', 'tactus', 'morning-star'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -1971,7 +1971,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.3278997870.6683/flat,600x600,075,f.jpg',
     name: 'Roque and Tactus Golden Son Design',
-    tags: ['redbubble', 'roque', 'tactus', 'golden-son'],
+    tags: ['multiproduct', 'roque', 'tactus', 'golden-son'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -1983,7 +1983,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2937374276.3806/flat,600x600,075,f.jpg',
     name: 'Dassius Design',
-    tags: ['redbubble', 'darrow', 'cassius'],
+    tags: ['multiproduct', 'darrow', 'cassius'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -1995,7 +1995,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2937366380.3597/flat,600x600,075,f.jpg',
     name: 'Wolf Bros Design',
-    tags: ['redbubble', 'darrow', 'sevro'],
+    tags: ['multiproduct', 'darrow', 'sevro'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2007,7 +2007,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.3130060955.3173/flat,600x600,075,f.jpg',
     name: "Darrow O'Lykos Design",
-    tags: ['redbubble', 'darrow', 'morning-star'],
+    tags: ['multiproduct', 'darrow', 'morning-star'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2019,7 +2019,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2937383665.4051/flat,600x600,075,f.jpg',
     name: 'Death of the Poet Design',
-    tags: ['redbubble', 'roque', 'morning-star'],
+    tags: ['multiproduct', 'roque', 'morning-star'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2032,7 +2032,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2543801690.2409/flat,600x600,075,f.jpg',
     name: 'Iron Gold Chibis Part 3 The Rim',
-    tags: ['redbubble', 'iron-gold'],
+    tags: ['multiproduct', 'iron-gold'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2044,7 +2044,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2543798471.2318/flat,600x600,075,f.jpg',
     name: 'Iron Gold Stickers Part 3 The Minotaur',
-    tags: ['redbubble', 'iron-gold'],
+    tags: ['multiproduct', 'iron-gold'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2056,7 +2056,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2543805611.2523/flat,600x600,075,f.jpg',
     name: 'Red Rising Second Trilogy Villain Chibis',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2068,7 +2068,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2937356989.3354/flat,600x600,075,f.jpg',
     name: 'Summer RoqTus Design',
-    tags: ['redbubble', 'roque', 'tactus'],
+    tags: ['multiproduct', 'roque', 'tactus'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2080,7 +2080,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2543792431.2140/flat,600x600,075,f.jpg',
     name: 'Red Rising Character Chibis Part 2 The Telemanuses',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2092,7 +2092,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2474018520.6056/flat,600x600,075,f.jpg',
     name: 'Iron Gold Chibis Part 1',
-    tags: ['redbubble', 'iron-gold'],
+    tags: ['multiproduct', 'iron-gold'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2104,7 +2104,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2543796141.2253/flat,600x600,075,f.jpg',
     name: "Iron Gold Chibis Part 2 Darrow's POV",
-    tags: ['redbubble', 'iron-gold'],
+    tags: ['multiproduct', 'iron-gold'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2116,7 +2116,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2469102242.4993/flat,600x600,075,f.jpg',
     name: 'Devro Design',
-    tags: ['redbubble', 'darrow', 'sevro'],
+    tags: ['multiproduct', 'darrow', 'sevro'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2128,7 +2128,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2469077240.4226/flat,600x600,075,f.jpg',
     name: 'After Shower Set Part 1: Roque and Tactus',
-    tags: ['redbubble', 'roque', 'tactus'],
+    tags: ['multiproduct', 'roque', 'tactus'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2141,7 +2141,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2469088781.4576/flat,600x600,075,f.jpg',
     name: 'After Shower Set Part 2: Darrow',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2154,7 +2154,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2367153597.8448/flat,600x600,075,f.jpg',
     name: 'Arson Is Okay Apollonius au Valii-Rath Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2166,7 +2166,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2522868978.4641/flat,600x600,075,f.jpg',
     name: 'Red Rising First Trilogy Villain Chibis',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2178,7 +2178,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2358195157.7336/flat,600x600,075,f.jpg',
     name: 'Red Rising Character Chibis Part 1',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2190,7 +2190,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2356506621.5056/flat,600x600,075,f.jpg',
     name: 'Bookworm of Deimos Design',
-    tags: ['redbubble', 'roque'],
+    tags: ['multiproduct', 'roque'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2202,7 +2202,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2352832904.0626/flat,600x600,075,f.jpg',
     name: 'The Jackal Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
 
@@ -2215,7 +2215,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2338856208.5534/flat,600x600,075,f.jpg',
     name: 'Chibi Reaper Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2227,7 +2227,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2338849379.5298/flat,600x600,075,f.jpg',
     name: 'Takedown of the Duke of Hands Design',
-    tags: ['redbubble', 'iron-gold'],
+    tags: ['multiproduct', 'iron-gold'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2240,7 +2240,7 @@ const data: IItem[] = [
     date: '2023-04-20',
     image: 'https://ih1.redbubble.net/image.2356510263.5192/flat,600x600,075,f.jpg',
     name: 'Fall of Heliopolis Design',
-    tags: ['redbubble', 'dark-age', 'darrow'],
+    tags: ['multiproduct', 'dark-age', 'darrow'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2253,7 +2253,7 @@ const data: IItem[] = [
     date: '2023-04-23',
     image: 'https://ih1.redbubble.net/image.2338842602.5092/flat,600x600,075,f.jpg',
     name: 'Rath Bros Version 2',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2265,7 +2265,7 @@ const data: IItem[] = [
     date: '2023-04-23',
     image: 'https://ih1.redbubble.net/image.2296269627.4497/flat,600x600,075,f.jpg',
     name: 'Roque/Tactus Design',
-    tags: ['redbubble', 'roque', 'tactus'],
+    tags: ['multiproduct', 'roque', 'tactus'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2277,7 +2277,7 @@ const data: IItem[] = [
     date: '2023-04-23',
     image: 'https://ih1.redbubble.net/image.2272017081.7120/flat,600x600,075,f.jpg',
     name: 'Battle of Ilium Poet of Deimos',
-    tags: ['redbubble', 'roque'],
+    tags: ['multiproduct', 'roque'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2289,7 +2289,7 @@ const data: IItem[] = [
     date: '2023-04-23',
     image: 'https://ih1.redbubble.net/image.2272013317.7004/flat,600x600,075,f.jpg',
     name: 'Battle of Ilium Reaper of Mars Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2301,7 +2301,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2224388948.9695/flat,600x600,075,f.jpg',
     name: 'Apollonius x Himself Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2313,7 +2313,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2222418144.2226/flat,600x600,075,f.jpg',
     name: 'Darrow x Mustang (ReaperStang) Design',
-    tags: ['redbubble', 'darrow', 'mustang'],
+    tags: ['multiproduct', 'darrow', 'mustang'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2325,7 +2325,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2222075738.0579/flat,600x600,075,f.jpg',
     name: 'Tactus x Roque Design',
-    tags: ['redbubble', 'tactus', 'roque'],
+    tags: ['multiproduct', 'tactus', 'roque'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2337,7 +2337,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2244058823.6439/flat,600x600,075,f.jpg',
     name: 'Lyria x Volga Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2349,7 +2349,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2222544293.6148/flat,600x600,075,f.jpg',
     name: 'Sevro x Victra Design',
-    tags: ['redbubble', 'sevro', 'victra'],
+    tags: ['multiproduct', 'sevro', 'victra'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2361,7 +2361,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2221689225.9521/flat,600x600,075,f.jpg',
     name: 'Volga Fjorgan Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2373,7 +2373,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2221684601.9370/flat,600x600,075,f.jpg',
     name: 'Diomedes au Raa Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2385,7 +2385,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2221679471.9214/flat,600x600,075,f.jpg',
     name: 'Lysander au Lune Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2397,7 +2397,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2221673401.9023/flat,600x600,075,f.jpg',
     name: 'Pax and Electra Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2409,7 +2409,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2180285956.1977/flat,600x600,075,f.jpg',
     name: 'Virginia au Augustus Design',
-    tags: ['redbubble', 'mustang'],
+    tags: ['multiproduct', 'mustang'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2421,7 +2421,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2137978698.1455/flat,600x600,075,f.jpg',
     name: 'Romulus au Raa Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2433,7 +2433,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2180279993.1793/flat,600x600,075,f.jpg',
     name: 'The Finest Ass In The Solar System Design',
-    tags: ['redbubble', 'darrow'],
+    tags: ['multiproduct', 'darrow'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2446,7 +2446,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2140952473.1125/flat,600x600,075,f.jpg',
     name: 'Apollonius au Valii-Rath Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2459,7 +2459,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2137973924.1310/flat,600x600,075,f.jpg',
     name: 'Lorn au Arcos Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2471,7 +2471,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2137962350.0967/flat,600x600,075,f.jpg',
     name: 'Best Friends Design',
-    tags: ['redbubble', 'sevro', 'darrow'],
+    tags: ['multiproduct', 'sevro', 'darrow'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2483,7 +2483,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2137966601.1091/flat,600x600,075,f.jpg',
     name: 'Matteo Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2495,7 +2495,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2137970160.1203/flat,600x600,075,f.jpg',
     name: 'Mickey The Carver Design',
-    tags: ['redbubble'],
+    tags: ['multiproduct'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2507,7 +2507,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2137957775.0836/flat,600x600,075,f.jpg',
     name: 'Cassius au Bellona Design',
-    tags: ['redbubble', 'cassius'],
+    tags: ['multiproduct', 'cassius'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2519,7 +2519,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2137946353.0499/flat,600x600,075,f.jpg',
     name: 'Victra au Barca Design',
-    tags: ['redbubble', 'victra'],
+    tags: ['multiproduct', 'victra'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2531,7 +2531,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2137949969.0602/flat,600x600,075,f.jpg',
     name: 'Tactus au Valii-Rath Design',
-    tags: ['redbubble', 'tactus'],
+    tags: ['multiproduct', 'tactus'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2543,7 +2543,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2137953955.0715/flat,600x600,075,f.jpg',
     name: 'Roque au Fabii Design',
-    tags: ['redbubble', 'roque'],
+    tags: ['multiproduct', 'roque'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
@@ -2555,7 +2555,7 @@ const data: IItem[] = [
     date: '2023-04-24',
     image: 'https://ih1.redbubble.net/image.2137938900.0275/flat,600x600,075,f.jpg',
     name: 'Sevro au Barca Design',
-    tags: ['redbubble', 'sevro'],
+    tags: ['multiproduct', 'sevro'],
     shop: {
       name: 'Mar B. Heilburg',
       url: 'https://www.redbubble.com/people/marbheilburg/shop'
