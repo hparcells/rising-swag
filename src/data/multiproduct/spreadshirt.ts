@@ -26,6 +26,19 @@ const data: IItem[] = [
     },
     description: 'Original Howlers Design for Red Rising Trilogy',
     link: 'https://www.spreadshirt.com/shop/design/original+howlers+design+for+red+rising+trilogy+mens+t-shirt-D5d89e361f937647d810c816f'
+  },
+  {
+    date: '2023-04-25',
+    image:
+      'https://image.spreadshirtmedia.com/image-server/v1/compositions/T210A2PA4301PT17X110Y49D1017500956W11096H24987/views/1,width=800,height=800,appearanceId=2,backgroundColor=000000,noPt=true/mens-red-rising-graphic-mens-t-shirt.jpg',
+    name: 'Red Rising Graphic Design',
+    tags: ['multiproduct'],
+    shop: {
+      name: '302546920',
+      url: 'https://www.spreadshirt.com/shop/user/302546920/'
+    },
+    description: 'Abstract Red Rising design.',
+    link: 'https://www.spreadshirt.com/shop/design/mens+red+rising+graphic+mens+t-shirt-D5b6b160e1cbf3a5c0b51cf90'
   }
 ];
 
