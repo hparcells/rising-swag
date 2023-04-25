@@ -10,7 +10,8 @@ const data: IItem[] = [
       name: 'Croter Hung',
       url: 'https://printerval.com/croter-hung'
     },
-    description: 'The Gold sigil stacked upon the Red sigil and the wolf of Mars.',
+    description:
+      'The Gold sigil stacked upon the Red sigil, the wolf of Mars, and a haemanthus blossom.',
     link: 'https://printerval.com/red-rising-color-pierce-brown-pierce-sweatshirts-p12463090'
   }
 ];

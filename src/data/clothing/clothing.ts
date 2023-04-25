@@ -920,6 +920,20 @@ const data: IItem[] = [
     },
     description: "It's a Howler thing, you wouldn't understand.",
     link: 'https://www.aliexpress.us/item/3256804226755628.html'
+  },
+  {
+    date: '2023-04-25',
+    image:
+      'https://liveview.printerval.com/image/t-shirts-men-heavyweight-t-shirt,black,print-2023-04-13+a8e4ca07-f966-4e12-a1be-878befc2d190,2d2d2d.jpeg',
+    name: 'Red Rising Color Shirt',
+    tags: ['shirt', 'gold', 'red'],
+    shop: {
+      name: 'Zzebraa',
+      url: 'https://printerval.com/zzebraa'
+    },
+    description:
+      'Design of the sigil of Gold, the sigil of Red, the wolf of Mars, and a small haemanthus blossom.',
+    link: 'https://printerval.com/red-rising-color-pierce-brown-t-shirts-p41201293'
   }
 ];
 
