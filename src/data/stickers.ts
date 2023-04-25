@@ -501,6 +501,32 @@ const data: IItem[] = [
       'Stickers for Operation Hazard Bedlam 2.0, a official photo competition, but this time with instant winners.',
     link: 'https://www.lit-escalates.com/collections/limited-edition/products/hazard-bedlam-2-0-gamepiece-pre-order',
     expired: true
+  },
+  {
+    date: '2023-04-25',
+    image:
+      'https://rlv.zcache.com/red_rising_reaper_goblin_2020_bumper_sticker-r39fa60c299674b4c92e7d8fff799af27_v9wht_8byvr_644.webp',
+    name: 'Reaper/Goblin Bumper Sticker (Ares)',
+    tags: ['sticker', 'darrow', 'sevro'],
+    shop: {
+      name: "Magic Merk's Geeky Designs",
+      url: 'https://www.zazzle.com/store/magicmerk/products'
+    },
+    description: 'Reaper and Goblin Election-Style Bumper Sticker',
+    link: 'https://www.zazzle.com/red_rising_reaper_goblin_2020_bumper_sticker-128010375200074787'
+  },
+  {
+    date: '2023-04-25',
+    image:
+      'https://rlv.zcache.com/reaper_goblin_2020_red_rising_bumper_sticker-r4a3343a5354f45f7bea885c1c9fa3f7f_v9wht_8byvr_644.webp',
+    name: 'Reaper/Goblin Bumper Sticker (SlingBlade)',
+    tags: ['sticker', 'darrow', 'sevro'],
+    shop: {
+      name: "Magic Merk's Geeky Designs",
+      url: 'https://www.zazzle.com/store/magicmerk/products'
+    },
+    description: 'Reaper and Goblin Election-Style Bumper Sticker',
+    link: 'https://www.zazzle.com/reaper_goblin_2020_red_rising_bumper_sticker-128332733640008423'
   }
 ];
 

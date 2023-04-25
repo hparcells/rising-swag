@@ -89,6 +89,19 @@ const data: IItem[] = [
     description: 'Set of 9 ceramic tile magnets inspired by the world of Red Rising.',
     link: 'https://www.etsy.com/listing/1319809226/red-rising-magnets',
     expired: true
+  },
+  {
+    date: '2023-04-25',
+    image:
+      'https://rlv.zcache.com/virginia_darrow_2020_red_rising_car_magnet-rca86c4b31f464497be6692bfccac82c4_0dwqn_644.webp',
+    name: 'Virginia/Darrow 2020 Red Rising Car Magnet',
+    tags: ['magnet', 'mustang', 'darrow'],
+    shop: {
+      name: "Magic Merk's Geeky Designs",
+      url: 'https://www.zazzle.com/store/magicmerk/products'
+    },
+    description: 'Virginia and Darrow Election-Style Car Magnet',
+    link: 'https://www.zazzle.com/virginia_darrow_2020_red_rising_car_magnet-256321043889515296'
   }
 ];
 
