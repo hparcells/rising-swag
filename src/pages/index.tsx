@@ -6,11 +6,13 @@ import SectionAdditional from '@/components/SectionAdditional/SectionAdditional'
 function Index() {
   return (
     <Layout>
-      <div>
-        <Hero />
+      <>
+        <div>
+          <Hero />
+        </div>
         <Content />
         <SectionAdditional />
-      </div>
+      </>
     </Layout>
   );
 }
