@@ -29,11 +29,12 @@ import waterBottles from './drinkware/water-bottles';
 
 import redbubble from './multiproduct/redbubble';
 import teepublic from './multiproduct/teepublic';
+import spreadshirt from './multiproduct/spreadshirt';
 
 export const ALL_DATA = [
   [...drinkware, ...waterBottles],
   [...clothing, ...jackets, ...kids, ...tanks],
-  [...redbubble, ...teepublic],
+  [...redbubble, ...teepublic, ...spreadshirt],
   ...bookmarks,
   ...books,
   ...candles,
