@@ -28,6 +28,7 @@ import mugs from './drinkware/mugs';
 import waterBottles from './drinkware/water-bottles';
 
 import redbubble from './multiproduct/redbubble';
+import society6 from './multiproduct/society6';
 import spreadshirt from './multiproduct/spreadshirt';
 import teepublic from './multiproduct/teepublic';
 import zazzle from './multiproduct/zazzle';
@@ -35,7 +36,7 @@ import zazzle from './multiproduct/zazzle';
 export const ALL_DATA = [
   [...drinkware, ...waterBottles],
   [...clothing, ...jackets, ...kids, ...tanks],
-  [...redbubble, ...spreadshirt, ...teepublic, ...zazzle],
+  [...redbubble, ...society6, ...spreadshirt, ...teepublic, ...zazzle],
   ...bookmarks,
   ...books,
   ...candles,
