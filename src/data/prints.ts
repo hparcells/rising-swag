@@ -252,6 +252,82 @@ const data: IItem[] = [
     },
     description: 'I would have lived in peace, but my enemies brought me war.',
     link: 'https://www.etsy.com/listing/1179091611/red-rising-print'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/8ebebc/4908639193/il_794xN.4908639193_2yjb.jpg',
+    name: 'Subterranean Press Golden Son Framed Canvas',
+    tags: ['print', 'golden-son', 'gold', 'red'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'A large framed canvas of the cover art from the Subterranean Press edition of Golden Son.',
+    link: 'https://www.etsy.com/listing/1470754891/red-rising-golden-son-cover-art-framed'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/8952e9/4860383948/il_794xN.4860383948_7yof.jpg',
+    name: 'FairyLoot Red Rising Framed Canvas',
+    tags: ['print', 'red-rising'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A large framed canvas of the cover art from the FairyLoot edition of Red Rising.',
+    link: 'https://www.etsy.com/listing/1455912878/red-rising-canvas-framed'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/9b2cc8/4908641237/il_794xN.4908641237_i634.jpg',
+    name: 'Subterranean Press Morning Star Framed Canvas',
+    tags: ['print', 'morning-star'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'A large framed canvas of the cover art from the Subterranean Press edition of Morning Star.',
+    link: 'https://www.etsy.com/listing/1456556554/red-rising-morning-star-cover-art-framed'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/fac4f1/4908643845/il_794xN.4908643845_hbfr.jpg',
+    name: 'FairyLoot Morning Star Framed Canvas',
+    tags: ['print', 'morning-star'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'A large framed canvas of the cover art from the FairyLoot edition of Morning Star.',
+    link: 'https://www.etsy.com/listing/1470118775/red-rising-morning-star-canvas-framed'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/a789d9/4908641195/il_794xN.4908641195_pnum.jpg',
+    name: 'Subterranean Press Red Rising Framed Canvas',
+    tags: ['print', 'red-rising'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'A large framed canvas of the cover art from the Subterranean Press edition of Red Rising.',
+    link: 'https://www.etsy.com/listing/1455966960/red-rising-cover-art-canvas-framed'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/c70302/4860387508/il_794xN.4860387508_f0xi.jpg',
+    name: 'FairyLoot Golden Son Framed Canvas',
+    tags: ['print', 'golden-son'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A large framed canvas of the cover art from the FairyLoot edition of Golden Son.',
+    link: 'https://www.etsy.com/listing/1455914896/red-rising-golden-son-canvas-framed'
   }
 ];
 

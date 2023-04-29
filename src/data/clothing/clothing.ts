@@ -934,6 +934,31 @@ const data: IItem[] = [
     description:
       'Design of the sigil of Gold, the sigil of Red, the wolf of Mars, and a small haemanthus blossom.',
     link: 'https://printerval.com/red-rising-color-pierce-brown-t-shirts-p41201293'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/36adaf/4845370434/il_794xN.4845370434_kzi5.jpg',
+    name: 'Subterranean Press Golden Son Peerless Shirt',
+    tags: ['shirt', 'golden-son'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'Supreme-style "Peerless" shirt with the cover art from the Subterranean Press edition of Golden Son.',
+    link: 'https://www.etsy.com/listing/1467936389/red-rising-peerless-scarred-unisex-t'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/1b0c43/4852145344/il_794xN.4852145344_jlvf.jpg',
+    name: 'Ares Box Logo Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Supreme-style "Ares" shirt of a figure of Ares and his helmet.',
+    link: 'https://www.etsy.com/listing/1458054511/red-rising-ares-box-logo-unisex-t-shirt'
   }
 ];
 
