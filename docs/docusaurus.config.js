@@ -44,13 +44,6 @@ const config = {
           editUrl:
             'https://github.com/hparcells/rising-swag/tree/master/docs/'
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/hparcells/rising-swag/tree/master/docs/'
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         }
@@ -75,11 +68,6 @@ const config = {
             sidebarId: 'docsSidebar',
             position: 'left',
             label: 'Docs'
-          },
-          {
-            to: '/blog',
-            label: 'Blog',
-            position: 'left'
           },
           {
             href: 'https://github.com/hparcells/rising-swag',
@@ -114,19 +102,6 @@ const config = {
               {
                 label: 'Wiki',
                 href: 'https://red-rising.fandom.com/wiki/Red_Rising_Wiki'
-              }
-            ]
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog'
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/hparcells/rising-swag'
               }
             ]
           }
