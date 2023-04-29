@@ -44,6 +44,8 @@ If you would like to add this yourself, it's as simple as a single line of "code
 },
 ```
 
+There are other additional keys that can be added to change the appearance of the item. `spoiler: true` or `nsfw: true` can be added to blur the item until a button is clicked.
+
 ### Adding Features
 
 If there is something missing that you would like to see, open an issue! I'd love to discuss this.
