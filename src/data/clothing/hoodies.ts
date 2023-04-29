@@ -215,6 +215,18 @@ const data: IItem[] = [
     },
     description: 'Hoodie with a wolf and skull design.',
     link: 'https://www.etsy.com/listing/1403379807/howler-omnis-vir-lupus-unisex-hoodie'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/4b2d70/4865150091/il_794xN.4865150091_chuk.jpg',
+    name: 'House Mars Hoodie',
+    tags: ['hoodie'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A red hoodie of the House Mars sigil.',
+    link: 'https://www.etsy.com/listing/1461108577/red-rising-house-mars-unisex-hoodie'
   }
 ];
 

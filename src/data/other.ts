@@ -394,6 +394,54 @@ const data: IItem[] = [
     description:
       "This sign is perfect for any Red Rising fan and will make a unique statement piece in anyone's room or collection.",
     link: 'https://www.etsy.com/listing/1264816175/red-rising-light-metal-wall-led-light'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/a034e8/4802911818/il_1140xN.4802911818_6k97.jpg',
+    name: 'The Society Solar System Blanket',
+    tags: ['other'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A fleece blanket of the Solar System map.',
+    link: 'https://www.etsy.com/listing/1457885225/red-rising-the-society-solar-system'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/81e7a8/4811884994/il_794xN.4811884994_32yr.jpg',
+    name: 'FairyLoot Red Rising Blanket',
+    tags: ['other', 'red-rising'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A fleece blanket of the cover art of the FairyLoot edition Red Rising book.',
+    link: 'https://www.etsy.com/listing/1458246709/red-rising-plush-fleece-blanket'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/8d3e2a/4857574709/il_794xN.4857574709_iyth.jpg',
+    name: 'FairyLoot Golden Son Blanket',
+    tags: ['other', 'golden-son'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A fleece blanket of the cover art of the FairyLoot edition Golden Son book.',
+    link: 'https://www.etsy.com/listing/1444043658/red-rising-golden-son-plush-fleece'
+  },
+  {
+    date: '2023-04-29',
+    image: 'https://i.etsystatic.com/38424619/r/il/442755/4857865143/il_794xN.4857865143_dz7q.jpg',
+    name: 'FairyLoot Morning Star Blanket',
+    tags: ['other', 'morning-star'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A fleece blanket of the cover art of the FairyLoot edition Morning Star book.',
+    link: 'https://www.etsy.com/listing/1458245579/red-rising-morning-star-plush-fleece'
   }
 ];
 
