@@ -2562,6 +2562,18 @@ const data: IItem[] = [
     },
     description: 'Sevro au Barca',
     link: 'https://www.redbubble.com/shop/ap/71320275'
+  },
+  {
+    date: '2023-05-01',
+    image: 'https://ih1.redbubble.net/image.891920235.4587/flat,600x600,075,f.jpg',
+    name: 'Darrow Design',
+    tags: ['multiproduct', 'darrow'],
+    shop: {
+      name: 'am2c',
+      url: 'https://www.redbubble.com/people/am2c/shop'
+    },
+    description: 'Darrow and his nicknames.',
+    link: 'https://www.redbubble.com/shop/ap/40664587'
   }
 ];
 
