@@ -227,6 +227,31 @@ const data: IItem[] = [
     },
     description: 'A red hoodie of the House Mars sigil.',
     link: 'https://www.etsy.com/listing/1461108577/red-rising-house-mars-unisex-hoodie'
+  },
+  {
+    date: '2023-05-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/019bcf/4863242462/il_794xN.4863242462_7lug.jpg',
+    name: 'Golden Son Subterranean Press Peerless Hoodie',
+    tags: ['hoodie', 'golden-son', 'darrow'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'Hoodie with the Subterranean Press Golden Son cover art and "Omnis vir Lupus" on the sleeve.',
+    link: 'https://www.etsy.com/listing/1457743916/red-rising-peerless-hoodie-with-omnis'
+  },
+  {
+    date: '2023-05-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/5c9f57/4863241200/il_794xN.4863241200_es42.jpg',
+    name: 'Red Rising Subterranean Press Helldiver Hoodie',
+    tags: ['hoodie', 'red-rising', 'darrow'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Supreme-style "Helldiver" logo with the Subterranean Press Red Rising cover art.',
+    link: 'https://www.etsy.com/listing/1457835724/red-rising-helldiver-hoodie-with-sigils'
   }
 ];
 

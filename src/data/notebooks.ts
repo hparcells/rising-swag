@@ -98,6 +98,32 @@ const data: IItem[] = [
     },
     description: 'A 100 page notebook with a cover featuring Sophocles in the letter S.',
     link: 'https://www.etsy.com/listing/1021294489/s-is-for-sophocles-spiral-notebook'
+  },
+  {
+    date: '2023-05-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/75745a/4908640965/il_794xN.4908640965_ers8.jpg',
+    name: 'Subterranean Press Golden Son Journal',
+    tags: ['notebook', 'golden-son', 'darrow'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'A 150 page journal with the cover featuring the Subterranean Press Golden Son cover art.',
+    link: 'https://www.etsy.com/listing/1456689014/red-rising-golden-son-cover-art-journal'
+  },
+  {
+    date: '2023-05-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/45c205/4860381820/il_794xN.4860381820_85oo.jpg',
+    name: 'Subterranean Press Morning Star Journal',
+    tags: ['notebook', 'morning-star', 'darrow'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'A 150 page journal with the cover featuring the Subterranean Press Morning Star cover art.',
+    link: 'https://www.etsy.com/listing/1456689042/red-rising-morning-star-cover-art'
   }
 ];
 

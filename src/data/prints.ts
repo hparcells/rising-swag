@@ -328,6 +328,30 @@ const data: IItem[] = [
     },
     description: 'A large framed canvas of the cover art from the FairyLoot edition of Golden Son.',
     link: 'https://www.etsy.com/listing/1455914896/red-rising-golden-son-canvas-framed'
+  },
+  {
+    date: '2023-05-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/99434c/4863243994/il_794xN.4863243994_cbir.jpg',
+    name: 'Omnis Vir Lupus Framed Canvas',
+    tags: ['print'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A large framed canvas with "Omnis Vir Lupus" and Mars.',
+    link: 'https://www.etsy.com/listing/1471822341/red-rising-omnis-vir-lupus-framed-canvas'
+  },
+  {
+    date: '2023-05-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/3368df/4863243348/il_794xN.4863243348_bcpe.jpg',
+    name: 'Omnis Vir Lupus Framed Canvas',
+    tags: ['print', 'gold', 'red'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A large framed canvas with "Omnis Vir Lupus" and Mars.',
+    link: 'https://www.etsy.com/listing/1471870139/red-rising-omnis-vir-lupus-framed-canvas'
   }
 ];
 

@@ -527,6 +527,18 @@ const data: IItem[] = [
     },
     description: 'Reaper and Goblin Election-Style Bumper Sticker',
     link: 'https://www.zazzle.com/reaper_goblin_2020_red_rising_bumper_sticker-128332733640008423'
+  },
+  {
+    date: '2023-05-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/90ba1d/4858205732/il_794xN.4858205732_eh24.jpg',
+    name: 'Wolf/Red/Gold Sigil Sticker',
+    tags: ['sticker', 'red', 'gold'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Sticker with the wolf of Mars, Red sigil, and Gold sigil.',
+    link: 'https://www.etsy.com/listing/1470875699/red-rising-wolfredgold-sigil-sticker'
   }
 ];
 

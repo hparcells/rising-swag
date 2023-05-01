@@ -939,7 +939,7 @@ const data: IItem[] = [
     date: '2023-04-29',
     image: 'https://i.etsystatic.com/38424619/r/il/36adaf/4845370434/il_794xN.4845370434_kzi5.jpg',
     name: 'Subterranean Press Golden Son Peerless Shirt',
-    tags: ['shirt', 'golden-son'],
+    tags: ['shirt', 'golden-son', 'darrow'],
     shop: {
       name: 'FunnyBoxLogo',
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
@@ -959,6 +959,44 @@ const data: IItem[] = [
     },
     description: 'Supreme-style "Ares" shirt of a figure of Ares and his helmet.',
     link: 'https://www.etsy.com/listing/1458054511/red-rising-ares-box-logo-unisex-t-shirt'
+  },
+  {
+    date: '2023-05-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/fef431/4858425442/il_794xN.4858425442_cyfz.jpg',
+    name: 'Subterranean Press Morning Star Scarred Shirt',
+    tags: ['shirt', 'morning-star', 'darrow'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'Supreme-style "Scarred" shirt with the cover art from the Subterranean Press edition of Morning Star.',
+    link: 'https://www.etsy.com/listing/1456725472/red-rising-scarred-box-logo-unisex-t'
+  },
+  {
+    date: '2023-05-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/365a02/4858424100/il_794xN.4858424100_qyg7.jpg',
+    name: 'Subterranean Press Red Rising Helldiver Shirt',
+    tags: ['shirt', 'red-rising', 'darrow'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'Supreme-style "Helldiver" shirt with the cover art from the Subterranean Press edition of Red Rising.',
+    link: 'https://www.etsy.com/listing/1456725124/red-rising-helldiver-box-logo-unisex-t'
+  },
+  {
+    date: '2023-05-01',
+    image: 'https://i.etsystatic.com/38424619/r/il/b854a0/4910186045/il_794xN.4910186045_mebf.jpg',
+    name: 'Howler Box Logo Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Supreme-style "Howler" shirt with a head of a wolf.',
+    link: 'https://www.etsy.com/listing/1457565602/red-rising-howler-box-logo-unisex-t'
   }
 ];
 
