@@ -206,6 +206,19 @@ const data: IItem[] = [
     },
     description: 'Darrow and Sevro, love at first ship, love at first howl.',
     link: 'https://wickandjane.com/collections/ready-to-ship/products/i-will-go-down-with-this-ship-box-extras'
+  },
+  {
+    date: '2023-05-03',
+    name: 'Howler Legion Pin',
+    image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/IMG_4330_1024x1024@2x.jpg',
+    tags: ['pin'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description: 'Calling all Legionaries - your official pin has arrived.',
+    link: 'https://www.lit-escalates.com/products/howler-legion-pin',
+    expired: true
   }
 ];
 

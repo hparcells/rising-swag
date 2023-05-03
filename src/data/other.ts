@@ -454,6 +454,21 @@ const data: IItem[] = [
     },
     description: 'A wall clock with Mars and the sigils of Red and Gold.',
     link: 'https://www.etsy.com/listing/1459185990/red-rising-wolf-gold-sigil-wall-clock'
+  },
+  {
+    date: '2023-05-03',
+    image:
+      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/4D51C74F-F370-4D42-8E2C-EC01D14D091E_1024x1024@2x.jpg?',
+    name: 'SlingBlade Pen',
+    tags: ['other'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Designed and manufactured by Josh Polus, the Master Maker behind The Orange Armory, our SlingBlade pen is a working work of art.',
+    link: 'https://www.lit-escalates.com/products/slingblade-pen',
+    expired: true
   }
 ];
 
