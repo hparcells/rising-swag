@@ -442,6 +442,18 @@ const data: IItem[] = [
     },
     description: 'A fleece blanket of the cover art of the FairyLoot edition Morning Star book.',
     link: 'https://www.etsy.com/listing/1458245579/red-rising-morning-star-plush-fleece'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/a8e931/4868675126/il_794xN.4868675126_ofu4.jpg',
+    name: 'Wolf Gold Sigil Wall Clock',
+    tags: ['other', 'red', 'gold'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A wall clock with Mars and the sigils of Red and Gold.',
+    link: 'https://www.etsy.com/listing/1459185990/red-rising-wolf-gold-sigil-wall-clock'
   }
 ];
 

@@ -124,6 +124,19 @@ const data: IItem[] = [
     description:
       'A 150 page journal with the cover featuring the Subterranean Press Morning Star cover art.',
     link: 'https://www.etsy.com/listing/1456689042/red-rising-morning-star-cover-art'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/e6d2f4/4860381656/il_794xN.4860381656_m7jg.jpg',
+    name: 'Subterranean Press Red Rising Journal',
+    tags: ['notebook', 'red-rising', 'darrow'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'A 150 page journal with the cover featuring the Subterranean Press Red Rising cover art.',
+    link: 'https://www.etsy.com/listing/1456688970/red-rising-cover-art-journal'
   }
 ];
 

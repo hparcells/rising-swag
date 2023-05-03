@@ -252,6 +252,18 @@ const data: IItem[] = [
     },
     description: 'Supreme-style "Helldiver" logo with the Subterranean Press Red Rising cover art.',
     link: 'https://www.etsy.com/listing/1457835724/red-rising-helldiver-hoodie-with-sigils'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/67c6c3/4918632255/il_794xN.4918632255_nu2v.jpg',
+    name: 'Howler Box Logo Hoodie',
+    tags: ['hoodie'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Hoodie with the Howler Box Logo and "Omnis vir Lupus" on the sleeve.',
+    link: 'https://www.etsy.com/listing/1473751639/red-rising-howler-hoodie-omnis-vir-lupus'
   }
 ];
 

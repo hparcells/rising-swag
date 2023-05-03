@@ -86,6 +86,31 @@ const data: IItem[] = [
     },
     description: 'A vacuum insulated tumbler with the sigil of Red.',
     link: 'https://www.etsy.com/listing/1455221328/red-rising-red-sigil-tumbler'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/14e7ba/4870487220/il_794xN.4870487220_pubt.jpg',
+    name: 'Omnis Vir Lupus 20oz Tumbler',
+    tags: ['drinkware', 'gold', 'red'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Steel tumbler with straw.',
+    link: 'https://www.etsy.com/listing/1473483399/red-rising-omnis-vir-lupus-skinny-steel'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/2f1e4c/4917332637/il_794xN.4917332637_ctja.jpg',
+    name: 'Subterranean Press Golden Son Peerless 10oz Tumbler',
+    tags: ['drinkware', 'darrow', 'golden-son'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'Small travel size tumbler of the cover art of the Subterranean Press edition of Golden Son.',
+    link: 'https://www.etsy.com/listing/1473480329/red-rising-peerless-10oz-tumbler'
   }
 ];
 

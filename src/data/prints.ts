@@ -352,6 +352,30 @@ const data: IItem[] = [
     },
     description: 'A large framed canvas with "Omnis Vir Lupus" and Mars.',
     link: 'https://www.etsy.com/listing/1471870139/red-rising-omnis-vir-lupus-framed-canvas'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/c240b8/4916429367/il_794xN.4916429367_ii88.jpg',
+    name: 'Omnis Vir Lupus Poster',
+    tags: ['print', 'gold', 'red'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A poster with "Omnis Vir Lupus" and Mars.',
+    link: 'https://www.etsy.com/listing/1459069626/red-rising-omnis-vir-lupus-premium'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/e9fb66/4916907649/il_794xN.4916907649_126n.jpg',
+    name: 'Omnis Vir Lupus Poster',
+    tags: ['print', 'gold', 'red'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A poster with "Omnis Vir Lupus" and Mars.',
+    link: 'https://www.etsy.com/listing/1473380841/red-rising-omnis-vir-lupus-premium'
   }
 ];
 
