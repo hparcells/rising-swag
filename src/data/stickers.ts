@@ -539,6 +539,127 @@ const data: IItem[] = [
     },
     description: 'Sticker with the wolf of Mars, Red sigil, and Gold sigil.',
     link: 'https://www.etsy.com/listing/1470875699/red-rising-wolfredgold-sigil-sticker'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/5090d9/4858254370/il_794xN.4858254370_70fz.jpg',
+    name: 'Red/Gold Sigil Sticker',
+    tags: ['sticker', 'red', 'gold'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Sticker with the Red sigil and Gold sigil together.',
+    link: 'https://www.etsy.com/listing/1470875123/red-rising-redgold-sigil-sticker'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/b6958b/4906511435/il_794xN.4906511435_snyn.jpg',
+    name: 'Mars/Gold/Red Sigil Sticker',
+    tags: ['sticker', 'red', 'gold'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Sticker with the sigil of House Mars, Gold, and Red sigil.',
+    link: 'https://www.etsy.com/listing/1470874783/red-rising-house-marsgoldred-sigil'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/03d2bf/4858254248/il_794xN.4858254248_cctz.jpg',
+    name: 'Red Sigil Sticker',
+    tags: ['sticker', 'red'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A white colored Red sigil sticker.',
+    link: 'https://www.etsy.com/listing/1456667270/red-rising-red-sigil-sticker'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/3ed354/4906465985/il_794xN.4906465985_4xi8.jpg',
+    name: 'Howler Box Logo Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Supreme-style "Howler" box logo on a sticker.',
+    link: 'https://www.etsy.com/listing/1456665092/red-rising-howler-sticker'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/1622db/4858208444/il_794xN.4858208444_42kf.jpg',
+    name: 'Gold Sigil Sticker (Gold)',
+    tags: ['sticker', 'gold'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A gold colored Gold sigil sticker.',
+    link: 'https://www.etsy.com/listing/1470863613/red-rising-gold-sigil-gold-sticker'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/1eb0b1/4906465599/il_794xN.4906465599_9pqe.jpg',
+    name: 'Gold Sigil Sticker (White)',
+    tags: ['sticker', 'gold'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A white colored Gold sigil sticker.',
+    link: 'https://www.etsy.com/listing/1456664306/red-rising-gold-sigil-white-sticker'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/5e592e/4906465079/il_794xN.4906465079_hxe9.jpg',
+    name: 'House Mars Wolf Sticker (White)',
+    tags: ['sticker'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A white colored wolf sticker.',
+    link: 'https://www.etsy.com/listing/1470861855/red-rising-house-mars-wolf-sticker'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/57abc1/4858207554/il_794xN.4858207554_ggp7.jpg',
+    name: 'House Mars Sigil Sticker (Black)',
+    tags: ['sticker'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A black colored House Mars sigil sticker.',
+    link: 'https://www.etsy.com/listing/1470861123/red-rising-house-mars-sticker'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/87215f/4858208088/il_794xN.4858208088_9bo6.jpg',
+    name: 'House Mars Sigil Sticker (Red)',
+    tags: ['sticker'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A red colored House Mars sigil sticker.',
+    link: 'https://www.etsy.com/listing/1456663300/red-rising-house-mars-red-sticker'
+  },
+  {
+    date: '2023-05-03',
+    image: 'https://i.etsystatic.com/38424619/r/il/aef3fd/4906463931/il_794xN.4906463931_c963.jpg',
+    name: 'Subterranean Press Golden Son Peerless Sticker',
+    tags: ['sticker', 'golden-son', 'darrow'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description:
+      'Supreme-style "Peerless" sticker with the cover art from the Subterranean Press edition of Golden Son.',
+    link: 'https://www.etsy.com/listing/1470860319/kiss-cut-stickers'
   }
 ];
 
