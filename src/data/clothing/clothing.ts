@@ -997,6 +997,48 @@ const data: IItem[] = [
     },
     description: 'Supreme-style "Howler" shirt with a head of a wolf.',
     link: 'https://www.etsy.com/listing/1457565602/red-rising-howler-box-logo-unisex-t'
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/shirtmock_1024x1024@2x.jpg',
+    name: 'Pegasus Legion Acid Wash T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      "We asked PB Doodles for her take on the Pegasus Legion sigil, and she didn't disappoint!",
+    link: 'https://www.lit-escalates.com/products/pegasus-legion-acid-wash-t-shirt-timed-edition-presale',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image:
+      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/all-over-print-womens-athletic-short-shorts-white-front-60e885e17d7fa_1024x1024@2x.jpg',
+    name: "Women's Howler Shorts",
+    tags: ['shorts'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      "Whether swimming, biking, running or just lounging, our Howler shorts won't let you down!",
+    link: 'https://www.lit-escalates.com/products/womens-howler-shorts-1'
+  },
+  {
+    date: '2023-05-04',
+    image:
+      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/all-over-print-mens-athletic-long-shorts-white-front-60e8860a97b24_1024x1024@2x.jpg',
+    name: "Men's Howler Shorts",
+    tags: ['shorts'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Whether swimming, biking, running or just lounging, our Howler shorts won’t let you down!',
+    link: 'https://www.lit-escalates.com/products/mens-howler-shorts-1'
   }
 ];
 

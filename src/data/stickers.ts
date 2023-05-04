@@ -660,6 +660,20 @@ const data: IItem[] = [
     description:
       'Supreme-style "Peerless" sticker with the cover art from the Subterranean Press edition of Golden Son.',
     link: 'https://www.etsy.com/listing/1470860319/kiss-cut-stickers'
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/StickerMock_1024x1024@2x.jpg',
+    name: 'Helldivers Union Silver Foil Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      "Commemorate your participation in this Summer's chaos with this bit of Red Rising Flair.",
+    link: 'https://www.lit-escalates.com/products/helldivers-union-silver-foil-sticker',
+    expired: true
   }
 ];
 

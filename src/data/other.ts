@@ -469,6 +469,105 @@ const data: IItem[] = [
       'Designed and manufactured by Josh Polus, the Master Maker behind The Orange Armory, our SlingBlade pen is a working work of art.',
     link: 'https://www.lit-escalates.com/products/slingblade-pen',
     expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/Profile_1024x1024@2x.jpg',
+    name: 'Ceramic Howler Pendant',
+    tags: ['other'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Stamped on the reverse with the House Mars Sigil, this unique artwork was fired with an iron oxide glaze to get that Martian-Red look and comes complete with a hand-forged iron hanging hook.',
+    link: 'https://www.lit-escalates.com/products/ceramic-wolf-pendant',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/Union_1024x1024@2x.jpg',
+    name: 'Helldivers Union Button',
+    tags: ['other'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'While Quicksilver would probably fight unionization with every ounce of his murky being, we wanted to imaging what would happen if the Helldivers unionized during Dark Age.',
+    link: 'https://www.lit-escalates.com/products/helldivers-union-button',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/HeadbandSet_1024x1024@2x.jpg',
+    name: 'Helldiver Headband Set',
+    tags: ['other'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      "What would a Helldiver receive in the Laureltide box? A Helldiver sweat band of course. And a matching wristband. Blood doesn't show so badly on Red.",
+    link: 'https://www.lit-escalates.com/products/helldiver-headband-set',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/Back_1024x1024@2x.jpg',
+    name: 'Sling Blade Pendant',
+    tags: ['other'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      "Created by Master Artisan Connor Haygood of King Charles Forge, these Sling Blade necklace pendants were forged by hand from custom folded Damascus Steel at Connor's forge in Mississippi.",
+    link: 'https://www.lit-escalates.com/products/sling-blade-pendant',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image:
+      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/needlessquare_1024x1024@2x.jpg',
+    name: 'Stained Glass Howler Ornament',
+    tags: ['other'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Whether hanging from your rearview mirror or as a part of your holiday decorations, our Stained Glass Howler Wolf is sure to make your frenemies howl with jealousy.',
+    link: 'https://www.lit-escalates.com/products/stained-glass-howler-ornament',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/Ornament4_1024x1024@2x.jpg',
+    name: 'Sons of Ares Holiday Ornament',
+    tags: ['other'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      "You asked for holiday ornaments and we delivered. However, we couldn't help but make one that doubles as a coaster so you can keep those gorydamn whiskey tumblers from putting rings on the Venusian side-table in your cockpit.",
+    link: 'https://www.lit-escalates.com/products/sons-of-ares-holiday-ornament',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/BEDLAM_1024x1024@2x.jpg',
+    name: 'Hazard Bedlam Button',
+    tags: ['other'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      "Commemorate your participation in this Summer's chaos with this bit of Red Rising Flair.",
+    link: 'https://www.lit-escalates.com/products/hazard-bedlam-button',
+    expired: true
   }
 ];
 

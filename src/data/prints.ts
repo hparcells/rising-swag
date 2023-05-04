@@ -406,6 +406,21 @@ const data: IItem[] = [
       "Joel created this new Propaganda Poster to commemorate the official release announcement of Pierce Brown's 6th book, Light Bringer.",
     link: 'https://www.lit-escalates.com/products/signed-light-bringer-poster',
     expired: true
+  },
+  {
+    date: '2023-05-04',
+    image:
+      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/MAPIMAGE4LARGE_1024x1024@2x.jpg',
+    name: 'Iron Gold Map Screenprint',
+    tags: ['print', 'iron-gold'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'This handmade screen print features the artwork of Joel Daniel Phillips, as seen in Pierce Brown\'s "Iron Gold".',
+    link: 'https://www.lit-escalates.com/products/iron-gold-map-screenprint',
+    expired: true
   }
 ];
 

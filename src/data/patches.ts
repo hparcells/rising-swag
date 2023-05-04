@@ -26,6 +26,20 @@ const data: IItem[] = [
     description:
       'Patch with the gold sigil, red sigil, and the wolf of mars onto one design. Comes in white and black.',
     link: 'https://www.etsy.com/listing/1398182739/red-rising-embroidered-patches-gold-and'
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/Patch2_1024x1024@2x.jpg',
+    name: 'Howler Legion Patch',
+    tags: ['patch'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Trimmed in red, our Howler Legion patch shows the House Mars Wolf in red surrounded by metallic gold embroidered laurel leaves under a gold Star of the Republic.',
+    link: 'https://www.lit-escalates.com/products/howler-legion-patch',
+    expired: true
   }
 ];
 

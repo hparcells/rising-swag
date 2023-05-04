@@ -111,6 +111,20 @@ const data: IItem[] = [
     description:
       'Small travel size tumbler of the cover art of the Subterranean Press edition of Golden Son.',
     link: 'https://www.etsy.com/listing/1473480329/red-rising-peerless-10oz-tumbler'
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/Bottle1_1024x1024@2x.jpg',
+    name: 'Wolf Skull Flask',
+    tags: ['drinkware'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Our limited edition, slip-cast ceramic Wolf Skull Flasks were created exclusively for Shit Escalates by master artisan Matthew Jones. ',
+    link: 'https://www.lit-escalates.com/products/wolf-skull-flasl',
+    expired: true
   }
 ];
 

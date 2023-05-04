@@ -26,6 +26,7 @@ export const MERCH_TYPE = [
   'candle',
   'decal',
   'multiproduct',
+  'shorts',
   'other'
 ] as const;
 
