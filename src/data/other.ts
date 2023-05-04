@@ -304,7 +304,8 @@ const data: IItem[] = [
     },
     description:
       'Festive one of a kind ornament for your tree, inspired by one of the best book series!',
-    link: 'https://www.etsy.com/listing/1329117064/red-rising-howler-ornament'
+    link: 'https://www.etsy.com/listing/1329117064/red-rising-howler-ornament',
+    expired: true
   },
   {
     date: '2023-03-23',
