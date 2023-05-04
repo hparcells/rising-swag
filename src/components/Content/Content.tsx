@@ -129,7 +129,9 @@ function Content() {
 
         <div className={clsx(classes.cards, !filter.fullWidth && classes.squeeze)}>
           {filteredData ? (
-            filteredData.length > 0 ? (
+            filteredData.filter((item) => {
+              return !item.expired || (item.expired && filter.showExpired);
+            }).length > 0 ? (
               <>
                 {filteredData
                   .filter((item) => {
