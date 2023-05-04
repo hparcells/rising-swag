@@ -152,7 +152,8 @@ const data: IItem[] = [
     },
     description:
       "Features the quote \"Forget a man's name and he'll forgive you. Remember it, and he'll defend you forever.\"",
-    link: 'https://www.etsy.com/listing/1110349846/morning-star-inspired-bookmark'
+    link: 'https://www.etsy.com/listing/1110349846/morning-star-inspired-bookmark',
+    expired: true
   },
   {
     date: '2023-03-14',
