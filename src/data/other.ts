@@ -568,6 +568,85 @@ const data: IItem[] = [
       "Commemorate your participation in this Summer's chaos with this bit of Red Rising Flair.",
     link: 'https://www.lit-escalates.com/products/hazard-bedlam-button',
     expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://i.etsystatic.com/29764445/r/il/baff74/3814819528/il_794xN.3814819528_a1ap.jpg',
+    name: 'SlingPen',
+    tags: ['other'],
+    shop: {
+      name: 'OrangeArmory',
+      url: 'https://www.etsy.com/shop/OrangeArmory'
+    },
+    description: 'If the pen is mightier than the sword, make sure you have the mightiest pen.',
+    link: 'https://www.etsy.com/listing/1216887029/slingpen',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://i.etsystatic.com/29764445/r/il/7c1985/3866671817/il_794xN.3866671817_29dv.jpg',
+    name: 'Sevro Razor Finished',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'OrangeArmory',
+      url: 'https://www.etsy.com/shop/OrangeArmory'
+    },
+    description: "Sevro's Razor fully painted and assembled.",
+    link: 'https://www.etsy.com/listing/1217942329/sevro-razor-finished',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://i.etsystatic.com/29764445/r/il/ef247c/3814877084/il_794xN.3814877084_r8x8.jpg',
+    name: 'Sevro Razor Kit',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'OrangeArmory',
+      url: 'https://www.etsy.com/shop/OrangeArmory'
+    },
+    description:
+      "He's the only howler who uses a serrated blade, he thinks is looks scarier. He's right.",
+    link: 'https://www.etsy.com/listing/1202946570/sevros-razor-kit',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://i.etsystatic.com/29764445/r/il/eaaeb4/3871931741/il_794xN.3871931741_s8gx.jpg',
+    name: 'Telemanus Razor Unfinished',
+    tags: ['other'],
+    shop: {
+      name: 'OrangeArmory',
+      url: 'https://www.etsy.com/shop/OrangeArmory'
+    },
+    description: 'An unfinished Telemanus razor, printed in PLA comes in 8 pieces.',
+    link: 'https://www.etsy.com/listing/1205271598/telemanus-razor-unfinished',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://i.etsystatic.com/iap/085502/3944675227/iap_640x640.3944675227_q1dcclux.jpg',
+    name: 'Painted SlingPen',
+    tags: ['other'],
+    shop: {
+      name: 'OrangeArmory',
+      url: 'https://www.etsy.com/shop/OrangeArmory'
+    },
+    description: '1 Painted slingBlade pen.',
+    link: 'https://www.etsy.com/listing/1235199809/painted-slingpen',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://i.etsystatic.com/29764445/r/il/7db900/3929500039/il_794xN.3929500039_puju.jpg',
+    name: 'Mini Razor Trio',
+    tags: ['other', 'mustang', 'sevro', 'darrow'],
+    shop: {
+      name: 'OrangeArmory',
+      url: 'https://www.etsy.com/shop/OrangeArmory'
+    },
+    description: "1:4 scale finished razors of Mustang, Sevro, and Darrow's slingBlade.",
+    link: 'https://www.etsy.com/listing/1235198891/mini-razor-trio',
+    expired: true
   }
 ];
 
