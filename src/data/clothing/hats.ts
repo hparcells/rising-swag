@@ -371,7 +371,8 @@ const data: IItem[] = [
     },
     description:
       'Pom beanie with the gold sigil, red sigil, and the wolf of mars onto one design. Comes in white and black.',
-    link: 'https://www.etsy.com/listing/1334251008/red-rising-gold-and-red-sigil'
+    link: 'https://www.etsy.com/listing/1334251008/red-rising-gold-and-red-sigil',
+    expired: true
   },
   {
     date: '2023-04-04',
@@ -383,7 +384,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ThePurpuraProject'
     },
     description: 'Beanie with the gold sigil, red sigil, and the wolf of mars onto one design.',
-    link: 'https://www.etsy.com/listing/1334259602/red-rising-gold-and-red-sigil'
+    link: 'https://www.etsy.com/listing/1334259602/red-rising-gold-and-red-sigil',
+    expired: true
   }
 ];
 
