@@ -12,7 +12,8 @@ const data: IItem[] = [
     },
     description:
       'Custom leather bound copy of Red Rising, customizable with your choice of color of leather.',
-    link: 'https://www.etsy.com/listing/1359071248/red-rising-premium-leather-bound'
+    link: 'https://www.etsy.com/listing/1359071248/red-rising-premium-leather-bound',
+    expired: true
   },
   {
     date: '2023-03-28',
