@@ -125,6 +125,32 @@ const data: IItem[] = [
       'Our limited edition, slip-cast ceramic Wolf Skull Flasks were created exclusively for Shit Escalates by master artisan Matthew Jones. ',
     link: 'https://www.lit-escalates.com/products/wolf-skull-flasl',
     expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://i.etsystatic.com/8322668/r/il/3bbf22/202630028/il_340x270.202630028_qiue.jpg',
+    name: 'Red Rising Etched Wine Glass',
+    tags: ['drinkware'],
+    shop: {
+      name: 'KittenKeepDesigns',
+      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
+    },
+    description: 'A wolf and slingBlades etched on a wine glass.',
+    link: 'https://www.etsy.com/listing/693919002/',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://i.etsystatic.com/8322668/r/il/a9da8d/1916692405/il_340x270.1916692405_9sai.jpg',
+    name: 'House Mars Etched Pint Glass',
+    tags: ['drinkware'],
+    shop: {
+      name: 'KittenKeepDesigns',
+      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
+    },
+    description: 'The wolf of House Mars etched on a pint glass.',
+    link: 'https://www.etsy.com/listing/704309775/',
+    expired: true
   }
 ];
 

@@ -345,6 +345,45 @@ const data: IItem[] = [
     },
     description: 'Christmas design of Sevro Clause.',
     link: 'https://www.lit-escalates.com/products/sevro-clause-mug-version-ii'
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://i.etsystatic.com/8322668/r/il/286c33/1296936502/il_340x270.1296936502_ujz8.jpg',
+    name: 'House Minerva Pax au Telemanus Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'KittenKeepDesigns',
+      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
+    },
+    description: 'Mug featuring the sigil of House Minerva and the text: "Pax au Telemanus".',
+    link: 'https://www.etsy.com/listing/544252560/',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image: 'https://i.etsystatic.com/8322668/r/il/017025/1301046805/il_340x270.1301046805_ix11.jpg',
+    name: 'Omnis vir Lupus Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'KittenKeepDesigns',
+      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
+    },
+    description: 'Mug featuring the text "Omnis vir Lupus" and the wolf of Mars.',
+    link: 'https://www.etsy.com/listing/546763313/',
+    expired: true
+  },
+  {
+    date: '2023-05-04',
+    image:
+      'https://i.etsystatic.com/8322668/c/2031/1613/358/426/il/a1414d/1606076775/il_340x270.1606076775_nwnz.jpg',
+    name: 'Helldiver Mug',
+    tags: ['mug', 'red'],
+    shop: {
+      name: 'KittenKeepDesigns',
+      url: 'https://www.etsy.com/shop/KittenKeepDesigns'
+    },
+    description: 'Mug featuring the text "Helldiver" and the Red sigil.',
+    link: 'https://www.etsy.com/listing/628380301/'
   }
 ];
 
