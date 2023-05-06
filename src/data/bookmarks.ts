@@ -179,7 +179,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/itsbrittneyd'
     },
     description: "A laminated bookmark of Sevro's favorite tune.",
-    link: 'https://www.etsy.com/listing/1173134461/reaper-of-mars-double-sided-laminated'
+    link: 'https://www.etsy.com/listing/1173134461/reaper-of-mars-double-sided-laminated',
+    expired: true
   }
 ];
 
