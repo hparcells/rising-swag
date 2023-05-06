@@ -84,7 +84,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CheyDoesArt'
     },
     description: 'Sweatshirt featuring a slingBlade.',
-    link: 'https://www.etsy.com/listing/1394768328/the-reapers-sling-blade-red-rising'
+    link: 'https://www.etsy.com/listing/1394768328/the-reapers-sling-blade-red-rising',
+    expired: true
   },
   {
     date: '2023-04-02',

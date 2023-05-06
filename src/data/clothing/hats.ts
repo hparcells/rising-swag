@@ -309,7 +309,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CheyDoesArt'
     },
     description: "Beanie embroidered with Darrow's sling blade.",
-    link: 'https://www.etsy.com/listing/1395261414/the-reapers-sling-blade-red-rising'
+    link: 'https://www.etsy.com/listing/1395261414/the-reapers-sling-blade-red-rising',
+    expired: true
   },
   {
     date: '2023-04-01',
