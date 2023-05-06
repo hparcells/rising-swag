@@ -175,7 +175,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/KittenKeepDesigns'
     },
     description: 'Violet vinyl decal.',
-    link: 'https://www.etsy.com/shop/KittenKeepDesigns/',
+    link: 'https://www.etsy.com/listing/565802463/',
     expired: true
   },
   {
