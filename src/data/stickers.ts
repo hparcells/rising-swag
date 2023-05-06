@@ -674,6 +674,20 @@ const data: IItem[] = [
       "Commemorate your participation in this Summer's chaos with this bit of Red Rising Flair.",
     link: 'https://www.lit-escalates.com/products/helldivers-union-silver-foil-sticker',
     expired: true
+  },
+  {
+    date: '2023-05-06',
+    image:
+      'https://i.etsystatic.com/19365370/r/il/ef7be3/1824645059/il_680x540.1824645059_93oy.jpg',
+    name: 'Geo Wolf Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'HowlerPod',
+      url: 'https://www.etsy.com/shop/HowlerPod'
+    },
+    description: 'A sticker of a simplistic wolf.',
+    link: 'https://www.etsy.com/listing/682387427/geo-wolf-kiss-cut-sticker',
+    expired: true
   }
 ];
 

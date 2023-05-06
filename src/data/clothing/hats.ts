@@ -386,6 +386,49 @@ const data: IItem[] = [
     description: 'Beanie with the gold sigil, red sigil, and the wolf of mars onto one design.',
     link: 'https://www.etsy.com/listing/1334259602/red-rising-gold-and-red-sigil',
     expired: true
+  },
+  {
+    date: '2023-05-06',
+    image:
+      'https://i.etsystatic.com/19365370/r/il/f6dfed/1956222386/il_680x540.1956222386_sxmg.jpg',
+    name: 'Snapback Wolf Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'HowlerPod',
+      url: 'https://www.etsy.com/shop/HowlerPod'
+    },
+    description: 'Hat with a simplistic wolf head.',
+    link: 'https://www.etsy.com/listing/710659724/snapback-wolf-hat',
+    expired: true
+  },
+  {
+    date: '2023-05-06',
+    image:
+      'https://i.etsystatic.com/19365370/r/il/3e1f9c/1798551647/il_680x540.1798551647_ooxi.jpg',
+    name: 'Cuffed Howler Beanie',
+    tags: ['hat'],
+    shop: {
+      name: 'HowlerPod',
+      url: 'https://www.etsy.com/shop/HowlerPod'
+    },
+
+    description: 'Cuffed beanie with a simplistic wolf head.',
+    link: 'https://www.etsy.com/listing/662427962/cuffed-howler-beanie',
+    expired: true
+  },
+  {
+    date: '2023-05-06',
+    image:
+      'https://i.etsystatic.com/19365370/r/il/e57700/1751025504/il_680x540.1751025504_850x.jpg',
+    name: 'Howler Wolf Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'HowlerPod',
+      url: 'https://www.etsy.com/shop/HowlerPod'
+    },
+    description: 'Hat with a simplistic wolf head.',
+    link: 'https://www.etsy.com/listing/662410854/howler-wolf-hat',
+    expired: true
   }
 ];
 

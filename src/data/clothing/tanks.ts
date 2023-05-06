@@ -63,6 +63,35 @@ const data: IItem[] = [
     description:
       'Suns out guns out! Take your love for the world of Pierce Brown out in the world in maximum comfort!',
     link: 'https://www.etsy.com/listing/1383453636/fantasy-tank-top-a-sage-digs-the-roots'
+  },
+  {
+    date: '2023-05-06',
+    image:
+      'https://i.etsystatic.com/19365370/r/il/d62e1f/1841690253/il_680x540.1841690253_pcyw.jpg',
+    name: "Women's HowlerPod Tank",
+    tags: ['shirt'],
+    shop: {
+      name: 'HowlerPod',
+      url: 'https://www.etsy.com/shop/HowlerPod'
+    },
+    description: "The HowlerPod logo on a women's tank top.",
+    link: 'https://www.etsy.com/listing/667709690/howlerpod-womens-ideal-racerback-tank',
+    expired: true
+  },
+  {
+    date: '2023-05-06',
+    image:
+      'https://i.etsystatic.com/19365370/r/il/7530f3/1945566559/il_680x540.1945566559_8mhr.jpg',
+    name: 'Show Me the Body Cassius Tee',
+    tags: ['shirt', 'cassius', 'iron-gold'],
+    shop: {
+      name: 'HowlerPod',
+      url: 'https://www.etsy.com/shop/HowlerPod'
+    },
+    description: 'Based on the events in Iron Gold.',
+    link: 'https://www.etsy.com/listing/711111131/bellona-unisex-jersey-short-sleeve-tee',
+    expired: true,
+    spoiler: true
   }
 ];
 

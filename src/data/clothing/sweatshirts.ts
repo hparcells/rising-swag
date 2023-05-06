@@ -122,6 +122,48 @@ const data: IItem[] = [
     description:
       'The Gold sigil stacked upon the Red sigil, the wolf of Mars, and a haemanthus blossom.',
     link: 'https://printerval.com/red-rising-color-pierce-brown-pierce-sweatshirts-p12463090'
+  },
+  {
+    date: '2023-05-06',
+    image:
+      'https://i.etsystatic.com/19365370/r/il/e75b05/2319786507/il_680x540.2319786507_7pvy.jpg',
+    name: 'Omnis Vir Lupus Full Zip Hooded Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'HowlerPod',
+      url: 'https://www.etsy.com/shop/HowlerPod'
+    },
+    description: 'A full zip hoodie with the text "Omnis Vir Lupus".',
+    link: 'https://www.etsy.com/listing/736577243/unisex-heavy-blend-full-zip-hooded',
+    expired: true
+  },
+  {
+    date: '2023-05-06',
+    image:
+      'https://i.etsystatic.com/19365370/r/il/2cd3b5/2865952663/il_680x540.2865952663_4zoz.jpg',
+    name: 'Gold Sigil Sweatshirt',
+    tags: ['sweatshirt', 'gold'],
+    shop: {
+      name: 'HowlerPod',
+      url: 'https://www.etsy.com/shop/HowlerPod'
+    },
+    description: 'A sweatshirt with the Gold sigil.',
+    link: 'https://www.etsy.com/listing/736579403/unisex-heavy-blend-crewneck-gold-sigil',
+    expired: true
+  },
+  {
+    date: '2023-05-06',
+    image:
+      'https://i.etsystatic.com/19365370/r/il/e7efdd/2008451678/il_340x270.2008451678_lbro.jpg',
+    name: "Women's HowlerPod Hoodie",
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'HowlerPod',
+      url: 'https://www.etsy.com/shop/HowlerPod'
+    },
+    description: "A women's hoodie with the HowlerPod logo.",
+    link: 'https://www.etsy.com/listing/736578167/',
+    expired: true
   }
 ];
 

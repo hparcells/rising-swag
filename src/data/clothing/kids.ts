@@ -137,6 +137,20 @@ const data: IItem[] = [
     description:
       "Dress your 'lil jelly bean in this Red Rising inspired baby Sophocles 100% cotton one piece.",
     link: 'https://www.etsy.com/listing/949696559/sleepy-sophocles-red-rising-baby-short'
+  },
+  {
+    date: '2023-05-06',
+    image:
+      'https://i.etsystatic.com/19365370/r/il/3a6bca/1799726693/il_680x540.1799726693_qybp.jpg',
+    name: 'Howler Infant Bodysuit',
+    tags: ['shirt'],
+    shop: {
+      name: 'HowlerPod',
+      url: 'https://www.etsy.com/shop/HowlerPod'
+    },
+    description: 'The Geo Wolf design with the text "Omnis Vir Lupus" next to it.',
+    link: 'https://www.etsy.com/listing/662691364/howler-infant-bodysuit',
+    expired: true
   }
 ];
 
