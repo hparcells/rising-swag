@@ -140,7 +140,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/byEpikPage'
     },
     description: 'Magnetic bookmark of a cartoon-esque Darrow.',
-    link: 'https://www.etsy.com/listing/661157735/red-rising-darrow-magnetic-bookmarks-red'
+    link: 'https://www.etsy.com/listing/661157735/red-rising-darrow-magnetic-bookmarks-red',
+    expired: true
   },
   {
     date: '2023-03-27',
