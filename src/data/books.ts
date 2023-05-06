@@ -91,6 +91,20 @@ const data: IItem[] = [
     description:
       "Pierce Brown's Red Rising saga, hand bound in exquisite genuine red leather. Book 6 available upon release. Made by hand (and machine) in the USA.",
     link: 'https://www.etsy.com/listing/1057894225/the-red-rising-series-collection-5-books'
+  },
+  {
+    date: '2023-05-06',
+    image:
+      'https://i.etsystatic.com/13219647/r/il/bf7b60/2267101803/il_680x540.2267101803_6hst.jpg',
+    name: 'Red Rising Sons of Ares Book Origami',
+    tags: ['book', 'red-rising'],
+    shop: {
+      name: 'DogEaredCreations',
+      url: 'https://www.etsy.com/shop/DogEaredCreations'
+    },
+    description: 'Book origami of the Sons of Ares symbol.',
+    link: 'https://www.etsy.com/listing/785384643/red-rising-sons-of-ares-book-origami',
+    expired: true
   }
 ];
 
