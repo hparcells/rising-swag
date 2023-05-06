@@ -438,7 +438,8 @@ const data: IItem[] = [
     },
     description:
       'Through hardships to the stars. A gorgeous matte vinyl die-cut sticker with the latin phrase: Per Aspera Ad Astra.',
-    link: 'https://www.etsy.com/listing/1001800857/ad-astra-75cm-round-diecut-vinyl-sci-fi'
+    link: 'https://www.etsy.com/listing/1001800857/ad-astra-75cm-round-diecut-vinyl-sci-fi',
+    expired: true
   },
   {
     date: '2023-03-26',
