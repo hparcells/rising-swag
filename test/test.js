@@ -1,7 +1,6 @@
 import('node-fetch');
 
-const puppeteer = require('puppeteer');
-const fs = require('fs');
+const { Cluster } = require('puppeteer-cluster');
 
 
 const etsyExpiredConditions = [
@@ -16,52 +15,46 @@ const data = require('./data.json');
 (async () => {
   const badItems = [];
 
-  const browser = await puppeteer.launch({
-    headless: 'new'
+  const cluster = await Cluster.launch({
+    concurrency: Cluster.CONCURRENCY_PAGE,
+    maxConcurrency: 8,
+    puppeteerOptions: {
+      headless: 'new'
+    },
+    monitor: true
   });
-  const page = await browser.newPage();
 
   // Etsy Items
   const etsyItems = data.filter(item => {
     return item.shop.url.includes('etsy');
   });
-  for(let i = 0; i < etsyItems.length; i++) {
-    await page.goto(etsyItems[i].link);
-    const content = await page.content();
 
-    const progress = `(${i + 1}/${etsyItems.length})`;
+  await cluster.task(async ({ page, data: url }) => {
+    const etsyItem = etsyItems.find(item => item.link === url);
+    
+    await page.goto(url);
+    const content = await page.content();
 
     // If the item is expired.
     if(etsyExpiredConditions.some(condition => content.includes(condition))) {
-      if(!etsyItems[i].expired) {
-        console.log(`${progress} ✗ (Expired) ${etsyItems[i].link}`);
-        badItems.push(etsyItems[i]);
-      }else {
-        console.log(`${progress} ✓ (Expired, Good) ${etsyItems[i].link}`);
+      if(!etsyItem.expired) {
+        console.log(`✗ (Expired) ${url}`);
+        badItems.push(etsyItem);
       }
-      continue;
+      return;
     }
 
     // If the item is good but is marked as expired.
-    if(etsyItems[i].expired) {
-      console.log(`${progress} ✗ (Not Expired) ${etsyItems[i].link}`);
-      badItems.push(etsyItems[i]);
-      continue;
+    if(etsyItem.expired) {
+      console.log(`✗ (Not Expired) ${url}`);
+      badItems.push(etsyItem);
     }
+});
 
-    // If the item is good.
-    console.log(`${progress} ✓ (Good) ${etsyItems[i].link}`);
+  for(let i = 0; i < etsyItems.length; i++) {
+    cluster.queue(etsyItems[i].link);
   }
 
-  await browser.close();
-
-  console.log();
-  if(badItems.length > 0) {
-    console.log('Bad Items:');
-    badItems.forEach(item => {
-      console.log(item.link);
-    });
-  }else {
-    console.log('All items are good!');
-  }
+  await cluster.idle();
+  await cluster.close();
 })();
