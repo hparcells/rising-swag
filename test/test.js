@@ -1,18 +1,20 @@
 import('node-fetch');
+const fs = require('fs');
 
 const { Cluster } = require('puppeteer-cluster');
-
 
 const etsyExpiredConditions = [
   'Sorry, this item is unavailable.',
   'This shop is taking a short break.',
   'Sorry, this item is sold out',
-  'Sorry, the item listing you are looking for does not exist.'
+  'Sorry, the item listing you are looking for does not exist.',
+  'Sorry, this item and shop are currently unavailable'
 ];
 
-const data = require('./data.json');
-
 (async () => {
+  const fetched = await fetch('http://localhost:8000/api/v1/data');
+  const data = await fetched.json();
+
   const badItems = [];
 
   const cluster = await Cluster.launch({
