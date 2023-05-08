@@ -344,7 +344,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
     },
     description: 'Hic Est Lupus Motherfucker - Red Rising Unisex T-Shirt',
-    link: 'https://www.etsy.com/listing/808567697/hic-est-lupus-explicit-red-rising-unisex'
+    link: 'https://www.etsy.com/listing/808567697/hic-est-lupus-explicit-red-rising-unisex',
+    expired: true
   },
   {
     date: '2023-03-15',
@@ -609,7 +610,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: "LiveForMore's Omnis vir Lupus design on a tee.",
-    link: 'https://www.etsy.com/listing/1369394582/omnis-vir-lupus-everyone-a-wolf-red'
+    link: 'https://www.etsy.com/listing/1396584005/omnis-vir-lupus-red-rising-unisex-jersey'
   },
   {
     date: '2023-03-17',

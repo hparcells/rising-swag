@@ -383,7 +383,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/KittenKeepDesigns'
     },
     description: 'Mug featuring the text "Helldiver" and the Red sigil.',
-    link: 'https://www.etsy.com/listing/628380301/'
+    link: 'https://www.etsy.com/listing/628380301/',
+    expired: true
   }
 ];
 

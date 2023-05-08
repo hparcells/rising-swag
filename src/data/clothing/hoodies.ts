@@ -153,7 +153,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: "A children's hoodie with scattered stars and howling wolves.",
-    link: 'https://www.etsy.com/listing/1414761337/childrens-hoodie'
+    link: 'https://www.etsy.com/listing/1414761337/childrens-hoodie',
+    expired: true
   },
   {
     date: '2023-03-17',

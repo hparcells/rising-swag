@@ -237,7 +237,8 @@ const data: IItem[] = [
     },
     description:
       'Cap off your fandom with this HWLR Ruster edition fan made Red Rising inspired snapback hat.',
-    link: 'https://www.etsy.com/listing/1352164846/hwlr-ruster-edition-red-rising-inspired'
+    link: 'https://www.etsy.com/listing/1352164846/hwlr-ruster-edition-red-rising-inspired',
+    expired: true
   },
   {
     date: '2023-03-15',

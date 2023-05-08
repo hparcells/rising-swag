@@ -344,7 +344,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiteraryLeoCo'
     },
     description: 'The wolf of Mars pressed into a pine wood cookie.',
-    link: 'https://www.etsy.com/listing/1120619399/happy-howler-days-35-4-pine-wood'
+    link: 'https://www.etsy.com/listing/1120619399/happy-howler-days-35-4-pine-wood',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -609,8 +610,7 @@ const data: IItem[] = [
     },
     description:
       "He's the only howler who uses a serrated blade, he thinks is looks scarier. He's right.",
-    link: 'https://www.etsy.com/listing/1202946570/sevros-razor-kit',
-    expired: true
+    link: 'https://www.etsy.com/listing/1202946570/sevros-razor-kit'
   },
   {
     date: '2023-05-04',
