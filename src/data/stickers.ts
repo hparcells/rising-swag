@@ -689,6 +689,90 @@ const data: IItem[] = [
     description: 'A sticker of a simplistic wolf.',
     link: 'https://www.etsy.com/listing/682387427/geo-wolf-kiss-cut-sticker',
     expired: true
+  },
+  {
+    date: '2023-05-10',
+    image: 'https://i.etsystatic.com/38424619/r/il/9de02a/4938450021/il_794xN.4938450021_6xw4.jpg',
+    name: 'I Would Have Lived in Peace Quote Sticker',
+    tags: ['sticker', 'darrow'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: "Darrow's infamous quote from Red Rising on a sticker.",
+    link: 'https://www.etsy.com/listing/1477438133/red-rising-quote-sticker-1'
+  },
+  {
+    date: '2023-05-10',
+    image: 'https://i.etsystatic.com/38424619/r/il/72ae97/4890180948/il_794xN.4890180948_69n5.jpg',
+    name: 'Hic Sunt Leones Quote Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Hic sunt leones, here be lions.',
+    link: 'https://www.etsy.com/listing/1477452785/red-rising-quote-sticker-3'
+  },
+  {
+    date: '2023-05-10',
+    image: 'https://i.etsystatic.com/38424619/r/il/838549/4938447695/il_794xN.4938447695_inpx.jpg',
+    name: 'Men Cannot Be Freed Quote Sticker',
+    tags: ['sticker', 'darrow'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: '"Man cannot be freed by the same injustice that enslaved it."',
+    link: 'https://www.etsy.com/listing/1477511481/red-rising-quote-sticker-2'
+  },
+  {
+    date: '2023-05-10',
+    image: 'https://i.etsystatic.com/38424619/r/il/ec2fce/4938448471/il_794xN.4938448471_5bo2.jpg',
+    name: 'Shout into the Wind Quote Sticker',
+    tags: ['sticker', 'golden-son'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: "Karnus's quote about death.",
+    link: 'https://www.etsy.com/listing/1477526889/red-rising-quote-sticker-4'
+  },
+  {
+    date: '2023-05-10',
+    image: 'https://i.etsystatic.com/38424619/r/il/ee5ae1/4890180300/il_794xN.4890180300_pa5l.jpg',
+    name: 'You Made Me Drop My Candy Quote Sticker',
+    tags: ['sticker', 'sevro', 'iron-gold'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: "Sevro's quote from Iron Gold.",
+    link: 'https://www.etsy.com/listing/1477527465/red-rising-quote-sticker-5'
+  },
+  {
+    date: '2023-05-10',
+    image: 'https://i.etsystatic.com/38424619/r/il/0ac880/4890181604/il_794xN.4890181604_njox.jpg',
+    name: 'Rise So High In Mud You Lie Quote Sticker',
+    tags: ['sticker', 'golden-son'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: "Karnus's famous quote from Golden Son.",
+    link: 'https://www.etsy.com/listing/1463426586/red-rising-quote-sticker-6'
+  },
+  {
+    date: '2023-05-10',
+    image: 'https://i.etsystatic.com/38424619/r/il/87215f/4858208088/il_794xN.4858208088_9bo6.jpg',
+    name: 'Red House Mars Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'A sticker of the sigil of House Mars.',
+    link: 'https://www.etsy.com/listing/1456663300/red-rising-house-mars-red-sticker'
   }
 ];
 

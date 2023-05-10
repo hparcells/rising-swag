@@ -265,6 +265,30 @@ const data: IItem[] = [
     },
     description: 'Hoodie with the Howler Box Logo and "Omnis vir Lupus" on the sleeve.',
     link: 'https://www.etsy.com/listing/1473751639/red-rising-howler-hoodie-omnis-vir-lupus'
+  },
+  {
+    date: '2023-05-10',
+    image: 'https://i.etsystatic.com/38424619/r/il/4da3ce/4882839246/il_794xN.4882839246_66ii.jpg',
+    name: 'Peerless, Hic Sunt Leones Hoodie',
+    tags: ['hoodie'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Hoodie with the Peerless box logo and "Hic Sunt Leones" on the sleeve.',
+    link: 'https://www.etsy.com/listing/1462476050/red-rising-peerless-here-be-lions-unisex'
+  },
+  {
+    date: '2023-05-10',
+    image: 'https://i.etsystatic.com/38424619/r/il/c35dc7/4918832719/il_794xN.4918832719_3i7f.jpg',
+    name: 'Peerless, Per Aspera Ad Astra Hoodie',
+    tags: ['hoodie'],
+    shop: {
+      name: 'FunnyBoxLogo',
+      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
+    },
+    description: 'Hoodie with the Peerless box logo and "Per Aspera Ad Astra" on the sleeve.',
+    link: 'https://www.etsy.com/listing/1457743916/red-rising-peerless-hoodie-with-per'
   }
 ];
 
