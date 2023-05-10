@@ -292,7 +292,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/3DPrintsbyTheodore'
     },
     description: 'A 3D printed Howler logo printed in Marble and Red pla.',
-    link: 'https://www.etsy.com/listing/1276452077/howler-sign-red-rising-bookcase-display'
+    link: 'https://www.etsy.com/listing/1276452077/howler-sign-red-rising-bookcase-display',
+    expired: true
   },
   {
     date: '2023-03-22',

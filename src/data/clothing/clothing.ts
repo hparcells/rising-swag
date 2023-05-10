@@ -834,7 +834,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/InkandStoriesShop'
     },
     description: 'Summon the Howlers!',
-    link: 'https://www.etsy.com/listing/863246831/red-rising-shirt-summon-the-howlers'
+    link: 'https://www.etsy.com/listing/863246831/red-rising-shirt-summon-the-howlers',
+    expired: true
   },
   {
     date: '2023-04-02',
