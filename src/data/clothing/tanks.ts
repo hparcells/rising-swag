@@ -64,7 +64,8 @@ const data: IItem[] = [
     },
     description:
       'Suns out guns out! Take your love for the world of Pierce Brown out in the world in maximum comfort!',
-    link: 'https://www.etsy.com/listing/1383453636/fantasy-tank-top-a-sage-digs-the-roots'
+    link: 'https://www.etsy.com/listing/1383453636/fantasy-tank-top-a-sage-digs-the-roots',
+    expired: true
   },
   {
     date: '2023-05-06',
