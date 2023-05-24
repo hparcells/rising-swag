@@ -102,7 +102,8 @@ const data: IItem[] = [
     },
     description:
       'Per Aspera Ad Astra and Omnis Vir Lupus designs with the Hail Reaper Podcast logo on the back.',
-    link: 'https://www.etsy.com/listing/927528172/darrow-and-sevro-bookmark-set-2x6-double'
+    link: 'https://www.etsy.com/listing/927528172/darrow-and-sevro-bookmark-set-2x6-double',
+    expired: true
   },
   {
     date: '2023-03-24',

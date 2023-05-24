@@ -11,7 +11,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: 'Includes a PDF for poster printing and phone backgrounds.',
-    link: 'https://www.etsy.com/listing/934487397/darrow-of-lykos-the-reaper-per-aspera-ad'
+    link: 'https://www.etsy.com/listing/934487397/darrow-of-lykos-the-reaper-per-aspera-ad',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -23,7 +24,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: 'Includes a PDF for poster printing and phone backgrounds.',
-    link: 'https://www.etsy.com/listing/934490963/sevro-au-barca-omnis-vir-lupus-digital'
+    link: 'https://www.etsy.com/listing/934490963/sevro-au-barca-omnis-vir-lupus-digital',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -35,7 +37,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: 'Includes a PDF for poster printing and phone backgrounds.',
-    link: 'https://www.etsy.com/listing/934489157/virginia-au-augustus-mustang-hic-sunt'
+    link: 'https://www.etsy.com/listing/934489157/virginia-au-augustus-mustang-hic-sunt',
+    expired: true
   },
   {
     date: '2023-03-30',
