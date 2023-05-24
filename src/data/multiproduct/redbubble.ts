@@ -2635,6 +2635,19 @@ const data: IItem[] = [
     },
     description: 'The full war room where Skipper and Crescent make decisions.',
     link: 'https://www.redbubble.com/shop/ap/143109305'
+  },
+  {
+    date: '2023-05-24',
+    image: 'https://ih1.redbubble.net/image.5002097474.8523/flat,600x600,075,f.jpg',
+    name: 'Catch These Helldiver Hands Design',
+    tags: ['multiproduct', 'red'],
+    shop: {
+      name: 'FadeToObsidian',
+      url: 'https://www.redbubble.com/people/FadeToObsidian/shop'
+    },
+    description:
+      'Created by Slink, we absolutely love this design in the same way Darrow loves his hands.',
+    link: 'https://www.redbubble.com/shop/ap/145598523'
   }
 ];
 
