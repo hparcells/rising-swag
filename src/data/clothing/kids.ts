@@ -11,7 +11,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: "Omnis vir Lupus design on a kid's tee.",
-    link: 'https://www.etsy.com/listing/1389758824/omnis-vir-lupus-red-rising-kid-shirt'
+    link: 'https://www.etsy.com/listing/1389758824/omnis-vir-lupus-red-rising-kid-shirt',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -98,7 +99,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'Omnis vir Lupus design on a toddler tee.',
-    link: 'https://www.etsy.com/listing/1403976331/omnis-vir-lupus-red-rising-howler'
+    link: 'https://www.etsy.com/listing/1403976331/omnis-vir-lupus-red-rising-howler',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -110,7 +112,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'Omnis vir Lupus design on a toddler hoodie.',
-    link: 'https://www.etsy.com/listing/1403966849/red-rising-omnis-vir-lupus-toddler'
+    link: 'https://www.etsy.com/listing/1403966849/red-rising-omnis-vir-lupus-toddler',
+    expired: true
   },
   {
     date: '2023-03-21',

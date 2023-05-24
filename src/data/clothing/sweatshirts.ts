@@ -72,7 +72,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: '"You\'re making me emotional and I hate it." -Victra au Julii',
-    link: 'https://www.etsy.com/listing/1383629692/red-rising-victra-au-barca-unisex-heavy'
+    link: 'https://www.etsy.com/listing/1383629692/red-rising-victra-au-barca-unisex-heavy',
+    expired: true
   },
   {
     date: '2023-03-31',

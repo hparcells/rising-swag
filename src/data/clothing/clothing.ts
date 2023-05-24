@@ -561,7 +561,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'A long sleeve tee with a simple Omnis vir Lupus design.',
-    link: 'https://www.etsy.com/listing/1369372394/omnis-vir-lupus-everyone-a-wolf-red'
+    link: 'https://www.etsy.com/listing/1369372394/omnis-vir-lupus-everyone-a-wolf-red',
+    expired: true
   },
   {
     date: '2023-03-17',
@@ -574,7 +575,8 @@ const data: IItem[] = [
     },
     description:
       "What kind of vibes? Make sure you show how you're feeling with this long sleeve tee.",
-    link: 'https://www.etsy.com/listing/1383346671/howler-vibes-red-rising-unisex-jersey'
+    link: 'https://www.etsy.com/listing/1383346671/howler-vibes-red-rising-unisex-jersey',
+    expired: true
   },
   {
     date: '2023-03-17',

@@ -129,8 +129,9 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description:
-      'Howlers and low colors alike look to The Reaper of Mars and use “Hail Reaper” as a greeting as well as a battle cry. Show your support for the uprising by displaying this sticker!',
-    link: 'https://www.etsy.com/listing/935870580/sticker-hail-reaper-howler-stickers'
+      'Howlers and low colors alike look to The Reaper of Mars and use "Hail Reaper" as a greeting as well as a battle cry. Show your support for the uprising by displaying this sticker!',
+    link: 'https://www.etsy.com/listing/935870580/sticker-hail-reaper-howler-stickers',
+    expired: true
   },
   {
     date: '2023-03-17',

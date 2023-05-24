@@ -298,7 +298,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'Hail Libertas Hail Reaper on a leather patch hat.',
-    link: 'https://www.etsy.com/listing/1369436570/hail-libertas-hail-reaper-red-rising-hat'
+    link: 'https://www.etsy.com/listing/1369436570/hail-libertas-hail-reaper-red-rising-hat',
+    expired: true
   },
   {
     date: '2023-03-31',
