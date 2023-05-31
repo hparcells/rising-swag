@@ -63,8 +63,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: 'Wooden bookmarks inspired by the world of Red Rising.',
-    link: 'https://www.etsy.com/listing/1319821202/red-rising-inspired-wooden-bookmarks',
-    expired: true
+    link: 'https://www.etsy.com/listing/1319821202/red-rising-inspired-wooden-bookmarks'
   },
   {
     date: '2023-03-22',
@@ -103,8 +102,7 @@ const data: IItem[] = [
     },
     description:
       'Per Aspera Ad Astra and Omnis Vir Lupus designs with the Hail Reaper Podcast logo on the back.',
-    link: 'https://www.etsy.com/listing/927528172/darrow-and-sevro-bookmark-set-2x6-double',
-    expired: true
+    link: 'https://www.etsy.com/listing/927528172/darrow-and-sevro-bookmark-set-2x6-double'
   },
   {
     date: '2023-03-24',

@@ -90,8 +90,7 @@ const data: IItem[] = [
     },
     description:
       "Pierce Brown's Red Rising saga, hand bound in exquisite genuine red leather. Book 6 available upon release. Made by hand (and machine) in the USA.",
-    link: 'https://www.etsy.com/listing/1057894225/the-red-rising-series-collection-5-books',
-    expired: true
+    link: 'https://www.etsy.com/listing/1057894225/the-red-rising-series-collection-5-books'
   },
   {
     date: '2023-05-06',

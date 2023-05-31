@@ -30,5 +30,5 @@
   },
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "discord.enabled": false
+  "discord.enabled": true
 }
