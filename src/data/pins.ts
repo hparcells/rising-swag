@@ -85,7 +85,7 @@ const data: IItem[] = [
   },
   {
     date: '2023-03-14',
-    image: 'https://i.etsystatic.com/16046340/r/il/2de539/4895388827/il_1140xN.4895388827_b19h.jpg',
+    image: 'https://i.etsystatic.com/16046340/r/il/6a9caa/4895388681/il_794xN.4895388681_8frt.jpg',
     name: 'Lived in Peace Pin',
     tags: ['pin'],
     shop: {
@@ -94,11 +94,11 @@ const data: IItem[] = [
     },
     description:
       'The reaper brings war and I bring you pins. Hands down the best opening line in a book immortalized in pin form.',
-    link: 'https://www.etsy.com/listing/1403257792/lived-in-peace-pin-preorder'
+    link: 'https://www.etsy.com/listing/1403257792/lived-in-peace-pin'
   },
   {
     date: '2023-03-14',
-    image: 'https://i.etsystatic.com/16046340/r/il/f12dfa/4550077640/il_794xN.4550077640_t1wa.jpg',
+    image: 'https://i.etsystatic.com/16046340/r/il/3272eb/4957981909/il_794xN.4957981909_9m0s.jpg',
     name: 'Howler Life Enamel Pin',
     tags: ['pin'],
     shop: {
@@ -107,7 +107,7 @@ const data: IItem[] = [
     },
     description:
       "Show off your HOWLER PRIDE with this new and badass 2in hard enamel pin. If I'm being honest, I really didn't choose the Howler life, the howler life chose me. And for better and worse I will remain a loyal HOWLER.",
-    link: 'https://www.etsy.com/listing/1400004107/howler-life-enamel-pin-preorder'
+    link: 'https://www.etsy.com/listing/1400004107/howler-life-enamel-pin'
   },
   {
     date: '2023-03-14',
@@ -248,7 +248,7 @@ const data: IItem[] = [
   {
     date: '2023-05-30',
     image: 'https://i.etsystatic.com/16046340/r/il/97b94e/5001227247/il_794xN.5001227247_65o3.jpg',
-    name: 'Hail Reaper Hail Libertas Pin',
+    name: 'Hail Reaper Hail Libertas Pin Pre-Order',
     tags: ['pin'],
     shop: {
       name: 'CreativeLeighCrafts',
