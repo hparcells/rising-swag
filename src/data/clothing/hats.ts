@@ -324,7 +324,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Six panel twill cap featuring the House Mars sigil.',
-    link: 'https://www.etsy.com/listing/1439714511/red-rising-house-mars-sigil-hat-unisex'
+    link: 'https://www.etsy.com/listing/1439714511/red-rising-house-mars-sigil-hat-unisex',
+    expired: true
   },
   {
     date: '2023-04-02',

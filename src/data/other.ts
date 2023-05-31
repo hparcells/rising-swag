@@ -410,7 +410,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A fleece blanket of the Solar System map.',
-    link: 'https://www.etsy.com/listing/1457885225/red-rising-the-society-solar-system'
+    link: 'https://www.etsy.com/listing/1457885225/red-rising-the-society-solar-system',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -422,7 +423,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A fleece blanket of the cover art of the FairyLoot edition Red Rising book.',
-    link: 'https://www.etsy.com/listing/1458246709/red-rising-plush-fleece-blanket'
+    link: 'https://www.etsy.com/listing/1458246709/red-rising-plush-fleece-blanket',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -434,7 +436,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A fleece blanket of the cover art of the FairyLoot edition Golden Son book.',
-    link: 'https://www.etsy.com/listing/1444043658/red-rising-golden-son-plush-fleece'
+    link: 'https://www.etsy.com/listing/1444043658/red-rising-golden-son-plush-fleece',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -446,7 +449,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A fleece blanket of the cover art of the FairyLoot edition Morning Star book.',
-    link: 'https://www.etsy.com/listing/1458245579/red-rising-morning-star-plush-fleece'
+    link: 'https://www.etsy.com/listing/1458245579/red-rising-morning-star-plush-fleece',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -458,7 +462,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A wall clock with Mars and the sigils of Red and Gold.',
-    link: 'https://www.etsy.com/listing/1459185990/red-rising-wolf-gold-sigil-wall-clock'
+    link: 'https://www.etsy.com/listing/1459185990/red-rising-wolf-gold-sigil-wall-clock',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -611,7 +616,8 @@ const data: IItem[] = [
     },
     description:
       "He's the only howler who uses a serrated blade, he thinks is looks scarier. He's right.",
-    link: 'https://www.etsy.com/listing/1202946570/sevros-razor-kit'
+    link: 'https://www.etsy.com/listing/1202946570/sevros-razor-kit',
+    expired: true
   },
   {
     date: '2023-05-04',

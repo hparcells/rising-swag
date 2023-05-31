@@ -61,7 +61,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A vacuum insulated tumbler with the sigil of Gold.',
-    link: 'https://www.etsy.com/listing/1469425205/red-rising-gold-sigil-tumbler'
+    link: 'https://www.etsy.com/listing/1469425205/red-rising-gold-sigil-tumbler',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -73,7 +74,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A vacuum insulated tumbler with the map of the solar system.',
-    link: 'https://www.etsy.com/listing/1455206746/red-rising-the-society-tumbler'
+    link: 'https://www.etsy.com/listing/1455206746/red-rising-the-society-tumbler',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -85,7 +87,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A vacuum insulated tumbler with the sigil of Red.',
-    link: 'https://www.etsy.com/listing/1455221328/red-rising-red-sigil-tumbler'
+    link: 'https://www.etsy.com/listing/1455221328/red-rising-red-sigil-tumbler',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -97,7 +100,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Steel tumbler with straw.',
-    link: 'https://www.etsy.com/listing/1473483399/red-rising-omnis-vir-lupus-skinny-steel'
+    link: 'https://www.etsy.com/listing/1473483399/red-rising-omnis-vir-lupus-skinny-steel',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -110,7 +114,8 @@ const data: IItem[] = [
     },
     description:
       'Small travel size tumbler of the cover art of the Subterranean Press edition of Golden Son.',
-    link: 'https://www.etsy.com/listing/1473480329/red-rising-peerless-10oz-tumbler'
+    link: 'https://www.etsy.com/listing/1473480329/red-rising-peerless-10oz-tumbler',
+    expired: true
   },
   {
     date: '2023-05-04',

@@ -110,7 +110,8 @@ const data: IItem[] = [
     },
     description:
       'A 150 page journal with the cover featuring the Subterranean Press Golden Son cover art.',
-    link: 'https://www.etsy.com/listing/1456689014/red-rising-golden-son-cover-art-journal'
+    link: 'https://www.etsy.com/listing/1456689014/red-rising-golden-son-cover-art-journal',
+    expired: true
   },
   {
     date: '2023-05-01',
@@ -123,7 +124,8 @@ const data: IItem[] = [
     },
     description:
       'A 150 page journal with the cover featuring the Subterranean Press Morning Star cover art.',
-    link: 'https://www.etsy.com/listing/1456689042/red-rising-morning-star-cover-art'
+    link: 'https://www.etsy.com/listing/1456689042/red-rising-morning-star-cover-art',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -136,7 +138,8 @@ const data: IItem[] = [
     },
     description:
       'A 150 page journal with the cover featuring the Subterranean Press Red Rising cover art.',
-    link: 'https://www.etsy.com/listing/1456688970/red-rising-cover-art-journal'
+    link: 'https://www.etsy.com/listing/1456688970/red-rising-cover-art-journal',
+    expired: true
   }
 ];
 

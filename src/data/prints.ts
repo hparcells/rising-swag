@@ -267,7 +267,8 @@ const data: IItem[] = [
     },
     description:
       'A large framed canvas of the cover art from the Subterranean Press edition of Golden Son.',
-    link: 'https://www.etsy.com/listing/1470754891/red-rising-golden-son-cover-art-framed'
+    link: 'https://www.etsy.com/listing/1470754891/red-rising-golden-son-cover-art-framed',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -279,7 +280,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A large framed canvas of the cover art from the FairyLoot edition of Red Rising.',
-    link: 'https://www.etsy.com/listing/1455912878/red-rising-canvas-framed'
+    link: 'https://www.etsy.com/listing/1455912878/red-rising-canvas-framed',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -292,7 +294,8 @@ const data: IItem[] = [
     },
     description:
       'A large framed canvas of the cover art from the Subterranean Press edition of Morning Star.',
-    link: 'https://www.etsy.com/listing/1456556554/red-rising-morning-star-cover-art-framed'
+    link: 'https://www.etsy.com/listing/1456556554/red-rising-morning-star-cover-art-framed',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -305,7 +308,8 @@ const data: IItem[] = [
     },
     description:
       'A large framed canvas of the cover art from the FairyLoot edition of Morning Star.',
-    link: 'https://www.etsy.com/listing/1470118775/red-rising-morning-star-canvas-framed'
+    link: 'https://www.etsy.com/listing/1470118775/red-rising-morning-star-canvas-framed',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -318,7 +322,8 @@ const data: IItem[] = [
     },
     description:
       'A large framed canvas of the cover art from the Subterranean Press edition of Red Rising.',
-    link: 'https://www.etsy.com/listing/1455966960/red-rising-cover-art-canvas-framed'
+    link: 'https://www.etsy.com/listing/1455966960/red-rising-cover-art-canvas-framed',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -330,7 +335,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A large framed canvas of the cover art from the FairyLoot edition of Golden Son.',
-    link: 'https://www.etsy.com/listing/1455914896/red-rising-golden-son-canvas-framed'
+    link: 'https://www.etsy.com/listing/1455914896/red-rising-golden-son-canvas-framed',
+    expired: true
   },
   {
     date: '2023-05-01',
@@ -342,7 +348,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A large framed canvas with "Omnis Vir Lupus" and Mars.',
-    link: 'https://www.etsy.com/listing/1471822341/red-rising-omnis-vir-lupus-framed-canvas'
+    link: 'https://www.etsy.com/listing/1471822341/red-rising-omnis-vir-lupus-framed-canvas',
+    expired: true
   },
   {
     date: '2023-05-01',
@@ -354,7 +361,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A large framed canvas with "Omnis Vir Lupus" and Mars.',
-    link: 'https://www.etsy.com/listing/1471870139/red-rising-omnis-vir-lupus-framed-canvas'
+    link: 'https://www.etsy.com/listing/1471870139/red-rising-omnis-vir-lupus-framed-canvas',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -366,7 +374,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A poster with "Omnis Vir Lupus" and Mars.',
-    link: 'https://www.etsy.com/listing/1459069626/red-rising-omnis-vir-lupus-premium'
+    link: 'https://www.etsy.com/listing/1459069626/red-rising-omnis-vir-lupus-premium',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -378,7 +387,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A poster with "Omnis Vir Lupus" and Mars.',
-    link: 'https://www.etsy.com/listing/1473380841/red-rising-omnis-vir-lupus-premium'
+    link: 'https://www.etsy.com/listing/1473380841/red-rising-omnis-vir-lupus-premium',
+    expired: true
   },
   {
     date: '2023-05-03',

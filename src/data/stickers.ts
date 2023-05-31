@@ -540,7 +540,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Sticker with the wolf of Mars, Red sigil, and Gold sigil.',
-    link: 'https://www.etsy.com/listing/1470875699/red-rising-wolfredgold-sigil-sticker'
+    link: 'https://www.etsy.com/listing/1470875699/red-rising-wolfredgold-sigil-sticker',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -552,7 +553,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Sticker with the Red sigil and Gold sigil together.',
-    link: 'https://www.etsy.com/listing/1470875123/red-rising-redgold-sigil-sticker'
+    link: 'https://www.etsy.com/listing/1470875123/red-rising-redgold-sigil-sticker',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -564,7 +566,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Sticker with the sigil of House Mars, Gold, and Red sigil.',
-    link: 'https://www.etsy.com/listing/1470874783/red-rising-house-marsgoldred-sigil'
+    link: 'https://www.etsy.com/listing/1470874783/red-rising-house-marsgoldred-sigil',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -576,7 +579,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A white colored Red sigil sticker.',
-    link: 'https://www.etsy.com/listing/1456667270/red-rising-red-sigil-sticker'
+    link: 'https://www.etsy.com/listing/1456667270/red-rising-red-sigil-sticker',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -588,7 +592,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Supreme-style "Howler" box logo on a sticker.',
-    link: 'https://www.etsy.com/listing/1456665092/red-rising-howler-sticker'
+    link: 'https://www.etsy.com/listing/1456665092/red-rising-howler-sticker',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -600,7 +605,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A gold colored Gold sigil sticker.',
-    link: 'https://www.etsy.com/listing/1470863613/red-rising-gold-sigil-gold-sticker'
+    link: 'https://www.etsy.com/listing/1470863613/red-rising-gold-sigil-gold-sticker',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -612,7 +618,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A white colored Gold sigil sticker.',
-    link: 'https://www.etsy.com/listing/1456664306/red-rising-gold-sigil-white-sticker'
+    link: 'https://www.etsy.com/listing/1456664306/red-rising-gold-sigil-white-sticker',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -624,7 +631,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A white colored wolf sticker.',
-    link: 'https://www.etsy.com/listing/1470861855/red-rising-house-mars-wolf-sticker'
+    link: 'https://www.etsy.com/listing/1470861855/red-rising-house-mars-wolf-sticker',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -636,7 +644,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A black colored House Mars sigil sticker.',
-    link: 'https://www.etsy.com/listing/1470861123/red-rising-house-mars-sticker'
+    link: 'https://www.etsy.com/listing/1470861123/red-rising-house-mars-sticker',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -648,7 +657,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A red colored House Mars sigil sticker.',
-    link: 'https://www.etsy.com/listing/1456663300/red-rising-house-mars-red-sticker'
+    link: 'https://www.etsy.com/listing/1456663300/red-rising-house-mars-red-sticker',
+    expired: true
   },
   {
     date: '2023-05-03',
@@ -661,7 +671,8 @@ const data: IItem[] = [
     },
     description:
       'Supreme-style "Peerless" sticker with the cover art from the Subterranean Press edition of Golden Son.',
-    link: 'https://www.etsy.com/listing/1470860319/kiss-cut-stickers'
+    link: 'https://www.etsy.com/listing/1470860319/kiss-cut-stickers',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -701,7 +712,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: "Darrow's infamous quote from Red Rising on a sticker.",
-    link: 'https://www.etsy.com/listing/1477438133/red-rising-quote-sticker-1'
+    link: 'https://www.etsy.com/listing/1477438133/red-rising-quote-sticker-1',
+    expired: true
   },
   {
     date: '2023-05-10',
@@ -713,7 +725,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Hic sunt leones, here be lions.',
-    link: 'https://www.etsy.com/listing/1477452785/red-rising-quote-sticker-3'
+    link: 'https://www.etsy.com/listing/1477452785/red-rising-quote-sticker-3',
+    expired: true
   },
   {
     date: '2023-05-10',
@@ -725,7 +738,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: '"Man cannot be freed by the same injustice that enslaved it."',
-    link: 'https://www.etsy.com/listing/1477511481/red-rising-quote-sticker-2'
+    link: 'https://www.etsy.com/listing/1477511481/red-rising-quote-sticker-2',
+    expired: true
   },
   {
     date: '2023-05-10',
@@ -737,7 +751,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: "Karnus's quote about death.",
-    link: 'https://www.etsy.com/listing/1477526889/red-rising-quote-sticker-4'
+    link: 'https://www.etsy.com/listing/1477526889/red-rising-quote-sticker-4',
+    expired: true
   },
   {
     date: '2023-05-10',
@@ -749,7 +764,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: "Sevro's quote from Iron Gold.",
-    link: 'https://www.etsy.com/listing/1477527465/red-rising-quote-sticker-5'
+    link: 'https://www.etsy.com/listing/1477527465/red-rising-quote-sticker-5',
+    expired: true
   },
   {
     date: '2023-05-10',
@@ -761,19 +777,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: "Karnus's famous quote from Golden Son.",
-    link: 'https://www.etsy.com/listing/1463426586/red-rising-quote-sticker-6'
-  },
-  {
-    date: '2023-05-10',
-    image: 'https://i.etsystatic.com/38424619/r/il/87215f/4858208088/il_794xN.4858208088_9bo6.jpg',
-    name: 'Red House Mars Sticker',
-    tags: ['sticker'],
-    shop: {
-      name: 'FunnyBoxLogo',
-      url: 'https://www.etsy.com/shop/FunnyBoxLogo'
-    },
-    description: 'A sticker of the sigil of House Mars.',
-    link: 'https://www.etsy.com/listing/1456663300/red-rising-house-mars-red-sticker'
+    link: 'https://www.etsy.com/listing/1463426586/red-rising-quote-sticker-6',
+    expired: true
   }
 ];
 

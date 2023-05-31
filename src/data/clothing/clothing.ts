@@ -588,7 +588,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'Summon the Howlers!',
-    link: 'https://www.etsy.com/listing/1403588963/summon-the-howlers-red-rising-darrow'
+    link: 'https://www.etsy.com/listing/1403588963/summon-the-howlers-red-rising-darrow',
+    expired: true
   },
   {
     date: '2023-03-17',
@@ -974,7 +975,8 @@ const data: IItem[] = [
     },
     description:
       'Supreme-style "Scarred" shirt with the cover art from the Subterranean Press edition of Morning Star.',
-    link: 'https://www.etsy.com/listing/1456725472/red-rising-scarred-box-logo-unisex-t'
+    link: 'https://www.etsy.com/listing/1456725472/red-rising-scarred-box-logo-unisex-t',
+    expired: true
   },
   {
     date: '2023-05-01',
@@ -987,7 +989,8 @@ const data: IItem[] = [
     },
     description:
       'Supreme-style "Helldiver" shirt with the cover art from the Subterranean Press edition of Red Rising.',
-    link: 'https://www.etsy.com/listing/1456725124/red-rising-helldiver-box-logo-unisex-t'
+    link: 'https://www.etsy.com/listing/1456725124/red-rising-helldiver-box-logo-unisex-t',
+    expired: true
   },
   {
     date: '2023-05-01',
