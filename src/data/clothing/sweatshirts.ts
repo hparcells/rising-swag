@@ -166,6 +166,18 @@ const data: IItem[] = [
     description: "A women's hoodie with the HowlerPod logo.",
     link: 'https://www.etsy.com/listing/736578167/',
     expired: true
+  },
+  {
+    date: '2023-05-30',
+    image: 'https://i.etsystatic.com/16046340/r/il/a7c62d/4875593318/il_794xN.4875593318_1uf4.jpg',
+    name: 'House Mars Crew Neck Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Problem is, we of House Mars always burn out. Better to do it in style!',
+    link: 'https://www.etsy.com/listing/1460779082/house-mars-crew-neck-sweatshirt'
   }
 ];
 

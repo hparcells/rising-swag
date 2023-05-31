@@ -385,6 +385,18 @@ const data: IItem[] = [
     description: 'Mug featuring the text "Helldiver" and the Red sigil.',
     link: 'https://www.etsy.com/listing/628380301/',
     expired: true
+  },
+  {
+    date: '2023-05-30',
+    image: 'https://i.etsystatic.com/16046340/r/il/7f7e3b/4907491630/il_794xN.4907491630_4vsc.jpg',
+    name: 'House Mars Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'House Mars institute mug.',
+    link: 'https://www.etsy.com/listing/1474983463/house-mars-mug-15oz'
   }
 ];
 

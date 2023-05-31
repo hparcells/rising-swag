@@ -219,6 +219,43 @@ const data: IItem[] = [
     description: 'Calling all Legionaries - your official pin has arrived.',
     link: 'https://www.lit-escalates.com/products/howler-legion-pin',
     expired: true
+  },
+  {
+    date: '2023-05-30',
+    name: 'Antique Lived in Peace Pin',
+    image: 'https://i.etsystatic.com/16046340/r/il/ea695c/4847154278/il_794xN.4847154278_3re3.jpg',
+    tags: ['pin', 'red-rising'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Antiqued gold Lived in Peace Pin.',
+    link: 'https://www.etsy.com/listing/1454122718/antique-lived-in-peace-pin'
+  },
+  {
+    date: '2023-05-30',
+    image: 'https://i.etsystatic.com/16046340/r/il/0276b1/4952936738/il_794xN.4952936738_szte.jpg',
+    name: 'Rat Legion Enamel Pre-Order',
+    tags: ['pin'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description:
+      "Rat Legion. Toughest of those who fought in the Rat War in the tunnels of Mars. of course they survived the storm, and labor while others like they're wounds. Sturdy pin represent the sturdy Rat Legion.",
+    link: 'https://www.etsy.com/listing/1478415532/rat-legion-enamel-pin-preorder'
+  },
+  {
+    date: '2023-05-30',
+    image: 'https://i.etsystatic.com/16046340/r/il/97b94e/5001227247/il_794xN.5001227247_65o3.jpg',
+    name: 'Hail Reaper Hail Libertas Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Hail Reaper! Hail Libertas!',
+    link: 'https://www.etsy.com/listing/1492610885/hail-enamel-pin-preorder'
   }
 ];
 
