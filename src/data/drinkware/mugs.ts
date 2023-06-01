@@ -109,7 +109,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Handmade mug with "Shit Escalates" on it.',
-    link: 'https://www.etsy.com/listing/1386001470/it-escalates-mug'
+    link: 'https://www.etsy.com/listing/1386001470/it-escalates-mug',
+    expired: true
   },
   {
     date: '2023-03-14',
