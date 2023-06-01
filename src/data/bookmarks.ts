@@ -88,8 +88,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/BookBubbledShop'
     },
     description: 'Quotes from Red Rising on bookmarks. Shipped from Canada.',
-    link: 'https://www.etsy.com/listing/1207264359/red-rising-saga-quote-bookmarks',
-    expired: true
+    link: 'https://www.etsy.com/listing/1207264359/red-rising-saga-quote-bookmarks'
   },
   {
     date: '2023-03-24',
