@@ -95,6 +95,32 @@ const data: IItem[] = [
     link: 'https://www.etsy.com/listing/711111131/bellona-unisex-jersey-short-sleeve-tee',
     expired: true,
     spoiler: true
+  },
+  {
+    date: '2023-06-14',
+    image: 'https://i.etsystatic.com/10165646/r/il/f8c707/4964412024/il_794xN.4964412024_1w8r.jpg',
+    name: 'Omnis vir Lupus Tank',
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Omnis vir Lupus. For the gym, for a casual day out, for HOWLERCON - this unisex cotton tank top is perfect for any occasion.',
+    link: 'https://www.etsy.com/listing/1480909618/'
+  },
+  {
+    date: '2023-06-14',
+    image: 'https://i.etsystatic.com/10165646/r/il/abf673/4964414244/il_794xN.4964414244_98c5.jpg',
+    name: 'Let Fall the Rain Tank',
+    tags: ['shirt'],
+    shop: {
+      name: 'LiveForMore',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Let fall the rain. For the gym, for a casual day out, for HOWLERCON - this unisex cotton tank top is perfect for any occasion',
+    link: 'https://www.etsy.com/listing/1489357375/'
   }
 ];
 
