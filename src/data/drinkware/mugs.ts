@@ -122,7 +122,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Mug with "Straight Outta Lykos" on it.',
-    link: 'https://www.etsy.com/listing/1187556759/straight-outta-lykos-mug'
+    link: 'https://www.etsy.com/listing/1187556759/straight-outta-lykos-mug',
+    expired: true
   },
   {
     date: '2023-03-14',
@@ -135,19 +136,6 @@ const data: IItem[] = [
     },
     description: 'Mug with "Straight Outta Lykos" on it.',
     link: 'https://www.etsy.com/listing/706752423/straight-outta-lykos-mug'
-  },
-  {
-    date: '2023-03-14',
-    image: 'https://i.etsystatic.com/16046340/r/il/d43467/3380208688/il_794xN.3380208688_i4fg.jpg',
-    name: 'Gorydamn Good Coffee Mug',
-    tags: ['mug'],
-    shop: {
-      name: 'CreativeLeighCrafts',
-      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
-    },
-    description:
-      'Show that you got the best coffee in the office with this mug with "Gorydamn Good Coffee" on it.',
-    link: 'https://www.etsy.com/listing/1187556759/straight-outta-lykos-mug'
   },
   {
     date: '2023-03-14',
@@ -220,7 +208,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: "A mug with LiveForMore's wolf design and stars.",
-    link: 'https://www.etsy.com/listing/1410341807/howler-red-rising-white-ceramic-mug'
+    link: 'https://www.etsy.com/listing/1410341807/howler-red-rising-white-ceramic-mug',
+    expired: true
   },
   {
     date: '2023-03-24',

@@ -113,7 +113,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/BookBookOwl'
     },
     description: 'Bookmark with "I am the Reaper and death is my shadow" on it.',
-    link: 'https://www.etsy.com/listing/992787322/red-rising-reaper-bookmark'
+    link: 'https://www.etsy.com/listing/992787322/red-rising-reaper-bookmark',
+    expired: true
   },
   {
     date: '2023-03-26',

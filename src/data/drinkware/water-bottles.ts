@@ -23,7 +23,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'A Sevro-style flaming skull on a CamelBak Water Bottle.',
-    link: 'https://www.etsy.com/listing/1396123684/iron-rain-red-rising-darrow-sevro-ares'
+    link: 'https://www.etsy.com/listing/1396123684/iron-rain-red-rising-darrow-sevro-ares',
+    expired: true
   },
   {
     date: '2023-03-16',
@@ -35,7 +36,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: "A water bottle with LiveForMore's Omnis Vir Lupus design.",
-    link: 'https://www.etsy.com/listing/1410342299/omnis-vir-lupus-red-rising-darrow-sevro'
+    link: 'https://www.etsy.com/listing/1410342299/omnis-vir-lupus-red-rising-darrow-sevro',
+    expired: true
   },
   {
     date: '2023-03-20',

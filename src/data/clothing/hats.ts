@@ -237,8 +237,7 @@ const data: IItem[] = [
     },
     description:
       'Cap off your fandom with this HWLR Ruster edition fan made Red Rising inspired snapback hat.',
-    link: 'https://www.etsy.com/listing/1352164846/hwlr-ruster-edition-red-rising-inspired',
-    expired: true
+    link: 'https://www.etsy.com/listing/1352164846/hwlr-ruster-edition-red-rising-inspired'
   },
   {
     date: '2023-03-15',
@@ -375,8 +374,7 @@ const data: IItem[] = [
     },
     description:
       'Pom beanie with the gold sigil, red sigil, and the wolf of mars onto one design. Comes in white and black.',
-    link: 'https://www.etsy.com/listing/1334251008/red-rising-gold-and-red-sigil',
-    expired: true
+    link: 'https://www.etsy.com/listing/1334251008/red-rising-gold-and-red-sigil'
   },
   {
     date: '2023-04-04',
@@ -388,8 +386,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ThePurpuraProject'
     },
     description: 'Beanie with the gold sigil, red sigil, and the wolf of mars onto one design.',
-    link: 'https://www.etsy.com/listing/1334259602/red-rising-gold-and-red-sigil',
-    expired: true
+    link: 'https://www.etsy.com/listing/1334259602/red-rising-gold-and-red-sigil'
   },
   {
     date: '2023-05-06',

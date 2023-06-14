@@ -613,8 +613,7 @@ const data: IItem[] = [
     },
     description:
       "He's the only howler who uses a serrated blade, he thinks is looks scarier. He's right.",
-    link: 'https://www.etsy.com/listing/1202946570/sevros-razor-kit',
-    expired: true
+    link: 'https://www.etsy.com/listing/1202946570/sevros-razor-kit'
   },
   {
     date: '2023-05-04',
