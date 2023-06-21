@@ -105,6 +105,32 @@ const data: IItem[] = [
     description: 'Book origami of the Sons of Ares symbol.',
     link: 'https://www.etsy.com/listing/785384643/red-rising-sons-of-ares-book-origami',
     expired: true
+  },
+  {
+    date: '2023-06-21',
+    image: 'https://i.etsystatic.com/14791921/r/il/4231bd/5066030443/il_1140xN.5066030443_2gi8.jpg',
+    name: 'Exclusive Edition Light Bringer',
+    tags: ['book', 'light-bringer'],
+    shop: {
+      name: 'BookishSignsAndMore',
+      url: 'https://www.etsy.com/shop/BookishSignsAndMore'
+    },
+    description: 'Custom sprayed edges for Light Bringer.',
+    link: 'https://www.etsy.com/listing/1493337522/exclusive-edition-light-bringer-a-red'
+  },
+  {
+    date: '2023-06-21',
+    image:
+      'https://www.goldsborobooks.com/uploads/books/light-bringer/_bookCoverDefault/Exclusive-Edition-Temp.-dont-delete-7.png',
+    name: 'Sprayed Edges Light Bringer',
+    tags: ['book', 'light-bringer'],
+    shop: {
+      name: 'Goldsboro Books',
+      url: 'https://www.goldsborobooks.com/'
+    },
+    description: 'Custom sprayed edges for Light Bringer.',
+    link: 'https://www.goldsborobooks.com/product/light-bringer',
+    expired: true
   }
 ];
 
