@@ -23,7 +23,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ThePurpuraProject'
     },
     description: 'A vacuum insulated tumbler with the gold sigil, red sigil, and the wolf of mars.',
-    link: 'https://www.etsy.com/listing/1347935535/red-rising-gold-and-red-sigil-red-coffee'
+    link: 'https://www.etsy.com/listing/1347935535/red-rising-gold-and-red-sigil-red-coffee',
+    expired: true
   },
   {
     date: '2023-04-04',

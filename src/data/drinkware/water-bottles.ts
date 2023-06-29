@@ -11,7 +11,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'Get your Howler name on a water bottle.',
-    link: 'https://www.etsy.com/listing/1396149384/red-rising-custom-howler-name-camelbak'
+    link: 'https://www.etsy.com/listing/1396149384/red-rising-custom-howler-name-camelbak',
+    expired: true
   },
   {
     date: '2023-03-16',
@@ -49,7 +50,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'A stainless steel water bottle with the Hail Libertas Hail Reaper design.',
-    link: 'https://www.etsy.com/listing/1370611108/hail-libertas-hail-reaper-stainless'
+    link: 'https://www.etsy.com/listing/1370611108/hail-libertas-hail-reaper-stainless',
+    expired: true
   }
 ];
 

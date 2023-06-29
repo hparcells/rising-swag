@@ -179,7 +179,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'LiveForMores Omnis vir Lupus design on a hoodie.',
-    link: 'https://www.etsy.com/listing/1396123364/red-rising-omnis-vir-lupus-darrow-howler'
+    link: 'https://www.etsy.com/listing/1396123364/red-rising-omnis-vir-lupus-darrow-howler',
+    expired: true
   },
   {
     date: '2023-04-04',
@@ -240,7 +241,8 @@ const data: IItem[] = [
     },
     description:
       'Hoodie with the Subterranean Press Golden Son cover art and "Omnis vir Lupus" on the sleeve.',
-    link: 'https://www.etsy.com/listing/1457743916/red-rising-peerless-hoodie-with-omnis'
+    link: 'https://www.etsy.com/listing/1457743916/red-rising-peerless-hoodie-with-omnis',
+    expired: true
   },
   {
     date: '2023-05-01',
@@ -276,7 +278,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Hoodie with the Peerless box logo and "Hic Sunt Leones" on the sleeve.',
-    link: 'https://www.etsy.com/listing/1462476050/red-rising-peerless-here-be-lions-unisex'
+    link: 'https://www.etsy.com/listing/1462476050/red-rising-peerless-here-be-lions-unisex',
+    expired: true
   },
   {
     date: '2023-05-10',
@@ -288,7 +291,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Hoodie with the Peerless box logo and "Per Aspera Ad Astra" on the sleeve.',
-    link: 'https://www.etsy.com/listing/1457743916/red-rising-peerless-hoodie-with-per'
+    link: 'https://www.etsy.com/listing/1457743916/red-rising-peerless-hoodie-with-per',
+    expired: true
   }
 ];
 
