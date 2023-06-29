@@ -779,6 +779,30 @@ const data: IItem[] = [
     description: "Karnus's famous quote from Golden Son.",
     link: 'https://www.etsy.com/listing/1463426586/red-rising-quote-sticker-6',
     expired: true
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/06/70877-4.jpg',
+    name: "The Howler's Den Vinyl Sticker",
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "A sticker of the Howler's Den logo.",
+    link: 'https://www.howlerholo.net/product/the-howlers-den-vinyl-sticker/'
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/06/70876-12.jpg',
+    name: 'The Rose Garden Vinyl Stickers',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'To the Rose Garden with you!',
+    link: 'https://www.howlerholo.net/product/round-vinyl-stickers/'
   }
 ];
 

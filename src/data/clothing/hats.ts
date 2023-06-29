@@ -430,6 +430,18 @@ const data: IItem[] = [
     description: 'Hat with a simplistic wolf head.',
     link: 'https://www.etsy.com/listing/662410854/howler-wolf-hat',
     expired: true
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/05/96541.jpg',
+    name: 'Den Hat with Leather Patch',
+    tags: ['hat'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Hat with a leather Den patch.',
+    link: 'https://www.howlerholo.net/product/den-hat-with-leather-patch-round/'
   }
 ];
 

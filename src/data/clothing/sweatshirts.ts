@@ -178,6 +178,18 @@ const data: IItem[] = [
     },
     description: 'Problem is, we of House Mars always burn out. Better to do it in style!',
     link: 'https://www.etsy.com/listing/1460779082/house-mars-crew-neck-sweatshirt'
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/06/25459.jpg',
+    name: 'Den Logo Unisex Heavy Blend Crewneck Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "A sweatshirt with the Howler's Den logo.",
+    link: 'https://www.howlerholo.net/product/howlersdencrewneck/'
   }
 ];
 

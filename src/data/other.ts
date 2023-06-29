@@ -653,6 +653,30 @@ const data: IItem[] = [
     description: "1:4 scale finished razors of Mustang, Sevro, and Darrow's slingBlade.",
     link: 'https://www.etsy.com/listing/1235198891/mini-razor-trio',
     expired: true
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/06/72762.jpg',
+    name: 'The Rose Garden Key Chain',
+    tags: ['other'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'To the Rose Garden with you!',
+    link: 'https://www.howlerholo.net/product/the-rose-garden-keychain/'
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/06/68311.jpg',
+    name: 'The Rose Garden Fleece Joggers',
+    tags: ['other'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Fleece joggers with the Rose Garden logo.',
+    link: 'https://www.howlerholo.net/product/the-rose-garden-fleece-joggers/'
   }
 ];
 

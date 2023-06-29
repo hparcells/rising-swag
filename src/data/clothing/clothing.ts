@@ -1125,6 +1125,78 @@ const data: IItem[] = [
     },
     description: 'Problem is, we of House Mars always burn out. Better to do it in style.',
     link: 'https://www.etsy.com/listing/1474979017/house-mars-tee'
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/05/18102-12.jpg',
+    name: "Howler's Den Front Logo",
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "A shirt with the Howler's Den logo.",
+    link: 'https://www.howlerholo.net/product/howlers-den-front-logo/'
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/06/17847-2.jpg',
+    name: "June's Kitchen (Women's Tee)",
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Represent June's Kitchen from the institute!",
+    link: 'https://www.howlerholo.net/product/junes-kitchen-womens-tee/'
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/06/18374-12.jpg',
+    name: "June's Kitchen Unisex Tee",
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Represent June's Kitchen from the institute!",
+    link: 'https://www.howlerholo.net/product/unisex-jersey-short-sleeve-tee/'
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/05/96811.jpg',
+    name: "Howler's Den Front and Back Logo",
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "A shirt with the Howler's Den logo on the front and back.",
+    link: 'https://www.howlerholo.net/product/the-howlers-den-front-and-back/'
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/06/18150-24.jpg',
+    name: 'The LowDraft Gala 2023',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'A shirt for the Den members for the Tulsa HowlerCon.',
+    link: 'https://www.howlerholo.net/product/the-lowdraft-gala-2023/'
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/06/61823-24.jpg',
+    name: 'The Rose Garden Tee – Unisex',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'A shirt with the Rose Garden logo.',
+    link: 'https://www.howlerholo.net/product/the-rose-garden-tee-unisex/'
   }
 ];
 

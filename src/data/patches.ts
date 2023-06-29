@@ -232,6 +232,18 @@ const data: IItem[] = [
     description: 'For the first time ever, the full set of all 14 Color Sigils in one place.',
     link: 'https://www.lit-escalates.com/products/complete-set-all-14-iron-on-patches',
     expired: true
+  },
+  {
+    date: '2023-06-29',
+    image: 'https://i.etsystatic.com/16046340/r/il/397fb0/5088268341/il_794xN.5088268341_qnve.jpg',
+    name: 'Pegasus Legion Patch',
+    tags: ['patch'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Pegasus Legion. Howler Battalion. One of the Reapers own.',
+    link: 'https://www.etsy.com/listing/1498182106/pegasus-legion-patch'
   }
 ];
 
