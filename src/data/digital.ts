@@ -48,6 +48,43 @@ const data: IItem[] = [
     },
     description: 'A digital print of the quote "Break the Chains."',
     link: 'https://www.etsy.com/listing/1400876233/red-rising-print-digital-download-break'
+  },
+  {
+    date: '2023-07-05',
+    image: 'https://i.etsystatic.com/26674192/r/il/944584/5100560317/il_794xN.5100560317_csh9.jpg',
+    name: 'Cassius au Bellona - Digital Artwork Pack - 11x17 Poster',
+    tags: ['print', 'digital', 'cassius'],
+    shop: {
+      name: 'HailReaperPod',
+      url: 'https://www.etsy.com/shop/HailReaperPod'
+    },
+    description: 'Includes a PDF and PNG file of the poster.',
+    link: 'https://www.etsy.com/listing/1500984466/'
+  },
+  {
+    date: '2023-07-05',
+    image: 'https://i.etsystatic.com/26674192/r/il/f32421/5100565281/il_794xN.5100565281_768n.jpg',
+    name: 'Alexandar au Arcos - Digital Artwork Pack - 11x17 Poster',
+    tags: ['print', 'digital'],
+    shop: {
+      name: 'HailReaperPod',
+
+      url: 'https://www.etsy.com/shop/HailReaperPod'
+    },
+    description: 'Includes a PDF and PNG file of the poster.',
+    link: 'https://www.etsy.com/listing/1515168175/'
+  },
+  {
+    date: '2023-07-05',
+    image: 'https://i.etsystatic.com/26674192/r/il/008512/5052328248/il_794xN.5052328248_fzhp.jpg',
+    name: 'Victra Au Julii - Digital Artwork Pack - 11x17 Poster',
+    tags: ['print', 'digital', 'victra'],
+    shop: {
+      name: 'HailReaperPod',
+      url: 'https://www.etsy.com/shop/HailReaperPod'
+    },
+    description: 'Includes a PDF and PNG file of the poster.',
+    link: 'https://www.etsy.com/listing/1500983458/'
   }
 ];
 
