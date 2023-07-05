@@ -1,5 +1,6 @@
 import { Anchor, Button, Text } from '@mantine/core';
 import { IconBrandGithub } from '@tabler/icons-react';
+import Link from 'next/link';
 
 import classes from './SectionAdditional.module.scss';
 
@@ -22,11 +23,18 @@ function SectionAdditional() {
         >
           View on GitHub
         </Button>
-        <Text size='sm'>
-          <Anchor href='https://docs.risingswag.com/docs/api' target='_blank'>
-            API Docs
-          </Anchor>
-        </Text>
+        <div className={classes.links}>
+          <Text size='sm'>
+            <Anchor href='https://docs.risingswag.com/docs/api' target='_blank'>
+              API Docs
+            </Anchor>
+          </Text>
+          <Text size='sm'>
+            <Anchor href='/expired' component={Link} passHref>
+              All Expired
+            </Anchor>
+          </Text>
+        </div>
       </div>
     </div>
   );

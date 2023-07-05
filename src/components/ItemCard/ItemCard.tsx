@@ -9,20 +9,23 @@ import { useFilter } from '@/hooks/filter';
 import classes from './ItemCard.module.scss';
 import { useState } from 'react';
 
-function ItemCard({ item }: { item: IItem }) {
+function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boolean }) {
   const { filter, updateFilter } = useFilter();
 
   const [confirmedSpoilers, setConfirmedSpoilers] = useState<boolean>(false);
 
   return (
     <>
-      <Card className={clsx(classes.card, item.expired && classes.expiredRoot)} withBorder>
+      <Card
+        className={clsx(classes.card, item.expired && fadeExpired && classes.expiredRoot)}
+        withBorder
+      >
         <Card.Section>
           <Image src={item.image} height={200} alt={item.name} />
         </Card.Section>
 
         <Text weight={500} mt='xs'>
-          {item.expired && <strong>(EXPIRED) </strong>}
+          {item.expired && fadeExpired && <strong>(EXPIRED) </strong>}
           {item.name}
         </Text>
 

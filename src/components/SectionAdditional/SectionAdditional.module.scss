@@ -22,3 +22,12 @@
     text-decoration: none;
   }
 }
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+
+  text-align: center;
+}

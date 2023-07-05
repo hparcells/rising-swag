@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import { Alert, Pagination, Text } from '@mantine/core';
-import { IconTrafficCone } from '@tabler/icons-react';
 import clsx from 'clsx';
 
 import FilterBox from '../FilterBox/FilterBox';
