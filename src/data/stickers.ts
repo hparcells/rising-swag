@@ -104,7 +104,8 @@ const data: IItem[] = [
     },
     description:
       'The moments before our favorite characters joined the Reaper of Mars in an Iron Rain have always given me chills! This sticker was made on a metallic background.',
-    link: 'https://www.etsy.com/listing/1403074520/sticker-let-fall-the-rain-metallic'
+    link: 'https://www.etsy.com/listing/1403074520/sticker-let-fall-the-rain-metallic',
+    expired: true
   },
   {
     date: '2023-03-17',
@@ -803,6 +804,19 @@ const data: IItem[] = [
     },
     description: 'To the Rose Garden with you!',
     link: 'https://www.howlerholo.net/product/round-vinyl-stickers/'
+  },
+  {
+    date: '2023-07-05',
+    image: 'https://i.etsystatic.com/26674192/r/il/15b3a1/5052274316/il_794xN.5052274316_k97h.jpg',
+    name: 'Hail Reaper Sticker',
+    tags: ['sticker', 'darrow'],
+    shop: {
+      name: 'HailReaperPod',
+      url: 'https://www.etsy.com/shop/HailReaperPod'
+    },
+    description:
+      'A sticker of the famous quote "Hail Reaper" with a scythe and "Per aspera, ad astra."',
+    link: 'https://www.etsy.com/listing/1493655682/'
   }
 ];
 

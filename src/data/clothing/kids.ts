@@ -77,7 +77,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Perfect tee for your little howler!',
-    link: 'https://www.etsy.com/listing/1413172482/littlest-howler-toddler-short-sleeve-tee'
+    link: 'https://www.etsy.com/listing/1413172482/littlest-howler-toddler-short-sleeve-tee',
+    expired: true
   },
   {
     date: '2023-03-14',
@@ -89,7 +90,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Perfect tee for your little howler!',
-    link: 'https://www.etsy.com/listing/1427335795/littlest-howler-toddler-t-shirt'
+    link: 'https://www.etsy.com/listing/1427335795/littlest-howler-toddler-t-shirt',
+    expired: true
   },
   {
     date: '2023-03-21',
