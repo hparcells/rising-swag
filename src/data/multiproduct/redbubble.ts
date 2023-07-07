@@ -524,7 +524,8 @@ const data: IItem[] = [
     },
     description:
       'Some of the most famous Red Rising quotes thrown onto one design. Individual quote magnets and stickers available.',
-    link: 'https://www.redbubble.com/shop/ap/96798053'
+    link: 'https://www.redbubble.com/shop/ap/96798053',
+    expired: true
   },
   {
     date: '2023-04-11',
