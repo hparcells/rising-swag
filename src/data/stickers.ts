@@ -104,8 +104,7 @@ const data: IItem[] = [
     },
     description:
       'The moments before our favorite characters joined the Reaper of Mars in an Iron Rain have always given me chills! This sticker was made on a metallic background.',
-    link: 'https://www.etsy.com/listing/1403074520/sticker-let-fall-the-rain-metallic',
-    expired: true
+    link: 'https://www.etsy.com/listing/1403074520/sticker-let-fall-the-rain-metallic'
   },
   {
     date: '2023-03-17',
