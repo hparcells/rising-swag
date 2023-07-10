@@ -388,6 +388,18 @@ const data: IItem[] = [
     },
     description: 'House Mars institute mug.',
     link: 'https://www.etsy.com/listing/1474983463/house-mars-mug-15oz'
+  },
+  {
+    date: '2023-07-10',
+    image: 'https://i.etsystatic.com/43160800/r/il/2053ff/4927821736/il_794xN.4927821736_24ni.jpg',
+    name: "A Man's Power Mug",
+    tags: ['mug'],
+    shop: {
+      name: 'GoodStuffFromBooks',
+      url: 'https://www.etsy.com/shop/GoodStuffFromBooks'
+    },
+    description: 'How will you wield your power?',
+    link: 'https://www.etsy.com/listing/1472810590'
   }
 ];
 
