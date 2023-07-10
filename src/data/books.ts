@@ -116,7 +116,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/BookishSignsAndMore'
     },
     description: 'Custom sprayed edges for Light Bringer.',
-    link: 'https://www.etsy.com/listing/1493337522/exclusive-edition-light-bringer-a-red'
+    link: 'https://www.etsy.com/listing/1493337522/exclusive-edition-light-bringer-a-red',
+    expired: true
   },
   {
     date: '2023-06-21',

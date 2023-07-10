@@ -205,7 +205,8 @@ const data: IItem[] = [
       url: 'https://wickandjane.com/'
     },
     description: 'Darrow and Sevro, love at first ship, love at first howl.',
-    link: 'https://wickandjane.com/collections/ready-to-ship/products/i-will-go-down-with-this-ship-box-extras'
+    link: 'https://wickandjane.com/collections/ready-to-ship/products/i-will-go-down-with-this-ship-box-extras',
+    expired: true
   },
   {
     date: '2023-05-03',
