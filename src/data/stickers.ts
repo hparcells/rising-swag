@@ -816,6 +816,18 @@ const data: IItem[] = [
     description:
       'A sticker of the famous quote "Hail Reaper" with a scythe and "Per aspera, ad astra."',
     link: 'https://www.etsy.com/listing/1493655682/'
+  },
+  {
+    date: '2023-07-10',
+    image: 'https://i.etsystatic.com/5925761/r/il/6a7950/4726576352/il_794xN.4726576352_icqj.jpg',
+    name: 'A Good Friend Jumps With Sticker',
+    tags: ['sticker', 'morning-star'],
+    shop: {
+      name: 'yakitori',
+      url: 'https://www.etsy.com/shop/yakitori'
+    },
+    description: "A sticker of Ragnar's quote from Morning Star.",
+    link: 'https://www.etsy.com/listing/1439884315/'
   }
 ];
 
