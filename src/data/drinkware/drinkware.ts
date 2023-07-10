@@ -157,6 +157,18 @@ const data: IItem[] = [
     description: 'The wolf of House Mars etched on a pint glass.',
     link: 'https://www.etsy.com/listing/704309775/',
     expired: true
+  },
+  {
+    date: '2023-07-10',
+    image: 'https://i.etsystatic.com/20060014/r/il/32f5d7/5111080075/il_794xN.5111080075_k2cm.jpg',
+    name: 'Red Rising Reaper Ringneck Tumbler',
+    tags: ['drinkware'],
+    shop: {
+      name: 'APCDesignsShop',
+      url: 'https://www.etsy.com/shop/APCDesignsShop'
+    },
+    description: 'A tumbler with a wolf and slingBlade, and the text "Hail Reaper".',
+    link: 'https://www.etsy.com/listing/1517397349'
   }
 ];
 

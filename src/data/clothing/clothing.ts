@@ -1197,6 +1197,18 @@ const data: IItem[] = [
     },
     description: 'A shirt with the Rose Garden logo.',
     link: 'https://www.howlerholo.net/product/the-rose-garden-tee-unisex/'
+  },
+  {
+    date: '2023-07-10',
+    image: 'https://i.etsystatic.com/20060014/r/il/044988/5063298914/il_794xN.5063298914_qrt5.jpg',
+    name: 'Red Rising Reaper T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'APCDesignsShop',
+      url: 'https://www.etsy.com/shop/APCDesignsShop'
+    },
+    description: 'Primus/Hail Reaper front/back shirt with a wolf and slingBlade.',
+    link: 'https://www.etsy.com/listing/1501518628'
   }
 ];
 
