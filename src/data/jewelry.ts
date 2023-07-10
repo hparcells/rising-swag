@@ -408,6 +408,19 @@ const data: IItem[] = [
     },
     description: 'A morse code bracelet with red and black beads spelling out "GOBLIN".',
     link: 'https://www.etsy.com/listing/1169260930/red-rising-goblin-morse-code-slide'
+  },
+  {
+    date: '2023-07-10',
+    image: 'https://i.etsystatic.com/41098358/r/il/17ee1d/4915344137/il_794xN.4915344137_d8ib.jpg',
+    name: 'Red Rising Mini Book Necklace',
+    tags: ['jewelry', 'red-rising', 'golden-son', 'morning-star', 'iron-gold', 'dark-age'],
+    shop: {
+      name: 'ReadRising',
+      url: 'https://www.etsy.com/shop/ReadRising'
+    },
+    description:
+      'A miniature version of the Red Rising book cover in a necklace. All books available for order.',
+    link: 'https://www.etsy.com/listing/1473030381/'
   }
 ];
 
