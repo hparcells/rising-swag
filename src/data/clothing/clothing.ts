@@ -1209,6 +1209,66 @@ const data: IItem[] = [
     },
     description: 'Primus/Hail Reaper front/back shirt with a wolf and slingBlade.',
     link: 'https://www.etsy.com/listing/1501518628'
+  },
+  {
+    date: '2023-07-11',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/07/63289.jpg',
+    name: 'Sophocles Socks',
+    tags: ['other'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Sport your favorite furry friend on your feet!',
+    link: 'https://www.howlerholo.net/product/sophocles-socks/'
+  },
+  {
+    date: '2023-07-11',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/07/18150.jpg',
+    name: 'Mauler Brawler Legacy Hauler Unisex Tee',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Mauler, Brawler, Legacy Hauler – Ephraim ti Horn',
+    link: 'https://www.howlerholo.net/product/mauler-brawler-legacy-hauler-unisex-tee/'
+  },
+  {
+    date: '2023-07-11',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/07/18102-13.jpg',
+    name: 'Red WORTHY Tee',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Are you WORTHY? – this bleeding heart edition has a red anatomical heart.',
+    link: 'https://www.howlerholo.net/product/worthy-bleeding-heart-unisex-tee/'
+  },
+  {
+    date: '2023-07-11',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/07/18102.jpg',
+    name: 'WORTHY Tee',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Are you WORTHY?',
+    link: 'https://www.howlerholo.net/product/worthy-unisex-tee/'
+  },
+  {
+    date: '2023-07-11',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/07/17745.jpg',
+    name: "WORTHY Women's Tee",
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'WORTHY – IYKYK',
+    link: 'https://www.howlerholo.net/product/worthy-womens-tee/'
   }
 ];
 

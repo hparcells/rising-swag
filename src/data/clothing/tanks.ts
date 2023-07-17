@@ -121,6 +121,18 @@ const data: IItem[] = [
     description:
       'Let fall the rain. For the gym, for a casual day out, for HOWLERCON - this unisex cotton tank top is perfect for any occasion',
     link: 'https://www.etsy.com/listing/1489357375/'
+  },
+  {
+    date: '2023-07-11',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/07/24639.jpg',
+    name: 'Red WORTHY Tank',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Are you WORTHY? – this bleeding heart edition has a red anatomical heart.',
+    link: 'https://www.howlerholo.net/product/worthy-unisex-tank/'
   }
 ];
 

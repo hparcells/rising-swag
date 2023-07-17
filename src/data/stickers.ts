@@ -828,6 +828,42 @@ const data: IItem[] = [
     },
     description: "A sticker of Ragnar's quote from Morning Star.",
     link: 'https://www.etsy.com/listing/1439884315/'
+  },
+  {
+    date: '2023-07-11',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/07/70876-8.jpg',
+    name: 'Goose Bucket Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Hail Goose Bucket, Hail Harpy!',
+    link: 'https://www.howlerholo.net/product/goose-bucket-vinyl-sticker/'
+  },
+  {
+    date: '2023-07-11',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/07/70876-12.jpg',
+    name: 'Hail Steve Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Hail Steve! IYKYK',
+    link: 'https://www.howlerholo.net/product/hail-steve-vinyl-sticker/'
+  },
+  {
+    date: '2023-07-11',
+    image: 'https://www.howlerholo.net/wp-content/uploads/2023/07/70877.jpg',
+    name: 'WORTHY Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Show the worlds who is WORTHY!',
+    link: 'https://www.howlerholo.net/product/worthy-vinyl-stickers/'
   }
 ];
 
