@@ -738,7 +738,8 @@ const data: IItem[] = [
     },
     description:
       'Shirt with "Red Rising" in the Supreme Box Logo style with "Live for More" on the back.',
-    link: 'https://www.etsy.com/listing/1425218162/red-rising-live-for-more-boxlogo-unisex'
+    link: 'https://www.etsy.com/listing/1425218162/red-rising-live-for-more-boxlogo-unisex',
+    expired: true
   },
   {
     date: '2023-04-01',
@@ -751,7 +752,8 @@ const data: IItem[] = [
     },
     description:
       'Shirt with "Red Rising" in the Supreme Box Logo style with "Break the Chains" on the back.',
-    link: 'https://www.etsy.com/listing/1439395643/red-rising-break-the-chains-boxlogo'
+    link: 'https://www.etsy.com/listing/1439395643/red-rising-break-the-chains-boxlogo',
+    expired: true
   },
   {
     date: '2023-04-01',
@@ -764,7 +766,8 @@ const data: IItem[] = [
     },
     description:
       'Shirt with "House Mars" in the Supreme Box Logo style with the sigil on the back.',
-    link: 'https://www.etsy.com/listing/1425147078/red-rising-house-mars-boxlogo-unisex-t'
+    link: 'https://www.etsy.com/listing/1425147078/red-rising-house-mars-boxlogo-unisex-t',
+    expired: true
   },
   {
     date: '2023-04-01',
@@ -776,7 +779,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Shirt with "Howler" in the Supreme Box Logo style.',
-    link: 'https://www.etsy.com/listing/1439345569/red-rising-howler-boxlogo-unisex-t-shirt'
+    link: 'https://www.etsy.com/listing/1439345569/red-rising-howler-boxlogo-unisex-t-shirt',
+    expired: true
   },
   {
     date: '2023-04-01',
