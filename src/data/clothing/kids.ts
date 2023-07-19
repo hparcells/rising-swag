@@ -159,6 +159,19 @@ const data: IItem[] = [
     description: 'The Geo Wolf design with the text "Omnis Vir Lupus" next to it.',
     link: 'https://www.etsy.com/listing/662691364/howler-infant-bodysuit',
     expired: true
+  },
+  {
+    date: '2023-07-19',
+    image: 'https://i.etsystatic.com/21279369/r/il/b1b520/4241874089/il_794xN.4241874089_ns3f.jpg',
+    name: 'Sleepy Sophocles Toddler Short Sleeve Tee',
+    tags: ['shirt', 'sophocles'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description:
+      "Dress your 'lil jelly bean in this Red Rising inspired toddler short-sleeve jersey t-shirt from 100% cotton with a unique print.",
+    link: 'https://www.etsy.com/listing/1312398025/'
   }
 ];
 

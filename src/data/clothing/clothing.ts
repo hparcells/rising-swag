@@ -1273,6 +1273,94 @@ const data: IItem[] = [
     },
     description: 'WORTHY – IYKYK',
     link: 'https://www.howlerholo.net/product/worthy-womens-tee/'
+  },
+  {
+    date: '2023-07-19',
+    image: 'https://i.etsystatic.com/21279369/r/il/5c6d2e/5148419541/il_794xN.5148419541_phaq.jpg',
+    name: 'HWLR ghostCloak Unisex T-Shirt (Light)',
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description:
+      'Hide from the enemy and catch them by surprise with this LIGHT HWLR ghostCloak Red Rising inspired fan tee.',
+    link: 'https://www.etsy.com/listing/1525675429/'
+  },
+  {
+    date: '2023-07-19',
+    image: 'https://i.etsystatic.com/21279369/r/il/9d1286/5100178490/il_794xN.5100178490_mfon.jpg',
+    name: 'HWLR ghostCloak Unisex T-Shirt (Dark)',
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description:
+      'Hide from the enemy and catch them by surprise with this dark HWLR ghostCloak Red Rising inspired fan tee.',
+    link: 'https://www.etsy.com/listing/1511496496'
+  },
+  {
+    date: '2023-07-19',
+    image: 'https://i.etsystatic.com/21279369/r/il/a21a61/5108785775/il_794xN.5108785775_e4pj.jpg',
+    name: 'Peerless Iron Gold Unisex T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description:
+      'Rise above the rest as a Peerless Iron Gold with this Red Rising inspired fan tee.',
+    link: 'https://www.etsy.com/listing/1502745054/'
+  },
+  {
+    date: '2023-07-19',
+    image: 'https://i.etsystatic.com/21279369/r/il/d3cc68/5148512327/il_794xN.5148512327_r2h3.jpg',
+    name: 'BOYO Printed Unisex T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: "Look simple, stylish and Fitchner'esque with this Red Rising inspired Boyo tee!",
+    link: 'https://www.etsy.com/listing/1525692663/'
+  },
+  {
+    date: '2023-07-19',
+    image: 'https://i.etsystatic.com/21279369/r/il/024a99/5148485879/il_794xN.5148485879_kd7u.jpg',
+    name: 'BOYO Embroidered Unisex Pique Polo',
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'Sharpen you image and dress like a Gold about to hit the golf course.',
+    link: 'https://www.etsy.com/listing/1511512298/'
+  },
+  {
+    date: '2023-07-19',
+    image: 'https://i.etsystatic.com/21279369/r/il/3dd39f/5151893571/il_794xN.5151893571_91ln.jpg',
+    name: 'Bloodydamn Ares Colorless Edition T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description:
+      'It could be you, it could always be you, boyo, if you go colorless with this Bloodydamn Ares shirt.',
+    link: 'https://www.etsy.com/listing/1526416497/'
+  },
+  {
+    date: '2023-07-19',
+    image: 'https://i.etsystatic.com/21279369/r/il/b5a6f0/5151909857/il_794xN.5151909857_sxtj.jpg',
+    name: 'Bloodydamn Ares Ruster Edition T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'A must have for Rusters and Helldivers alike - support the rising!',
+    link: 'https://www.etsy.com/listing/1512244158/'
   }
 ];
 

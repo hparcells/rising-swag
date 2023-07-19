@@ -442,6 +442,19 @@ const data: IItem[] = [
     },
     description: 'Hat with a leather Den patch.',
     link: 'https://www.howlerholo.net/product/den-hat-with-leather-patch-round/'
+  },
+  {
+    date: '2023-07-19',
+    image: 'https://i.etsystatic.com/21279369/r/il/59fe96/5100324258/il_794xN.5100324258_lz9b.jpg',
+    name: 'BOYO Snapback Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description:
+      "Not quite Ares' helm... but close enough. Be ready for the rising with the Red Rising inspired BOYO cap.",
+    link: 'https://www.etsy.com/listing/1525699149/'
   }
 ];
 
