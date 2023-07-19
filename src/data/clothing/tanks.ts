@@ -25,8 +25,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
     },
     description: 'Hic Est Lupus Motherfucker',
-    link: 'https://www.etsy.com/listing/1360171141/hic-est-lupus-explicit-womens-tank',
-    expired: true
+    link: 'https://www.etsy.com/listing/1360171141/hic-est-lupus-explicit-womens-tank'
   },
   {
     date: '2023-03-15',
