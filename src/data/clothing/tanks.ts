@@ -4,7 +4,7 @@ const data: IItem[] = [
   {
     date: '2023-03-13',
     image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/unisex-premium-tank-top-white-front-60e7265b5ea21_1024x1024.jpg',
+      'https://www.lit-escalates.com/cdn/shop/products/unisex-premium-tank-top-black-front-60e72649278a0_1024x1024@2x.jpg',
     name: 'Omnis Vir Lupus Tank Top',
     tags: ['shirt', 'official'],
     shop: {
