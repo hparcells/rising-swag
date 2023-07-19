@@ -84,6 +84,70 @@ const data: IItem[] = [
     },
     description: 'Candle scented with whiskey, cedar, orange, and chili powder.',
     link: 'https://untiltheveryendco.com/products/sevro'
+  },
+  {
+    date: '2023-07-18',
+    image: 'https://i.etsystatic.com/41405967/r/il/df959e/5024240693/il_794xN.5024240693_lxs6.jpg',
+    name: 'Darrow Red Rising Inspired Candle',
+    tags: ['candle', 'darrow'],
+    shop: {
+      name: 'shopheartsfire',
+      url: 'https://www.etsy.com/shop/shopheartsfire'
+    },
+    description:
+      'I am the Reaper, and Death is my Shadow. Smells of Egyptian Amber and Dragons Blood.',
+    link: 'https://www.etsy.com/listing/1483530998/'
+  },
+  {
+    date: '2023-07-18',
+    image: 'https://i.etsystatic.com/41405967/r/il/4c79bd/5001699328/il_794xN.5001699328_6k4i.jpg',
+    name: 'Fitchner Red Rising Inspired Candle',
+    tags: ['candle'],
+    shop: {
+      name: 'shopheartsfire',
+
+      url: 'https://www.etsy.com/shop/shopheartsfire'
+    },
+    description:
+      '"In a storm, you don\'t tie two boats together. They\'ll drag each other down." Smells of Bubble Gum and Strawberry Guava.',
+    link: 'https://www.etsy.com/listing/1489580438/'
+  },
+  {
+    date: '2023-07-18',
+    image: 'https://i.etsystatic.com/41405967/r/il/6ae382/5001695724/il_794xN.5001695724_jq9d.jpg',
+    name: 'Cassius Red Rising Inspired Candle',
+    tags: ['candle', 'cassius'],
+    shop: {
+      name: 'shopheartsfire',
+      url: 'https://www.etsy.com/shop/shopheartsfire'
+    },
+    description:
+      "Come get a whiff of everyone's favorite Golden Boy. Smells of Toasted Coconut and Golden Santal.",
+    link: 'https://www.etsy.com/listing/1503766841/'
+  },
+  {
+    date: '2023-07-18',
+    image: 'https://i.etsystatic.com/41405967/r/il/45e82f/5049934933/il_794xN.5049934933_4l6l.jpg',
+    name: 'Mustang Red Rising Inspired Candle',
+    tags: ['candle', 'mustang'],
+    shop: {
+      name: 'shopheartsfire',
+      url: 'https://www.etsy.com/shop/shopheartsfire'
+    },
+    description: 'Smells of Cashmere Musk and Vetiver.',
+    link: 'https://www.etsy.com/listing/1503770799/'
+  },
+  {
+    date: '2023-07-18',
+    image: 'https://i.etsystatic.com/41405967/r/il/160e49/5049932315/il_794xN.5049932315_as4h.jpg',
+    name: 'Sevro Red Rising Inspired Candle',
+    tags: ['candle', 'sevro'],
+    shop: {
+      name: 'shopheartsfire',
+      url: 'https://www.etsy.com/shop/shopheartsfire'
+    },
+    description: 'Everyone needs a Mangy Guardian Angel. Smells of Sweet Orange and Sriracha',
+    link: 'https://www.etsy.com/listing/1489577888/'
   }
 ];
 
