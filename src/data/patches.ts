@@ -51,7 +51,8 @@ const data: IItem[] = [
       url: 'https://www.lit-escalates.com/'
     },
     description: "Masters of pleasure this one's for you. Represent your favorite Color in style!",
-    link: 'https://www.lit-escalates.com/products/pink-sigil-iron-on-patch'
+    link: 'https://www.lit-escalates.com/products/pink-sigil-iron-on-patch',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -63,7 +64,8 @@ const data: IItem[] = [
       url: 'https://www.lit-escalates.com/'
     },
     description: 'Mechanics and Engineers to the front! Represent your favorite Color in style.',
-    link: 'https://www.lit-escalates.com/products/orange-sigil-iron-on-patch'
+    link: 'https://www.lit-escalates.com/products/orange-sigil-iron-on-patch',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -76,7 +78,8 @@ const data: IItem[] = [
     },
     description:
       "Lawyers and Government Officials, it's time to fly your flag. Represent your favorite Color in style!",
-    link: 'https://www.lit-escalates.com/products/copper-sigil-iron-on-patch'
+    link: 'https://www.lit-escalates.com/products/copper-sigil-iron-on-patch',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -88,7 +91,8 @@ const data: IItem[] = [
       url: 'https://www.lit-escalates.com/'
     },
     description: "Warriors, it's time. Represent your favorite Color in style!",
-    link: 'https://www.lit-escalates.com/products/obsidian-sigil-iron-on-patch'
+    link: 'https://www.lit-escalates.com/products/obsidian-sigil-iron-on-patch',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -101,7 +105,8 @@ const data: IItem[] = [
     },
     description:
       'Be you a member of the clergy or judiciary, you can now represent your favorite Color in style!',
-    link: 'https://www.lit-escalates.com/products/white-sigil-iron-on-patch'
+    link: 'https://www.lit-escalates.com/products/white-sigil-iron-on-patch',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -114,7 +119,8 @@ const data: IItem[] = [
     },
     description:
       "Navigators and Pilots, we've got you covered. Represent your favorite Color in style!",
-    link: 'https://www.lit-escalates.com/products/blue-sigil-iron-on-patch'
+    link: 'https://www.lit-escalates.com/products/blue-sigil-iron-on-patch',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -126,7 +132,8 @@ const data: IItem[] = [
       url: 'https://www.lit-escalates.com/'
     },
     description: 'Technicians and programmers rejoice! Represent your favorite Color in style.',
-    link: 'https://www.lit-escalates.com/products/green-sigil-iron-on-patch'
+    link: 'https://www.lit-escalates.com/products/green-sigil-iron-on-patch',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -138,7 +145,8 @@ const data: IItem[] = [
       url: 'https://www.lit-escalates.com/'
     },
     description: 'Finance fiends report for duty. Represent your favorite Color in style!',
-    link: 'https://www.lit-escalates.com/products/silver-sigil-iron-on-patch'
+    link: 'https://www.lit-escalates.com/products/silver-sigil-iron-on-patch',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -151,7 +159,8 @@ const data: IItem[] = [
     },
     description:
       'Calling all ye hallowed medical folk. You can now represent your favorite Color in style!',
-    link: 'https://www.lit-escalates.com/products/yellow-sigil-iron-on-patch'
+    link: 'https://www.lit-escalates.com/products/yellow-sigil-iron-on-patch',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -164,7 +173,8 @@ const data: IItem[] = [
     },
     description:
       "Chefs and Janitors and all ya'll who make in the service industry, this one's for you. Represent your favorite Color in style!",
-    link: 'https://www.lit-escalates.com/products/brown-sigil-iron-on-patch'
+    link: 'https://www.lit-escalates.com/products/brown-sigil-iron-on-patch',
+    expired: true
   },
   {
     date: '2023-05-04',
