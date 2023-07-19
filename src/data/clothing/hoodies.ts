@@ -3,8 +3,7 @@ import { IItem } from '@/types/item';
 const data: IItem[] = [
   {
     date: '2023-03-13',
-    image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/unisex-heavy-blend-hoodie-red-5ff21e41e966f_1024x1024.jpg',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/HowlerHoodieRedFemale_1024x1024@2x.jpg',
     name: 'Red Howler Hoodie',
     tags: ['hoodie', 'official'],
     shop: {
@@ -18,7 +17,7 @@ const data: IItem[] = [
   {
     date: '2023-03-13',
     image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/unisex-heavy-blend-hoodie-black-front-62c85cff0d2dc_1024x1024.jpg',
+      'https://www.lit-escalates.com/cdn/shop/products/unisex-heavy-blend-hoodie-black-front-62c85cff0d167_1024x1024@2x.jpg',
     name: 'Black Howler Hoodie',
     tags: ['hoodie', 'official'],
     shop: {

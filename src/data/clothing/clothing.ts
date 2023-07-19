@@ -31,7 +31,7 @@ const data: IItem[] = [
   {
     date: '2023-03-13',
     image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/unisex-basic-softstyle-t-shirt-black-zoomed-in-6016f738c797e_1024x1024.jpg',
+      'https://www.lit-escalates.com/cdn/shop/files/ShitEscalatesEmbroideredTshirt1619_1024x1024@2x.jpg',
     name: 'Shit Escalates Embroidered T-shirt',
     tags: ['shirt', 'official'],
     shop: {
@@ -59,7 +59,7 @@ const data: IItem[] = [
   {
     date: '2023-03-13',
     image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/unisex-basic-softstyle-t-shirt-black-front-632ad2f693241_1024x1024.jpg',
+      'https://www.lit-escalates.com/cdn/shop/files/RedHaemanthusUnisexTshirt1079_1024x1024@2x.jpg',
     name: 'Red Haemanthus T-Shirt',
     tags: ['shirt', 'red', 'official'],
     shop: {

@@ -4,7 +4,7 @@ const data: IItem[] = [
   {
     date: '2023-03-07',
     image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/unisex-sherpa-denim-jacket-black-denim-front-63694c0e01cf5_1024x1024@2x.jpg',
+      'https://www.lit-escalates.com/cdn/shop/files/DenimHowlerSherpaBlackJacket029_1024x1024@2x.jpg',
     name: 'Denim Embroidered Howler Sherpa Jacket (Black)',
     tags: ['jacket', 'official'],
     shop: {
@@ -16,8 +16,7 @@ const data: IItem[] = [
   },
   {
     date: '2023-03-10',
-    image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/premium-recycled-bomber-jacket-black-front-636949f435bc0_1024x1024.jpg',
+    image: '//www.lit-escalates.com/cdn/shop/files/BlackBomberHowlerJacket1542_1024x1024@2x.jpg',
     name: 'Bomber Howler Embroidered Jacket (Space Black)',
     tags: ['jacket', 'official'],
     shop: {
@@ -31,7 +30,7 @@ const data: IItem[] = [
   {
     date: '2023-03-10',
     image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/unisex-sherpa-denim-jacket-light-denim-left-front-63694e8275d3c_1024x1024.jpg',
+      'https://www.lit-escalates.com/cdn/shop/files/DenimEmbroideredHowlerSherpaJacket006_1024x1024@2x.jpg',
     name: 'Denim Embroidered Howler Sherpa Jacket (Blue)',
     tags: ['jacket', 'official'],
     shop: {
@@ -44,8 +43,7 @@ const data: IItem[] = [
   },
   {
     date: '2023-03-10',
-    image:
-      'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/premium-recycled-bomber-jacket-army-front-2-63693e9b5f242_1024x1024.jpg',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/BomberHowlerGreen052_1024x1024@2x.jpg',
     name: 'Bomber Howler Embroidered Jacket (Army Green)',
     tags: ['jacket', 'official'],
     shop: {
