@@ -467,6 +467,18 @@ const data: IItem[] = [
     },
     description: '"Honor is what echoes."',
     link: 'https://www.etsy.com/listing/1494348038/'
+  },
+  {
+    date: '2023-07-19',
+    image: 'https://i.etsystatic.com/25978430/r/il/77cf4a/5089245480/il_794xN.5089245480_f5fl.jpg',
+    name: 'Bearded Cassius',
+    tags: ['print', 'cassius', 'featured'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Look at this sad boy. Maybe raising money for birds will make him happy?',
+    link: 'https://www.etsy.com/listing/1523239285/'
   }
 ];
 
