@@ -190,6 +190,18 @@ const data: IItem[] = [
     },
     description: "A sweatshirt with the Howler's Den logo.",
     link: 'https://www.howlerholo.net/product/howlersdencrewneck/'
+  },
+  {
+    date: '2023-07-20',
+    image: 'https://i.etsystatic.com/34186803/r/il/588f10/5001560132/il_794xN.5001560132_8owu.jpg',
+    name: 'The Howlers Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'NiceAndNerdy',
+      url: 'https://www.etsy.com/shop/NiceAndNerdy'
+    },
+    description: 'Show your love for the Howlers with this Red Rising sweatshirt!',
+    link: 'https://www.etsy.com/listing/1489521142/'
   }
 ];
 

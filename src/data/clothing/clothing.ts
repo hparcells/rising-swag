@@ -1361,6 +1361,18 @@ const data: IItem[] = [
     },
     description: 'A must have for Rusters and Helldivers alike - support the rising!',
     link: 'https://www.etsy.com/listing/1512244158/'
+  },
+  {
+    date: '2023-07-20',
+    image: 'https://i.etsystatic.com/34186803/r/il/342963/5035475211/il_794xN.5035475211_5elw.jpg',
+    name: 'The Howlers Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'NiceAndNerdy',
+      url: 'https://www.etsy.com/shop/NiceAndNerdy'
+    },
+    description: 'Show your love for the Howlers with this Red Rising shirt!',
+    link: 'https://www.etsy.com/listing/1486187348/'
   }
 ];
 
