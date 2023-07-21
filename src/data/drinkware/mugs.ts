@@ -400,6 +400,18 @@ const data: IItem[] = [
     },
     description: 'How will you wield your power?',
     link: 'https://www.etsy.com/listing/1472810590'
+  },
+  {
+    date: '2023-07-21',
+    image: 'https://i.etsystatic.com/16046340/r/il/114bf3/5090631146/il_794xN.5090631146_sdgk.jpg',
+    name: 'Helldiver Coffee Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Darrow inspired coffee house mug.',
+    link: 'https://www.etsy.com/listing/1523567141/'
   }
 ];
 

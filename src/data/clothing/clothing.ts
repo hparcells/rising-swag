@@ -1373,6 +1373,18 @@ const data: IItem[] = [
     },
     description: 'Show your love for the Howlers with this Red Rising shirt!',
     link: 'https://www.etsy.com/listing/1486187348/'
+  },
+  {
+    date: '2023-07-20',
+    image: 'https://i.etsystatic.com/36866310/r/il/091e40/4966502920/il_794xN.4966502920_jpkd.jpg',
+    name: 'Son of Ares Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Waltones',
+      url: 'https://www.etsy.com/shop/Waltones'
+    },
+    description: 'Show your patronage to the Sons of Ares!',
+    link: 'https://www.etsy.com/listing/1495605621/'
   }
 ];
 
