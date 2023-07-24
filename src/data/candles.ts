@@ -110,7 +110,8 @@ const data: IItem[] = [
     },
     description:
       '"In a storm, you don\'t tie two boats together. They\'ll drag each other down." Smells of Bubble Gum and Strawberry Guava.',
-    link: 'https://www.etsy.com/listing/1489580438/'
+    link: 'https://www.etsy.com/listing/1489580438/',
+    expired: true
   },
   {
     date: '2023-07-18',

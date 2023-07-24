@@ -117,7 +117,8 @@ const data: IItem[] = [
     },
     description:
       'Hail Libertas! Hail Reaper! This is an awesome sticker which shows off your rank as a Howler and dedication in breaking the chains',
-    link: 'https://www.etsy.com/listing/1090675364/sticker-holographic-red-rising-sticker'
+    link: 'https://www.etsy.com/listing/1090675364/sticker-holographic-red-rising-sticker',
+    expired: true
   },
   {
     date: '2023-03-17',
