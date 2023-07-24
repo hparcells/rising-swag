@@ -202,6 +202,19 @@ const data: IItem[] = [
     },
     description: 'Show your love for the Howlers with this Red Rising sweatshirt!',
     link: 'https://www.etsy.com/listing/1489521142/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/d7041d/5046168383/il_794xN.5046168383_6bxl.jpg',
+    name: 'Golden Son Distressed Concert Collection Crewneck Sweatshirt',
+    tags: ['sweatshirt', 'golden-son'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'A graphic inspired by the Gold houses the Gala brought together and a night we will never forget.',
+    link: 'https://www.etsy.com/listing/1485611747/'
   }
 ];
 

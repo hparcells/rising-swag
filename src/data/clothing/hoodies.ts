@@ -292,6 +292,19 @@ const data: IItem[] = [
     description: 'Hoodie with the Peerless box logo and "Per Aspera Ad Astra" on the sleeve.',
     link: 'https://www.etsy.com/listing/1457743916/red-rising-peerless-hoodie-with-per',
     expired: true
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/5fe7fe/4922307948/il_794xN.4922307948_ew5u.jpg',
+    name: 'Red Rising Distressed Concert Collection Hoodie',
+    tags: ['hoodie', 'red-rising'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'The first graphic of the concert collection pays homage to the book that started it all.',
+    link: 'https://www.etsy.com/listing/1471526684/'
   }
 ];
 

@@ -1395,8 +1395,110 @@ const data: IItem[] = [
       name: 'jesslostinbooks',
       url: 'https://www.etsy.com/shop/jesslostinbooks'
     },
-    description: 'A graphic designed to celebrate Darrow’s journey and the Light Bringer Tour.',
+    description: "A graphic designed to celebrate Darrow's journey and the Light Bringer Tour.",
     link: 'https://www.etsy.com/listing/1513529592/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/2fa75c/5046590263/il_794xN.5046590263_iect.jpg',
+    name: 'Golden Son Distressed Concert Collection Unisex Tee',
+    tags: ['shirt', 'golden-son'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'A graphic inspired by the Gold houses the Gala brought together and a night we will never forget.',
+    link: 'https://www.etsy.com/listing/1500691807/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/0b5789/5046587653/il_794xN.5046587653_dgxp.jpg',
+    name: 'Dark Age Distressed Concert Collection Unisex Tee (Front/Back)',
+    tags: ['shirt', 'dark-age'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'Battle melted skulls and chaotic storm gods inspired this heavy metal back graphic.',
+    link: 'https://www.etsy.com/listing/1486505652/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/227f7d/4989723680/il_794xN.4989723680_nbjj.jpg',
+    name: 'Omnis Vir Lupus Unisex Jersey Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Omnis vir lupus. Everyone a wolf.',
+    link: 'https://www.etsy.com/listing/1500988357/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/afd716/4998211330/il_794xN.4998211330_nrhy.jpg',
+    name: 'Red Rising Distressed Concert Collection Unisex Tee (Front/Back)',
+    tags: ['shirt', 'red-rising'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'The first graphic of the concert collection pays homage to the book that started it all.',
+    link: 'https://www.etsy.com/listing/1500692335/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/65954e/4998356012/il_794xN.4998356012_m0v1.jpg',
+    name: 'Morning Star Distressed Concert Collection Unisex Tee (Front/Back)',
+    tags: ['shirt', 'morning-star'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'A tribute to the brotherhood Ragnar and Darrow share, these research based Norse ruins depict their shared story.',
+    link: 'https://www.etsy.com/listing/1486509570/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/d34a52/4998084116/il_794xN.4998084116_p8vm.jpg',
+    name: 'Dark Age Distressed Concert Collection Tee',
+    tags: ['shirt', 'dark-age'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Battle melted skulls and chaotic storm gods inspired this heavy metal graphic.',
+    link: 'https://www.etsy.com/listing/1486958717/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/6bf055/4920800314/il_794xN.4920800314_423l.jpg',
+    name: 'Golden Son Distressed Concert Collection Tee',
+    tags: ['shirt', 'golden-son'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'A graphic inspired by the Gold houses the Gala brought together and a night we will never forget.',
+    link: 'https://www.etsy.com/listing/1485325135/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/711f37/4969134605/il_794xN.4969134605_ld6u.jpg',
+    name: 'Iron Gold Distressed Concert Collection Tee',
+    tags: ['shirt', 'iron-gold'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'A map from Mercury to Io is surrounded by the celestial coordinates of the moon and planets at the exact release time of Iron Gold.',
+    link: 'https://www.etsy.com/listing/1471172268/'
   }
 ];
 

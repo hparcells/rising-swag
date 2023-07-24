@@ -132,6 +132,31 @@ const data: IItem[] = [
     },
     description: 'Are you WORTHY? – this bleeding heart edition has a red anatomical heart.',
     link: 'https://www.howlerholo.net/product/worthy-unisex-tank/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/3aeead/4927747546/il_794xN.4927747546_dthr.jpg',
+    name: "Dark Age Distressed Concert Collection Women's Racerback Tank",
+    tags: ['shirt', 'dark-age'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Battle melted skulls and chaotic storm gods inspired this heavy metal graphic.',
+    link: 'https://www.etsy.com/listing/1472762552/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/45332d/4922401254/il_794xN.4922401254_esw1.jpg',
+    name: "Golden Son Distressed Concert Collection Women's Racerback Tank",
+    tags: ['shirt', 'golden-son'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'A graphic inspired by the Gold houses the Gala brought together and a night we will never forget.',
+    link: 'https://www.etsy.com/listing/1471439026/'
   }
 ];
 

@@ -257,6 +257,32 @@ const data: IItem[] = [
     },
     description: 'Hail Reaper! Hail Libertas!',
     link: 'https://www.etsy.com/listing/1492610885/hail-enamel-pin-preorder'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/19dd1d/5056385175/il_794xN.5056385175_i18h.jpg',
+    name: 'Pegasus Legion Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'Preorders are open for this soft enamel 1.5" gold polished pin representing Darrow and his 7th Legion.',
+    link: 'https://www.etsy.com/listing/1491109380/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/4d62d6/5056454189/il_794xN.5056454189_hoam.jpg',
+    name: 'Armored Legion - Helldivers Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'Preorders are open for this soft enamel 1.5" silver polished pin representing the Fifteenth Armored Legion, aka Helldivers, with their Drachenjagers front and center.',
+    link: 'https://www.etsy.com/listing/1505298849/'
   }
 ];
 
