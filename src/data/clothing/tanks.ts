@@ -6,7 +6,7 @@ const data: IItem[] = [
     image:
       'https://www.lit-escalates.com/cdn/shop/products/unisex-premium-tank-top-black-front-60e72649278a0_1024x1024@2x.jpg',
     name: 'Omnis Vir Lupus Tank Top',
-    tags: ['shirt', 'official'],
+    tags: ['tank', 'official'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
@@ -19,7 +19,7 @@ const data: IItem[] = [
     date: '2023-03-15',
     image: 'https://i.etsystatic.com/21279369/r/il/29c4ea/4400194212/il_1140xN.4400194212_37xl.jpg',
     name: "Hic Est Lupus Motherfucker Women's Tank",
-    tags: ['shirt'],
+    tags: ['tank'],
     shop: {
       name: 'TheMightyPenBookTees',
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
@@ -31,7 +31,7 @@ const data: IItem[] = [
     date: '2023-03-15',
     image: 'https://i.etsystatic.com/21279369/r/il/071af0/4447608247/il_1588xN.4447608247_529x.jpg',
     name: 'Hic Est Lupus Motherfucker Tank Top',
-    tags: ['shirt'],
+    tags: ['tank'],
     shop: {
       name: 'TheMightyPenBookTees',
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
@@ -44,7 +44,7 @@ const data: IItem[] = [
     date: '2023-03-15',
     image: 'https://i.etsystatic.com/21279369/r/il/c3657e/2923200748/il_794xN.2923200748_2e9l.jpg',
     name: 'HWLR Logo Gold Tank Top',
-    tags: ['shirt'],
+    tags: ['tank'],
     shop: {
       name: 'TheMightyPenBookTees',
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
@@ -56,7 +56,7 @@ const data: IItem[] = [
     date: '2023-03-29',
     image: 'https://i.etsystatic.com/36119472/r/il/3f3902/4539504926/il_794xN.4539504926_ts4h.jpg',
     name: 'A Sage Digs The Roots Tank',
-    tags: ['shirt'],
+    tags: ['tank'],
     shop: {
       name: 'TooManyBones',
       url: 'https://www.etsy.com/shop/TooManyBones'
@@ -71,7 +71,7 @@ const data: IItem[] = [
     image:
       'https://i.etsystatic.com/19365370/r/il/d62e1f/1841690253/il_680x540.1841690253_pcyw.jpg',
     name: "Women's HowlerPod Tank",
-    tags: ['shirt'],
+    tags: ['tank'],
     shop: {
       name: 'HowlerPod',
       url: 'https://www.etsy.com/shop/HowlerPod'
@@ -85,7 +85,7 @@ const data: IItem[] = [
     image:
       'https://i.etsystatic.com/19365370/r/il/7530f3/1945566559/il_680x540.1945566559_8mhr.jpg',
     name: 'Show Me the Body Cassius Tee',
-    tags: ['shirt', 'cassius', 'iron-gold'],
+    tags: ['tank', 'cassius', 'iron-gold'],
     shop: {
       name: 'HowlerPod',
       url: 'https://www.etsy.com/shop/HowlerPod'
@@ -99,7 +99,7 @@ const data: IItem[] = [
     date: '2023-06-14',
     image: 'https://i.etsystatic.com/10165646/r/il/f8c707/4964412024/il_794xN.4964412024_1w8r.jpg',
     name: 'Omnis vir Lupus Tank',
-    tags: ['shirt'],
+    tags: ['tank'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -112,7 +112,7 @@ const data: IItem[] = [
     date: '2023-06-14',
     image: 'https://i.etsystatic.com/10165646/r/il/abf673/4964414244/il_794xN.4964414244_98c5.jpg',
     name: 'Let Fall the Rain Tank',
-    tags: ['shirt'],
+    tags: ['tank'],
     shop: {
       name: 'LiveForMore',
       url: 'https://www.etsy.com/shop/LiveForMore'
@@ -125,7 +125,7 @@ const data: IItem[] = [
     date: '2023-07-11',
     image: 'https://www.howlerholo.net/wp-content/uploads/2023/07/24639.jpg',
     name: 'Red WORTHY Tank',
-    tags: ['shirt'],
+    tags: ['tank'],
     shop: {
       name: "The Howler's Den",
       url: 'https://www.howlerholo.net'
@@ -137,7 +137,7 @@ const data: IItem[] = [
     date: '2023-07-23',
     image: 'https://i.etsystatic.com/43349528/r/il/3aeead/4927747546/il_794xN.4927747546_dthr.jpg',
     name: "Dark Age Distressed Concert Collection Women's Racerback Tank",
-    tags: ['shirt', 'dark-age'],
+    tags: ['tank', 'dark-age'],
     shop: {
       name: 'jesslostinbooks',
       url: 'https://www.etsy.com/shop/jesslostinbooks'
@@ -149,7 +149,7 @@ const data: IItem[] = [
     date: '2023-07-23',
     image: 'https://i.etsystatic.com/43349528/r/il/45332d/4922401254/il_794xN.4922401254_esw1.jpg',
     name: "Golden Son Distressed Concert Collection Women's Racerback Tank",
-    tags: ['shirt', 'golden-son'],
+    tags: ['tank', 'golden-son'],
     shop: {
       name: 'jesslostinbooks',
       url: 'https://www.etsy.com/shop/jesslostinbooks'
