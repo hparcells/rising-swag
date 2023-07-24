@@ -1385,6 +1385,18 @@ const data: IItem[] = [
     },
     description: 'Show your patronage to the Sons of Ares!',
     link: 'https://www.etsy.com/listing/1495605621/'
+  },
+  {
+    date: '2023-07-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/b6cd74/5110384032/il_794xN.5110384032_3f0d.jpg',
+    name: 'Light Bringer Distressed Tour Tee',
+    tags: ['shirt', 'light-bringer', 'featured'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'A graphic designed to celebrate Darrow’s journey and the Light Bringer Tour.',
+    link: 'https://www.etsy.com/listing/1513529592/'
   }
 ];
 
