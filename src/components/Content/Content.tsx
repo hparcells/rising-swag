@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Alert, Pagination, Text } from '@mantine/core';
 import clsx from 'clsx';
+import { IconAlertCircle } from '@tabler/icons-react';
 
 import FilterBox from '../FilterBox/FilterBox';
 import ItemCard from '../ItemCard/ItemCard';
@@ -21,6 +22,7 @@ function Content() {
   const [filteredData, setFilteredData] = useState<IItem[]>(null as any);
   const [pages, setPages] = useState<number>(1);
   const [page, setPage] = useState<number>(1);
+
   useEffect(() => {
     setFilteredData(
       ALL_DATA.filter((item) => {
@@ -90,7 +92,21 @@ function Content() {
     <div className={classes.root}>
       <div className={classes.content}>
         <div className={clsx(classes.aboveCards, classes.squeeze)}>
-          {filteredData && <FilterBox />}
+          {filteredData && (
+            <div>
+              <Alert
+                icon={<IconAlertCircle size='1rem' />}
+                title='Rising Swag is taking a short break'
+                color='orange'
+                variant='filled'
+              >
+                Rising Swag is taking a short break following the release of Light Bringer. Any
+                new/existing items will not be added/updated on the site. We will return early
+                August 2023. Thank you for your patience!
+              </Alert>
+              <FilterBox />
+            </div>
+          )}
 
           {/* This has got to be the worst code I've written. */}
           {filteredData && (
