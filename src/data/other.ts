@@ -40,7 +40,8 @@ const data: IItem[] = [
     },
     description:
       "It'll save your life, at the cost of a limb. Nearly 3 feet long, will come shipped in 5 pieces. Will need to be glued, sanded, and painted.",
-    link: 'https://www.etsy.com/listing/1213418629/slingblade-kit'
+    link: 'https://www.etsy.com/listing/1213418629/slingblade-kit',
+    expired: true
   },
   {
     date: '2023-03-14',

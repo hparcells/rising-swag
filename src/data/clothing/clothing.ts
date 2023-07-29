@@ -637,7 +637,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: '"You\'re making me emotional and I hate it." -Victra au Julii',
-    link: 'https://www.etsy.com/listing/1384125202/red-rising-victra-bookish-valentines-day'
+    link: 'https://www.etsy.com/listing/1384125202/red-rising-victra-bookish-valentines-day',
+    expired: true
   },
   {
     date: '2023-03-22',

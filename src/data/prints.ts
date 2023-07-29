@@ -239,7 +239,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: 'Features a SlingBlade with the quote: "I am the Reaper, and death is my shadow."',
-    link: 'https://www.etsy.com/listing/926281316/darrow-of-lykos-11x17-print-the-reaper'
+    link: 'https://www.etsy.com/listing/926281316/darrow-of-lykos-11x17-print-the-reaper',
+    expired: true
   },
   {
     date: '2023-03-24',
