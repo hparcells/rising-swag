@@ -203,8 +203,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: '3D Laser cut graphic of Sevro from Red Rising.',
-    link: 'https://www.etsy.com/listing/1433882677/wood-engraved-red-rising-graphic-sevro',
-    expired: true
+    link: 'https://www.etsy.com/listing/1433882677/wood-engraved-red-rising-graphic-sevro'
   },
   {
     date: '2023-03-21',
@@ -294,8 +293,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/3DPrintsbyTheodore'
     },
     description: 'A 3D printed Howler logo printed in Marble and Red pla.',
-    link: 'https://www.etsy.com/listing/1276452077/howler-sign-red-rising-bookcase-display',
-    expired: true
+    link: 'https://www.etsy.com/listing/1276452077/howler-sign-red-rising-bookcase-display'
   },
   {
     date: '2023-03-22',
@@ -386,8 +384,7 @@ const data: IItem[] = [
     },
     description:
       '3D Laser cut graphic of Pulse Armor from Red Rising. Laser cut from basswood, layered, stained, and sealed.',
-    link: 'https://www.etsy.com/listing/1433872471/wood-engraved-red-rising-graphic-pulse',
-    expired: true
+    link: 'https://www.etsy.com/listing/1433872471/wood-engraved-red-rising-graphic-pulse'
   },
   {
     date: '2023-04-12',
