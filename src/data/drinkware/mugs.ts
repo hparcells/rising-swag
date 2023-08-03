@@ -412,6 +412,19 @@ const data: IItem[] = [
     },
     description: 'Darrow inspired coffee house mug.',
     link: 'https://www.etsy.com/listing/1523567141/'
+  },
+  {
+    date: '2023-08-02',
+    image: 'https://i.etsystatic.com/16046340/r/il/60f201/3408645527/il_794xN.3408645527_33ba.jpg',
+    name: "I'm Gold Mug",
+    tags: ['mug', 'sevro'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description:
+      "'I'm Gold, bitch. What'd you expect? Warm milk and cookies just because I'm pocket-sized?",
+    link: 'https://www.etsy.com/listing/1093023421/'
   }
 ];
 
