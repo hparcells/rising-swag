@@ -828,8 +828,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/yakitori'
     },
     description: "A sticker of Ragnar's quote from Morning Star.",
-    link: 'https://www.etsy.com/listing/1439884315/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1439884315/'
   },
   {
     date: '2023-07-11',
