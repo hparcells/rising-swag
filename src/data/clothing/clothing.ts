@@ -1391,7 +1391,7 @@ const data: IItem[] = [
     date: '2023-07-23',
     image: 'https://i.etsystatic.com/43349528/r/il/b6cd74/5110384032/il_794xN.5110384032_3f0d.jpg',
     name: 'Light Bringer Distressed Tour Tee',
-    tags: ['shirt', 'light-bringer', 'featured'],
+    tags: ['shirt', 'light-bringer'],
     shop: {
       name: 'jesslostinbooks',
       url: 'https://www.etsy.com/shop/jesslostinbooks'
