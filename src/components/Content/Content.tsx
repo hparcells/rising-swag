@@ -94,16 +94,6 @@ function Content() {
         <div className={clsx(classes.aboveCards, classes.squeeze)}>
           {filteredData && (
             <div>
-              <Alert
-                icon={<IconAlertCircle size='1rem' />}
-                title='Rising Swag is taking a short break'
-                color='orange'
-                variant='filled'
-              >
-                Rising Swag is taking a short break following the release of Light Bringer. Any
-                new/existing items will not be added/updated on the site. We will return early
-                August 2023. Thank you for your patience!
-              </Alert>
               <FilterBox />
             </div>
           )}
