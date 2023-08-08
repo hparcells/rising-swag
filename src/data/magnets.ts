@@ -12,7 +12,8 @@ const data: IItem[] = [
     },
     description:
       'Howlers and low colors alike look to The Reaper of Mars and use “Hail Reaper” as a greeting as well as a battle cry. Show your support for the uprising by displaying this magnet!',
-    link: 'https://www.etsy.com/listing/1034871171/magnet-red-rising-magnet-hail-reaper'
+    link: 'https://www.etsy.com/listing/1034871171/magnet-red-rising-magnet-hail-reaper',
+    expired: true
   },
   {
     date: '2023-03-20',

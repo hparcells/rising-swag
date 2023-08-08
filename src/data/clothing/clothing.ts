@@ -794,7 +794,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Shirt with "Peerless" in the Supreme Box Logo style.',
-    link: 'https://www.etsy.com/listing/1439342385/red-rising-peerless-boxlogo-unisex-t'
+    link: 'https://www.etsy.com/listing/1439342385/red-rising-peerless-boxlogo-unisex-t',
+    expired: true
   },
   {
     date: '2023-04-02',
@@ -955,7 +956,8 @@ const data: IItem[] = [
     },
     description:
       'Supreme-style "Peerless" shirt with the cover art from the Subterranean Press edition of Golden Son.',
-    link: 'https://www.etsy.com/listing/1467936389/red-rising-peerless-scarred-unisex-t'
+    link: 'https://www.etsy.com/listing/1467936389/red-rising-peerless-scarred-unisex-t',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -1007,7 +1009,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Supreme-style "Howler" shirt with a head of a wolf.',
-    link: 'https://www.etsy.com/listing/1457565602/red-rising-howler-box-logo-unisex-t'
+    link: 'https://www.etsy.com/listing/1457565602/red-rising-howler-box-logo-unisex-t',
+    expired: true
   },
   {
     date: '2023-05-04',

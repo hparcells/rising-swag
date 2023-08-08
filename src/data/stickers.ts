@@ -452,7 +452,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/thebookishbeeco'
     },
     description: 'A sticker depicting Eo with the text: "Break the Chains My Love"',
-    link: 'https://www.etsy.com/listing/1383526266/break-the-chains-my-love-vinyl'
+    link: 'https://www.etsy.com/listing/1383526266/break-the-chains-my-love-vinyl',
+    expired: true
   },
   {
     date: '2023-04-03',
