@@ -53,3 +53,7 @@ export const COLORS = [
  * Colors of the Red Rising series.
  */
 export type IColor = (typeof COLORS)[number];
+
+export const EVENTS = ['howlercon'] as const;
+
+export type IEvent = (typeof EVENTS)[number];

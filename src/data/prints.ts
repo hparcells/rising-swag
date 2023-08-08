@@ -480,6 +480,33 @@ const data: IItem[] = [
     },
     description: 'Look at this sad boy. Maybe raising money for birds will make him happy?',
     link: 'https://www.etsy.com/listing/1523239285/'
+  },
+  {
+    date: '2023-08-08',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/PosterShop_1024x1024@2x.jpg',
+    name: 'Archimedes Poster',
+    tags: ['print', 'light-bringer', 'howlercon'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Designed by Joel Daniel Phillips for the Light Bringer Launch tour, this poster was only made available for the virtual HowlerFest and HowlerCon 2023.',
+    link: 'https://www.lit-escalates.com/collections/howlercon-2023/products/howlercon-poster'
+  },
+  {
+    date: '2023-08-08',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/enhanced-matte-paper-poster-_in_-18x24-front-64d24ea291ddc_1024x1024@2x.jpg',
+    name: 'HowlerCon 2023 Event Poster',
+    tags: ['print', 'howlercon'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'We wanted to make these available at HowlerCon but ran out of time in the pre-prep chaos. Sized at 18x24 inches, these puppies are printed on matte paper and feature the official HowlerCon poster image, event lineup and more.',
+    link: 'https://www.lit-escalates.com/collections/howlercon-2023/products/howlercon-2023-event-poster'
   }
 ];
 

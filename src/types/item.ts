@@ -1,4 +1,4 @@
-import { IBook, ICharacter, IColor } from './red-rising';
+import { IBook, ICharacter, IColor, IEvent } from './red-rising';
 
 export const MERCH_TYPE = [
   'pin',
@@ -39,7 +39,7 @@ type IMerchType = (typeof MERCH_TYPE)[number];
 /**
  * Tags associated with an {@link IItem}.
  */
-export type ITag = IBook | ICharacter | IColor | IMerchType | 'official' | 'featured';
+export type ITag = IBook | ICharacter | IColor | IMerchType | IEvent | 'official' | 'featured';
 
 /**
  * A link to an author/shop.

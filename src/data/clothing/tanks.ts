@@ -157,6 +157,20 @@ const data: IItem[] = [
     description:
       'A graphic inspired by the Gold houses the Gala brought together and a night we will never forget.',
     link: 'https://www.etsy.com/listing/1471439026/'
+  },
+  {
+    date: '2023-08-08',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/mens-staple-tank-top-black-front-64d15f215d892_1024x1024@2x.jpg',
+    name: 'Lysander Did Nothing Wrong Unisex Tank Top',
+    tags: ['tank', 'howlercon'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com'
+    },
+    description:
+      'Joel was approached at HowlerCon by 4 Okie Howlers wearing this monstrosity of a shirt, and after much discussion we decided it was too questionable NOT to make into an official Lit Escalates product.',
+    link: 'https://www.lit-escalates.com/collections/howlercon-2023/products/lysander-did-nothing-wrong-unisex-tank-top'
   }
 ];
 

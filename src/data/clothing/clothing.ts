@@ -1500,6 +1500,33 @@ const data: IItem[] = [
     description:
       'A map from Mercury to Io is surrounded by the celestial coordinates of the moon and planets at the exact release time of Iron Gold.',
     link: 'https://www.etsy.com/listing/1471172268/'
+  },
+  {
+    date: '2023-08-08',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/unisex-basic-softstyle-t-shirt-sport-grey-front-64d1b64a75803_1024x1024@2x.jpg',
+    name: 'I Survived HowlerCon 2023 Unisex T-Shirt',
+    tags: ['shirt', 'howlercon'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description: 'If you know, you know... It was Lit.',
+    link: 'https://www.lit-escalates.com/collections/howlercon-2023/products/i-survived-howlercon-2023-unisex-tshirt'
+  },
+  {
+    date: '2023-08-08',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/mens-classic-tee-black-front-64d1644162a09_1024x1024@2x.jpg',
+    name: 'Light Bringer Page 01 Unisex T-Shirt',
+    tags: ['shirt', 'light-bringer', 'howlercon'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Created exclusively for HowlerCon 2023, these t-shirts were printed live at the event and are limited to the few leftovers we had after the chaos ended.',
+    link: 'https://www.lit-escalates.com/collections/howlercon-2023/products/circus-t-shirt'
   }
 ];
 

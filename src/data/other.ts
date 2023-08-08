@@ -679,6 +679,19 @@ const data: IItem[] = [
     },
     description: 'Fleece joggers with the Rose Garden logo.',
     link: 'https://www.howlerholo.net/product/the-rose-garden-fleece-joggers/'
+  },
+  {
+    date: '2023-08-08',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/Bandana_1024x1024@2x.jpg',
+    name: 'Light Bringer Page 01 Bandana',
+    tags: ['other', 'light-bringer', 'howlercon'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Created exclusively for HowlerCon 2023, these bandanas were printed live at the event and are limited to the few leftovers we had after the chaos ended.',
+    link: 'https://www.lit-escalates.com/collections/howlercon-2023/products/circus-bandana'
   }
 ];
 
