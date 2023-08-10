@@ -705,6 +705,18 @@ const data: IItem[] = [
     },
     description: 'Wall mounted RGB wolf sign.',
     link: 'https://www.etsy.com/listing/1482335243/'
+  },
+  {
+    date: '2023-08-09',
+    image: 'https://i.etsystatic.com/24845246/r/il/85a63c/5196579375/il_794xN.5196579375_od1q.jpg',
+    name: 'Red Rising Howler Logo',
+    tags: ['other'],
+    shop: {
+      name: 'AresIndustries3D',
+      url: 'https://www.etsy.com/shop/AresIndustries3D'
+    },
+    description: '3D printed Howler logo, comes in three different colors.',
+    link: 'https://www.etsy.com/listing/1522270843/'
   }
 ];
 
