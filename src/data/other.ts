@@ -693,6 +693,18 @@ const data: IItem[] = [
     description:
       'Created exclusively for HowlerCon 2023, these bandanas were printed live at the event and are limited to the few leftovers we had after the chaos ended.',
     link: 'https://www.lit-escalates.com/collections/howlercon-2023/products/circus-bandana'
+  },
+  {
+    date: '2023-08-09',
+    image: 'https://i.etsystatic.com/42249263/r/il/e013e0/4907969474/il_794xN.4907969474_7jgn.jpg',
+    name: 'Red Rising Neon Led Sign',
+    tags: ['other'],
+    shop: {
+      name: 'GamerSetupStore',
+      url: 'https://www.etsy.com/shop/GamerSetupStore'
+    },
+    description: 'Wall mounted RGB wolf sign.',
+    link: 'https://www.etsy.com/listing/1482335243/'
   }
 ];
 
