@@ -1530,6 +1530,18 @@ const data: IItem[] = [
     description:
       'Created exclusively for HowlerCon 2023, these t-shirts were printed live at the event and are limited to the few leftovers we had after the chaos ended.',
     link: 'https://www.lit-escalates.com/collections/howlercon-2023/products/circus-t-shirt'
+  },
+  {
+    date: '2023-08-09',
+    image: 'https://i.etsystatic.com/43349528/r/il/0da8f9/5109477816/il_794xN.5109477816_eye2.jpg',
+    name: 'Red Rising Unisex Tee',
+    tags: ['shirt', 'red-rising'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'A graphic representing the Red Rising series.',
+    link: 'https://www.etsy.com/listing/1527721549/'
   }
 ];
 
