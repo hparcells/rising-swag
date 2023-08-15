@@ -96,8 +96,7 @@ const data: IItem[] = [
     },
     description:
       'I am the Reaper, and Death is my Shadow. Smells of Egyptian Amber and Dragons Blood.',
-    link: 'https://www.etsy.com/listing/1483530998/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1483530998/'
   },
   {
     date: '2023-07-18',
@@ -125,8 +124,7 @@ const data: IItem[] = [
     },
     description:
       "Come get a whiff of everyone's favorite Golden Boy. Smells of Toasted Coconut and Golden Santal.",
-    link: 'https://www.etsy.com/listing/1503766841/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1503766841/'
   },
   {
     date: '2023-07-18',
@@ -138,8 +136,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/shopheartsfire'
     },
     description: 'Smells of Cashmere Musk and Vetiver.',
-    link: 'https://www.etsy.com/listing/1503770799/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1503770799/'
   },
   {
     date: '2023-07-18',
@@ -151,8 +148,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/shopheartsfire'
     },
     description: 'Everyone needs a Mangy Guardian Angel. Smells of Sweet Orange and Sriracha',
-    link: 'https://www.etsy.com/listing/1489577888/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1489577888/'
   }
 ];
 

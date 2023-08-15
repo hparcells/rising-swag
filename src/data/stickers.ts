@@ -816,7 +816,8 @@ const data: IItem[] = [
     },
     description:
       'A sticker of the famous quote "Hail Reaper" with a scythe and "Per aspera, ad astra."',
-    link: 'https://www.etsy.com/listing/1493655682/'
+    link: 'https://www.etsy.com/listing/1493655682/',
+    expired: true
   },
   {
     date: '2023-07-10',
