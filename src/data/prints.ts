@@ -492,7 +492,8 @@ const data: IItem[] = [
     },
     description:
       'Designed by Joel Daniel Phillips for the Light Bringer Launch tour, this poster was only made available for the virtual HowlerFest and HowlerCon 2023.',
-    link: 'https://www.lit-escalates.com/collections/howlercon-2023/products/howlercon-poster'
+    link: 'https://www.lit-escalates.com/collections/howlercon-2023/products/howlercon-poster',
+    expired: true
   },
   {
     date: '2023-08-08',

@@ -165,7 +165,7 @@ const data: IItem[] = [
   {
     date: '2023-03-14',
     image: 'https://i.etsystatic.com/16046340/r/il/bc735b/1831155897/il_794xN.1831155897_n258.jpg',
-    name: 'Howler 4 Life Mug',
+    name: 'Howler 4 Life Mug (White)',
     tags: ['mug'],
     shop: {
       name: 'CreativeLeighCrafts',
@@ -425,6 +425,43 @@ const data: IItem[] = [
     description:
       "'I'm Gold, bitch. What'd you expect? Warm milk and cookies just because I'm pocket-sized?",
     link: 'https://www.etsy.com/listing/1093023421/'
+  },
+  {
+    date: '2023-08-15',
+    image: 'https://i.etsystatic.com/16046340/r/il/5f1052/1495804408/il_794xN.1495804408_6c1c.jpg',
+    name: 'Sons of Ares Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Black mug with red Ares symbol.',
+    link: 'https://www.etsy.com/listing/598395400/'
+  },
+  {
+    date: '2023-08-15',
+    image: 'https://i.etsystatic.com/16046340/r/il/4dcee5/1505682424/il_794xN.1505682424_rasu.jpg',
+    name: 'I Need More Coffee Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Another Red Rising Mug to add to the collection.',
+    link: 'https://www.etsy.com/listing/600986950/'
+  },
+  {
+    date: '2023-08-15',
+    image: 'https://i.etsystatic.com/16046340/r/il/5ba6f1/3380233308/il_794xN.3380233308_8ogi.jpg',
+    name: 'Howler 4 Life Mug (Red)',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description:
+      'This 16oz camping mug is perfect for all you Howlers. One side features the Wolf’s head and Howler 4 Life and the other side features Omnis Vir Lupus.',
+    link: 'https://www.etsy.com/listing/595759386/'
   }
 ];
 

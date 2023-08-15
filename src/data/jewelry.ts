@@ -421,6 +421,18 @@ const data: IItem[] = [
     description:
       'A miniature version of the Red Rising book cover in a necklace. All books available for order.',
     link: 'https://www.etsy.com/listing/1473030381/'
+  },
+  {
+    date: '2023-08-09',
+    image: 'https://i.etsystatic.com/24316761/r/il/99e556/4243344401/il_794xN.4243344401_3lte.jpg',
+    name: 'Per Aspera Ad Astra Ring',
+    tags: ['jewelry'],
+    shop: {
+      name: 'BackwoodsCasting',
+      url: 'https://www.etsy.com/shop/BackwoodsCasting'
+    },
+    description: 'A ring with the phrase "Per Aspera Ad Astra" engraved on it.',
+    link: 'https://www.etsy.com/listing/1298721874/'
   }
 ];
 
