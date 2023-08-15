@@ -66,7 +66,8 @@ const data: IItem[] = [
     },
     description:
       'Color the Rising is an alphabetized collection of Red Rising characters as drawn by me in chibi style. Contains 56 pages of coloring fun.',
-    link: 'https://www.etsy.com/listing/793574550/color-the-rising-the-unofficial-little'
+    link: 'https://www.etsy.com/listing/793574550/color-the-rising-the-unofficial-little',
+    expired: true
   },
   {
     date: '2023-03-17',
@@ -293,7 +294,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/3DPrintsbyTheodore'
     },
     description: 'A 3D printed Howler logo printed in Marble and Red pla.',
-    link: 'https://www.etsy.com/listing/1276452077/howler-sign-red-rising-bookcase-display'
+    link: 'https://www.etsy.com/listing/1276452077/howler-sign-red-rising-bookcase-display',
+    expired: true
   },
   {
     date: '2023-03-22',
