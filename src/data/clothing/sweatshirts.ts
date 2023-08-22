@@ -24,7 +24,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: '"I didn\'t choose the howler life, the howler life chose me."',
-    link: 'https://www.etsy.com/listing/1417408857/howler-life-unisex-heavy-blend-crewneck'
+    link: 'https://www.etsy.com/listing/1417408857/howler-life-unisex-heavy-blend-crewneck',
+    expired: true
   },
   {
     date: '2023-03-15',
@@ -177,7 +178,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Problem is, we of House Mars always burn out. Better to do it in style!',
-    link: 'https://www.etsy.com/listing/1460779082/house-mars-crew-neck-sweatshirt'
+    link: 'https://www.etsy.com/listing/1460779082/house-mars-crew-neck-sweatshirt',
+    expired: true
   },
   {
     date: '2023-06-29',

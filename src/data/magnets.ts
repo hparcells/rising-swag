@@ -76,7 +76,8 @@ const data: IItem[] = [
     },
     description:
       'This is a second edition of SUPER strong magnets are perfect for your fridge or bulletin board.',
-    link: 'https://www.etsy.com/listing/1178391296/new-red-rising-glass-dome-magnets-howler'
+    link: 'https://www.etsy.com/listing/1178391296/new-red-rising-glass-dome-magnets-howler',
+    expired: true
   },
   {
     date: '2023-03-22',

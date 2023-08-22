@@ -119,7 +119,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Show your allegiance to the Sons! This pin depicts the helmet of Ares.',
-    link: 'https://www.etsy.com/listing/1200643613/ares-enamel-pin'
+    link: 'https://www.etsy.com/listing/1200643613/ares-enamel-pin',
+    expired: true
   },
   {
     date: '2023-03-14',

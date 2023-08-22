@@ -1132,7 +1132,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Problem is, we of House Mars always burn out. Better to do it in style.',
-    link: 'https://www.etsy.com/listing/1474979017/house-mars-tee'
+    link: 'https://www.etsy.com/listing/1474979017/house-mars-tee',
+    expired: true
   },
   {
     date: '2023-06-29',

@@ -161,7 +161,8 @@ const data: IItem[] = [
     },
     description:
       'A mug for when you need your coffee stronger than your favorite Obsidian, Ragnar Volarus.',
-    link: 'https://www.etsy.com/listing/609110111/stronger-than-the-shield-of-tinos'
+    link: 'https://www.etsy.com/listing/609110111/stronger-than-the-shield-of-tinos',
+    expired: true
   },
   {
     date: '2023-03-14',
@@ -173,7 +174,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'A old favorite updated with a new colors.',
-    link: 'https://www.etsy.com/listing/670110412/howler-4-life'
+    link: 'https://www.etsy.com/listing/670110412/howler-4-life',
+    expired: true
   },
   {
     date: '2023-03-16',
@@ -388,7 +390,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'House Mars institute mug.',
-    link: 'https://www.etsy.com/listing/1474983463/house-mars-mug-15oz'
+    link: 'https://www.etsy.com/listing/1474983463/house-mars-mug-15oz',
+    expired: true
   },
   {
     date: '2023-07-10',
@@ -437,7 +440,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Black mug with red Ares symbol.',
-    link: 'https://www.etsy.com/listing/598395400/'
+    link: 'https://www.etsy.com/listing/598395400/',
+    expired: true
   },
   {
     date: '2023-08-15',
@@ -462,7 +466,8 @@ const data: IItem[] = [
     },
     description:
       'This 16oz camping mug is perfect for all you Howlers. One side features the Wolf’s head and Howler 4 Life and the other side features Omnis Vir Lupus.',
-    link: 'https://www.etsy.com/listing/595759386/'
+    link: 'https://www.etsy.com/listing/595759386/',
+    expired: true
   }
 ];
 
