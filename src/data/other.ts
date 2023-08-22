@@ -294,8 +294,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/3DPrintsbyTheodore'
     },
     description: 'A 3D printed Howler logo printed in Marble and Red pla.',
-    link: 'https://www.etsy.com/listing/1276452077/howler-sign-red-rising-bookcase-display',
-    expired: true
+    link: 'https://www.etsy.com/listing/1276452077/howler-sign-red-rising-bookcase-display'
   },
   {
     date: '2023-03-22',
@@ -347,8 +346,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiteraryLeoCo'
     },
     description: 'The wolf of Mars pressed into a pine wood cookie.',
-    link: 'https://www.etsy.com/listing/1120619399/happy-howler-days-35-4-pine-wood',
-    expired: true
+    link: 'https://www.etsy.com/listing/1120619399/happy-howler-days-35-4-pine-wood'
   },
   {
     date: '2023-03-24',

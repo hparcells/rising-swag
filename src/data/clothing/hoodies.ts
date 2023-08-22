@@ -227,8 +227,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A red hoodie of the House Mars sigil.',
-    link: 'https://www.etsy.com/listing/1461108577/red-rising-house-mars-unisex-hoodie',
-    expired: true
+    link: 'https://www.etsy.com/listing/1461108577/red-rising-house-mars-unisex-hoodie'
   },
   {
     date: '2023-05-01',
