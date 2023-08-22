@@ -1544,6 +1544,45 @@ const data: IItem[] = [
     },
     description: 'A graphic representing the Red Rising series.',
     link: 'https://www.etsy.com/listing/1527721549/'
+  },
+  {
+    date: '2023-08-21',
+    image: 'https://i.etsystatic.com/43921165/r/il/45c0c3/5117188540/il_794xN.5117188540_my7d.jpg',
+    name: 'Pax au Telemanus Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'BookWears',
+      url: 'https://www.etsy.com/shop/BookWears'
+    },
+    description:
+      'PAX AU TELEMANUS! is one of the best quotes from the war chanting, lovable brute, Pax.',
+    link: 'https://www.etsy.com/listing/1529451871/'
+  },
+  {
+    date: '2023-08-21',
+    image: 'https://i.etsystatic.com/43921165/r/il/04fbe3/5183669597/il_794xN.5183669597_c06i.jpg',
+    name: 'Red Rising Nicknames Shirt',
+    tags: ['shirt', 'darrow', 'mustang', 'sevro', 'roque'],
+    shop: {
+      name: 'BookWears',
+      url: 'https://www.etsy.com/shop/BookWears'
+    },
+    description:
+      'The institute is a place for these few Golden children to make a name for themselves. To earn their Peerless Scars. The nicknames the children earn are based on how they are portrayed by their fellow students.',
+    link: 'https://www.etsy.com/listing/1518085658/'
+  },
+  {
+    date: '2023-08-21',
+    image: 'https://i.etsystatic.com/43921165/r/il/0eec6f/5183692243/il_794xN.5183692243_hl7o.jpg',
+    name: 'Death Begets Death Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'BookWears',
+      url: 'https://www.etsy.com/shop/BookWears'
+    },
+    description:
+      'Said by multiple different characters, "Death begets Death begets Death" is argued to be the series\' thesis.',
+    link: 'https://www.etsy.com/listing/1533387229/'
   }
 ];
 
