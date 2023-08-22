@@ -717,6 +717,19 @@ const data: IItem[] = [
     },
     description: '3D printed Howler logo, comes in three different colors.',
     link: 'https://www.etsy.com/listing/1522270843/'
+  },
+  {
+    date: '2023-08-21',
+    image: 'https://i.etsystatic.com/18590820/r/il/5bdcbb/2172647379/il_794xN.2172647379_qcgr.jpg',
+    name: 'Darrow of Lykos Funko Pop',
+    tags: ['other', 'darrow'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description:
+      'This custom funko pop is inspired by Darrow, the main character of the Red Rising series.',
+    link: 'https://www.etsy.com/listing/670592252/'
   }
 ];
 
