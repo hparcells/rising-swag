@@ -149,6 +149,58 @@ const data: IItem[] = [
     },
     description: 'Everyone needs a Mangy Guardian Angel. Smells of Sweet Orange and Sriracha',
     link: 'https://www.etsy.com/listing/1489577888/'
+  },
+  {
+    date: '2023-08-21',
+    image: 'https://i.etsystatic.com/38585656/r/il/3cb760/5118229118/il_794xN.5118229118_e0ih.jpg',
+    name: 'Darrow Bookish Candle',
+    tags: ['candle', 'darrow'],
+    shop: {
+      name: 'TheCosyFlame',
+      url: 'https://www.etsy.com/shop/TheCosyFlame'
+    },
+    description:
+      'This scented candle inspired by the Reaper of Mars has a woody scent of Sandalwood and Orange.',
+    link: 'https://www.etsy.com/listing/1493279126/'
+  },
+  {
+    date: '2023-08-21',
+    image: 'https://i.etsystatic.com/38585656/r/il/432a20/5166460315/il_794xN.5166460315_tmqw.jpg',
+    name: 'Sevro Bookish Candle',
+    tags: ['candle', 'sevro'],
+    shop: {
+      name: 'TheCosyFlame',
+      url: 'https://www.etsy.com/shop/TheCosyFlame'
+    },
+    description:
+      'This scented candle inspired by the leader of the Howlers has a spicy scent of Citrus and Clove.',
+    link: 'https://www.etsy.com/listing/1493275574/'
+  },
+  {
+    date: '2023-08-21',
+    image: 'https://i.etsystatic.com/38585656/r/il/b90793/5166459465/il_794xN.5166459465_robd.jpg',
+    name: 'Mustang Bookish Candle',
+    tags: ['candle', 'mustang'],
+    shop: {
+      name: 'TheCosyFlame',
+      url: 'https://www.etsy.com/shop/TheCosyFlame'
+    },
+    description:
+      'This scented candle inspired by the Sovereign Virginia au Augustus has a sweet scent of Cherry and Plum.',
+    link: 'https://www.etsy.com/listing/1507463479/'
+  },
+  {
+    date: '2023-08-21',
+    image: 'https://i.etsystatic.com/38585656/r/il/d53380/5166460643/il_794xN.5166460643_in93.jpg',
+    name: 'House Mars Bookish Candle',
+    tags: ['candle'],
+    shop: {
+      name: 'TheCosyFlame',
+      url: 'https://www.etsy.com/shop/TheCosyFlame'
+    },
+    description:
+      'This scented candle inspired by the house with the howling wolf has a masculine scent of Musk and Cedar',
+    link: 'https://www.etsy.com/listing/1507447235/'
   }
 ];
 
