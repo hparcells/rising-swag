@@ -1508,7 +1508,7 @@ const data: IItem[] = [
   {
     date: '2023-08-08',
     image:
-      'https://www.lit-escalates.com/cdn/shop/files/unisex-basic-softstyle-t-shirt-sport-grey-front-64d1b64a75803_1024x1024@2x.jpg',
+      'https://www.lit-escalates.com/cdn/shop/files/unisex-basic-softstyle-t-shirt-sport-grey-front-64d64cf90465b_1024x1024@2x.jpg',
     name: 'I Survived HowlerCon 2023 Unisex T-Shirt',
     tags: ['shirt', 'howlercon'],
     shop: {
