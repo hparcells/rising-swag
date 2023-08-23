@@ -730,6 +730,18 @@ const data: IItem[] = [
     description:
       'This custom funko pop is inspired by Darrow, the main character of the Red Rising series.',
     link: 'https://www.etsy.com/listing/670592252/'
+  },
+  {
+    date: '2023-08-22',
+    image: 'https://i.etsystatic.com/18590820/r/il/bc92c9/4101104889/il_794xN.4101104889_sjgs.jpg',
+    name: 'Red Rising Inspired Tote',
+    tags: ['other'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description: 'Haul your books in style and show off your love for Red Rising.',
+    link: 'https://www.etsy.com/listing/689164112/'
   }
 ];
 
