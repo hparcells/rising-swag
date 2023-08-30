@@ -865,6 +865,18 @@ const data: IItem[] = [
     },
     description: 'Show the worlds who is WORTHY!',
     link: 'https://www.howlerholo.net/product/worthy-vinyl-stickers/'
+  },
+  {
+    date: '2023-08-29',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/08/76267-4.jpg',
+    name: 'Legio Oreate Holographic Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Did you do the Den Dunk? Show off your Den feat with some sick swag!',
+    link: 'https://howlerholo.net/product/legio-oreate-holographic-sticker/'
   }
 ];
 
