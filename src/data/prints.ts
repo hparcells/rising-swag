@@ -508,6 +508,78 @@ const data: IItem[] = [
     description:
       'We wanted to make these available at HowlerCon but ran out of time in the pre-prep chaos. Sized at 18x24 inches, these puppies are printed on matte paper and feature the official HowlerCon poster image, event lineup and more.',
     link: 'https://www.lit-escalates.com/collections/howlercon-2023/products/howlercon-2023-event-poster'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/25978430/r/il/7b15a6/5229028329/il_794xN.5229028329_jc58.jpg',
+    name: 'Hand-Embellished Lorn Mini',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Mini print of Lorn au Arcos.',
+    link: 'https://www.etsy.com/listing/1528872400/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/25978430/r/il/6aa1fb/5180807878/il_794xN.5180807878_66w9.jpg',
+    name: 'Hand-Embellished Victra Mini',
+    tags: ['print', 'victra'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Mini print of Victra au Julii.',
+    link: 'https://www.etsy.com/listing/1543033407/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/25978430/r/il/a0d561/5180808968/il_794xN.5180808968_53vl.jpg',
+    name: 'Hand-Embellished Ajax Mini',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Mini print of Ajax au Grimmus.',
+    link: 'https://www.etsy.com/listing/1528847038/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/25978430/r/il/663cf2/5180843550/il_794xN.5180843550_jodq.jpg',
+    name: 'Hand-Embellished Lyria Mini',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Mini print of Lyria of Lagalos.',
+    link: 'https://www.etsy.com/listing/1543034415/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/25978430/r/il/c624c2/5180808486/il_794xN.5180808486_kezs.jpg',
+    name: 'Hand-Embellished Atalantia Mini',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Mini print of Atalantia.',
+    link: 'https://www.etsy.com/listing/1543032885/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/25978430/r/il/c4f611/5180805908/il_794xN.5180805908_8mwl.jpg',
+    name: 'Hand-Embellished Aurae Mini',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Mini print of Aurae.',
+    link: 'https://www.etsy.com/listing/1528850158/'
   }
 ];
 
