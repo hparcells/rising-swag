@@ -63,7 +63,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: 'Wooden bookmarks inspired by the world of Red Rising.',
-    link: 'https://www.etsy.com/listing/1319821202/red-rising-inspired-wooden-bookmarks'
+    link: 'https://www.etsy.com/listing/1319821202/red-rising-inspired-wooden-bookmarks',
+    expired: true
   },
   {
     date: '2023-03-22',
@@ -88,8 +89,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/BookBubbledShop'
     },
     description: 'Quotes from Red Rising on bookmarks. Shipped from Canada.',
-    link: 'https://www.etsy.com/listing/1207264359/red-rising-saga-quote-bookmarks',
-    expired: true
+    link: 'https://www.etsy.com/listing/1207264359/red-rising-saga-quote-bookmarks'
   },
   {
     date: '2023-03-24',

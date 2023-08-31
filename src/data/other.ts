@@ -204,7 +204,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: '3D Laser cut graphic of Sevro from Red Rising.',
-    link: 'https://www.etsy.com/listing/1433882677/wood-engraved-red-rising-graphic-sevro'
+    link: 'https://www.etsy.com/listing/1433882677/wood-engraved-red-rising-graphic-sevro',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -384,7 +385,8 @@ const data: IItem[] = [
     },
     description:
       '3D Laser cut graphic of Pulse Armor from Red Rising. Laser cut from basswood, layered, stained, and sealed.',
-    link: 'https://www.etsy.com/listing/1433872471/wood-engraved-red-rising-graphic-pulse'
+    link: 'https://www.etsy.com/listing/1433872471/wood-engraved-red-rising-graphic-pulse',
+    expired: true
   },
   {
     date: '2023-04-12',
@@ -615,8 +617,7 @@ const data: IItem[] = [
     },
     description:
       "He's the only howler who uses a serrated blade, he thinks is looks scarier. He's right.",
-    link: 'https://www.etsy.com/listing/1202946570/sevros-razor-kit',
-    expired: true
+    link: 'https://www.etsy.com/listing/1202946570/sevros-razor-kit'
   },
   {
     date: '2023-05-04',

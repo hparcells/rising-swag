@@ -96,7 +96,8 @@ const data: IItem[] = [
     },
     description:
       'I am the Reaper, and Death is my Shadow. Smells of Egyptian Amber and Dragons Blood.',
-    link: 'https://www.etsy.com/listing/1483530998/'
+    link: 'https://www.etsy.com/listing/1483530998/',
+    expired: true
   },
   {
     date: '2023-07-18',

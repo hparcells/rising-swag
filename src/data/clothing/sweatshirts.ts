@@ -24,8 +24,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: '"I didn\'t choose the howler life, the howler life chose me."',
-    link: 'https://www.etsy.com/listing/1417408857/howler-life-unisex-heavy-blend-crewneck',
-    expired: true
+    link: 'https://www.etsy.com/listing/1417408857/howler-life-unisex-heavy-blend-crewneck'
   },
   {
     date: '2023-03-15',

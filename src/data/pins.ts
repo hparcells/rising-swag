@@ -157,7 +157,8 @@ const data: IItem[] = [
     },
     description:
       'The first set of the Royally Stamped collection features the Sovereign and the Reaper from the Red Rising series.',
-    link: 'https://www.etsy.com/listing/976631849/sovereign-and-reaper-stamp-set'
+    link: 'https://www.etsy.com/listing/976631849/sovereign-and-reaper-stamp-set',
+    expired: true
   },
   {
     date: '2023-03-14',
