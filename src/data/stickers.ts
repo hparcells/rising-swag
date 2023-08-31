@@ -877,6 +877,18 @@ const data: IItem[] = [
     },
     description: 'Did you do the Den Dunk? Show off your Den feat with some sick swag!',
     link: 'https://howlerholo.net/product/legio-oreate-holographic-sticker/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/63f124/5069951604/il_794xN.5069951604_c37p.jpg',
+    name: 'Rat Legion Kiss-Cut Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Stickers of the Rat Legion emblem. Comes in different sizes.',
+    link: 'https://www.etsy.com/listing/1504768328/'
   }
 ];
 

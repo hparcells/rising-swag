@@ -1583,6 +1583,103 @@ const data: IItem[] = [
     description:
       'Said by multiple different characters, "Death begets Death begets Death" is argued to be the series\' thesis.',
     link: 'https://www.etsy.com/listing/1533387229/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/3e3b84/5272559141/il_794xN.5272559141_1fiy.jpg',
+    name: 'Clang Clang Clang Tee (Black)',
+    tags: ['shirt', 'light-bringer'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Clang Clang Clang',
+    link: 'https://www.etsy.com/listing/1538297420/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/6d82da/5179230590/il_794xN.5179230590_2060.jpg',
+    name: 'Stained Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Will you accept these stains?',
+    link: 'https://www.etsy.com/listing/1528541672/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/fe1835/5159492923/il_794xN.5159492923_mz8g.jpg',
+    name: 'Rat Legion (Hail Reaper) Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Emblem of the Rat Legion with "Hail Libertas Hail Reaper"',
+    link: 'https://www.etsy.com/listing/1513843044/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/9bc7ff/5224364144/il_794xN.5224364144_4f4f.jpg',
+    name: 'Clang Clang Clang (White)',
+    tags: ['shirt'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Clang Clang Clang. Comes in multiple different colors.',
+    link: 'https://www.etsy.com/listing/1552491203/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/934ba5/5110729156/il_794xN.5110729156_drau.jpg',
+    name: 'Pegasus Legion Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Shirt with the emblem of the Pegasus Legion.',
+    link: 'https://www.etsy.com/listing/1527930713/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/190853/5209176055/il_794xN.5209176055_8ulu.jpg',
+    name: 'Thirteenth Legion - Dracones Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Shirt with the emblem of the 13th Legion.',
+    link: 'https://www.etsy.com/listing/1520676896/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/c66326/5157750103/il_794xN.5157750103_l7gh.jpg',
+    name: 'Rat Legion Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Shirt with the emblem of the Rat Legion.',
+    link: 'https://www.etsy.com/listing/1527730953/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/351328/4920777210/il_794xN.4920777210_av5x.jpg',
+    name: 'Red Rising Distressed Concert Collection Tee',
+    tags: ['shirt', 'red-rising'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'The first graphic of the concert collection pays homage to the book that started it all.',
+    link: 'https://www.etsy.com/listing/1471096220/'
   }
 ];
 

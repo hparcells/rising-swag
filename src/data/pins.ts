@@ -284,6 +284,54 @@ const data: IItem[] = [
     description:
       'Preorders are open for this soft enamel 1.5" silver polished pin representing the Fifteenth Armored Legion, aka Helldivers, with their Drachenjagers front and center.',
     link: 'https://www.etsy.com/listing/1505298849/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/6f3e80/5133034670/il_794xN.5133034670_16wc.jpg',
+    name: 'Thirteenth Legion - Dracones Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Emblem of the 13th legion.',
+    link: 'https://www.etsy.com/listing/1505295425/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/466d41/5133039114/il_794xN.5133039114_e59j.jpg',
+    name: 'Rat Legion Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Emblem of the Rat Legion',
+    link: 'https://www.etsy.com/listing/1491113910/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/48aa98/5133041146/il_794xN.5133041146_jdh3.jpg',
+    name: 'Pegasus Legion Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Emblem of the Pegasus Legion.',
+    link: 'https://www.etsy.com/listing/1491109380/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/24bc12/5133032140/il_794xN.5133032140_70l6.jpg',
+    name: 'Zero Legion Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'Emblem of the Legio Cohors Nihil/Zero Legion',
+    link: 'https://www.etsy.com/listing/1491116966/'
   }
 ];
 

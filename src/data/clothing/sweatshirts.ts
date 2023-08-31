@@ -217,6 +217,19 @@ const data: IItem[] = [
     description:
       'A graphic inspired by the Gold houses the Gala brought together and a night we will never forget.',
     link: 'https://www.etsy.com/listing/1485611747/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/43349528/r/il/990740/4997998050/il_794xN.4997998050_m0v5.jpg',
+    name: 'Red Rising Distressed Concert Collection Sweatshirt',
+    tags: ['sweatshirt', 'red-rising'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'The first graphic of the concert collection pays homage to the book that started it all.',
+    link: 'https://www.etsy.com/listing/1471415168/'
   }
 ];
 
