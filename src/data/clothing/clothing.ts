@@ -1680,6 +1680,18 @@ const data: IItem[] = [
     description:
       'The first graphic of the concert collection pays homage to the book that started it all.',
     link: 'https://www.etsy.com/listing/1471096220/'
+  },
+  {
+    date: '2023-08-31',
+    image: 'https://i.etsystatic.com/21279369/r/il/d9fb9d/5202586553/il_794xN.5202586553_1l7b.jpg',
+    name: 'Never Bow Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'Howlers never bow.',
+    link: 'https://www.etsy.com/listing/1523275566/'
   }
 ];
 
