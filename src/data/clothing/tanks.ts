@@ -171,6 +171,18 @@ const data: IItem[] = [
       'Joel was approached at HowlerCon by 4 Okie Howlers wearing this monstrosity of a shirt, and after much discussion we decided it was too questionable NOT to make into an official Lit Escalates product.',
     link: 'https://www.lit-escalates.com/collections/howlercon-2023/products/lysander-did-nothing-wrong-unisex-tank-top',
     expired: true
+  },
+  {
+    date: '2023-09-02',
+    image: 'https://i.etsystatic.com/16046340/r/il/595a36/5225389790/il_794xN.5225389790_dkbp.jpg',
+    name: 'War on Heaven Tank',
+    tags: ['tank'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: "The Howlers' War on Heaven Tour tank.",
+    link: 'https://www.etsy.com/listing/1538569052/'
   }
 ];
 

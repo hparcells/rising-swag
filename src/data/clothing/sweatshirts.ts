@@ -229,6 +229,18 @@ const data: IItem[] = [
     description:
       'The first graphic of the concert collection pays homage to the book that started it all.',
     link: 'https://www.etsy.com/listing/1471415168/'
+  },
+  {
+    date: '2023-09-02',
+    image: 'https://i.etsystatic.com/16046340/r/il/1eb76e/5273613499/il_794xN.5273613499_kkbh.jpg',
+    name: 'War on Heaven Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: "The Howlers' War on Heaven Tour sweatshirt.",
+    link: 'https://www.etsy.com/listing/1552756665/'
   }
 ];
 

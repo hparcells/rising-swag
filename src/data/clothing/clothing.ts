@@ -1692,6 +1692,18 @@ const data: IItem[] = [
     },
     description: 'Howlers never bow.',
     link: 'https://www.etsy.com/listing/1523275566/'
+  },
+  {
+    date: '2023-09-02',
+    image: 'https://i.etsystatic.com/16046340/r/il/29b638/5225365760/il_794xN.5225365760_nt6m.jpg',
+    name: 'War on Heaven Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: "The Howlers' War on Heaven Tour shirt.",
+    link: 'https://www.etsy.com/listing/1552747363/'
   }
 ];
 

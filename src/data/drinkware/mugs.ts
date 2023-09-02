@@ -468,6 +468,18 @@ const data: IItem[] = [
       'This 16oz camping mug is perfect for all you Howlers. One side features the Wolf’s head and Howler 4 Life and the other side features Omnis Vir Lupus.',
     link: 'https://www.etsy.com/listing/595759386/',
     expired: true
+  },
+  {
+    date: '2023-09-02',
+    image: 'https://i.etsystatic.com/16046340/r/il/74fca6/1626531961/il_794xN.1626531961_ry1q.jpg',
+    name: 'Summon the Howlers Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Summon the howlers!',
+    link: 'https://www.etsy.com/listing/633723715/'
   }
 ];
 
