@@ -889,6 +889,78 @@ const data: IItem[] = [
     },
     description: 'Stickers of the Rat Legion emblem. Comes in different sizes.',
     link: 'https://www.etsy.com/listing/1504768328/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/70875-4.jpg',
+    name: 'Xoxo, Cassius Sticker',
+    tags: ['sticker', 'cassius'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'A little love from the Chin!',
+    link: 'https://howlerholo.net/product/product-14/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/95743-36.jpg',
+    name: 'Xoxo Truffle Pig Vinyl Sticker',
+    tags: ['sticker', 'cassius', 'light-bringer'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "You can't choose your call sign!",
+    link: 'https://howlerholo.net/product/xoxo-truffle-pig-vinyl-sticker/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/95743-30.jpg',
+    name: 'The Ladon NPS Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Sticker of the Ladon on Mercury.',
+    link: 'https://howlerholo.net/product/product-6/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/95743-18.jpg',
+    name: 'Pacific Rim NPS Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Sticker of the Pacific Rim on Earth.',
+    link: 'https://howlerholo.net/product/product-4/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/45748-6.jpg',
+    name: 'My Honor Remains Sticker',
+    tags: ['sticker', 'cassius'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'I am Cassius au Bellona and my Honor Remains.',
+    link: 'https://howlerholo.net/product/product-11/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/95743-24.jpg',
+    name: 'The Institute NPS Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Sticker of the Institute.',
+    link: 'https://howlerholo.net/product/product-5/'
   }
 ];
 

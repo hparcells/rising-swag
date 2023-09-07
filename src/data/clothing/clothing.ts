@@ -1704,6 +1704,55 @@ const data: IItem[] = [
     },
     description: "The Howlers' War on Heaven Tour shirt.",
     link: 'https://www.etsy.com/listing/1552747363/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/18102-36.jpg',
+    name: 'Xoxo Truffle Pig Unisex Tee',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description:
+      "You can't choose your callsign! But I think Cassius will make an exception to changing one.",
+    link: 'https://howlerholo.net/product/product-9/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/18326-12.jpg',
+    name: 'My Honor Remains Unisex Tee',
+    tags: ['shirt', 'cassius'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'I am Cassius au Bellona and my Honor Remains',
+    link: 'https://howlerholo.net/product/product-12/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/18070-12.jpg',
+    name: 'House Raa Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: '"We are but dust and shadow."',
+    link: 'https://howlerholo.net/product/product-7/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/18078-24.jpg',
+    name: 'Arcos Academy Unisex Tee',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Emblem of Arcos's Academy.",
+    link: 'https://howlerholo.net/product/arcos-academy-unisex-tee/'
   }
 ];
 
