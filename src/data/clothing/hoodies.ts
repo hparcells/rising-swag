@@ -307,6 +307,18 @@ const data: IItem[] = [
     description:
       'The first graphic of the concert collection pays homage to the book that started it all.',
     link: 'https://www.etsy.com/listing/1471526684/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/32896-9.jpg',
+    name: 'My Honor Remains Hoodie',
+    tags: ['hoodie', 'cassius'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'I am Cassius au Bellona and my Honor Remains.',
+    link: 'https://howlerholo.net/product/product-13/'
   }
 ];
 

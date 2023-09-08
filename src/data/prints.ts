@@ -580,6 +580,54 @@ const data: IItem[] = [
     },
     description: 'Mini print of Aurae.',
     link: 'https://www.etsy.com/listing/1528850158/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/43135-173.jpg',
+    name: 'My Honor Remains Poster',
+    tags: ['print', 'cassius'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'I am Cassius au Bellona and my Honor Remains.',
+    link: 'https://howlerholo.net/product/myhonorremainsposter/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/43144-120.jpg',
+    name: 'The Ladon NPS Matte Poster',
+    tags: ['print'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Poster of the Ladon on Mercury.',
+    link: 'https://howlerholo.net/product/product-2/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/43135-77.jpg',
+    name: 'The Institute NPS Matte Poster',
+    tags: ['print'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Poster of the Institute.',
+    link: 'https://howlerholo.net/product/product-3/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/43135-125.jpg',
+    name: 'Pacific Rim NPS Matte Poster',
+    tags: ['print'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Poster of the Pacific Rim on Earth.',
+    link: 'https://howlerholo.net/product/pacific-rim-nps-matte-poster/'
   }
 ];
 
