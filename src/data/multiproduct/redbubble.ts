@@ -2705,6 +2705,30 @@ const data: IItem[] = [
     },
     description: 'House Mars symbol.',
     link: 'https://www.redbubble.com/shop/ap/119704269'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.5135645929.3642/flat,600x600,075,f.jpg',
+    name: 'Peerless Scarred Design',
+    tags: ['multiproduct'],
+    shop: {
+      name: 'PeppermintCreep',
+      url: 'https://www.redbubble.com/people/PeppermintCreep/shop'
+    },
+    description: 'The peerless scar on the face of a gold.',
+    link: 'https://www.redbubble.com/shop/ap/149413642'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.5135640049.3480/flat,600x600,075,f.jpg',
+    name: 'Golden Howler Design',
+    tags: ['multiproduct'],
+    shop: {
+      name: 'PeppermintCreep',
+      url: 'https://www.redbubble.com/people/PeppermintCreep/shop'
+    },
+    description: 'A golden wolf with the text "Howler" beneath it.',
+    link: 'https://www.redbubble.com/shop/ap/149413480'
   }
 ];
 
