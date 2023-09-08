@@ -2729,6 +2729,18 @@ const data: IItem[] = [
     },
     description: 'A golden wolf with the text "Howler" beneath it.',
     link: 'https://www.redbubble.com/shop/ap/149413480'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.407227407.1415/flat,600x600,075,f.jpg',
+    name: 'Omnis Vir Lupus Design',
+    tags: ['multiproduct'],
+    shop: {
+      name: 'rrenfroe13',
+      url: 'https://www.redbubble.com/people/rrenfroe13/shop'
+    },
+    description: 'For the day you decide to live for more.',
+    link: 'https://www.redbubble.com/shop/ap/24971415'
   }
 ];
 
