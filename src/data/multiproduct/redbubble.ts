@@ -2741,6 +2741,18 @@ const data: IItem[] = [
     },
     description: 'For the day you decide to live for more.',
     link: 'https://www.redbubble.com/shop/ap/24971415'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.5038389599.2073/flat,600x600,075,f.jpg',
+    name: 'Red Rising Colors Design',
+    tags: ['multiproduct', 'gold', 'red'],
+    shop: {
+      name: 'GustavoJonas',
+      url: 'https://www.redbubble.com/people/GustavoJonas/shop'
+    },
+    description: 'The sigils of Red and Gold with a haemanthus and wolf.',
+    link: 'https://www.redbubble.com/shop/ap/146662073'
   }
 ];
 
