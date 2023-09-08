@@ -2649,6 +2649,30 @@ const data: IItem[] = [
     description:
       'Created by Slink, we absolutely love this design in the same way Darrow loves his hands.',
     link: 'https://www.redbubble.com/shop/ap/145598523'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.5175924846.1957/flat,600x600,075,f.jpg',
+    name: 'Cassius My Honor Remains Design',
+    tags: ['multiproduct', 'cassius'],
+    shop: {
+      name: 'bewilderedbeest',
+      url: 'https://www.redbubble.com/people/bewilderedbeest/shop'
+    },
+    description: 'The wings of House Bellona and the text "My Honor Remains".',
+    link: 'https://www.redbubble.com/shop/ap/150501957'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.3113831308.1483/flat,600x600,075,f.jpg',
+    name: 'Break the Chains SlingBlade Design',
+    tags: ['multiproduct'],
+    shop: {
+      name: 'bewilderedbeest',
+      url: 'https://www.redbubble.com/people/bewilderedbeest/shop'
+    },
+    description: 'A slingBlade and the text "Break the Chains".',
+    link: 'https://www.redbubble.com/shop/ap/98441483'
   }
 ];
 
