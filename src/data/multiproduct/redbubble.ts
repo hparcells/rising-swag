@@ -2673,6 +2673,26 @@ const data: IItem[] = [
     },
     description: 'A slingBlade and the text "Break the Chains".',
     link: 'https://www.redbubble.com/shop/ap/98441483'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.5083701685.0398/flat,600x600,075,f.jpg',
+    name: 'Red Rising Saga Books Design',
+    tags: [
+      'multiproduct',
+      'red-rising',
+      'golden-son',
+      'morning-star',
+      'iron-gold',
+      'dark-age',
+      'light-bringer'
+    ],
+    shop: {
+      name: 'lalashellsArt',
+      url: 'https://www.redbubble.com/people/lalashellsArt/shop'
+    },
+    description: 'Mini sketches of the saga.',
+    link: 'https://www.redbubble.com/shop/ap/147990398'
   }
 ];
 
