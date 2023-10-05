@@ -1,4 +1,5 @@
 import { IItem } from '@/types/item';
+import { link } from 'fs';
 
 const data: IItem[] = [
   {
@@ -743,6 +744,18 @@ const data: IItem[] = [
     },
     description: 'Haul your books in style and show off your love for Red Rising.',
     link: 'https://www.etsy.com/listing/689164112/'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://i0.wp.com/stoneangelbrewing.com/wp-content/uploads/2022/03/stained-mock.jpg',
+    name: 'Stained IPA (Full Greek)',
+    tags: ['other'],
+    shop: {
+      name: 'Stone Angel Brewing',
+      url: 'https://stoneangelbrewing.com/'
+    },
+    description: 'This warrior of a black IPA has hop aroma that battles between piney and citrus.',
+    link: 'https://stoneangelbrewing.com/product/full-geek-stained/'
   }
 ];
 

@@ -2649,6 +2649,110 @@ const data: IItem[] = [
     description:
       'Created by Slink, we absolutely love this design in the same way Darrow loves his hands.',
     link: 'https://www.redbubble.com/shop/ap/145598523'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.5175924846.1957/flat,600x600,075,f.jpg',
+    name: 'Cassius My Honor Remains Design',
+    tags: ['multiproduct', 'cassius'],
+    shop: {
+      name: 'bewilderedbeest',
+      url: 'https://www.redbubble.com/people/bewilderedbeest/shop'
+    },
+    description: 'The wings of House Bellona and the text "My Honor Remains".',
+    link: 'https://www.redbubble.com/shop/ap/150501957'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.3113831308.1483/flat,600x600,075,f.jpg',
+    name: 'Break the Chains SlingBlade Design',
+    tags: ['multiproduct'],
+    shop: {
+      name: 'bewilderedbeest',
+      url: 'https://www.redbubble.com/people/bewilderedbeest/shop'
+    },
+    description: 'A slingBlade and the text "Break the Chains".',
+    link: 'https://www.redbubble.com/shop/ap/98441483'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.5083701685.0398/flat,600x600,075,f.jpg',
+    name: 'Red Rising Saga Books Design',
+    tags: [
+      'multiproduct',
+      'red-rising',
+      'golden-son',
+      'morning-star',
+      'iron-gold',
+      'dark-age',
+      'light-bringer'
+    ],
+    shop: {
+      name: 'lalashellsArt',
+      url: 'https://www.redbubble.com/people/lalashellsArt/shop'
+    },
+    description: 'Mini sketches of the saga.',
+    link: 'https://www.redbubble.com/shop/ap/147990398'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.3963846048.4269/flat,600x600,075,f.jpg',
+    name: 'House Mars Design',
+    tags: ['multiproduct'],
+    shop: {
+      name: 'utraa',
+      url: 'https://www.redbubble.com/people/utraa/shop'
+    },
+    description: 'House Mars symbol.',
+    link: 'https://www.redbubble.com/shop/ap/119704269'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.5135645929.3642/flat,600x600,075,f.jpg',
+    name: 'Peerless Scarred Design',
+    tags: ['multiproduct'],
+    shop: {
+      name: 'PeppermintCreep',
+      url: 'https://www.redbubble.com/people/PeppermintCreep/shop'
+    },
+    description: 'The peerless scar on the face of a gold.',
+    link: 'https://www.redbubble.com/shop/ap/149413642'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.5135640049.3480/flat,600x600,075,f.jpg',
+    name: 'Golden Howler Design',
+    tags: ['multiproduct'],
+    shop: {
+      name: 'PeppermintCreep',
+      url: 'https://www.redbubble.com/people/PeppermintCreep/shop'
+    },
+    description: 'A golden wolf with the text "Howler" beneath it.',
+    link: 'https://www.redbubble.com/shop/ap/149413480'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.407227407.1415/flat,600x600,075,f.jpg',
+    name: 'Omnis Vir Lupus Design',
+    tags: ['multiproduct'],
+    shop: {
+      name: 'rrenfroe13',
+      url: 'https://www.redbubble.com/people/rrenfroe13/shop'
+    },
+    description: 'For the day you decide to live for more.',
+    link: 'https://www.redbubble.com/shop/ap/24971415'
+  },
+  {
+    date: '2023-09-07',
+    image: 'https://ih1.redbubble.net/image.5038389599.2073/flat,600x600,075,f.jpg',
+    name: 'Red Rising Colors Design',
+    tags: ['multiproduct', 'gold', 'red'],
+    shop: {
+      name: 'GustavoJonas',
+      url: 'https://www.redbubble.com/people/GustavoJonas/shop'
+    },
+    description: 'The sigils of Red and Gold with a haemanthus and wolf.',
+    link: 'https://www.redbubble.com/shop/ap/146662073'
   }
 ];
 

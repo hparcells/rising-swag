@@ -465,7 +465,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description:
-      'This 16oz camping mug is perfect for all you Howlers. One side features the Wolf’s head and Howler 4 Life and the other side features Omnis Vir Lupus.',
+      "This 16oz camping mug is perfect for all you Howlers. One side features the Wolf's head and Howler 4 Life and the other side features Omnis Vir Lupus.",
     link: 'https://www.etsy.com/listing/595759386/',
     expired: true
   },
@@ -480,6 +480,18 @@ const data: IItem[] = [
     },
     description: 'Summon the howlers!',
     link: 'https://www.etsy.com/listing/633723715/'
+  },
+  {
+    date: '2023-09-04',
+    image: 'https://i.etsystatic.com/16046340/r/il/c7eb30/5254444992/il_794xN.5254444992_pvxu.jpg',
+    name: 'Straight Outta Lykos Stoneware Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Straight Outta Lykos.',
+    link: 'https://www.etsy.com/listing/1558999909/'
   }
 ];
 
