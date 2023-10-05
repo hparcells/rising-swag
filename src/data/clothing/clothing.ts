@@ -1753,6 +1753,54 @@ const data: IItem[] = [
     },
     description: "Emblem of Arcos's Academy.",
     link: 'https://howlerholo.net/product/arcos-academy-unisex-tee/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/18358-16.jpg',
+    name: 'Bellona Mountain Ski Resort Unisex Tee',
+    tags: ['shirt', 'cassius'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Cassius's Ski Resort, a few clicks from Attica.",
+    link: 'https://howlerholo.net/product/bellona-mountain-ski-resort-unisex-tee/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/18374.jpg',
+    name: 'Lionheart Unisex Tee',
+    tags: ['shirt', 'mustang'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: '"Sometimes it is fun to let the lion out." Virginia au Augustus, Dark Age',
+    link: 'https://howlerholo.net/product/lionheart-unisex-tee/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/18150-108.jpg',
+    name: 'Lost Wee Den Neon Lights Pub Unisex Tee',
+    tags: ['shirt', 'golden-son'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Join us for a drink at the Lost Wee Den - Golden Son',
+    link: 'https://howlerholo.net/product/lost-wee-den-neon-lights-pub-unisex-tee/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/18270-5.jpg',
+    name: 'Lost Wee Den Pub Unisex Tee',
+    tags: ['shirt', 'golden-son'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Join us for a drink at the Lost Wee Den - Golden Son',
+    link: 'https://howlerholo.net/product/lost-wee-den-pub-unisex-tee/'
   }
 ];
 

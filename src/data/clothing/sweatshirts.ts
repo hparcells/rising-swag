@@ -241,6 +241,55 @@ const data: IItem[] = [
     },
     description: "The Howlers' War on Heaven Tour sweatshirt.",
     link: 'https://www.etsy.com/listing/1552756665/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/25456-7.jpg',
+    name: 'Bellona Ski Resort Crewneck',
+    tags: ['sweatshirt', 'cassius'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Cassius's Ski Resort, a few clicks from Attica.",
+    link: 'https://howlerholo.net/product/bellona-ski-resort-crewneck/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/25450.jpg',
+    name: 'My Honor Remains Unisex Crewneck',
+    tags: ['sweatshirt', 'cassius'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'I am Cassius au Bellona and my honor remains.',
+    link: 'https://howlerholo.net/product/my-honor-remains-unisex-crewneck/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/25462-7.jpg',
+    name: 'Snap. Mustang Crewneck Sweatshirt (Golden Son)',
+    tags: ['sweatshirt', 'mustang', 'golden-son'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: '"Snap." Virginia au Augustus, Golden Son',
+    link: 'https://howlerholo.net/product/snap-mustang-crewneck-sweatshirt-golden-son/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/25456-14.jpg',
+    name: 'Sophocles Crewneck Sweatshirt',
+    tags: ['sweatshirt', 'sophocles'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description:
+      'The bravest member of the Telemanus family, only because Kavax hold the title of craziest.',
+    link: 'https://howlerholo.net/product/sophocles-crewneck-sweatshirt/'
   }
 ];
 
