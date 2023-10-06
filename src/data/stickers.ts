@@ -961,6 +961,19 @@ const data: IItem[] = [
     },
     description: 'Sticker of the Institute.',
     link: 'https://howlerholo.net/product/product-5/'
+  },
+  {
+    date: '2023-10-06',
+    image: 'https://i.etsystatic.com/34144082/r/il/856c16/3786211054/il_794xN.3786211054_16rr.jpg',
+    name: 'Red Rising Trilogy Sticker',
+    tags: ['sticker', 'red-rising', 'golden-son', 'morning-star'],
+    shop: {
+      name: 'FreezeFrameCreative',
+      url: 'https://www.etsy.com/shop/FreezeFrameCreative'
+    },
+    description: 'This hand-drawn sticker is perfect for fans of the epic Red Rising series!',
+    link: 'https://www.etsy.com/listing/1195467072/',
+    expired: true
   }
 ];
 
