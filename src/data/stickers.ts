@@ -1,4 +1,5 @@
 import { IItem } from '@/types/item';
+import { link } from 'fs';
 
 const data: IItem[] = [
   {
@@ -974,6 +975,42 @@ const data: IItem[] = [
     description: 'This hand-drawn sticker is perfect for fans of the epic Red Rising series!',
     link: 'https://www.etsy.com/listing/1195467072/',
     expired: true
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/95743-46.jpg',
+    name: 'Bellona Mountain Ski Resort Vinyl Sticker',
+    tags: ['sticker', 'cassius'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Cassius's Ski Resort, a few clicks from Attica.",
+    link: 'https://howlerholo.net/product/bellona-mountain-ski-resort-vinyl-sticker/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/70876-16.jpg',
+    name: 'Bellona Ski Resort Vinyl Sticker',
+    tags: ['sticker', 'cassius'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Cassius's Ski Resort, a few clicks from Attica.",
+    link: 'https://howlerholo.net/product/bellona-ski-resort-vinyl-sticker/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/95743-42.jpg',
+    name: 'Lionheart Vinyl Sticker',
+    tags: ['sticker', 'mustang'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: '"Sometimes it is fun to let the lion out." Virginia au Augustus, Dark Age',
+    link: 'https://howlerholo.net/product/lionheart-vinyl-sticker/'
   }
 ];
 

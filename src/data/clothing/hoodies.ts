@@ -319,6 +319,30 @@ const data: IItem[] = [
     },
     description: 'I am Cassius au Bellona and my Honor Remains.',
     link: 'https://howlerholo.net/product/product-13/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/32888.jpg',
+    name: 'Lionheart Unisex Hoodie',
+    tags: ['hoodie', 'mustang'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: '"Sometimes it is fun to let the lion out." Virginia au Augustus, Dark Age',
+    link: 'https://howlerholo.net/product/lionheart-unisex-hoodie/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/09/42261.jpg',
+    name: 'Mustang Snap Unisex Hoodie (Golden Son)',
+    tags: ['hoodie', 'mustang', 'golden-son'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: '"Snap." Virginia au Augustus, Golden Son',
+    link: 'https://howlerholo.net/product/mustang-snap-unisex-hoodie-golden-son/'
   }
 ];
 
