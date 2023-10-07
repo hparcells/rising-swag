@@ -343,6 +343,18 @@ const data: IItem[] = [
     },
     description: '"Snap." Virginia au Augustus, Golden Son',
     link: 'https://howlerholo.net/product/mustang-snap-unisex-hoodie-golden-son/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/ecd89c/2088762093/il_794xN.2088762093_jrvb.jpg',
+    name: 'Hic Est Lupus Hoodie',
+    tags: ['hoodie'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description: 'Simple "Hic Est Lupus" hoodie.',
+    link: 'https://www.etsy.com/listing/743879437/'
   }
 ];
 

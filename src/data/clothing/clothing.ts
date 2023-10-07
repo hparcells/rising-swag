@@ -1801,6 +1801,18 @@ const data: IItem[] = [
     },
     description: 'Join us for a drink at the Lost Wee Den - Golden Son',
     link: 'https://howlerholo.net/product/lost-wee-den-pub-unisex-tee/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/9dc194/2948528585/il_794xN.2948528585_mb28.jpg',
+    name: 'Red Rising Inspired Tops',
+    tags: ['shirt', 'sweatshirt', 'hoodie', 'red-rising'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description: 'A "college" style Red Rising inspired top.',
+    link: 'https://www.etsy.com/listing/956167092/'
   }
 ];
 
