@@ -998,6 +998,42 @@ const data: IItem[] = [
     },
     description: '"Sometimes it is fun to let the lion out." Virginia au Augustus, Dark Age',
     link: 'https://howlerholo.net/product/lionheart-vinyl-sticker/'
+  },
+  {
+    date: '2023-10-09',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/10/95743-8.jpg',
+    name: 'Howler-ween Bash 2023 Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Happy Howler-ween! Awwwoooo!',
+    link: 'https://howlerholo.net/product/kiss-cut-vinyl-decals/'
+  },
+  {
+    date: '2023-10-09',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/10/95743-12.jpg',
+    name: 'Howler-ween the Crux Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'The Howlers Den',
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Happy Howler-ween! Give everyone the Crux that doesn't agree. Awwwoooo!",
+    link: 'https://howlerholo.net/product/howler-ween-the-crux-vinyl-sticker/'
+  },
+  {
+    date: '2023-10-09',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/10/95743-16.jpg',
+    name: 'The Crux Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'The Howlers Den',
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Happy Howler-ween! Give everyone the Crux that doesn't agree. Awwwoooo!",
+    link: 'https://howlerholo.net/product/the-crux-vinyl-sticker/'
   }
 ];
 
