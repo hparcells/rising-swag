@@ -1832,11 +1832,23 @@ const data: IItem[] = [
     name: 'Howler-ween Skelly Crux Unisex Tee',
     tags: ['shirt'],
     shop: {
-      name: 'The Howler’s Den',
+      name: "The Howler's Den",
       url: 'https://www.howlerholo.net'
     },
     description: "Happy Howler-ween! Give everyone the Crux that doesn't agree. Awwwoooo!",
     link: 'https://howlerholo.net/product/howler-ween-skelly-crux-unisex-tee/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/9dc194/2948528585/il_794xN.2948528585_mb28.jpg',
+    name: 'Red Rising Inspired Tops',
+    tags: ['shirt', 'sweatshirt', 'hoodie', 'red-rising'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description: 'A "college" style Red Rising inspired top.',
+    link: 'https://www.etsy.com/listing/956167092/'
   }
 ];
 

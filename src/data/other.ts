@@ -756,6 +756,145 @@ const data: IItem[] = [
     },
     description: 'This warrior of a black IPA has hop aroma that battles between piney and citrus.',
     link: 'https://stoneangelbrewing.com/product/full-geek-stained/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/9a6065/2100681701/il_794xN.2100681701_byux.jpg',
+    name: 'Eo Of Lykos Funko Pop',
+    tags: ['other'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description:
+      'A custom funko pop based on the character of Eo from the amazing Red Rising series by Pierce Brown.',
+    link: 'https://www.etsy.com/listing/732566712/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/adc3d1/2125166274/il_794xN.2125166274_lbyo.jpg',
+    name: 'Sevro au Barca Funko Pop',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description: 'Muddy, bloody, pissed off Sevro au Barca. Just the way we all know and love him.',
+    link: 'https://www.etsy.com/listing/728898847/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/f4cd9f/2415867343/il_794xN.2415867343_mmyx.jpg',
+    name: 'Ares Sevro Au Barca Funko Pop',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description: "Everyone's favorite goblin, in the Ares helmet. Hand-sculpted and hand-painted.",
+    link: 'https://www.etsy.com/listing/740089209/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/570b00/2263436075/il_794xN.2263436075_lz4h.jpg',
+    name: 'Bottled Helldiver Matches',
+    tags: ['other'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description: 'Warning: May spark a revolution.',
+    link: 'https://www.etsy.com/listing/770688466/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/ff2168/3083414515/il_794xN.3083414515_6m81.jpg',
+    name: 'Holiday ti Nakamura Funko Pop',
+    tags: ['other'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description: 'Inspired by the Red Rising series by Pierce Brown.',
+    link: 'https://www.etsy.com/listing/1006768033/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/3b0090/2164378546/il_794xN.2164378546_fkg6.jpg',
+    name: 'Apollonius Au Valii-Rath Funko Pop',
+    tags: ['other'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description: 'Funko pop of Apollonius au Valii-Rath.',
+    link: 'https://www.etsy.com/listing/748103810/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/9410f0/2897698571/il_794xN.2897698571_ovj0.jpg',
+    name: 'Mustang Funko Pop',
+    tags: ['other', 'mustang'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description: 'Handmade, hand painted custom Funko pop of Mustang from the Red Rising series.',
+    link: 'https://www.etsy.com/listing/943238706/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/a89968/2026704004/il_794xN.2026704004_rn87.jpg',
+    name: 'Ragnar Volarus Funko Pop',
+    tags: ['other'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description: "Everyone's favorite stained, Ragnar Volarus.",
+    link: 'https://www.etsy.com/listing/740660059/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/3f6036/2850022916/il_794xN.2850022916_3ntf.jpg',
+    name: 'Sefi the Quiet Funko Pop',
+    tags: ['other'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description:
+      'Handmade, hand painted custom Funko pop of Sefi the quiet from the Red Rising series.',
+    link: 'https://www.etsy.com/listing/957190939/'
+  },
+  {
+    date: '2023-10-05',
+    image: 'https://i.etsystatic.com/18590820/r/il/b94efd/2024099434/il_794xN.2024099434_3yce.jpg',
+    name: 'Victra Au Julii Funko Pop',
+    tags: ['other', 'victra'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description:
+      "Everyone's favorite Victra au Julii. Hand sculpted and painted! Complete with her Jade earrings and a golden razor.",
+    link: 'https://www.etsy.com/listing/777030327/',
+    expired: true
+  },
+  {
+    date: '2023-10-05',
+    image:
+      'https://i.etsystatic.com/18590820/r/il/fbd16a/2121067322/il_680x540.2121067322_ifxj.jpg',
+    name: 'Cassius au Bellona Funko Pop',
+    tags: ['other', 'cassius'],
+    shop: {
+      name: 'DreamInABottleShop',
+      url: 'https://www.etsy.com/shop/DreamInABottleShop'
+    },
+    description:
+      'Handmade, hand painted custom Funko pop of Cassius au Bellona from the Red Rising series.',
+    link: 'https://www.etsy.com/listing/748089508/',
+    expired: true
   }
 ];
 
