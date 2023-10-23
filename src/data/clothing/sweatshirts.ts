@@ -327,6 +327,18 @@ const data: IItem[] = [
     },
     description: 'Howler emblem with the text "Omnis Vir Lupus" and "Hail Reaper".',
     link: 'https://www.etsy.com/listing/1532921207/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/36464113/r/il/ae0aff/5176636363/il_794xN.5176636363_9lgx.jpg',
+    name: 'Howlers Sweatshirt',
+    tags: ['sweatshirt', 'red', 'gold'],
+    shop: {
+      name: 'NicoleLewisGift',
+      url: 'https://www.etsy.com/shop/NicoleLewisGift'
+    },
+    description: 'The sigil of Mars, Gold, and Red.',
+    link: 'https://www.etsy.com/listing/1531857709/'
   }
 ];
 
