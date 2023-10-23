@@ -895,6 +895,19 @@ const data: IItem[] = [
       'Handmade, hand painted custom Funko pop of Cassius au Bellona from the Red Rising series.',
     link: 'https://www.etsy.com/listing/748089508/',
     expired: true
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/37251580/r/il/23aa93/5383773346/il_794xN.5383773346_m5px.jpg',
+    name: 'Original Wolf Pencil Drawing',
+    tags: ['other'],
+    shop: {
+      name: 'StillWoodsStudios',
+      url: 'https://www.etsy.com/shop/StillWoodsStudios'
+    },
+    description:
+      'Omnis Vir Lupus! Hand drawn on Acid Free paper. The finished product is 8x9 inches.',
+    link: 'https://www.etsy.com/listing/1571039912/'
   }
 ];
 
