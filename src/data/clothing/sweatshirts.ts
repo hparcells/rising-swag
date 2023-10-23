@@ -315,6 +315,18 @@ const data: IItem[] = [
     },
     description: 'A graphic representing the Red Rising series.',
     link: 'https://www.etsy.com/listing/1544596160/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/38022526/r/il/a761a2/5187780962/il_794xN.5187780962_qs9g.jpg',
+    name: 'Omnis Vir Lupus Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'MbrdryByDani',
+      url: 'https://www.etsy.com/shop/MbrdryByDani'
+    },
+    description: 'Howler emblem with the text "Omnis Vir Lupus" and "Hail Reaper".',
+    link: 'https://www.etsy.com/listing/1532921207/'
   }
 ];
 
