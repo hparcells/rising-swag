@@ -1084,6 +1084,31 @@ const data: IItem[] = [
     description:
       "Vote Darrow and Sevro! We're the Light, and We're Spreading. Break the Chains and support the Howlers!",
     link: 'https://www.etsy.com/listing/1581254139/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/24204637/r/il/586d3d/5188021082/il_794xN.5188021082_dv8v.jpg',
+    name: 'Omnis Vir Lupus Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'MagicCityMemoriesCo',
+      url: 'https://www.etsy.com/shop/MagicCityMemoriesCo'
+    },
+    description: 'Show your Howler pride with this cool Red Rising Howler Sticker.',
+    link: 'https://www.etsy.com/listing/1158112596/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/24204637/r/il/bbfac9/5188012822/il_794xN.5188012822_odxo.jpg',
+    name: 'The Crux Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'MagicCityMemoriesCo',
+      url: 'https://www.etsy.com/shop/MagicCityMemoriesCo'
+    },
+    description:
+      '"What are you doing?" Sevro whispers in my ear, eying Varga. He flips the woman the crux with his middle finger wrapped around the index.',
+    link: 'https://www.etsy.com/listing/1525665150/'
   }
 ];
 
