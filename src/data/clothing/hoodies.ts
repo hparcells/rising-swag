@@ -355,6 +355,18 @@ const data: IItem[] = [
     },
     description: 'Simple "Hic Est Lupus" hoodie.',
     link: 'https://www.etsy.com/listing/743879437/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/fa932c/5253236652/il_794xN.5253236652_2uex.jpg',
+    name: 'Red Rising Unisex Hooded Sweatshirt',
+    tags: ['hoodie', 'red-rising'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'A graphic representing the Red Rising series.',
+    link: 'https://www.etsy.com/listing/1544536574/'
   }
 ];
 
