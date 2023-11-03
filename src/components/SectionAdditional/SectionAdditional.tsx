@@ -34,6 +34,11 @@ function SectionAdditional() {
               All Expired
             </Anchor>
           </Text>
+          <Text size='sm'>
+            <Anchor href='/shops' component={Link} passHref>
+              All Shops
+            </Anchor>
+          </Text>
         </div>
       </div>
     </div>
