@@ -583,6 +583,30 @@ const data: IItem[] = [
     description:
       'Let the fire of rebellion burn in your soul, and as you sip from this mug, let it remind you of our hopes, our struggles, and our unwavering resolve.',
     link: 'https://www.etsy.com/listing/1596986027/'
+  },
+  {
+    date: '2023-11-03',
+    image: 'https://i.etsystatic.com/16046340/r/il/4609e1/5508596215/il_794xN.5508596215_jrsz.jpg',
+    name: 'Bloodydamn Strong Coffee Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'White, gray and black 16oz mug hand painted rust red with vinyl lettering.',
+    link: 'https://www.etsy.com/listing/1587019588/'
+  },
+  {
+    date: '2023-11-03',
+    image: 'https://i.etsystatic.com/16046340/r/il/0a41ba/5476697173/il_794xN.5476697173_o2ml.jpg',
+    name: 'Gorydamn Good Coffee Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'White, gray and black 16oz mug hand painted gold accent with vinyl design.',
+    link: 'https://www.etsy.com/listing/1579972936/'
   }
 ];
 
