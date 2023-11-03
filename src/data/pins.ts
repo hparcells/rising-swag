@@ -345,6 +345,19 @@ const data: IItem[] = [
     },
     description: 'Dominus Portobello',
     link: 'https://www.etsy.com/listing/1557540721/'
+  },
+  {
+    date: '2023-10-09',
+    image: 'https://i.etsystatic.com/12998517/r/il/003fe7/3810000765/il_794xN.3810000765_449k.jpg',
+    name: 'Live For More Enamel Pin',
+    tags: ['pin', 'red', 'gold'],
+    shop: {
+      name: 'dreamyandco',
+      url: 'https://www.etsy.com/shop/LiveForMore'
+    },
+    description:
+      'Pin with the sigils of Red and Gold and a wolf. Contains the text "Live For More" and "Break the Chains".',
+    link: 'https://www.etsy.com/listing/1203100871/'
   }
 ];
 

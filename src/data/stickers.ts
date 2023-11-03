@@ -1011,6 +1011,79 @@ const data: IItem[] = [
     },
     description: '"Sometimes it is fun to let the lion out." Virginia au Augustus, Dark Age',
     link: 'https://howlerholo.net/product/lionheart-vinyl-sticker/'
+  },
+  {
+    date: '2023-10-09',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/10/95743-8.jpg',
+    name: 'Howler-ween Bash 2023 Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Happy Howler-ween! Awwwoooo!',
+    link: 'https://howlerholo.net/product/kiss-cut-vinyl-decals/'
+  },
+  {
+    date: '2023-10-09',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/10/95743-12.jpg',
+    name: 'Howler-ween the Crux Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'The Howlers Den',
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Happy Howler-ween! Give everyone the Crux that doesn't agree. Awwwoooo!",
+    link: 'https://howlerholo.net/product/howler-ween-the-crux-vinyl-sticker/'
+  },
+  {
+    date: '2023-10-09',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/10/95743-16.jpg',
+    name: 'The Crux Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'The Howlers Den',
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Happy Howler-ween! Give everyone the Crux that doesn't agree. Awwwoooo!",
+    link: 'https://howlerholo.net/product/the-crux-vinyl-sticker/'
+  },
+  {
+    date: '2023-10-09',
+    image: 'https://i.etsystatic.com/9032134/r/il/2ff956/5411298595/il_794xN.5411298595_lqwx.jpg',
+    name: 'Red Rising Series Quotes Stickers',
+    tags: ['sticker'],
+    shop: {
+      name: 'ByAndreaRenee',
+      url: 'https://www.etsy.com/shop/ByAndreaRenee'
+    },
+    description: 'Stickers of quotes from the Red Rising series.',
+    link: 'https://www.etsy.com/listing/1581267747/'
+  },
+  {
+    date: '2023-10-09',
+    image: 'https://i.etsystatic.com/9032134/r/il/c1dba8/5411245007/il_794xN.5411245007_i8wr.jpg',
+    name: 'I Would Have Lived in Peace Sticker',
+    tags: ['sticker', 'darrow'],
+    shop: {
+      name: 'ByAndreaRenee',
+      url: 'https://www.etsy.com/shop/ByAndreaRenee'
+    },
+    description: '"I would have lived in peace, but my enemies brought me war."',
+    link: 'https://www.etsy.com/listing/1581261051/'
+  },
+  {
+    date: '2023-10-09',
+    image: 'https://i.etsystatic.com/9032134/r/il/49f128/5411221175/il_794xN.5411221175_icf5.jpg',
+    name: "We're the Light and We're Spreading Sticker",
+    tags: ['sticker', 'darrow', 'sevro'],
+    shop: {
+      name: 'ByAndreaRenee',
+      url: 'https://www.etsy.com/shop/ByAndreaRenee'
+    },
+    description:
+      "Vote Darrow and Sevro! We're the Light, and We're Spreading. Break the Chains and support the Howlers!",
+    link: 'https://www.etsy.com/listing/1581254139/'
   }
 ];
 

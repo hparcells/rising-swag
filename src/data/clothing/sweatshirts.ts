@@ -290,6 +290,43 @@ const data: IItem[] = [
     description:
       'The bravest member of the Telemanus family, only because Kavax hold the title of craziest.',
     link: 'https://howlerholo.net/product/sophocles-crewneck-sweatshirt/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/09b6f4/4922109286/il_794xN.4922109286_65d4.jpg',
+    name: 'Iron Gold Distressed Concert Collection Crewneck Sweatshirt',
+    tags: ['sweatshirt', 'iron-gold'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description:
+      'A map from Mercury to Io is surrounded by the celestial coordinates of the moon and planets at the release of Iron Gold.',
+    link: 'https://www.etsy.com/listing/1485614665/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/43349528/r/il/fbd095/5253471810/il_794xN.5253471810_nmo7.jpg',
+    name: 'Red Rising Unisex Crewneck Sweatshirt',
+    tags: ['sweatshirt', 'red-rising'],
+    shop: {
+      name: 'jesslostinbooks',
+      url: 'https://www.etsy.com/shop/jesslostinbooks'
+    },
+    description: 'A graphic representing the Red Rising series.',
+    link: 'https://www.etsy.com/listing/1544596160/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/38022526/r/il/a761a2/5187780962/il_794xN.5187780962_qs9g.jpg',
+    name: 'Omnis Vir Lupus Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'MbrdryByDani',
+      url: 'https://www.etsy.com/shop/MbrdryByDani'
+    },
+    description: 'Howler emblem with the text "Omnis Vir Lupus" and "Hail Reaper".',
+    link: 'https://www.etsy.com/listing/1532921207/'
   }
 ];
 

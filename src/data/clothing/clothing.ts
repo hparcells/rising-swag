@@ -1803,6 +1803,42 @@ const data: IItem[] = [
     link: 'https://howlerholo.net/product/lost-wee-den-pub-unisex-tee/'
   },
   {
+    date: '2023-10-09',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/10/18102-5.jpg',
+    name: 'Howler-ween Bash 2023 Unisex Tee',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Happy Howler-ween! Awwwoooo!',
+    link: 'https://howlerholo.net/product/howler-ween-bash-2023-unisex-tee/'
+  },
+  {
+    date: '2023-10-09',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/10/18102-9.jpg',
+    name: 'The Skelly Crux Unisex Tee',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Give 'em the crux if they don't understand.",
+    link: 'https://howlerholo.net/product/the-skelly-crux-unisex-tee/'
+  },
+  {
+    date: '2023-10-09',
+    image: 'https://i0.wp.com/howlerholo.net/wp-content/uploads/2023/10/18510.jpg',
+    name: 'Howler-ween Skelly Crux Unisex Tee',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "Happy Howler-ween! Give everyone the Crux that doesn't agree. Awwwoooo!",
+    link: 'https://howlerholo.net/product/howler-ween-skelly-crux-unisex-tee/'
+  },
+  {
     date: '2023-10-05',
     image: 'https://i.etsystatic.com/18590820/r/il/9dc194/2948528585/il_794xN.2948528585_mb28.jpg',
     name: 'Red Rising Inspired Tops',

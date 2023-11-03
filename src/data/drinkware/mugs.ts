@@ -492,6 +492,58 @@ const data: IItem[] = [
     },
     description: 'Straight Outta Lykos.',
     link: 'https://www.etsy.com/listing/1558999909/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/e52b6a/5419076938/il_794xN.5419076938_9ee7.jpg',
+    name: 'Wakey Wakey Goblin Coffee Mug (White Interior)',
+    tags: ['mug', 'sevro'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'This mug, bearing the symbols of our rebellion, is a testament to the power of that first sip, a reminder that even in the darkest of times, we can rise, conquer, and shape our destiny.',
+    link: 'https://www.etsy.com/listing/1577301170/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/52c72c/5468600271/il_794xN.5468600271_gjyi.jpg',
+    name: 'Wakey Wakey Goblin Coffee Mug (Black Interior)',
+    tags: ['mug', 'sevro'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'This mug, bearing the symbols of our rebellion, is a testament to the power of that first sip, a reminder that even in the darkest of times, we can rise, conquer, and shape our destiny.',
+    link: 'https://www.etsy.com/listing/1592387939/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/6953b7/5470529315/il_794xN.5470529315_obaj.jpg',
+    name: 'Never Bow Mug (Black Interior)',
+    tags: ['mug'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      "My fellow Howlers, as we rise to face the unforgiving world with the dawn's first light, let it be known that we will NEVER BOW!",
+    link: 'https://www.etsy.com/listing/1592786825/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/fff9d0/5470527479/il_794xN.5470527479_cu9a.jpg',
+    name: 'Never Bow Mug (White Interior)',
+    tags: ['mug'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      "My fellow Howlers, as we rise to face the unforgiving world with the dawn's first light, let it be known that we will NEVER BOW!",
+    link: 'https://www.etsy.com/listing/1592792673/'
   }
 ];
 
