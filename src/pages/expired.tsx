@@ -2,20 +2,23 @@ import { useEffect, useRef, useState } from 'react';
 import { Anchor, Pagination } from '@mantine/core';
 import Link from 'next/link';
 
-import classes from '../components/Content/Content.module.scss';
 import SkeletonCard from '@/components/SkeletonCard/SkeletonCard';
 import ItemCard from '@/components/ItemCard/ItemCard';
 import Layout from '@/components/Layout';
 
 import { IItem } from '@/types/item';
 
+import classes from '../components/Content/Content.module.scss';
+
 import { ALL_DATA } from '@/data/data';
+import { useRouter } from 'next/router';
 
 function Expired() {
   const topCards = useRef<HTMLDivElement>(null);
   const [filteredData, setFilteredData] = useState<IItem[]>(null as any);
   const [pages, setPages] = useState<number>(1);
   const [page, setPage] = useState<number>(1);
+  const router = useRouter();
 
   useEffect(() => {
     setFilteredData(
@@ -25,7 +28,7 @@ function Expired() {
         return new Date(b.date).getTime() - new Date(a.date).getTime();
       })
     );
-  });
+  }, []);
 
   useEffect(() => {
     if (!filteredData) {
@@ -36,7 +39,16 @@ function Expired() {
 
   return (
     <Layout title='Expired Items'>
-      <div className={classes.squeeze}>
+      <div
+        className={classes.squeeze}
+        style={{
+          marginTop: '1em'
+        }}
+      >
+        <Anchor href='/' component={Link} passHref>
+          Back
+        </Anchor>
+
         <p>Showing all expired items.</p>
 
         <div className={classes.cards} ref={topCards}>
