@@ -1030,7 +1030,7 @@ const data: IItem[] = [
     name: 'Howler-ween the Crux Vinyl Sticker',
     tags: ['sticker'],
     shop: {
-      name: 'The Howlers Den',
+      name: "The Howler's Den",
       url: 'https://www.howlerholo.net'
     },
     description: "Happy Howler-ween! Give everyone the Crux that doesn't agree. Awwwoooo!",
@@ -1042,7 +1042,7 @@ const data: IItem[] = [
     name: 'The Crux Vinyl Sticker',
     tags: ['sticker'],
     shop: {
-      name: 'The Howlers Den',
+      name: "The Howler's Den",
       url: 'https://www.howlerholo.net'
     },
     description: "Happy Howler-ween! Give everyone the Crux that doesn't agree. Awwwoooo!",
