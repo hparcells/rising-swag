@@ -676,6 +676,97 @@ const data: IItem[] = [
     },
     description: '5x7 print of Darrow.',
     link: 'https://www.etsy.com/listing/1556073673/'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/0d0d2585aee351724d96f526201bac02_02fa3be6aafc4032b8a8527f1a6b5a74.jpg',
+    name: 'Gold Displate',
+    tags: ['displate', 'gold'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the Gold sigil.',
+    link: 'https://displate.com/displate/6861678'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/28dbdbac49c91e01561662a460d82578_3c552bc222b27c98c725efe5958577e5.jpg',
+    name: 'Red Displate',
+    tags: ['displate', 'red'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the Red sigil.',
+    link: 'https://displate.com/displate/6861673'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/bf5303ec4ffd5a62d8dca8e2bd3e5ee6_02fa3be6aafc4032b8a8527f1a6b5a74.jpg',
+    name: 'Violet Displate',
+    tags: ['displate', 'violet'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the Violet sigil.',
+    link: 'https://displate.com/displate/6861677'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/267ec2eecf20f1a7ed601117c4d88ee0_02fa3be6aafc4032b8a8527f1a6b5a74.jpg',
+    name: 'Copper Displate',
+    tags: ['displate', 'copper'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the Copper sigil.',
+    link: 'https://displate.com/displate/6861676'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/663e47a76e5d4824e125ce99bb6f84ea_2596d98ed6d7a0d92c0bf2180cb20eb7.jpg',
+    name: 'Yellow Displate',
+    tags: ['displate', 'yellow'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the Yellow sigil.',
+    link: 'https://displate.com/displate/6861675'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/7006138d61164351ed75e6d3885272a0_88f485b5d80546e2f4df79453f984755.jpg',
+    name: 'Silver Displate',
+    tags: ['displate', 'silver'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the Silver sigil.',
+    link: 'https://displate.com/displate/6861672'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/02713c8a6a11d515689eaa7347caaf27_88f485b5d80546e2f4df79453f984755.jpg',
+    name: 'White Displate',
+    tags: ['displate', 'white'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the White sigil.',
+    link: 'https://displate.com/displate/6861671'
   }
 ];
 

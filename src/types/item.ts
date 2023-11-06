@@ -28,6 +28,7 @@ export const MERCH_TYPE = [
   'multiproduct',
   'shorts',
   'tank',
+  'displate',
   'other'
 ] as const;
 
