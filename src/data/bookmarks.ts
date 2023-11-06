@@ -228,7 +228,19 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
     },
     description: 'Bookmark of Darrow.',
-    link: 'https://www.etsy.com/listing/1538266896/ '
+    link: 'https://www.etsy.com/listing/1538266896/'
+  },
+  {
+    date: '2023-11-03',
+    image: 'https://i.etsystatic.com/26674192/r/il/061ad4/5496885013/il_794xN.5496885013_t3mg.jpg',
+    name: 'Darrow, Cassius, and Sevro "Brothers" Bookmark Set',
+    tags: ['bookmark', 'darrow', 'cassius', 'sevro'],
+    shop: {
+      name: 'HailReaperPod',
+      url: 'https://www.etsy.com/shop/HailReaperPod'
+    },
+    description: 'Bookmark set of Darrow, Cassius, and Sevro.',
+    link: 'https://www.etsy.com/listing/1584410190/'
   }
 ];
 

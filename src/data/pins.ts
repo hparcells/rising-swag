@@ -250,15 +250,15 @@ const data: IItem[] = [
   },
   {
     date: '2023-05-30',
-    image: 'https://i.etsystatic.com/16046340/r/il/97b94e/5001227247/il_794xN.5001227247_65o3.jpg',
-    name: 'Hail Reaper Hail Libertas Pin Pre-Order',
+    image: 'https://i.etsystatic.com/16046340/r/il/aaa940/5485757885/il_794xN.5485757885_8ki6.jpg',
+    name: 'Hail Reaper Hail Libertas Pin',
     tags: ['pin'],
     shop: {
       name: 'CreativeLeighCrafts',
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Hail Reaper! Hail Libertas!',
-    link: 'https://www.etsy.com/listing/1492610885/hail-enamel-pin-preorder'
+    link: 'https://www.etsy.com/listing/1492610885/'
   },
   {
     date: '2023-07-23',
@@ -358,6 +358,18 @@ const data: IItem[] = [
     description:
       'Pin with the sigils of Red and Gold and a wolf. Contains the text "Live For More" and "Break the Chains".',
     link: 'https://www.etsy.com/listing/1203100871/'
+  },
+  {
+    date: '2023-11-03',
+    image: 'https://i.etsystatic.com/16046340/r/il/aa479d/5442261750/il_794xN.5442261750_cckd.jpg',
+    name: 'Lion Shield Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'A shield of a Lion and "Hic Sunt Leones".',
+    link: 'https://www.etsy.com/listing/1597106247/'
   }
 ];
 

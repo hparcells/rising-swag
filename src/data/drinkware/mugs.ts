@@ -544,6 +544,69 @@ const data: IItem[] = [
     description:
       "My fellow Howlers, as we rise to face the unforgiving world with the dawn's first light, let it be known that we will NEVER BOW!",
     link: 'https://www.etsy.com/listing/1592792673/'
+  },
+  {
+    date: '2023-11-03',
+    image: 'https://i.etsystatic.com/47602254/r/il/20193e/5490043677/il_794xN.5490043677_57bd.jpg',
+    name: 'Live for More Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      "The blood blossom. A symbol of our dreams. In the harshest soil of Mars, it blooms with fierce beauty, defying the odds. Just like us, defying the Society's chains.",
+    link: 'https://www.etsy.com/listing/1582820768/'
+  },
+  {
+    date: '2023-11-03',
+    image: 'https://i.etsystatic.com/47602254/r/il/4c9424/5490258501/il_794xN.5490258501_a8w9.jpg',
+    name: 'Summon the Howlers Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      "My trusted friends and fellow Howlers, it's time to summon our pack. We have our mission, one that demands the grit and fire that runs through our veins.",
+    link: 'https://www.etsy.com/listing/1582816144/'
+  },
+  {
+    date: '2023-11-03',
+    image: 'https://i.etsystatic.com/47602254/r/il/46e9cc/5441769296/il_794xN.5441769296_n1dh.jpg',
+    name: 'Break the Chains Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Let the fire of rebellion burn in your soul, and as you sip from this mug, let it remind you of our hopes, our struggles, and our unwavering resolve.',
+    link: 'https://www.etsy.com/listing/1596986027/'
+  },
+  {
+    date: '2023-11-03',
+    image: 'https://i.etsystatic.com/16046340/r/il/4609e1/5508596215/il_794xN.5508596215_jrsz.jpg',
+    name: 'Bloodydamn Strong Coffee Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'White, gray and black 16oz mug hand painted rust red with vinyl lettering.',
+    link: 'https://www.etsy.com/listing/1587019588/'
+  },
+  {
+    date: '2023-11-03',
+    image: 'https://i.etsystatic.com/16046340/r/il/0a41ba/5476697173/il_794xN.5476697173_o2ml.jpg',
+    name: 'Gorydamn Good Coffee Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'White, gray and black 16oz mug hand painted gold accent with vinyl design.',
+    link: 'https://www.etsy.com/listing/1579972936/'
   }
 ];
 

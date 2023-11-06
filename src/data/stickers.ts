@@ -1122,6 +1122,19 @@ const data: IItem[] = [
     },
     description: "Can't decide which color to snag? How about all 14.",
     link: 'https://www.lit-escalates.com/collections/new-arrivals/products/sigil-sticker-pack'
+  },
+  {
+    date: '2023-11-03',
+    image: 'https://i.etsystatic.com/16046340/r/il/1d90ce/5396573687/il_794xN.5396573687_54a5.jpg',
+    name: 'Red Rising Stickers',
+    tags: ['sticker'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description:
+      'A collection of Red Rising sticker designs including: The Reaper of Mars, Shit Escalates, and Dominus Portobello.',
+    link: 'https://www.etsy.com/listing/1578270173/'
   }
 ];
 
