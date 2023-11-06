@@ -767,6 +767,19 @@ const data: IItem[] = [
     },
     description: 'Metal poster of the White sigil.',
     link: 'https://displate.com/displate/6861671'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-10-14/fd49d8711fa94c6f1b048c21692af5c1_7194a035f67bf96f8c6ed9674a5e05e2.jpg',
+    name: 'Phobos Displate',
+    tags: ['displate'],
+    shop: {
+      name: 'Darrow Visuals',
+      url: 'https://displate.com/darrow_prod'
+    },
+    description: 'Metal poster of the official art of Phobos.',
+    link: 'https://displate.com/displate/6934825'
   }
 ];
 
