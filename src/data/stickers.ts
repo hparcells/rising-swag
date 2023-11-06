@@ -1109,6 +1109,19 @@ const data: IItem[] = [
     description:
       '"What are you doing?" Sevro whispers in my ear, eying Varga. He flips the woman the crux with his middle finger wrapped around the index.',
     link: 'https://www.etsy.com/listing/1525665150/'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/Stickers_64c4c3a0-0454-4349-a63b-1323c6787f66_1024x1024@2x.jpg',
+    name: 'Sigil Sticker Pack',
+    tags: ['sticker', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description: "Can't decide which color to snag? How about all 14.",
+    link: 'https://www.lit-escalates.com/collections/new-arrivals/products/sigil-sticker-pack'
   }
 ];
 

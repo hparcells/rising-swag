@@ -41,7 +41,7 @@ const data: IItem[] = [
     },
     description:
       "You asked and we delivered: A snug, form-fitting beanie embroidered with the Howler Wolf. Available in black, grey and white, our beanie will keep your dome warmer than Volga's scorcher.",
-    link: 'https://www.lit-escalates.com/collections/apparel/products/embroidered-howler-beanie'
+    link: 'https://www.lit-escalates.com/collections/apparel/products/howler-embroidered-beanie'
   },
   {
     date: '2023-03-13',
@@ -455,6 +455,34 @@ const data: IItem[] = [
     description:
       "Not quite Ares' helm... but close enough. Be ready for the rising with the Red Rising inspired BOYO cap.",
     link: 'https://www.etsy.com/listing/1525699149/'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/knit-beanie-black-front-654887aa25eb3_1024x1024@2x.jpg',
+    name: 'Gold Sigil Embroidered Beanie',
+    tags: ['hat', 'gold', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      "A snug, form-fitting beanie embroidered with the Gold sigil. Available in black, our beanie will keep your dome warmer than Volga's scorcher.",
+    link: 'https://www.lit-escalates.com/collections/new-arrivals/products/gold-sigil-embroidered-beanie'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/knit-beanie-black-front-65488713235d3_1024x1024@2x.jpg',
+    name: 'Obsidian Sigil Embroidered Beanie',
+    tags: ['hat', 'obsidian', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      "A snug, form-fitting beanie embroidered with the Obsidian sigil. Available in black, our beanie will keep your dome warmer than Volga's scorcher.",
+    link: 'https://www.lit-escalates.com/collections/new-arrivals/products/obsidian-sigil-embroidered-beanie'
   }
 ];
 
