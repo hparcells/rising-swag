@@ -181,6 +181,54 @@ const data: IItem[] = [
     description: "A laminated bookmark of Sevro's favorite tune.",
     link: 'https://www.etsy.com/listing/1173134461/reaper-of-mars-double-sided-laminated',
     expired: true
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/12478043/r/il/c026b7/5272285851/il_794xN.5272285851_ess1.jpg',
+    name: 'Red Rising Inspired Bookmark Set of 3',
+    tags: ['bookmark', 'darrow', 'cassius', 'mustang'],
+    shop: {
+      name: 'ShayndlArtOriginals',
+      url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
+    },
+    description: 'Set of three bookmarks of Darrow, Cassius, and Mustang.',
+    link: 'https://www.etsy.com/listing/1538264034/'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/12478043/r/il/416494/5272316971/il_794xN.5272316971_ann9.jpg',
+    name: 'Mustang Bookmark',
+    tags: ['bookmark', 'mustang'],
+    shop: {
+      name: 'ShayndlArtOriginals',
+      url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
+    },
+    description: 'Bookmark of Mustang.',
+    link: 'https://www.etsy.com/listing/1538272646/'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/12478043/r/il/f42dd5/5272312611/il_794xN.5272312611_jiyd.jpg',
+    name: 'Cassius Bookmark',
+    tags: ['bookmark', 'cassius'],
+    shop: {
+      name: 'ShayndlArtOriginals',
+      url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
+    },
+    description: 'Bookmark of Cassius.',
+    link: 'https://www.etsy.com/listing/1538270854/'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/12478043/r/il/cbdc95/5224097370/il_794xN.5224097370_smye.jpg',
+    name: 'Darrow Bookmark',
+    tags: ['bookmark', 'darrow'],
+    shop: {
+      name: 'ShayndlArtOriginals',
+      url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
+    },
+    description: 'Bookmark of Darrow.',
+    link: 'https://www.etsy.com/listing/1538266896/ '
   }
 ];
 

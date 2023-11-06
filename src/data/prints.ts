@@ -628,6 +628,54 @@ const data: IItem[] = [
     },
     description: 'Poster of the Pacific Rim on Earth.',
     link: 'https://howlerholo.net/product/pacific-rim-nps-matte-poster/'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/12478043/r/il/94e0a6/5289125923/il_794xN.5289125923_fxqv.jpg',
+    name: 'Red Rising Art Print Bundle',
+    tags: ['print', 'darrow', 'cassius', 'mustang'],
+    shop: {
+      name: 'ShayndlArtOriginals',
+      url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
+    },
+    description: '3 high quality satin finish prints of Darrow, Cassius, and Mustang.',
+    link: 'https://www.etsy.com/listing/1541900300/rise-art-print-bundle-red-rising'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/12478043/r/il/2169f0/5289103349/il_794xN.5289103349_204n.jpg',
+    name: 'Mustang Print',
+    tags: ['print', 'mustang'],
+    shop: {
+      name: 'ShayndlArtOriginals',
+      url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
+    },
+    description: '5x7 print of Mustang.',
+    link: 'https://www.etsy.com/listing/1556076827/'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/12478043/r/il/1259fd/5289099237/il_794xN.5289099237_oa71.jpg',
+    name: 'Cassius Print',
+    tags: ['print', 'cassius'],
+    shop: {
+      name: 'ShayndlArtOriginals',
+      url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
+    },
+    description: '5x7 print of Cassius.',
+    link: 'https://www.etsy.com/listing/1556075707/'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/12478043/r/il/bde3d0/5240905818/il_794xN.5240905818_lyix.jpg',
+    name: 'Darrow Print',
+    tags: ['print', 'darrow'],
+    shop: {
+      name: 'ShayndlArtOriginals',
+      url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
+    },
+    description: '5x7 print of Darrow.',
+    link: 'https://www.etsy.com/listing/1556073673/'
   }
 ];
 
