@@ -920,6 +920,18 @@ const data: IItem[] = [
     },
     description: '3D printed Howler ornament from the Red Rising series.',
     link: 'https://www.etsy.com/listing/1324450374/'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/42249263/r/il/53f7f5/5393802064/il_794xN.5393802064_ovxq.jpg',
+    name: 'Howler Neon Sign',
+    tags: ['other'],
+    shop: {
+      name: 'GamerSetupStore',
+      url: 'https://www.etsy.com/shop/GamerSetupStore'
+    },
+    description: 'Wall mounted RGB wolf sign.',
+    link: 'https://www.etsy.com/listing/1587131443/'
   }
 ];
 
