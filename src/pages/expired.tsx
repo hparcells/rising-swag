@@ -11,14 +11,12 @@ import { IItem } from '@/types/item';
 import classes from '../components/Content/Content.module.scss';
 
 import { ALL_DATA } from '@/data/data';
-import { useRouter } from 'next/router';
 
 function Expired() {
   const topCards = useRef<HTMLDivElement>(null);
   const [filteredData, setFilteredData] = useState<IItem[]>(null as any);
   const [pages, setPages] = useState<number>(1);
   const [page, setPage] = useState<number>(1);
-  const router = useRouter();
 
   useEffect(() => {
     setFilteredData(

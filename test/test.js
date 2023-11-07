@@ -1,5 +1,4 @@
 import('node-fetch');
-const fs = require('fs');
 
 const { Cluster } = require('puppeteer-cluster');
 
