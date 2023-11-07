@@ -11,7 +11,8 @@
     "export": "next export",
     "static": "npm run build && npm run export",
     "lint": "next lint",
-    "check": "node ./test/test"
+    "check": "node ./test/test",
+    "wizard": "node ./wizard/index"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",

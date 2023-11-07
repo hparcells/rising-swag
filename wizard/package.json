@@ -1,0 +1,12 @@
+{
+  "name": "wizard",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "copy-paste": "^1.5.3",
+    "inquirer": "^8.0.0",
+    "puppeteer": "^21.5.0"
+  }
+}
