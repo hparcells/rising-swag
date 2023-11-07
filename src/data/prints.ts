@@ -628,6 +628,158 @@ const data: IItem[] = [
     },
     description: 'Poster of the Pacific Rim on Earth.',
     link: 'https://howlerholo.net/product/pacific-rim-nps-matte-poster/'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/12478043/r/il/94e0a6/5289125923/il_794xN.5289125923_fxqv.jpg',
+    name: 'Red Rising Art Print Bundle',
+    tags: ['print', 'darrow', 'cassius', 'mustang'],
+    shop: {
+      name: 'ShayndlArtOriginals',
+      url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
+    },
+    description: '3 high quality satin finish prints of Darrow, Cassius, and Mustang.',
+    link: 'https://www.etsy.com/listing/1541900300/rise-art-print-bundle-red-rising'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/12478043/r/il/2169f0/5289103349/il_794xN.5289103349_204n.jpg',
+    name: 'Mustang Print',
+    tags: ['print', 'mustang'],
+    shop: {
+      name: 'ShayndlArtOriginals',
+      url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
+    },
+    description: '5x7 print of Mustang.',
+    link: 'https://www.etsy.com/listing/1556076827/'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/12478043/r/il/1259fd/5289099237/il_794xN.5289099237_oa71.jpg',
+    name: 'Cassius Print',
+    tags: ['print', 'cassius'],
+    shop: {
+      name: 'ShayndlArtOriginals',
+      url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
+    },
+    description: '5x7 print of Cassius.',
+    link: 'https://www.etsy.com/listing/1556075707/'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/12478043/r/il/bde3d0/5240905818/il_794xN.5240905818_lyix.jpg',
+    name: 'Darrow Print',
+    tags: ['print', 'darrow'],
+    shop: {
+      name: 'ShayndlArtOriginals',
+      url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
+    },
+    description: '5x7 print of Darrow.',
+    link: 'https://www.etsy.com/listing/1556073673/'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/0d0d2585aee351724d96f526201bac02_02fa3be6aafc4032b8a8527f1a6b5a74.jpg',
+    name: 'Gold Displate',
+    tags: ['displate', 'gold'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the Gold sigil.',
+    link: 'https://displate.com/displate/6861678'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/28dbdbac49c91e01561662a460d82578_3c552bc222b27c98c725efe5958577e5.jpg',
+    name: 'Red Displate',
+    tags: ['displate', 'red'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the Red sigil.',
+    link: 'https://displate.com/displate/6861673'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/bf5303ec4ffd5a62d8dca8e2bd3e5ee6_02fa3be6aafc4032b8a8527f1a6b5a74.jpg',
+    name: 'Violet Displate',
+    tags: ['displate', 'violet'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the Violet sigil.',
+    link: 'https://displate.com/displate/6861677'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/267ec2eecf20f1a7ed601117c4d88ee0_02fa3be6aafc4032b8a8527f1a6b5a74.jpg',
+    name: 'Copper Displate',
+    tags: ['displate', 'copper'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the Copper sigil.',
+    link: 'https://displate.com/displate/6861676'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/663e47a76e5d4824e125ce99bb6f84ea_2596d98ed6d7a0d92c0bf2180cb20eb7.jpg',
+    name: 'Yellow Displate',
+    tags: ['displate', 'yellow'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the Yellow sigil.',
+    link: 'https://displate.com/displate/6861675'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/7006138d61164351ed75e6d3885272a0_88f485b5d80546e2f4df79453f984755.jpg',
+    name: 'Silver Displate',
+    tags: ['displate', 'silver'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the Silver sigil.',
+    link: 'https://displate.com/displate/6861672'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-09-12/02713c8a6a11d515689eaa7347caaf27_88f485b5d80546e2f4df79453f984755.jpg',
+    name: 'White Displate',
+    tags: ['displate', 'white'],
+    shop: {
+      name: 'Icon',
+      url: 'https://displate.com/natalia9'
+    },
+    description: 'Metal poster of the White sigil.',
+    link: 'https://displate.com/displate/6861671'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://static.displate.com/1016x1422/displate/2023-10-14/fd49d8711fa94c6f1b048c21692af5c1_7194a035f67bf96f8c6ed9674a5e05e2.jpg',
+    name: 'Phobos Displate',
+    tags: ['displate'],
+    shop: {
+      name: 'Darrow Visuals',
+      url: 'https://displate.com/darrow_prod'
+    },
+    description: 'Metal poster of the official art of Phobos.',
+    link: 'https://displate.com/displate/6934825'
   }
 ];
 

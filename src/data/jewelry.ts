@@ -433,6 +433,30 @@ const data: IItem[] = [
     },
     description: 'A ring with the phrase "Per Aspera Ad Astra" engraved on it.',
     link: 'https://www.etsy.com/listing/1298721874/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/21219660/r/il/d2a359/5174542914/il_794xN.5174542914_fvve.jpg',
+    name: 'Omnis Vir Lupus Morse Code Bracelet',
+    tags: ['jewelry'],
+    shop: {
+      name: 'EveningWolfDesigns',
+      url: 'https://www.etsy.com/shop/EveningWolfDesigns'
+    },
+    description: 'Omnis Vir Lupus - Everyone is a wolf.',
+    link: 'https://www.etsy.com/listing/1527512194/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/21219660/r/il/f6eb96/5172060232/il_794xN.5172060232_jvtn.jpg',
+    name: 'Handsome Morse Code Bracelet (Cassius)',
+    tags: ['jewelry', 'cassius'],
+    shop: {
+      name: 'EveningWolfDesigns',
+      url: 'https://www.etsy.com/shop/EveningWolfDesigns'
+    },
+    description: 'Morse code bracelet spelling HANDSOME for Cassius au Bellona.',
+    link: 'https://www.etsy.com/listing/1526996660/'
   }
 ];
 

@@ -1030,7 +1030,7 @@ const data: IItem[] = [
     name: 'Howler-ween the Crux Vinyl Sticker',
     tags: ['sticker'],
     shop: {
-      name: 'The Howlers Den',
+      name: "The Howler's Den",
       url: 'https://www.howlerholo.net'
     },
     description: "Happy Howler-ween! Give everyone the Crux that doesn't agree. Awwwoooo!",
@@ -1042,7 +1042,7 @@ const data: IItem[] = [
     name: 'The Crux Vinyl Sticker',
     tags: ['sticker'],
     shop: {
-      name: 'The Howlers Den',
+      name: "The Howler's Den",
       url: 'https://www.howlerholo.net'
     },
     description: "Happy Howler-ween! Give everyone the Crux that doesn't agree. Awwwoooo!",
@@ -1084,6 +1084,44 @@ const data: IItem[] = [
     description:
       "Vote Darrow and Sevro! We're the Light, and We're Spreading. Break the Chains and support the Howlers!",
     link: 'https://www.etsy.com/listing/1581254139/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/24204637/r/il/586d3d/5188021082/il_794xN.5188021082_dv8v.jpg',
+    name: 'Omnis Vir Lupus Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'MagicCityMemoriesCo',
+      url: 'https://www.etsy.com/shop/MagicCityMemoriesCo'
+    },
+    description: 'Show your Howler pride with this cool Red Rising Howler Sticker.',
+    link: 'https://www.etsy.com/listing/1158112596/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/24204637/r/il/bbfac9/5188012822/il_794xN.5188012822_odxo.jpg',
+    name: 'The Crux Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'MagicCityMemoriesCo',
+      url: 'https://www.etsy.com/shop/MagicCityMemoriesCo'
+    },
+    description:
+      '"What are you doing?" Sevro whispers in my ear, eying Varga. He flips the woman the crux with his middle finger wrapped around the index.',
+    link: 'https://www.etsy.com/listing/1525665150/'
+  },
+  {
+    date: '2023-11-06',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/Stickers_64c4c3a0-0454-4349-a63b-1323c6787f66_1024x1024@2x.jpg',
+    name: 'Sigil Sticker Pack',
+    tags: ['sticker', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description: "Can't decide which color to snag? How about all 14.",
+    link: 'https://www.lit-escalates.com/collections/new-arrivals/products/sigil-sticker-pack'
   },
   {
     date: '2023-11-03',

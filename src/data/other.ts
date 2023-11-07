@@ -908,6 +908,30 @@ const data: IItem[] = [
     description:
       'Omnis Vir Lupus! Hand drawn on Acid Free paper. The finished product is 8x9 inches.',
     link: 'https://www.etsy.com/listing/1571039912/'
+  },
+  {
+    date: '2023-10-23',
+    image: 'https://i.etsystatic.com/24845246/r/il/e15a2c/5316626526/il_794xN.5316626526_geeu.jpg',
+    name: 'Red Rising Christmas Howler Ornament',
+    tags: ['other'],
+    shop: {
+      name: 'AresIndustries3D',
+      url: 'https://www.etsy.com/shop/AresIndustries3D'
+    },
+    description: '3D printed Howler ornament from the Red Rising series.',
+    link: 'https://www.etsy.com/listing/1324450374/'
+  },
+  {
+    date: '2023-11-06',
+    image: 'https://i.etsystatic.com/42249263/r/il/53f7f5/5393802064/il_794xN.5393802064_ovxq.jpg',
+    name: 'Howler Neon Sign',
+    tags: ['other'],
+    shop: {
+      name: 'GamerSetupStore',
+      url: 'https://www.etsy.com/shop/GamerSetupStore'
+    },
+    description: 'Wall mounted RGB wolf sign.',
+    link: 'https://www.etsy.com/listing/1587131443/'
   }
 ];
 
