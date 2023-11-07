@@ -344,8 +344,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
     },
     description: 'Hic Est Lupus Motherfucker - Red Rising Unisex T-Shirt',
-    link: 'https://www.etsy.com/listing/808567697/',
-    expired: true
+    link: 'https://www.etsy.com/listing/808567697/'
   },
   {
     date: '2023-03-15',

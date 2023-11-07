@@ -973,8 +973,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FreezeFrameCreative'
     },
     description: 'This hand-drawn sticker is perfect for fans of the epic Red Rising series!',
-    link: 'https://www.etsy.com/listing/1195467072/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1195467072/'
   },
   {
     date: '2023-10-05',
