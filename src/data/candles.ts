@@ -125,7 +125,8 @@ const data: IItem[] = [
     },
     description:
       "Come get a whiff of everyone's favorite Golden Boy. Smells of Toasted Coconut and Golden Santal.",
-    link: 'https://www.etsy.com/listing/1503766841/'
+    link: 'https://www.etsy.com/listing/1503766841/',
+    expired: true
   },
   {
     date: '2023-07-18',
@@ -137,7 +138,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/shopheartsfire'
     },
     description: 'Smells of Cashmere Musk and Vetiver.',
-    link: 'https://www.etsy.com/listing/1503770799/'
+    link: 'https://www.etsy.com/listing/1503770799/',
+    expired: true
   },
   {
     date: '2023-07-18',

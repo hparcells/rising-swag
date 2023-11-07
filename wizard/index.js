@@ -1,6 +1,9 @@
 const inquirer = require('inquirer');
 const ncp = require('copy-paste');
-const puppeteer = require('puppeteer');
+const { executablePath } = require('puppeteer'); 
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+puppeteer.use(StealthPlugin());
 
 const QUESTIONS = [
   {
@@ -17,9 +20,10 @@ const QUESTIONS = [
 (async () => {
   const browser = await puppeteer.launch({
     headless: 'new',
-    defaultViewport: null
+    defaultViewport: null,
+    executablePath: executablePath()
   });
-  const page = await browser.newPage()
+  const page = await browser.newPage();
 
   async function prompt() {
     const urlAnswer = await inquirer.prompt({
@@ -38,14 +42,12 @@ const QUESTIONS = [
     if(link.includes('etsy.com')) {
       link = link.match(/(http.*\/)/)[0];
     }
-    
-    // Scraping
-    await page.goto(link, {
-      waitUntil: 'domcontentloaded'
-    });
 
     const answers = await inquirer.prompt(QUESTIONS);
     
+    // Scraping
+    await page.goto(link);
+
     let data;
     if(link.includes('etsy.com')) {
       data = await page.evaluate(() => {

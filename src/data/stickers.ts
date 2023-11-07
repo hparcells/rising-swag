@@ -1058,7 +1058,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ByAndreaRenee'
     },
     description: 'Stickers of quotes from the Red Rising series.',
-    link: 'https://www.etsy.com/listing/1581267747/'
+    link: 'https://www.etsy.com/listing/1581267747/',
+    expired: true
   },
   {
     date: '2023-10-09',
@@ -1070,7 +1071,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ByAndreaRenee'
     },
     description: '"I would have lived in peace, but my enemies brought me war."',
-    link: 'https://www.etsy.com/listing/1581261051/'
+    link: 'https://www.etsy.com/listing/1581261051/',
+    expired: true
   },
   {
     date: '2023-10-09',
@@ -1083,7 +1085,8 @@ const data: IItem[] = [
     },
     description:
       "Vote Darrow and Sevro! We're the Light, and We're Spreading. Break the Chains and support the Howlers!",
-    link: 'https://www.etsy.com/listing/1581254139/'
+    link: 'https://www.etsy.com/listing/1581254139/',
+    expired: true
   },
   {
     date: '2023-10-23',

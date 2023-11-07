@@ -344,7 +344,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
     },
     description: 'Hic Est Lupus Motherfucker - Red Rising Unisex T-Shirt',
-    link: 'https://www.etsy.com/listing/808567697/hic-est-lupus-explicit-red-rising-unisex',
+    link: 'https://www.etsy.com/listing/808567697/',
     expired: true
   },
   {
@@ -1543,7 +1543,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/jesslostinbooks'
     },
     description: 'A graphic representing the Red Rising series.',
-    link: 'https://www.etsy.com/listing/1527721549/'
+    link: 'https://www.etsy.com/listing/1527721549/',
+    expired: true
   },
   {
     date: '2023-08-21',
@@ -1848,7 +1849,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'A "college" style Red Rising inspired top.',
-    link: 'https://www.etsy.com/listing/956167092/'
+    link: 'https://www.etsy.com/listing/956167092/',
+    expired: true
   }
 ];
 

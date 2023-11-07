@@ -81,7 +81,8 @@ const data: IItem[] = [
     },
     description:
       "Hail Libertas! Hail Reaper! Let's crack open some bottles using this high quality, stainless steel bartenders friend.",
-    link: 'https://www.etsy.com/listing/1222904305/red-rising-bottle-opener-hail-libertas'
+    link: 'https://www.etsy.com/listing/1222904305/',
+    expired: true
   },
   {
     date: '2023-03-17',
@@ -193,7 +194,8 @@ const data: IItem[] = [
     },
     description:
       "Per Aspera ad Astra. Let's crack open some bottles using this high quality, stainless steel bartenders friend.",
-    link: 'https://www.etsy.com/listing/1208958020/red-rising-bottle-opener-per-aspera-ad'
+    link: 'https://www.etsy.com/listing/1208958020/',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -296,7 +298,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/3DPrintsbyTheodore'
     },
     description: 'A 3D printed Howler logo printed in Marble and Red pla.',
-    link: 'https://www.etsy.com/listing/1276452077/howler-sign-red-rising-bookcase-display'
+    link: 'https://www.etsy.com/listing/1276452077/',
+    expired: true
   },
   {
     date: '2023-03-22',
@@ -731,7 +734,8 @@ const data: IItem[] = [
     },
     description:
       'This custom funko pop is inspired by Darrow, the main character of the Red Rising series.',
-    link: 'https://www.etsy.com/listing/670592252/'
+    link: 'https://www.etsy.com/listing/670592252/',
+    expired: true
   },
   {
     date: '2023-08-22',
@@ -743,7 +747,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'Haul your books in style and show off your love for Red Rising.',
-    link: 'https://www.etsy.com/listing/689164112/'
+    link: 'https://www.etsy.com/listing/689164112/',
+    expired: true
   },
   {
     date: '2023-09-07',
@@ -768,7 +773,8 @@ const data: IItem[] = [
     },
     description:
       'A custom funko pop based on the character of Eo from the amazing Red Rising series by Pierce Brown.',
-    link: 'https://www.etsy.com/listing/732566712/'
+    link: 'https://www.etsy.com/listing/732566712/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -780,7 +786,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'Muddy, bloody, pissed off Sevro au Barca. Just the way we all know and love him.',
-    link: 'https://www.etsy.com/listing/728898847/'
+    link: 'https://www.etsy.com/listing/728898847/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -792,7 +799,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: "Everyone's favorite goblin, in the Ares helmet. Hand-sculpted and hand-painted.",
-    link: 'https://www.etsy.com/listing/740089209/'
+    link: 'https://www.etsy.com/listing/740089209/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -804,7 +812,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'Warning: May spark a revolution.',
-    link: 'https://www.etsy.com/listing/770688466/'
+    link: 'https://www.etsy.com/listing/770688466/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -816,7 +825,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'Inspired by the Red Rising series by Pierce Brown.',
-    link: 'https://www.etsy.com/listing/1006768033/'
+    link: 'https://www.etsy.com/listing/1006768033/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -828,7 +838,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'Funko pop of Apollonius au Valii-Rath.',
-    link: 'https://www.etsy.com/listing/748103810/'
+    link: 'https://www.etsy.com/listing/748103810/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -840,7 +851,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'Handmade, hand painted custom Funko pop of Mustang from the Red Rising series.',
-    link: 'https://www.etsy.com/listing/943238706/'
+    link: 'https://www.etsy.com/listing/943238706/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -852,7 +864,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: "Everyone's favorite stained, Ragnar Volarus.",
-    link: 'https://www.etsy.com/listing/740660059/'
+    link: 'https://www.etsy.com/listing/740660059/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -865,7 +878,8 @@ const data: IItem[] = [
     },
     description:
       'Handmade, hand painted custom Funko pop of Sefi the quiet from the Red Rising series.',
-    link: 'https://www.etsy.com/listing/957190939/'
+    link: 'https://www.etsy.com/listing/957190939/',
+    expired: true
   },
   {
     date: '2023-10-05',

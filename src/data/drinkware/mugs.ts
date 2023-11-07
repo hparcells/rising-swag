@@ -403,7 +403,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/GoodStuffFromBooks'
     },
     description: 'How will you wield your power?',
-    link: 'https://www.etsy.com/listing/1472810590'
+    link: 'https://www.etsy.com/listing/1472810590',
+    expired: true
   },
   {
     date: '2023-07-21',

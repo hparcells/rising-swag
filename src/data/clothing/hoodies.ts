@@ -227,7 +227,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A red hoodie of the House Mars sigil.',
-    link: 'https://www.etsy.com/listing/1461108577/red-rising-house-mars-unisex-hoodie'
+    link: 'https://www.etsy.com/listing/1461108577/',
+    expired: true
   },
   {
     date: '2023-05-01',
@@ -354,7 +355,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'Simple "Hic Est Lupus" hoodie.',
-    link: 'https://www.etsy.com/listing/743879437/'
+    link: 'https://www.etsy.com/listing/743879437/',
+    expired: true
   },
   {
     date: '2023-10-23',

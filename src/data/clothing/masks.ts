@@ -39,7 +39,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'Face mask with "Omnis Vir Lupus" and a howling wolf.',
-    link: 'https://www.etsy.com/listing/836140723/'
+    link: 'https://www.etsy.com/listing/836140723/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -51,7 +52,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'Face mask with "Per Aspera Ad Astra".',
-    link: 'https://www.etsy.com/listing/822497446/'
+    link: 'https://www.etsy.com/listing/822497446/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -63,7 +65,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'A censored "Shit Escalates" mask with a wolf.',
-    link: 'https://www.etsy.com/listing/862798900/'
+    link: 'https://www.etsy.com/listing/862798900/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -75,7 +78,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'Face mask with "Hic Sunt Leones" and a lion.',
-    link: 'https://www.etsy.com/listing/836392879/'
+    link: 'https://www.etsy.com/listing/836392879/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -87,7 +91,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/DreamInABottleShop'
     },
     description: 'Face mask with "Hic Est Lupus" and a wolf.',
-    link: 'https://www.etsy.com/listing/876716239/'
+    link: 'https://www.etsy.com/listing/876716239/',
+    expired: true
   }
 ];
 

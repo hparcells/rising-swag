@@ -169,7 +169,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/APCDesignsShop'
     },
     description: 'A tumbler with a wolf and slingBlade, and the text "Hail Reaper".',
-    link: 'https://www.etsy.com/listing/1517397349'
+    link: 'https://www.etsy.com/listing/1517397349',
+    expired: true
   }
 ];
 

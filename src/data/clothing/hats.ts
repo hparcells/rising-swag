@@ -261,7 +261,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
     },
     description: 'This distressed baseball cap will quickly become your go-to accessory!',
-    link: 'https://www.etsy.com/listing/1109497906/distressed-hwlr-cap'
+    link: 'https://www.etsy.com/listing/1109497906/',
+    expired: true
   },
   {
     date: '2023-03-15',
@@ -361,7 +362,8 @@ const data: IItem[] = [
     },
     description:
       'Twill hat with the gold sigil, red sigil, and the wolf of mars onto one design. Comes in white and black.',
-    link: 'https://www.etsy.com/listing/1384159480/red-rising-unisex-twill-hat-gold-and-red'
+    link: 'https://www.etsy.com/listing/1384159480/',
+    expired: true
   },
   {
     date: '2023-04-04',
@@ -374,7 +376,8 @@ const data: IItem[] = [
     },
     description:
       'Pom beanie with the gold sigil, red sigil, and the wolf of mars onto one design. Comes in white and black.',
-    link: 'https://www.etsy.com/listing/1334251008/red-rising-gold-and-red-sigil'
+    link: 'https://www.etsy.com/listing/1334251008/',
+    expired: true
   },
   {
     date: '2023-04-04',
@@ -386,7 +389,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ThePurpuraProject'
     },
     description: 'Beanie with the gold sigil, red sigil, and the wolf of mars onto one design.',
-    link: 'https://www.etsy.com/listing/1334259602/red-rising-gold-and-red-sigil'
+    link: 'https://www.etsy.com/listing/1334259602',
+    expired: true
   },
   {
     date: '2023-05-06',

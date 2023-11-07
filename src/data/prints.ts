@@ -215,7 +215,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"I am the Mustang that Nuzzles the Hand."',
-    link: 'https://www.etsy.com/listing/940219531/virginia-au-augustus-11x17-print-mustang'
+    link: 'https://www.etsy.com/listing/940219531/',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -442,7 +443,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"Share The Load, Darling."',
-    link: 'https://www.etsy.com/listing/1493660906/'
+    link: 'https://www.etsy.com/listing/1493660906/',
+    expired: true
   },
   {
     date: '2023-07-05',
@@ -519,7 +521,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Mini print of Lorn au Arcos.',
-    link: 'https://www.etsy.com/listing/1528872400/'
+    link: 'https://www.etsy.com/listing/1528872400/',
+    expired: true
   },
   {
     date: '2023-08-31',
@@ -531,7 +534,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Mini print of Victra au Julii.',
-    link: 'https://www.etsy.com/listing/1543033407/'
+    link: 'https://www.etsy.com/listing/1543033407/',
+    expired: true
   },
   {
     date: '2023-08-31',
@@ -543,7 +547,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Mini print of Ajax au Grimmus.',
-    link: 'https://www.etsy.com/listing/1528847038/'
+    link: 'https://www.etsy.com/listing/1528847038/',
+    expired: true
   },
   {
     date: '2023-08-31',
@@ -555,7 +560,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Mini print of Lyria of Lagalos.',
-    link: 'https://www.etsy.com/listing/1543034415/'
+    link: 'https://www.etsy.com/listing/1543034415/',
+    expired: true
   },
   {
     date: '2023-08-31',
@@ -567,7 +573,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Mini print of Atalantia.',
-    link: 'https://www.etsy.com/listing/1543032885/'
+    link: 'https://www.etsy.com/listing/1543032885/',
+    expired: true
   },
   {
     date: '2023-08-31',
@@ -579,7 +586,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Mini print of Aurae.',
-    link: 'https://www.etsy.com/listing/1528850158/'
+    link: 'https://www.etsy.com/listing/1528850158/',
+    expired: true
   },
   {
     date: '2023-09-07',

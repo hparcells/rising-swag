@@ -194,7 +194,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'Omnis vir Lupus: Every man a wolf.',
-    link: 'https://www.etsy.com/listing/1410768606/omnis-vir-lupus-pin-red-rising-enamel'
+    link: 'https://www.etsy.com/listing/1410768606/'
   },
   {
     date: '2023-04-23',
@@ -357,7 +357,8 @@ const data: IItem[] = [
     },
     description:
       'Pin with the sigils of Red and Gold and a wolf. Contains the text "Live For More" and "Break the Chains".',
-    link: 'https://www.etsy.com/listing/1203100871/'
+    link: 'https://www.etsy.com/listing/1203100871/',
+    expired: true
   },
   {
     date: '2023-11-03',
