@@ -46,28 +46,29 @@ const QUESTIONS = [
 
     const answers = await inquirer.prompt(QUESTIONS);
     
-    const data = await page.evaluate(() => {
-      let image;
-      let name;
-      let shopName;
-      let shopUrl;
+    let data;
+    if(link.includes('etsy.com')) {
+      data = await page.evaluate(() => {
+        let image;
+        let name;
+        let shopName;
+        let shopUrl;
 
-      if(link.includes('etsy.com')) {
         image = document.querySelector(".carousel-image").src;
         name = document.querySelector('h1').innerText;
         shopName = document.querySelector(".wt-text-link-no-underline").innerText;
         shopUrl = `https://www.etsy.com/shop/${shopName}`
-      }
 
-      return {
-        image,
-        name,
-        shop: {
-          name: shopName,
-          url: shopUrl
-        }
-      };
-    });
+        return {
+          image,
+          name,
+          shop: {
+            name: shopName,
+            url: shopUrl
+          }
+        };
+      });
+    }
 
     // Copy result.
     ncp.copy(`,${JSON.stringify({
