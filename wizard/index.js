@@ -79,7 +79,7 @@ const QUESTIONS = [
       name: data.name,
       tags: [],
       shop: data.shop,
-      description: 'FILLME',
+      description: 'FILL',
       link,
       ...(answers.expired === 'Yes' ? { expired: true } : {})
     }).replace('"shop":{', '"shop":{\n')}`);

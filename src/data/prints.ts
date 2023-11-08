@@ -788,6 +788,18 @@ const data: IItem[] = [
     },
     description: 'Metal poster of the official art of Phobos.',
     link: 'https://displate.com/displate/6934825'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/16777107/r/il/93629b/5473691469/il_794xN.5473691469_j3ns.jpg',
+    name: 'Red Rising Institute Map on Handmade Scroll',
+    tags: ['print', 'red-rising'],
+    shop: {
+      name: 'FantasyScrolls',
+      url: 'https://www.etsy.com/shop/FantasyScrolls'
+    },
+    description: 'Handmade scroll with wood, aged paper, print and burnt edges.',
+    link: 'https://www.etsy.com/listing/1579344114/'
   }
 ];
 

@@ -612,7 +612,7 @@ const data: IItem[] = [
   {
     date: '2023-11-08',
     image: 'https://i.etsystatic.com/41405967/r/il/d06f8e/5188325972/il_794xN.5188325972_6v70.jpg',
-    name: 'Break The Chains Coffee cup',
+    name: 'Break The Chains Coffee Cup',
     tags: ['mug'],
     shop: {
       name: 'shopheartsfire',

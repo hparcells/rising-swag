@@ -132,6 +132,18 @@ const data: IItem[] = [
     description: 'Custom sprayed edges for Light Bringer.',
     link: 'https://www.goldsborobooks.com/product/light-bringer',
     expired: true
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/47758299/r/il/65ed25/5508070099/il_794xN.5508070099_q1h7.jpg',
+    name: 'Custom Bound Hardcover - Gold Vinyl Design',
+    tags: ['book', 'red-rising', 'golden-son', 'morning-star'],
+    shop: {
+      name: 'TheBinderyStore',
+      url: 'https://www.etsy.com/shop/TheBinderyStore'
+    },
+    description: 'Hand bound copies of Red Rising, Golden Son, or Morning Star.',
+    link: 'https://www.etsy.com/listing/1586901532/'
   }
 ];
 
