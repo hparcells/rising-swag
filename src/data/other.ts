@@ -959,7 +959,7 @@ const data: IItem[] = [
   },
   {
     date: '2023-11-08',
-    image: 'https://i.etsystatic.com/38585656/r/il/7ca6a1/5283428771/il_794xN.5283428771_fetj.jpg',
+    image: 'https://i.etsystatic.com/38585656/r/il/b60398/5235240088/il_794xN.5235240088_ji8u.jpg',
     name: 'Red Rising Wax Melts',
     tags: ['other'],
     shop: {

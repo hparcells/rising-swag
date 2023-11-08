@@ -1137,6 +1137,18 @@ const data: IItem[] = [
     description:
       'A collection of Red Rising sticker designs including: The Reaper of Mars, Shit Escalates, and Dominus Portobello.',
     link: 'https://www.etsy.com/listing/1578270173/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/25064526/r/il/b4a871/5144318472/il_794xN.5144318472_kdng.jpg',
+    name: 'The Reaper Sticker',
+    tags: ['sticker', 'darrow'],
+    shop: {
+      name: 'SkyBlueStudiosCo',
+      url: 'https://www.etsy.com/shop/SkyBlueStudiosCo'
+    },
+    description: 'I am the Reaper and death is my shadow.',
+    link: 'https://www.etsy.com/listing/1535347953/'
   }
 ];
 
