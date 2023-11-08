@@ -79,10 +79,10 @@ const QUESTIONS = [
       name: data.name,
       tags: [],
       shop: data.shop,
-      description: 'FILL ME',
+      description: 'FILLME',
       link,
       ...(answers.expired === 'Yes' ? { expired: true } : {})
-    })}`);
+    }).replace('"shop":{', '"shop":{\n')}`);
     console.log('\nResult copied to clipboard. Paste in a data file.\n');
   
     // Loop

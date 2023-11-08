@@ -608,6 +608,18 @@ const data: IItem[] = [
     },
     description: 'White, gray and black 16oz mug hand painted gold accent with vinyl design.',
     link: 'https://www.etsy.com/listing/1579972936/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/41405967/r/il/d06f8e/5188325972/il_794xN.5188325972_6v70.jpg',
+    name: 'Break The Chains Coffee cup',
+    tags: ['mug'],
+    shop: {
+      name: 'shopheartsfire',
+      url: 'https://www.etsy.com/shop/shopheartsfire'
+    },
+    description: 'Warm your soul with a nice cuppa out of this perfectly sized black ceramic mug.',
+    link: 'https://www.etsy.com/listing/1530532652/'
   }
 ];
 
