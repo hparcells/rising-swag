@@ -620,6 +620,31 @@ const data: IItem[] = [
     },
     description: 'Warm your soul with a nice cuppa out of this perfectly sized black ceramic mug.',
     link: 'https://www.etsy.com/listing/1530532652/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/41405967/r/il/0165b5/5467770943/il_794xN.5467770943_pff4.jpg',
+    name: 'Red Rising Plan C Escalation Mug',
+    tags: ['mug', 'morning-star'],
+    shop: {
+      name: 'shopheartsfire',
+      url: 'https://www.etsy.com/shop/shopheartsfire'
+    },
+    description:
+      'What better way to Embrace the suck of your morning with this Plan C Red Rising Mug.',
+    link: 'https://www.etsy.com/listing/1578024772/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/41405967/r/il/68388c/5419628250/il_794xN.5419628250_6tom.jpg',
+    name: 'Red Rising Howler Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'shopheartsfire',
+      url: 'https://www.etsy.com/shop/shopheartsfire'
+    },
+    description: 'Show Your Howler Pride!',
+    link: 'https://www.etsy.com/listing/1578024518/'
   }
 ];
 

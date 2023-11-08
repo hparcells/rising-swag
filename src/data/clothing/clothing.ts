@@ -1850,6 +1850,18 @@ const data: IItem[] = [
     description: 'A "college" style Red Rising inspired top.',
     link: 'https://www.etsy.com/listing/956167092/',
     expired: true
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/41405967/r/il/e665c8/5467759979/il_794xN.5467759979_hr0w.jpg',
+    name: 'Pan C Escalation Red Rising Shirt',
+    tags: ['shirt', 'morning-star'],
+    shop: {
+      name: 'shopheartsfire',
+      url: 'https://www.etsy.com/shop/shopheartsfire'
+    },
+    description: 'What better way to Embrace the suck of your morning with this Plan C shirt.',
+    link: 'https://www.etsy.com/listing/1578024666/'
   }
 ];
 
