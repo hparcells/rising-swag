@@ -339,6 +339,19 @@ const data: IItem[] = [
     },
     description: 'The sigil of Mars, Gold, and Red.',
     link: 'https://www.etsy.com/listing/1531857709/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/30214316/r/il/c6541e/5426718174/il_794xN.5426718174_5hup.jpg',
+    name: 'Per Aspera Ad Astra Unisex Sweatshirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'PurpleWoodlands',
+      url: 'https://www.etsy.com/shop/PurpleWoodlands'
+    },
+    description:
+      'This Latin phrase can be applied to so many difficult times in our lives. It gives us the inspiration to reach for the stars, no matter the adversity we may have encountered. Let the road of stars on the back of the sweatshirt lead you along your path to greatness.',
+    link: 'https://www.etsy.com/listing/1593646175/'
   }
 ];
 

@@ -1067,19 +1067,6 @@ const data: IItem[] = [
     link: 'https://www.etsy.com/listing/1458647277/per-aspera-ad-astra-t-shirt-unisex-t'
   },
   {
-    date: '2023-05-04',
-    image: 'https://i.etsystatic.com/30214316/r/il/375587/4806217554/il_794xN.4806217554_regt.jpg',
-    name: 'Per Aspera Ad Astra T-shirt',
-    tags: ['shirt'],
-    shop: {
-      name: 'PurpleWoodlands',
-      url: 'https://www.etsy.com/shop/PurpleWoodlands'
-    },
-    description:
-      'This Latin phrase can be applied to so many difficult times in our lives, to keep us reaching for the stars, no matter the adversity we endure.',
-    link: 'https://www.etsy.com/listing/1458647277/per-aspera-ad-astra-t-shirt-unisex-t'
-  },
-  {
     date: '2023-05-06',
     image:
       'https://i.etsystatic.com/19365370/r/il/deae85/1841688461/il_680x540.1841688461_84oq.jpg',
@@ -1862,6 +1849,19 @@ const data: IItem[] = [
     },
     description: 'What better way to Embrace the suck of your morning with this Plan C shirt.',
     link: 'https://www.etsy.com/listing/1578024666/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/30214316/r/il/c2b934/5060322044/il_794xN.5060322044_8tr5.jpg',
+    name: 'Per Aspera Ad Astra Unisex Long Sleeve',
+    tags: ['shirt'],
+    shop: {
+      name: 'PurpleWoodlands',
+      url: 'https://www.etsy.com/shop/PurpleWoodlands'
+    },
+    description:
+      'This Latin phrase can be applied to so many difficult times in our lives. It gives us the inspiration to reach for the stars, no matter the adversity we may have endured.',
+    link: 'https://www.etsy.com/listing/1502012434/'
   }
 ];
 
