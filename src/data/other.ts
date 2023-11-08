@@ -956,6 +956,18 @@ const data: IItem[] = [
     },
     description: 'Customizable wall mounted RGB sign.',
     link: 'https://www.etsy.com/listing/1572956738/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/38585656/r/il/7ca6a1/5283428771/il_794xN.5283428771_fetj.jpg',
+    name: 'Red Rising Wax Melts',
+    tags: ['other'],
+    shop: {
+      name: 'TheCosyFlame',
+      url: 'https://www.etsy.com/shop/TheCosyFlame'
+    },
+    description: 'Wax melts inspired by the Red Rising series.',
+    link: 'https://www.etsy.com/listing/1554878749/'
   }
 ];
 
