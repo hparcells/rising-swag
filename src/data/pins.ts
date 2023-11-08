@@ -371,6 +371,19 @@ const data: IItem[] = [
     },
     description: 'A shield of a Lion and "Hic Sunt Leones".',
     link: 'https://www.etsy.com/listing/1597106247/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/22469851/r/il/348ee2/5479160149/il_794xN.5479160149_qel4.jpg',
+    name: 'Summon The Howlers Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'LiteraryLeoCo',
+      url: 'https://www.etsy.com/shop/LiteraryLeoCo'
+    },
+    description:
+      'Break the chains, my love! A handmade button style pin inspired by the Red Rising Series!',
+    link: 'https://www.etsy.com/listing/1580519082/'
   }
 ];
 

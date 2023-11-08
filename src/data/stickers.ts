@@ -1149,6 +1149,19 @@ const data: IItem[] = [
     },
     description: 'I am the Reaper and death is my shadow.',
     link: 'https://www.etsy.com/listing/1535347953/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/22469851/r/il/9c7fef/5431049910/il_794xN.5431049910_igku.jpg',
+    name: 'Summon The Howlers Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'LiteraryLeoCo',
+      url: 'https://www.etsy.com/shop/LiteraryLeoCo'
+    },
+    description:
+      'Break the chains, my love! A handmade vinyl style sticker inspired by the Red Rising Series!',
+    link: 'https://www.etsy.com/listing/1594696749/'
   }
 ];
 
