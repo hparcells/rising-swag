@@ -968,6 +968,18 @@ const data: IItem[] = [
     },
     description: 'Wax melts inspired by the Red Rising series.',
     link: 'https://www.etsy.com/listing/1554878749/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/43921165/r/il/8fe239/5497709623/il_794xN.5497709623_13bj.jpg',
+    name: 'Lo, Mustang and Reaper Tote',
+    tags: ['other', 'darrow', 'mustang'],
+    shop: {
+      name: 'BookWears',
+      url: 'https://www.etsy.com/shop/BookWears'
+    },
+    description: 'Two side tote with Mustang and Reaper.',
+    link: 'https://www.etsy.com/listing/1598760009/'
   }
 ];
 

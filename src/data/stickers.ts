@@ -1162,6 +1162,30 @@ const data: IItem[] = [
     description:
       'Break the chains, my love! A handmade vinyl style sticker inspired by the Red Rising Series!',
     link: 'https://www.etsy.com/listing/1594696749/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/43921165/r/il/eb4746/5453887556/il_794xN.5453887556_3pzq.jpg',
+    name: 'Lo, Reaper - Virginia/Mustang from Red Rising by Pierce Brown Sticker',
+    tags: ['sticker', 'darrow', 'mustang'],
+    shop: {
+      name: 'BookWears',
+      url: 'https://www.etsy.com/shop/BookWears'
+    },
+    description: 'Mustang greeting her husband.',
+    link: 'https://www.etsy.com/listing/1599745825/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/43921165/r/il/a24042/5502011619/il_794xN.5502011619_qt26.jpg',
+    name: 'Lo, Mustang - Darrow from Red Rising by Pierce Brown',
+    tags: ['sticker', 'darrow', 'mustang'],
+    shop: {
+      name: 'BookWears',
+      url: 'https://www.etsy.com/shop/BookWears'
+    },
+    description: 'Darrow to his wife.',
+    link: 'https://www.etsy.com/listing/1599744339/'
   }
 ];
 

@@ -1874,6 +1874,32 @@ const data: IItem[] = [
     },
     description: 'Show your love for the Reaper with this Red Rising shirt!',
     link: 'https://www.etsy.com/listing/1589502946/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/43921165/r/il/4d7806/5445344704/il_794xN.5445344704_29k4.jpg',
+    name: 'Lo, Reaper Tee',
+    tags: ['shirt', 'darrow', 'mustang'],
+    shop: {
+      name: 'BookWears',
+      url: 'https://www.etsy.com/shop/BookWears'
+    },
+    description:
+      'When she greets her husband, her love. She doesn\'t call him by his name, nor his title. She greets him how she did when they were enemies at the institute. "Lo, Reaper"',
+    link: 'https://www.etsy.com/listing/1583598508/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/43921165/r/il/c18427/5493477377/il_794xN.5493477377_cl8n.jpg',
+    name: 'Lo, Mustang Tee',
+    tags: ['shirt', 'darrow', 'mustang'],
+    shop: {
+      name: 'BookWears',
+      url: 'https://www.etsy.com/shop/BookWears'
+    },
+    description:
+      'The warmonger greets his wife in a way no one would think. He greets her how he did when she was above him on horse back as an enemy in the institute. He greets her with a soft heart. "Lo, Mustang"',
+    link: 'https://www.etsy.com/listing/1597775313/'
   }
 ];
 
