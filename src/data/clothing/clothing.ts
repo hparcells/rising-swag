@@ -1862,6 +1862,18 @@ const data: IItem[] = [
     description:
       'This Latin phrase can be applied to so many difficult times in our lives. It gives us the inspiration to reach for the stars, no matter the adversity we may have endured.',
     link: 'https://www.etsy.com/listing/1502012434/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/34186803/r/il/f4d1d6/5471651596/il_794xN.5471651596_rm34.jpg',
+    name: 'Hail Reaper Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'NiceAndNerdy',
+      url: 'https://www.etsy.com/shop/NiceAndNerdy'
+    },
+    description: 'Show your love for the Reaper with this Red Rising shirt!',
+    link: 'https://www.etsy.com/listing/1589502946/'
   }
 ];
 
