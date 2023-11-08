@@ -944,6 +944,18 @@ const data: IItem[] = [
     },
     description: 'Wall mounted RGB wolf sign.',
     link: 'https://www.etsy.com/listing/1587131443/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/42249263/r/il/ee7b2e/5441957829/il_794xN.5441957829_jmsy.jpg',
+    name: 'Omnis Vir Lupus Red Neon Led Sign',
+    tags: [],
+    shop: {
+      name: 'GamerSetupStore',
+      url: 'https://www.etsy.com/shop/GamerSetupStore'
+    },
+    description: 'Customizable wall mounted RGB sign.',
+    link: 'https://www.etsy.com/listing/1572956738/'
   }
 ];
 

@@ -487,6 +487,45 @@ const data: IItem[] = [
     description:
       "A snug, form-fitting beanie embroidered with the Obsidian sigil. Available in black, our beanie will keep your dome warmer than Volga's scorcher.",
     link: 'https://www.lit-escalates.com/collections/new-arrivals/products/obsidian-sigil-embroidered-beanie'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/24022818/r/il/55cd4b/5466437567/il_794xN.5466437567_mq7b.jpg',
+    name: 'Gold and Red Sigil Baseball Cap',
+    tags: ['hat', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description:
+      'Enjoy the Red Rising fandom with this cap embroidered with the Red and Gold sigils.',
+    link: 'https://www.etsy.com/listing/1577753090/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/24022818/r/il/2a2f81/5466499611/il_794xN.5466499611_10s1.jpg',
+    name: 'Red Rising, Gold and Red Sigil, Embroidered, House Mars, Darrow, Unisex, Pom Pom Beanie',
+    tags: ['hat', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description:
+      'Enjoy the Red Rising fandom with this Pom Pom Beanie embroidered with the Red and Gold sigils.',
+    link: 'https://www.etsy.com/listing/1577762936/'
+  },
+  {
+    date: '2023-11-08',
+    image: 'https://i.etsystatic.com/24022818/r/il/1eb037/5466513957/il_794xN.5466513957_2ywu.jpg',
+    name: 'Gold and Red Sigil Knit Beanie',
+    tags: ['hat', 'red', 'gold'],
+    shop: {
+      name: 'ThePurpuraProject',
+      url: 'https://www.etsy.com/shop/ThePurpuraProject'
+    },
+    description:
+      'Enjoy the Red Rising fandom with this Knit Beanie embroidered with the Red and Gold sigils.',
+    link: 'https://www.etsy.com/listing/1577767162/'
   }
 ];
 
