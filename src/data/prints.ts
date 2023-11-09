@@ -215,8 +215,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"I am the Mustang that Nuzzles the Hand."',
-    link: 'https://www.etsy.com/listing/940219531/',
-    expired: true
+    link: 'https://www.etsy.com/listing/940219531/'
   },
   {
     date: '2023-03-24',
@@ -443,8 +442,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"Share The Load, Darling."',
-    link: 'https://www.etsy.com/listing/1493660906/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1493660906/'
   },
   {
     date: '2023-07-05',
