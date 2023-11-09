@@ -4,6 +4,7 @@ const { executablePath } = require('puppeteer');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const OpenAI = require('openai');
+const chalk = require('chalk');
 
 require('dotenv').config();
 
@@ -14,6 +15,11 @@ const openai = new OpenAI({
 puppeteer.use(StealthPlugin());
 
 const QUESTIONS = [
+  {
+    type: 'input',
+    name: 'tags',
+    message: 'Tags (space separated)'
+  },
   {
     type: 'list',
     name: 'expired',
@@ -42,7 +48,7 @@ const QUESTIONS = [
     let link = urlAnswer.url;
   
     if(!link) {
-      console.log('\nPlease enter a URL.');
+      console.log(chalk.red('\nPlease enter a URL.'));
       return prompt();
     }
   
@@ -59,15 +65,10 @@ const QUESTIONS = [
     let data;
     if(link.includes('etsy.com')) {
       data = await page.evaluate(() => {
-        let image;
-        let name;
-        let shopName;
-        let shopUrl;
-
-        image = document.querySelector(".carousel-image").src;
-        name = document.querySelector('h1').innerText;
-        shopName = document.querySelector(".wt-text-link-no-underline").innerText;
-        shopUrl = `https://www.etsy.com/shop/${shopName}`;
+        let image = document.querySelector(".carousel-image").src;
+        let name = document.querySelector('h1').innerText;
+        let shopName = document.querySelector(".wt-text-link-no-underline").innerText;
+        let shopUrl = `https://www.etsy.com/shop/${shopName}`
 
         return {
           image,
@@ -96,13 +97,13 @@ const QUESTIONS = [
       date: new Date().toISOString().split('T')[0],
       image: data.image,
       name,
-      tags: [],
+      tags: answers.tags ? answers.tags.split(' ') : [],
       shop: data.shop,
       description: 'FILL',
       link,
       ...(answers.expired === 'Yes' ? { expired: true } : {})
     }).replace('"shop":{', '"shop":{\n')}`);
-    console.log('\nResult copied to clipboard. Paste in a data file.\n');
+    console.log(chalk.green(`\n${chalk.bold('Result copied to clipboard.')} Paste in a data file.\n`));
   
     // Loop
     prompt();

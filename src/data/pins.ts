@@ -194,7 +194,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'Omnis vir Lupus: Every man a wolf.',
-    link: 'https://www.etsy.com/listing/1410768606/'
+    link: 'https://www.etsy.com/listing/1410768606/',
+    expired: true
   },
   {
     date: '2023-04-23',
