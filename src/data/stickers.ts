@@ -1186,6 +1186,30 @@ const data: IItem[] = [
     },
     description: 'Darrow to his wife.',
     link: 'https://www.etsy.com/listing/1599744339/'
+  },
+  {
+    date: '2023-11-10',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/70876.jpg',
+    name: "1st Anniversary Howler's Den Sticker",
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Join the Den in Celebrating their 1st birthday with some new anniversary logos!',
+    link: 'https://howlerholo.net/product/1st-anniversary-the-howlers-den-yellow/'
+  },
+  {
+    date: '2023-11-10',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/95743.jpg',
+    name: '1st Anniversary Howler Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: 'Celebrate the Den’s First Birthday with an anniversary logo!',
+    link: 'https://howlerholo.net/product/1st-anniversary-the-howlers-den-vinyl-sticker/'
   }
 ];
 
