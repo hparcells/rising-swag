@@ -385,6 +385,20 @@ const data: IItem[] = [
     description:
       'Break the chains, my love! A handmade button style pin inspired by the Red Rising Series!',
     link: 'https://www.etsy.com/listing/1580519082/'
+  },
+  {
+    date: '2023-11-12',
+    image: 'https://i.etsystatic.com/20130519/r/il/5dc36f/4903075316/il_794xN.4903075316_2m87.jpg',
+    name: 'Sophocles Pin',
+    tags: ['pin', 'sophocles'],
+    shop: {
+      name: 'LitPinsandCo',
+      url: 'https://www.etsy.com/shop/LitPinsandCo'
+    },
+    description:
+      'This bookish companion enamel pin features none other than Sophocles, a jellybean fiend and loyal companion to Kavax.',
+    link: 'https://www.etsy.com/listing/1463004146/',
+    expired: true
   }
 ];
 
