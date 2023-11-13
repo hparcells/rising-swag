@@ -254,6 +254,18 @@ const data: IItem[] = [
     },
     description: 'Pegasus Legion. Howler Battalion. One of the Reapers own.',
     link: 'https://www.etsy.com/listing/1498182106/pegasus-legion-patch'
+  },
+  {
+    date: '2023-11-10',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/Anniversary-Patch-Crop.jpg',
+    name: "Howler's Den Anniversary Patches",
+    tags: ['patch'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: "Celebrate the Howler's Den first birthday with a new limited patch!",
+    link: 'https://howlerholo.net/product/howlers-den-anniversary-patches/'
   }
 ];
 

@@ -798,6 +798,18 @@ const data: IItem[] = [
     },
     description: 'Handmade scroll with wood, aged paper, print and burnt edges.',
     link: 'https://www.etsy.com/listing/1579344114/'
+  },
+  {
+    date: '2023-11-13',
+    image: 'https://i.etsystatic.com/19258470/r/il/bbf74b/2359424203/il_794xN.2359424203_nbly.jpg',
+    name: 'Darrow, Sevro, and Mustang Print',
+    tags: ['print', 'darrow', 'sevro', 'mustang'],
+    shop: {
+      name: 'EnchantedExtrasbyBri',
+      url: 'https://www.etsy.com/shop/EnchantedExtrasbyBri'
+    },
+    description: '5x7 print of Darrow, Sevro, and Mustang.',
+    link: 'https://www.etsy.com/listing/795881210/'
   }
 ];
 

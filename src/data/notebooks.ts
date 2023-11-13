@@ -140,6 +140,18 @@ const data: IItem[] = [
       'A 150 page journal with the cover featuring the Subterranean Press Red Rising cover art.',
     link: 'https://www.etsy.com/listing/1456688970/red-rising-cover-art-journal',
     expired: true
+  },
+  {
+    date: '2023-11-13',
+    image: 'https://i.etsystatic.com/21279369/r/il/cde421/3089726076/il_794xN.3089726076_apt9.jpg',
+    name: 'Sleepy Sophocles Spiral Notebook',
+    tags: ['notebook'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'A 100 page notebook with a cover featuring a sleepy Sophocles.',
+    link: 'https://www.etsy.com/listing/1021299251/'
   }
 ];
 

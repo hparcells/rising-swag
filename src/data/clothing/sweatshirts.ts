@@ -352,6 +352,18 @@ const data: IItem[] = [
     description:
       'This Latin phrase can be applied to so many difficult times in our lives. It gives us the inspiration to reach for the stars, no matter the adversity we may have encountered. Let the road of stars on the back of the sweatshirt lead you along your path to greatness.',
     link: 'https://www.etsy.com/listing/1593646175/'
+  },
+  {
+    date: '2023-11-10',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/25459-7.jpg',
+    name: "The Howler's Den 1st Anniversary Sweatshirt",
+    tags: ['sweatshirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://www.howlerholo.net'
+    },
+    description: "A sweatshirt celebrating the Howler's Den 1st anniversary.",
+    link: 'https://howlerholo.net/product/the-howlers-den-1st-anniversary-unisex-sweatshirt/'
   }
 ];
 

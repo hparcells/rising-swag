@@ -980,6 +980,19 @@ const data: IItem[] = [
     },
     description: 'Two side tote with Mustang and Reaper.',
     link: 'https://www.etsy.com/listing/1598760009/'
+  },
+  {
+    date: '2023-11-12',
+    image: 'https://i.etsystatic.com/48035771/r/il/be80d5/5484785496/il_794xN.5484785496_1ntz.jpg',
+    name: 'Engraved Brass Obsidian Coin',
+    tags: ['other'],
+    shop: {
+      name: 'LykosMint',
+      url: 'https://www.etsy.com/shop/LykosMint'
+    },
+    description:
+      'Obsidian themed obverse & Minimalist solar system with society triangle in the center of the reverse.',
+    link: 'https://www.etsy.com/listing/1592394982/'
   }
 ];
 
