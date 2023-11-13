@@ -1,21 +1,21 @@
 import { useEffect, useRef, useState } from 'react';
-import { Alert, Pagination, Text } from '@mantine/core';
+import { Pagination, Text } from '@mantine/core';
 import clsx from 'clsx';
-import { IconAlertCircle } from '@tabler/icons-react';
 
 import FilterBox from '../FilterBox/FilterBox';
 import ItemCard from '../ItemCard/ItemCard';
+import SkeletonCard from '../SkeletonCard/SkeletonCard';
 
 import { useFilter } from '@/hooks/filter';
+
+import { IItem } from '@/types/item';
 
 import { ALL_DATA } from '@/data/data';
 
 import classes from './Content.module.scss';
-import { IItem } from '@/types/item';
-import SkeletonCard from '../SkeletonCard/SkeletonCard';
 
 function Content() {
-  const { filter } = useFilter();
+  const { filter, resetFilter } = useFilter();
 
   const topCards = useRef<HTMLDivElement>(null);
 
@@ -23,6 +23,9 @@ function Content() {
   const [pages, setPages] = useState<number>(1);
   const [page, setPage] = useState<number>(1);
 
+  useEffect(() => {
+    resetFilter();
+  }, []);
   useEffect(() => {
     setFilteredData(
       ALL_DATA.filter((item) => {
@@ -148,7 +151,7 @@ function Content() {
                   .splice((page - 1) * 30, 30)}
               </>
             ) : (
-              <p>No results</p>
+              <Text>No results.</Text>
             )
           ) : (
             <>

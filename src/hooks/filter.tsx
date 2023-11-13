@@ -1,3 +1,5 @@
+/* eslint-disable no-empty-function */
+
 import { useState, useContext, createContext } from 'react';
 
 import { IFilter } from '@/types/filter';
@@ -16,14 +18,15 @@ const FilterContext = createContext({
     showExpired: false,
     fullWidth: false
   } as IFilter,
-  // eslint-disable-next-line no-empty-function
-  updateFilter: (filterUpdate: IFilterUpdate) => {}
+  updateFilter: (filterUpdate: IFilterUpdate) => {},
+  resetFilter: () => {}
 });
 
 // Our hook.
 export function useFilter(): {
   filter: IFilter;
   updateFilter: (filterUpdate: IFilterUpdate) => void;
+  resetFilter: () => void;
 } {
   return useContext(FilterContext);
 }
@@ -45,9 +48,23 @@ function useProvideFilter() {
     setFilter({ ...filter, ...filterUpdate });
   }
 
+  function resetFilter() {
+    setFilter({
+      search: '',
+      tags: [],
+      sort: {
+        by: 'added',
+        order: 'descending'
+      },
+      showExpired: false,
+      fullWidth: false
+    });
+  }
+
   return {
     filter,
-    updateFilter
+    updateFilter,
+    resetFilter
   };
 }
 

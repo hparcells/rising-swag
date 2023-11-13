@@ -10,10 +10,6 @@
   width: 100%;
 }
 
-.aboveCards {
-  padding: 1em 0.5em 0 0.5em;
-}
-
 .cards {
   display: flex;
   gap: 0.5em;
@@ -26,4 +22,8 @@
   justify-content: center;
 
   margin: 2em 0 1em 0;
+}
+
+.content {
+  padding: 1em 0.5em;
 }
