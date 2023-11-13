@@ -85,6 +85,18 @@ const data: IItem[] = [
     },
     description: 'Includes a PDF and PNG file of the poster.',
     link: 'https://www.etsy.com/listing/1500983458/'
+  },
+  {
+    date: '2023-11-13',
+    image: 'https://i.etsystatic.com/11432337/r/il/0046c9/5250180029/il_794xN.5250180029_ftfp.jpg',
+    name: 'Clang Clang Clang Digital Download',
+    tags: ['print', 'digital', 'light-bringer'],
+    shop: {
+      name: 'KingsWoodPrints',
+      url: 'https://www.etsy.com/shop/KingsWoodPrints'
+    },
+    description: 'A digital download of "Clang Clang Clang."',
+    link: 'https://www.etsy.com/listing/1531912158/'
   }
 ];
 
