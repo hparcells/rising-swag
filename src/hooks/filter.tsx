@@ -15,8 +15,7 @@ const FilterContext = createContext({
       by: 'added',
       order: 'descending'
     },
-    showExpired: false,
-    fullWidth: false
+    showExpired: false
   } as IFilter,
   updateFilter: (filterUpdate: IFilterUpdate) => {},
   resetFilter: () => {}
@@ -40,8 +39,7 @@ function useProvideFilter() {
       by: 'added',
       order: 'descending'
     },
-    showExpired: false,
-    fullWidth: false
+    showExpired: false
   });
 
   function updateFilter(filterUpdate: IFilterUpdate) {
@@ -56,8 +54,7 @@ function useProvideFilter() {
         by: 'added',
         order: 'descending'
       },
-      showExpired: false,
-      fullWidth: false
+      showExpired: false
     });
   }
 

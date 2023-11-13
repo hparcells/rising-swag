@@ -157,14 +157,6 @@ function FilterBox() {
             }}
             color='red'
           />
-          <Checkbox
-            label='Full width'
-            checked={filter.fullWidth}
-            onChange={(event) => {
-              updateFilter({ fullWidth: event.currentTarget.checked });
-            }}
-            color='red'
-          />
         </Group>
       </Group>
     </Paper>

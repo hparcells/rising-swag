@@ -13,5 +13,4 @@ export interface IFilter {
   tags: ITag[];
   sort: ISort;
   showExpired: boolean;
-  fullWidth: boolean;
 }
