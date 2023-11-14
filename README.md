@@ -3,6 +3,8 @@
 
 ![](https://wakatime.com/badge/user/6b7d9181-edde-4a25-857c-e7101bfee7ea/project/4b7fb314-2a2d-41ca-9f2f-e74fe11beb5b.svg?style=for-the-badge)
 
+![](./img/etsy.png)
+
 ## Requests for Additions/Removals
 Requests for additions or removes to/from this page can be made a number of ways.
 - Emailing me at `contact@hunterparcells.com`.

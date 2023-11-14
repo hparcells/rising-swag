@@ -42,7 +42,7 @@ const data: IItem[] = [
   },
   {
     date: '2023-03-31',
-    image: 'https://cdn.shopify.com/s/files/1/1350/0665/products/RedRisingbookstack_1800x1800.jpg',
+    image: 'https://nerdy.ink/cdn/shop/files/IMG_3353_720x.jpg',
     name: 'Nerdy Ink Dust Jackets',
     tags: ['book', 'red-rising', 'golden-son', 'morning-star', 'iron-gold', 'dark-age'],
     shop: {
@@ -122,7 +122,7 @@ const data: IItem[] = [
   {
     date: '2023-06-21',
     image:
-      'https://www.goldsborobooks.com/uploads/books/light-bringer/_bookCoverDefault/Exclusive-Edition-Temp.-dont-delete-7.png',
+      'https://www.goldsborobooks.com/uploads/books/light-bringer-eu-vat-link/_bookCoverDefault/Exclusive-Edition-Temp.-dont-delete-7.png',
     name: 'Sprayed Edges Light Bringer',
     tags: ['book', 'light-bringer'],
     shop: {
