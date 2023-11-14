@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "node-fetch": "^2.7.0",
+    "puppeteer-cluster": "^0.23.0"
+  }
+}
