@@ -76,7 +76,7 @@ const etsyExpiredConditions = [
     if(answer.test === 'Image Status') {
       cluster = await Cluster.launch({
         concurrency: Cluster.CONCURRENCY_PAGE,
-        maxConcurrency: 16,
+        maxConcurrency: 24,
         puppeteerOptions: {
           headless: 'new'
         },
