@@ -645,6 +645,32 @@ const data: IItem[] = [
     },
     description: 'Show Your Howler Pride!',
     link: 'https://www.etsy.com/listing/1578024518/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/47705427/r/il/1a1cc7/5461723594/il_794xN.5461723594_99y2.jpg',
+    name: "15 oz Cassius's Razor Master Course Mug",
+    tags: ['mug', 'cassius'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description:
+      "Lo' future razor masters! After all that extensive training, a hot cup of coffee might be just what the medBot ordered.",
+    link: 'https://www.etsy.com/listing/1587306092/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/47705427/r/il/8d6c21/5539751503/il_794xN.5539751503_np7s.jpg',
+    name: "11 oz Cassius's Razor Master Course Mug",
+    tags: ['mug', 'cassius'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description:
+      "Lo' future razor masters! After all that extensive training, a hot cup of coffee might be just what the medBot ordered.",
+    link: 'https://www.etsy.com/listing/1593905734/'
   }
 ];
 

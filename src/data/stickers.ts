@@ -1210,6 +1210,19 @@ const data: IItem[] = [
     },
     description: 'Celebrate the Den’s First Birthday with an anniversary logo!',
     link: 'https://howlerholo.net/product/1st-anniversary-the-howlers-den-vinyl-sticker/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/47705427/r/il/38d3d0/5463079194/il_794xN.5463079194_enxr.jpg',
+    name: "Cassius's Razor Master Course Sticker",
+    tags: ['sticker', 'cassius'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description:
+      "Lo' future Razor Masters. Rather than the scars from a duel with Apollonius, get yourself a sticker to show you trained with the greatest Razor Master this side of the Rim!",
+    link: 'https://www.etsy.com/listing/1587584386/'
   }
 ];
 
