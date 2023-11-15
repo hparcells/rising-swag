@@ -364,6 +364,19 @@ const data: IItem[] = [
     },
     description: "A sweatshirt celebrating the Howler's Den 1st anniversary.",
     link: 'https://howlerholo.net/product/the-howlers-den-1st-anniversary-unisex-sweatshirt/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/45048743/r/il/b3f9ec/5194707646/il_794xN.5194707646_43c8.jpg',
+    name: 'Hail Reaper Wolf Sweatshirt',
+    tags: ['sweatshirt'],
+    shop: {
+      name: 'SweatshirtHugUS',
+      url: 'https://www.etsy.com/shop/SweatshirtHugUS'
+    },
+    description:
+      'Red Rising-inspired sweatshirt honoring the Howlers and the Reaper himself. Wear this cool sweatshirt - Howlers will recognize you at once, and everyone else will just think its a cool shirt.',
+    link: 'https://www.etsy.com/listing/1546049607/'
   }
 ];
 

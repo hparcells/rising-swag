@@ -1900,6 +1900,32 @@ const data: IItem[] = [
     description:
       'The warmonger greets his wife in a way no one would think. He greets her how he did when she was above him on horse back as an enemy in the institute. He greets her with a soft heart. "Lo, Mustang"',
     link: 'https://www.etsy.com/listing/1597775313/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/45048743/r/il/14cfcc/5195188072/il_794xN.5195188072_gthn.jpg',
+    name: 'Haemanthus Flower T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'SweatshirtHugUS',
+      url: 'https://www.etsy.com/shop/SweatshirtHugUS'
+    },
+    description:
+      'For all the Howlers out there, this t-shirt features a large red haemanthus flower and the quote "Hear the Reaper swing." from The Song of Persephone.',
+    link: 'https://www.etsy.com/listing/1531965786/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/45048743/r/il/64ad40/5197395324/il_794xN.5197395324_jekj.jpg',
+    name: "Women's Haemanthus Flower T-Shirt",
+    tags: ['shirt'],
+    shop: {
+      name: 'SweatshirtHugUS',
+      url: 'https://www.etsy.com/shop/SweatshirtHugUS'
+    },
+    description:
+      'For all the Howlers out there, this t-shirt features a large red haemanthus flower and the quote "Hear the Reaper swing." from The Song of Persephone.',
+    link: 'https://www.etsy.com/listing/1546612789/'
   }
 ];
 
