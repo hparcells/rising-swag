@@ -151,7 +151,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/shopheartsfire'
     },
     description: 'Everyone needs a Mangy Guardian Angel. Smells of Sweet Orange and Sriracha',
-    link: 'https://www.etsy.com/listing/1489577888/'
+    link: 'https://www.etsy.com/listing/1489577888/',
+    expired: true
   },
   {
     date: '2023-08-21',

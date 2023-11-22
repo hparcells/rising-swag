@@ -207,7 +207,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/JTRichWood'
     },
     description: '3D Laser cut graphic of Sevro from Red Rising.',
-    link: 'https://www.etsy.com/listing/1433882677/'
+    link: 'https://www.etsy.com/listing/1433882677/',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -297,8 +298,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/3DPrintsbyTheodore'
     },
     description: 'A 3D printed Howler logo printed in Marble and Red pla.',
-    link: 'https://www.etsy.com/listing/1276452077/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1276452077/'
   },
   {
     date: '2023-03-22',
@@ -388,7 +388,8 @@ const data: IItem[] = [
     },
     description:
       '3D Laser cut graphic of Pulse Armor from Red Rising. Laser cut from basswood, layered, stained, and sealed.',
-    link: 'https://www.etsy.com/listing/1433872471/'
+    link: 'https://www.etsy.com/listing/1433872471/',
+    expired: true
   },
   {
     date: '2023-04-12',
@@ -992,7 +993,8 @@ const data: IItem[] = [
     },
     description:
       'Obsidian themed obverse & Minimalist solar system with society triangle in the center of the reverse.',
-    link: 'https://www.etsy.com/listing/1592394982/'
+    link: 'https://www.etsy.com/listing/1592394982/',
+    expired: true
   }
 ];
 

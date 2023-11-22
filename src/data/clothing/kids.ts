@@ -171,7 +171,8 @@ const data: IItem[] = [
     },
     description:
       "Dress your 'lil jelly bean in this Red Rising inspired toddler short-sleeve jersey t-shirt from 100% cotton with a unique print.",
-    link: 'https://www.etsy.com/listing/1312398025/'
+    link: 'https://www.etsy.com/listing/1312398025/',
+    expired: true
   }
 ];
 
