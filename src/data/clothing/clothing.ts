@@ -1912,6 +1912,114 @@ const data: IItem[] = [
     },
     description: 'Sometimes the villains need a little rep too.',
     link: ' https://howlerholo.net/product/boneriders-unisex-tee/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/18150-84-600x600.jpg',
+    name: 'Breath of Stone Unisex Tee',
+    tags: ['shirt', 'darrow', 'light-bringer'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Welcoming the new era of Darrow',
+    link: 'https://howlerholo.net/product/breath-of-stone-unisex-tee/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/18102-48-600x600.jpg',
+    name: 'Daddy-medes Unisex Tee',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: "Daddy-medes does roll off the tongue, doesn't it?",
+    link: 'https://howlerholo.net/product/daddy-medes-unisex-tee/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/18318-12-600x600.jpg',
+    name: 'Daddy-omedes Unisex Tee',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Diomedes always brings to O – it HAS to be Daddy-Omedes!',
+    link: 'https://howlerholo.net/product/daddy-omedes-unisex-tee/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/18102-24-600x600.jpg',
+    name: 'Dark Star Conservatory Unisex Tee',
+    tags: ['shirt', 'light-bringer'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Join the Conservatory, founded by Orion xe Aquarii.',
+    link: 'https://howlerholo.net/product/dark-star-conservatory-unisex-tee/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/18358-12-600x600.jpg',
+    name: 'Purple Valii-Rath Pearl Club Unisex Tee',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: "Represent Apollonius's Pearl Club.",
+    link: 'https://howlerholo.net/product/purple-valii-rath-pearl-club-unisex-tee/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/61823-600x600.jpg',
+    name: 'Sevro’s Sun Butter Unisex Tee',
+    tags: ['shirt', 'sevro'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: "Hands off Sevro's Sun Butter.",
+    link: 'https://howlerholo.net/product/sevros-sun-butter-unisex-tee/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/18062-96-600x600.jpg',
+    name: 'The Path (White) Tee',
+    tags: ['shirt', 'light-bringer'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Join Darrow as he reads the understandings of the Path.',
+    link: 'https://howlerholo.net/product/the-path-white-unisex-short-sleeve-tee/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/39352-600x600.jpg',
+    name: 'Thunder & Lightning Unisex Baseball Tee',
+    tags: ['shirt', 'darrow', 'cassius', 'red-rising'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Darrow and Cassius, the true Dynamic Duo!',
+    link: 'https://howlerholo.net/product/thunder-lightning-unisex-baseball-tee/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/18062-48-600x600.jpg',
+    name: 'Thunder & Lightning Unisex Tee',
+    tags: ['shirt', 'darrow', 'cassius', 'red-rising'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Darrow and Cassius, the true Dynamic Duo!',
+    link: 'https://howlerholo.net/product/thunder-lightning-unisex-tee/'
   }
 ];
 

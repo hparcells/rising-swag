@@ -1210,6 +1210,90 @@ const data: IItem[] = [
     },
     description: 'Celebrate the Den’s First Birthday with an anniversary logo!',
     link: 'https://howlerholo.net/product/1st-anniversary-the-howlers-den-vinyl-sticker/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/70876-8-600x600.jpg',
+    name: 'Boneriders Vinyl Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Sometimes the villains need a little rep too.',
+    link: 'https://howlerholo.net/product/boneriders-vinyl-sticker/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/70876-16-600x600.jpg',
+    name: 'Daddy-medes Round Vinyl Stickers',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: "Daddy-medes does roll off the tongue, doesn't it?",
+    link: 'https://howlerholo.net/product/daddy-medes-round-vinyl-stickers/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/70876-20-600x600.jpg',
+    name: 'Daddy-omedes Round Vinyl Stickers',
+    tags: ['sticker'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Diomedes always brings the O – you chose correctly.',
+    link: 'https://howlerholo.net/product/daddy-omedes-round-vinyl-stickers/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/70876-4-600x600.jpg',
+    name: 'Dark Star Conservatory Vinyl Sticker',
+    tags: ['sticker', 'light-bringer'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Join the Conservatory, founded by Orion xe Aquarii.',
+    link: 'https://howlerholo.net/product/dark-star-conservatory-vinyl-sticker/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/95743-6-600x600.jpg',
+    name: "Sevro's Sun Butter Vinyl Sticker",
+    tags: ['sticker', 'sevro'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: "Hands off Sevro's Sun Butter.",
+    link: 'https://howlerholo.net/product/sevros-sun-butter-vinyl-sticker/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/70876-28-600x600.jpg',
+    name: 'The Path Vinyl Sticker',
+    tags: ['sticker', 'light-bringer'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Join Darrow as he reads the understandings of the Path.',
+    link: 'https://howlerholo.net/product/the-path-vinyl-sticker/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/70876-24-600x600.jpg',
+    name: 'Thunder & Lightning Vinyl Sticker',
+    tags: ['sticker', 'darrow', 'cassius', 'red-rising'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Darrow and Cassius, the true Dynamic Duo!',
+    link: 'https://howlerholo.net/product/thunder-lightning-vinyl-sticker/'
   }
 ];
 

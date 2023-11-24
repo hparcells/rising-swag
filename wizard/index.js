@@ -95,7 +95,6 @@ const QUESTIONS = [
       data = await page.evaluate(() => {
         const image = document.querySelector(".wp-post-image").src;
         const name = document.querySelector('.product_title').innerText;
-        const description = document.querySelector(".woocommerce-Tabs-panel--description").children[1].innerText;
 
         return {
           image,
@@ -103,8 +102,7 @@ const QUESTIONS = [
           shop: {
             name: "The Howler's Den",
             url: 'https://howlerholo.net/'
-          },
-          description
+          }
         };
       });
     }

@@ -364,6 +364,18 @@ const data: IItem[] = [
     },
     description: "A sweatshirt celebrating the Howler's Den 1st anniversary.",
     link: 'https://howlerholo.net/product/the-howlers-den-1st-anniversary-unisex-sweatshirt/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/25443-600x600.jpg',
+    name: 'The Path Unisex Sweatshirt',
+    tags: ['sweatshirt', 'light-bringer'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Join Darrow as he reads the understandings of the Path.',
+    link: 'https://howlerholo.net/product/the-path-unisex-sweatshirt/'
   }
 ];
 
