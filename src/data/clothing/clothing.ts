@@ -1050,7 +1050,7 @@ const data: IItem[] = [
       url: 'https://www.lit-escalates.com/'
     },
     description:
-      'Whether swimming, biking, running or just lounging, our Howler shorts won’t let you down!',
+      "Whether swimming, biking, running or just lounging, our Howler shorts won't let you down!",
     link: 'https://www.lit-escalates.com/products/mens-howler-shorts-1'
   },
   {
@@ -1976,7 +1976,7 @@ const data: IItem[] = [
   {
     date: '2023-11-24',
     image: 'https://howlerholo.net/wp-content/uploads/2023/11/61823-600x600.jpg',
-    name: 'Sevro’s Sun Butter Unisex Tee',
+    name: "Sevro's Sun Butter Unisex Tee",
     tags: ['shirt', 'sevro'],
     shop: {
       name: "The Howler's Den",

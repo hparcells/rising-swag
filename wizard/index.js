@@ -94,7 +94,9 @@ const QUESTIONS = [
     if(link.includes('howlerholo.net')) {
       data = await page.evaluate(() => {
         const image = document.querySelector(".wp-post-image").src;
-        const name = document.querySelector('.product_title').innerText;
+        name = document.querySelector('.product_title').innerText;
+
+        name = name.replace('’', '\'').trim();
 
         return {
           image,

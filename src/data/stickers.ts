@@ -1208,7 +1208,7 @@ const data: IItem[] = [
       name: "The Howler's Den",
       url: 'https://www.howlerholo.net'
     },
-    description: 'Celebrate the Den’s First Birthday with an anniversary logo!',
+    description: "Celebrate the Den's First Birthday with an anniversary logo!",
     link: 'https://howlerholo.net/product/1st-anniversary-the-howlers-den-vinyl-sticker/'
   },
   {
