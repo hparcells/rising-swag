@@ -63,6 +63,7 @@ const QUESTIONS = [
     await page.goto(link);
 
     let data;
+    let name;
     if(link.includes('etsy.com')) {
       data = await page.evaluate(() => {
         let image = document.querySelector(".carousel-image").src;
@@ -72,34 +73,50 @@ const QUESTIONS = [
 
         return {
           image,
-          name,
           shop: {
             name: shopName,
             url: shopUrl
           }
         };
       });
-    }
 
-    const aiResponse = await openai.chat.completions.create({
-      messages: [
-        {
-          role: 'user',
-          content: `"${data.name}" is an name of an item on Etsy. Create a shorter title of it while trying to be shorter than 70 characters. Do not include quotes around the title. Do not mention Red Rising or Pierce Brown in the title. The end title should describe a single item. Remove any "tags". Capitalize any words that should be capitalized in the title. The part you should keep is usually at the beginning. If the title is good enough, do not change it.`
-        }
-      ],
-      model: 'gpt-3.5-turbo',
-    });
-    const name = aiResponse.choices[0].message.content;
+      const aiResponse = await openai.chat.completions.create({
+        messages: [
+          {
+            role: 'user',
+            content: `"${data.name}" is an name of an item on Etsy. Create a shorter title of it while trying to be shorter than 70 characters. Do not include quotes around the title. Do not mention Red Rising or Pierce Brown in the title. The end title should describe a single item. Remove any "tags". Capitalize any words that should be capitalized in the title. The part you should keep is usually at the beginning. If the title is good enough, do not change it.`
+          }
+        ],
+        model: 'gpt-3.5-turbo',
+      });
+      name = aiResponse.choices[0].message.content;
+    }
+    if(link.includes('howlerholo.net')) {
+      data = await page.evaluate(() => {
+        const image = document.querySelector(".wp-post-image").src;
+        const name = document.querySelector('.product_title').innerText;
+        const description = document.querySelector(".woocommerce-Tabs-panel--description").children[1].innerText;
+
+        return {
+          image,
+          name,
+          shop: {
+            name: "The Howler's Den",
+            url: 'https://howlerholo.net/'
+          },
+          description
+        };
+      });
+    }
 
     // Copy result.
     ncp.copy(`,${JSON.stringify({
       date: new Date().toISOString().split('T')[0],
       image: data.image,
-      name,
+      name: name || data.name,
       tags: answers.tags ? answers.tags.split(' ') : [],
       shop: data.shop,
-      description: 'FILL',
+      description: data.description || 'FILL',
       link,
       ...(answers.expired === 'Yes' ? { expired: true } : {})
     }).replace('"shop":{', '"shop":{\n')}`);

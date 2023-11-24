@@ -1900,6 +1900,18 @@ const data: IItem[] = [
     description:
       'The warmonger greets his wife in a way no one would think. He greets her how he did when she was above him on horse back as an enemy in the institute. He greets her with a soft heart. "Lo, Mustang"',
     link: 'https://www.etsy.com/listing/1597775313/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/18070-600x600.jpg',
+    name: 'Boneriders Unisex Tee',
+    tags: ['shirt'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Sometimes the villains need a little rep too.',
+    link: ' https://howlerholo.net/product/boneriders-unisex-tee/'
   }
 ];
 
