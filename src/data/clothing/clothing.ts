@@ -2020,6 +2020,109 @@ const data: IItem[] = [
     },
     description: 'Darrow and Cassius, the true Dynamic Duo!',
     link: 'https://howlerholo.net/product/thunder-lightning-unisex-tee/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/45048743/r/il/14cfcc/5195188072/il_794xN.5195188072_gthn.jpg',
+    name: 'Haemanthus Flower T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'SweatshirtHugUS',
+      url: 'https://www.etsy.com/shop/SweatshirtHugUS'
+    },
+    description:
+      'For all the Howlers out there, this t-shirt features a large red haemanthus flower and the quote "Hear the Reaper swing." from The Song of Persephone.',
+    link: 'https://www.etsy.com/listing/1531965786/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/45048743/r/il/64ad40/5197395324/il_794xN.5197395324_jekj.jpg',
+    name: "Women's Haemanthus Flower T-Shirt",
+    tags: ['shirt'],
+    shop: {
+      name: 'SweatshirtHugUS',
+      url: 'https://www.etsy.com/shop/SweatshirtHugUS'
+    },
+    description:
+      'For all the Howlers out there, this t-shirt features a large red haemanthus flower and the quote "Hear the Reaper swing." from The Song of Persephone.',
+    link: 'https://www.etsy.com/listing/1546612789/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/47705427/r/il/f5af0c/5536196119/il_794xN.5536196119_1863.jpg',
+    name: 'Goblin Vibes T-Shirt (Dark)',
+    tags: ['shirt', 'sevro'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description:
+      "Lo' Goblins! This shirt is perfect for all the Red Rising fanatics out there wanting to show off their love for Sevro.",
+    link: 'https://www.etsy.com/listing/1593098720/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/47705427/r/il/95fd87/5488231950/il_794xN.5488231950_lph4.jpg',
+    name: 'Goblin Vibes T-Shirt (Light)',
+    tags: ['shirt', 'sevro'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description:
+      "Lo' Goblins! This shirt is perfect for all the Red Rising fanatics out there wanting to show off their love for Sevro.",
+    link: 'https://www.etsy.com/listing/1607306303/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/47705427/r/il/277eee/5537360687/il_794xN.5537360687_s1qm.jpg',
+    name: 'Squad Goals T-Shirt (Light)',
+    tags: ['shirt', 'darrow', 'sevro', 'mustang', 'victra', 'cassius'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description:
+      'Squad goals! Am I right? This shirt is perfect for all you Howlers and Goblins alike.',
+    link: 'https://www.etsy.com/listing/1607551911/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/47705427/r/il/6a0054/5489022212/il_794xN.5489022212_1igz.jpg',
+    name: 'Squad Goals T-Shirt (Dark)',
+    tags: ['shirt', 'darrow', 'sevro', 'mustang', 'victra', 'cassius'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description:
+      'Squad goals! Am I right? This shirt is perfect for all you Howlers and Goblins alike.',
+    link: 'https://www.etsy.com/listing/1607473435/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/47705427/r/il/334ba9/5505642476/il_794xN.5505642476_e2xk.jpg',
+    name: 'Telemanus Jelly Bean Co. Shirt',
+    tags: ['shirt', 'sophocles'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description:
+      'Sophocles may like to steal jelly beans, but you will steal the limelight in this one of a kind RR Merch.',
+    link: 'https://www.etsy.com/listing/1597085150/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/47705427/r/il/1e71d7/5526404283/il_794xN.5526404283_1mf1.jpg',
+    name: "Cassius's Razor Master Course Long Sleeve",
+    tags: ['shirt', 'cassius'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description: "Lo' future razor masters. Show off your training with this shirt.",
+    link: 'https://www.etsy.com/listing/1605160773/'
   }
 ];
 

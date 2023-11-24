@@ -2,7 +2,7 @@ import { createGetInitialProps } from '@mantine/next';
 import NextDocument, { Html, Head, Main, NextScript } from 'next/document';
 
 const DESCRIPTION =
-  "Represent the world of Pierce Brown's Red Rising with style with a curated list of merch and other Red Rising related items from members across the community, all in one place.";
+  "Looking for the perfect gift? Represent the world of Pierce Brown's Red Rising with style with a curated list of merch and other Red Rising related items from members across the community, all in one place.";
 
 const getInitialProps = createGetInitialProps();
 

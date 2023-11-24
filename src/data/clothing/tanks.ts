@@ -184,6 +184,19 @@ const data: IItem[] = [
     },
     description: "The Howlers' War on Heaven Tour tank.",
     link: 'https://www.etsy.com/listing/1538569052/'
+  },
+  {
+    date: '2023-11-15',
+    image: 'https://i.etsystatic.com/47705427/r/il/d13a79/5507295818/il_794xN.5507295818_609m.jpg',
+    name: "Cassius's Razor Master Course Tank Top",
+    tags: ['tank', 'cassius'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description:
+      "The long sleeved version was so popular we figured why not add a more gym friendly companion? After all, you'll want to literally flex after all that razor training.",
+    link: 'https://www.etsy.com/listing/1611629607/'
   }
 ];
 
