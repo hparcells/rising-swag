@@ -319,26 +319,28 @@ const data: IItem[] = [
     image:
       'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/white-glossy-mug-11oz-handle-on-left-619bbbd7c7c58_1024x1024@2x.jpg',
     name: 'Sevro Clause Mug (Version I)',
-    tags: ['mug', 'sevro'],
+    tags: ['mug', 'sevro', 'christmas'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
     description: 'Christmas design of Sevro Clause.',
-    link: 'https://www.lit-escalates.com/products/sevro-santa-mug-version-ii'
+    link: 'https://www.lit-escalates.com/products/sevro-santa-mug-version-ii',
+    expired: true
   },
   {
     date: '2023-05-04',
     image:
       'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/white-glossy-mug-11oz-handle-on-left-619bbead0806b_1024x1024@2x.jpg',
     name: 'Sevro Clause Mug (Version II)',
-    tags: ['mug', 'sevro'],
+    tags: ['mug', 'sevro', 'christmas'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
     description: 'Christmas design of Sevro Clause.',
-    link: 'https://www.lit-escalates.com/products/sevro-clause-mug-version-ii'
+    link: 'https://www.lit-escalates.com/products/sevro-clause-mug-version-ii',
+    expired: true
   },
   {
     date: '2023-05-04',
