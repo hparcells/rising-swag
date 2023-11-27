@@ -319,26 +319,28 @@ const data: IItem[] = [
     image:
       'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/white-glossy-mug-11oz-handle-on-left-619bbbd7c7c58_1024x1024@2x.jpg',
     name: 'Sevro Clause Mug (Version I)',
-    tags: ['mug', 'sevro'],
+    tags: ['mug', 'sevro', 'christmas'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
     description: 'Christmas design of Sevro Clause.',
-    link: 'https://www.lit-escalates.com/products/sevro-santa-mug-version-ii'
+    link: 'https://www.lit-escalates.com/products/sevro-santa-mug-version-ii',
+    expired: true
   },
   {
     date: '2023-05-04',
     image:
       'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/white-glossy-mug-11oz-handle-on-left-619bbead0806b_1024x1024@2x.jpg',
     name: 'Sevro Clause Mug (Version II)',
-    tags: ['mug', 'sevro'],
+    tags: ['mug', 'sevro', 'christmas'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
     },
     description: 'Christmas design of Sevro Clause.',
-    link: 'https://www.lit-escalates.com/products/sevro-clause-mug-version-ii'
+    link: 'https://www.lit-escalates.com/products/sevro-clause-mug-version-ii',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -645,6 +647,54 @@ const data: IItem[] = [
     },
     description: 'Show Your Howler Pride!',
     link: 'https://www.etsy.com/listing/1578024518/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/91232-10-600x600.jpg',
+    name: 'Breath of Stone Coffee Mug',
+    tags: ['mug', 'darrow', 'light-bringer'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Welcoming the new era of Darrow.',
+    link: 'https://howlerholo.net/product/breath-of-stone-coffee-mug-15oz/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/91233-600x600.jpg',
+    name: "Sevro's Sun Butter Coffee Mug",
+    tags: ['mug', 'sevro'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: "Hands off Sevro's Sun Butter.",
+    link: 'https://howlerholo.net/product/sevros-sun-butter-coffee-mug-15oz/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/91232-600x600.jpg',
+    name: 'Thunder & Lightning Coffee Mug',
+    tags: ['mug', 'darrow', 'cassius', 'red-rising'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Darrow and Cassius, the true Dynamic Duo!',
+    link: 'https://howlerholo.net/product/thunder-lightning-coffee-mug-15oz/'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/91232-5-600x600.jpg',
+    name: 'Truffle Pig Coffee Mug',
+    tags: ['mug', 'cassius', 'light-bringer'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: "You can't choose your call sign",
+    link: 'https://howlerholo.net/product/truffle-pig-coffee-mug-15oz/'
   },
   {
     date: '2023-11-15',

@@ -371,6 +371,18 @@ const data: IItem[] = [
     link: 'https://www.etsy.com/listing/1544536574/'
   },
   {
+    date: '2023-11-24',
+    image: 'https://howlerholo.net/wp-content/uploads/2023/11/32920-600x600.jpg',
+    name: 'Thunder & Lightning Unisex Hoodie',
+    tags: ['hoodie', 'darrow', 'cassius', 'red-rising'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: 'Darrow and Cassius, the true Dynamic Duo!',
+    link: 'https://howlerholo.net/product/thunder-lightning-unisex-hoodie/'
+  },
+  {
     date: '2023-11-15',
     image: 'https://i.etsystatic.com/47705427/r/il/ad2166/5467565498/il_794xN.5467565498_hmry.jpg',
     name: 'Goblin Vibes Hoodie',

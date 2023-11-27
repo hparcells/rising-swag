@@ -266,6 +266,19 @@ const data: IItem[] = [
     },
     description: "Celebrate the Howler's Den first birthday with a new limited patch!",
     link: 'https://howlerholo.net/product/howlers-den-anniversary-patches/'
+  },
+  {
+    date: '2023-11-24',
+    image:
+      'https://howlerholo.net/wp-content/uploads/2023/11/7E3467CD-1639-4084-AC13-BA5524BBEA0D-600x800.jpg',
+    name: 'Pity Them. Patches',
+    tags: ['patch', 'light-bringer'],
+    shop: {
+      name: "The Howler's Den",
+      url: 'https://howlerholo.net/'
+    },
+    description: '"Do not fear for me. Instead, pity them." -Victra au Barca',
+    link: 'https://howlerholo.net/product/pity-them-patches/'
   }
 ];
 

@@ -54,6 +54,6 @@ export const COLORS = [
  */
 export type IColor = (typeof COLORS)[number];
 
-export const EVENTS = ['howlercon'] as const;
+export const EVENTS = ['howlercon', 'christmas'] as const;
 
 export type IEvent = (typeof EVENTS)[number];

@@ -304,7 +304,7 @@ const data: IItem[] = [
     date: '2023-03-22',
     image: 'https://i.etsystatic.com/19636488/r/il/09630b/4331337244/il_794xN.4331337244_o4yp.jpg',
     name: 'Howler Ornament',
-    tags: ['other'],
+    tags: ['other', 'christmas'],
     shop: {
       name: 'OilyYou',
       url: 'https://www.etsy.com/shop/OilyYou'
@@ -344,7 +344,7 @@ const data: IItem[] = [
     date: '2023-03-24',
     image: 'https://i.etsystatic.com/22469851/r/il/b24631/3514238135/il_794xN.3514238135_mjqk.jpg',
     name: 'Happy Howler-Days Pine Wood Christmas Ornament',
-    tags: ['other'],
+    tags: ['other', 'christmas'],
     shop: {
       name: 'LiteraryLeoCo',
       url: 'https://www.etsy.com/shop/LiteraryLeoCo'
@@ -544,7 +544,7 @@ const data: IItem[] = [
     image:
       'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/needlessquare_1024x1024@2x.jpg',
     name: 'Stained Glass Howler Ornament',
-    tags: ['other'],
+    tags: ['other', 'christmas', 'christmas'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
@@ -558,7 +558,7 @@ const data: IItem[] = [
     date: '2023-05-04',
     image: 'https://cdn.shopify.com/s/files/1/0374/1499/4053/products/Ornament4_1024x1024@2x.jpg',
     name: 'Sons of Ares Holiday Ornament',
-    tags: ['other'],
+    tags: ['other', 'christmas', 'christmas'],
     shop: {
       name: 'Lit Escalates',
       url: 'https://www.lit-escalates.com/'
@@ -925,7 +925,7 @@ const data: IItem[] = [
     date: '2023-10-23',
     image: 'https://i.etsystatic.com/24845246/r/il/e15a2c/5316626526/il_794xN.5316626526_geeu.jpg',
     name: 'Red Rising Christmas Howler Ornament',
-    tags: ['other'],
+    tags: ['other', 'christmas'],
     shop: {
       name: 'AresIndustries3D',
       url: 'https://www.etsy.com/shop/AresIndustries3D'
@@ -992,7 +992,62 @@ const data: IItem[] = [
     },
     description:
       'Obsidian themed obverse & Minimalist solar system with society triangle in the center of the reverse.',
-    link: 'https://www.etsy.com/listing/1592394982/'
+    link: 'https://www.etsy.com/listing/1592394982/',
+    expired: true
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/Cbust_1024x1024@2x.jpg',
+    name: 'The Bust of Silenius au Lune (Crystalized)',
+    tags: ['other', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'The Crystalized Edition of our Silenius au Lune bust is cast from resin with a Weathered Marble patina and Limited to an Edition of 125.',
+    link: 'https://www.lit-escalates.com/collections/cybermonday/products/crystal-edition-the-bust-of-silenius-au-lune'
+  },
+  {
+    date: '2023-11-24',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/Front_700124f7-d516-43f8-bdff-f162262f8b2a_1024x1024@2x.jpg',
+    name: 'The Bust of Silenius au Lune',
+    tags: ['other', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Our Silenius au Lune bust is cast from resin, finished with a Weathered Marble patina and Limited to an Edition of 225.',
+    link: 'https://www.lit-escalates.com/collections/cybermonday/products/the-bust-of-silenius-au-lune'
+  },
+  {
+    date: '2023-11-24',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/card1_1024x1024@2x.png',
+    name: 'Howler Holiday Card',
+    tags: ['other', 'official', 'christmas'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Illustrated by our very own Christine Aria, this adorable holiday card features a gorgeous watercolor painting of Sophocles bedecked in a Santa hat nested in a wreath of jellybeans.',
+    link: 'https://www.lit-escalates.com/collections/cybermonday/products/howler-holiday-card'
+  },
+  {
+    date: '2023-11-24',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/christmas-stocking-white-front-655d5173221bb_1024x1024@2x.jpg',
+    name: 'Red Rising Christmas Stocking',
+    tags: ['other', 'official', 'christmas'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      "Ready to be filled with your favorite Red Rising Fan's choicest whiskeys, weapons and whimsies.",
+    link: 'https://www.lit-escalates.com/collections/cybermonday/products/red-rising-christmas-stocking'
   }
 ];
 
