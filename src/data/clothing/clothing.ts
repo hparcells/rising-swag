@@ -2003,6 +2003,19 @@ const data: IItem[] = [
     },
     description: "Lo' future razor masters. Show off your training with this shirt.",
     link: 'https://www.etsy.com/listing/1605160773/'
+  },
+  {
+    date: '2023-11-27',
+    image: 'https://i.etsystatic.com/47705427/r/il/63714c/5560665691/il_794xN.5560665691_9f1m.jpg',
+    name: 'Prime Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description:
+      'This Shirt will have you feeling more than prime. Simple and classic. Perfect go to shirt.',
+    link: 'https://www.etsy.com/listing/1612887353/'
   }
 ];
 

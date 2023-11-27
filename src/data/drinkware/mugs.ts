@@ -671,6 +671,32 @@ const data: IItem[] = [
     description:
       "Lo' future razor masters! After all that extensive training, a hot cup of coffee might be just what the medBot ordered.",
     link: 'https://www.etsy.com/listing/1593905734/'
+  },
+  {
+    date: '2023-11-27',
+    image: 'https://i.etsystatic.com/47705427/r/il/1e5d5a/5546149722/il_794xN.5546149722_jn4p.jpg',
+    name: '15 oz Prime Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description:
+      'You prime? You will be after drinking a nice cup of coffee or tea in this perfectly sized mug.',
+    link: 'https://www.etsy.com/listing/1621025233/'
+  },
+  {
+    date: '2023-11-27',
+    image: 'https://i.etsystatic.com/47705427/r/il/ceb874/5594320907/il_794xN.5594320907_hr2p.jpg',
+    name: '15 oz Telemanus Jelly Bean Co Mug',
+    tags: ['mug', 'sophocles'],
+    shop: {
+      name: 'WitchyTeesCo',
+      url: 'https://www.etsy.com/shop/WitchyTeesCo'
+    },
+    description:
+      'You can fill this mug with coffee, or jelly beans, but if you choose the latter, best be on the lookout for a certain sneaky, small to medium sized omnivorous mammal.',
+    link: 'https://www.etsy.com/listing/1606868134/'
   }
 ];
 
