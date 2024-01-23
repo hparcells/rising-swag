@@ -1006,7 +1006,8 @@ const data: IItem[] = [
     },
     description:
       'The Crystalized Edition of our Silenius au Lune bust is cast from resin with a Weathered Marble patina and Limited to an Edition of 125.',
-    link: 'https://www.lit-escalates.com/collections/cybermonday/products/crystal-edition-the-bust-of-silenius-au-lune'
+    link: 'https://www.lit-escalates.com/collections/cybermonday/products/crystal-edition-the-bust-of-silenius-au-lune',
+    expired: true
   },
   {
     date: '2023-11-24',
