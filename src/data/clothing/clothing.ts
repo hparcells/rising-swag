@@ -2123,6 +2123,71 @@ const data: IItem[] = [
     },
     description: "Lo' future razor masters. Show off your training with this shirt.",
     link: 'https://www.etsy.com/listing/1605160773/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/46993335/r/il/4aa012/5674121537/il_794xN.5674121537_sud0.jpg',
+    name: 'House Lune T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'HappyFluffyApparel',
+      url: 'https://www.etsy.com/shop/HappyFluffyApparel'
+    },
+    description:
+      'This stellar design pays homage to the enigmatic and powerful House Lune, capturing the essence of lunar grace and strength.',
+    link: 'https://www.etsy.com/listing/1644580315/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/46993335/r/il/4dfa29/5610920618/il_794xN.5610920618_t26t.jpg',
+    name: 'House Bellona T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'HappyFluffyApparel',
+      url: 'https://www.etsy.com/shop/HappyFluffyApparel'
+    },
+    description:
+      'This T-shirt is a must-have for any Howler or fan of the Red Rising universe. Wear it proudly to show your allegiance to House Bellona and become a part of the rising rebellion!',
+    link: 'https://www.etsy.com/listing/1640718981/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/46993335/r/il/24cae4/5697754443/il_794xN.5697754443_9rhl.jpg',
+    name: 'House Telemanus T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'HappyFluffyApparel',
+      url: 'https://www.etsy.com/shop/HappyFluffyApparel'
+    },
+    description:
+      'Inspired by the indomitable strength of the Howlers. This striking tee is a tribute to the tenacious spirit and resilience embodied by House Telemanus',
+    link: 'https://www.etsy.com/listing/1637934072/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/46993335/r/il/d203b2/5622007912/il_794xN.5622007912_tlb6.jpg',
+    name: 'House Barca T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'HappyFluffyApparel',
+      url: 'https://www.etsy.com/shop/HappyFluffyApparel'
+    },
+    description:
+      'Designed for the bold and fierce, this shirt pays homage to the strength and tenacity of one of the most formidable houses in the Society.',
+    link: 'https://www.etsy.com/listing/1630397984/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/46993335/r/il/bb340d/5674125965/il_794xN.5674125965_npkr.jpg',
+    name: 'House Augustus T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'HappyFluffyApparel',
+      url: 'https://www.etsy.com/shop/HappyFluffyApparel'
+    },
+    description:
+      'Designed to embody the strength and ambition of the Golds, this shirt is a symbol of power and dominance.',
+    link: 'https://www.etsy.com/listing/1645841741/'
   }
 ];
 
