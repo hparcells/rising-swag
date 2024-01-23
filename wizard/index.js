@@ -72,6 +72,7 @@ const QUESTIONS = [
         let shopUrl = `https://www.etsy.com/shop/${shopName}`
 
         return {
+          name,
           image,
           shop: {
             name: shopName,
@@ -80,6 +81,7 @@ const QUESTIONS = [
         };
       });
 
+    
       const aiResponse = await openai.chat.completions.create({
         messages: [
           {

@@ -1307,6 +1307,19 @@ const data: IItem[] = [
     description:
       "Lo' future Razor Masters. Rather than the scars from a duel with Apollonius, get yourself a sticker to show you trained with the greatest Razor Master this side of the Rim!",
     link: 'https://www.etsy.com/listing/1587584386/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/d6b0b6/5703954215/il_794xN.5703954215_rwom.jpg',
+    name: 'Wakey Wakey Goblin Sticker',
+    tags: ['sticker', 'sevro'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'And with this sticker, leave your silent proclamation, a lingering echo of rebellion, etched in the conquered spaces of your aftermath, a testament to your indomitable spirit across the cosmic canvas.',
+    link: 'https://www.etsy.com/listing/1639422382/'
   }
 ];
 

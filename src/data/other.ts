@@ -1049,6 +1049,58 @@ const data: IItem[] = [
     description:
       "Ready to be filled with your favorite Red Rising Fan's choicest whiskeys, weapons and whimsies.",
     link: 'https://www.lit-escalates.com/collections/cybermonday/products/red-rising-christmas-stocking'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/4667f1/5703918859/il_794xN.5703918859_337u.jpg',
+    name: 'Wakey Wakey Goblin Coaster',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
+    link: 'https://www.etsy.com/listing/1639412844/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/bad297/5655853172/il_794xN.5655853172_awx7.jpg',
+    name: 'Break the Chains Coaster',
+    tags: ['other'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
+    link: 'https://www.etsy.com/listing/1653577959/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/900104/5655848010/il_794xN.5655848010_fpur.jpg',
+    name: 'Summon the Howlers Coaster',
+    tags: ['other'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
+    link: 'https://www.etsy.com/listing/1653576763/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/a024c0/5655839144/il_794xN.5655839144_mw2d.jpg',
+    name: 'Helium-3 Coaster',
+    tags: ['other'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
+    link: 'https://www.etsy.com/listing/1639407892/'
   }
 ];
 

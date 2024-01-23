@@ -698,6 +698,45 @@ const data: IItem[] = [
     description:
       'You can fill this mug with coffee, or jelly beans, but if you choose the latter, best be on the lookout for a certain sneaky, small to medium sized omnivorous mammal.',
     link: 'https://www.etsy.com/listing/1606868134/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/6bcab6/5624603220/il_794xN.5624603220_t76f.jpg',
+    name: 'Helium-3 Coffee Mug (Black Interior)',
+    tags: ['mug'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      "My trusted friends and fellow Howlers, it's time to summon our pack. We have our mission, one that demands the grit and fire that runs through our veins.",
+    link: 'https://www.etsy.com/listing/1631253054/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/79e94f/5624599714/il_794xN.5624599714_ql3q.jpg',
+    name: 'Helium-3 Coffee Mug (White Interior)',
+    tags: ['mug'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'This mug, bearing the symbols of our rebellion, is a testament to the power of that first sip, a reminder that even in the darkest of times, we can rise, conquer, and shape our destiny.',
+    link: 'https://www.etsy.com/listing/1631251852/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/8961d6/5660651383/il_794xN.5660651383_r1az.jpg',
+    name: 'Wakey Wakey Goblin Coffee Mug (Text Only)',
+    tags: ['mug', 'sevro'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'This mug was more than a mere vessel for my morning ritual. It was a promise, a symbol of our indomitable spirit, a reminder that in the darkest of times, we could rise again.',
+    link: 'https://www.etsy.com/listing/1627106586/'
   }
 ];
 
