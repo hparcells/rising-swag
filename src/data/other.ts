@@ -1142,6 +1142,20 @@ const data: IItem[] = [
     description:
       'Designed by Randy Butterfield of Midnight Cards with unique illustrations of your favorite Red Rising characters by Briana Crotinger (PB Doodles).',
     link: 'https://www.lit-escalates.com/products/copy-of-house-mars-card-deck-pos'
+  },
+  {
+    date: '2024-01-28',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/LitEscalates_HouseTelemanusPropitiusBeans_1024x1024@2x.jpg',
+    name: 'House Telemanus Propitious Beans',
+    tags: ['other', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Featuring the official House Telemanus Sigil designed just for this item by Joel Daniel Phillips, our House Telemanus Propitious Beans will bring a smile to the face of even the most curmudgeonly of Red Rising Fans.',
+    link: 'https://www.lit-escalates.com/products/house-telemanus-propitious-beans'
   }
 ];
 
