@@ -1101,6 +1101,47 @@ const data: IItem[] = [
     description:
       'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
     link: 'https://www.etsy.com/listing/1639407892/'
+  },
+  {
+    date: '2024-01-27',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/DarrowofLykos_ActionFigure_Front_1024x1024@2x.jpg',
+    name: 'Darrow of Lykos Action Figure',
+    tags: ['other', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Our Darrow of Lykos action figure is 5.5 inches tall and features hand painted details over injection molded vinyl.',
+    link: 'https://www.lit-escalates.com/products/darrow-of-lykos-action-figure'
+  },
+  {
+    date: '2024-01-27',
+    image: 'https://www.lit-escalates.com/cdn/shop/products/RisingBACKB_1024x1024@2x.jpg',
+    name: 'Red Rising Card Deck',
+    tags: ['other', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Designed by Randy Butterfield of Midnight Cards with unique illustrations of your favorite Red Rising characters by Briana Crotinger (PB Doodles).',
+    link: 'https://www.lit-escalates.com/products/red-rising-card-deck-wholesale'
+  },
+  {
+    date: '2024-01-27',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/d2d2be5fc937c544c830c6a1a69f9b9e_original_4d1b6698-92ff-443b-85db-1ffdc6601cfa_1024x1024@2x.jpg',
+    name: 'House Mars LUXE Card Deck',
+    tags: ['other', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Designed by Randy Butterfield of Midnight Cards with unique illustrations of your favorite Red Rising characters by Briana Crotinger (PB Doodles).',
+    link: 'https://www.lit-escalates.com/products/copy-of-house-mars-card-deck-pos'
   }
 ];
 
