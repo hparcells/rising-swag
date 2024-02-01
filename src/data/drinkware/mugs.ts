@@ -737,6 +737,18 @@ const data: IItem[] = [
     description:
       'This mug was more than a mere vessel for my morning ritual. It was a promise, a symbol of our indomitable spirit, a reminder that in the darkest of times, we could rise again.',
     link: 'https://www.etsy.com/listing/1627106586/'
+  },
+  {
+    date: '2024-02-01',
+    image: 'https://i.etsystatic.com/16046340/r/il/426613/5531707830/il_794xN.5531707830_sj8l.jpg',
+    name: 'Gorydamn Good Coffee Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Red hefty 23oz mug hand painted gold accent with vinyl design.',
+    link: 'https://www.etsy.com/listing/1603279640/'
   }
 ];
 
