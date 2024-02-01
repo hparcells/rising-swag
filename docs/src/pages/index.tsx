@@ -4,8 +4,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -36,7 +34,6 @@ export default function Home(): JSX.Element {
       description='Documentation for Rising Swag, with other community resources around the Red Rising fandom.'
     >
       <HomepageHeader />
-      <HomepageFeatures />
     </Layout>
   );
 }
