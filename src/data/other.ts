@@ -759,7 +759,8 @@ const data: IItem[] = [
       url: 'https://stoneangelbrewing.com/'
     },
     description: 'This warrior of a black IPA has hop aroma that battles between piney and citrus.',
-    link: 'https://stoneangelbrewing.com/product/full-geek-stained/'
+    link: 'https://stoneangelbrewing.com/product/full-geek-stained/',
+    expired: true
   },
   {
     date: '2023-10-05',

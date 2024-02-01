@@ -49,7 +49,8 @@ const data: IItem[] = [
       url: 'https://untiltheveryendco.com/'
     },
     description: 'Candle scented with leather, pine, amber musk, and honey.',
-    link: 'https://untiltheveryendco.com/products/darrow'
+    link: 'https://untiltheveryendco.com/products/darrow',
+    expired: true
   },
   {
     date: '2023-03-31',
@@ -61,7 +62,8 @@ const data: IItem[] = [
       url: 'https://untiltheveryendco.com/'
     },
     description: 'Candle scented with whiskey, cedar, orange, and chili powder (strong).',
-    link: 'https://untiltheveryendco.com/products/mustang'
+    link: 'https://untiltheveryendco.com/products/mustang',
+    expired: true
   },
   {
     date: '2023-03-31',
@@ -73,7 +75,8 @@ const data: IItem[] = [
       url: 'https://untiltheveryendco.com/'
     },
     description: 'Candle scented with blood orange, vanilla, and harvest spice.',
-    link: 'https://untiltheveryendco.com/products/victra'
+    link: 'https://untiltheveryendco.com/products/victra',
+    expired: true
   },
   {
     date: '2023-03-31',
@@ -85,7 +88,8 @@ const data: IItem[] = [
       url: 'https://untiltheveryendco.com/'
     },
     description: 'Candle scented with whiskey, cedar, orange, and chili powder.',
-    link: 'https://untiltheveryendco.com/products/sevro'
+    link: 'https://untiltheveryendco.com/products/sevro',
+    expired: true
   },
   {
     date: '2023-07-18',

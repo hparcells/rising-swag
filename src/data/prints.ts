@@ -693,7 +693,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the Gold sigil.',
-    link: 'https://displate.com/displate/6861678'
+    link: 'https://displate.com/displate/6861678',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -706,7 +707,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the Red sigil.',
-    link: 'https://displate.com/displate/6861673'
+    link: 'https://displate.com/displate/6861673',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -719,7 +721,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the Violet sigil.',
-    link: 'https://displate.com/displate/6861677'
+    link: 'https://displate.com/displate/6861677',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -732,7 +735,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the Copper sigil.',
-    link: 'https://displate.com/displate/6861676'
+    link: 'https://displate.com/displate/6861676',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -745,7 +749,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the Yellow sigil.',
-    link: 'https://displate.com/displate/6861675'
+    link: 'https://displate.com/displate/6861675',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -758,7 +763,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the Silver sigil.',
-    link: 'https://displate.com/displate/6861672'
+    link: 'https://displate.com/displate/6861672',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -771,7 +777,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the White sigil.',
-    link: 'https://displate.com/displate/6861671'
+    link: 'https://displate.com/displate/6861671',
+    expired: true
   },
   {
     date: '2023-11-06',
