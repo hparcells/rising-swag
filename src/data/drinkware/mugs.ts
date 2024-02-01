@@ -135,7 +135,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Mug with "Straight Outta Lykos" on it.',
-    link: 'https://www.etsy.com/listing/706752423/straight-outta-lykos-mug'
+    link: 'https://www.etsy.com/listing/706752423/straight-outta-lykos-mug',
+    expired: true
   },
   {
     date: '2023-03-14',
@@ -300,7 +301,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ADHDAbby'
     },
     description: 'Mug with a wolf and skull design.',
-    link: 'https://www.etsy.com/listing/1392625332/howler-omnis-vir-lupus-white-glossy-mug'
+    link: 'https://www.etsy.com/listing/1392625332/howler-omnis-vir-lupus-white-glossy-mug',
+    expired: true
   },
   {
     date: '2023-04-06',

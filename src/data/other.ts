@@ -181,7 +181,8 @@ const data: IItem[] = [
     },
     description:
       'The sun is out, the drinks are cold, and these coasters are perfect for saving your surface. These high quality rubber backed coasters are excellent conversation starters.',
-    link: 'https://www.etsy.com/listing/1222897013/red-rising-coasters-hail-reaper-scifi'
+    link: 'https://www.etsy.com/listing/1222897013/red-rising-coasters-hail-reaper-scifi',
+    expired: true
   },
   {
     date: '2023-03-20',
@@ -297,8 +298,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/3DPrintsbyTheodore'
     },
     description: 'A 3D printed Howler logo printed in Marble and Red pla.',
-    link: 'https://www.etsy.com/listing/1276452077/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1276452077/'
   },
   {
     date: '2023-03-22',
@@ -350,7 +350,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiteraryLeoCo'
     },
     description: 'The wolf of Mars pressed into a pine wood cookie.',
-    link: 'https://www.etsy.com/listing/1120619399/happy-howler-days-35-4-pine-wood'
+    link: 'https://www.etsy.com/listing/1120619399/happy-howler-days-35-4-pine-wood',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -967,7 +968,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/TheCosyFlame'
     },
     description: 'Wax melts inspired by the Red Rising series.',
-    link: 'https://www.etsy.com/listing/1554878749/'
+    link: 'https://www.etsy.com/listing/1554878749/',
+    expired: true
   },
   {
     date: '2023-11-08',

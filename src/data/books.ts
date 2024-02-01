@@ -143,7 +143,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/TheBinderyStore'
     },
     description: 'Hand bound copies of Red Rising, Golden Son, or Morning Star.',
-    link: 'https://www.etsy.com/listing/1586901532/'
+    link: 'https://www.etsy.com/listing/1586901532/',
+    expired: true
   }
 ];
 

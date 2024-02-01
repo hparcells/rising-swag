@@ -560,8 +560,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'A long sleeve tee with a simple Omnis vir Lupus design.',
-    link: 'https://www.etsy.com/listing/1369372394/omnis-vir-lupus-everyone-a-wolf-red',
-    expired: true
+    link: 'https://www.etsy.com/listing/1369372394/omnis-vir-lupus-everyone-a-wolf-red'
   },
   {
     date: '2023-03-17',
@@ -574,8 +573,7 @@ const data: IItem[] = [
     },
     description:
       "What kind of vibes? Make sure you show how you're feeling with this long sleeve tee.",
-    link: 'https://www.etsy.com/listing/1383346671/howler-vibes-red-rising-unisex-jersey',
-    expired: true
+    link: 'https://www.etsy.com/listing/1383346671/howler-vibes-red-rising-unisex-jersey'
   },
   {
     date: '2023-03-17',
@@ -587,8 +585,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'Summon the Howlers!',
-    link: 'https://www.etsy.com/listing/1403588963/summon-the-howlers-red-rising-darrow',
-    expired: true
+    link: 'https://www.etsy.com/listing/1403588963/summon-the-howlers-red-rising-darrow'
   },
   {
     date: '2023-03-17',
@@ -725,7 +722,8 @@ const data: IItem[] = [
     },
     description:
       'A unique Red Rising shirt with the design on the covers of the FairyLoot editions of the books.',
-    link: 'https://www.etsy.com/listing/1398507990/reaper-howlers-sweatshirt-sevro-au-barca'
+    link: 'https://www.etsy.com/listing/1398507990/reaper-howlers-sweatshirt-sevro-au-barca',
+    expired: true
   },
   {
     date: '2023-04-01',
@@ -1375,7 +1373,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/Waltones'
     },
     description: 'Show your patronage to the Sons of Ares!',
-    link: 'https://www.etsy.com/listing/1495605621/'
+    link: 'https://www.etsy.com/listing/1495605621/',
+    expired: true
   },
   {
     date: '2023-07-23',
@@ -1413,7 +1412,8 @@ const data: IItem[] = [
     },
     description:
       'Battle melted skulls and chaotic storm gods inspired this heavy metal back graphic.',
-    link: 'https://www.etsy.com/listing/1486505652/'
+    link: 'https://www.etsy.com/listing/1486505652/',
+    expired: true
   },
   {
     date: '2023-07-23',
@@ -1605,7 +1605,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/jesslostinbooks'
     },
     description: 'Emblem of the Rat Legion with "Hail Libertas Hail Reaper"',
-    link: 'https://www.etsy.com/listing/1513843044/'
+    link: 'https://www.etsy.com/listing/1513843044/',
+    expired: true
   },
   {
     date: '2023-08-31',
@@ -1629,7 +1630,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/jesslostinbooks'
     },
     description: 'Shirt with the emblem of the Pegasus Legion.',
-    link: 'https://www.etsy.com/listing/1527930713/'
+    link: 'https://www.etsy.com/listing/1527930713/',
+    expired: true
   },
   {
     date: '2023-08-31',
@@ -2032,7 +2034,8 @@ const data: IItem[] = [
     },
     description:
       'For all the Howlers out there, this t-shirt features a large red haemanthus flower and the quote "Hear the Reaper swing." from The Song of Persephone.',
-    link: 'https://www.etsy.com/listing/1531965786/'
+    link: 'https://www.etsy.com/listing/1531965786/',
+    expired: true
   },
   {
     date: '2023-11-15',
@@ -2045,7 +2048,8 @@ const data: IItem[] = [
     },
     description:
       'For all the Howlers out there, this t-shirt features a large red haemanthus flower and the quote "Hear the Reaper swing." from The Song of Persephone.',
-    link: 'https://www.etsy.com/listing/1546612789/'
+    link: 'https://www.etsy.com/listing/1546612789/',
+    expired: true
   },
   {
     date: '2023-11-15',

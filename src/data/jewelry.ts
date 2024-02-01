@@ -383,7 +383,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/EveningWolfDesigns'
     },
     description: 'A morse code bracelet with red and gold beads spelling out "REAPER".',
-    link: 'https://www.etsy.com/listing/1183170509/red-rising-reaper-morse-code-bracelet'
+    link: 'https://www.etsy.com/listing/1183170509/red-rising-reaper-morse-code-bracelet',
+    expired: true
   },
   {
     date: '2023-03-31',

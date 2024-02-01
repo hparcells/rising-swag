@@ -191,7 +191,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ADHDAbby'
     },
     description: 'Crop hoodie with a wolf and skull design.',
-    link: 'https://www.etsy.com/listing/1389875872/howler-omnis-vir-lupus-crop-hoodie'
+    link: 'https://www.etsy.com/listing/1389875872/howler-omnis-vir-lupus-crop-hoodie',
+    expired: true
   },
   {
     date: '2023-04-04',
@@ -203,7 +204,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ADHDAbby'
     },
     description: 'Embroidered crop hoodie with a wolf and skull design.',
-    link: 'https://www.etsy.com/listing/1403372101/embroidered-howler-omnis-vir-lupus-crop'
+    link: 'https://www.etsy.com/listing/1403372101/embroidered-howler-omnis-vir-lupus-crop',
+    expired: true
   },
   {
     date: '2023-04-04',
@@ -215,7 +217,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ADHDAbby'
     },
     description: 'Hoodie with a wolf and skull design.',
-    link: 'https://www.etsy.com/listing/1403379807/howler-omnis-vir-lupus-unisex-hoodie'
+    link: 'https://www.etsy.com/listing/1403379807/howler-omnis-vir-lupus-unisex-hoodie',
+    expired: true
   },
   {
     date: '2023-04-29',

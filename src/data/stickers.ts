@@ -131,8 +131,7 @@ const data: IItem[] = [
     },
     description:
       'Howlers and low colors alike look to The Reaper of Mars and use "Hail Reaper" as a greeting as well as a battle cry. Show your support for the uprising by displaying this sticker!',
-    link: 'https://www.etsy.com/listing/935870580/sticker-hail-reaper-howler-stickers',
-    expired: true
+    link: 'https://www.etsy.com/listing/935870580/sticker-hail-reaper-howler-stickers'
   },
   {
     date: '2023-03-17',
@@ -144,7 +143,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'Metallic sticker of Ragnar.',
-    link: 'https://www.etsy.com/listing/1123845398/sticker-ragnar-red-rising-sticker-red'
+    link: 'https://www.etsy.com/listing/1123845398/sticker-ragnar-red-rising-sticker-red',
+    expired: true
   },
   {
     date: '2023-03-17',
@@ -389,7 +389,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'A unique wolf sticker.',
-    link: 'https://www.etsy.com/listing/1013562619/sticker-red-rising-sticker-howler'
+    link: 'https://www.etsy.com/listing/1013562619/sticker-red-rising-sticker-howler',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -478,7 +479,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ADHDAbby'
     },
     description: 'Sticker with a wolf and skull design.',
-    link: 'https://www.etsy.com/listing/1403377047/howler-omnis-vir-lupus-bubble-free'
+    link: 'https://www.etsy.com/listing/1403377047/howler-omnis-vir-lupus-bubble-free',
+    expired: true
   },
   {
     date: '2023-04-04',
@@ -490,7 +492,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ADHDAbby'
     },
     description: 'Sticker with a lion and pillar design.',
-    link: 'https://www.etsy.com/listing/1414058335/lion-hic-sunt-leones-bubble-free-sticker'
+    link: 'https://www.etsy.com/listing/1414058335/lion-hic-sunt-leones-bubble-free-sticker',
+    expired: true
   },
   {
     date: '2023-02-05',
@@ -1148,7 +1151,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/SkyBlueStudiosCo'
     },
     description: 'I am the Reaper and death is my shadow.',
-    link: 'https://www.etsy.com/listing/1535347953/'
+    link: 'https://www.etsy.com/listing/1535347953/',
+    expired: true
   },
   {
     date: '2023-11-08',

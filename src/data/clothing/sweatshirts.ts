@@ -240,7 +240,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: "The Howlers' War on Heaven Tour sweatshirt.",
-    link: 'https://www.etsy.com/listing/1552756665/'
+    link: 'https://www.etsy.com/listing/1552756665/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -338,7 +339,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/NicoleLewisGift'
     },
     description: 'The sigil of Mars, Gold, and Red.',
-    link: 'https://www.etsy.com/listing/1531857709/'
+    link: 'https://www.etsy.com/listing/1531857709/',
+    expired: true
   },
   {
     date: '2023-11-08',

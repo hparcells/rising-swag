@@ -519,8 +519,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Mini print of Lorn au Arcos.',
-    link: 'https://www.etsy.com/listing/1528872400/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1528872400/'
   },
   {
     date: '2023-08-31',

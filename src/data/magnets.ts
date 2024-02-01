@@ -63,7 +63,8 @@ const data: IItem[] = [
     },
     description:
       'These SUPER strong magnets are perfect for your fridge or bulletin board. Each set includes each of the six unique designs.',
-    link: 'https://www.etsy.com/listing/1008969582/red-rising-glass-dome-magnets-howler'
+    link: 'https://www.etsy.com/listing/1008969582/red-rising-glass-dome-magnets-howler',
+    expired: true
   },
   {
     date: '2023-03-21',
