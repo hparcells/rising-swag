@@ -105,6 +105,20 @@ const data: IItem[] = [
     },
     description: 'Virginia and Darrow Election-Style Car Magnet',
     link: 'https://www.zazzle.com/virginia_darrow_2020_red_rising_car_magnet-256321043889515296'
+  },
+  {
+    date: '2024-02-03',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/PierceMagnet_1024x1024@2x.jpg',
+    name: "You're the Sevro to my Darrow Magnet",
+    tags: ['magnet', 'official', 'sevro', 'darrow'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'We also had to make it a magnet.... This one is for your fav flave... your ride or die. Created in response to a poll asking your favorite Sevro/Darrow bromance moment.',
+    link: 'https://www.lit-escalates.com/products/youre-the-sevro-to-my-darrow-magnet',
+    expired: true
   }
 ];
 

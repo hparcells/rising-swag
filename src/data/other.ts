@@ -1158,7 +1158,21 @@ const data: IItem[] = [
     },
     description:
       'Featuring the official House Telemanus Sigil designed just for this item by Joel Daniel Phillips, our House Telemanus Propitious Beans will bring a smile to the face of even the most curmudgeonly of Red Rising Fans.',
-    link: 'https://www.lit-escalates.com/products/house-telemanus-propitious-beans'
+    link: 'https://www.lit-escalates.com/products/house-telemanus-propitious-beans',
+    expired: true
+  },
+  {
+    date: '2024-02-03',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/PierceCard_1024x1024@2x.jpg',
+    name: "You're the Sevro to my Darrow Card",
+    tags: ['other', 'official', 'sevro', 'darrow'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'This one is for your fav flave... your ride or die. Created in response to a poll asking your favorite Sevro/Darrow bromance moment.',
+    link: 'https://www.lit-escalates.com/products/top-secret-3'
   }
 ];
 
