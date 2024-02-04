@@ -1324,6 +1324,78 @@ const data: IItem[] = [
     description:
       'And with this sticker, leave your silent proclamation, a lingering echo of rebellion, etched in the conquered spaces of your aftermath, a testament to your indomitable spirit across the cosmic canvas.',
     link: 'https://www.etsy.com/listing/1639422382/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/ba7919/5667479358/il_794xN.5667479358_kykp.jpg',
+    name: 'Diomedes Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Sticker of Diomedes.',
+    link: 'https://www.etsy.com/listing/1642149764/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/aabe5c/5667447284/il_794xN.5667447284_g66s.jpg',
+    name: 'Victra Sticker',
+    tags: ['sticker', 'victra'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Sticker of Victra.',
+    link: 'https://www.etsy.com/listing/1642150770/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/17ebe1/5715479693/il_794xN.5715479693_is3k.jpg',
+    name: 'Virginia Sticker',
+    tags: ['sticker', 'mustang'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Stick of Virginia/Mustang.',
+    link: 'https://www.etsy.com/listing/1642157030/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/b92455/5715491287/il_794xN.5715491287_pqiv.jpg',
+    name: 'Lysander Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Sticker of Lysander.',
+    link: 'https://www.etsy.com/listing/1642152816/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/873b46/5667434460/il_794xN.5667434460_quh1.jpg',
+    name: 'Ragnar Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Sticker of Ragnar.',
+    link: 'https://www.etsy.com/listing/1642156002/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/7bc2e7/5715486455/il_794xN.5715486455_97c0.jpg',
+    name: 'Lorn Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Sticker of Lorn',
+    link: 'https://www.etsy.com/listing/1642155006/'
   }
 ];
 

@@ -816,6 +816,66 @@ const data: IItem[] = [
     },
     description: '5x7 print of Darrow, Sevro, and Mustang.',
     link: 'https://www.etsy.com/listing/795881210/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/7cb709/5293784700/il_794xN.5293784700_4k3y.jpg',
+    name: 'Fear Knight Mini Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Hand-embellished with 18 k gold paint and signed, 5x7 inches MINI prints.',
+    link: 'https://www.etsy.com/listing/1553013926/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/9e4278/5751846943/il_794xN.5751846943_q62d.jpg',
+    name: 'Limited Edition Kavax Mini Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Limited Edition Gold Leaf 5x7 inch mini print.',
+    link: 'https://www.etsy.com/listing/1664766395/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/174ac6/5703790996/il_794xN.5703790996_28j3.jpg',
+    name: 'Limited Edition Karnus Mini Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Limited Edition Gold Leaf 5x7 inch mini print.',
+    link: 'https://www.etsy.com/listing/1664752741/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/a3a6ac/5703788920/il_794xN.5703788920_k807.jpg',
+    name: 'Limited Edition Volsung Fa Mini Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Limited Edition Silver Leaf 5x7 inch mini print.',
+    link: 'https://www.etsy.com/listing/1664769083/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/1aceba/5703821752/il_794xN.5703821752_4jnq.jpg',
+    name: 'Lysander Mini Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Hand-embellished with 18 k gold paint. 5x7 inches MINI prints.',
+    link: 'https://www.etsy.com/listing/1665104557/'
   }
 ];
 
