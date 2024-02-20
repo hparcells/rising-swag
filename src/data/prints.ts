@@ -875,7 +875,7 @@ const data: IItem[] = [
   },
   {
     date: '2024-02-04',
-    image: 'https://i.etsystatic.com/25978430/r/il/1aceba/5703821752/il_794xN.5703821752_4jnq.jpg',
+    image: 'https://i.etsystatic.com/25978430/r/il/e8cea3/5815875953/il_794xN.5815875953_iao3.jpg',
     name: 'Lysander Mini Print',
     tags: ['print'],
     shop: {
@@ -883,8 +883,31 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Hand-embellished with 18 k gold paint. 5x7 inches MINI prints.',
-    link: 'https://www.etsy.com/listing/1665104557/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1665629802/'
+  },
+  {
+    date: '2024-02-20',
+    image: 'https://i.etsystatic.com/25978430/r/il/e3e6ac/5767816474/il_794xN.5767816474_mqf0.jpg',
+    name: 'Gold Leaf 5x7 Dido au Raa Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Limited Edition Gold Leaf 5x7 inch mini print.',
+    link: 'https://www.etsy.com/listing/1665628966/'
+  },
+  {
+    date: '2024-02-20',
+    image: 'https://i.etsystatic.com/25978430/r/il/ebeac7/5751844527/il_794xN.5751844527_yjwf.jpg',
+    name: 'Silver Leaf 5x7 Ragnar 2.0 Mini Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Limited Edition Silver Leaf 5x7 inch mini print.',
+    link: 'https://www.etsy.com/listing/1664771119/'
   }
 ];
 
