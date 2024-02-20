@@ -397,6 +397,18 @@ const data: IItem[] = [
     description:
       "Lo' Howlers! This is the perfect hoodie to accommodate all your mayhem seeking needs.",
     link: 'https://www.etsy.com/listing/1588574864/'
+  },
+  {
+    date: '2024-02-20',
+    image: 'https://i.etsystatic.com/21279369/r/il/a66b38/5645364006/il_794xN.5645364006_fuza.jpg',
+    name: 'Bellona Honor Hoodie',
+    tags: ['hoodie', 'cassius'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: 'His honor remains.',
+    link: 'https://www.etsy.com/listing/1636870646/'
   }
 ];
 
