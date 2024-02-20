@@ -215,7 +215,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"I am the Mustang that Nuzzles the Hand."',
-    link: 'https://www.etsy.com/listing/940219531/'
+    link: 'https://www.etsy.com/listing/940219531/',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -227,7 +228,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: 'Features a one eyed wolf with the quote: "I killed their pack leader."',
-    link: 'https://www.etsy.com/listing/926285884/sevro-au-barca-11x17-print-omnis-vir'
+    link: 'https://www.etsy.com/listing/926285884/sevro-au-barca-11x17-print-omnis-vir',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -239,7 +241,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: 'Features a SlingBlade with the quote: "I am the Reaper, and death is my shadow."',
-    link: 'https://www.etsy.com/listing/926281316/darrow-of-lykos-11x17-print-the-reaper'
+    link: 'https://www.etsy.com/listing/926281316/darrow-of-lykos-11x17-print-the-reaper',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -442,7 +445,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"Share The Load, Darling."',
-    link: 'https://www.etsy.com/listing/1493660906/'
+    link: 'https://www.etsy.com/listing/1493660906/',
+    expired: true
   },
   {
     date: '2023-07-05',
@@ -454,7 +458,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"I know what I am."',
-    link: 'https://www.etsy.com/listing/1508530093/'
+    link: 'https://www.etsy.com/listing/1508530093/',
+    expired: true
   },
   {
     date: '2023-07-05',
@@ -466,7 +471,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"Honor is what echoes."',
-    link: 'https://www.etsy.com/listing/1494348038/'
+    link: 'https://www.etsy.com/listing/1494348038/',
+    expired: true
   },
   {
     date: '2023-07-19',

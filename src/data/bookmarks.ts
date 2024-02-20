@@ -242,7 +242,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: 'Bookmark set of Darrow, Cassius, and Sevro.',
-    link: 'https://www.etsy.com/listing/1584410190/'
+    link: 'https://www.etsy.com/listing/1584410190/',
+    expired: true
   }
 ];
 
