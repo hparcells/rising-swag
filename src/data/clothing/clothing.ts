@@ -2126,7 +2126,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WitchyTeesCo'
     },
     description: "Lo' future razor masters. Show off your training with this shirt.",
-    link: 'https://www.etsy.com/listing/1605160773/'
+    link: 'https://www.etsy.com/listing/1605160773/',
+    expired: true
   },
   {
     date: '2024-01-23',

@@ -201,7 +201,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: "LiveForMore's classic Hail Reaper Hail Libertas design on a mug.",
-    link: 'https://www.etsy.com/listing/1396123176/red-rising-hail-libertas-hail-reaper'
+    link: 'https://www.etsy.com/listing/1396123176/red-rising-hail-libertas-hail-reaper',
+    expired: true
   },
   {
     date: '2023-03-17',
@@ -226,7 +227,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/RavenPostCo'
     },
     description: 'Enamel mug with the quote "I am the reaper and death is my shadow." on it.',
-    link: 'https://www.etsy.com/listing/1179073715/red-rising-enamel-mug'
+    link: 'https://www.etsy.com/listing/1179073715/red-rising-enamel-mug',
+    expired: true
   },
   {
     date: '2023-03-31',
@@ -289,7 +291,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ADHDAbby'
     },
     description: 'Mug with a lion and pillar design.',
-    link: 'https://www.etsy.com/listing/1394277566/lion-hic-sunt-leones-white-glossy-mug'
+    link: 'https://www.etsy.com/listing/1394277566/lion-hic-sunt-leones-white-glossy-mug',
+    expired: true
   },
   {
     date: '2023-04-04',
@@ -418,7 +421,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Darrow inspired coffee house mug.',
-    link: 'https://www.etsy.com/listing/1523567141/'
+    link: 'https://www.etsy.com/listing/1523567141/',
+    expired: true
   },
   {
     date: '2023-08-02',

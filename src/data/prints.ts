@@ -857,7 +857,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Limited Edition Gold Leaf 5x7 inch mini print.',
-    link: 'https://www.etsy.com/listing/1664752741/'
+    link: 'https://www.etsy.com/listing/1664752741/',
+    expired: true
   },
   {
     date: '2024-02-04',
@@ -869,7 +870,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Limited Edition Silver Leaf 5x7 inch mini print.',
-    link: 'https://www.etsy.com/listing/1664769083/'
+    link: 'https://www.etsy.com/listing/1664769083/',
+    expired: true
   },
   {
     date: '2024-02-04',
@@ -881,7 +883,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Hand-embellished with 18 k gold paint. 5x7 inches MINI prints.',
-    link: 'https://www.etsy.com/listing/1665104557/'
+    link: 'https://www.etsy.com/listing/1665104557/',
+    expired: true
   }
 ];
 

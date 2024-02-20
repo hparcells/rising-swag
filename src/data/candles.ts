@@ -184,7 +184,8 @@ const data: IItem[] = [
     },
     description:
       'This scented candle inspired by the leader of the Howlers has a spicy scent of Citrus and Clove.',
-    link: 'https://www.etsy.com/listing/1493275574/'
+    link: 'https://www.etsy.com/listing/1493275574/',
+    expired: true
   },
   {
     date: '2023-08-21',

@@ -364,7 +364,8 @@ const data: IItem[] = [
     },
     description:
       'Help cover up the smell of dead fish in your room with these wax melts inspired by Sevro from Red Rising! ;)',
-    link: 'https://www.etsy.com/listing/1328197257/bloody-damn-goblin-wax-melts-unicorn'
+    link: 'https://www.etsy.com/listing/1328197257/bloody-damn-goblin-wax-melts-unicorn',
+    expired: true
   },
   {
     date: '2023-03-26',
@@ -708,7 +709,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/GamerSetupStore'
     },
     description: 'Wall mounted RGB wolf sign.',
-    link: 'https://www.etsy.com/listing/1482335243/'
+    link: 'https://www.etsy.com/listing/1482335243/',
+    expired: true
   },
   {
     date: '2023-08-09',
@@ -933,7 +935,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/AresIndustries3D'
     },
     description: '3D printed Howler ornament from the Red Rising series.',
-    link: 'https://www.etsy.com/listing/1324450374/'
+    link: 'https://www.etsy.com/listing/1324450374/',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -945,7 +948,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/GamerSetupStore'
     },
     description: 'Wall mounted RGB wolf sign.',
-    link: 'https://www.etsy.com/listing/1587131443/'
+    link: 'https://www.etsy.com/listing/1587131443/',
+    expired: true
   },
   {
     date: '2023-11-08',
@@ -957,7 +961,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/GamerSetupStore'
     },
     description: 'Customizable wall mounted RGB sign.',
-    link: 'https://www.etsy.com/listing/1572956738/'
+    link: 'https://www.etsy.com/listing/1572956738/',
+    expired: true
   },
   {
     date: '2023-11-08',

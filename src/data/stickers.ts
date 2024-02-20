@@ -338,7 +338,8 @@ const data: IItem[] = [
     },
     description:
       'Hail Reaper! This sticker the perfect way to signal your allegiance to the rising.',
-    link: 'https://www.etsy.com/listing/1196124016/sticker-holographic-hail-reaper-red'
+    link: 'https://www.etsy.com/listing/1196124016/sticker-holographic-hail-reaper-red',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -1336,7 +1337,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Sticker of Diomedes.',
-    link: 'https://www.etsy.com/listing/1642149764/'
+    link: 'https://www.etsy.com/listing/1642149764/',
+    expired: true
   },
   {
     date: '2024-02-04',
@@ -1348,7 +1350,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Sticker of Victra.',
-    link: 'https://www.etsy.com/listing/1642150770/'
+    link: 'https://www.etsy.com/listing/1642150770/',
+    expired: true
   },
   {
     date: '2024-02-04',
@@ -1360,7 +1363,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Stick of Virginia/Mustang.',
-    link: 'https://www.etsy.com/listing/1642157030/'
+    link: 'https://www.etsy.com/listing/1642157030/',
+    expired: true
   },
   {
     date: '2024-02-04',
@@ -1372,7 +1376,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Sticker of Lysander.',
-    link: 'https://www.etsy.com/listing/1642152816/'
+    link: 'https://www.etsy.com/listing/1642152816/',
+    expired: true
   },
   {
     date: '2024-02-04',
@@ -1384,7 +1389,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Sticker of Ragnar.',
-    link: 'https://www.etsy.com/listing/1642156002/'
+    link: 'https://www.etsy.com/listing/1642156002/',
+    expired: true
   },
   {
     date: '2024-02-04',
@@ -1396,7 +1402,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Sticker of Lorn',
-    link: 'https://www.etsy.com/listing/1642155006/'
+    link: 'https://www.etsy.com/listing/1642155006/',
+    expired: true
   }
 ];
 
