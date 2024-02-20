@@ -35,8 +35,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ThePurpuraProject'
     },
     description: 'A coffee tumbler with the gold sigil, red sigil, and the wolf of mars.',
-    link: 'https://www.etsy.com/listing/1265030165/red-rising-gold-and-red-sigil-red-coffee',
-    expired: true
+    link: 'https://www.etsy.com/listing/1265030165/red-rising-gold-and-red-sigil-red-coffee'
   },
   {
     date: '2023-04-29',
