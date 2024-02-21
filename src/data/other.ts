@@ -1178,6 +1178,30 @@ const data: IItem[] = [
     description:
       'This one is for your fav flave... your ride or die. Created in response to a poll asking your favorite Sevro/Darrow bromance moment.',
     link: 'https://www.lit-escalates.com/products/top-secret-3'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/15519608/r/il/f7e5cb/5719934858/il_794xN.5719934858_jw1g.jpg',
+    name: 'Darrow Kindle Charm',
+    tags: ['other', 'darrow'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'Handmade beaded and elastic corded Kindle Case Sleeve charm.',
+    link: 'https://www.etsy.com/listing/1668928295/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/15519608/r/il/e898ae/5719956510/il_794xN.5719956510_tok3.jpg',
+    name: 'Sevro Kindle Charm',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'Handmade beaded and elastic corded Kindle Case Sleeve charm.',
+    link: 'https://www.etsy.com/listing/1654765936/'
   }
 ];
 
