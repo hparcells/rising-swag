@@ -212,6 +212,32 @@ const data: IItem[] = [
     description:
       'This scented candle inspired by the house with the howling wolf has a masculine scent of Musk and Cedar',
     link: 'https://www.etsy.com/listing/1507447235/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/47259379/r/il/95b340/5593744733/il_794xN.5593744733_ttlj.jpg',
+    name: 'Red Rising Candle',
+    tags: ['candle'],
+    shop: {
+      name: 'CozyQTees',
+      url: 'https://www.etsy.com/shop/CozyQTees'
+    },
+    description:
+      'Smell like Sevro? Light this candle to fill your home with sweet scents of anything but a Howler.',
+    link: 'https://www.etsy.com/listing/1620873247/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/47259379/r/il/f83f02/5593740737/il_794xN.5593740737_jsop.jpg',
+    name: 'Red Rising Candle',
+    tags: ['candle'],
+    shop: {
+      name: 'CozyQTees',
+      url: 'https://www.etsy.com/shop/CozyQTees'
+    },
+    description:
+      'Smell like Sevro? Light this candle to fill your home with sweet scents of anything but a Howler.',
+    link: 'https://www.etsy.com/listing/1620869727/'
   }
 ];
 

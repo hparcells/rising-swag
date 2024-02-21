@@ -755,6 +755,18 @@ const data: IItem[] = [
     },
     description: 'Red hefty 23oz mug hand painted gold accent with vinyl design.',
     link: 'https://www.etsy.com/listing/1603279640/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/47259379/r/il/bac043/5523780452/il_794xN.5523780452_p7uc.jpg',
+    name: 'Shit Escalates Mug',
+    tags: ['mug', 'sevro'],
+    shop: {
+      name: 'CozyQTees',
+      url: 'https://www.etsy.com/shop/CozyQTees'
+    },
+    description: 'The perfect cup to enjoy while reading or while sipping coffee at work',
+    link: 'https://www.etsy.com/listing/1615560069/'
   }
 ];
 
