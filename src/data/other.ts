@@ -1215,6 +1215,18 @@ const data: IItem[] = [
     description:
       'Handmade Wolf Stained Glass Art! Inspired by House Mars, this is a perfect gift or wall/window decoration!',
     link: 'https://www.etsy.com/listing/909958319/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/39547711/r/il/df9d05/5141966346/il_794xN.5141966346_qqfy.jpg',
+    name: 'Howler Neon LED Wall Art',
+    tags: ['other'],
+    shop: {
+      name: 'TheLightFrame',
+      url: 'https://www.etsy.com/shop/TheLightFrame'
+    },
+    description: 'LED, remote controlled, with 16 different color options for you.',
+    link: 'https://www.etsy.com/listing/1534866109/'
   }
 ];
 
