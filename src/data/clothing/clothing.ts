@@ -2218,6 +2218,43 @@ const data: IItem[] = [
     },
     description: 'His honor remains.',
     link: 'https://www.etsy.com/listing/1636874252/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/10660243/r/il/3aaa6f/5649740946/il_794xN.5649740946_e6tt.jpg',
+    name: 'Howler for Life T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'RAHmarkableCrafts',
+      url: 'https://www.etsy.com/shop/RAHmarkableCrafts'
+    },
+    description: 'Howler for life T-shirt for any Red Rising Fan!',
+    link: 'https://www.etsy.com/listing/1631899066/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/10660243/r/il/26437c/5676684322/il_794xN.5676684322_9vh5.jpg',
+    name: 'Bloodydamn T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'RAHmarkableCrafts',
+      url: 'https://www.etsy.com/shop/RAHmarkableCrafts'
+    },
+    description:
+      "Red Rising Shirt- Multiple Colors! You can't go wrong with this t-shirt for your favorite Pierce Brown fan my goodman.",
+    link: 'https://www.etsy.com/listing/1633292494/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/10660243/r/il/b49ab2/5697780485/il_794xN.5697780485_jupx.jpg',
+    name: 'Hail Reaper Unisex T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'RAHmarkableCrafts',
+      url: 'https://www.etsy.com/shop/RAHmarkableCrafts'
+    },
+    description: 'Perfect for any Red Rising fan.',
+    link: 'https://www.etsy.com/listing/1631867880/'
   }
 ];
 
