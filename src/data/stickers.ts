@@ -1404,6 +1404,19 @@ const data: IItem[] = [
     description: 'Sticker of Lorn',
     link: 'https://www.etsy.com/listing/1642155006/',
     expired: true
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/13093296/r/il/4c2829/5352956387/il_794xN.5352956387_ok4m.jpg',
+    name: 'Ad Astra Per Aspera Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'SolemNox',
+      url: 'https://www.etsy.com/shop/SolemNox'
+    },
+    description:
+      'This phrase represents tenacity and persistence; it reminds us that greatness is not a destination reached easily or comfortably.',
+    link: 'https://www.etsy.com/listing/1429905894/'
   }
 ];
 
