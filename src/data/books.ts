@@ -145,6 +145,18 @@ const data: IItem[] = [
     description: 'Hand bound copies of Red Rising, Golden Son, or Morning Star.',
     link: 'https://www.etsy.com/listing/1586901532/',
     expired: true
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/35413871/r/il/d44fcf/5666884854/il_794xN.5666884854_61rh.jpg',
+    name: 'Leather Bound Set',
+    tags: ['book', 'red-rising', 'golden-son', 'morning-star', 'iron-gold', 'dark-age'],
+    shop: {
+      name: 'FirstEditionsPolish',
+      url: 'https://www.etsy.com/shop/FirstEditionsPolish'
+    },
+    description: 'Hard cover, full leather binding, gold plated books.',
+    link: 'https://www.etsy.com/listing/1656222361/'
   }
 ];
 
