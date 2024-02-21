@@ -162,7 +162,7 @@ const data: IItem[] = [
   },
   {
     date: '2023-08-21',
-    image: 'https://i.etsystatic.com/38585656/r/il/3cb760/5118229118/il_794xN.5118229118_e0ih.jpg',
+    image: 'https://i.etsystatic.com/38585656/r/il/8e3708/5705330918/il_794xN.5705330918_gqbt.jpg',
     name: 'Darrow Bookish Candle',
     tags: ['candle', 'darrow'],
     shop: {
@@ -175,7 +175,7 @@ const data: IItem[] = [
   },
   {
     date: '2023-08-21',
-    image: 'https://i.etsystatic.com/38585656/r/il/432a20/5166460315/il_794xN.5166460315_tmqw.jpg',
+    image: 'https://i.etsystatic.com/38585656/r/il/28494d/5705343426/il_794xN.5705343426_o692.jpg',
     name: 'Sevro Bookish Candle',
     tags: ['candle', 'sevro'],
     shop: {
@@ -184,12 +184,11 @@ const data: IItem[] = [
     },
     description:
       'This scented candle inspired by the leader of the Howlers has a spicy scent of Citrus and Clove.',
-    link: 'https://www.etsy.com/listing/1493275574/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1493275574/'
   },
   {
     date: '2023-08-21',
-    image: 'https://i.etsystatic.com/38585656/r/il/b90793/5166459465/il_794xN.5166459465_robd.jpg',
+    image: 'https://i.etsystatic.com/38585656/r/il/64c03f/5753395581/il_794xN.5753395581_p3xy.jpg',
     name: 'Mustang Bookish Candle',
     tags: ['candle', 'mustang'],
     shop: {
@@ -202,7 +201,7 @@ const data: IItem[] = [
   },
   {
     date: '2023-08-21',
-    image: 'https://i.etsystatic.com/38585656/r/il/d53380/5166460643/il_794xN.5166460643_in93.jpg',
+    image: 'https://i.etsystatic.com/38585656/r/il/624a88/5705332726/il_794xN.5705332726_bjm7.jpg',
     name: 'House Mars Bookish Candle',
     tags: ['candle'],
     shop: {
