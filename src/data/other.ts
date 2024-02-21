@@ -1202,6 +1202,19 @@ const data: IItem[] = [
     },
     description: 'Handmade beaded and elastic corded Kindle Case Sleeve charm.',
     link: 'https://www.etsy.com/listing/1654765936/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/25281788/r/il/558cd6/2735249115/il_794xN.2735249115_jhrp.jpg',
+    name: 'Howler Wolf Glass Art',
+    tags: ['other'],
+    shop: {
+      name: 'MortalGodsGlass',
+      url: 'https://www.etsy.com/shop/MortalGodsGlass'
+    },
+    description:
+      'Handmade Wolf Stained Glass Art! Inspired by House Mars, this is a perfect gift or wall/window decoration!',
+    link: 'https://www.etsy.com/listing/909958319/'
   }
 ];
 
