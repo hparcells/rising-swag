@@ -698,6 +698,20 @@ const data: IItem[] = [
     description:
       'You can fill this mug with coffee, or jelly beans, but if you choose the latter, best be on the lookout for a certain sneaky, small to medium sized omnivorous mammal.',
     link: 'https://www.etsy.com/listing/1606868134/'
+  },
+  {
+    date: '2024-02-23',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/IronGold_HeatActivatedMug_LitEscalates_RedRising2_1024x1024@2x.jpg',
+    name: 'Heat-Activated Iron Gold Map Mug',
+    tags: ['mug', 'official', 'iron-gold'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Pour your morning coffee into this magic mug and watch the universe blossom before your very eyes.',
+    link: 'https://www.lit-escalates.com/products/heat-activated-iron-gold-map-mug'
   }
 ];
 
