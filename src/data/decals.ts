@@ -255,6 +255,67 @@ const data: IItem[] = [
     description: 'The wolf of Mars masked by a galaxy.',
     link: 'https://www.etsy.com/listing/576130713/',
     expired: true
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/15170291/r/il/bd4974/1356908083/il_794xN.1356908083_obsm.jpg',
+    name: 'Howlers Vinyl Decal',
+    tags: ['decal'],
+    shop: {
+      name: '23rdlegion',
+      url: 'https://www.etsy.com/shop/23rdlegion'
+    },
+    description: 'Custom Red Rising-inspired "Howlers" vinyl decal.',
+    link: 'https://www.etsy.com/listing/547408418/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/15170291/r/il/d8a3e4/1266364748/il_794xN.1266364748_edl1.jpg',
+    name: 'Reaper Graffiti Vinyl Decal (Drip Version)',
+    tags: ['decal'],
+    shop: {
+      name: '23rdlegion',
+      url: 'https://www.etsy.com/shop/23rdlegion'
+    },
+    description:
+      'Custom Red Rising-inspired "Reaper Graffiti" vinyl decal in red vinyl. This version has simulated paint drip.',
+    link: 'https://www.etsy.com/listing/536217452/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/15170291/r/il/ffda71/1266365174/il_794xN.1266365174_af56.jpg',
+    name: 'Reaper Graffiti Vinyl Decal',
+    tags: ['decal'],
+    shop: {
+      name: '23rdlegion',
+      url: 'https://www.etsy.com/shop/23rdlegion'
+    },
+    description: 'Custom Red Rising-inspired "Reaper Graffiti" vinyl decal in red vinyl.',
+    link: 'https://www.etsy.com/listing/536217594/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/15170291/r/il/591473/1361923395/il_794xN.1361923395_h2q0.jpg',
+    name: 'Haemanthus Live for More Vinyl Decal',
+    tags: ['decal'],
+    shop: {
+      name: '23rdlegion',
+      url: 'https://www.etsy.com/shop/23rdlegion'
+    },
+    description: 'Custom Red Rising-inspired Haemanthus with "Live for More" vinyl decal.',
+    link: 'https://www.etsy.com/listing/548696786/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/15170291/r/il/5c6740/1415682430/il_794xN.1415682430_tq69.jpg',
+    name: 'Ragnar Inspired Vinyl Decal',
+    tags: ['decal'],
+    shop: {
+      name: '23rdlegion',
+      url: 'https://www.etsy.com/shop/23rdlegion'
+    },
+    description: 'Custom Red Rising-inspired "Hyrg la Ragnar" vinyl decal.',
+    link: 'https://www.etsy.com/listing/576750948/'
   }
 ];
 

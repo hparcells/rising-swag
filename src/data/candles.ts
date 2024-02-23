@@ -11,7 +11,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/firenationcreations'
     },
     description: 'Choose from Darrow, Mustang, or Sevro candles in 6 oz or 4 oz jars.',
-    link: 'https://www.etsy.com/listing/903972668/red-rising-inspired-candles'
+    link: 'https://www.etsy.com/listing/903972668/red-rising-inspired-candles',
+    expired: true
   },
   {
     date: '2023-03-27',
@@ -23,7 +24,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/firenationcreations'
     },
     description: "Red Rising candle from firenationcreations's Stuck in Space box.",
-    link: 'https://www.etsy.com/listing/952004495/stuck-in-space-sci-fi-box-candles?variation0=1787670255'
+    link: 'https://www.etsy.com/listing/952004495/stuck-in-space-sci-fi-box-candles?variation0=1787670255',
+    expired: true
   },
   {
     date: '2023-03-29',
@@ -47,7 +49,8 @@ const data: IItem[] = [
       url: 'https://untiltheveryendco.com/'
     },
     description: 'Candle scented with leather, pine, amber musk, and honey.',
-    link: 'https://untiltheveryendco.com/products/darrow'
+    link: 'https://untiltheveryendco.com/products/darrow',
+    expired: true
   },
   {
     date: '2023-03-31',
@@ -59,7 +62,8 @@ const data: IItem[] = [
       url: 'https://untiltheveryendco.com/'
     },
     description: 'Candle scented with whiskey, cedar, orange, and chili powder (strong).',
-    link: 'https://untiltheveryendco.com/products/mustang'
+    link: 'https://untiltheveryendco.com/products/mustang',
+    expired: true
   },
   {
     date: '2023-03-31',
@@ -71,7 +75,8 @@ const data: IItem[] = [
       url: 'https://untiltheveryendco.com/'
     },
     description: 'Candle scented with blood orange, vanilla, and harvest spice.',
-    link: 'https://untiltheveryendco.com/products/victra'
+    link: 'https://untiltheveryendco.com/products/victra',
+    expired: true
   },
   {
     date: '2023-03-31',
@@ -83,7 +88,8 @@ const data: IItem[] = [
       url: 'https://untiltheveryendco.com/'
     },
     description: 'Candle scented with whiskey, cedar, orange, and chili powder.',
-    link: 'https://untiltheveryendco.com/products/sevro'
+    link: 'https://untiltheveryendco.com/products/sevro',
+    expired: true
   },
   {
     date: '2023-07-18',
@@ -156,7 +162,7 @@ const data: IItem[] = [
   },
   {
     date: '2023-08-21',
-    image: 'https://i.etsystatic.com/38585656/r/il/3cb760/5118229118/il_794xN.5118229118_e0ih.jpg',
+    image: 'https://i.etsystatic.com/38585656/r/il/8e3708/5705330918/il_794xN.5705330918_gqbt.jpg',
     name: 'Darrow Bookish Candle',
     tags: ['candle', 'darrow'],
     shop: {
@@ -169,7 +175,7 @@ const data: IItem[] = [
   },
   {
     date: '2023-08-21',
-    image: 'https://i.etsystatic.com/38585656/r/il/432a20/5166460315/il_794xN.5166460315_tmqw.jpg',
+    image: 'https://i.etsystatic.com/38585656/r/il/28494d/5705343426/il_794xN.5705343426_o692.jpg',
     name: 'Sevro Bookish Candle',
     tags: ['candle', 'sevro'],
     shop: {
@@ -182,7 +188,7 @@ const data: IItem[] = [
   },
   {
     date: '2023-08-21',
-    image: 'https://i.etsystatic.com/38585656/r/il/b90793/5166459465/il_794xN.5166459465_robd.jpg',
+    image: 'https://i.etsystatic.com/38585656/r/il/64c03f/5753395581/il_794xN.5753395581_p3xy.jpg',
     name: 'Mustang Bookish Candle',
     tags: ['candle', 'mustang'],
     shop: {
@@ -195,7 +201,7 @@ const data: IItem[] = [
   },
   {
     date: '2023-08-21',
-    image: 'https://i.etsystatic.com/38585656/r/il/d53380/5166460643/il_794xN.5166460643_in93.jpg',
+    image: 'https://i.etsystatic.com/38585656/r/il/624a88/5705332726/il_794xN.5705332726_bjm7.jpg',
     name: 'House Mars Bookish Candle',
     tags: ['candle'],
     shop: {
@@ -205,6 +211,32 @@ const data: IItem[] = [
     description:
       'This scented candle inspired by the house with the howling wolf has a masculine scent of Musk and Cedar',
     link: 'https://www.etsy.com/listing/1507447235/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/47259379/r/il/95b340/5593744733/il_794xN.5593744733_ttlj.jpg',
+    name: 'Red Rising Candle',
+    tags: ['candle'],
+    shop: {
+      name: 'CozyQTees',
+      url: 'https://www.etsy.com/shop/CozyQTees'
+    },
+    description:
+      'Smell like Sevro? Light this candle to fill your home with sweet scents of anything but a Howler.',
+    link: 'https://www.etsy.com/listing/1620873247/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/47259379/r/il/f83f02/5593740737/il_794xN.5593740737_jsop.jpg',
+    name: 'Red Rising Candle',
+    tags: ['candle'],
+    shop: {
+      name: 'CozyQTees',
+      url: 'https://www.etsy.com/shop/CozyQTees'
+    },
+    description:
+      'Smell like Sevro? Light this candle to fill your home with sweet scents of anything but a Howler.',
+    link: 'https://www.etsy.com/listing/1620869727/'
   }
 ];
 

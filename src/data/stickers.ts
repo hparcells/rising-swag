@@ -131,8 +131,7 @@ const data: IItem[] = [
     },
     description:
       'Howlers and low colors alike look to The Reaper of Mars and use "Hail Reaper" as a greeting as well as a battle cry. Show your support for the uprising by displaying this sticker!',
-    link: 'https://www.etsy.com/listing/935870580/sticker-hail-reaper-howler-stickers',
-    expired: true
+    link: 'https://www.etsy.com/listing/935870580/sticker-hail-reaper-howler-stickers'
   },
   {
     date: '2023-03-17',
@@ -144,7 +143,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'Metallic sticker of Ragnar.',
-    link: 'https://www.etsy.com/listing/1123845398/sticker-ragnar-red-rising-sticker-red'
+    link: 'https://www.etsy.com/listing/1123845398/sticker-ragnar-red-rising-sticker-red',
+    expired: true
   },
   {
     date: '2023-03-17',
@@ -338,7 +338,8 @@ const data: IItem[] = [
     },
     description:
       'Hail Reaper! This sticker the perfect way to signal your allegiance to the rising.',
-    link: 'https://www.etsy.com/listing/1196124016/sticker-holographic-hail-reaper-red'
+    link: 'https://www.etsy.com/listing/1196124016/sticker-holographic-hail-reaper-red',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -389,7 +390,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: 'A unique wolf sticker.',
-    link: 'https://www.etsy.com/listing/1013562619/sticker-red-rising-sticker-howler'
+    link: 'https://www.etsy.com/listing/1013562619/sticker-red-rising-sticker-howler',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -478,7 +480,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ADHDAbby'
     },
     description: 'Sticker with a wolf and skull design.',
-    link: 'https://www.etsy.com/listing/1403377047/howler-omnis-vir-lupus-bubble-free'
+    link: 'https://www.etsy.com/listing/1403377047/howler-omnis-vir-lupus-bubble-free',
+    expired: true
   },
   {
     date: '2023-04-04',
@@ -490,7 +493,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ADHDAbby'
     },
     description: 'Sticker with a lion and pillar design.',
-    link: 'https://www.etsy.com/listing/1414058335/lion-hic-sunt-leones-bubble-free-sticker'
+    link: 'https://www.etsy.com/listing/1414058335/lion-hic-sunt-leones-bubble-free-sticker',
+    expired: true
   },
   {
     date: '2023-02-05',
@@ -817,7 +821,8 @@ const data: IItem[] = [
     },
     description:
       'A sticker of the famous quote "Hail Reaper" with a scythe and "Per aspera, ad astra."',
-    link: 'https://www.etsy.com/listing/1493655682/'
+    link: 'https://www.etsy.com/listing/1493655682/',
+    expired: true
   },
   {
     date: '2023-07-10',
@@ -1148,7 +1153,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/SkyBlueStudiosCo'
     },
     description: 'I am the Reaper and death is my shadow.',
-    link: 'https://www.etsy.com/listing/1535347953/'
+    link: 'https://www.etsy.com/listing/1535347953/',
+    expired: true
   },
   {
     date: '2023-11-08',
@@ -1307,6 +1313,110 @@ const data: IItem[] = [
     description:
       "Lo' future Razor Masters. Rather than the scars from a duel with Apollonius, get yourself a sticker to show you trained with the greatest Razor Master this side of the Rim!",
     link: 'https://www.etsy.com/listing/1587584386/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/d6b0b6/5703954215/il_794xN.5703954215_rwom.jpg',
+    name: 'Wakey Wakey Goblin Sticker',
+    tags: ['sticker', 'sevro'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'And with this sticker, leave your silent proclamation, a lingering echo of rebellion, etched in the conquered spaces of your aftermath, a testament to your indomitable spirit across the cosmic canvas.',
+    link: 'https://www.etsy.com/listing/1639422382/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/ba7919/5667479358/il_794xN.5667479358_kykp.jpg',
+    name: 'Diomedes Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Sticker of Diomedes.',
+    link: 'https://www.etsy.com/listing/1642149764/',
+    expired: true
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/aabe5c/5667447284/il_794xN.5667447284_g66s.jpg',
+    name: 'Victra Sticker',
+    tags: ['sticker', 'victra'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Sticker of Victra.',
+    link: 'https://www.etsy.com/listing/1642150770/',
+    expired: true
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/17ebe1/5715479693/il_794xN.5715479693_is3k.jpg',
+    name: 'Virginia Sticker',
+    tags: ['sticker', 'mustang'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Stick of Virginia/Mustang.',
+    link: 'https://www.etsy.com/listing/1642157030/',
+    expired: true
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/b92455/5715491287/il_794xN.5715491287_pqiv.jpg',
+    name: 'Lysander Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Sticker of Lysander.',
+    link: 'https://www.etsy.com/listing/1642152816/',
+    expired: true
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/873b46/5667434460/il_794xN.5667434460_quh1.jpg',
+    name: 'Ragnar Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Sticker of Ragnar.',
+    link: 'https://www.etsy.com/listing/1642156002/',
+    expired: true
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/7bc2e7/5715486455/il_794xN.5715486455_97c0.jpg',
+    name: 'Lorn Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Sticker of Lorn',
+    link: 'https://www.etsy.com/listing/1642155006/',
+    expired: true
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/13093296/r/il/4c2829/5352956387/il_794xN.5352956387_ok4m.jpg',
+    name: 'Ad Astra Per Aspera Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'SolemNox',
+      url: 'https://www.etsy.com/shop/SolemNox'
+    },
+    description:
+      'This phrase represents tenacity and persistence; it reminds us that greatness is not a destination reached easily or comfortably.',
+    link: 'https://www.etsy.com/listing/1429905894/'
   }
 ];
 

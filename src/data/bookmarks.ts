@@ -88,7 +88,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/BookBubbledShop'
     },
     description: 'Quotes from Red Rising on bookmarks. Shipped from Canada.',
-    link: 'https://www.etsy.com/listing/1207264359/red-rising-saga-quote-bookmarks'
+    link: 'https://www.etsy.com/listing/1207264359/red-rising-saga-quote-bookmarks',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -241,7 +242,32 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: 'Bookmark set of Darrow, Cassius, and Sevro.',
-    link: 'https://www.etsy.com/listing/1584410190/'
+    link: 'https://www.etsy.com/listing/1584410190/',
+    expired: true
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/15519608/r/il/07bb75/5745056065/il_794xN.5745056065_9l0w.jpg',
+    name: 'Sevro Bookmark',
+    tags: ['bookmark', 'sevro'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'Handmade beaded and corded bookmark.',
+    link: 'https://www.etsy.com/listing/1663461955/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/15519608/r/il/4e7ee2/5744947625/il_794xN.5744947625_degn.jpg',
+    name: 'Darrow Bookmark',
+    tags: ['bookmark', 'darrow'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'Handmade beaded and corded bookmark.',
+    link: 'https://www.etsy.com/listing/1649274576/'
   }
 ];
 

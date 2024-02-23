@@ -215,7 +215,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"I am the Mustang that Nuzzles the Hand."',
-    link: 'https://www.etsy.com/listing/940219531/'
+    link: 'https://www.etsy.com/listing/940219531/',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -227,7 +228,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: 'Features a one eyed wolf with the quote: "I killed their pack leader."',
-    link: 'https://www.etsy.com/listing/926285884/sevro-au-barca-11x17-print-omnis-vir'
+    link: 'https://www.etsy.com/listing/926285884/sevro-au-barca-11x17-print-omnis-vir',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -239,7 +241,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: 'Features a SlingBlade with the quote: "I am the Reaper, and death is my shadow."',
-    link: 'https://www.etsy.com/listing/926281316/darrow-of-lykos-11x17-print-the-reaper'
+    link: 'https://www.etsy.com/listing/926281316/darrow-of-lykos-11x17-print-the-reaper',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -442,7 +445,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"Share The Load, Darling."',
-    link: 'https://www.etsy.com/listing/1493660906/'
+    link: 'https://www.etsy.com/listing/1493660906/',
+    expired: true
   },
   {
     date: '2023-07-05',
@@ -454,7 +458,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"I know what I am."',
-    link: 'https://www.etsy.com/listing/1508530093/'
+    link: 'https://www.etsy.com/listing/1508530093/',
+    expired: true
   },
   {
     date: '2023-07-05',
@@ -466,7 +471,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"Honor is what echoes."',
-    link: 'https://www.etsy.com/listing/1494348038/'
+    link: 'https://www.etsy.com/listing/1494348038/',
+    expired: true
   },
   {
     date: '2023-07-19',
@@ -519,8 +525,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Mini print of Lorn au Arcos.',
-    link: 'https://www.etsy.com/listing/1528872400/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1528872400/'
   },
   {
     date: '2023-08-31',
@@ -694,7 +699,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the Gold sigil.',
-    link: 'https://displate.com/displate/6861678'
+    link: 'https://displate.com/displate/6861678',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -707,7 +713,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the Red sigil.',
-    link: 'https://displate.com/displate/6861673'
+    link: 'https://displate.com/displate/6861673',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -720,7 +727,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the Violet sigil.',
-    link: 'https://displate.com/displate/6861677'
+    link: 'https://displate.com/displate/6861677',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -733,7 +741,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the Copper sigil.',
-    link: 'https://displate.com/displate/6861676'
+    link: 'https://displate.com/displate/6861676',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -746,7 +755,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the Yellow sigil.',
-    link: 'https://displate.com/displate/6861675'
+    link: 'https://displate.com/displate/6861675',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -759,7 +769,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the Silver sigil.',
-    link: 'https://displate.com/displate/6861672'
+    link: 'https://displate.com/displate/6861672',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -772,7 +783,8 @@ const data: IItem[] = [
       url: 'https://displate.com/natalia9'
     },
     description: 'Metal poster of the White sigil.',
-    link: 'https://displate.com/displate/6861671'
+    link: 'https://displate.com/displate/6861671',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -810,6 +822,92 @@ const data: IItem[] = [
     },
     description: '5x7 print of Darrow, Sevro, and Mustang.',
     link: 'https://www.etsy.com/listing/795881210/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/7cb709/5293784700/il_794xN.5293784700_4k3y.jpg',
+    name: 'Fear Knight Mini Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Hand-embellished with 18 k gold paint and signed, 5x7 inches MINI prints.',
+    link: 'https://www.etsy.com/listing/1553013926/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/9e4278/5751846943/il_794xN.5751846943_q62d.jpg',
+    name: 'Limited Edition Kavax Mini Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Limited Edition Gold Leaf 5x7 inch mini print.',
+    link: 'https://www.etsy.com/listing/1664766395/'
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/174ac6/5703790996/il_794xN.5703790996_28j3.jpg',
+    name: 'Limited Edition Karnus Mini Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Limited Edition Gold Leaf 5x7 inch mini print.',
+    link: 'https://www.etsy.com/listing/1664752741/',
+    expired: true
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/a3a6ac/5703788920/il_794xN.5703788920_k807.jpg',
+    name: 'Limited Edition Volsung Fa Mini Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Limited Edition Silver Leaf 5x7 inch mini print.',
+    link: 'https://www.etsy.com/listing/1664769083/',
+    expired: true
+  },
+  {
+    date: '2024-02-04',
+    image: 'https://i.etsystatic.com/25978430/r/il/e8cea3/5815875953/il_794xN.5815875953_iao3.jpg',
+    name: 'Lysander Mini Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Hand-embellished with 18 k gold paint. 5x7 inches MINI prints.',
+    link: 'https://www.etsy.com/listing/1665629802/'
+  },
+  {
+    date: '2024-02-20',
+    image: 'https://i.etsystatic.com/25978430/r/il/e3e6ac/5767816474/il_794xN.5767816474_mqf0.jpg',
+    name: 'Gold Leaf 5x7 Dido au Raa Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Limited Edition Gold Leaf 5x7 inch mini print.',
+    link: 'https://www.etsy.com/listing/1665628966/'
+  },
+  {
+    date: '2024-02-20',
+    image: 'https://i.etsystatic.com/25978430/r/il/ebeac7/5751844527/il_794xN.5751844527_yjwf.jpg',
+    name: 'Silver Leaf 5x7 Ragnar 2.0 Mini Print',
+    tags: ['print'],
+    shop: {
+      name: 'WildBrewed',
+      url: 'https://www.etsy.com/shop/WildBrewed'
+    },
+    description: 'Limited Edition Silver Leaf 5x7 inch mini print.',
+    link: 'https://www.etsy.com/listing/1664771119/'
   }
 ];
 

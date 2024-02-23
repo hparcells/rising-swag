@@ -181,7 +181,8 @@ const data: IItem[] = [
     },
     description:
       'The sun is out, the drinks are cold, and these coasters are perfect for saving your surface. These high quality rubber backed coasters are excellent conversation starters.',
-    link: 'https://www.etsy.com/listing/1222897013/red-rising-coasters-hail-reaper-scifi'
+    link: 'https://www.etsy.com/listing/1222897013/red-rising-coasters-hail-reaper-scifi',
+    expired: true
   },
   {
     date: '2023-03-20',
@@ -297,8 +298,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/3DPrintsbyTheodore'
     },
     description: 'A 3D printed Howler logo printed in Marble and Red pla.',
-    link: 'https://www.etsy.com/listing/1276452077/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1276452077/'
   },
   {
     date: '2023-03-22',
@@ -350,7 +350,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiteraryLeoCo'
     },
     description: 'The wolf of Mars pressed into a pine wood cookie.',
-    link: 'https://www.etsy.com/listing/1120619399/happy-howler-days-35-4-pine-wood'
+    link: 'https://www.etsy.com/listing/1120619399/happy-howler-days-35-4-pine-wood',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -363,7 +364,8 @@ const data: IItem[] = [
     },
     description:
       'Help cover up the smell of dead fish in your room with these wax melts inspired by Sevro from Red Rising! ;)',
-    link: 'https://www.etsy.com/listing/1328197257/bloody-damn-goblin-wax-melts-unicorn'
+    link: 'https://www.etsy.com/listing/1328197257/bloody-damn-goblin-wax-melts-unicorn',
+    expired: true
   },
   {
     date: '2023-03-26',
@@ -707,7 +709,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/GamerSetupStore'
     },
     description: 'Wall mounted RGB wolf sign.',
-    link: 'https://www.etsy.com/listing/1482335243/'
+    link: 'https://www.etsy.com/listing/1482335243/',
+    expired: true
   },
   {
     date: '2023-08-09',
@@ -758,7 +761,8 @@ const data: IItem[] = [
       url: 'https://stoneangelbrewing.com/'
     },
     description: 'This warrior of a black IPA has hop aroma that battles between piney and citrus.',
-    link: 'https://stoneangelbrewing.com/product/full-geek-stained/'
+    link: 'https://stoneangelbrewing.com/product/full-geek-stained/',
+    expired: true
   },
   {
     date: '2023-10-05',
@@ -931,7 +935,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/AresIndustries3D'
     },
     description: '3D printed Howler ornament from the Red Rising series.',
-    link: 'https://www.etsy.com/listing/1324450374/'
+    link: 'https://www.etsy.com/listing/1324450374/',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -943,7 +948,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/GamerSetupStore'
     },
     description: 'Wall mounted RGB wolf sign.',
-    link: 'https://www.etsy.com/listing/1587131443/'
+    link: 'https://www.etsy.com/listing/1587131443/',
+    expired: true
   },
   {
     date: '2023-11-08',
@@ -955,7 +961,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/GamerSetupStore'
     },
     description: 'Customizable wall mounted RGB sign.',
-    link: 'https://www.etsy.com/listing/1572956738/'
+    link: 'https://www.etsy.com/listing/1572956738/',
+    expired: true
   },
   {
     date: '2023-11-08',
@@ -967,7 +974,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/TheCosyFlame'
     },
     description: 'Wax melts inspired by the Red Rising series.',
-    link: 'https://www.etsy.com/listing/1554878749/'
+    link: 'https://www.etsy.com/listing/1554878749/',
+    expired: true
   },
   {
     date: '2023-11-08',
@@ -1049,6 +1057,176 @@ const data: IItem[] = [
     description:
       "Ready to be filled with your favorite Red Rising Fan's choicest whiskeys, weapons and whimsies.",
     link: 'https://www.lit-escalates.com/collections/cybermonday/products/red-rising-christmas-stocking'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/4667f1/5703918859/il_794xN.5703918859_337u.jpg',
+    name: 'Wakey Wakey Goblin Coaster',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
+    link: 'https://www.etsy.com/listing/1639412844/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/bad297/5655853172/il_794xN.5655853172_awx7.jpg',
+    name: 'Break the Chains Coaster',
+    tags: ['other'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
+    link: 'https://www.etsy.com/listing/1653577959/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/900104/5655848010/il_794xN.5655848010_fpur.jpg',
+    name: 'Summon the Howlers Coaster',
+    tags: ['other'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
+    link: 'https://www.etsy.com/listing/1653576763/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/a024c0/5655839144/il_794xN.5655839144_mw2d.jpg',
+    name: 'Helium-3 Coaster',
+    tags: ['other'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
+    link: 'https://www.etsy.com/listing/1639407892/'
+  },
+  {
+    date: '2024-01-27',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/DarrowofLykos_ActionFigure_Front_1024x1024@2x.jpg',
+    name: 'Darrow of Lykos Action Figure',
+    tags: ['other', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Our Darrow of Lykos action figure is 5.5 inches tall and features hand painted details over injection molded vinyl.',
+    link: 'https://www.lit-escalates.com/products/darrow-of-lykos-action-figure'
+  },
+  {
+    date: '2024-01-27',
+    image: 'https://www.lit-escalates.com/cdn/shop/products/RisingBACKB_1024x1024@2x.jpg',
+    name: 'Red Rising Card Deck',
+    tags: ['other', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Designed by Randy Butterfield of Midnight Cards with unique illustrations of your favorite Red Rising characters by Briana Crotinger (PB Doodles).',
+    link: 'https://www.lit-escalates.com/products/red-rising-card-deck-wholesale'
+  },
+  {
+    date: '2024-01-27',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/d2d2be5fc937c544c830c6a1a69f9b9e_original_4d1b6698-92ff-443b-85db-1ffdc6601cfa_1024x1024@2x.jpg',
+    name: 'House Mars LUXE Card Deck',
+    tags: ['other', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Designed by Randy Butterfield of Midnight Cards with unique illustrations of your favorite Red Rising characters by Briana Crotinger (PB Doodles).',
+    link: 'https://www.lit-escalates.com/products/copy-of-house-mars-card-deck-pos'
+  },
+  {
+    date: '2024-01-28',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/LitEscalates_HouseTelemanusPropitiusBeans_1024x1024@2x.jpg',
+    name: 'House Telemanus Propitious Beans',
+    tags: ['other', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Featuring the official House Telemanus Sigil designed just for this item by Joel Daniel Phillips, our House Telemanus Propitious Beans will bring a smile to the face of even the most curmudgeonly of Red Rising Fans.',
+    link: 'https://www.lit-escalates.com/products/house-telemanus-propitious-beans',
+    expired: true
+  },
+  {
+    date: '2024-02-03',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/PierceCard_1024x1024@2x.jpg',
+    name: "You're the Sevro to my Darrow Card",
+    tags: ['other', 'official', 'sevro', 'darrow'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'This one is for your fav flave... your ride or die. Created in response to a poll asking your favorite Sevro/Darrow bromance moment.',
+    link: 'https://www.lit-escalates.com/products/top-secret-3'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/15519608/r/il/f7e5cb/5719934858/il_794xN.5719934858_jw1g.jpg',
+    name: 'Darrow Kindle Charm',
+    tags: ['other', 'darrow'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'Handmade beaded and elastic corded Kindle Case Sleeve charm.',
+    link: 'https://www.etsy.com/listing/1668928295/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/15519608/r/il/e898ae/5719956510/il_794xN.5719956510_tok3.jpg',
+    name: 'Sevro Kindle Charm',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'Handmade beaded and elastic corded Kindle Case Sleeve charm.',
+    link: 'https://www.etsy.com/listing/1654765936/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/25281788/r/il/558cd6/2735249115/il_794xN.2735249115_jhrp.jpg',
+    name: 'Howler Wolf Glass Art',
+    tags: ['other'],
+    shop: {
+      name: 'MortalGodsGlass',
+      url: 'https://www.etsy.com/shop/MortalGodsGlass'
+    },
+    description:
+      'Handmade Wolf Stained Glass Art! Inspired by House Mars, this is a perfect gift or wall/window decoration!',
+    link: 'https://www.etsy.com/listing/909958319/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/39547711/r/il/df9d05/5141966346/il_794xN.5141966346_qqfy.jpg',
+    name: 'Howler Neon LED Wall Art',
+    tags: ['other'],
+    shop: {
+      name: 'TheLightFrame',
+      url: 'https://www.etsy.com/shop/TheLightFrame'
+    },
+    description: 'LED, remote controlled, with 16 different color options for you.',
+    link: 'https://www.etsy.com/listing/1534866109/'
   }
 ];
 

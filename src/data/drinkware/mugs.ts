@@ -135,7 +135,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Mug with "Straight Outta Lykos" on it.',
-    link: 'https://www.etsy.com/listing/706752423/straight-outta-lykos-mug'
+    link: 'https://www.etsy.com/listing/706752423/straight-outta-lykos-mug',
+    expired: true
   },
   {
     date: '2023-03-14',
@@ -200,7 +201,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/LiveForMore'
     },
     description: "LiveForMore's classic Hail Reaper Hail Libertas design on a mug.",
-    link: 'https://www.etsy.com/listing/1396123176/red-rising-hail-libertas-hail-reaper'
+    link: 'https://www.etsy.com/listing/1396123176/red-rising-hail-libertas-hail-reaper',
+    expired: true
   },
   {
     date: '2023-03-17',
@@ -225,7 +227,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/RavenPostCo'
     },
     description: 'Enamel mug with the quote "I am the reaper and death is my shadow." on it.',
-    link: 'https://www.etsy.com/listing/1179073715/red-rising-enamel-mug'
+    link: 'https://www.etsy.com/listing/1179073715/red-rising-enamel-mug',
+    expired: true
   },
   {
     date: '2023-03-31',
@@ -288,7 +291,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ADHDAbby'
     },
     description: 'Mug with a lion and pillar design.',
-    link: 'https://www.etsy.com/listing/1394277566/lion-hic-sunt-leones-white-glossy-mug'
+    link: 'https://www.etsy.com/listing/1394277566/lion-hic-sunt-leones-white-glossy-mug',
+    expired: true
   },
   {
     date: '2023-04-04',
@@ -300,7 +304,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ADHDAbby'
     },
     description: 'Mug with a wolf and skull design.',
-    link: 'https://www.etsy.com/listing/1392625332/howler-omnis-vir-lupus-white-glossy-mug'
+    link: 'https://www.etsy.com/listing/1392625332/howler-omnis-vir-lupus-white-glossy-mug',
+    expired: true
   },
   {
     date: '2023-04-06',
@@ -416,7 +421,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Darrow inspired coffee house mug.',
-    link: 'https://www.etsy.com/listing/1523567141/'
+    link: 'https://www.etsy.com/listing/1523567141/',
+    expired: true
   },
   {
     date: '2023-08-02',
@@ -712,6 +718,69 @@ const data: IItem[] = [
     description:
       'Pour your morning coffee into this magic mug and watch the universe blossom before your very eyes.',
     link: 'https://www.lit-escalates.com/products/heat-activated-iron-gold-map-mug'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/6bcab6/5624603220/il_794xN.5624603220_t76f.jpg',
+    name: 'Helium-3 Coffee Mug (Black Interior)',
+    tags: ['mug'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      "My trusted friends and fellow Howlers, it's time to summon our pack. We have our mission, one that demands the grit and fire that runs through our veins.",
+    link: 'https://www.etsy.com/listing/1631253054/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/79e94f/5624599714/il_794xN.5624599714_ql3q.jpg',
+    name: 'Helium-3 Coffee Mug (White Interior)',
+    tags: ['mug'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'This mug, bearing the symbols of our rebellion, is a testament to the power of that first sip, a reminder that even in the darkest of times, we can rise, conquer, and shape our destiny.',
+    link: 'https://www.etsy.com/listing/1631251852/'
+  },
+  {
+    date: '2024-01-23',
+    image: 'https://i.etsystatic.com/47602254/r/il/8961d6/5660651383/il_794xN.5660651383_r1az.jpg',
+    name: 'Wakey Wakey Goblin Coffee Mug (Text Only)',
+    tags: ['mug', 'sevro'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'This mug was more than a mere vessel for my morning ritual. It was a promise, a symbol of our indomitable spirit, a reminder that in the darkest of times, we could rise again.',
+    link: 'https://www.etsy.com/listing/1627106586/'
+  },
+  {
+    date: '2024-02-01',
+    image: 'https://i.etsystatic.com/16046340/r/il/426613/5531707830/il_794xN.5531707830_sj8l.jpg',
+    name: 'Gorydamn Good Coffee Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Red hefty 23oz mug hand painted gold accent with vinyl design.',
+    link: 'https://www.etsy.com/listing/1603279640/'
+  },
+  {
+    date: '2024-02-21',
+    image: 'https://i.etsystatic.com/47259379/r/il/bac043/5523780452/il_794xN.5523780452_p7uc.jpg',
+    name: 'Shit Escalates Mug',
+    tags: ['mug', 'sevro'],
+    shop: {
+      name: 'CozyQTees',
+      url: 'https://www.etsy.com/shop/CozyQTees'
+    },
+    description: 'The perfect cup to enjoy while reading or while sipping coffee at work',
+    link: 'https://www.etsy.com/listing/1615560069/'
   }
 ];
 
