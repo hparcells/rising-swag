@@ -706,6 +706,20 @@ const data: IItem[] = [
     link: 'https://www.etsy.com/listing/1606868134/'
   },
   {
+    date: '2024-02-23',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/IronGold_HeatActivatedMug_LitEscalates_RedRising2_1024x1024@2x.jpg',
+    name: 'Heat-Activated Iron Gold Map Mug',
+    tags: ['mug', 'official', 'iron-gold'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Pour your morning coffee into this magic mug and watch the universe blossom before your very eyes.',
+    link: 'https://www.lit-escalates.com/products/heat-activated-iron-gold-map-mug'
+  },
+  {
     date: '2024-01-23',
     image: 'https://i.etsystatic.com/47602254/r/il/6bcab6/5624603220/il_794xN.5624603220_t76f.jpg',
     name: 'Helium-3 Coffee Mug (Black Interior)',
