@@ -1416,6 +1416,30 @@ const data: IItem[] = [
     description:
       'This phrase represents tenacity and persistence; it reminds us that greatness is not a destination reached easily or comfortably.',
     link: 'https://www.etsy.com/listing/1429905894/'
+  },
+  {
+    date: '2024-02-29',
+    image: 'https://i.etsystatic.com/24204637/r/il/a9e6c5/5515179040/il_794xN.5515179040_a5s1.jpg',
+    name: 'Red Rising Mini Book Sticker',
+    tags: ['sticker', 'red-rising'],
+    shop: {
+      name: 'MagicCityMemoriesCo',
+      url: 'https://www.etsy.com/shop/MagicCityMemoriesCo'
+    },
+    description: "A refined emblem of your love for Pierce Brown's epic series.",
+    link: 'https://www.etsy.com/listing/1613527083/'
+  },
+  {
+    date: '2024-02-29',
+    image: 'https://i.etsystatic.com/24204637/r/il/6011ca/5718848117/il_794xN.5718848117_qzl7.jpg',
+    name: "The Reaper's Poem Sticker",
+    tags: ['sticker', 'sevro'],
+    shop: {
+      name: 'MagicCityMemoriesCo',
+      url: 'https://www.etsy.com/shop/MagicCityMemoriesCo'
+    },
+    description: 'If your heart beats like a drum...',
+    link: 'https://www.etsy.com/listing/1657238195/'
   }
 ];
 
