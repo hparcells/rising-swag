@@ -96,7 +96,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/KingsWoodPrints'
     },
     description: 'A digital download of "Clang Clang Clang."',
-    link: 'https://www.etsy.com/listing/1531912158/'
+    link: 'https://www.etsy.com/listing/1531912158/',
+    expired: true
   }
 ];
 

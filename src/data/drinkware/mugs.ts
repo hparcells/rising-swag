@@ -780,7 +780,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CozyQTees'
     },
     description: 'The perfect cup to enjoy while reading or while sipping coffee at work',
-    link: 'https://www.etsy.com/listing/1615560069/'
+    link: 'https://www.etsy.com/listing/1615560069/',
+    expired: true
   }
 ];
 

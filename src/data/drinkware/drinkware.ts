@@ -101,7 +101,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Steel tumbler with straw.',
-    link: 'https://www.etsy.com/listing/1473483399/red-rising-omnis-vir-lupus-skinny-steel'
+    link: 'https://www.etsy.com/listing/1473483399/red-rising-omnis-vir-lupus-skinny-steel',
+    expired: true
   },
   {
     date: '2023-05-03',

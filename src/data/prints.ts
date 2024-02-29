@@ -251,7 +251,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/RavenPostCo'
     },
     description: 'I would have lived in peace, but my enemies brought me war.',
-    link: 'https://www.etsy.com/listing/1179091611/red-rising-print'
+    link: 'https://www.etsy.com/listing/1179091611/red-rising-print',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -519,7 +520,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Mini print of Lorn au Arcos.',
-    link: 'https://www.etsy.com/listing/1528872400/'
+    link: 'https://www.etsy.com/listing/1528872400/',
+    expired: true
   },
   {
     date: '2023-08-31',

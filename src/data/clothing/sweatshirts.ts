@@ -327,7 +327,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/MbrdryByDani'
     },
     description: 'Howler emblem with the text "Omnis Vir Lupus" and "Hail Reaper".',
-    link: 'https://www.etsy.com/listing/1532921207/'
+    link: 'https://www.etsy.com/listing/1532921207/',
+    expired: true
   },
   {
     date: '2023-10-23',
@@ -402,7 +403,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CozyQTees'
     },
     description: 'Shit Escalates quote with wolf.',
-    link: 'https://www.etsy.com/listing/1615888129/'
+    link: 'https://www.etsy.com/listing/1615888129/',
+    expired: true
   },
   {
     date: '2024-02-21',
@@ -414,7 +416,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CozyQTees'
     },
     description: 'Shit Escalates quote with wolf.',
-    link: 'https://www.etsy.com/listing/1615795455/'
+    link: 'https://www.etsy.com/listing/1615795455/',
+    expired: true
   }
 ];
 
