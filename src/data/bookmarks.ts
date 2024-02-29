@@ -194,7 +194,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
     },
     description: 'Set of three bookmarks of Darrow, Cassius, and Mustang.',
-    link: 'https://www.etsy.com/listing/1538264034/'
+    link: 'https://www.etsy.com/listing/1538264034/',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -206,7 +207,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
     },
     description: 'Bookmark of Mustang.',
-    link: 'https://www.etsy.com/listing/1538272646/'
+    link: 'https://www.etsy.com/listing/1538272646/',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -218,7 +220,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
     },
     description: 'Bookmark of Cassius.',
-    link: 'https://www.etsy.com/listing/1538270854/'
+    link: 'https://www.etsy.com/listing/1538270854/',
+    expired: true
   },
   {
     date: '2023-11-06',
@@ -230,7 +233,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
     },
     description: 'Bookmark of Darrow.',
-    link: 'https://www.etsy.com/listing/1538266896/'
+    link: 'https://www.etsy.com/listing/1538266896/',
+    expired: true
   },
   {
     date: '2023-11-03',
