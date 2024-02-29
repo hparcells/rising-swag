@@ -1101,7 +1101,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/MagicCityMemoriesCo'
     },
     description: 'Show your Howler pride with this cool Red Rising Howler Sticker.',
-    link: 'https://www.etsy.com/listing/1158112596/'
+    link: 'https://www.etsy.com/listing/1158112596/',
+    expired: true
   },
   {
     date: '2023-10-23',

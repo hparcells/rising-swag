@@ -2229,7 +2229,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/RAHmarkableCrafts'
     },
     description: 'Howler for life T-shirt for any Red Rising Fan!',
-    link: 'https://www.etsy.com/listing/1631899066/'
+    link: 'https://www.etsy.com/listing/1631899066/',
+    expired: true
   },
   {
     date: '2024-02-21',
@@ -2242,7 +2243,8 @@ const data: IItem[] = [
     },
     description:
       "Red Rising Shirt- Multiple Colors! You can't go wrong with this t-shirt for your favorite Pierce Brown fan my goodman.",
-    link: 'https://www.etsy.com/listing/1633292494/'
+    link: 'https://www.etsy.com/listing/1633292494/',
+    expired: true
   },
   {
     date: '2024-02-21',
