@@ -267,6 +267,19 @@ const data: IItem[] = [
     },
     description: 'Handmade beaded and corded bookmark.',
     link: 'https://www.etsy.com/listing/1649274576/'
+  },
+  {
+    date: '2024-02-29',
+    image: 'https://i.etsystatic.com/35989708/r/il/b8b957/5704751707/il_794xN.5704751707_2pql.jpg',
+    name: 'Red Rising Bookmarks',
+    tags: ['bookmark'],
+    shop: {
+      name: 'PrettyPlaceholders',
+      url: 'https://www.etsy.com/shop/PrettyPlaceholders'
+    },
+    description:
+      'Inspired by the Howlers from Red Rising, this dark red velvet ribbon bookmark has a howling wolf on one end and a scythe on the other.',
+    link: 'https://www.etsy.com/listing/1653806131/'
   }
 ];
 
