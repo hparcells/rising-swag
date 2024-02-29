@@ -833,7 +833,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Hand-embellished with 18 k gold paint and signed, 5x7 inches MINI prints.',
-    link: 'https://www.etsy.com/listing/1553013926/'
+    link: 'https://www.etsy.com/listing/1553013926/',
+    expired: true
   },
   {
     date: '2024-02-04',
@@ -845,7 +846,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Limited Edition Gold Leaf 5x7 inch mini print.',
-    link: 'https://www.etsy.com/listing/1664766395/'
+    link: 'https://www.etsy.com/listing/1664766395/',
+    expired: true
   },
   {
     date: '2024-02-04',
@@ -883,7 +885,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Hand-embellished with 18 k gold paint. 5x7 inches MINI prints.',
-    link: 'https://www.etsy.com/listing/1665629802/'
+    link: 'https://www.etsy.com/listing/1665629802/',
+    expired: true
   },
   {
     date: '2024-02-20',
@@ -895,7 +898,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Limited Edition Gold Leaf 5x7 inch mini print.',
-    link: 'https://www.etsy.com/listing/1665628966/'
+    link: 'https://www.etsy.com/listing/1665628966/',
+    expired: true
   },
   {
     date: '2024-02-20',
@@ -907,7 +911,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/WildBrewed'
     },
     description: 'Limited Edition Silver Leaf 5x7 inch mini print.',
-    link: 'https://www.etsy.com/listing/1664771119/'
+    link: 'https://www.etsy.com/listing/1664771119/',
+    expired: true
   }
 ];
 
