@@ -1441,6 +1441,27 @@ const data: IItem[] = [
     },
     description: 'If your heart beats like a drum...',
     link: 'https://www.etsy.com/listing/1657238195/'
+  },
+  {
+    date: '2024-02-29',
+    image: 'https://i.etsystatic.com/16914832/r/il/76f9f6/5725025393/il_794xN.5725025393_pkfs.jpg',
+    name: 'Red Rising Book Stack Sticker',
+    tags: [
+      'sticker',
+      'red-rising',
+      'golden-son',
+      'morning-star',
+      'iron-gold',
+      'dark-age',
+      'light-bringer',
+      'red-god'
+    ],
+    shop: {
+      name: 'TheCrystalCactusCo',
+      url: 'https://www.etsy.com/shop/TheCrystalCactusCo'
+    },
+    description: 'Stack of the Red Rising series books.',
+    link: 'https://www.etsy.com/listing/1658704397/'
   }
 ];
 
