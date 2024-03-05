@@ -646,8 +646,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
     },
     description: '3 high quality satin finish prints of Darrow, Cassius, and Mustang.',
-    link: 'https://www.etsy.com/listing/1541900300/rise-art-print-bundle-red-rising',
-    expired: true
+    link: 'https://www.etsy.com/listing/1541900300/rise-art-print-bundle-red-rising'
   },
   {
     date: '2023-11-06',
@@ -659,8 +658,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
     },
     description: '5x7 print of Mustang.',
-    link: 'https://www.etsy.com/listing/1556076827/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1556076827/'
   },
   {
     date: '2023-11-06',
@@ -672,8 +670,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
     },
     description: '5x7 print of Cassius.',
-    link: 'https://www.etsy.com/listing/1556075707/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1556075707/'
   },
   {
     date: '2023-11-06',
@@ -685,8 +682,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ShayndlArtOriginals'
     },
     description: '5x7 print of Darrow.',
-    link: 'https://www.etsy.com/listing/1556073673/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1556073673/'
   },
   {
     date: '2023-11-06',
