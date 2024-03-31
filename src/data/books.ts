@@ -157,6 +157,42 @@ const data: IItem[] = [
     },
     description: 'Hard cover, full leather binding, gold plated books.',
     link: 'https://www.etsy.com/listing/1656222361/'
+  },
+  {
+    date: '2024-03-31',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/IMG_8685_1024x1024@2x.jpg',
+    name: 'Signed Red Rising Hardcover',
+    tags: ['book', 'official', 'red-rising'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description: "One signed hardcover copy of Pierce Brown's Red Rising, published by Del Rey.",
+    link: 'https://www.lit-escalates.com/products/signed-red-rising-harcover'
+  },
+  {
+    date: '2024-03-31',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/IMG_8764_1024x1024@2x.jpg',
+    name: 'Signed Golden Son Hardcover',
+    tags: ['book', 'official', 'golden-son'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description: "One signed hardcover copy of Pierce Brown's Golden Son, published by Del Rey.",
+    link: 'https://www.lit-escalates.com/products/signed-golden-son-hardcover'
+  },
+  {
+    date: '2024-03-31',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/IMG_8743_1024x1024@2x.jpg',
+    name: 'Signed Morning Star Hardcover',
+    tags: ['book', 'official', 'morning-star'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description: "One signed hardcover copy of Pierce Brown's Morning Star, published by Del Rey.",
+    link: 'https://www.lit-escalates.com/products/signed-morning-star-hardcover'
   }
 ];
 
