@@ -589,7 +589,8 @@ const data: IItem[] = [
     },
     description:
       'Let the fire of rebellion burn in your soul, and as you sip from this mug, let it remind you of our hopes, our struggles, and our unwavering resolve.',
-    link: 'https://www.etsy.com/listing/1596986027/'
+    link: 'https://www.etsy.com/listing/1596986027/',
+    expired: true
   },
   {
     date: '2023-11-03',
