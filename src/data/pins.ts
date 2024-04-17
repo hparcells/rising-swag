@@ -399,6 +399,58 @@ const data: IItem[] = [
       'This bookish companion enamel pin features none other than Sophocles, a jellybean fiend and loyal companion to Kavax.',
     link: 'https://www.etsy.com/listing/1463004146/',
     expired: true
+  },
+  {
+    date: '2024-04-17',
+    image: 'https://i.etsystatic.com/47602254/r/il/17761c/5865548401/il_794xN.5865548401_9suh.jpg',
+    name: 'Break the Chains Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Conquer the worlds with our Red Rising-inspired pin, a tribute to the courage of the Howlers and the resilience of the Society.',
+    link: 'https://www.etsy.com/listing/1676561702/'
+  },
+  {
+    date: '2024-04-17',
+    image: 'https://i.etsystatic.com/47602254/r/il/fb77d2/5865531281/il_794xN.5865531281_4rja.jpg',
+    name: 'Summon the Howlers Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Conquer the worlds with our Red Rising-inspired pin, a tribute to the courage of the Howlers and the resilience of the Society.',
+    link: 'https://www.etsy.com/listing/1690728527/'
+  },
+  {
+    date: '2024-04-17',
+    image: 'https://i.etsystatic.com/47602254/r/il/d7b920/5865542443/il_794xN.5865542443_pglc.jpg',
+    name: 'Wakey Wakey Goblin Pin',
+    tags: ['pin', 'sevro'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Conquer the worlds with our Red Rising-inspired pin, a tribute to the courage of the Howlers and the resilience of the Society.',
+    link: 'https://www.etsy.com/listing/1676560294/'
+  },
+  {
+    date: '2024-04-17',
+    image: 'https://i.etsystatic.com/47602254/r/il/7f3efd/5817468366/il_794xN.5817468366_rv6e.jpg',
+    name: 'Never Bow Enamel Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'Conquer the worlds with our Red Rising-inspired pin, a tribute to the courage of the Howlers and the resilience of the Society.',
+    link: 'https://www.etsy.com/listing/1690733513/'
   }
 ];
 

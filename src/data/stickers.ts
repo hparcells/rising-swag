@@ -1316,7 +1316,7 @@ const data: IItem[] = [
   },
   {
     date: '2024-01-23',
-    image: 'https://i.etsystatic.com/47602254/r/il/d6b0b6/5703954215/il_794xN.5703954215_rwom.jpg',
+    image: 'https://i.etsystatic.com/47602254/r/il/f70ac8/5817386006/il_794xN.5817386006_5zla.jpg',
     name: 'Wakey Wakey Goblin Sticker',
     tags: ['sticker', 'sevro'],
     shop: {
@@ -1462,6 +1462,54 @@ const data: IItem[] = [
     },
     description: 'Stack of the Red Rising series books.',
     link: 'https://www.etsy.com/listing/1658704397/'
+  },
+  {
+    date: '2024-04-17',
+    image: 'https://i.etsystatic.com/47602254/r/il/a56c18/5865447619/il_794xN.5865447619_9jn1.jpg',
+    name: 'Never Bow Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description: 'Never bow sticker.',
+    link: 'https://www.etsy.com/listing/1676540418/'
+  },
+  {
+    date: '2024-04-17',
+    image: 'https://i.etsystatic.com/47602254/r/il/9faf74/5817381088/il_794xN.5817381088_rqud.jpg',
+    name: 'Break the Chains Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description: '"Break the Chains" sticker and a slingBlade.',
+    link: 'https://www.etsy.com/listing/1676544434/'
+  },
+  {
+    date: '2024-04-17',
+    image: 'https://i.etsystatic.com/47602254/r/il/4f7e52/5865456099/il_794xN.5865456099_hy8i.jpg',
+    name: 'Summon the Howlers Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description: 'Summon the Howlers sticker.',
+    link: 'https://www.etsy.com/listing/1676542216/'
+  },
+  {
+    date: '2024-04-17',
+    image: 'https://i.etsystatic.com/47602254/r/il/79a695/5817448192/il_794xN.5817448192_of7n.jpg',
+    name: 'Helium 3 Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description: 'Helium 3 element sticker.',
+    link: 'https://www.etsy.com/listing/1690714119/'
   }
 ];
 
