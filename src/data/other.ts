@@ -364,8 +364,7 @@ const data: IItem[] = [
     },
     description:
       'Help cover up the smell of dead fish in your room with these wax melts inspired by Sevro from Red Rising! ;)',
-    link: 'https://www.etsy.com/listing/1328197257/bloody-damn-goblin-wax-melts-unicorn',
-    expired: true
+    link: 'https://www.etsy.com/listing/1328197257/bloody-damn-goblin-wax-melts-unicorn'
   },
   {
     date: '2023-03-26',

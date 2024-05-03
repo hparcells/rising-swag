@@ -35,8 +35,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ThePurpuraProject'
     },
     description: 'A coffee tumbler with the gold sigil, red sigil, and the wolf of mars.',
-    link: 'https://www.etsy.com/listing/1265030165/red-rising-gold-and-red-sigil-red-coffee',
-    expired: true
+    link: 'https://www.etsy.com/listing/1265030165/red-rising-gold-and-red-sigil-red-coffee'
   },
   {
     date: '2023-04-29',
@@ -62,8 +61,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A vacuum insulated tumbler with the sigil of Gold.',
-    link: 'https://www.etsy.com/listing/1469425205/red-rising-gold-sigil-tumbler',
-    expired: true
+    link: 'https://www.etsy.com/listing/1469425205/red-rising-gold-sigil-tumbler'
   },
   {
     date: '2023-04-29',
@@ -75,8 +73,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A vacuum insulated tumbler with the map of the solar system.',
-    link: 'https://www.etsy.com/listing/1455206746/red-rising-the-society-tumbler',
-    expired: true
+    link: 'https://www.etsy.com/listing/1455206746/red-rising-the-society-tumbler'
   },
   {
     date: '2023-04-29',
@@ -88,8 +85,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'A vacuum insulated tumbler with the sigil of Red.',
-    link: 'https://www.etsy.com/listing/1455221328/red-rising-red-sigil-tumbler',
-    expired: true
+    link: 'https://www.etsy.com/listing/1455221328/red-rising-red-sigil-tumbler'
   },
   {
     date: '2023-05-03',
@@ -101,8 +97,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Steel tumbler with straw.',
-    link: 'https://www.etsy.com/listing/1473483399/red-rising-omnis-vir-lupus-skinny-steel',
-    expired: true
+    link: 'https://www.etsy.com/listing/1473483399/red-rising-omnis-vir-lupus-skinny-steel'
   },
   {
     date: '2023-05-03',
@@ -115,8 +110,7 @@ const data: IItem[] = [
     },
     description:
       'Small travel size tumbler of the cover art of the Subterranean Press edition of Golden Son.',
-    link: 'https://www.etsy.com/listing/1473480329/red-rising-peerless-10oz-tumbler',
-    expired: true
+    link: 'https://www.etsy.com/listing/1473480329/red-rising-peerless-10oz-tumbler'
   },
   {
     date: '2023-05-04',
@@ -129,8 +123,7 @@ const data: IItem[] = [
     },
     description:
       'Our limited edition, slip-cast ceramic Wolf Skull Flasks were created exclusively for Shit Escalates by master artisan Matthew Jones. ',
-    link: 'https://www.lit-escalates.com/products/wolf-skull-flasl',
-    expired: true
+    link: 'https://www.lit-escalates.com/products/wolf-skull-flasl'
   },
   {
     date: '2023-05-04',
@@ -142,8 +135,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/KittenKeepDesigns'
     },
     description: 'A wolf and slingBlades etched on a wine glass.',
-    link: 'https://www.etsy.com/listing/693919002/',
-    expired: true
+    link: 'https://www.etsy.com/listing/693919002/'
   },
   {
     date: '2023-05-04',
@@ -155,8 +147,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/KittenKeepDesigns'
     },
     description: 'The wolf of House Mars etched on a pint glass.',
-    link: 'https://www.etsy.com/listing/704309775/',
-    expired: true
+    link: 'https://www.etsy.com/listing/704309775/'
   },
   {
     date: '2023-07-10',
@@ -168,8 +159,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/APCDesignsShop'
     },
     description: 'A tumbler with a wolf and slingBlade, and the text "Hail Reaper".',
-    link: 'https://www.etsy.com/listing/1517397349',
-    expired: true
+    link: 'https://www.etsy.com/listing/1517397349'
   }
 ];
 

@@ -237,8 +237,7 @@ const data: IItem[] = [
     },
     description:
       'Smell like Sevro? Light this candle to fill your home with sweet scents of anything but a Howler.',
-    link: 'https://www.etsy.com/listing/1620869727/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1620869727/'
   }
 ];
 

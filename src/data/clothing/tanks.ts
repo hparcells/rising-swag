@@ -182,8 +182,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: "The Howlers' War on Heaven Tour tank.",
-    link: 'https://www.etsy.com/listing/1538569052/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1538569052/'
   },
   {
     date: '2023-11-15',
