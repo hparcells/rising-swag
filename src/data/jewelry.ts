@@ -420,7 +420,8 @@ const data: IItem[] = [
     },
     description:
       'A miniature version of the Red Rising book cover in a necklace. All books available for order.',
-    link: 'https://www.etsy.com/listing/1473030381/'
+    link: 'https://www.etsy.com/listing/1473030381/',
+    expired: true
   },
   {
     date: '2023-08-09',

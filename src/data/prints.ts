@@ -455,7 +455,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/HailReaperPod'
     },
     description: '"I know what I am."',
-    link: 'https://www.etsy.com/listing/1508530093/'
+    link: 'https://www.etsy.com/listing/1508530093/',
+    expired: true
   },
   {
     date: '2023-07-05',

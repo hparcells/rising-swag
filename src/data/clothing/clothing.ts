@@ -646,7 +646,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/TheStylishGamer'
     },
     description: 'Simplistic tee featuring the Red sigil.',
-    link: 'https://www.etsy.com/listing/1404638345/red-rising-sigil-tee-unisex-tshirt'
+    link: 'https://www.etsy.com/listing/1404638345/red-rising-sigil-tee-unisex-tshirt',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -1300,7 +1301,8 @@ const data: IItem[] = [
     },
     description:
       'Rise above the rest as a Peerless Iron Gold with this Red Rising inspired fan tee.',
-    link: 'https://www.etsy.com/listing/1502745054/'
+    link: 'https://www.etsy.com/listing/1502745054/',
+    expired: true
   },
   {
     date: '2023-07-19',

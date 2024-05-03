@@ -404,7 +404,8 @@ const data: IItem[] = [
     },
     description:
       'Sevro is our most beloved goblin! Some might even say that Sevro is their spirit animal.',
-    link: 'https://www.etsy.com/listing/1076949461/red-rising-bumper-sticker-sevro-is-my'
+    link: 'https://www.etsy.com/listing/1076949461/red-rising-bumper-sticker-sevro-is-my',
+    expired: true
   },
   {
     date: '2023-03-21',
@@ -429,7 +430,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/SkyBlueStudiosCo'
     },
     description: 'High quality vinyl stickers of the wolf of House Mars.',
-    link: 'https://www.etsy.com/listing/1235336532/omnis-vir-lupus-red-rising-howlers-book'
+    link: 'https://www.etsy.com/listing/1235336532/omnis-vir-lupus-red-rising-howlers-book',
+    expired: true
   },
   {
     date: '2023-03-26',

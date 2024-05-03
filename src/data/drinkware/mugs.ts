@@ -460,7 +460,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Another Red Rising Mug to add to the collection.',
-    link: 'https://www.etsy.com/listing/600986950/'
+    link: 'https://www.etsy.com/listing/600986950/',
+    expired: true
   },
   {
     date: '2023-08-15',
@@ -550,7 +551,8 @@ const data: IItem[] = [
     },
     description:
       "My fellow Howlers, as we rise to face the unforgiving world with the dawn's first light, let it be known that we will NEVER BOW!",
-    link: 'https://www.etsy.com/listing/1592792673/'
+    link: 'https://www.etsy.com/listing/1592792673/',
+    expired: true
   },
   {
     date: '2023-11-03',
@@ -602,7 +604,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'White, gray and black 16oz mug hand painted rust red with vinyl lettering.',
-    link: 'https://www.etsy.com/listing/1587019588/'
+    link: 'https://www.etsy.com/listing/1587019588/',
+    expired: true
   },
   {
     date: '2023-11-03',
@@ -744,7 +747,8 @@ const data: IItem[] = [
     },
     description:
       'This mug, bearing the symbols of our rebellion, is a testament to the power of that first sip, a reminder that even in the darkest of times, we can rise, conquer, and shape our destiny.',
-    link: 'https://www.etsy.com/listing/1631251852/'
+    link: 'https://www.etsy.com/listing/1631251852/',
+    expired: true
   },
   {
     date: '2024-01-23',
@@ -757,7 +761,8 @@ const data: IItem[] = [
     },
     description:
       'This mug was more than a mere vessel for my morning ritual. It was a promise, a symbol of our indomitable spirit, a reminder that in the darkest of times, we could rise again.',
-    link: 'https://www.etsy.com/listing/1627106586/'
+    link: 'https://www.etsy.com/listing/1627106586/',
+    expired: true
   },
   {
     date: '2024-02-01',
@@ -769,7 +774,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Red hefty 23oz mug hand painted gold accent with vinyl design.',
-    link: 'https://www.etsy.com/listing/1603279640/'
+    link: 'https://www.etsy.com/listing/1603279640/',
+    expired: true
   },
   {
     date: '2024-02-21',
