@@ -27,8 +27,7 @@ const data: IItem[] = [
     },
     description:
       "It'll save your life, at the cost of a limb. Fully finished with acrylic paint and simulated leather on the hilt. Nearly 3 feet long, will come shipped in 2 pieces.",
-    link: 'https://www.etsy.com/listing/1199461676/finished-slingblade',
-    expired: true
+    link: 'https://www.etsy.com/listing/1539545009'
   },
   {
     date: '2023-03-14',
@@ -41,8 +40,7 @@ const data: IItem[] = [
     },
     description:
       "It'll save your life, at the cost of a limb. Nearly 3 feet long, will come shipped in 5 pieces. Will need to be glued, sanded, and painted.",
-    link: 'https://www.etsy.com/listing/1213418629/slingblade-kit',
-    expired: true
+    link: 'https://www.etsy.com/listing/1525367696/slingblade-kit'
   },
   {
     date: '2023-03-14',
@@ -606,8 +604,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/OrangeArmory'
     },
     description: "Sevro's Razor fully painted and assembled.",
-    link: 'https://www.etsy.com/listing/1217942329/sevro-razor-finished',
-    expired: true
+    link: 'https://www.etsy.com/listing/1718498259/sevro-razor-finished'
   },
   {
     date: '2023-05-04',

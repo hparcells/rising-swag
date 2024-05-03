@@ -2284,6 +2284,19 @@ const data: IItem[] = [
     },
     description: 'Unleash Your Inner Martian with Our "House Mars" T-Shirt!',
     link: 'https://www.etsy.com/listing/1669098313/'
+  },
+  {
+    date: '2024-05-03',
+    image: 'https://i.etsystatic.com/29764445/r/il/5bcb8c/5958258452/il_794xN.5958258452_8nuu.jpg',
+    name: 'Julii Industries Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'OrangeArmory',
+      url: 'https://www.etsy.com/shop/OrangeArmory'
+    },
+    description:
+      'Adorned with the illustrious House Julii emblem, this T-shirt proudly showcases our legacy of power and dominance in the interstellar trade.',
+    link: 'https://www.etsy.com/listing/1723848399/'
   }
 ];
 

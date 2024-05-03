@@ -409,6 +409,19 @@ const data: IItem[] = [
     },
     description: 'His honor remains.',
     link: 'https://www.etsy.com/listing/1636870646/'
+  },
+  {
+    date: '2024-05-03',
+    image: 'https://i.etsystatic.com/29764445/r/il/e2b30f/5958318212/il_794xN.5958318212_ka9u.jpg',
+    name: 'Julii Industries Hoodie',
+    tags: ['hoodie'],
+    shop: {
+      name: 'OrangeArmory',
+      url: 'https://www.etsy.com/shop/OrangeArmory'
+    },
+    description:
+      'Adorned with the illustrious House Julii emblem, this Hoodie proudly showcases our legacy of power and dominance in the interstellar trade.',
+    link: 'https://www.etsy.com/listing/1709678350/'
   }
 ];
 
