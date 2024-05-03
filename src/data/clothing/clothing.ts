@@ -2259,6 +2259,31 @@ const data: IItem[] = [
     },
     description: 'Perfect for any Red Rising fan.',
     link: 'https://www.etsy.com/listing/1631867880/'
+  },
+  {
+    date: '2024-05-03',
+    image: 'https://i.etsystatic.com/46993335/r/il/7b95a7/5897892724/il_794xN.5897892724_4zah.jpg',
+    name: 'Mars Institute God of War Shirt',
+    tags: ['shirt', 'red-rising'],
+    shop: {
+      name: 'HappyFluffyApparel',
+      url: 'https://www.etsy.com/shop/HappyFluffyApparel'
+    },
+    description:
+      'Embrace the revolutionary spirit of the Red Rising Saga with our exclusive homage to the fierce and fearless Ares, the God of War.',
+    link: 'https://www.etsy.com/listing/1695255926/'
+  },
+  {
+    date: '2024-05-03',
+    image: 'https://i.etsystatic.com/46993335/r/il/bfa702/5773783957/il_794xN.5773783957_grp0.jpg',
+    name: 'House Mars T-Shirt',
+    tags: ['shirt', 'red-rising'],
+    shop: {
+      name: 'HappyFluffyApparel',
+      url: 'https://www.etsy.com/shop/HappyFluffyApparel'
+    },
+    description: 'Unleash Your Inner Martian with Our "House Mars" T-Shirt!',
+    link: 'https://www.etsy.com/listing/1669098313/'
   }
 ];
 

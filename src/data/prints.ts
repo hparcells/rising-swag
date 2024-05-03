@@ -910,6 +910,18 @@ const data: IItem[] = [
     description: 'Limited Edition Silver Leaf 5x7 inch mini print.',
     link: 'https://www.etsy.com/listing/1664771119/',
     expired: true
+  },
+  {
+    date: '2024-05-03',
+    image: 'https://i.etsystatic.com/17490952/r/il/6248e6/2727685092/il_794xN.2727685092_rcsk.jpg',
+    name: 'Red Rising Long Poster',
+    tags: ['print', 'sevro', 'darrow', 'mustang'],
+    shop: {
+      name: 'firenationcreations',
+      url: 'https://www.etsy.com/shop/firenationcreations'
+    },
+    description: 'Long poster of Darrow, Sevro, and Mustang.',
+    link: 'https://www.etsy.com/listing/908663150/'
   }
 ];
 
