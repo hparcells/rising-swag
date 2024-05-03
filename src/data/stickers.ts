@@ -1174,7 +1174,7 @@ const data: IItem[] = [
   {
     date: '2023-11-08',
     image: 'https://i.etsystatic.com/43921165/r/il/eb4746/5453887556/il_794xN.5453887556_3pzq.jpg',
-    name: 'Lo, Reaper - Virginia/Mustang from Red Rising by Pierce Brown Sticker',
+    name: 'Lo, Reaper Sticker',
     tags: ['sticker', 'darrow', 'mustang'],
     shop: {
       name: 'BookWears',
@@ -1186,7 +1186,7 @@ const data: IItem[] = [
   {
     date: '2023-11-08',
     image: 'https://i.etsystatic.com/43921165/r/il/a24042/5502011619/il_794xN.5502011619_qt26.jpg',
-    name: 'Lo, Mustang - Darrow from Red Rising by Pierce Brown',
+    name: 'Lo, Mustang Sticker',
     tags: ['sticker', 'darrow', 'mustang'],
     shop: {
       name: 'BookWears',
