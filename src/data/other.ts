@@ -1226,6 +1226,30 @@ const data: IItem[] = [
     },
     description: 'LED, remote controlled, with 16 different color options for you.',
     link: 'https://www.etsy.com/listing/1534866109/'
+  },
+  {
+    date: '2024-05-03',
+    image: 'https://i.etsystatic.com/15519608/r/il/6daf09/5941449138/il_794xN.5941449138_55ub.jpg',
+    name: 'Sevro Kindle Charm',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'Handmade beaded and elastic corded Kindle Case Sleeve charm.',
+    link: 'https://www.etsy.com/listing/1705855230/'
+  },
+  {
+    date: '2024-05-03',
+    image: 'https://i.etsystatic.com/15519608/r/il/6362cd/5941467268/il_794xN.5941467268_u3vu.jpg',
+    name: 'Howler Cup Sleeves',
+    tags: ['other', 'darrow', 'sevro'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'For hot or cold drinks. They make a festive addition to your get together!',
+    link: 'https://www.etsy.com/listing/1705862124/'
   }
 ];
 

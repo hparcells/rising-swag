@@ -280,6 +280,18 @@ const data: IItem[] = [
       'Inspired by the Howlers from Red Rising, this dark red velvet ribbon bookmark has a howling wolf on one end and a scythe on the other.',
     link: 'https://www.etsy.com/listing/1653806131/',
     expired: true
+  },
+  {
+    date: '2024-05-03',
+    image: 'https://i.etsystatic.com/15519608/r/il/e4f6b1/5941412502/il_794xN.5941412502_eu2t.jpg',
+    name: 'Sevro Bookmark',
+    tags: ['bookmark'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'Handmade beaded and corded bookmark.',
+    link: 'https://www.etsy.com/listing/1720029093/'
   }
 ];
 
