@@ -788,6 +788,18 @@ const data: IItem[] = [
     },
     description: 'The perfect cup to enjoy while reading or while sipping coffee at work',
     link: 'https://www.etsy.com/listing/1615560069/'
+  },
+  {
+    date: '2024-05-03',
+    image: 'https://i.etsystatic.com/16046340/r/il/a58db6/5569993124/il_794xN.5569993124_bzpi.jpg',
+    name: 'Shit Escalates Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Shit Escalates. Better drink some coffee.',
+    link: 'https://www.etsy.com/listing/1627483417/'
   }
 ];
 
