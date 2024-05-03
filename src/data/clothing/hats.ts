@@ -526,6 +526,30 @@ const data: IItem[] = [
     description:
       'Enjoy the Red Rising fandom with this Knit Beanie embroidered with the Red and Gold sigils.',
     link: 'https://www.etsy.com/listing/1577767162/'
+  },
+  {
+    date: '2024-05-03',
+    image: 'https://i.etsystatic.com/21279369/r/il/4836ec/5932349291/il_794xN.5932349291_12kl.jpg',
+    name: 'Pretty Pixie Cap',
+    tags: ['hat'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: "You'll look pretty in pixie with this Red Rising inspired lid.",
+    link: 'https://www.etsy.com/listing/1691804890/'
+  },
+  {
+    date: '2024-05-03',
+    image: 'https://i.etsystatic.com/21279369/r/il/7b37fa/5886153534/il_794xN.5886153534_qcek.jpg',
+    name: 'Golden Pixie Snapback Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'TheMightyPenBookTees',
+      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
+    },
+    description: "Hey listen, Pixie! Here's the perfect way to show-off you're a pixie.",
+    link: 'https://www.etsy.com/listing/1706413717/'
   }
 ];
 
