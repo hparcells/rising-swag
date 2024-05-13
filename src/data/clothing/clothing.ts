@@ -2297,6 +2297,18 @@ const data: IItem[] = [
     description:
       'Adorned with the illustrious House Julii emblem, this T-shirt proudly showcases our legacy of power and dominance in the interstellar trade.',
     link: 'https://www.etsy.com/listing/1723848399/'
+  },
+  {
+    date: '2024-05-13',
+    image: 'https://i.etsystatic.com/25764324/r/il/d21040/6030352601/il_794xN.6030352601_9wr4.jpg',
+    name: 'Break the Chains Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'RachWillzDesigns',
+      url: 'https://www.etsy.com/shop/RachWillzDesigns'
+    },
+    description: '"Break the Chains" quote with a haemanthus and quotes from Red Rising.',
+    link: 'https://www.etsy.com/listing/1715285216/'
   }
 ];
 
