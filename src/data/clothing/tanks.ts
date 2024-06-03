@@ -209,6 +209,19 @@ const data: IItem[] = [
     description:
       "The long sleeved version was so popular we figured why not add a more gym friendly companion? After all, you'll want to literally flex after all that razor training.",
     link: 'https://www.etsy.com/listing/1611658867/'
+  },
+  {
+    date: '2024-06-03',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/tank2_1024x1024@2x.jpg',
+    name: 'Sons of Ares Unisex Tank Top',
+    tags: ['tank', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com'
+    },
+    description:
+      'Emblazoned with the original Sons of Ares symbol Joel designed for the launch of Red Rising',
+    link: 'https://www.lit-escalates.com/products/sons-of-ares-tank-top'
   }
 ];
 

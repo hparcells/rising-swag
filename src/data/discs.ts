@@ -70,6 +70,19 @@ const data: IItem[] = [
     description:
       'New custom Chain Breaker Pure White Wizard Approach/Putter from Gateway Disc Sports. Stamp design by Miles Bensky Designs.',
     link: 'https://milesbenskydesigns.square.site/product/chain-breaker-disc-gateway-wizard-/1'
+  },
+  {
+    date: '2024-06-03',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/IMG_3445_1024x1024@2x.jpg',
+    name: 'Sophocles Summer Disc',
+    tags: ['disc', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com'
+    },
+    description:
+      'Designed by Miles Bensky, the Sophocles Summer design is printed in with holographic, color-shifting jellybean tones that are guaranteed to catch the light and the eyes of your fellow howlers.',
+    link: 'https://www.lit-escalates.com/products/sophocles-summer-disc'
   }
 ];
 

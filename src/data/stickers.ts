@@ -1512,6 +1512,19 @@ const data: IItem[] = [
     },
     description: 'Helium 3 element sticker.',
     link: 'https://www.etsy.com/listing/1690714119/'
+  },
+  {
+    date: '2024-06-03',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/IMG_00591-Editcopy2_1024x1024@2x.jpg',
+    name: 'Sons of Ares Sticker',
+    tags: ['sticker', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'Our Sons of Ares sticker is printed on durable, high opacity adhesive vinyl which makes it perfect for regular indoor use.',
+    link: 'https://www.lit-escalates.com/products/sons-of-ares-sticker'
   }
 ];
 

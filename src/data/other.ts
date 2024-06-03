@@ -1247,6 +1247,33 @@ const data: IItem[] = [
     },
     description: 'For hot or cold drinks. They make a festive addition to your get together!',
     link: 'https://www.etsy.com/listing/1705862124/'
+  },
+  {
+    date: '2024-06-03',
+    image: 'https://www.lit-escalates.com/cdn/shop/files/canlake_1024x1024@2x.jpg',
+    name: 'Sophocles Summer Koozie',
+    tags: ['other', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      "Cozy in the hand and insulating AF.  Our collapsable foam insulated black can koozie features Miles Bensky's Sophocles Summer design.",
+    link: 'https://www.lit-escalates.com/products/sophocles-summer-koozie'
+  },
+  {
+    date: '2024-06-03',
+    image:
+      'https://www.lit-escalates.com/cdn/shop/files/all-over-print-flag-white-front-665511b6c3a7e_1024x1024@2x.png',
+    name: "Helldiver's Union Flag",
+    tags: ['other', 'official'],
+    shop: {
+      name: 'Lit Escalates',
+      url: 'https://www.lit-escalates.com/'
+    },
+    description:
+      'While Quicksilver would probably fight unionization with every ounce of his murky being, we wanted to imagine what would happen if the Helldivers unionized during Dark Age.',
+    link: 'https://www.lit-escalates.com/products/helldivers-union-flag'
   }
 ];
 
