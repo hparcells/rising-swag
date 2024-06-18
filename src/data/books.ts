@@ -193,6 +193,19 @@ const data: IItem[] = [
     },
     description: "One signed hardcover copy of Pierce Brown's Morning Star, published by Del Rey.",
     link: 'https://www.lit-escalates.com/products/signed-morning-star-hardcover'
+  },
+  {
+    date: '2024-06-18',
+    image: 'https://static.wixstatic.com/media/4169ee_5c6f7d749d9b489a859a9acfa19d6f3d~mv2.jpeg',
+    name: 'Red Rising Dust Jackets',
+    tags: ['book', 'red-rising', 'golden-son', 'morning-star'],
+    shop: {
+      name: 'bronwyn.psd',
+      url: 'https://www.bronwyn-psd.com/'
+    },
+    description:
+      'This includes a cover for Red Rising, Golden Son, and Morning Star designed by @bronwyn.psd on Instagram.',
+    link: 'https://www.bronwyn-psd.com/product-page/red-rising-dust-jackets-first-3-books-only'
   }
 ];
 
