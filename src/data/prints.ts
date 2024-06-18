@@ -922,6 +922,90 @@ const data: IItem[] = [
     },
     description: 'Long poster of Darrow, Sevro, and Mustang.',
     link: 'https://www.etsy.com/listing/908663150/'
+  },
+  {
+    date: '2024-06-18',
+    image: 'https://static.wixstatic.com/media/4169ee_d85604b623b84ce6892e6ac85e75a006~mv2.jpeg',
+    name: 'Live For More Print',
+    tags: ['print'],
+    shop: {
+      name: 'bronwyn.psd',
+      url: 'https://www.bronwyn-psd.com/'
+    },
+    description: 'Ragnar and "Live for More".',
+    link: 'https://www.bronwyn-psd.com/product-page/ragnar-portrait'
+  },
+  {
+    date: '2024-06-18',
+    image: 'https://static.wixstatic.com/media/4169ee_12d7d8e66316450194d323fda1d2f292~mv2.jpeg',
+    name: 'Power Couples Print',
+    tags: ['print', 'sevro', 'victra', 'darrow', 'mustang'],
+    shop: {
+      name: 'bronwyn.psd',
+      url: 'https://www.bronwyn-psd.com/'
+    },
+    description: 'Sevro and Victra, Darrow and Mustang.',
+    link: 'https://www.bronwyn-psd.com/product-page/power-couples'
+  },
+  {
+    date: '2024-06-18',
+    image: 'https://static.wixstatic.com/media/4169ee_fb523c87010e46df9baa44049cf5d3e7~mv2.jpeg',
+    name: 'The Big Three Print',
+    tags: ['print', 'sevro', 'darrow', 'cassius'],
+    shop: {
+      name: 'bronwyn.psd',
+      url: 'https://www.bronwyn-psd.com/'
+    },
+    description: 'Sevro, Darrow, and Cassius print.',
+    link: 'https://www.bronwyn-psd.com/product-page/the-big-three'
+  },
+  {
+    date: '2024-06-18',
+    image: 'https://static.wixstatic.com/media/4169ee_52d41a87c8b84ea2869d1b40f0dfd2b6~mv2.jpeg',
+    name: 'Reaper Print',
+    tags: ['print', 'darrow'],
+    shop: {
+      name: 'bronwyn.psd',
+      url: 'https://www.bronwyn-psd.com/'
+    },
+    description: 'Darrow print.',
+    link: 'https://www.bronwyn-psd.com/product-page/dark-age-portrait'
+  },
+  {
+    date: '2024-06-18',
+    image: 'https://static.wixstatic.com/media/4169ee_18e8aa0675804e70af30c71e01d73617~mv2.jpeg',
+    name: 'Brother Of Darrow Print',
+    tags: ['print', 'cassius'],
+    shop: {
+      name: 'bronwyn.psd',
+      url: 'https://www.bronwyn-psd.com/'
+    },
+    description: 'Cassius and his declaration.',
+    link: 'https://www.bronwyn-psd.com/product-page/cassius-portrait'
+  },
+  {
+    date: '2024-06-18',
+    image: 'https://static.wixstatic.com/media/4169ee_4aadd8e269a94ceb920561fe0ae50ea8~mv2.jpeg',
+    name: "Darrow O'Lykos Prints",
+    tags: ['print', 'darrow'],
+    shop: {
+      name: 'bronwyn.psd',
+      url: 'https://www.bronwyn-psd.com/'
+    },
+    description: "Darrow O'Lykos print.",
+    link: 'https://www.bronwyn-psd.com/product-page/darrow-o-lykos-print'
+  },
+  {
+    date: '2024-06-18',
+    image: 'https://static.wixstatic.com/media/4169ee_3986758219be4c139bfd5eead8a8231a~mv2.jpeg',
+    name: 'Cassius & Aurae Print',
+    tags: ['print', 'cassius', 'light-bringer'],
+    shop: {
+      name: 'bronwyn.psd',
+      url: 'https://www.bronwyn-psd.com/'
+    },
+    description: 'Cassius and Aurae print.',
+    link: 'Cassius & Aurae Print'
   }
 ];
 

@@ -206,6 +206,27 @@ const data: IItem[] = [
     description:
       'This includes a cover for Red Rising, Golden Son, and Morning Star designed by @bronwyn.psd on Instagram.',
     link: 'https://www.bronwyn-psd.com/product-page/red-rising-dust-jackets-first-3-books-only'
+  },
+  {
+    date: '2024-06-18',
+    image: 'https://static.wixstatic.com/media/4169ee_64c1f3958d8a42189085727610cbaece~mv2.jpg',
+    name: 'Red Rising Dust Jacket Full Set',
+    tags: [
+      'book',
+      'red-rising',
+      'golden-son',
+      'morning-star',
+      'iron-gold',
+      'dark-age',
+      'light-bringer'
+    ],
+    shop: {
+      name: 'bronwyn.psd',
+      url: 'https://www.bronwyn-psd.com/'
+    },
+    description:
+      'This includes a cover for Red Rising, Golden Son, Morning Star, Iron Gold, Dark Age, and Light Bringer designed by @bronwyn.psd on Instagram.',
+    link: 'https://www.bronwyn-psd.com/product-page/red-rising-dust-jacket-set'
   }
 ];
 
