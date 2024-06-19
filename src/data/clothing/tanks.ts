@@ -221,7 +221,8 @@ const data: IItem[] = [
     },
     description:
       'Emblazoned with the original Sons of Ares symbol Joel designed for the launch of Red Rising',
-    link: 'https://www.lit-escalates.com/products/sons-of-ares-tank-top'
+    link: 'https://www.lit-escalates.com/products/sons-of-ares-tank-top',
+    expired: true
   }
 ];
 
