@@ -1274,6 +1274,18 @@ const data: IItem[] = [
     description:
       'While Quicksilver would probably fight unionization with every ounce of his murky being, we wanted to imagine what would happen if the Helldivers unionized during Dark Age.',
     link: 'https://www.lit-escalates.com/products/helldivers-union-flag'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/51096117/r/il/6c6e25/5899463783/il_794xN.5899463783_velp.jpg',
+    name: 'Crochet Howler Logo Graph Pattern',
+    tags: ['other'],
+    shop: {
+      name: 'TheStitchBitchTris',
+      url: 'https://www.etsy.com/shop/TheStitchBitchTris'
+    },
+    description: 'Graph only. Crochet graph pattern of Red Rising Howler logo. 47x48 pixels.',
+    link: 'https://www.etsy.com/listing/1684343072/'
   }
 ];
 
