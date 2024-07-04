@@ -1313,6 +1313,18 @@ const data: IItem[] = [
     description: 'Red Rising oversized throw blanket.',
     link: 'https://www.etsy.com/listing/1334653424/',
     expired: true
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/14078379/r/il/b23f9e/6009479196/il_794xN.6009479196_hqow.jpg',
+    name: 'Acrylic Hail Libertas, Hail Reaper Sign',
+    tags: ['other'],
+    shop: {
+      name: 'PinionPlus',
+      url: 'https://www.etsy.com/shop/PinionPlus'
+    },
+    description: 'This is an acrylic sign representing the Reaper of Mars and the Howlers.',
+    link: 'https://www.etsy.com/listing/1721692490/'
   }
 ];
 

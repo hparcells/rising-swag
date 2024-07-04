@@ -316,6 +316,28 @@ const data: IItem[] = [
     },
     description: 'Digital download bookmarks.',
     link: 'https://www.etsy.com/listing/1712113909/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/14078379/r/il/0fbe61/6087977608/il_794xN.6087977608_bb4z.jpg',
+    name: 'Engraved Metal Book Cards',
+    tags: [
+      'bookmark',
+      'red-rising',
+      'golden-son',
+      'morning-star',
+      'iron-gold',
+      'dark-age',
+      'light-bringer',
+      'red-god'
+    ],
+    shop: {
+      name: 'PinionPlus',
+      url: 'https://www.etsy.com/shop/PinionPlus'
+    },
+    description:
+      'Embrace your Howler Pride with these engraved metal cards inspired by the book covers of the saga. Quotes on the backs.',
+    link: 'https://www.etsy.com/listing/1752518099/'
   }
 ];
 
