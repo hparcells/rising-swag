@@ -2309,6 +2309,32 @@ const data: IItem[] = [
     },
     description: '"Break the Chains" quote with a haemanthus and quotes from Red Rising.',
     link: 'https://www.etsy.com/listing/1715285216/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/51667155/r/il/6052de/5981324447/il_794xN.5981324447_9qvj.jpg',
+    name: 'Howlers T-shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMagicCloak',
+      url: 'https://www.etsy.com/shop/TheMagicCloak'
+    },
+    description:
+      'Show your allegiance to the rising and elite status as a Howler with this Tee. Omnis Vir Lupus',
+    link: 'https://www.etsy.com/listing/1703999560/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/51667155/r/il/a534e6/5981328649/il_794xN.5981328649_6ppg.jpg',
+    name: 'Howlers T-shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'TheMagicCloak',
+      url: 'https://www.etsy.com/shop/TheMagicCloak'
+    },
+    description:
+      'Show your allegiance to the rising and elite status as a Howler with this Tee. Omnis Vir Lupus',
+    link: 'https://www.etsy.com/listing/1718186787/'
   }
 ];
 
