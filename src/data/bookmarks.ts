@@ -292,6 +292,18 @@ const data: IItem[] = [
     },
     description: 'Handmade beaded and corded bookmark.',
     link: 'https://www.etsy.com/listing/1720029093/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/52108996/r/il/839dc2/6080723935/il_794xN.6080723935_67bg.jpg',
+    name: 'Red Rising Trilogy Bookmarks',
+    tags: ['bookmark', 'red-rising', 'golden-son', 'morning-star'],
+    shop: {
+      name: 'Timebirdy',
+      url: 'https://www.etsy.com/shop/Timebirdy'
+    },
+    description: 'Removed from covers, laminated as bookmarks.',
+    link: 'https://www.etsy.com/listing/1727002360/'
   }
 ];
 
