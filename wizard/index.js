@@ -44,8 +44,10 @@ async function launchPuppeteer(headless = 'new') {
   const page = await browser.newPage();
   
   // Random user agent.
-  const userAgent = randomUseragent.getRandom();
-  await page.setUserAgent(userAgent);
+  if(!headless) {
+    const userAgent = randomUseragent.getRandom();
+    await page.setUserAgent(userAgent);
+  }
 
   // // Randomize viewport.
   // await page.setViewport({
@@ -62,14 +64,16 @@ async function launchPuppeteer(headless = 'new') {
   // await page.setDefaultNavigationTimeout(0);
 
   // // Skip styles and fonts loading for performance.
-  // await page.setRequestInterception(true);
-  // page.on('request', (req) => {
-  //   if(req.resourceType() == 'stylesheet' || req.resourceType() == 'font'){
-  //     req.abort();
-  //   } else {
-  //     req.continue();
-  //   }
-  // });
+  await page.setRequestInterception(true);
+  page.on('request', (req) => {
+    if(req.resourceType() == 'stylesheet' || req.resourceType() == 'font'){
+      req.abort();
+    } else if(headless === 'new' && req.resourceType() == 'image') {
+      req.abort();
+    }else {
+      req.continue();
+    }
+  });
 
   // // Pass WebDriver check.
   // await page.evaluateOnNewDocument(() => {

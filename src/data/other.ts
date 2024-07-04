@@ -1286,6 +1286,19 @@ const data: IItem[] = [
     },
     description: 'Graph only. Crochet graph pattern of Red Rising Howler logo. 47x48 pixels.',
     link: 'https://www.etsy.com/listing/1684343072/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/19799013/r/il/836faf/6103999247/il_794xN.6103999247_glmx.jpg',
+    name: 'Red Rising Embroidery Pattern',
+    tags: ['other'],
+    shop: {
+      name: 'JessaMakes',
+      url: 'https://www.etsy.com/shop/JessaMakes'
+    },
+    description:
+      'A great craft for all Red Rising fans! This pattern is great for intermediate-level stitchers, and fits best in a 6-inch hoop!',
+    link: 'https://www.etsy.com/listing/1746572515/'
   }
 ];
 

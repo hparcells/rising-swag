@@ -451,6 +451,31 @@ const data: IItem[] = [
     description:
       'Conquer the worlds with our Red Rising-inspired pin, a tribute to the courage of the Howlers and the resilience of the Society.',
     link: 'https://www.etsy.com/listing/1690733513/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/16046340/r/il/d27359/6008739282/il_794xN.6008739282_2vtx.jpg',
+    name: 'Darkstar Conservatory Pin',
+    tags: ['pin'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description:
+      'The Darkstar Conservatory. Forged for the next generation of ripWing aces, destroyer captains, and torchShip daredevils.',
+    link: 'https://www.etsy.com/listing/1558119497/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/16046340/r/il/b79a49/6084047557/il_794xN.6084047557_b82j.jpg',
+    name: 'Squad Pins',
+    tags: ['pin', 'darrow', 'sevro', 'cassius', 'mustang'],
+    shop: {
+      name: 'CreativeLeighCrafts',
+      url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
+    },
+    description: 'Stamp pins of Cassius, Sevro, Darrow, and Mustang',
+    link: 'https://www.etsy.com/listing/1741958511/'
   }
 ];
 
