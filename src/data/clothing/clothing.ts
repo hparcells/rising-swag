@@ -2335,6 +2335,32 @@ const data: IItem[] = [
     description:
       'Show your allegiance to the rising and elite status as a Howler with this Tee. Omnis Vir Lupus',
     link: 'https://www.etsy.com/listing/1718186787/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/49022064/r/il/d7929c/5613733266/il_794xN.5613733266_ktsu.jpg',
+    name: 'Rise Helmet of Ares Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'StardustAndSonder',
+      url: 'https://www.etsy.com/shop/StardustAndSonder'
+    },
+    description:
+      'Rise with the rebellion and this unique take on the Helmet of Ares from Red Rising.',
+    link: 'https://www.etsy.com/listing/1641707551/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/49022064/r/il/197e0d/5695520717/il_794xN.5695520717_4hu1.jpg',
+    name: 'Hail Libertas Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'StardustAndSonder',
+      url: 'https://www.etsy.com/shop/StardustAndSonder'
+    },
+    description:
+      'Praise the savior of the republic with this tribute to the one and only Reaper of Mars, ArchImperator Darrow of Lykos.',
+    link: 'https://www.etsy.com/listing/1651565041/'
   }
 ];
 

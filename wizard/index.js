@@ -172,8 +172,6 @@ async function getData(page) {
       timeout: 0
     });
 
-    page.waitForSelector('.carousel-image');
-
     let data;
     let finalName;
     if(link.includes('etsy.com')) {

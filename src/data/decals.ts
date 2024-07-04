@@ -316,6 +316,43 @@ const data: IItem[] = [
     },
     description: 'Custom Red Rising-inspired "Hyrg la Ragnar" vinyl decal.',
     link: 'https://www.etsy.com/listing/576750948/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/49022064/r/il/be5fa9/5613693082/il_794xN.5613693082_h19l.jpg',
+    name: 'Hail Reaper Vinyl Decal',
+    tags: ['decal'],
+    shop: {
+      name: 'StardustAndSonder',
+      url: 'https://www.etsy.com/shop/StardustAndSonder'
+    },
+    description:
+      'Pay tribute to the liberator of the Solar Republic with this Red Rising inspired decal.',
+    link: 'https://www.etsy.com/listing/1641696805/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/49022064/r/il/fb8087/5661570013/il_794xN.5661570013_c2o0.jpg',
+    name: 'House Mars Sigil Vinyl Decal',
+    tags: ['decal'],
+    shop: {
+      name: 'StardustAndSonder',
+      url: 'https://www.etsy.com/shop/StardustAndSonder'
+    },
+    description: 'Celebrate your House Mars pride with this Red Rising inspired decal.',
+    link: 'https://www.etsy.com/listing/1627438782/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/49022064/r/il/388725/5661678717/il_794xN.5661678717_cl0t.jpg',
+    name: 'House Mars Inverted Colors Vinyl Decal',
+    tags: ['decal'],
+    shop: {
+      name: 'StardustAndSonder',
+      url: 'https://www.etsy.com/shop/StardustAndSonder'
+    },
+    description: 'Celebrate your House Mars pride with this Red Rising inspired decal,.',
+    link: 'https://www.etsy.com/listing/1627494196/'
   }
 ];
 
