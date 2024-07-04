@@ -2568,6 +2568,42 @@ const data: IItem[] = [
     },
     description: 'Omnis Vir Lupus. Amazing design perfect for anyone who loves Red Rising.',
     link: 'https://www.etsy.com/listing/1722449832/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/41595334/r/il/51c734/6007092544/il_794xN.6007092544_nzir.jpg',
+    name: 'Hail Libertas, Hail Reaper Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'StickOnCo',
+      url: 'https://www.etsy.com/shop/StickOnCo'
+    },
+    description: '"Hail Libertas, Hail Reaper" with a slingBlade.',
+    link: 'https://www.etsy.com/listing/1735322181/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/41595334/r/il/1276ad/5990770764/il_794xN.5990770764_tu0b.jpg',
+    name: 'Sophocles House Telemanus Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'StickOnCo',
+      url: 'https://www.etsy.com/shop/StickOnCo'
+    },
+    description: 'House Telemanus with Sophocles.',
+    link: 'https://www.etsy.com/listing/1731522101/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/41595334/r/il/63ae18/5988314476/il_794xN.5988314476_ejn1.jpg',
+    name: 'Hail Libertas, Hail Reaper Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'StickOnCo',
+      url: 'https://www.etsy.com/shop/StickOnCo'
+    },
+    description: '"Hail Libertas, Hail Reaper" on the back of the shirt.',
+    link: 'https://www.etsy.com/listing/1716746268/'
   }
 ];
 
