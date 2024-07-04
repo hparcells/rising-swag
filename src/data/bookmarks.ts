@@ -338,6 +338,18 @@ const data: IItem[] = [
     description:
       'Embrace your Howler Pride with these engraved metal cards inspired by the book covers of the saga. Quotes on the backs.',
     link: 'https://www.etsy.com/listing/1752518099/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/49736394/r/il/ade4d0/6084610242/il_794xN.6084610242_31fz.jpg',
+    name: 'Hail Libertas, Hail Reaper Neon Sign',
+    tags: ['other'],
+    shop: {
+      name: 'Jamesfinework',
+      url: 'https://www.etsy.com/shop/Jamesfinework'
+    },
+    description: 'Neon sign with "Hail Libertas, Hail Reaper" on it and a slingBlade.',
+    link: 'https://www.etsy.com/listing/1738755006/'
   }
 ];
 
