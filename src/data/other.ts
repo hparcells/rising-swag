@@ -1259,7 +1259,8 @@ const data: IItem[] = [
     },
     description:
       "Cozy in the hand and insulating AF.  Our collapsable foam insulated black can koozie features Miles Bensky's Sophocles Summer design.",
-    link: 'https://www.lit-escalates.com/products/sophocles-summer-koozie'
+    link: 'https://www.lit-escalates.com/products/sophocles-summer-koozie',
+    expired: true
   },
   {
     date: '2024-06-03',

@@ -1524,7 +1524,8 @@ const data: IItem[] = [
     },
     description:
       'Our Sons of Ares sticker is printed on durable, high opacity adhesive vinyl which makes it perfect for regular indoor use.',
-    link: 'https://www.lit-escalates.com/products/sons-of-ares-sticker'
+    link: 'https://www.lit-escalates.com/products/sons-of-ares-sticker',
+    expired: true
   }
 ];
 
