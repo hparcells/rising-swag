@@ -1325,6 +1325,18 @@ const data: IItem[] = [
     },
     description: 'This is an acrylic sign representing the Reaper of Mars and the Howlers.',
     link: 'https://www.etsy.com/listing/1721692490/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/13410730/r/il/fee72e/5183473992/il_794xN.5183473992_8eq3.jpg',
+    name: 'SlingBlade .stl',
+    tags: ['other', 'digital'],
+    shop: {
+      name: 'ShepherdofMen',
+      url: 'https://www.etsy.com/shop/ShepherdofMen'
+    },
+    description: 'SlingBlade 3D file.',
+    link: 'https://www.etsy.com/listing/1529586734/'
   }
 ];
 

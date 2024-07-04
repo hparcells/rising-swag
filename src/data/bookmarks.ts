@@ -309,7 +309,15 @@ const data: IItem[] = [
     date: '2024-07-04',
     image: 'https://i.etsystatic.com/50597520/r/il/cfc892/5956061555/il_794xN.5956061555_c2bd.jpg',
     name: 'Red Rising Bookmarks (Digital Download)',
-    tags: ['bookmark', 'red-rising', 'golden-son', 'morning-star', 'iron-gold', 'dark-age'],
+    tags: [
+      'bookmark',
+      'digital',
+      'red-rising',
+      'golden-son',
+      'morning-star',
+      'iron-gold',
+      'dark-age'
+    ],
     shop: {
       name: 'StudioDesignsByMeg',
       url: 'https://www.etsy.com/shop/StudioDesignsByMeg'
