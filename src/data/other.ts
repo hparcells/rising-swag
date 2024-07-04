@@ -1299,6 +1299,19 @@ const data: IItem[] = [
     description:
       'A great craft for all Red Rising fans! This pattern is great for intermediate-level stitchers, and fits best in a 6-inch hoop!',
     link: 'https://www.etsy.com/listing/1746572515/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/19258470/r/il/40ff05/4402122885/il_794xN.4402122885_cgwo.jpg',
+    name: 'Red Rising Throw Blanket',
+    tags: ['other'],
+    shop: {
+      name: 'EnchantedExtrasbyBri',
+      url: 'https://www.etsy.com/shop/EnchantedExtrasbyBri'
+    },
+    description: 'Red Rising oversized throw blanket.',
+    link: 'https://www.etsy.com/listing/1334653424/',
+    expired: true
   }
 ];
 

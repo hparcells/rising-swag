@@ -49,21 +49,21 @@ async function launchPuppeteer(headless = 'new') {
     await page.setUserAgent(userAgent);
   }
 
-  // // Randomize viewport.
-  // await page.setViewport({
-  //   width: 1280 + Math.floor(Math.random() * 100),
-  //   height: 720 + Math.floor(Math.random() * 100),
-  //   deviceScaleFactor: 1,
-  //   hasTouch: false,
-  //   isLandscape: false,
-  //   isMobile: false,
-  // });
+  // Randomize viewport.
+  await page.setViewport({
+    width: 1280 + Math.floor(Math.random() * 100),
+    height: 720 + Math.floor(Math.random() * 100),
+    deviceScaleFactor: 1,
+    hasTouch: false,
+    isLandscape: false,
+    isMobile: false,
+  });
 
-  // // Other bypass.
-  // await page.setJavaScriptEnabled(true);
-  // await page.setDefaultNavigationTimeout(0);
+  // Other bypass.
+  await page.setJavaScriptEnabled(true);
+  await page.setDefaultNavigationTimeout(0);
 
-  // // Skip styles and fonts loading for performance.
+  // Skip styles and fonts loading for performance.
   await page.setRequestInterception(true);
   page.on('request', (req) => {
     if(req.resourceType() == 'stylesheet' || req.resourceType() == 'font'){
@@ -75,42 +75,42 @@ async function launchPuppeteer(headless = 'new') {
     }
   });
 
-  // // Pass WebDriver check.
-  // await page.evaluateOnNewDocument(() => {
-  //   Object.defineProperty(navigator, 'webdriver', {
-  //     get: () => false,
-  //   });
-  // });
+  // Pass WebDriver check.
+  await page.evaluateOnNewDocument(() => {
+    Object.defineProperty(navigator, 'webdriver', {
+      get: () => false,
+    });
+  });
 
-  // // Pass Chrome check.
-  // await page.evaluateOnNewDocument(() => {
-  //   window.chrome = {
-  //     runtime: {}
-  //   };
-  // });
+  // Pass Chrome check.
+  await page.evaluateOnNewDocument(() => {
+    window.chrome = {
+      runtime: {}
+    };
+  });
 
-  // // Pass notifications check.
-  // await page.evaluateOnNewDocument(() => {
-  // const originalQuery = window.navigator.permissions.query;
-  // return window.navigator.permissions.query = (parameters) => (
-  //   parameters.name === 'notifications'
-  //     ? Promise.resolve({ state: Notification.permission })
-  //     : originalQuery(parameters));
-  // });
+  // Pass notifications check.
+  await page.evaluateOnNewDocument(() => {
+  const originalQuery = window.navigator.permissions.query;
+  return window.navigator.permissions.query = (parameters) => (
+    parameters.name === 'notifications'
+      ? Promise.resolve({ state: Notification.permission })
+      : originalQuery(parameters));
+  });
 
-  // // Overwrite the plugins property to use a custom getter.
-  // await page.evaluateOnNewDocument(() => {
-  //   Object.defineProperty(navigator, 'plugins', {
-  //     get: () => [1, 2, 3, 4, 5],
-  //   });
-  // });
+  // Overwrite the plugins property to use a custom getter.
+  await page.evaluateOnNewDocument(() => {
+    Object.defineProperty(navigator, 'plugins', {
+      get: () => [1, 2, 3, 4, 5],
+    });
+  });
 
-  // // Overwrite the languages property to use a custom getter.
-  // await page.evaluateOnNewDocument(() => {
-  //   Object.defineProperty(navigator, 'languages', {
-  //     get: () => ['en-US', 'en'],
-  //   });
-  // });
+  // Overwrite the languages property to use a custom getter.
+  await page.evaluateOnNewDocument(() => {
+    Object.defineProperty(navigator, 'languages', {
+      get: () => ['en-US', 'en'],
+    });
+  });
 
   return browser;
 }
