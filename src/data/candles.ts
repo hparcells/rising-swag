@@ -238,6 +238,31 @@ const data: IItem[] = [
     description:
       'Smell like Sevro? Light this candle to fill your home with sweet scents of anything but a Howler.',
     link: 'https://www.etsy.com/listing/1620869727/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/24229314/r/il/57e2ab/6027097544/il_794xN.6027097544_5dak.jpg',
+    name: 'Break the Chains Soy Wax Candle',
+    tags: ['candle'],
+    shop: {
+      name: 'CloakandCandleShop',
+      url: 'https://www.etsy.com/shop/CloakandCandleShop'
+    },
+    description:
+      'Show off your love for all things Red Rising and Pierce Brown with this "Break the Chains" soy wax candle.',
+    link: 'https://www.etsy.com/listing/1735806711/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/24229314/r/il/b2346e/6065770966/il_794xN.6065770966_t3qc.jpg',
+    name: 'Pax au Telemanus Soy Wax Candle',
+    tags: ['candle'],
+    shop: {
+      name: 'CloakandCandleShop',
+      url: 'https://www.etsy.com/shop/CloakandCandleShop'
+    },
+    description: 'If only we could all have a friend as faithful as Pax au Telemanus.',
+    link: 'https://www.etsy.com/listing/1734613012/'
   }
 ];
 
