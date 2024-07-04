@@ -1006,6 +1006,30 @@ const data: IItem[] = [
     },
     description: 'Cassius and Aurae print.',
     link: 'Cassius & Aurae Print'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/46020824/r/il/195151/6074774274/il_794xN.6074774274_taft.jpg',
+    name: 'Path to the Vale Quote Print',
+    tags: ['print'],
+    shop: {
+      name: 'YourInfiniteColours',
+      url: 'https://www.etsy.com/shop/YourInfiniteColours'
+    },
+    description: 'Quote from the Path to the Vale.',
+    link: 'https://www.etsy.com/listing/1736564418/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/46020824/r/il/c0949f/6122862445/il_794xN.6122862445_cgni.jpg',
+    name: 'Path to the Vale Print',
+    tags: ['print'],
+    shop: {
+      name: 'YourInfiniteColours',
+      url: 'https://www.etsy.com/shop/YourInfiniteColours'
+    },
+    description: 'Quote from the Path to the Vale.',
+    link: 'https://www.etsy.com/listing/1740669819/'
   }
 ];
 
