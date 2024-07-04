@@ -2508,6 +2508,66 @@ const data: IItem[] = [
     },
     description: 'Shirt featuring quotes from around Red Rising.',
     link: 'https://www.etsy.com/listing/1741706968/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/31269230/r/il/4f8b47/6063055148/il_794xN.6063055148_2g45.jpg',
+    name: 'Break The Chains T-Shirt (Red)',
+    tags: ['shirt'],
+    shop: {
+      name: 'StonelaneCreations',
+      url: 'https://www.etsy.com/shop/StonelaneCreations'
+    },
+    description: 'Break The Chains. Amazing design perfect for anyone who loves Red Rising.',
+    link: 'https://www.etsy.com/listing/1734008120/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/31269230/r/il/1b625c/6049818366/il_794xN.6049818366_kz4l.jpg',
+    name: 'Break The Chains T-Shirt (White)',
+    tags: ['shirt'],
+    shop: {
+      name: 'StonelaneCreations',
+      url: 'https://www.etsy.com/shop/StonelaneCreations'
+    },
+    description: 'Break The Chains. Amazing design perfect for anyone who loves Red Rising.',
+    link: 'https://www.etsy.com/listing/1730946270/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/31269230/r/il/fbe816/5988749556/il_794xN.5988749556_puo5.jpg',
+    name: "Iron Rain T-Shirt - Men's Classic Tee",
+    tags: ['shirt'],
+    shop: {
+      name: 'StonelaneCreations',
+      url: 'https://www.etsy.com/shop/StonelaneCreations'
+    },
+    description: 'Iron Rain. Amazing design perfect for anyone who loves Red Rising.',
+    link: 'https://www.etsy.com/listing/1716846846/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/31269230/r/il/f0ad50/6117165737/il_794xN.6117165737_dcjy.jpg',
+    name: 'Bloodydamn T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'StonelaneCreations',
+      url: 'https://www.etsy.com/shop/StonelaneCreations'
+    },
+    description: 'Bloodydamn. Amazing design perfect for anyone who loves Red Rising.',
+    link: 'https://www.etsy.com/listing/1716860834/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/31269230/r/il/55ca4b/6012842154/il_794xN.6012842154_l3f8.jpg',
+    name: 'Omnis vir Lupus T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'StonelaneCreations',
+      url: 'https://www.etsy.com/shop/StonelaneCreations'
+    },
+    description: 'Omnis Vir Lupus. Amazing design perfect for anyone who loves Red Rising.',
+    link: 'https://www.etsy.com/listing/1722449832/'
   }
 ];
 
