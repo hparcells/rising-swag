@@ -2361,6 +2361,153 @@ const data: IItem[] = [
     description:
       'Praise the savior of the republic with this tribute to the one and only Reaper of Mars, ArchImperator Darrow of Lykos.',
     link: 'https://www.etsy.com/listing/1651565041/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/37470530/r/il/ea160e/6005291954/il_794xN.6005291954_10m2.jpg',
+    name: 'House Mars T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Rografika',
+      url: 'https://www.etsy.com/shop/Rografika'
+    },
+    description: 'Shirt with House Mars information.',
+    link: 'https://www.etsy.com/listing/1734882239/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/37470530/r/il/566896/6097571265/il_794xN.6097571265_hytk.jpg',
+    name: 'Howlers T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Rografika',
+      url: 'https://www.etsy.com/shop/Rografika'
+    },
+    description: 'Red tide, howler, fight for freedom design shirt.',
+    link: 'https://www.etsy.com/listing/1745075867/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/37470530/r/il/66f73f/6097577975/il_794xN.6097577975_87gr.jpg',
+    name: 'Howler Dystopian T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Rografika',
+      url: 'https://www.etsy.com/shop/Rografika'
+    },
+    description: 'Red tide, howler, fight for freedom design shirt.',
+    link: 'https://www.etsy.com/listing/1745078865/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/37470530/r/il/5e893e/6049526088/il_794xN.6049526088_oqrv.jpg',
+    name: 'Howler T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Rografika',
+      url: 'https://www.etsy.com/shop/Rografika'
+    },
+    description: 'Red tide, howler, fear is a liar design shirt.',
+    link: 'https://www.etsy.com/listing/1730890552/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/37470530/r/il/d04c39/6097597139/il_794xN.6097597139_1e6d.jpg',
+    name: 'Omnis Vir Lupus T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Rografika',
+      url: 'https://www.etsy.com/shop/Rografika'
+    },
+    description: 'Red tide, howler, omnis vir lupus design shirt.',
+    link: 'https://www.etsy.com/listing/1730892472/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/37470530/r/il/0c648c/6054380668/il_794xN.6054380668_rn1m.jpg',
+    name: 'Bleed Red Howlers T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Rografika',
+      url: 'https://www.etsy.com/shop/Rografika'
+    },
+    description: 'Bleed Red design shirt. Jackals? No, jack off.',
+    link: 'https://www.etsy.com/listing/1746199739/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/37470530/r/il/2b5d43/6051920398/il_794xN.6051920398_tbwx.jpg',
+    name: 'Frozen Ganymede T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Rografika',
+      url: 'https://www.etsy.com/shop/Rografika'
+    },
+    description: 'T-shirt with Ganymede information.',
+    link: 'https://www.etsy.com/listing/1745176105/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/37470530/r/il/6f1a6c/6053258353/il_794xN.6053258353_mvsm.jpg',
+    name: 'The Institute T-shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Rografika',
+      url: 'https://www.etsy.com/shop/Rografika'
+    },
+    description: "The shirt features a vibrant graphic of The Institute's schools on Mars.",
+    link: 'https://www.etsy.com/listing/1720669674/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/37470530/r/il/a3aec3/6089464270/il_794xN.6089464270_tu8k.jpg',
+    name: 'House of Mars T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Rografika',
+      url: 'https://www.etsy.com/shop/Rografika'
+    },
+    description:
+      'Featuring a dynamic, sketch-style illustration of the mighty Martian warrior, armed with a blazing flame and stellar tech.',
+    link: 'https://www.etsy.com/listing/1739813078/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/37470530/r/il/63855b/6095688982/il_794xN.6095688982_c80b.jpg',
+    name: 'House of Mars T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Rografika',
+      url: 'https://www.etsy.com/shop/Rografika'
+    },
+    description:
+      'Featuring a dynamic, sketch-style illustration of the mighty Martian warrior, armed with a blazing flame and stellar tech.',
+    link: 'https://www.etsy.com/listing/1755330915/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/37470530/r/il/e68512/6148003135/il_794xN.6148003135_5mjz.jpg',
+    name: 'House Mars Institute T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Rografika',
+      url: 'https://www.etsy.com/shop/Rografika'
+    },
+    description:
+      'Hello to your inner Red! Channel the raw strength and unwavering spirit of House Mars with this bold t-shirt.',
+    link: 'https://www.etsy.com/listing/1743750521/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/37470530/r/il/b5d3d2/6098142248/il_794xN.6098142248_skss.jpg',
+    name: 'Red Rising Quotes T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'Rografika',
+      url: 'https://www.etsy.com/shop/Rografika'
+    },
+    description: 'Shirt featuring quotes from around Red Rising.',
+    link: 'https://www.etsy.com/listing/1741706968/'
   }
 ];
 
