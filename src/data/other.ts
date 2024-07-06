@@ -1475,6 +1475,18 @@ const data: IItem[] = [
     description:
       "This tee is more than just fabric and ink; it's a symbol of resilience, rebellion, and the power of literature to transport us to other worlds",
     link: 'https://www.etsy.com/listing/1720051362/'
+  },
+  {
+    date: '2024-07-05',
+    image: 'https://j3designmi.com/cdn/shop/files/HowlerKeychains1.jpg',
+    name: 'Howler Keychain',
+    tags: ['other'],
+    shop: {
+      name: 'J3 Design',
+      url: 'https://j3designmi.com/'
+    },
+    description: 'Show your dedication to the Pack with a Howler keychain.',
+    link: 'https://j3designmi.com/products/red-rising-howler-keychain'
   }
 ];
 
