@@ -193,10 +193,15 @@ async function getData(page) {
       const aiResponse = await openai.chat.completions.create({
         messages: [
           {
+            role: 'system',
+            content: 'Shorten the name of an e-commerce store item for convenient display.'
+          },
+          {
             role: 'user',
-            content: `"${data.name}" is an name of an item on Etsy. Create a shorter title of it while trying to be shorter than 70 characters. Do not include quotes around the title. Do not mention Red Rising or Pierce Brown in the title. Remove any "tags". Capitalize any words that should be capitalized in the title. The part you should keep is usually at the beginning. Try to only use words included in the original title. If the title is good enough, do not change it.`          }
+            content: data.name
+          }
         ],
-        model: 'gpt-3.5-turbo',
+        model: 'ft:gpt-3.5-turbo-0125:personal:name:9ip6bm5u',
       });
       finalName = aiResponse.choices[0].message.content;
     }
