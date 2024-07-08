@@ -422,6 +422,19 @@ const data: IItem[] = [
     description:
       'Adorned with the illustrious House Julii emblem, this Hoodie proudly showcases our legacy of power and dominance in the interstellar trade.',
     link: 'https://www.etsy.com/listing/1709678350/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/51667155/r/il/2c751d/5981337085/il_794xN.5981337085_llk4.jpg',
+    name: 'Howlers Hoodie',
+    tags: ['hoodie'],
+    shop: {
+      name: 'TheMagicCloak',
+      url: 'https://www.etsy.com/shop/TheMagicCloak'
+    },
+    description:
+      'Show your allegiance to the rising and elite status as a Howler with this hoodie. Omnis Vir Lupus!',
+    link: 'https://www.etsy.com/listing/1704002582/'
   }
 ];
 

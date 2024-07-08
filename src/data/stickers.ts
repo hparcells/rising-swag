@@ -1526,6 +1526,18 @@ const data: IItem[] = [
       'Our Sons of Ares sticker is printed on durable, high opacity adhesive vinyl which makes it perfect for regular indoor use.',
     link: 'https://www.lit-escalates.com/products/sons-of-ares-sticker',
     expired: true
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/31269230/r/il/477785/6020810426/il_794xN.6020810426_inlh.jpg',
+    name: 'Omnis Vir Lupus Howler Stickers-Fathers Day Gift',
+    tags: ['sticker'],
+    shop: {
+      name: 'StonelaneCreations',
+      url: 'https://www.etsy.com/shop/StonelaneCreations'
+    },
+    description: 'Omnis Vir Lupus. Amazing design perfect for anyone who loves Red Rising.',
+    link: 'https://www.etsy.com/listing/1724246808/'
   }
 ];
 

@@ -227,6 +227,19 @@ const data: IItem[] = [
     description:
       'This includes a cover for Red Rising, Golden Son, Morning Star, Iron Gold, Dark Age, and Light Bringer designed by @bronwyn.psd on Instagram.',
     link: 'https://www.bronwyn-psd.com/product-page/red-rising-dust-jacket-set'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/52108996/r/il/27959c/6031522131/il_794xN.6031522131_km6d.jpg',
+    name: 'Red Rising Trilogy Rebind',
+    tags: ['book', 'red-rising', 'golden-son', 'morning-star'],
+    shop: {
+      name: 'Timebirdy',
+      url: 'https://www.etsy.com/shop/Timebirdy'
+    },
+    description:
+      'High-quality cloth cover with gold vinyl foil on the front, sides and back. Velvety bookmark with golden pendant.',
+    link: 'https://www.etsy.com/listing/1714105830/'
   }
 ];
 

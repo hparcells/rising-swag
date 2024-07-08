@@ -292,6 +292,72 @@ const data: IItem[] = [
     },
     description: 'Handmade beaded and corded bookmark.',
     link: 'https://www.etsy.com/listing/1720029093/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/52108996/r/il/839dc2/6080723935/il_794xN.6080723935_67bg.jpg',
+    name: 'Red Rising Trilogy Bookmarks',
+    tags: ['bookmark', 'red-rising', 'golden-son', 'morning-star'],
+    shop: {
+      name: 'Timebirdy',
+      url: 'https://www.etsy.com/shop/Timebirdy'
+    },
+    description: 'Removed from covers, laminated as bookmarks.',
+    link: 'https://www.etsy.com/listing/1727002360/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/50597520/r/il/cfc892/5956061555/il_794xN.5956061555_c2bd.jpg',
+    name: 'Red Rising Bookmarks (Digital Download)',
+    tags: [
+      'bookmark',
+      'digital',
+      'red-rising',
+      'golden-son',
+      'morning-star',
+      'iron-gold',
+      'dark-age'
+    ],
+    shop: {
+      name: 'StudioDesignsByMeg',
+      url: 'https://www.etsy.com/shop/StudioDesignsByMeg'
+    },
+    description: 'Digital download bookmarks.',
+    link: 'https://www.etsy.com/listing/1712113909/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/14078379/r/il/0fbe61/6087977608/il_794xN.6087977608_bb4z.jpg',
+    name: 'Engraved Metal Book Cards',
+    tags: [
+      'bookmark',
+      'red-rising',
+      'golden-son',
+      'morning-star',
+      'iron-gold',
+      'dark-age',
+      'light-bringer',
+      'red-god'
+    ],
+    shop: {
+      name: 'PinionPlus',
+      url: 'https://www.etsy.com/shop/PinionPlus'
+    },
+    description:
+      'Embrace your Howler Pride with these engraved metal cards inspired by the book covers of the saga. Quotes on the backs.',
+    link: 'https://www.etsy.com/listing/1752518099/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/49736394/r/il/ade4d0/6084610242/il_794xN.6084610242_31fz.jpg',
+    name: 'Hail Libertas, Hail Reaper Neon Sign',
+    tags: ['other'],
+    shop: {
+      name: 'Jamesfinework',
+      url: 'https://www.etsy.com/shop/Jamesfinework'
+    },
+    description: 'Neon sign with "Hail Libertas, Hail Reaper" on it and a slingBlade.',
+    link: 'https://www.etsy.com/listing/1738755006/'
   }
 ];
 

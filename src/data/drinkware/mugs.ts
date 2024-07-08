@@ -800,6 +800,42 @@ const data: IItem[] = [
     },
     description: 'Shit Escalates. Better drink some coffee.',
     link: 'https://www.etsy.com/listing/1627483417/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/49022064/r/il/9c17a8/5661114778/il_794xN.5661114778_r07o.jpg',
+    name: 'House Minerva Ceramic Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'StardustAndSonder',
+      url: 'https://www.etsy.com/shop/StardustAndSonder'
+    },
+    description: 'Show your House Minerva pride with this cozy cup!',
+    link: 'https://www.etsy.com/listing/1640675074/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/49022064/r/il/5577b8/5613655534/il_794xN.5613655534_mrgg.jpg',
+    name: 'House Mars Ceramic Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'StardustAndSonder',
+      url: 'https://www.etsy.com/shop/StardustAndSonder'
+    },
+    description: 'Show your House Mars pride with this cozy cup!',
+    link: 'https://www.etsy.com/listing/1641686503/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/49022064/r/il/5be561/5695666125/il_794xN.5695666125_37n2.jpg',
+    name: 'Hail Libertas Ceramic Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'StardustAndSonder',
+      url: 'https://www.etsy.com/shop/StardustAndSonder'
+    },
+    description: 'For the Red Rising fan in your life, pay tribute to the Reaper himself!',
+    link: 'https://www.etsy.com/listing/1651606449/'
   }
 ];
 

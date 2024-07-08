@@ -1275,6 +1275,218 @@ const data: IItem[] = [
     description:
       'While Quicksilver would probably fight unionization with every ounce of his murky being, we wanted to imagine what would happen if the Helldivers unionized during Dark Age.',
     link: 'https://www.lit-escalates.com/products/helldivers-union-flag'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/51096117/r/il/6c6e25/5899463783/il_794xN.5899463783_velp.jpg',
+    name: 'Crochet Howler Logo Graph Pattern',
+    tags: ['other'],
+    shop: {
+      name: 'TheStitchBitchTris',
+      url: 'https://www.etsy.com/shop/TheStitchBitchTris'
+    },
+    description: 'Graph only. Crochet graph pattern of Red Rising Howler logo. 47x48 pixels.',
+    link: 'https://www.etsy.com/listing/1684343072/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/19799013/r/il/836faf/6103999247/il_794xN.6103999247_glmx.jpg',
+    name: 'Red Rising Embroidery Pattern',
+    tags: ['other'],
+    shop: {
+      name: 'JessaMakes',
+      url: 'https://www.etsy.com/shop/JessaMakes'
+    },
+    description:
+      'A great craft for all Red Rising fans! This pattern is great for intermediate-level stitchers, and fits best in a 6-inch hoop!',
+    link: 'https://www.etsy.com/listing/1746572515/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/19258470/r/il/40ff05/4402122885/il_794xN.4402122885_cgwo.jpg',
+    name: 'Red Rising Throw Blanket',
+    tags: ['other'],
+    shop: {
+      name: 'EnchantedExtrasbyBri',
+      url: 'https://www.etsy.com/shop/EnchantedExtrasbyBri'
+    },
+    description: 'Red Rising oversized throw blanket.',
+    link: 'https://www.etsy.com/listing/1334653424/',
+    expired: true
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/14078379/r/il/b23f9e/6009479196/il_794xN.6009479196_hqow.jpg',
+    name: 'Acrylic Hail Libertas, Hail Reaper Sign',
+    tags: ['other'],
+    shop: {
+      name: 'PinionPlus',
+      url: 'https://www.etsy.com/shop/PinionPlus'
+    },
+    description: 'This is an acrylic sign representing the Reaper of Mars and the Howlers.',
+    link: 'https://www.etsy.com/listing/1721692490/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/13410730/r/il/fee72e/5183473992/il_794xN.5183473992_8eq3.jpg',
+    name: 'SlingBlade .stl',
+    tags: ['other', 'digital'],
+    shop: {
+      name: 'ShepherdofMen',
+      url: 'https://www.etsy.com/shop/ShepherdofMen'
+    },
+    description: 'SlingBlade 3D file.',
+    link: 'https://www.etsy.com/listing/1529586734/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/20248888/r/il/ca0dbb/6084435618/il_794xN.6084435618_bliz.jpg',
+    name: '"All We Have is That Shout into the Wind" Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'CreatingFictions',
+      url: 'https://www.etsy.com/shop/CreatingFictions'
+    },
+    description:
+      'All that we have is a shout into the wind. This powerful phrase encapsulates the struggle of pride and resilience.',
+    link: 'https://www.etsy.com/listing/1749388141/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/20248888/r/il/98feb9/6055655440/il_794xN.6055655440_pcla.jpg',
+    name: 'Never Bow T-shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'CreatingFictions',
+      url: 'https://www.etsy.com/shop/CreatingFictions'
+    },
+    description: 'Inspired by the first Howler rule.',
+    link: 'https://www.etsy.com/listing/1732291760/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/20248888/r/il/886aab/6045440332/il_794xN.6045440332_hs0y.jpg',
+    name: 'Fear Knight Gorgan Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'CreatingFictions',
+      url: 'https://www.etsy.com/shop/CreatingFictions'
+    },
+    description:
+      'Dive into the heart-pounding world of Red Rising with our exclusive Fear Knight Gorgan tee!',
+    link: 'https://www.etsy.com/listing/1729969082/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/20248888/r/il/e00333/6045377274/il_794xN.6045377274_6q6b.jpg',
+    name: 'Live for More Haemanthus Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'CreatingFictions',
+      url: 'https://www.etsy.com/shop/CreatingFictions'
+    },
+    description:
+      'The vibrant red Haemanthus flower symbolizes hope and the determination to rise above oppression.',
+    link: 'https://www.etsy.com/listing/1720596512/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/20248888/r/il/a5942e/6093431551/il_794xN.6093431551_e5sx.jpg',
+    name: 'Skeleton Space Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'CreatingFictions',
+      url: 'https://www.etsy.com/shop/CreatingFictions'
+    },
+    description:
+      'Dive into the thought-provoking themes of the Red Rising series with our exclusive "Death Begets Death" Skeleton Space shirt.',
+    link: 'https://www.etsy.com/listing/1729796716/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/20248888/r/il/534d46/6044828172/il_794xN.6044828172_j14u.jpg',
+    name: "Sevro's Sass Unicorn Shirt",
+    tags: ['shirt'],
+    shop: {
+      name: 'CreatingFictions',
+      url: 'https://www.etsy.com/shop/CreatingFictions'
+    },
+    description: 'Channel your inner Sevro with our "Get Slagged Ya Pixie" Unicorn shirt.',
+    link: 'https://www.etsy.com/listing/1729676228/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/20248888/r/il/711347/6043174464/il_794xN.6043174464_bm2s.jpg',
+    name: 'Oracle Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'CreatingFictions',
+      url: 'https://www.etsy.com/shop/CreatingFictions'
+    },
+    description: 'Enter the enigmatic world of Red Rising with our exclusive Oracle tee!',
+    link: 'https://www.etsy.com/listing/1729383184/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/20248888/r/il/137c79/6042677226/il_794xN.6042677226_2t8w.jpg',
+    name: 'Machine Shop Mixtape Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'CreatingFictions',
+      url: 'https://www.etsy.com/shop/CreatingFictions'
+    },
+    description: 'Dive into the gritty world of Red Rising with our Machine Shop Mixed Tape shirt.',
+    link: 'https://www.etsy.com/listing/1729162848/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/20248888/r/il/2d89e2/6089975871/il_794xN.6089975871_dr6w.jpg',
+    name: 'Worthy Anatomical Heart Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'CreatingFictions',
+      url: 'https://www.etsy.com/shop/CreatingFictions'
+    },
+    description: 'Dive into the heart of the Red Rising series with our exclusive "Worthy" shirt.',
+    link: 'https://www.etsy.com/listing/1743110139/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/20248888/r/il/c689db/6004755050/il_794xN.6004755050_47bc.jpg',
+    name: 'Unleash Your Inner Pit Viper Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'CreatingFictions',
+      url: 'https://www.etsy.com/shop/CreatingFictions'
+    },
+    description:
+      'Ready to show your allegiance to the Sons of Ares? Slip into our exclusive "The Pit Vipers" graphic tee.',
+    link: 'https://www.etsy.com/listing/1720354910/'
+  },
+  {
+    date: '2024-07-04',
+    image: 'https://i.etsystatic.com/20248888/r/il/a1cf0a/6050559529/il_794xN.6050559529_r4c1.jpg',
+    name: 'Gory Damn Ruster Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'CreatingFictions',
+      url: 'https://www.etsy.com/shop/CreatingFictions'
+    },
+    description:
+      "This tee is more than just fabric and ink; it's a symbol of resilience, rebellion, and the power of literature to transport us to other worlds",
+    link: 'https://www.etsy.com/listing/1720051362/'
+  },
+  {
+    date: '2024-07-05',
+    image: 'https://j3designmi.com/cdn/shop/files/HowlerKeychains1.jpg',
+    name: 'Howler Keychain',
+    tags: ['other'],
+    shop: {
+      name: 'J3 Design',
+      url: 'https://j3designmi.com/'
+    },
+    description: 'Show your dedication to the Pack with a Howler keychain.',
+    link: 'https://j3designmi.com/products/red-rising-howler-keychain'
   }
 ];
 
