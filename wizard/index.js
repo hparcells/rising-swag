@@ -120,14 +120,16 @@ async function getData(page) {
     const imageElement = document.querySelector(".carousel-image");
     const nameElement = document.querySelector('h1');
     const shopNameElement = document.querySelector(".wt-text-link-no-underline");
+    const descriptionElement = document.querySelector('p[data-product-details-description-text-content]');
 
-    if(!imageElement || !nameElement || !shopNameElement) {
+    if(!imageElement || !nameElement || !shopNameElement || !descriptionElement) {
       return;
     }
     
     const image = imageElement.src;
     const name = nameElement.innerText;
     const shopName = shopNameElement.innerText;
+    const description = descriptionElement.innerText.innerText.replace(/\n+/g, ' ');
 
     let shopUrl = `https://www.etsy.com/shop/${shopName}`
 
@@ -137,7 +139,8 @@ async function getData(page) {
       shop: {
         name: shopName,
         url: shopUrl
-      }
+      },
+      description
     };
   });
 }
@@ -190,7 +193,7 @@ async function getData(page) {
         await browser2.close();
       }
       
-      const aiResponse = await openai.chat.completions.create({
+      const nameAiResponse = await openai.chat.completions.create({
         messages: [
           {
             role: 'system',
@@ -203,7 +206,7 @@ async function getData(page) {
         ],
         model: 'ft:gpt-3.5-turbo-0125:personal:name:9ip6bm5u',
       });
-      finalName = aiResponse.choices[0].message.content;
+      finalName = nameAiResponse.choices[0].message.content;
     }
     if(link.includes('howlerholo.net')) {
       data = await page.evaluate(() => {
@@ -230,7 +233,7 @@ async function getData(page) {
       name: finalName || data.name,
       tags: answers.tags ? answers.tags.split(' ') : [],
       shop: data.shop,
-      description: data.description || 'FILL',
+      description: 'FILL',
       link,
       ...(answers.expired === 'Yes' ? { expired: true } : {})
     }).replace('"shop":{', '"shop":{\n')}`);
