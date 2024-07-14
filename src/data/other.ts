@@ -1487,6 +1487,18 @@ const data: IItem[] = [
     },
     description: 'Show your dedication to the Pack with a Howler keychain.',
     link: 'https://j3designmi.com/products/red-rising-howler-keychain'
+  },
+  {
+    date: '2024-07-14',
+    image: 'https://i.etsystatic.com/47086982/r/il/293fc7/5924933884/il_794xN.5924933884_fu7c.jpg',
+    name: 'Howler Inspired Coaster Set',
+    tags: ['other'],
+    shop: {
+      name: 'VerdeEnterprises',
+      url: 'https://www.etsy.com/shop/VerdeEnterprises'
+    },
+    description: 'Helldiver-approved, Howler-inspired coasters.',
+    link: 'https://www.etsy.com/listing/1716309529/'
   }
 ];
 
