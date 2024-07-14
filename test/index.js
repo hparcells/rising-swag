@@ -22,8 +22,21 @@ puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
   });
 
   // Setup.
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({
+    headless: false,
+    userDataDir: 'C:\\Users\\Hunter\\AppData\\Local\\Google\\Chrome\\Puppeteer User Data'
+  });
   const page = await browser.newPage();
+
+  // Skip styles and fonts loading for performance.
+  await page.setRequestInterception(true);
+  page.on('request', (req) => {
+    if(req.resourceType() == 'stylesheet' || req.resourceType() == 'font' || req.resourceType() == 'image'){
+      req.abort();
+    } else {
+      req.continue();
+    }
+  });
 
   for(let i = 0; i < items.length; i++) {
     const item = items[i];
@@ -52,5 +65,4 @@ puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
   }
 
   await browser.close();
-  
 })();
