@@ -1,8 +1,8 @@
 const inquirer = require('inquirer');
 const ncp = require('copy-paste');
-const { executablePath } = require('puppeteer'); 
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+const MinMaxPlugin = require('puppeteer-extra-plugin-minmax');
 const OpenAI = require('openai');
 const chalk = require('chalk');
 const randomUseragent = require('random-useragent');
@@ -34,12 +34,13 @@ const QUESTIONS = [
   }
 ];
 
-async function launchPuppeteer(headless = 'new') {
+async function launchPuppeteer(headless = false) {
   // Setup.
   const browser = await puppeteer.launch({
     headless,
     defaultViewport: null,
-    executablePath: executablePath()
+    executablePath: 'C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe',
+    userDataDir: 'C:\\Users\\Hunter\\AppData\\Local\\Google\\Chrome Beta\\User Data'
   });
   const page = await browser.newPage();
   
@@ -129,7 +130,7 @@ async function getData(page) {
     const image = imageElement.src;
     const name = nameElement.innerText;
     const shopName = shopNameElement.innerText;
-    const description = descriptionElement.innerText.innerText.replace(/\n+/g, ' ');
+    const description = descriptionElement.innerText.replace(/\n+/g, ' ');
 
     let shopUrl = `https://www.etsy.com/shop/${shopName}`
 
@@ -198,16 +199,7 @@ async function getAiCompletion(system, user, model) {
       data = await getData(page);
       if(!data) {
         console.log(chalk.red('\Captcha detected.'));
-        const browser2 = await launchPuppeteer(false);
-        const page2 = await browser2.newPage();
-        
-        await page2.goto(link, {
-          waitUntil: 'networkidle2',
-          timeout: 0
-        });
-        await page2.waitForSelector('.carousel-image');
-        data = await getData(page2);
-        await browser2.close();
+        return prompt();
       }
       
       data.name = await getAiCompletion(
