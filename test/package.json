@@ -5,7 +5,9 @@
     "start": "node ."
   },
   "dependencies": {
+    "inquirer": "^8.2.6",
     "node-fetch": "^2.7.0",
+    "puppeteer-cluster": "^0.24.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-adblocker": "^2.13.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2"
