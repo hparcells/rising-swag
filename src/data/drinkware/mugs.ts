@@ -836,6 +836,30 @@ const data: IItem[] = [
     },
     description: 'For the Red Rising fan in your life, pay tribute to the Reaper himself!',
     link: 'https://www.etsy.com/listing/1651606449/'
+  },
+  {
+    date: '2024-07-14',
+    image: 'https://i.etsystatic.com/46348856/r/il/e26a6f/5992937466/il_794xN.5992937466_ftyw.jpg',
+    name: 'Red Sigil Mug',
+    tags: ['mug', 'red'],
+    shop: {
+      name: 'RPGPrintsStore',
+      url: 'https://www.etsy.com/shop/RPGPrintsStore'
+    },
+    description: 'Black ceramic mug with a retro pixilated Red Sigil.',
+    link: 'https://www.etsy.com/listing/1709964607/'
+  },
+  {
+    date: '2024-07-14',
+    image: 'https://i.etsystatic.com/46348856/r/il/5ec760/5992937020/il_794xN.5992937020_7poc.jpg',
+    name: 'SlingBlade Mug',
+    tags: ['mug'],
+    shop: {
+      name: 'RPGPrintsStore',
+      url: 'https://www.etsy.com/shop/RPGPrintsStore'
+    },
+    description: 'Mug with a slingBlade.',
+    link: 'https://www.etsy.com/listing/1709970911/'
   }
 ];
 

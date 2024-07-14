@@ -550,6 +550,30 @@ const data: IItem[] = [
     },
     description: "Hey listen, Pixie! Here's the perfect way to show-off you're a pixie.",
     link: 'https://www.etsy.com/listing/1706413717/'
+  },
+  {
+    date: '2024-07-14',
+    image: 'https://i.etsystatic.com/46348856/r/il/82001e/5992936556/il_794xN.5992936556_2vxm.jpg',
+    name: 'Howler One Mesh Cap',
+    tags: ['hat'],
+    shop: {
+      name: 'RPGPrintsStore',
+      url: 'https://www.etsy.com/shop/RPGPrintsStore'
+    },
+    description: 'Cover your Head you pixie. Howler One is here.',
+    link: 'https://www.etsy.com/listing/1716624550/'
+  },
+  {
+    date: '2024-07-14',
+    image: 'https://i.etsystatic.com/46348856/r/il/f05cdb/6074122387/il_794xN.6074122387_oue2.jpg',
+    name: 'Howler One Hat',
+    tags: ['hat'],
+    shop: {
+      name: 'RPGPrintsStore',
+      url: 'https://www.etsy.com/shop/RPGPrintsStore'
+    },
+    description: 'Cover your Head you pixie. Howler One is here.',
+    link: 'https://www.etsy.com/listing/1716623192/'
   }
 ];
 

@@ -2604,6 +2604,18 @@ const data: IItem[] = [
     },
     description: '"Hail Libertas, Hail Reaper" on the back of the shirt.',
     link: 'https://www.etsy.com/listing/1716746268/'
+  },
+  {
+    date: '2024-07-14',
+    image: 'https://i.etsystatic.com/46348856/r/il/c2d65d/6026050224/il_794xN.6026050224_644k.jpg',
+    name: 'Red Sigil T-Shirt',
+    tags: ['shirt', 'red'],
+    shop: {
+      name: 'RPGPrintsStore',
+      url: 'https://www.etsy.com/shop/RPGPrintsStore'
+    },
+    description: 'Sports shirt with a pixelated Red Sigil.',
+    link: 'https://www.etsy.com/listing/1739643893/'
   }
 ];
 
