@@ -1499,6 +1499,18 @@ const data: IItem[] = [
     },
     description: 'Helldiver-approved, Howler-inspired coasters.',
     link: 'https://www.etsy.com/listing/1716309529/'
+  },
+  {
+    date: '2024-07-14',
+    image: 'https://i.etsystatic.com/40532367/r/il/5d57f1/6167518233/il_794xN.6167518233_dnfh.jpg',
+    name: '"Hail Reaper" Book B ag and Wristlet',
+    tags: ['other'],
+    shop: {
+      name: 'DarkMoonLibrary',
+      url: 'https://www.etsy.com/shop/DarkMoonLibrary'
+    },
+    description: '"Hail Reaper" book bag and wristlet set.',
+    link: 'https://www.etsy.com/listing/1746404566/'
   }
 ];
 
