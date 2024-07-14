@@ -120,14 +120,16 @@ async function getData(page) {
     const imageElement = document.querySelector(".carousel-image");
     const nameElement = document.querySelector('h1');
     const shopNameElement = document.querySelector(".wt-text-link-no-underline");
+    const descriptionElement = document.querySelector('p[data-product-details-description-text-content]');
 
-    if(!imageElement || !nameElement || !shopNameElement) {
+    if(!imageElement || !nameElement || !shopNameElement || !descriptionElement) {
       return;
     }
     
     const image = imageElement.src;
     const name = nameElement.innerText;
     const shopName = shopNameElement.innerText;
+    const description = descriptionElement.innerText.innerText.replace(/\n+/g, ' ');
 
     let shopUrl = `https://www.etsy.com/shop/${shopName}`
 
@@ -137,9 +139,28 @@ async function getData(page) {
       shop: {
         name: shopName,
         url: shopUrl
-      }
+      },
+      description
     };
   });
+}
+
+async function getAiCompletion(system, user, model) {
+  const response = await openai.chat.completions.create({
+    messages: [
+      {
+        role: 'system',
+        content: system
+      },
+      {
+        role: 'user',
+        content: user
+      }
+    ],
+    model
+  });
+
+  return response.choices[0].message.content;
 }
 
 (async () => {
@@ -173,7 +194,6 @@ async function getData(page) {
     });
 
     let data;
-    let finalName;
     if(link.includes('etsy.com')) {
       data = await getData(page);
       if(!data) {
@@ -190,31 +210,27 @@ async function getData(page) {
         await browser2.close();
       }
       
-      const aiResponse = await openai.chat.completions.create({
-        messages: [
-          {
-            role: 'system',
-            content: 'Shorten the name of an e-commerce store item for convenient display.'
-          },
-          {
-            role: 'user',
-            content: data.name
-          }
-        ],
-        model: 'ft:gpt-3.5-turbo-0125:personal:name:9ip6bm5u',
-      });
-      finalName = aiResponse.choices[0].message.content;
+      data.name = await getAiCompletion(
+        'Shorten the name of an e-commerce store item for convenient display.',
+        data.name,
+        'ft:gpt-3.5-turbo-0125:personal:name:9ip6bm5u'
+      );
+      // data.description = await getAiCompletion(
+      //   'Shorten the description of an e-commerce store item for convenient display.',
+      //   data.description,
+      //   'model'
+      // );      
     }
     if(link.includes('howlerholo.net')) {
       data = await page.evaluate(() => {
         const image = document.querySelector(".wp-post-image").src;
-        finalName = document.querySelector('.product_title').innerText;
+        data.name = document.querySelector('.product_title').innerText;
 
-        finalName = finalName.replace('’', '\'').trim();
+        data.name = data.name.replace('’', '\'').trim();
 
         return {
           image,
-          name: finalName,
+          name: data.name,
           shop: {
             name: "The Howler's Den",
             url: 'https://howlerholo.net/'
@@ -227,10 +243,11 @@ async function getData(page) {
     ncp.copy(`,${JSON.stringify({
       date: new Date().toISOString().split('T')[0],
       image: data.image,
-      name: finalName || data.name,
+      name: data.name,
       tags: answers.tags ? answers.tags.split(' ') : [],
       shop: data.shop,
-      description: data.description || 'FILL',
+      description: 'FILL',
+      // description: data.description,
       link,
       ...(answers.expired === 'Yes' ? { expired: true } : {})
     }).replace('"shop":{', '"shop":{\n')}`);
