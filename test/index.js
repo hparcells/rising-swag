@@ -1,6 +1,7 @@
+const puppeteer = require('puppeteer-extra');
 const fetch = require('node-fetch');
-const { Cluster } = require('puppeteer-cluster');
-const inquirer = require('inquirer');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker');
 
 const etsyExpiredConditions = [
   'Sorry, this item is unavailable.',
@@ -10,125 +11,46 @@ const etsyExpiredConditions = [
   'Sorry, this item and shop are currently unavailable'
 ];
 
-(async () => {
-  let cluster;
-  let results = [];
+puppeteer.use(StealthPlugin());
+puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 
+(async () => {
   const fetched = await fetch('http://localhost:8000/api/v1/data');
   const data = await fetched.json();
+  const items = data.filter(item => {
+    return item.link.includes('etsy');
+  });
 
-  async function prompt() {
-    const answer = await inquirer.prompt({
-      type: 'list',
-      name: 'test',
-      message: 'Test',
-      choices: [
-        "Item Expiry",
-        "Image Status",
-        "Page Status"
-      ]
+  // Setup.
+  const browser = await puppeteer.launch({ headless: false });
+  const page = await browser.newPage();
+
+  for(let i = 0; i < items.length; i++) {
+    const item = items[i];
+
+    await page.goto(item.link);
+    const content = await page.content();
+    
+    const containsCaptcha = content.includes('captcha-delivery');
+    if(containsCaptcha) {
+      console.log(`(${i + 1}/${items.length}) ✗ Captcha detected!`);
+      continue;
+    }
+
+    const isExpired = etsyExpiredConditions.some(condition => {
+      return content.includes(condition);
     });
-  
-    if(answer.test === 'Item Expiry') {  
-      cluster = await Cluster.launch({
-        concurrency: Cluster.CONCURRENCY_PAGE,
-        maxConcurrency: 8,
-        puppeteerOptions: {
-          headless: 'new'
-        },
-        monitor: true
-      });
-
-      const badItems = [];
-  
-      // Etsy Items
-      const etsyItems = data.filter(item => {
-        return item.shop.url.includes('etsy');
-      });
-  
-      await cluster.task(async ({ page, data: url }) => {
-        const etsyItem = etsyItems.find(item => item.link === url);
-        
-        await page.goto(url);
-        const content = await page.content();
-  
-        // If the item is expired.
-        if(etsyExpiredConditions.some(condition => content.includes(condition))) {
-          if(!etsyItem.expired) {
-            console.log(`✗ (Expired) ${url}`);
-            badItems.push(etsyItem);
-          }
-          return;
-        }
-  
-        // If the item is good but is marked as expired.
-        if(etsyItem.expired) {
-          console.log(`✗ (Not Expired) ${url}`);
-          badItems.push(etsyItem);
-        }
-      });
-  
-      for(let i = 0; i < etsyItems.length; i++) {
-        cluster.queue(etsyItems[i].link);
+    if(isExpired) {
+      if(!item.isExpired) {
+        console.log(`(${i + 1}/${items.length}) ✗ (Expired) ${item.link}`);
+        continue;
       }
     }
-
-    if(answer.test === 'Image Status') {
-      cluster = await Cluster.launch({
-        concurrency: Cluster.CONCURRENCY_PAGE,
-        maxConcurrency: 24,
-        puppeteerOptions: {
-          headless: 'new'
-        },
-        monitor: true
-      });
-
-      await cluster.task(async ({ page, data: url }) => {
-        const response = await page.goto(url);
-
-        if(response.status() !== 200) {
-          results.push(`✗ ${url} (${response.status()})`);
-        }
-      });
-
-      for(let i = 0; i < data.length; i++) {
-        cluster.queue(data[i].image);
-      }
+    if(item.expired) {
+      console.log(`(${i + 1}/${items.length}) ✗ (Not Expired) ${item.link}`);
     }
-
-    if(answer.test === 'Page Status') {
-      cluster = await Cluster.launch({
-        concurrency: Cluster.CONCURRENCY_PAGE,
-        maxConcurrency: 8,
-        puppeteerOptions: {
-          headless: 'new'
-        },
-        monitor: true
-      });
-  
-      await cluster.task(async ({ page, data: url }) => {
-        const response = await page.goto(url);
-  
-        if(response.status() !== 200) {
-          results.push(`✗ ${url} (${response.status()})`);
-        }
-      });
-  
-      for(let i = 0; i < data.length; i++) {
-        cluster.queue(data[i].link);
-      }
-    }
-
-    await cluster.idle();
-    for(let i = 0; i < results.length; i++) {
-      console.log(results[i]);
-    }
-
-    await cluster.close();
-    results = [];
-
-    prompt();
   }
 
-  prompt();
+  await browser.close();
+  
 })();
