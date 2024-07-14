@@ -240,6 +240,19 @@ const data: IItem[] = [
     description:
       'High-quality cloth cover with gold vinyl foil on the front, sides and back. Velvety bookmark with golden pendant.',
     link: 'https://www.etsy.com/listing/1714105830/'
+  },
+  {
+    date: '2024-07-14',
+    image: 'https://i.etsystatic.com/40532367/r/il/dd7322/6167401449/il_794xN.6167401449_68m4.jpg',
+    name: 'RED RISING TRILOGY Hardcover',
+    tags: ['book', 'red-rising', 'golden-son', 'morning-star'],
+    shop: {
+      name: 'DarkMoonLibrary',
+      url: 'https://www.etsy.com/shop/DarkMoonLibrary'
+    },
+    description:
+      'Original trilogy in a rich and soft exterior, embellished with gold foil, and foil enhanced cardstock inserts.',
+    link: 'https://www.etsy.com/listing/1746384072/'
   }
 ];
 

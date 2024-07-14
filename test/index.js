@@ -18,7 +18,6 @@ const etsyExpiredConditions = [
 
 (async () => {
   let cluster;
-  let results = [];
 
   const fetched = await fetch('http://localhost:8000/api/v1/data');
   const data = await fetched.json();
@@ -39,7 +38,7 @@ const etsyExpiredConditions = [
       cluster = await Cluster.launch({
         puppeteer,
         concurrency: Cluster.CONCURRENCY_PAGE,
-        maxConcurrency: 6,
+        maxConcurrency: 4,
         puppeteerOptions: {
           headless: false,
           executablePath: 'C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe',
@@ -92,6 +91,23 @@ const etsyExpiredConditions = [
       for(let i = 0; i < etsyItems.length; i++) {
         cluster.queue(etsyItems[i].link);
       }
+
+      // const batchSize = 3;
+      // for(let i = 0; i < etsyItems.length; i += batchSize) {
+      //   const batch = etsyItems.slice(i, i + batchSize);
+      //   for(let j = 0; j < batch.length; j++) {
+      //     cluster.queue(batch[j].link);
+      //   }
+      //   await cluster.idle();
+      //   await inquirer.prompt({
+      //     type: 'list',
+      //     name: 'continue',
+      //     message: 'Batch limit reached. Solve a captcha and press enter to continue.',
+      //     choices: [
+      //       "Continue"
+      //     ]
+      //   });
+      // }
     }
 
     if(answer.test === 'Image Status') {
@@ -143,13 +159,7 @@ const etsyExpiredConditions = [
     }
 
     await cluster.idle();
-    for(let i = 0; i < results.length; i++) {
-      console.log(results[i]);
-    }
-
     await cluster.close();
-    results = [];
-
     prompt();
   }
 
