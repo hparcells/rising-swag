@@ -901,7 +901,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ThePurpuraProject'
     },
     description: 'Shirt with the gold sigil, red sigil, and the wolf of mars onto one design.',
-    link: 'https://www.etsy.com/listing/1437991630/red-rising-unisex-t-shirt-gold-and-red'
+    link: 'https://www.etsy.com/listing/1437991630/red-rising-unisex-t-shirt-gold-and-red',
+    expired: true
   },
   {
     date: '2023-04-08',
@@ -1202,7 +1203,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/APCDesignsShop'
     },
     description: 'Primus/Hail Reaper front/back shirt with a wolf and slingBlade.',
-    link: 'https://www.etsy.com/listing/1501518628'
+    link: 'https://www.etsy.com/listing/1501518628',
+    expired: true
   },
   {
     date: '2023-07-11',
@@ -1288,7 +1290,8 @@ const data: IItem[] = [
     },
     description:
       'Hide from the enemy and catch them by surprise with this dark HWLR ghostCloak Red Rising inspired fan tee.',
-    link: 'https://www.etsy.com/listing/1511496496'
+    link: 'https://www.etsy.com/listing/1511496496',
+    expired: true
   },
   {
     date: '2023-07-19',

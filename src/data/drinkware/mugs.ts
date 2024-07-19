@@ -227,8 +227,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/RavenPostCo'
     },
     description: 'Enamel mug with the quote "I am the reaper and death is my shadow." on it.',
-    link: 'https://www.etsy.com/listing/1179073715/red-rising-enamel-mug',
-    expired: true
+    link: 'https://www.etsy.com/listing/1179073715/red-rising-enamel-mug'
   },
   {
     date: '2023-03-31',
@@ -435,7 +434,8 @@ const data: IItem[] = [
     },
     description:
       "'I'm Gold, bitch. What'd you expect? Warm milk and cookies just because I'm pocket-sized?",
-    link: 'https://www.etsy.com/listing/1093023421/'
+    link: 'https://www.etsy.com/listing/1093023421/',
+    expired: true
   },
   {
     date: '2023-08-15',
@@ -487,7 +487,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Summon the howlers!',
-    link: 'https://www.etsy.com/listing/633723715/'
+    link: 'https://www.etsy.com/listing/633723715/',
+    expired: true
   },
   {
     date: '2023-09-04',
@@ -499,7 +500,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Straight Outta Lykos.',
-    link: 'https://www.etsy.com/listing/1558999909/'
+    link: 'https://www.etsy.com/listing/1558999909/',
+    expired: true
   },
   {
     date: '2023-10-23',
@@ -512,7 +514,8 @@ const data: IItem[] = [
     },
     description:
       'This mug, bearing the symbols of our rebellion, is a testament to the power of that first sip, a reminder that even in the darkest of times, we can rise, conquer, and shape our destiny.',
-    link: 'https://www.etsy.com/listing/1577301170/'
+    link: 'https://www.etsy.com/listing/1577301170/',
+    expired: true
   },
   {
     date: '2023-10-23',
@@ -538,7 +541,8 @@ const data: IItem[] = [
     },
     description:
       "My fellow Howlers, as we rise to face the unforgiving world with the dawn's first light, let it be known that we will NEVER BOW!",
-    link: 'https://www.etsy.com/listing/1592786825/'
+    link: 'https://www.etsy.com/listing/1592786825/',
+    expired: true
   },
   {
     date: '2023-10-23',
@@ -565,7 +569,8 @@ const data: IItem[] = [
     },
     description:
       "The blood blossom. A symbol of our dreams. In the harshest soil of Mars, it blooms with fierce beauty, defying the odds. Just like us, defying the Society's chains.",
-    link: 'https://www.etsy.com/listing/1582820768/'
+    link: 'https://www.etsy.com/listing/1582820768/',
+    expired: true
   },
   {
     date: '2023-11-03',
@@ -617,7 +622,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'White, gray and black 16oz mug hand painted gold accent with vinyl design.',
-    link: 'https://www.etsy.com/listing/1579972936/'
+    link: 'https://www.etsy.com/listing/1579972936/',
+    expired: true
   },
   {
     date: '2023-11-08',
@@ -799,7 +805,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Shit Escalates. Better drink some coffee.',
-    link: 'https://www.etsy.com/listing/1627483417/'
+    link: 'https://www.etsy.com/listing/1627483417/',
+    expired: true
   },
   {
     date: '2024-07-04',

@@ -105,7 +105,8 @@ const data: IItem[] = [
     },
     description:
       'Omnis vir Lupus. For the gym, for a casual day out, for HOWLERCON - this unisex cotton tank top is perfect for any occasion.',
-    link: 'https://www.etsy.com/listing/1480909618/'
+    link: 'https://www.etsy.com/listing/1480909618/',
+    expired: true
   },
   {
     date: '2023-06-14',
@@ -118,7 +119,8 @@ const data: IItem[] = [
     },
     description:
       'Let fall the rain. For the gym, for a casual day out, for HOWLERCON - this unisex cotton tank top is perfect for any occasion',
-    link: 'https://www.etsy.com/listing/1489357375/'
+    link: 'https://www.etsy.com/listing/1489357375/',
+    expired: true
   },
   {
     date: '2023-07-11',

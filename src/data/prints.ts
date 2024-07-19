@@ -921,7 +921,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/firenationcreations'
     },
     description: 'Long poster of Darrow, Sevro, and Mustang.',
-    link: 'https://www.etsy.com/listing/908663150/'
+    link: 'https://www.etsy.com/listing/908663150/',
+    expired: true
   },
   {
     date: '2024-06-18',

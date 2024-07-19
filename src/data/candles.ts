@@ -250,7 +250,8 @@ const data: IItem[] = [
     },
     description:
       'Show off your love for all things Red Rising and Pierce Brown with this "Break the Chains" soy wax candle.',
-    link: 'https://www.etsy.com/listing/1735806711/'
+    link: 'https://www.etsy.com/listing/1735806711/',
+    expired: true
   },
   {
     date: '2024-07-04',
@@ -262,7 +263,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CloakandCandleShop'
     },
     description: 'If only we could all have a friend as faithful as Pax au Telemanus.',
-    link: 'https://www.etsy.com/listing/1734613012/'
+    link: 'https://www.etsy.com/listing/1734613012/',
+    expired: true
   }
 ];
 

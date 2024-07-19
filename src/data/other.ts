@@ -1078,7 +1078,8 @@ const data: IItem[] = [
     },
     description:
       'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
-    link: 'https://www.etsy.com/listing/1653577959/'
+    link: 'https://www.etsy.com/listing/1653577959/',
+    expired: true
   },
   {
     date: '2024-01-23',
@@ -1091,7 +1092,8 @@ const data: IItem[] = [
     },
     description:
       'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
-    link: 'https://www.etsy.com/listing/1653576763/'
+    link: 'https://www.etsy.com/listing/1653576763/',
+    expired: true
   },
   {
     date: '2024-01-23',
@@ -1104,7 +1106,8 @@ const data: IItem[] = [
     },
     description:
       'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
-    link: 'https://www.etsy.com/listing/1639407892/'
+    link: 'https://www.etsy.com/listing/1639407892/',
+    expired: true
   },
   {
     date: '2024-01-27',
@@ -1185,7 +1188,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
     },
     description: 'Handmade beaded and elastic corded Kindle Case Sleeve charm.',
-    link: 'https://www.etsy.com/listing/1668928295/'
+    link: 'https://www.etsy.com/listing/1668928295/',
+    expired: true
   },
   {
     date: '2024-02-21',

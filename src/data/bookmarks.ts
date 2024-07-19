@@ -88,7 +88,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/BookBubbledShop'
     },
     description: 'Quotes from Red Rising on bookmarks. Shipped from Canada.',
-    link: 'https://www.etsy.com/listing/1207264359/red-rising-saga-quote-bookmarks'
+    link: 'https://www.etsy.com/listing/1207264359/red-rising-saga-quote-bookmarks',
+    expired: true
   },
   {
     date: '2023-03-24',
@@ -357,7 +358,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/Jamesfinework'
     },
     description: 'Neon sign with "Hail Libertas, Hail Reaper" on it and a slingBlade.',
-    link: 'https://www.etsy.com/listing/1738755006/'
+    link: 'https://www.etsy.com/listing/1738755006/',
+    expired: true
   }
 ];
 

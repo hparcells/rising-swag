@@ -823,7 +823,8 @@ const data: IItem[] = [
     },
     description:
       'A sticker of the famous quote "Hail Reaper" with a scythe and "Per aspera, ad astra."',
-    link: 'https://www.etsy.com/listing/1493655682/'
+    link: 'https://www.etsy.com/listing/1493655682/',
+    expired: true
   },
   {
     date: '2023-07-10',
@@ -835,7 +836,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/yakitori'
     },
     description: "A sticker of Ragnar's quote from Morning Star.",
-    link: 'https://www.etsy.com/listing/1439884315/'
+    link: 'https://www.etsy.com/listing/1439884315/',
+    expired: true
   },
   {
     date: '2023-07-11',
@@ -1463,7 +1465,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/TheCrystalCactusCo'
     },
     description: 'Stack of the Red Rising series books.',
-    link: 'https://www.etsy.com/listing/1658704397/'
+    link: 'https://www.etsy.com/listing/1658704397/',
+    expired: true
   },
   {
     date: '2024-04-17',
@@ -1511,7 +1514,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/RedRisingMugs'
     },
     description: 'Helium 3 element sticker.',
-    link: 'https://www.etsy.com/listing/1690714119/'
+    link: 'https://www.etsy.com/listing/1690714119/',
+    expired: true
   },
   {
     date: '2024-06-03',

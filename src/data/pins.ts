@@ -411,7 +411,8 @@ const data: IItem[] = [
     },
     description:
       'Conquer the worlds with our Red Rising-inspired pin, a tribute to the courage of the Howlers and the resilience of the Society.',
-    link: 'https://www.etsy.com/listing/1676561702/'
+    link: 'https://www.etsy.com/listing/1676561702/',
+    expired: true
   },
   {
     date: '2024-04-17',
@@ -437,7 +438,8 @@ const data: IItem[] = [
     },
     description:
       'Conquer the worlds with our Red Rising-inspired pin, a tribute to the courage of the Howlers and the resilience of the Society.',
-    link: 'https://www.etsy.com/listing/1676560294/'
+    link: 'https://www.etsy.com/listing/1676560294/',
+    expired: true
   },
   {
     date: '2024-04-17',
@@ -450,7 +452,8 @@ const data: IItem[] = [
     },
     description:
       'Conquer the worlds with our Red Rising-inspired pin, a tribute to the courage of the Howlers and the resilience of the Society.',
-    link: 'https://www.etsy.com/listing/1690733513/'
+    link: 'https://www.etsy.com/listing/1690733513/',
+    expired: true
   },
   {
     date: '2024-07-04',
