@@ -1465,8 +1465,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/TheCrystalCactusCo'
     },
     description: 'Stack of the Red Rising series books.',
-    link: 'https://www.etsy.com/listing/1658704397/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1658704397/'
   },
   {
     date: '2024-04-17',
