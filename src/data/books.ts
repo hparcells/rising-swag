@@ -253,6 +253,19 @@ const data: IItem[] = [
     description:
       'Original trilogy in a rich and soft exterior, embellished with gold foil, and foil enhanced cardstock inserts.',
     link: 'https://www.etsy.com/listing/1746384072/'
+  },
+  {
+    date: '2024-10-12',
+    image: 'https://i.etsystatic.com/6784200/r/il/bf354a/6331916650/il_794xN.6331916650_ga1u.jpg',
+    name: 'Leatherbound First Trilogy Hardcover Books',
+    tags: ['book', 'red-rising', 'golden-son', 'morning-star'],
+    shop: {
+      name: 'ThePrairieRoseStudio',
+      url: 'https://www.etsy.com/shop/ThePrairieRoseStudio'
+    },
+    description:
+      'Handmade ornately designed leather bound editions of Red Rising, Golden Son and Morning Star.',
+    link: 'https://www.etsy.com/listing/1806221909/'
   }
 ];
 
