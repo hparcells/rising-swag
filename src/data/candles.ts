@@ -263,8 +263,19 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CloakandCandleShop'
     },
     description: 'If only we could all have a friend as faithful as Pax au Telemanus.',
-    link: 'https://www.etsy.com/listing/1734613012/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1734613012/'
+  },
+  {
+    date: '2024-10-12',
+    image: 'https://i.etsystatic.com/24229314/r/il/57e2ab/6027097544/il_794xN.6027097544_5dak.jpg',
+    name: 'Break the Chains Soy Wax Candle',
+    tags: ['candle'],
+    shop: {
+      name: 'CloakandCandleShop',
+      url: 'https://www.etsy.com/shop/CloakandCandleShop'
+    },
+    description: 'Love him or hate him, darrow has some really great quotes.',
+    link: 'https://www.etsy.com/listing/1735806711/'
   }
 ];
 
