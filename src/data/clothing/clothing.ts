@@ -1203,8 +1203,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/APCDesignsShop'
     },
     description: 'Primus/Hail Reaper front/back shirt with a wolf and slingBlade.',
-    link: 'https://www.etsy.com/listing/1501518628',
-    expired: true
+    link: 'https://www.etsy.com/listing/1501518628'
   },
   {
     date: '2023-07-11',

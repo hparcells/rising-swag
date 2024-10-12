@@ -157,17 +157,16 @@ const data: IItem[] = [
     expired: true
   },
   {
-    date: '2023-07-10',
-    image: 'https://i.etsystatic.com/20060014/r/il/32f5d7/5111080075/il_794xN.5111080075_k2cm.jpg',
-    name: 'Red Rising Reaper Ringneck Tumbler',
+    date: '2024-10-12',
+    image: 'https://i.etsystatic.com/20060014/r/il/6f21c6/6295795760/il_794xN.6295795760_lovk.jpg',
+    name: 'Reaper Tumbler',
     tags: ['drinkware'],
     shop: {
       name: 'APCDesignsShop',
       url: 'https://www.etsy.com/shop/APCDesignsShop'
     },
     description: 'A tumbler with a wolf and slingBlade, and the text "Hail Reaper".',
-    link: 'https://www.etsy.com/listing/1517397349',
-    expired: true
+    link: 'https://www.etsy.com/listing/1669231502/'
   }
 ];
 
