@@ -2619,6 +2619,18 @@ const data: IItem[] = [
     },
     description: 'Sports shirt with a pixelated Red Sigil.',
     link: 'https://www.etsy.com/listing/1739643893/'
+  },
+  {
+    date: '2024-10-12',
+    image: 'https://i.etsystatic.com/10022175/r/il/182ab9/6309926691/il_794xN.6309926691_ddj3.jpg',
+    name: 'The Reaper T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'kangarucha',
+      url: 'https://www.etsy.com/shop/kangarucha'
+    },
+    description: 'Minimalist "Per Aspera, Ad Astra" design of the Reaper.',
+    link: 'https://www.etsy.com/listing/1791796141/'
   }
 ];
 
