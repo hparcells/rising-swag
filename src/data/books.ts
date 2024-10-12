@@ -266,6 +266,26 @@ const data: IItem[] = [
     description:
       'Handmade ornately designed leather bound editions of Red Rising, Golden Son and Morning Star.',
     link: 'https://www.etsy.com/listing/1806221909/'
+  },
+  {
+    date: '2024-10-12',
+    image: 'https://i.etsystatic.com/52924185/r/il/08fd7f/6218611322/il_794xN.6218611322_drh5.jpg',
+    name: 'Red Rising Dust Jackets',
+    tags: [
+      'book',
+      'red-rising',
+      'golden-son',
+      'morning-star',
+      'iron-gold',
+      'dark-age',
+      'light-bringer'
+    ],
+    shop: {
+      name: 'InkheartBindery',
+      url: 'https://www.etsy.com/shop/InkheartBindery'
+    },
+    description: 'Dust jacks for the first six books of the Red Rising series.',
+    link: 'https://www.etsy.com/listing/1768846526/'
   }
 ];
 
