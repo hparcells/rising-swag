@@ -2630,6 +2630,18 @@ const data: IItem[] = [
     },
     description: 'Minimalist "Per Aspera, Ad Astra" design of the Reaper.',
     link: 'https://www.etsy.com/listing/1791796141/'
+  },
+  {
+    date: '2024-10-12',
+    image: 'https://i.etsystatic.com/15137262/r/il/828674/6145748674/il_794xN.6145748674_us23.jpg',
+    name: 'The Reaper & The Goblin Campaign Shirt',
+    tags: ['shirt', 'darrow', 'sevro'],
+    shop: {
+      name: 'BlissfullyBookish',
+      url: 'https://www.etsy.com/shop/BlissfullyBookish'
+    },
+    description: 'Bookish campaign shirt featuring Darrow and Sevro.',
+    link: 'https://www.etsy.com/listing/1766757195/'
   }
 ];
 
