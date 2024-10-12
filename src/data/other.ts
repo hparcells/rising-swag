@@ -1515,6 +1515,26 @@ const data: IItem[] = [
     },
     description: '"Hail Reaper" book bag and wristlet set.',
     link: 'https://www.etsy.com/listing/1746404566/'
+  },
+  {
+    date: '2024-10-12',
+    image: 'https://i.etsystatic.com/42867901/r/il/35ae26/6070793576/il_794xN.6070793576_36cy.jpg',
+    name: 'Red Rising Mini Books',
+    tags: [
+      'other',
+      'red-rising',
+      'golden-son',
+      'morning-star',
+      'iron-gold',
+      'dark-age',
+      'light-bringer'
+    ],
+    shop: {
+      name: 'ItsyBitsMinis',
+      url: 'https://www.etsy.com/shop/ItsyBitsMinis'
+    },
+    description: 'Red Rising series in 1:12 scale.',
+    link: 'https://www.etsy.com/listing/1749915733/'
   }
 ];
 
