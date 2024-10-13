@@ -47,7 +47,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/BookishByMaggie'
     },
     description: 'A digital print of the quote "Break the Chains."',
-    link: 'https://www.etsy.com/listing/1400876233/red-rising-print-digital-download-break'
+    link: 'https://www.etsy.com/listing/1400876233/red-rising-print-digital-download-break',
+    expired: true
   },
   {
     date: '2023-07-05',

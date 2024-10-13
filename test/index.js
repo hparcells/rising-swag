@@ -70,7 +70,7 @@ const etsyExpiredConditions = [
         if(shopsOnBreak.includes(etsyItem.shop.name)) {
           return;
         }
-        if(redirectedShops.includes(etsyItem.shop.name)) {
+        if(redirectedShops.includes(etsyItem.shop.name) && !etsyItem.expired) {
           console.log(`✗ [${etsyItem.shop.name}] (Redirect) ${url}`);
           return;
         }
@@ -89,7 +89,7 @@ const etsyExpiredConditions = [
           return;
         }
 
-        if(page.url().includes('error_page_redirect')) {
+        if(page.url().includes('error_page_redirect') && !etsyItem.expired) {
           console.log(`✗ [${etsyItem.shop.name}] (Redirect) ${url}`);
           redirectedShops.push(etsyItem.shop.name);
           return;

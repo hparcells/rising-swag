@@ -397,8 +397,7 @@ const data: IItem[] = [
     },
     description:
       'This bookish companion enamel pin features none other than Sophocles, a jellybean fiend and loyal companion to Kavax.',
-    link: 'https://www.etsy.com/listing/1463004146/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1463004146/'
   },
   {
     date: '2024-04-17',

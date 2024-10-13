@@ -395,20 +395,19 @@ const data: IItem[] = [
   {
     date: '2024-02-21',
     image: 'https://i.etsystatic.com/47259379/r/il/e3f50a/5573283849/il_794xN.5573283849_hz0q.jpg',
-    name: 'Sevro Quote Sweatshirt - Howlers, Reaper, Morning Star, Bookish Gift',
+    name: 'Shit Escalates Sweatshirt',
     tags: ['sweatshirt', 'sevro'],
     shop: {
       name: 'CozyQTees',
       url: 'https://www.etsy.com/shop/CozyQTees'
     },
     description: 'Shit Escalates quote with wolf.',
-    link: 'https://www.etsy.com/listing/1615888129/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1615888129/'
   },
   {
     date: '2024-02-21',
     image: 'https://i.etsystatic.com/47259379/r/il/fdc840/5573209755/il_794xN.5573209755_50cc.jpg',
-    name: 'Sevro Quote Sweatshirt, Howlers, Reaper Gift, Morning Star Design',
+    name: 'Shit Escalates Sweatshirt',
     tags: ['sweatshirt', 'sevro'],
     shop: {
       name: 'CozyQTees',

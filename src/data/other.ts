@@ -400,7 +400,8 @@ const data: IItem[] = [
     },
     description:
       "This sign is perfect for any Red Rising fan and will make a unique statement piece in anyone's room or collection.",
-    link: 'https://www.etsy.com/listing/1264816175/red-rising-light-metal-wall-led-light'
+    link: 'https://www.etsy.com/listing/1264816175/red-rising-light-metal-wall-led-light',
+    expired: true
   },
   {
     date: '2023-04-29',
@@ -1315,8 +1316,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/EnchantedExtrasbyBri'
     },
     description: 'Red Rising oversized throw blanket.',
-    link: 'https://www.etsy.com/listing/1334653424/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1334653424/'
   },
   {
     date: '2024-07-04',
@@ -1340,7 +1340,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ShepherdofMen'
     },
     description: 'SlingBlade 3D file.',
-    link: 'https://www.etsy.com/listing/1529586734/'
+    link: 'https://www.etsy.com/listing/1529586734/',
+    expired: true
   },
   {
     date: '2024-07-04',

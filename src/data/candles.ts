@@ -11,8 +11,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/firenationcreations'
     },
     description: 'Choose from Darrow, Mustang, or Sevro candles in 6 oz or 4 oz jars.',
-    link: 'https://www.etsy.com/listing/903972668/red-rising-inspired-candles',
-    expired: true
+    link: 'https://www.etsy.com/listing/903972668/red-rising-inspired-candles'
   },
   {
     date: '2023-03-27',
@@ -24,8 +23,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/firenationcreations'
     },
     description: "Red Rising candle from firenationcreations's Stuck in Space box.",
-    link: 'https://www.etsy.com/listing/952004495/stuck-in-space-sci-fi-box-candles?variation0=1787670255',
-    expired: true
+    link: 'https://www.etsy.com/listing/952004495/stuck-in-space-sci-fi-box-candles?variation0=1787670255'
   },
   {
     date: '2023-03-29',

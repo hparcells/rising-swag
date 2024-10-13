@@ -430,8 +430,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/SkyBlueStudiosCo'
     },
     description: 'High quality vinyl stickers of the wolf of House Mars.',
-    link: 'https://www.etsy.com/listing/1235336532/omnis-vir-lupus-red-rising-howlers-book',
-    expired: true
+    link: 'https://www.etsy.com/listing/1235336532/omnis-vir-lupus-red-rising-howlers-book'
   },
   {
     date: '2023-03-26',
@@ -823,8 +822,7 @@ const data: IItem[] = [
     },
     description:
       'A sticker of the famous quote "Hail Reaper" with a scythe and "Per aspera, ad astra."',
-    link: 'https://www.etsy.com/listing/1493655682/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1493655682/'
   },
   {
     date: '2023-07-10',
@@ -836,8 +834,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/yakitori'
     },
     description: "A sticker of Ragnar's quote from Morning Star.",
-    link: 'https://www.etsy.com/listing/1439884315/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1439884315/'
   },
   {
     date: '2023-07-11',
