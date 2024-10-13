@@ -10,7 +10,6 @@ puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 
 const etsyExpiredConditions = [
   'Sorry, this item is unavailable.',
-  'This shop is taking a short break.',
   'Sorry, this item is sold out',
   'Sorry, the item listing you are looking for does not exist.',
   'Sorry, this item and shop are currently unavailable'
@@ -52,6 +51,9 @@ const etsyExpiredConditions = [
         return item.shop.url.includes('etsy');
       });
 
+      const shopsOnBreak = [];
+      const redirectedShops = [];
+      
       await cluster.task(async ({ page, data: url }) => {
         // Skip styles and fonts loading for performance.
         await page.setRequestInterception(true);
@@ -64,6 +66,14 @@ const etsyExpiredConditions = [
         });
 
         const etsyItem = etsyItems.find(item => item.link === url);
+
+        if(shopsOnBreak.includes(etsyItem.shop.name)) {
+          return;
+        }
+        if(redirectedShops.includes(etsyItem.shop.name)) {
+          console.log(`✗ [${etsyItem.shop.name}] (Redirect) ${url}`);
+          return;
+        }
         
         await page.goto(url);
         const content = await page.content();
@@ -74,6 +84,17 @@ const etsyExpiredConditions = [
           return;
         }
   
+        if(content.includes('This shop is taking a short break.')) {
+          shopsOnBreak.push(etsyItem.shop.name);
+          return;
+        }
+
+        if(page.url().includes('error_page_redirect')) {
+          console.log(`✗ [${etsyItem.shop.name}] (Redirect) ${url}`);
+          redirectedShops.push(etsyItem.shop.name);
+          return;
+        }
+
         // If the item is expired.
         if(etsyExpiredConditions.some(condition => content.includes(condition))) {
           if(!etsyItem.expired) {
@@ -81,7 +102,7 @@ const etsyExpiredConditions = [
           }
           return;
         }
-  
+
         // If the item is good but is marked as expired.
         if(etsyItem.expired) {
           console.log(`✗ [${etsyItem.shop.name}] (Not Expired) ${url}`);
@@ -91,23 +112,6 @@ const etsyExpiredConditions = [
       for(let i = 0; i < etsyItems.length; i++) {
         cluster.queue(etsyItems[i].link);
       }
-
-      // const batchSize = 3;
-      // for(let i = 0; i < etsyItems.length; i += batchSize) {
-      //   const batch = etsyItems.slice(i, i + batchSize);
-      //   for(let j = 0; j < batch.length; j++) {
-      //     cluster.queue(batch[j].link);
-      //   }
-      //   await cluster.idle();
-      //   await inquirer.prompt({
-      //     type: 'list',
-      //     name: 'continue',
-      //     message: 'Batch limit reached. Solve a captcha and press enter to continue.',
-      //     choices: [
-      //       "Continue"
-      //     ]
-      //   });
-      // }
     }
 
     if(answer.test === 'Image Status') {
