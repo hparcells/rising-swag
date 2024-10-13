@@ -390,7 +390,8 @@ const data: IItem[] = [
     },
     description:
       'Red Rising-inspired sweatshirt honoring the Howlers and the Reaper himself. Wear this cool sweatshirt - Howlers will recognize you at once, and everyone else will just think its a cool shirt.',
-    link: 'https://www.etsy.com/listing/1546049607/'
+    link: 'https://www.etsy.com/listing/1546049607/',
+    expired: true
   },
   {
     date: '2024-02-21',

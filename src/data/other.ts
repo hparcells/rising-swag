@@ -605,7 +605,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/OrangeArmory'
     },
     description: "Sevro's Razor fully painted and assembled.",
-    link: 'https://www.etsy.com/listing/1718498259/sevro-razor-finished'
+    link: 'https://www.etsy.com/listing/1718498259/sevro-razor-finished',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -920,7 +921,8 @@ const data: IItem[] = [
     },
     description:
       'Omnis Vir Lupus! Hand drawn on Acid Free paper. The finished product is 8x9 inches.',
-    link: 'https://www.etsy.com/listing/1571039912/'
+    link: 'https://www.etsy.com/listing/1571039912/',
+    expired: true
   },
   {
     date: '2023-10-23',
@@ -1066,7 +1068,8 @@ const data: IItem[] = [
     },
     description:
       'Let these coasters serve as a covert symbol of unity, where rebellion and courtesy intertwine in the tapestry of revolution.',
-    link: 'https://www.etsy.com/listing/1639412844/'
+    link: 'https://www.etsy.com/listing/1639412844/',
+    expired: true
   },
   {
     date: '2024-01-23',
@@ -1251,7 +1254,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
     },
     description: 'For hot or cold drinks. They make a festive addition to your get together!',
-    link: 'https://www.etsy.com/listing/1705862124/'
+    link: 'https://www.etsy.com/listing/1705862124/',
+    expired: true
   },
   {
     date: '2024-06-03',
@@ -1379,7 +1383,8 @@ const data: IItem[] = [
     },
     description:
       'Dive into the heart-pounding world of Red Rising with our exclusive Fear Knight Gorgan tee!',
-    link: 'https://www.etsy.com/listing/1729969082/'
+    link: 'https://www.etsy.com/listing/1729969082/',
+    expired: true
   },
   {
     date: '2024-07-04',
@@ -1441,7 +1446,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreatingFictions'
     },
     description: 'Dive into the gritty world of Red Rising with our Machine Shop Mixed Tape shirt.',
-    link: 'https://www.etsy.com/listing/1729162848/'
+    link: 'https://www.etsy.com/listing/1729162848/',
+    expired: true
   },
   {
     date: '2024-07-04',
@@ -1466,7 +1472,8 @@ const data: IItem[] = [
     },
     description:
       'Ready to show your allegiance to the Sons of Ares? Slip into our exclusive "The Pit Vipers" graphic tee.',
-    link: 'https://www.etsy.com/listing/1720354910/'
+    link: 'https://www.etsy.com/listing/1720354910/',
+    expired: true
   },
   {
     date: '2024-07-04',
@@ -1479,7 +1486,8 @@ const data: IItem[] = [
     },
     description:
       "This tee is more than just fabric and ink; it's a symbol of resilience, rebellion, and the power of literature to transport us to other worlds",
-    link: 'https://www.etsy.com/listing/1720051362/'
+    link: 'https://www.etsy.com/listing/1720051362/',
+    expired: true
   },
   {
     date: '2024-07-05',

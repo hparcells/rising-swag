@@ -561,7 +561,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/RPGPrintsStore'
     },
     description: 'Cover your Head you pixie. Howler One is here.',
-    link: 'https://www.etsy.com/listing/1716624550/'
+    link: 'https://www.etsy.com/listing/1716624550/',
+    expired: true
   },
   {
     date: '2024-07-14',
@@ -573,7 +574,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/RPGPrintsStore'
     },
     description: 'Cover your Head you pixie. Howler One is here.',
-    link: 'https://www.etsy.com/listing/1716623192/'
+    link: 'https://www.etsy.com/listing/1716623192/',
+    expired: true
   }
 ];
 

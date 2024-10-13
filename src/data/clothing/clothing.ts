@@ -229,7 +229,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
     },
     description: 'Through hardships to the stars, a fan made Red Rising tee.',
-    link: 'https://www.etsy.com/listing/771994868/per-aspera-ad-astra-red-rising-unisex-t'
+    link: 'https://www.etsy.com/listing/771994868/per-aspera-ad-astra-red-rising-unisex-t',
+    expired: true
   },
   {
     date: '2023-03-15',
@@ -345,18 +346,6 @@ const data: IItem[] = [
     },
     description: 'Hic Est Lupus Motherfucker - Red Rising Unisex T-Shirt',
     link: 'https://www.etsy.com/listing/808567697/'
-  },
-  {
-    date: '2023-03-15',
-    image: 'https://i.etsystatic.com/21279369/r/il/76d4fd/2312148306/il_1140xN.2312148306_9zk9.jpg',
-    name: 'Hic Est Lupus T-Shirt',
-    tags: ['shirt'],
-    shop: {
-      name: 'TheMightyPenBookTees',
-      url: 'https://www.etsy.com/shop/TheMightyPenBookTees'
-    },
-    description: 'Be the wolf with this Hic Est Lupus fan made Red Rising tee.',
-    link: 'https://www.etsy.com/listing/795719808/hic-est-lupus-red-rising-unisex-t-shirt'
   },
   {
     date: '2023-03-15',
@@ -877,7 +866,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/InkandStoriesShop'
     },
     description: 'Howler for life!',
-    link: 'https://www.etsy.com/listing/849321822/red-rising-shirt-the-howlers-howler-for'
+    link: 'https://www.etsy.com/listing/849321822/red-rising-shirt-the-howlers-howler-for',
+    expired: true
   },
   {
     date: '2023-04-03',
@@ -968,7 +958,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/FunnyBoxLogo'
     },
     description: 'Supreme-style "Ares" shirt of a figure of Ares and his helmet.',
-    link: 'https://www.etsy.com/listing/1458054511/red-rising-ares-box-logo-unisex-t-shirt'
+    link: 'https://www.etsy.com/listing/1458054511/red-rising-ares-box-logo-unisex-t-shirt',
+    expired: true
   },
   {
     date: '2023-05-01',
@@ -1429,7 +1420,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/jesslostinbooks'
     },
     description: 'Omnis vir lupus. Everyone a wolf.',
-    link: 'https://www.etsy.com/listing/1500988357/'
+    link: 'https://www.etsy.com/listing/1500988357/',
+    expired: true
   },
   {
     date: '2023-07-23',
@@ -1867,7 +1859,8 @@ const data: IItem[] = [
     },
     description:
       'This Latin phrase can be applied to so many difficult times in our lives. It gives us the inspiration to reach for the stars, no matter the adversity we may have endured.',
-    link: 'https://www.etsy.com/listing/1502012434/'
+    link: 'https://www.etsy.com/listing/1502012434/',
+    expired: true
   },
   {
     date: '2023-11-08',
@@ -2310,7 +2303,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/RachWillzDesigns'
     },
     description: '"Break the Chains" quote with a haemanthus and quotes from Red Rising.',
-    link: 'https://www.etsy.com/listing/1715285216/'
+    link: 'https://www.etsy.com/listing/1715285216/',
+    expired: true
   },
   {
     date: '2024-07-04',
@@ -2581,7 +2575,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/StickOnCo'
     },
     description: '"Hail Libertas, Hail Reaper" with a slingBlade.',
-    link: 'https://www.etsy.com/listing/1735322181/'
+    link: 'https://www.etsy.com/listing/1735322181/',
+    expired: true
   },
   {
     date: '2024-07-04',
@@ -2617,7 +2612,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/RPGPrintsStore'
     },
     description: 'Sports shirt with a pixelated Red Sigil.',
-    link: 'https://www.etsy.com/listing/1739643893/'
+    link: 'https://www.etsy.com/listing/1739643893/',
+    expired: true
   },
   {
     date: '2024-10-12',

@@ -252,7 +252,8 @@ const data: IItem[] = [
     },
     description:
       'Original trilogy in a rich and soft exterior, embellished with gold foil, and foil enhanced cardstock inserts.',
-    link: 'https://www.etsy.com/listing/1746384072/'
+    link: 'https://www.etsy.com/listing/1746384072/',
+    expired: true
   },
   {
     date: '2024-10-12',

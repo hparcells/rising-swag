@@ -421,7 +421,8 @@ const data: IItem[] = [
     },
     description:
       'Adorned with the illustrious House Julii emblem, this Hoodie proudly showcases our legacy of power and dominance in the interstellar trade.',
-    link: 'https://www.etsy.com/listing/1709678350/'
+    link: 'https://www.etsy.com/listing/1709678350/',
+    expired: true
   },
   {
     date: '2024-07-04',

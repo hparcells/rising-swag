@@ -1417,7 +1417,8 @@ const data: IItem[] = [
     },
     description:
       'This phrase represents tenacity and persistence; it reminds us that greatness is not a destination reached easily or comfortably.',
-    link: 'https://www.etsy.com/listing/1429905894/'
+    link: 'https://www.etsy.com/listing/1429905894/',
+    expired: true
   },
   {
     date: '2024-02-29',

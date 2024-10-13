@@ -234,7 +234,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/CreativeLeighCrafts'
     },
     description: 'Antiqued gold Lived in Peace Pin.',
-    link: 'https://www.etsy.com/listing/1454122718/antique-lived-in-peace-pin'
+    link: 'https://www.etsy.com/listing/1454122718/antique-lived-in-peace-pin',
+    expired: true
   },
   {
     date: '2023-05-30',
@@ -424,7 +425,8 @@ const data: IItem[] = [
     },
     description:
       'Conquer the worlds with our Red Rising-inspired pin, a tribute to the courage of the Howlers and the resilience of the Society.',
-    link: 'https://www.etsy.com/listing/1690728527/'
+    link: 'https://www.etsy.com/listing/1690728527/',
+    expired: true
   },
   {
     date: '2024-04-17',

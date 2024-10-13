@@ -265,7 +265,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
     },
     description: 'Handmade beaded and corded bookmark.',
-    link: 'https://www.etsy.com/listing/1649274576/'
+    link: 'https://www.etsy.com/listing/1649274576/',
+    expired: true
   },
   {
     date: '2024-02-29',

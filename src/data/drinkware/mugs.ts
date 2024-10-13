@@ -316,7 +316,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/23rdlegion'
     },
     description: 'Graffiti design ceramic mug.',
-    link: 'https://www.etsy.com/listing/537677016/reaper-graffiti-red-rising-inspired'
+    link: 'https://www.etsy.com/listing/537677016/reaper-graffiti-red-rising-inspired',
+    expired: true
   },
   {
     date: '2023-05-04',
@@ -740,7 +741,8 @@ const data: IItem[] = [
     },
     description:
       "My trusted friends and fellow Howlers, it's time to summon our pack. We have our mission, one that demands the grit and fire that runs through our veins.",
-    link: 'https://www.etsy.com/listing/1631253054/'
+    link: 'https://www.etsy.com/listing/1631253054/',
+    expired: true
   },
   {
     date: '2024-01-23',
@@ -854,7 +856,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/RPGPrintsStore'
     },
     description: 'Black ceramic mug with a retro pixilated Red Sigil.',
-    link: 'https://www.etsy.com/listing/1709964607/'
+    link: 'https://www.etsy.com/listing/1709964607/',
+    expired: true
   },
   {
     date: '2024-07-14',
@@ -866,7 +869,8 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/RPGPrintsStore'
     },
     description: 'Mug with a slingBlade.',
-    link: 'https://www.etsy.com/listing/1709970911/'
+    link: 'https://www.etsy.com/listing/1709970911/',
+    expired: true
   }
 ];
 
