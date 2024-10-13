@@ -1539,6 +1539,19 @@ const data: IItem[] = [
     },
     description: 'Omnis Vir Lupus. Amazing design perfect for anyone who loves Red Rising.',
     link: 'https://www.etsy.com/listing/1724246808/'
+  },
+  {
+    date: '2024-10-13',
+    image: 'https://i.etsystatic.com/47602254/r/il/9dfe99/6240535935/il_794xN.6240535935_cegn.jpg',
+    name: 'Live for More Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'RedRisingMugs',
+      url: 'https://www.etsy.com/shop/RedRisingMugs'
+    },
+    description:
+      'And with this sticker, leave your silent proclamation, a lingering echo of rebellion.',
+    link: 'https://www.etsy.com/listing/1777279133/'
   }
 ];
 
