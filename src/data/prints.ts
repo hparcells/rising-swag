@@ -1031,6 +1031,42 @@ const data: IItem[] = [
     },
     description: 'Quote from the Path to the Vale.',
     link: 'https://www.etsy.com/listing/1740669819/'
+  },
+  {
+    date: '2024-10-16',
+    image: 'https://i.etsystatic.com/53820029/r/il/6b1bcc/6187387702/il_794xN.6187387702_70g8.jpg',
+    name: '"Hail Reaper" Canvas Wall Art (Red)',
+    tags: ['print'],
+    shop: {
+      name: '143DesignStudio',
+      url: 'https://www.etsy.com/shop/143DesignStudio'
+    },
+    description: 'Canvas wall art with the "Hail Reaper" design.',
+    link: 'https://www.etsy.com/listing/1767954857/'
+  },
+  {
+    date: '2024-10-16',
+    image: 'https://i.etsystatic.com/53820029/r/il/cda112/6187389278/il_794xN.6187389278_snva.jpg',
+    name: '"Hail Reaper" Canvas Wall Art (Black)"',
+    tags: ['print'],
+    shop: {
+      name: '143DesignStudio',
+      url: 'https://www.etsy.com/shop/143DesignStudio'
+    },
+    description: 'Canvas wall art with the "Hail Reaper" design.',
+    link: 'https://www.etsy.com/listing/1767959031/'
+  },
+  {
+    date: '2024-10-16',
+    image: 'https://i.etsystatic.com/53820029/r/il/4317af/6235414375/il_794xN.6235414375_1rlj.jpg',
+    name: '"Omnis Vir Lupus" Canvas Wall Art',
+    tags: ['print'],
+    shop: {
+      name: '143DesignStudio',
+      url: 'https://www.etsy.com/shop/143DesignStudio'
+    },
+    description: 'Canvas wall art with the "Omnis Vir Lupus" design.',
+    link: 'https://www.etsy.com/listing/1758772098/'
   }
 ];
 
