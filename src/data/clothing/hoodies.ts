@@ -436,6 +436,19 @@ const data: IItem[] = [
     description:
       'Show your allegiance to the rising and elite status as a Howler with this hoodie. Omnis Vir Lupus!',
     link: 'https://www.etsy.com/listing/1704002582/'
+  },
+  {
+    date: '2024-10-16',
+    image: 'https://i.etsystatic.com/35131107/r/il/75cb21/5821028079/il_794xN.5821028079_7hb1.jpg',
+    name: 'Red Rising Embroidered Hoodie',
+    tags: ['hoodie', 'red-rising'],
+    shop: {
+      name: 'SuperiorStitchCo',
+      url: 'https://www.etsy.com/shop/SuperiorStitchCo'
+    },
+    description:
+      'Conquer the institute with a heavyweight hoodie embroidered with the book cover of Red Rising.',
+    link: 'https://www.etsy.com/listing/1680309689/'
   }
 ];
 
