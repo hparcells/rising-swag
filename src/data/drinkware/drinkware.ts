@@ -168,6 +168,18 @@ const data: IItem[] = [
     },
     description: 'A tumbler with a wolf and slingBlade, and the text "Hail Reaper".',
     link: 'https://www.etsy.com/listing/1669231502/'
+  },
+  {
+    date: '2024-10-16',
+    image: 'https://i.etsystatic.com/30918629/r/il/ea0184/6304659891/il_794xN.6304659891_qqag.jpg',
+    name: 'Red Rising Themed Tumbler',
+    tags: ['drinkware'],
+    shop: {
+      name: 'EngravingAmy',
+      url: 'https://www.etsy.com/shop/EngravingAmy'
+    },
+    description: 'The perfect cup for Red Rising series lovers!',
+    link: 'https://www.etsy.com/listing/1786143473/'
   }
 ];
 
