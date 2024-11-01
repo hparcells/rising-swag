@@ -359,8 +359,7 @@ const data: IItem[] = [
     },
     description:
       'Pin with the sigils of Red and Gold and a wolf. Contains the text "Live For More" and "Break the Chains".',
-    link: 'https://www.etsy.com/listing/1203100871/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1203100871/'
   },
   {
     date: '2023-11-03',
