@@ -1552,6 +1552,18 @@ const data: IItem[] = [
     description:
       'And with this sticker, leave your silent proclamation, a lingering echo of rebellion.',
     link: 'https://www.etsy.com/listing/1777279133/'
+  },
+  {
+    date: '2024-11-01',
+    image: 'https://i.etsystatic.com/43921165/r/il/b3733e/6367489601/il_794xN.6367489601_ncjk.jpg',
+    name: 'Sevro On Board! Bumper Sticker',
+    tags: ['sticker', 'sevro'],
+    shop: {
+      name: 'BookWears',
+      url: 'https://www.etsy.com/shop/BookWears'
+    },
+    description: 'This warning is for your safety, not ours.',
+    link: 'https://www.etsy.com/listing/1803963579/'
   }
 ];
 

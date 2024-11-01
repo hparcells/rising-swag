@@ -2638,6 +2638,18 @@ const data: IItem[] = [
     },
     description: 'Bookish campaign shirt featuring Darrow and Sevro.',
     link: 'https://www.etsy.com/listing/1766757195/'
+  },
+  {
+    date: '2024-11-01',
+    image: 'https://i.etsystatic.com/43921165/r/il/ac85ba/6254501698/il_794xN.6254501698_rcq4.jpg',
+    name: 'You Have the Beans Tee',
+    tags: ['shirt'],
+    shop: {
+      name: 'BookWears',
+      url: 'https://www.etsy.com/shop/BookWears'
+    },
+    description: 'Kavax hands over the beans to Mustang to see after Sophocles.',
+    link: 'https://www.etsy.com/listing/1790305853/'
   }
 ];
 
