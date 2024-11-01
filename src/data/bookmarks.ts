@@ -359,6 +359,42 @@ const data: IItem[] = [
     description: 'Neon sign with "Hail Libertas, Hail Reaper" on it and a slingBlade.',
     link: 'https://www.etsy.com/listing/1738755006/',
     expired: true
+  },
+  {
+    date: '2024-11-01',
+    image: 'https://i.etsystatic.com/54915426/r/il/79fe65/6358606213/il_794xN.6358606213_11rd.jpg',
+    name: '3D Printed Howlers Bookmark',
+    tags: ['bookmark'],
+    shop: {
+      name: 'LayeredForge',
+      url: 'https://www.etsy.com/shop/LayeredForge'
+    },
+    description: '3D printed bookmark with the Howlers symbol.',
+    link: 'https://www.etsy.com/listing/1788005002/'
+  },
+  {
+    date: '2024-11-01',
+    image: 'https://i.etsystatic.com/54915426/r/il/f51b4c/6366482694/il_794xN.6366482694_sfu5.jpg',
+    name: '3D Printed Gold Sigil Bookmark',
+    tags: ['bookmark', 'gold'],
+    shop: {
+      name: 'LayeredForge',
+      url: 'https://www.etsy.com/shop/LayeredForge'
+    },
+    description: '3D printed bookmark with the Gold sigil.',
+    link: 'https://www.etsy.com/listing/1813161613/'
+  },
+  {
+    date: '2024-11-01',
+    image: 'https://i.etsystatic.com/54915426/r/il/8f43b7/6366473592/il_794xN.6366473592_pftx.jpg',
+    name: '3d Printed Red Sigil Bookmark',
+    tags: ['bookmark', 'red'],
+    shop: {
+      name: 'LayeredForge',
+      url: 'https://www.etsy.com/shop/LayeredForge'
+    },
+    description: '3D printed bookmark with the Red sigil.',
+    link: 'https://www.etsy.com/listing/1813161035/'
   }
 ];
 
