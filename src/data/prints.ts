@@ -1067,6 +1067,58 @@ const data: IItem[] = [
     },
     description: 'Canvas wall art with the "Omnis Vir Lupus" design.',
     link: 'https://www.etsy.com/listing/1758772098/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/43081341/r/il/860c37/6439968520/il_794xN.6439968520_e4k2.jpg',
+    name: 'Red Rising Trilogy 3D Wall Art',
+    tags: ['digital', 'red-rising', 'golden-son', 'morning-star'],
+    shop: {
+      name: 'MakosMercantile',
+      url: 'https://www.etsy.com/shop/MakosMercantile'
+    },
+    description:
+      'Files for 3D printers. Omnis vir lupus! Show your Howler cred with these specially designed 3D wall hangings.',
+    link: 'https://www.etsy.com/listing/1828086859/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/43081341/r/il/5d95a3/6439871254/il_794xN.6439871254_new4.jpg',
+    name: 'Red Rising 3D Wall Hanging Art',
+    tags: ['print', 'red-rising'],
+    shop: {
+      name: 'MakosMercantile',
+      url: 'https://www.etsy.com/shop/MakosMercantile'
+    },
+    description:
+      'File for 3D printers. Hail Reaper! Show your Howler cred with this specially designed 3D wall art.',
+    link: 'https://www.etsy.com/listing/1828068125/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/43081341/r/il/f9a8f6/6488019219/il_794xN.6488019219_4f4y.jpg',
+    name: 'Golden Son 3D Wall Hanging Art',
+    tags: ['digital', 'golden-son'],
+    shop: {
+      name: 'MakosMercantile',
+      url: 'https://www.etsy.com/shop/MakosMercantile'
+    },
+    description:
+      'File for 3D printers. Hic sunt Leones! Show your Howler cred with this specially designed 3D wall art.',
+    link: 'https://www.etsy.com/listing/1828077371/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/43081341/r/il/64a5a9/6488049953/il_794xN.6488049953_kgjk.jpg',
+    name: 'Morning Star 3D Wall Hanging Art',
+    tags: ['digital', 'morning-star'],
+    shop: {
+      name: 'MakosMercantile',
+      url: 'https://www.etsy.com/shop/MakosMercantile'
+    },
+    description:
+      'File for 3D printers. Break the chains! Show your Howler cred with this specially designed 3D wall art.',
+    link: 'https://www.etsy.com/listing/1813886342/'
   }
 ];
 
