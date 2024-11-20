@@ -324,6 +324,54 @@ const data: IItem[] = [
     description:
       'Handmade Gemstone Book. Collectors Edition of Red Rising. Perfect gift for readers and book lovers!',
     link: 'https://www.etsy.com/listing/1746576712/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/54778137/r/il/81be2c/6426695298/il_794xN.6426695298_p8is.jpg',
+    name: 'Red Rising Trilogy Special Edition Rebound',
+    tags: ['book', 'red-rising', 'golden-son', 'morning-star'],
+    shop: {
+      name: 'booksbyjulia',
+      url: 'https://www.etsy.com/shop/booksbyjulia'
+    },
+    description: 'Red Rising Trilogy special edition rebound hardcover books.',
+    link: 'https://www.etsy.com/listing/1811105934/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/54778137/r/il/f03312/6426670946/il_794xN.6426670946_r9pj.jpg',
+    name: 'Red Rising Special Edition Rebound Book',
+    tags: ['book', 'red-rising'],
+    shop: {
+      name: 'booksbyjulia',
+      url: 'https://www.etsy.com/shop/booksbyjulia'
+    },
+    description: 'Red Rising special edition rebound hardcover book.',
+    link: 'https://www.etsy.com/listing/1808445900/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/54778137/r/il/fe0dad/6426674352/il_794xN.6426674352_b7ek.jpg',
+    name: 'Golden Son Special Edition Rebound Book',
+    tags: ['book', 'golden-son'],
+    shop: {
+      name: 'booksbyjulia',
+      url: 'https://www.etsy.com/shop/booksbyjulia'
+    },
+    description: 'Golden Son special edition rebound hardcover book.',
+    link: 'https://www.etsy.com/listing/1808447602/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/54778137/r/il/91d9c0/6426679056/il_794xN.6426679056_505e.jpg',
+    name: 'Morning Star Special Edition Rebound Book',
+    tags: ['book', 'morning-star'],
+    shop: {
+      name: 'booksbyjulia',
+      url: 'https://www.etsy.com/shop/booksbyjulia'
+    },
+    description: 'Morning Star special edition rebound hardcover book.',
+    link: 'https://www.etsy.com/listing/1825296185/'
   }
 ];
 
