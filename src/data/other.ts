@@ -1343,8 +1343,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/ShepherdofMen'
     },
     description: 'SlingBlade 3D file.',
-    link: 'https://www.etsy.com/listing/1529586734/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1529586734/'
   },
   {
     date: '2024-07-04',
