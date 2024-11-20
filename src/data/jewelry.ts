@@ -458,6 +458,19 @@ const data: IItem[] = [
     },
     description: 'Morse code bracelet spelling HANDSOME for Cassius au Bellona.',
     link: 'https://www.etsy.com/listing/1526996660/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/47086982/r/il/150008/6383403854/il_794xN.6383403854_l0mk.jpg',
+    name: 'Death Begets Death Necklace',
+    tags: ['jewelry'],
+    shop: {
+      name: 'VerdeEnterprises',
+      url: 'https://www.etsy.com/shop/VerdeEnterprises'
+    },
+    description:
+      "Death begets death begets death. It's a neverending cycle. Break the chains, break the cycle.",
+    link: 'https://www.etsy.com/listing/1802409474/'
   }
 ];
 
