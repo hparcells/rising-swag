@@ -299,6 +299,18 @@ const data: IItem[] = [
     },
     description: 'Beautifully rebound in custom-designed hardcovers.',
     link: 'https://www.etsy.com/listing/1806897390/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/11224600/r/il/c7db95/6311107052/il_794xN.6311107052_920o.jpg',
+    name: 'Red Rising Sprayed Book Edges',
+    tags: ['book', 'red-rising'],
+    shop: {
+      name: 'ByAstoria',
+      url: 'https://www.etsy.com/shop/ByAstoria'
+    },
+    description: 'Sprayed edges for Red Rising by Pierce Brown!',
+    link: 'https://www.etsy.com/listing/1802330045/'
   }
 ];
 
