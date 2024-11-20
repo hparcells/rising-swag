@@ -77,7 +77,7 @@ function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boo
             })}
         </div>
 
-        <Text size='sm' mt='sm'>
+        <Text size='sm' mt='sm' lineClamp={4}>
           {item.description}
         </Text>
 

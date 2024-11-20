@@ -2650,6 +2650,19 @@ const data: IItem[] = [
     },
     description: 'Kavax hands over the beans to Mustang to see after Sophocles.',
     link: 'https://www.etsy.com/listing/1790305853/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/10022175/r/il/f01c4e/6435512700/il_794xN.6435512700_ebqi.jpg',
+    name: 'The Haemanthus T-Shirt',
+    tags: ['shirt'],
+    shop: {
+      name: 'kangarucha',
+      url: 'https://www.etsy.com/shop/kangarucha'
+    },
+    description:
+      'Celebrate your love for the Red Rising series with this geometric haemanthus blossom t-shirt.',
+    link: 'https://www.etsy.com/listing/1812949600/'
   }
 ];
 
