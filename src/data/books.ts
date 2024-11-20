@@ -287,6 +287,18 @@ const data: IItem[] = [
     },
     description: 'Dust jacks for the first six books of the Red Rising series.',
     link: 'https://www.etsy.com/listing/1768846526/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/52108996/r/il/49a638/6453968833/il_794xN.6453968833_f5a5.jpg',
+    name: 'Red Rising Second Trilogy Rebind',
+    tags: ['book', 'iron-gold', 'dark-age', 'light-bringer'],
+    shop: {
+      name: 'Timebirdy',
+      url: 'https://www.etsy.com/shop/Timebirdy'
+    },
+    description: 'Beautifully rebound in custom-designed hardcovers.',
+    link: 'https://www.etsy.com/listing/1806897390/'
   }
 ];
 
