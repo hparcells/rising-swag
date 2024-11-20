@@ -395,6 +395,19 @@ const data: IItem[] = [
     },
     description: '3D printed bookmark with the Red sigil.',
     link: 'https://www.etsy.com/listing/1813161035/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/26721015/r/il/ee660b/6408226240/il_794xN.6408226240_gk30.jpg',
+    name: 'Six Red Rising Bookmarks',
+    tags: ['bookmark'],
+    shop: {
+      name: 'linesbychuck',
+      url: 'https://www.etsy.com/shop/linesbychuck'
+    },
+    description:
+      'Six bookmarks inspired by the Red Rising series. Printable version available as well.',
+    link: 'https://www.etsy.com/listing/1821572745/'
   }
 ];
 
