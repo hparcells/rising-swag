@@ -311,6 +311,19 @@ const data: IItem[] = [
     },
     description: 'Sprayed edges for Red Rising by Pierce Brown!',
     link: 'https://www.etsy.com/listing/1802330045/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/52222322/r/il/bf85b8/6120165942/il_794xN.6120165942_pa8d.jpg',
+    name: 'Red Rising Rhinestone Cover Special Edition',
+    tags: ['book', 'red-rising'],
+    shop: {
+      name: 'GemstoneBookCovers',
+      url: 'https://www.etsy.com/shop/GemstoneBookCovers'
+    },
+    description:
+      'Handmade Gemstone Book. Collectors Edition of Red Rising. Perfect gift for readers and book lovers!',
+    link: 'https://www.etsy.com/listing/1746576712/'
   }
 ];
 
