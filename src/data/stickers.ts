@@ -1564,6 +1564,18 @@ const data: IItem[] = [
     },
     description: 'This warning is for your safety, not ours.',
     link: 'https://www.etsy.com/listing/1803963579/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/37764432/r/il/fd928f/6352238087/il_794xN.6352238087_9s03.jpg',
+    name: 'Howler Metallic Bumper Sticker',
+    tags: ['sticker'],
+    shop: {
+      name: 'ShelftasticDesigns',
+      url: 'https://www.etsy.com/shop/ShelftasticDesigns'
+    },
+    description: 'Handmade sticker for fans of the Red Rising series.',
+    link: 'https://www.etsy.com/listing/1800915357/'
   }
 ];
 
