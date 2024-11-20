@@ -372,6 +372,58 @@ const data: IItem[] = [
     },
     description: 'Morning Star special edition rebound hardcover book.',
     link: 'https://www.etsy.com/listing/1825296185/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/14565498/r/il/fb133b/6425740298/il_794xN.6425740298_xbnu.jpg',
+    name: 'Red Rising Trilogy Hardcover Deluxe Edition',
+    tags: ['book', 'red-rising', 'golden-son', 'morning-star'],
+    shop: {
+      name: 'EmmasEditions',
+      url: 'https://www.etsy.com/shop/EmmasEditions'
+    },
+    description:
+      'Lovingly designed with many references and Easter eggs, these books are cloth bound and decorated with gold foil heat transfer vinyl.',
+    link: 'https://www.etsy.com/listing/1810071570/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/14565498/r/il/596321/6398983684/il_794xN.6398983684_907e.jpg',
+    name: 'Red Rising Hardcover Deluxe Edition',
+    tags: ['book', 'red-rising'],
+    shop: {
+      name: 'EmmasEditions',
+      url: 'https://www.etsy.com/shop/EmmasEditions'
+    },
+    description:
+      'Lovingly designed with many references and Easter eggs, this books are cloth bound and decorated with gold foil heat transfer vinyl.',
+    link: 'https://www.etsy.com/listing/1805524032/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/14565498/r/il/3f7683/6425739408/il_794xN.6425739408_955q.jpg',
+    name: 'Golden Son Hardcover Deluxe Edition',
+    tags: ['book', 'golden-son'],
+    shop: {
+      name: 'EmmasEditions',
+      url: 'https://www.etsy.com/shop/EmmasEditions'
+    },
+    description:
+      'The finished book is a hardcover, cloth bound book decorated with foil heat transfer vinyl.',
+    link: 'https://www.etsy.com/listing/1807689540/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/14565498/r/il/5eef05/6424330810/il_794xN.6424330810_4g9u.jpg',
+    name: 'Morning Star Hardcover Deluxe Edition',
+    tags: ['book', 'morning-star'],
+    shop: {
+      name: 'EmmasEditions',
+      url: 'https://www.etsy.com/shop/EmmasEditions'
+    },
+    description:
+      'The finished book is a hardcover, cloth bound book decorated with foil heat transfer vinyl.',
+    link: 'https://www.etsy.com/listing/1824413205/'
   }
 ];
 

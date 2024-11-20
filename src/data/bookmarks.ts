@@ -408,6 +408,19 @@ const data: IItem[] = [
     description:
       'Six bookmarks inspired by the Red Rising series. Printable version available as well.',
     link: 'https://www.etsy.com/listing/1821572745/'
+  },
+  {
+    date: '2024-11-20',
+    image: 'https://i.etsystatic.com/14565498/r/il/a789f9/6388705994/il_794xN.6388705994_75pw.jpg',
+    name: 'Red Rising Bookmark',
+    tags: ['bookmark'],
+    shop: {
+      name: 'EmmasEditions',
+      url: 'https://www.etsy.com/shop/EmmasEditions'
+    },
+    description:
+      'This is a bookmark made from the cover of Red Rising by Pierce Brown with vinyl details on the back.',
+    link: 'https://www.etsy.com/listing/1817661827/'
   }
 ];
 
