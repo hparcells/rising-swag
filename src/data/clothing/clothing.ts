@@ -2678,15 +2678,15 @@ const data: IItem[] = [
   },
   {
     date: '2024-12-13',
-    image: 'https://i.etsystatic.com/20248888/r/il/b79954/6254955167/il_794xN.6254955167_qmp2.jpg',
-    name: 'Foot Face Fartbox Quote T-Shirt',
-    tags: [],
+    image: 'https://i.etsystatic.com/8047421/r/il/698b6c/6501876749/il_794xN.6501876749_8h25.jpg',
+    name: 'F Lysander T-Shirt',
+    tags: ['shirt'],
     shop: {
-      name: 'CreatingFictions',
-      url: 'https://www.etsy.com/shop/CreatingFictions'
+      name: 'ObsidianRoseArchive',
+      url: 'https://www.etsy.com/shop/ObsidianRoseArchive'
     },
-    description: 'FILL',
-    link: 'https://www.etsy.com/listing/1766329794'
+    description: 'Perfect shirt for any Red Rising fan!',
+    link: 'https://www.etsy.com/listing/1831024323'
   }
 ];
 
