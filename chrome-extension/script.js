@@ -62,7 +62,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     
     const textArea = document.createElement('textarea');
     textArea.classList.add('outputBox');
-    textArea.value = JSON.stringify(string);
+    textArea.value = string;
     textArea.rows = 10;
     textArea.readOnly = true;
     output.appendChild(textArea);
