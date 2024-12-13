@@ -2675,6 +2675,18 @@ const data: IItem[] = [
     },
     description: "Death begets death begets death. It's a neverending cycle. Break the chains!",
     link: 'https://www.etsy.com/listing/1802509384/'
+  },
+  {
+    date: '2024-12-13',
+    image: 'https://i.etsystatic.com/20248888/r/il/b79954/6254955167/il_794xN.6254955167_qmp2.jpg',
+    name: 'Foot Face Fartbox Quote T-Shirt',
+    tags: [],
+    shop: {
+      name: 'CreatingFictions',
+      url: 'https://www.etsy.com/shop/CreatingFictions'
+    },
+    description: 'FILL',
+    link: 'https://www.etsy.com/listing/1766329794'
   }
 ];
 

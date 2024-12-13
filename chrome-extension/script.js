@@ -39,7 +39,7 @@ document.getElementById('fetch').addEventListener('click', () => {
   });
 });
 
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
   const data = request;
 
   const output = document.getElementById('output');
@@ -51,14 +51,40 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   }
   
   if (Object.keys(data).length) {
-    const {
+    let {
       name,
       image,
       shop,
       description,
     } = data;
 
-    const string = 'TODO';
+    const keyResponse = await fetch('MASTER_ETSY_API_KEY.txt');
+    const key = await keyResponse.text();
+    
+    const shortenNameResponse = await fetch('https://api.hunterparcells.com/etsy/shorten-name', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Etsy-Key': key
+      },
+      body: JSON.stringify({ name })
+    });
+    const shortenedName = await shortenNameResponse.text();
+
+    const date = new Date().toISOString().split('T')[0];
+
+    const string = `,{
+      date: '${date}',
+      image: '${image}',
+      name: '${shortenedName}',
+      tags: [],
+      shop: {
+        name: '${shop.name}',
+        url: '${shop.url}'
+      },
+      description: 'FILL',
+      link: '${data.link}'
+    }`;
     
     const textArea = document.createElement('textarea');
     textArea.classList.add('outputBox');
