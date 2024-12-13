@@ -2687,6 +2687,19 @@ const data: IItem[] = [
     },
     description: 'Perfect shirt for any Red Rising fan!',
     link: 'https://www.etsy.com/listing/1831024323'
+  },
+  {
+    date: '2024-12-13',
+    image: 'https://i.etsystatic.com/10761679/r/il/30849b/6463040922/il_794xN.6463040922_dlcl.jpg',
+    name: 'Reaper Goblin Cassius Mustang Tee',
+    tags: ['shirt', 'darrow', 'sevro', 'cassius', 'mustang'],
+    shop: {
+      name: 'IhanaShopCo',
+      url: 'https://www.etsy.com/shop/IhanaShopCo'
+    },
+    description:
+      'Channel the raw strength and unwavering spirit of House Mars with this shirt featuring your favorite Red Rising characters.',
+    link: 'https://www.etsy.com/listing/1818852780'
   }
 ];
 
