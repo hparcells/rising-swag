@@ -1542,6 +1542,30 @@ const data: IItem[] = [
     },
     description: 'Red Rising series in 1:12 scale.',
     link: 'https://www.etsy.com/listing/1749915733/'
+  },
+  {
+    date: '2024-12-13',
+    image: 'https://i.etsystatic.com/15519608/r/il/29804f/6391425868/il_794xN.6391425868_sadk.jpg',
+    name: 'Darrow Charm',
+    tags: ['other', 'darrow'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'Handmade beaded and corded charm inspired by Darrow au Andromedus.',
+    link: 'https://www.etsy.com/listing/1803896068'
+  },
+  {
+    date: '2024-12-13',
+    image: 'https://i.etsystatic.com/15519608/r/il/d6dc19/6423067714/il_794xN.6423067714_kbhk.jpg',
+    name: 'Sevro Charm',
+    tags: ['other', 'sevro'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'Handmade beaded and corded charm inspired by Sevro au Barca.',
+    link: 'https://www.etsy.com/listing/1809944486'
   }
 ];
 

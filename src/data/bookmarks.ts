@@ -265,8 +265,7 @@ const data: IItem[] = [
       url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
     },
     description: 'Handmade beaded and corded bookmark.',
-    link: 'https://www.etsy.com/listing/1649274576/',
-    expired: true
+    link: 'https://www.etsy.com/listing/1649274576/'
   },
   {
     date: '2024-02-29',
@@ -421,6 +420,30 @@ const data: IItem[] = [
     description:
       'This is a bookmark made from the cover of Red Rising by Pierce Brown with vinyl details on the back.',
     link: 'https://www.etsy.com/listing/1817661827/'
+  },
+  {
+    date: '2024-12-13',
+    image: 'https://i.etsystatic.com/15519608/r/il/246598/6069988827/il_794xN.6069988827_pa1v.jpg',
+    name: 'Mustang Bookmark',
+    tags: ['bookmark', 'mustang'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'This handmade beaded and corded bookmark represents Virginia au Augustus.',
+    link: 'https://www.etsy.com/listing/1724466424/'
+  },
+  {
+    date: '2024-12-13',
+    image: 'https://i.etsystatic.com/15519608/r/il/af00cc/6474460984/il_794xN.6474460984_1xbm.jpg',
+    name: 'Sevro Bookmark',
+    tags: ['bookmark', 'sevro'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description: 'This handmade beaded and corded bookmark represents Sevro au Barca.',
+    link: 'https://www.etsy.com/listing/1724466424/'
   }
 ];
 
