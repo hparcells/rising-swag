@@ -471,6 +471,19 @@ const data: IItem[] = [
     description:
       "Death begets death begets death. It's a neverending cycle. Break the chains, break the cycle.",
     link: 'https://www.etsy.com/listing/1802409474/'
+  },
+  {
+    date: '2024-12-16',
+    image: 'https://i.etsystatic.com/15519608/r/il/d4620f/6506855750/il_794xN.6506855750_kif9.jpg',
+    name: 'Prologue to the New Year Bracelet',
+    tags: ['jewelry'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description:
+      'Daily questions and charms inspired by the Red Rising series to help prepare for the new year.',
+    link: 'https://www.etsy.com/listing/1843862117'
   }
 ];
 
