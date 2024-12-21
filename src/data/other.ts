@@ -1566,6 +1566,18 @@ const data: IItem[] = [
     },
     description: 'Handmade beaded and corded charm inspired by Sevro au Barca.',
     link: 'https://www.etsy.com/listing/1809944486'
+  },
+  {
+    date: '2024-12-21',
+    image: 'https://i.etsystatic.com/50081857/r/il/17fdae/6466420841/il_794xN.6466420841_8uqi.jpg',
+    name: 'Red Rising Wolf Bookend',
+    tags: ['other'],
+    shop: {
+      name: 'AlmaMaker',
+      url: 'https://www.etsy.com/shop/AlmaMaker'
+    },
+    description: '3D printed bookends.',
+    link: 'https://www.etsy.com/listing/1809448812'
   }
 ];
 
