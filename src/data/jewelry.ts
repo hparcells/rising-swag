@@ -484,6 +484,19 @@ const data: IItem[] = [
     description:
       'Daily questions and charms inspired by the Red Rising series to help prepare for the new year.',
     link: 'https://www.etsy.com/listing/1843862117'
+  },
+  {
+    date: '2024-12-24',
+    image: 'https://i.etsystatic.com/15519608/r/il/eb864f/6523366812/il_794xN.6523366812_3v6z.jpg',
+    name: 'Prologue to the New Year Chain',
+    tags: ['jewelry'],
+    shop: {
+      name: 'BookmarksBaublesFae',
+      url: 'https://www.etsy.com/shop/BookmarksBaublesFae'
+    },
+    description:
+      'Daily questions and charms inspired by the Red Rising series to help prepare for the new year.',
+    link: 'https://www.etsy.com/listing/1834135124'
   }
 ];
 
