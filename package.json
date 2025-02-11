@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "prepare": "husky install",
-    "dev": "next dev -p 8000",
+    "dev": "next dev --turbopack -p 8000",
     "build:next": "next build",
     "build": "turbo build:next",
     "start": "next start",
@@ -23,20 +23,20 @@
     "@reverse/array": "^1.7.3",
     "@tabler/icons-react": "^2.8.0",
     "clsx": "^1.2.1",
-    "next": "13.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "15.1.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-ga4": "^2.1.0",
     "sharp": "^0.31.3"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^13.2.3",
+    "@next/eslint-plugin-next": "15.1.7",
     "@types/node": "18.14.6",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
     "@typescript-eslint/parser": "^5.54.0",
     "eslint": "^8.35.0",
-    "eslint-config-next": "13.2.3",
+    "eslint-config-next": "^15.1.7",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
@@ -44,5 +44,9 @@
     "sass": "^1.58.3",
     "turbo": "^1.8.3",
     "typescript": "^4.9.5"
+  },
+  "overrides": {
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3"
   }
 }
