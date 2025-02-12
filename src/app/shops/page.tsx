@@ -5,7 +5,7 @@ import Layout from '@/components/Layout';
 
 import { ALL_DATA } from '@/data/data';
 
-import classes from '../components/Content/Content.module.scss';
+import classes from '@/components/Content/Content.module.scss';
 
 function Stores() {
   const shops = ALL_DATA.map((item) => {
