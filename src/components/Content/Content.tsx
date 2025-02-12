@@ -1,3 +1,5 @@
+'use client';
+
 import { useEffect, useRef, useState } from 'react';
 import { Pagination, Text } from '@mantine/core';
 import clsx from 'clsx';

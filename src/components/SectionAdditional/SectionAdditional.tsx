@@ -18,7 +18,7 @@ function SectionAdditional() {
           component='a'
           href='https://github.com/hparcells/rising-swag'
           target='_blank'
-          leftIcon={<IconBrandGithub size='0.9rem' />}
+          leftSection={<IconBrandGithub size='0.9rem' />}
           color='red'
         >
           View on GitHub

@@ -1,3 +1,5 @@
+'use client';
+
 import { useEffect, useRef, useState } from 'react';
 import { Anchor, Pagination, Text } from '@mantine/core';
 import Link from 'next/link';

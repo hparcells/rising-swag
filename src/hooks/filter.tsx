@@ -1,3 +1,5 @@
+'use client';
+
 /* eslint-disable no-empty-function */
 
 import { useState, useContext, createContext } from 'react';

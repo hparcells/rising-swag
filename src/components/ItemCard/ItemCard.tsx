@@ -1,3 +1,5 @@
+'use client';
+
 import { Anchor, Badge, Button, Card, Image, Text } from '@mantine/core';
 import clsx from 'clsx';
 
@@ -24,7 +26,7 @@ function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boo
           <Image src={item.image} height={200} alt={item.name} />
         </Card.Section>
 
-        <Text weight={500} mt='xs'>
+        <Text fw={500} mt='xs'>
           {item.expired && fadeExpired && <strong>(EXPIRED) </strong>}
           {item.name}
         </Text>
@@ -87,7 +89,7 @@ function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boo
           fullWidth
           mt='md'
           radius='md'
-          leftIcon={<IconExternalLink size='1rem' />}
+          leftSection={<IconExternalLink size='1rem' />}
           component='a'
           href={item.link}
           target='_blank'
@@ -102,7 +104,7 @@ function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boo
               onClick={() => {
                 setConfirmedSpoilers(true);
               }}
-              leftIcon={<IconExclamationCircle size='1rem' />}
+              leftSection={<IconExclamationCircle size='1rem' />}
             >
               VIEW {item.spoiler ? 'SPOILERS' : item.nsfw ? 'NSFW' : 'ITEM'}
             </Button>

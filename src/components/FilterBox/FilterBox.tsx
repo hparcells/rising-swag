@@ -1,3 +1,5 @@
+'use client';
+
 import { Paper, Input, Select, Group, Checkbox, MultiSelect } from '@mantine/core';
 import { IconSearch } from '@tabler/icons-react';
 import { unique } from '@reverse/array';
@@ -25,7 +27,7 @@ function FilterBox() {
     <Paper shadow='sm' p='md' mt='1em' mb='1em' withBorder>
       <Group grow>
         <Input
-          icon={<IconSearch />}
+          leftSection={<IconSearch />}
           placeholder='Search items, stores, etc...'
           value={search}
           onChange={(event) => {
@@ -34,14 +36,14 @@ function FilterBox() {
           styles={(theme) => {
             return {
               input: {
-                '&:focus-within': {
+                '&:focusWithin': {
                   borderColor: theme.colors.red[6]
                 }
               }
             };
           }}
         />
-        <MultiSelect
+        {/* <MultiSelect
           data={unique(
             ALL_DATA.reduce((acc: string[], item) => {
               return [...acc, ...item.tags];
@@ -73,20 +75,20 @@ function FilterBox() {
           }}
           placeholder='Filter by tags'
           searchable
-          nothingFound='No results'
+          nothingFoundMessage='No results'
           styles={(theme) => {
             return {
               input: {
-                '&:focus-within': {
+                '&:focusWithin': {
                   borderColor: theme.colors.red[6]
                 }
               }
             };
           }}
-        />
+        /> */}
       </Group>
 
-      <Group mt='xs' position='apart'>
+      <Group mt='xs'>
         <Group grow>
           <Select
             label='Sort by'
@@ -102,7 +104,7 @@ function FilterBox() {
             styles={(theme) => {
               return {
                 input: {
-                  '&:focus-within': {
+                  '&:focusWithin': {
                     borderColor: theme.colors.red[6]
                   }
                 },
@@ -131,7 +133,7 @@ function FilterBox() {
             styles={(theme) => {
               return {
                 input: {
-                  '&:focus-within': {
+                  '&:focusWithin': {
                     borderColor: theme.colors.red[6]
                   }
                 },

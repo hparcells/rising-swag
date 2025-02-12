@@ -5,4 +5,5 @@ wizard/
 
 # Files
 next.config.js
+postcss.config.cjs
 test.js
