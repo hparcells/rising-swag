@@ -1,21 +1,40 @@
-import { Paper, Input, Select, Group, Checkbox, MultiSelect } from '@mantine/core';
-import { IconSearch } from '@tabler/icons-react';
-import { unique } from '@reverse/array';
-import { useDebouncedValue } from '@mantine/hooks';
+'use client';
+
 import { useEffect, useState } from 'react';
+import { Checkbox, ComboboxData, Group, Input, MultiSelect, Paper, Select } from '@mantine/core';
+import { useDebouncedValue } from '@mantine/hooks';
+import { unique } from '@reverse/array';
+import { IconSearch } from '@tabler/icons-react';
 
 import { useFilter } from '@/hooks/filter';
 
-import { ITag, MERCH_TYPE } from '@/types/item';
+import { IBy, IOrder } from '@/types/filter';
+import { ITag } from '@/types/item';
 
 import { ALL_DATA } from '@/data/data';
-import { IBy, IOrder } from '@/types/filter';
 
 function FilterBox() {
   const { filter, updateFilter } = useFilter();
 
   const [search, setSearch] = useState('');
+  const [tagGroups, setTagGroups] = useState<ComboboxData | undefined>();
   const [debounced] = useDebouncedValue(search, 250, { leading: true });
+
+  useEffect(() => {
+    const tags = unique(
+      ALL_DATA.reduce((acc: string[], item) => {
+        return [...acc, ...item.tags];
+      }, [])
+    ).sort((a: string, b: string) => {
+      return a.localeCompare(b);
+    });
+
+    const groups: ComboboxData = [...tags];
+
+    // TODO: Categorize tags.
+
+    setTagGroups(groups);
+  }, []);
 
   useEffect(() => {
     updateFilter({ search: debounced });
@@ -25,7 +44,7 @@ function FilterBox() {
     <Paper shadow='sm' p='md' mt='1em' mb='1em' withBorder>
       <Group grow>
         <Input
-          icon={<IconSearch />}
+          leftSection={<IconSearch />}
           placeholder='Search items, stores, etc...'
           value={search}
           onChange={(event) => {
@@ -34,7 +53,7 @@ function FilterBox() {
           styles={(theme) => {
             return {
               input: {
-                '&:focus-within': {
+                '&:focusWithin': {
                   borderColor: theme.colors.red[6]
                 }
               }
@@ -42,42 +61,18 @@ function FilterBox() {
           }}
         />
         <MultiSelect
-          data={unique(
-            ALL_DATA.reduce((acc: string[], item) => {
-              return [...acc, ...item.tags];
-            }, [])
-          )
-            .sort((a: string, b: string) => {
-              return a.localeCompare(b);
-            })
-            .map((tag) => {
-              let group;
-              if (MERCH_TYPE.includes(tag as any)) {
-                group = 'Merch Type';
-              }
-              // if (BOOKS.includes(tag as any)) {
-              //   group = 'Book';
-              // }
-              // if (COLORS.includes(tag as any)) {
-              //   group = 'Color';
-              // }
-              // if (CHARACTERS.includes(tag as any)) {
-              //   group = 'Character';
-              // }
-
-              return { label: tag, value: tag, group };
-            })}
+          data={tagGroups}
           value={filter.tags}
           onChange={(value) => {
             updateFilter({ tags: value as ITag[] });
           }}
           placeholder='Filter by tags'
           searchable
-          nothingFound='No results'
+          nothingFoundMessage='No results'
           styles={(theme) => {
             return {
               input: {
-                '&:focus-within': {
+                '&:focusWithin': {
                   borderColor: theme.colors.red[6]
                 }
               }
@@ -86,7 +81,7 @@ function FilterBox() {
         />
       </Group>
 
-      <Group mt='xs' position='apart'>
+      <Group mt='xs'>
         <Group grow>
           <Select
             label='Sort by'
@@ -102,7 +97,7 @@ function FilterBox() {
             styles={(theme) => {
               return {
                 input: {
-                  '&:focus-within': {
+                  '&:focusWithin': {
                     borderColor: theme.colors.red[6]
                   }
                 },
@@ -131,7 +126,7 @@ function FilterBox() {
             styles={(theme) => {
               return {
                 input: {
-                  '&:focus-within': {
+                  '&:focusWithin': {
                     borderColor: theme.colors.red[6]
                   }
                 },

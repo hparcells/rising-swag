@@ -1,5 +1,4 @@
 import { IItem } from '@/types/item';
-import { link } from 'fs';
 
 const data: IItem[] = [
   {

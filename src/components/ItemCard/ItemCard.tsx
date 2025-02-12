@@ -1,13 +1,15 @@
-import { Anchor, Badge, Button, Card, Image, Text } from '@mantine/core';
-import clsx from 'clsx';
+'use client';
 
-import { IItem, MERCH_TYPE } from '@/types/item';
+import { useState } from 'react';
+import { Anchor, Badge, Button, Card, Image, Text } from '@mantine/core';
 import { IconExclamationCircle, IconExternalLink } from '@tabler/icons-react';
+import clsx from 'clsx';
 
 import { useFilter } from '@/hooks/filter';
 
+import { IItem, MERCH_TYPE } from '@/types/item';
+
 import classes from './ItemCard.module.scss';
-import { useState } from 'react';
 
 function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boolean }) {
   const { filter, updateFilter } = useFilter();
@@ -24,13 +26,13 @@ function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boo
           <Image src={item.image} height={200} alt={item.name} />
         </Card.Section>
 
-        <Text weight={500} mt='xs'>
+        <Text fw={500} mt='xs'>
           {item.expired && fadeExpired && <strong>(EXPIRED) </strong>}
           {item.name}
         </Text>
 
-        <Text size='sm' color='dimmed'>
-          <Anchor href={item.shop.url} target='_blank' color='dimmed'>
+        <Text size='sm' c='dimmed'>
+          <Anchor href={item.shop.url} target='_blank' c='dimmed'>
             {item.shop.name}
           </Anchor>
         </Text>
@@ -87,7 +89,7 @@ function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boo
           fullWidth
           mt='md'
           radius='md'
-          leftIcon={<IconExternalLink size='1rem' />}
+          leftSection={<IconExternalLink size='1rem' />}
           component='a'
           href={item.link}
           target='_blank'
@@ -102,7 +104,7 @@ function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boo
               onClick={() => {
                 setConfirmedSpoilers(true);
               }}
-              leftIcon={<IconExclamationCircle size='1rem' />}
+              leftSection={<IconExclamationCircle size='1rem' />}
             >
               VIEW {item.spoiler ? 'SPOILERS' : item.nsfw ? 'NSFW' : 'ITEM'}
             </Button>

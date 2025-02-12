@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import { Anchor, Button, Text } from '@mantine/core';
 import { IconBrandGithub } from '@tabler/icons-react';
-import Link from 'next/link';
 
 import classes from './SectionAdditional.module.scss';
 
@@ -9,7 +9,15 @@ function SectionAdditional() {
     <div className={classes.root}>
       <div className={classes.wrapper}>
         <Text>
-          Made with ❤︎ by{' '}
+          Made with{' '}
+          <span
+            style={{
+              color: '#be1931'
+            }}
+          >
+            ❤︎
+          </span>{' '}
+          by{' '}
           <Anchor href='https://hunterparcells.com' target='_blank'>
             Hunter Parcells
           </Anchor>
@@ -18,7 +26,7 @@ function SectionAdditional() {
           component='a'
           href='https://github.com/hparcells/rising-swag'
           target='_blank'
-          leftIcon={<IconBrandGithub size='0.9rem' />}
+          leftSection={<IconBrandGithub size='0.9rem' />}
           color='red'
         >
           View on GitHub

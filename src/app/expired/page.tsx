@@ -1,17 +1,17 @@
+'use client';
+
 import { useEffect, useRef, useState } from 'react';
-import { Anchor, Pagination, Text } from '@mantine/core';
 import Link from 'next/link';
-
-import SkeletonCard from '@/components/SkeletonCard/SkeletonCard';
-import ItemCard from '@/components/ItemCard/ItemCard';
-import Layout from '@/components/Layout';
-import FilterBox from '@/components/FilterBox/FilterBox';
-
-import { IItem } from '@/types/item';
+import { Anchor, Pagination, Text } from '@mantine/core';
 
 import classes from '@/components/Content/Content.module.scss';
+import FilterBox from '@/components/FilterBox/FilterBox';
+import ItemCard from '@/components/ItemCard/ItemCard';
+import SkeletonCard from '@/components/SkeletonCard/SkeletonCard';
 
 import { useFilter } from '@/hooks/filter';
+
+import { IItem } from '@/types/item';
 
 import { ALL_DATA } from '@/data/data';
 
@@ -72,7 +72,7 @@ function Expired() {
           }
           return true;
         })
-        .sort((a, b) => {
+        .sort((a) => {
           // Put featured first.
           return a.tags.includes('featured') ? -1 : 1;
         })
@@ -101,55 +101,53 @@ function Expired() {
   }, [filteredData]);
 
   return (
-    <Layout title='Expired Items'>
-      <div>
-        <div
-          className={classes.squeeze}
-          style={{
-            padding: '1em 0.5em'
-          }}
-        >
-          <Anchor href='/' component={Link} passHref>
-            Back
-          </Anchor>
+    <div>
+      <div
+        className={classes.squeeze}
+        style={{
+          padding: '1em 0.5em'
+        }}
+      >
+        <Anchor href='/' component={Link} passHref>
+          Back
+        </Anchor>
 
-          <FilterBox />
+        <FilterBox />
 
-          <Text mb='sm'>Showing {filteredData && filteredData.length.toString()} items.</Text>
+        <Text mb='sm'>Showing {filteredData && filteredData.length.toString()} items.</Text>
 
-          <div className={classes.cards} ref={topCards}>
-            {filteredData ? (
-              filteredData.length > 0 ? (
-                filteredData
-                  .map((item) => {
-                    return <ItemCard key={item.link} item={item} fadeExpired={false} />;
-                  })
-                  .splice((page - 1) * 30, 30)
-              ) : (
-                <Text>No results.</Text>
-              )
+        <div className={classes.cards} ref={topCards}>
+          {filteredData ? (
+            filteredData.length > 0 ? (
+              filteredData
+                .map((item) => {
+                  return <ItemCard key={item.link} item={item} fadeExpired={false} />;
+                })
+                .splice((page - 1) * 30, 30)
             ) : (
-              <>
-                <SkeletonCard />
-                <SkeletonCard />
-                <SkeletonCard />
-              </>
-            )}
-          </div>
-
-          <Pagination
-            total={pages}
-            value={page}
-            onChange={(newPage) => {
-              setPage(newPage);
-              topCards.current?.scrollIntoView({ behavior: 'smooth' });
-            }}
-            className={classes.pagination}
-            color='red'
-          />
+              <Text>No results.</Text>
+            )
+          ) : (
+            <>
+              <SkeletonCard />
+              <SkeletonCard />
+              <SkeletonCard />
+            </>
+          )}
         </div>
+
+        <Pagination
+          total={pages}
+          value={page}
+          onChange={(newPage) => {
+            setPage(newPage);
+            topCards.current?.scrollIntoView({ behavior: 'smooth' });
+          }}
+          className={classes.pagination}
+          color='red'
+        />
       </div>
-    </Layout>
+    </div>
   );
 }
 
