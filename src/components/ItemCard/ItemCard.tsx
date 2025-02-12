@@ -31,8 +31,8 @@ function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boo
           {item.name}
         </Text>
 
-        <Text size='sm' color='dimmed'>
-          <Anchor href={item.shop.url} target='_blank' color='dimmed'>
+        <Text size='sm' c='dimmed'>
+          <Anchor href={item.shop.url} target='_blank' c='dimmed'>
             {item.shop.name}
           </Anchor>
         </Text>

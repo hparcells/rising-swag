@@ -9,7 +9,15 @@ function SectionAdditional() {
     <div className={classes.root}>
       <div className={classes.wrapper}>
         <Text>
-          Made with ❤︎ by{' '}
+          Made with{' '}
+          <span
+            style={{
+              color: '#be1931'
+            }}
+          >
+            ❤︎
+          </span>{' '}
+          by{' '}
           <Anchor href='https://hunterparcells.com' target='_blank'>
             Hunter Parcells
           </Anchor>

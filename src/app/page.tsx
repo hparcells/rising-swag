@@ -7,9 +7,7 @@ function Index() {
   return (
     <Layout>
       <>
-        <div>
-          <Hero />
-        </div>
+        <Hero />
         <Content />
         <SectionAdditional />
       </>
