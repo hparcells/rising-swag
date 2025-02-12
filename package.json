@@ -19,6 +19,7 @@
     "@mantine/core": "^7.16.3",
     "@mantine/form": "^7.16.3",
     "@mantine/hooks": "^7.16.3",
+    "@prisma/client": "^6.3.1",
     "@reverse/array": "^1.7.3",
     "@tabler/icons-react": "^2.8.0",
     "clsx": "^1.2.1",
@@ -47,6 +48,7 @@
     "postcss-preset-mantine": "^1.17.0",
     "postcss-simple-vars": "^7.0.1",
     "prettier": "^3.5.0",
+    "prisma": "^6.3.1",
     "sass": "^1.58.3",
     "turbo": "^1.8.3",
     "typescript": "^5.7.3"
