@@ -1,8 +1,8 @@
 import React from 'react';
-import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
+import clsx from 'clsx';
 
 import styles from './index.module.css';
 
@@ -14,10 +14,7 @@ function HomepageHeader() {
         <h1 className='hero__title'>{siteConfig.title}</h1>
         <p className='hero__subtitle'>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="https://risingswag.com/"
-          >
+          <Link className='button button--secondary button--lg' to='https://risingswag.com/'>
             https://risingswag.com/
           </Link>
         </div>

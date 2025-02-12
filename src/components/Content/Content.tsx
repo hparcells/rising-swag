@@ -4,9 +4,9 @@ import { useEffect, useRef, useState } from 'react';
 import { Pagination, Text } from '@mantine/core';
 import clsx from 'clsx';
 
-import FilterBox from '../FilterBox/FilterBox';
-import ItemCard from '../ItemCard/ItemCard';
-import SkeletonCard from '../SkeletonCard/SkeletonCard';
+import FilterBox from '@/components/FilterBox/FilterBox';
+import ItemCard from '@/components/ItemCard/ItemCard';
+import SkeletonCard from '@/components/SkeletonCard/SkeletonCard';
 
 import { useFilter } from '@/hooks/filter';
 
@@ -71,7 +71,7 @@ function Content() {
           }
           return true;
         })
-        .sort((a, b) => {
+        .sort((a) => {
           // Put featured first.
           return a.tags.includes('featured') ? -1 : 1;
         })

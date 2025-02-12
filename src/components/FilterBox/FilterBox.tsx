@@ -1,17 +1,17 @@
 'use client';
 
-import { Paper, Input, Select, Group, Checkbox, MultiSelect, ComboboxData } from '@mantine/core';
-import { IconSearch } from '@tabler/icons-react';
-import { unique } from '@reverse/array';
-import { useDebouncedValue } from '@mantine/hooks';
 import { useEffect, useState } from 'react';
+import { Checkbox, ComboboxData, Group, Input, MultiSelect, Paper, Select } from '@mantine/core';
+import { useDebouncedValue } from '@mantine/hooks';
+import { unique } from '@reverse/array';
+import { IconSearch } from '@tabler/icons-react';
 
 import { useFilter } from '@/hooks/filter';
 
-import { ITag, MERCH_TYPE } from '@/types/item';
+import { IBy, IOrder } from '@/types/filter';
+import { ITag } from '@/types/item';
 
 import { ALL_DATA } from '@/data/data';
-import { IBy, IOrder } from '@/types/filter';
 
 function FilterBox() {
   const { filter, updateFilter } = useFilter();

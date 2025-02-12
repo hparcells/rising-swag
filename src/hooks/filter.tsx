@@ -1,8 +1,8 @@
 'use client';
 
 /* eslint-disable no-empty-function */
-
-import { useState, useContext, createContext } from 'react';
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { createContext, useContext, useState } from 'react';
 
 import { IFilter } from '@/types/filter';
 

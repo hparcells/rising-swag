@@ -1,5 +1,5 @@
-import { ColorSchemeScript, MantineProvider, mantineHtmlProps } from '@mantine/core';
 import { Metadata, type Viewport } from 'next';
+import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
 
 import { ProvideFilter } from '@/hooks/filter';
 

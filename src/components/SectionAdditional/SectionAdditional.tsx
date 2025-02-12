@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import { Anchor, Button, Text } from '@mantine/core';
 import { IconBrandGithub } from '@tabler/icons-react';
-import Link from 'next/link';
 
 import classes from './SectionAdditional.module.scss';
 
