@@ -1,6 +1,6 @@
 'use client';
 
-import { Paper, Input, Select, Group, Checkbox, MultiSelect } from '@mantine/core';
+import { Paper, Input, Select, Group, Checkbox, MultiSelect, ComboboxData } from '@mantine/core';
 import { IconSearch } from '@tabler/icons-react';
 import { unique } from '@reverse/array';
 import { useDebouncedValue } from '@mantine/hooks';
@@ -17,7 +17,24 @@ function FilterBox() {
   const { filter, updateFilter } = useFilter();
 
   const [search, setSearch] = useState('');
+  const [tagGroups, setTagGroups] = useState<ComboboxData | undefined>();
   const [debounced] = useDebouncedValue(search, 250, { leading: true });
+
+  useEffect(() => {
+    const tags = unique(
+      ALL_DATA.reduce((acc: string[], item) => {
+        return [...acc, ...item.tags];
+      }, [])
+    ).sort((a: string, b: string) => {
+      return a.localeCompare(b);
+    });
+
+    const groups: ComboboxData = [...tags];
+
+    // TODO: Categorize tags.
+
+    setTagGroups(groups);
+  }, []);
 
   useEffect(() => {
     updateFilter({ search: debounced });
@@ -43,32 +60,8 @@ function FilterBox() {
             };
           }}
         />
-        {/* <MultiSelect
-          data={unique(
-            ALL_DATA.reduce((acc: string[], item) => {
-              return [...acc, ...item.tags];
-            }, [])
-          )
-            .sort((a: string, b: string) => {
-              return a.localeCompare(b);
-            })
-            .map((tag) => {
-              let group;
-              if (MERCH_TYPE.includes(tag as any)) {
-                group = 'Merch Type';
-              }
-              // if (BOOKS.includes(tag as any)) {
-              //   group = 'Book';
-              // }
-              // if (COLORS.includes(tag as any)) {
-              //   group = 'Color';
-              // }
-              // if (CHARACTERS.includes(tag as any)) {
-              //   group = 'Character';
-              // }
-
-              return { label: tag, value: tag, group };
-            })}
+        <MultiSelect
+          data={tagGroups}
           value={filter.tags}
           onChange={(value) => {
             updateFilter({ tags: value as ITag[] });
@@ -85,7 +78,7 @@ function FilterBox() {
               }
             };
           }}
-        /> */}
+        />
       </Group>
 
       <Group mt='xs'>
