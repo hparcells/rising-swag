@@ -13,7 +13,11 @@ export async function getTag(tag: string): Promise<Tag | null> {
 }
 
 export async function getTagStrings(): Promise<string[]> {
-  const tags = await prisma.tag.findMany();
+  const tags = await prisma.tag.findMany({
+    orderBy: {
+      name: 'asc'
+    }
+  });
 
   return tags.map((tag) => {
     return tag.name;

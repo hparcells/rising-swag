@@ -55,7 +55,7 @@ function FilterBox() {
         />
         <MultiSelect
           data={tagGroups}
-          value={filter.tags}
+          value={filter.tags.sort()}
           onChange={(value) => {
             updateFilter({ tags: value as ITag[] });
           }}
