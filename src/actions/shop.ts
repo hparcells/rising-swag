@@ -12,6 +12,14 @@ export async function getShop(name: string): Promise<Shop | null> {
   });
 }
 
+export async function getShops(): Promise<Shop[]> {
+  return await prisma.shop.findMany({
+    orderBy: {
+      name: 'asc'
+    }
+  });
+}
+
 export async function getShopNames(): Promise<string[]> {
   const shops = await prisma.shop.findMany();
 

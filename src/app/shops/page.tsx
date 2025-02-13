@@ -1,24 +1,12 @@
 import Link from 'next/link';
 import { Anchor } from '@mantine/core';
 
-import { ALL_DATA } from '@/data/data';
+import { getShops } from '@/actions/shop';
 
 import classes from '../../components/Content/Content.module.scss';
 
-function Stores() {
-  const shops = ALL_DATA.map((item) => {
-    return item.shop;
-  })
-    .filter((shop, index, self) => {
-      return (
-        self.findIndex((s) => {
-          return s.name === shop.name;
-        }) === index
-      );
-    })
-    .sort((a, b) => {
-      return a.name.localeCompare(b.name);
-    });
+async function Stores() {
+  const shops = await getShops();
 
   return (
     <div
@@ -43,13 +31,6 @@ function Stores() {
                 <a href={shop.url} target='_blank'>
                   {shop.name}
                 </a>{' '}
-                (
-                {
-                  ALL_DATA.filter((item) => {
-                    return item.shop.name === shop.name;
-                  }).length
-                }
-                )
               </li>
             );
           })}
@@ -66,13 +47,6 @@ function Stores() {
                 <a href={shop.url} target='_blank'>
                   {shop.name}
                 </a>{' '}
-                (
-                {
-                  ALL_DATA.filter((item) => {
-                    return item.shop.name === shop.name;
-                  }).length
-                }
-                )
               </li>
             );
           })}
@@ -90,13 +64,6 @@ function Stores() {
                 <a href={shop.url} target='_blank'>
                   {shop.name}
                 </a>{' '}
-                (
-                {
-                  ALL_DATA.filter((item) => {
-                    return item.shop.name === shop.name;
-                  }).length
-                }
-                )
               </li>
             );
           })}
