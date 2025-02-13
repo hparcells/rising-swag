@@ -9,10 +9,13 @@ function SkeletonCard() {
 
       <Skeleton mt='xs' height={16} width={150} />
       <Skeleton mt='xs' height={8} width={100} />
+      <Skeleton mt='xs' height={8} width={50} />
 
       <Skeleton mt='md' height={8} />
       <Skeleton mt='xs' height={8} />
       <Skeleton mt='xs' height={8} width={50} />
+
+      <Skeleton mt='lg' height={36} width='100%' />
     </Card>
   );
 }
