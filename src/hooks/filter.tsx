@@ -26,6 +26,7 @@ const FilterContext = createContext({
   items: [] as FullItem[] | null,
   page: 1,
   pages: 1,
+  isLoading: false,
   updateFilter: (filterUpdate: IFilterUpdate) => {},
   resetFilter: () => {},
   setPage: (page: number) => {}
@@ -37,6 +38,7 @@ export function useFilter(): {
   items: FullItem[] | null;
   page: number;
   pages: number;
+  isLoading: boolean;
   updateFilter: (filterUpdate: IFilterUpdate) => void;
   resetFilter: () => void;
   setPage: (page: number) => void;
@@ -59,6 +61,7 @@ function useProvideFilter() {
   const [items, setItems] = useState<FullItem[] | null>(null);
   const [page, setPage] = useState<number>(1);
   const [pages, setPages] = useState<number>(1);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
 
   function updateFilter(filterUpdate: IFilterUpdate) {
     setFilter({ ...filter, ...filterUpdate });
@@ -78,17 +81,25 @@ function useProvideFilter() {
 
   useEffect(() => {
     (async () => {
+      setIsLoading(true);
+
       const { items, total } = await getItems(debouncedFilter, page);
       setItems(items);
       setPage(1);
       setPages(Math.ceil(total / 30));
+
+      setIsLoading(false);
     })();
   }, [debouncedFilter]);
 
   useEffect(() => {
     (async () => {
+      setIsLoading(true);
+
       const { items } = await getItems(debouncedFilter, page);
       setItems(items);
+
+      setIsLoading(false);
     })();
   }, [page]);
 
@@ -97,6 +108,7 @@ function useProvideFilter() {
     items,
     page,
     pages,
+    isLoading,
     updateFilter,
     resetFilter,
     setPage

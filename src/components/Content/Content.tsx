@@ -13,7 +13,7 @@ import { useFilter } from '@/hooks/filter';
 import classes from './Content.module.scss';
 
 function Content() {
-  const { items, page, pages, setPage } = useFilter();
+  const { items, page, pages, isLoading, setPage } = useFilter();
 
   const topCards = useRef<HTMLDivElement>(null);
 
@@ -25,7 +25,7 @@ function Content() {
         </div>
 
         <div className={clsx(classes.cards, classes.squeeze)} ref={topCards}>
-          {items ? (
+          {!isLoading && items ? (
             items.length > 0 ? (
               <>
                 {items.map((item, i) => {
@@ -37,15 +37,9 @@ function Content() {
             )
           ) : (
             <>
-              <SkeletonCard />
-              <SkeletonCard />
-              <SkeletonCard />
-              <SkeletonCard />
-              <SkeletonCard />
-              <SkeletonCard />
-              <SkeletonCard />
-              <SkeletonCard />
-              <SkeletonCard />
+              {Array.from({ length: 30 }).map((_, i) => {
+                return <SkeletonCard key={i} />;
+              })}
             </>
           )}
         </div>
