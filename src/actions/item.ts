@@ -29,18 +29,21 @@ export async function getItems(filter: IFilter, page: number): Promise<SearchRet
     whereFilter['OR'] = [
       {
         name: {
-          contains: filter.search.trim()
+          contains: filter.search.trim(),
+          mode: 'insensitive'
         }
       },
       {
         description: {
-          contains: filter.search.trim()
+          contains: filter.search.trim(),
+          mode: 'insensitive'
         }
       },
       {
         shop: {
           name: {
-            contains: filter.search.trim()
+            contains: filter.search.trim(),
+            mode: 'insensitive'
           }
         }
       }
