@@ -2,7 +2,7 @@
 
 /* eslint-disable no-empty-function */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { createContext, useContext, useEffect, useState } from 'react';
+import { createContext, useContext, useEffect, useLayoutEffect, useState } from 'react';
 import { useDebounce } from 'use-debounce';
 
 import { getItems } from '@/actions/item';
@@ -80,28 +80,28 @@ function useProvideFilter() {
   }
 
   useEffect(() => {
+    setIsLoading(true);
+  }, [page]);
+
+  useEffect(() => {
+    setPage(1);
+    setIsLoading(true);
+  }, [debouncedFilter]);
+
+  // This is a stupid workaround but it works.
+  useEffect(() => {
     (async () => {
-      setIsLoading(true);
+      if (!isLoading) {
+        return;
+      }
 
       const { items, total } = await getItems(debouncedFilter, page);
       setItems(items);
-      setPage(1);
       setPages(Math.ceil(total / 30));
 
       setIsLoading(false);
     })();
-  }, [debouncedFilter]);
-
-  useEffect(() => {
-    (async () => {
-      setIsLoading(true);
-
-      const { items } = await getItems(debouncedFilter, page);
-      setItems(items);
-
-      setIsLoading(false);
-    })();
-  }, [page]);
+  }, [isLoading]);
 
   return {
     filter,
