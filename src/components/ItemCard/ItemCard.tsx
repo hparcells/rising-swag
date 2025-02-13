@@ -26,79 +26,83 @@ function ItemCard({ item, fadeExpired = true }: { item: FullItem; fadeExpired?: 
           <Image src={item.image} height={200} alt={item.name} />
         </Card.Section>
 
-        <Text fw={500} mt='xs'>
-          {item.expired && fadeExpired && <strong>(EXPIRED) </strong>}
-          {item.name}
-        </Text>
+        <div className={classes.cardBody}>
+          <Text fw={500} mt='xs'>
+            {item.expired && fadeExpired && <strong>(EXPIRED) </strong>}
+            {item.name}
+          </Text>
 
-        <Text size='sm' c='dimmed'>
-          <Anchor href={item.shop.url} target='_blank' c='dimmed'>
-            {item.shop.name}
-          </Anchor>
-        </Text>
+          <Text size='sm' c='dimmed'>
+            <Anchor href={item.shop.url} target='_blank' c='dimmed'>
+              {item.shop.name}
+            </Anchor>
+          </Text>
 
-        <div>
-          {item.tags
-            .map((tag) => {
-              return tag.name;
-            })
-            .sort((tag) => {
-              // Merch type tags are displayed first.
-              if ((MERCH_TYPE as any).includes(tag)) {
-                return -1;
-              }
-              return 1;
-            })
-            .sort((tag) => {
-              // Tags that are in the filter are show first in the list.
-              if (filter.tags.includes(tag as ITag)) {
-                return -1;
-              }
-              return 1;
-            })
-            .map((tag) => {
-              return (
-                <Badge
-                  color='red'
-                  radius='sm'
-                  variant={filter.tags.includes(tag as ITag) ? 'outline' : 'filled'}
-                  mr={3}
-                  onClick={() => {
-                    // Add the tag to the filter if it is clicked.
-                    updateFilter({
-                      tags: filter.tags.includes(tag as ITag)
-                        ? filter.tags.filter((filterTag) => {
-                            return filterTag !== tag;
-                          })
-                        : [...filter.tags, tag as ITag]
-                    });
-                  }}
-                  className={classes.badge}
-                  key={tag}
-                >
-                  {tag}
-                </Badge>
-              );
-            })}
+          <div>
+            {item.tags
+              .map((tag) => {
+                return tag.name;
+              })
+              .sort((tag) => {
+                // Merch type tags are displayed first.
+                if ((MERCH_TYPE as any).includes(tag)) {
+                  return -1;
+                }
+                return 1;
+              })
+              .sort((tag) => {
+                // Tags that are in the filter are show first in the list.
+                if (filter.tags.includes(tag as ITag)) {
+                  return -1;
+                }
+                return 1;
+              })
+              .map((tag) => {
+                return (
+                  <Badge
+                    color='red'
+                    radius='sm'
+                    variant={filter.tags.includes(tag as ITag) ? 'outline' : 'filled'}
+                    mr={3}
+                    onClick={() => {
+                      // Add the tag to the filter if it is clicked.
+                      updateFilter({
+                        tags: filter.tags.includes(tag as ITag)
+                          ? filter.tags.filter((filterTag) => {
+                              return filterTag !== tag;
+                            })
+                          : [...filter.tags, tag as ITag]
+                      });
+                    }}
+                    className={classes.badge}
+                    key={tag}
+                  >
+                    {tag}
+                  </Badge>
+                );
+              })}
+          </div>
+
+          <div className={classes.descriptionWrapper}>
+            <Text size='sm' mt='sm' lineClamp={4}>
+              {item.description}
+            </Text>
+          </div>
+
+          <Button
+            variant='outline'
+            color='red'
+            fullWidth
+            mt='md'
+            radius='md'
+            leftSection={<IconExternalLink size='1rem' />}
+            component='a'
+            href={item.link}
+            target='_blank'
+          >
+            Check it out
+          </Button>
         </div>
-
-        <Text size='sm' mt='sm' lineClamp={4}>
-          {item.description}
-        </Text>
-
-        <Button
-          variant='outline'
-          color='red'
-          fullWidth
-          mt='md'
-          radius='md'
-          leftSection={<IconExternalLink size='1rem' />}
-          component='a'
-          href={item.link}
-          target='_blank'
-        >
-          Check it out
-        </Button>
 
         {(item.spoiler || item.nsfw) && !confirmedSpoilers && (
           <div className={classes.spoilerOverlay}>

@@ -1,6 +1,6 @@
 .card {
   width: 295px;
-  height: fit-content;
+
   position: relative;
 }
 
@@ -34,4 +34,15 @@
   z-index: 1;
 
   backdrop-filter: blur(8px);
+}
+
+.cardBody {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptionWrapper {
+  flex-grow: 1;
 }
