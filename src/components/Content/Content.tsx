@@ -20,7 +20,9 @@ function Content() {
   return (
     <div className={classes.root}>
       <div className={classes.content}>
-        <div className={clsx(classes.aboveCards, classes.squeeze)}>{items && <FilterBox />}</div>
+        <div className={clsx(classes.aboveCards, classes.squeeze)}>
+          <FilterBox />
+        </div>
 
         <div className={clsx(classes.cards, classes.squeeze)} ref={topCards}>
           {items ? (
