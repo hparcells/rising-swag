@@ -1,3 +1,5 @@
+import { Prisma } from '@prisma/client';
+
 import { IBook, ICharacter, IColor, IEvent } from './red-rising';
 
 export const MERCH_TYPE = [
@@ -38,7 +40,7 @@ export const MERCH_TYPE = [
 type IMerchType = (typeof MERCH_TYPE)[number];
 
 /**
- * Tags associated with an {@link IItem}.
+ * Tags associated with an {@link FullItem}.
  */
 export type ITag = IBook | ICharacter | IColor | IMerchType | IEvent | 'official' | 'featured';
 
@@ -47,7 +49,7 @@ export type ITag = IBook | ICharacter | IColor | IMerchType | IEvent | 'official
  * @param name The name of the author/shop.
  * @param url The URL of the author/shop.
  */
-interface IShop {
+interface OldShop {
   name: string;
   url: string;
 }
@@ -64,16 +66,28 @@ interface IShop {
  * @param expired Whether the item is expired/attainable.
  * @param spoiler Whether the item is a spoiler of any content.
  */
-export interface IItem {
+export interface OldItem {
   date: string;
   image: string;
   name: string;
   tags: ITag[];
-  shop: IShop;
+  shop: OldShop;
   description: string;
   link: string;
 
   expired?: boolean;
   spoiler?: boolean;
   nsfw?: boolean;
+}
+
+export type FullItem = Prisma.ItemGetPayload<{
+  include: {
+    shop: true;
+    tags: true;
+  };
+}>;
+
+export interface SearchReturn {
+  items: FullItem[];
+  total: number;
 }

@@ -7,11 +7,11 @@ import clsx from 'clsx';
 
 import { useFilter } from '@/hooks/filter';
 
-import { IItem, MERCH_TYPE } from '@/types/item';
+import { FullItem, ITag, MERCH_TYPE } from '@/types/item';
 
 import classes from './ItemCard.module.scss';
 
-function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boolean }) {
+function ItemCard({ item, fadeExpired = true }: { item: FullItem; fadeExpired?: boolean }) {
   const { filter, updateFilter } = useFilter();
 
   const [confirmedSpoilers, setConfirmedSpoilers] = useState<boolean>(false);
@@ -39,6 +39,9 @@ function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boo
 
         <div>
           {item.tags
+            .map((tag) => {
+              return tag.name;
+            })
             .sort((tag) => {
               // Merch type tags are displayed first.
               if ((MERCH_TYPE as any).includes(tag)) {
@@ -48,7 +51,7 @@ function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boo
             })
             .sort((tag) => {
               // Tags that are in the filter are show first in the list.
-              if (filter.tags.includes(tag)) {
+              if (filter.tags.includes(tag as ITag)) {
                 return -1;
               }
               return 1;
@@ -58,16 +61,16 @@ function ItemCard({ item, fadeExpired = true }: { item: IItem; fadeExpired?: boo
                 <Badge
                   color='red'
                   radius='sm'
-                  variant={filter.tags.includes(tag) ? 'outline' : 'filled'}
+                  variant={filter.tags.includes(tag as ITag) ? 'outline' : 'filled'}
                   mr={3}
                   onClick={() => {
                     // Add the tag to the filter if it is clicked.
                     updateFilter({
-                      tags: filter.tags.includes(tag)
+                      tags: filter.tags.includes(tag as ITag)
                         ? filter.tags.filter((filterTag) => {
                             return filterTag !== tag;
                           })
-                        : [...filter.tags, tag]
+                        : [...filter.tags, tag as ITag]
                     });
                   }}
                   className={classes.badge}

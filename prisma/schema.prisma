@@ -34,4 +34,8 @@ model Item {
   description String
   link        String
   shopId      String   @db.ObjectId
+
+  expired Boolean @default(false)
+  spoiler Boolean @default(false)
+  nsfw    Boolean @default(false)
 }

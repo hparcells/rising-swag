@@ -1,6 +1,6 @@
-import { IItem } from '@/types/item';
+import { OldItem } from '@/types/item';
 
-const data: IItem[] = [
+const data: OldItem[] = [
   {
     date: '2023-04-06',
     image: 'https://ih1.redbubble.net/image.2266064843.0830/flat,600x600,075,f.jpg',

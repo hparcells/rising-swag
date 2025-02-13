@@ -3,15 +3,14 @@
 import { useEffect, useState } from 'react';
 import { Checkbox, ComboboxData, Group, Input, MultiSelect, Paper, Select } from '@mantine/core';
 import { useDebouncedValue } from '@mantine/hooks';
-import { unique } from '@reverse/array';
 import { IconSearch } from '@tabler/icons-react';
+
+import { getTagStrings } from '@/actions/tag';
 
 import { useFilter } from '@/hooks/filter';
 
 import { IBy, IOrder } from '@/types/filter';
 import { ITag } from '@/types/item';
-
-import { ALL_DATA } from '@/data/data';
 
 function FilterBox() {
   const { filter, updateFilter } = useFilter();
@@ -21,19 +20,13 @@ function FilterBox() {
   const [debounced] = useDebouncedValue(search, 250, { leading: true });
 
   useEffect(() => {
-    const tags = unique(
-      ALL_DATA.reduce((acc: string[], item) => {
-        return [...acc, ...item.tags];
-      }, [])
-    ).sort((a: string, b: string) => {
-      return a.localeCompare(b);
-    });
+    (async () => {
+      const tags = await getTagStrings();
 
-    const groups: ComboboxData = [...tags];
+      const groups: ComboboxData = [...tags];
 
-    // TODO: Categorize tags.
-
-    setTagGroups(groups);
+      setTagGroups(groups);
+    })();
   }, []);
 
   useEffect(() => {
@@ -88,7 +81,7 @@ function FilterBox() {
             data={[
               { label: 'Name', value: 'name' },
               { label: 'Shop', value: 'shop' },
-              { label: 'Date Added', value: 'added' }
+              { label: 'Date Added', value: 'date' }
             ]}
             value={filter.sort.by}
             onChange={(value) => {
@@ -116,8 +109,8 @@ function FilterBox() {
           <Select
             label='Order by'
             data={[
-              { label: 'Ascending', value: 'ascending' },
-              { label: 'Descending', value: 'descending' }
+              { label: 'Ascending', value: 'asc' },
+              { label: 'Descending', value: 'desc' }
             ]}
             value={filter.sort.order}
             onChange={(value) => {

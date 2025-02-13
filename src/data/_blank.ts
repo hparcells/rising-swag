@@ -1,5 +1,5 @@
-import { IItem } from '@/types/item';
+import { OldItem } from '@/types/item';
 
-const data: IItem[] = [];
+const data: OldItem[] = [];
 
 export default data;

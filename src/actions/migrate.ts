@@ -73,7 +73,10 @@ export async function migrateData() {
             }
           },
           description: item.description,
-          link: item.link
+          link: item.link,
+          expired: item.expired || false,
+          spoiler: item.spoiler || false,
+          nsfw: item.nsfw || false
         }
       });
     } catch (e) {

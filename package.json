@@ -20,14 +20,14 @@
     "@mantine/form": "^7.16.3",
     "@mantine/hooks": "^7.16.3",
     "@prisma/client": "^6.3.1",
-    "@reverse/array": "^1.7.3",
     "@tabler/icons-react": "^2.8.0",
     "clsx": "^1.2.1",
     "next": "15.1.7",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-ga4": "^2.1.0",
-    "sharp": "^0.31.3"
+    "sharp": "^0.31.3",
+    "use-debounce": "^10.0.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",

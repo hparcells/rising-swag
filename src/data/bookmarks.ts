@@ -1,6 +1,6 @@
-import { IItem } from '@/types/item';
+import { OldItem } from '@/types/item';
 
-const data: IItem[] = [
+const data: OldItem[] = [
   {
     date: '2023-03-20',
     image: 'https://i.etsystatic.com/10165646/r/il/6e24da/3093360938/il_794xN.3093360938_7kx1.jpg',

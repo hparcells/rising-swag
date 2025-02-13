@@ -5,7 +5,9 @@ import SectionAdditional from '@/components/SectionAdditional/SectionAdditional'
 function Index() {
   return (
     <>
-      <Hero />
+      <div>
+        <Hero />
+      </div>
       <Content />
       <SectionAdditional />
     </>

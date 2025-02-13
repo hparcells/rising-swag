@@ -1,7 +1,7 @@
 import { ITag } from './item';
 
-export type IBy = 'name' | 'shop' | 'added';
-export type IOrder = 'ascending' | 'descending';
+export type IBy = 'name' | 'shop' | 'date';
+export type IOrder = 'asc' | 'desc';
 
 interface ISort {
   by: IBy;

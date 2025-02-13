@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useRef } from 'react';
 import { Pagination, Text } from '@mantine/core';
 import clsx from 'clsx';
 
@@ -10,147 +10,25 @@ import SkeletonCard from '@/components/SkeletonCard/SkeletonCard';
 
 import { useFilter } from '@/hooks/filter';
 
-import { IItem } from '@/types/item';
-
-import { ALL_DATA } from '@/data/data';
-
 import classes from './Content.module.scss';
 
 function Content() {
-  const { filter, resetFilter } = useFilter();
+  const { items, page, pages, setPage } = useFilter();
 
   const topCards = useRef<HTMLDivElement>(null);
-
-  const [filteredData, setFilteredData] = useState<IItem[]>(null as any);
-  const [pages, setPages] = useState<number>(1);
-  const [page, setPage] = useState<number>(1);
-
-  useEffect(() => {
-    resetFilter();
-  }, []);
-  useEffect(() => {
-    setFilteredData(
-      ALL_DATA.filter((item) => {
-        // Filter by search.
-        const search = filter.search.toLowerCase().trim();
-
-        return (
-          item.name.toLowerCase().trim().includes(search) ||
-          item.description.toLowerCase().trim().includes(search) ||
-          item.shop.name.toLowerCase().trim().includes(search)
-        );
-      })
-        .sort((a, b) => {
-          // Order by filters.
-          if (filter.sort.by === 'name') {
-            if (filter.sort.order === 'descending') {
-              return b.name.localeCompare(a.name);
-            }
-            return a.name.localeCompare(b.name);
-          }
-          if (filter.sort.by === 'shop') {
-            if (filter.sort.order === 'descending') {
-              return b.shop.name.localeCompare(a.shop.name);
-            }
-            return a.shop.name.localeCompare(b.shop.name);
-          }
-          if (filter.sort.by === 'added') {
-            if (filter.sort.order === 'descending') {
-              return new Date(b.date).getTime() - new Date(a.date).getTime();
-            }
-            return new Date(a.date).getTime() - new Date(b.date).getTime();
-          }
-          return 0;
-        })
-        .filter((item) => {
-          // Filter by tags.
-          if (filter.tags.length > 0) {
-            return filter.tags.every((tag) => {
-              return item.tags.includes(tag);
-            });
-          }
-          return true;
-        })
-        .sort((a) => {
-          // Put featured first.
-          return a.tags.includes('featured') ? -1 : 1;
-        })
-    );
-  }, [filter]);
-  useEffect(() => {
-    if (!filteredData) {
-      return;
-    }
-    setPages(
-      Math.ceil(
-        filteredData.filter((item) => {
-          return !item.expired;
-        }).length / 30
-      )
-    );
-  }, [filteredData]);
-  useEffect(() => {
-    setPage(1);
-  }, [filter.search, filter.tags, filter.sort, filter.showExpired]);
 
   return (
     <div className={classes.root}>
       <div className={classes.content}>
-        <div className={clsx(classes.aboveCards, classes.squeeze)}>
-          {filteredData && (
-            <div>
-              <FilterBox />
-            </div>
-          )}
+        <div className={clsx(classes.aboveCards, classes.squeeze)}>{items && <FilterBox />}</div>
 
-          {/* This has got to be the worst code I've written. */}
-          {filteredData && (
-            <Text mb='sm' ref={topCards}>
-              Showing{' '}
-              {
-                filteredData.filter((item) => {
-                  return !item.expired || (item.expired && filter.showExpired);
-                }).length
-              }{' '}
-              {filteredData.filter((isExpired) => {
-                return !isExpired;
-              }).length !== ALL_DATA.length && ` of ${ALL_DATA.length} `}
-              items
-              {!filter.showExpired &&
-                filteredData
-                  .map((item) => {
-                    return item.expired;
-                  })
-                  .filter((isExpired) => {
-                    return isExpired;
-                  }).length > 0 &&
-                ` (hiding ${
-                  filteredData
-                    .map((item) => {
-                      return item.expired;
-                    })
-                    .filter((isExpired) => {
-                      return isExpired;
-                    }).length
-                } expired)`}
-            </Text>
-          )}
-        </div>
-
-        <div className={clsx(classes.cards, classes.squeeze)}>
-          {filteredData ? (
-            filteredData.filter((item) => {
-              return !item.expired || (item.expired && filter.showExpired);
-            }).length > 0 ? (
+        <div className={clsx(classes.cards, classes.squeeze)} ref={topCards}>
+          {items ? (
+            items.length > 0 ? (
               <>
-                {filteredData
-                  .filter((item) => {
-                    return !item.expired || (item.expired && filter.showExpired);
-                  })
-                  .map((item, i) => {
-                    return <ItemCard item={item} key={i} />;
-                  })
-                  .splice((page - 1) * 30, 30)}
+                {items.map((item, i) => {
+                  return <ItemCard item={item} key={i} />;
+                })}
               </>
             ) : (
               <Text>No results.</Text>
