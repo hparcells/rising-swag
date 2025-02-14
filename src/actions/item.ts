@@ -5,6 +5,16 @@ import prisma from '@/database/database';
 import { IFilter } from '@/types/filter';
 import { SearchReturn } from '@/types/item';
 
+export async function getItem(itemId: string) {
+  const item = await prisma.item.findFirst({
+    where: {
+      id: itemId
+    }
+  });
+
+  return item;
+}
+
 export async function urlExists(url: string): Promise<boolean> {
   const item = await prisma.item.findFirst({
     where: {
