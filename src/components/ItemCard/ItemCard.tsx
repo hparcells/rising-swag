@@ -1,9 +1,21 @@
 'use client';
 
 import { useState } from 'react';
-import { Anchor, Badge, Button, Card, Image, Text } from '@mantine/core';
-import { IconExclamationCircle, IconExternalLink } from '@tabler/icons-react';
+import { ActionIcon, Anchor, Badge, Button, Card, Image, Menu, Text, Tooltip } from '@mantine/core';
+import { notifications } from '@mantine/notifications';
+import { ReportType } from '@prisma/client';
+import {
+  IconAlertTriangle,
+  IconExclamationCircle,
+  IconExternalLink,
+  IconFlag,
+  IconLinkOff,
+  IconPhotoOff,
+  IconQuestionMark
+} from '@tabler/icons-react';
 import clsx from 'clsx';
+
+import { createReport } from '@/actions/report';
 
 import { useFilter } from '@/hooks/filter';
 
@@ -15,6 +27,24 @@ function ItemCard({ item, fadeExpired = true }: { item: FullItem; fadeExpired?: 
   const { filter, updateFilter } = useFilter();
 
   const [confirmedSpoilers, setConfirmedSpoilers] = useState<boolean>(false);
+
+  function showReportNotification() {
+    notifications.show({
+      title: 'Report Submitted',
+      message: 'Thank you for helping keep the site up to date!',
+      color: 'green'
+    });
+  }
+
+  async function handleReport(type: ReportType) {
+    if (type === ReportType.EXPIRED && item.expired) {
+      await createReport(item.id, ReportType.NOT_EXPIRED);
+      showReportNotification();
+      return;
+    }
+    await createReport(item.id, type);
+    showReportNotification();
+  }
 
   return (
     <>
@@ -89,19 +119,65 @@ function ItemCard({ item, fadeExpired = true }: { item: FullItem; fadeExpired?: 
             </Text>
           </div>
 
-          <Button
-            variant='outline'
-            color='red'
-            fullWidth
-            mt='md'
-            radius='md'
-            leftSection={<IconExternalLink size='1rem' />}
-            component='a'
-            href={item.link}
-            target='_blank'
-          >
-            Check it out
-          </Button>
+          <div className={classes.buttonRow}>
+            <Button
+              variant='outline'
+              color='red'
+              fullWidth
+              radius='md'
+              leftSection={<IconExternalLink size='1rem' />}
+              component='a'
+              href={item.link}
+              target='_blank'
+              size='sm'
+            >
+              Check it out
+            </Button>
+            <Menu shadow='md' width={200}>
+              <Menu.Target>
+                <Tooltip label='Report Issue' openDelay={500}>
+                  <ActionIcon variant='outline' color='red' radius='md' size='input-sm'>
+                    <IconAlertTriangle size='1rem' />
+                  </ActionIcon>
+                </Tooltip>
+              </Menu.Target>
+              <Menu.Dropdown>
+                <Menu.Label>Report Issue</Menu.Label>
+                <Menu.Item
+                  leftSection={<IconFlag size={14} />}
+                  onClick={() => {
+                    handleReport(ReportType.EXPIRED);
+                  }}
+                >
+                  Expired/Not Expired
+                </Menu.Item>
+                <Menu.Item
+                  leftSection={<IconPhotoOff size={14} />}
+                  onClick={() => {
+                    handleReport(ReportType.MISSING_IMAGE);
+                  }}
+                >
+                  Missing Image
+                </Menu.Item>
+                <Menu.Item
+                  leftSection={<IconLinkOff size={14} />}
+                  onClick={() => {
+                    handleReport(ReportType.BROKEN_LINK);
+                  }}
+                >
+                  Broken Link
+                </Menu.Item>
+                <Menu.Item
+                  leftSection={<IconQuestionMark size={14} />}
+                  onClick={() => {
+                    handleReport(ReportType.OTHER);
+                  }}
+                >
+                  Other
+                </Menu.Item>
+              </Menu.Dropdown>
+            </Menu>
+          </div>
         </div>
 
         {(item.spoiler || item.nsfw) && !confirmedSpoilers && (

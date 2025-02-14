@@ -46,3 +46,12 @@
 .descriptionWrapper {
   flex-grow: 1;
 }
+
+.buttonRow {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 16px;
+}

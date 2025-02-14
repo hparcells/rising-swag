@@ -1,9 +1,11 @@
 import { Metadata, type Viewport } from 'next';
 import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
+import { Notifications } from '@mantine/notifications';
 
 import { ProvideFilter } from '@/hooks/filter';
 
 import '@mantine/core/styles.css';
+import '@mantine/notifications/styles.css';
 import '@/styles/global.scss';
 
 const DESCRIPTION =
@@ -37,6 +39,7 @@ function RootLayout({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <MantineProvider>
+          <Notifications />
           <ProvideFilter>{children}</ProvideFilter>
         </MantineProvider>
       </body>

@@ -38,4 +38,24 @@ model Item {
   expired Boolean @default(false)
   spoiler Boolean @default(false)
   nsfw    Boolean @default(false)
+
+  reports Report[]
+}
+
+enum ReportType {
+  EXPIRED
+  NOT_EXPIRED
+  MISSING_IMAGE
+  BROKEN_LINK
+  OTHER
+}
+
+model Report {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+
+  item   Item       @relation(fields: [itemId], references: [id])
+  itemId String     @db.ObjectId
+  type   ReportType
+
+  timestamp DateTime @default(now())
 }
