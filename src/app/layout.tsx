@@ -1,12 +1,11 @@
 import { Metadata, type Viewport } from 'next';
-import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
-import { Notifications } from '@mantine/notifications';
-
-import { ProvideFilter } from '@/hooks/filter';
+import { ColorSchemeScript, mantineHtmlProps } from '@mantine/core';
 
 import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
 import '@/styles/global.scss';
+
+import TheProviderProvider from '@/components/TheProviderProvider';
 
 const DESCRIPTION =
   "Looking for the perfect gift? Represent the world of Pierce Brown's Red Rising with style with a curated list of merch and other Red Rising related items from members across the community, all in one place.";
@@ -38,10 +37,7 @@ function RootLayout({ children }: { children: React.ReactNode }) {
         <ColorSchemeScript />
       </head>
       <body>
-        <MantineProvider>
-          <Notifications />
-          <ProvideFilter>{children}</ProvideFilter>
-        </MantineProvider>
+        <TheProviderProvider>{children}</TheProviderProvider>
       </body>
     </html>
   );
