@@ -22,6 +22,7 @@ function LogInForm({ redirect }: { redirect: string }) {
         onChange={(event) => {
           return setPassword(event.currentTarget.value);
         }}
+        autoFocus
       />
 
       <Button color='red' fullWidth mt='md' type='submit'>
