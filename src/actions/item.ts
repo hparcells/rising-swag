@@ -34,8 +34,6 @@ export async function getUrls(): Promise<string[]> {
 }
 
 export async function getItems(filter: IFilter, page: number): Promise<SearchReturn> {
-  console.log(filter);
-
   const whereFilter: any = {};
   if (filter.search.trim()) {
     whereFilter['OR'] = [
@@ -112,4 +110,24 @@ export async function getItems(filter: IFilter, page: number): Promise<SearchRet
     items,
     total
   };
+}
+
+export async function toggleExpiry(itemId: string) {
+  const item = await prisma.item.findFirst({
+    where: {
+      id: itemId
+    }
+  });
+  if (!item) {
+    return;
+  }
+
+  await prisma.item.update({
+    where: {
+      id: itemId
+    },
+    data: {
+      expired: !item.expired
+    }
+  });
 }

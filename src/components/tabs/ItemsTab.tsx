@@ -8,12 +8,19 @@ import {
   Table,
   Text
 } from '@mantine/core';
-import { IconPencil, IconPlus, IconTrash } from '@tabler/icons-react';
+import { IconEye, IconEyeOff, IconPencil, IconPlus, IconTrash } from '@tabler/icons-react';
+
+import { toggleExpiry } from '@/actions/item';
 
 import { useFilter } from '@/hooks/filter';
 
 function ItemsTab() {
-  const { filter, items, page, pages, isLoading, updateFilter, setPage } = useFilter();
+  const { filter, items, page, pages, isLoading, updateFilter, setPage, fetchData } = useFilter();
+
+  async function handleExpiryClick(itemId: string) {
+    await toggleExpiry(itemId);
+    fetchData();
+  }
 
   return (
     <div
@@ -75,6 +82,18 @@ function ItemsTab() {
                           gap: '2px'
                         }}
                       >
+                        <ActionIcon
+                          variant='filled'
+                          onClick={() => {
+                            handleExpiryClick(item.id);
+                          }}
+                        >
+                          {item.expired ? (
+                            <IconEyeOff style={{ width: '70%', height: '70%' }} />
+                          ) : (
+                            <IconEye style={{ width: '70%', height: '70%' }} />
+                          )}
+                        </ActionIcon>
                         <ActionIcon variant='filled'>
                           <IconPencil style={{ width: '70%', height: '70%' }} />
                         </ActionIcon>

@@ -29,7 +29,8 @@ const FilterContext = createContext({
   isLoading: false,
   updateFilter: (filterUpdate: IFilterUpdate) => {},
   resetFilter: () => {},
-  setPage: (page: number) => {}
+  setPage: (page: number) => {},
+  fetchData: () => {}
 });
 
 // Our hook.
@@ -42,6 +43,7 @@ export function useFilter(): {
   updateFilter: (filterUpdate: IFilterUpdate) => void;
   resetFilter: () => void;
   setPage: (page: number) => void;
+  fetchData: () => void;
 } {
   return useContext(FilterContext);
 }
@@ -79,6 +81,12 @@ function useProvideFilter() {
     });
   }
 
+  async function fetchData() {
+    const { items, total } = await getItems(debouncedFilter, page);
+    setItems(items);
+    setPages(Math.ceil(total / 30));
+  }
+
   useEffect(() => {
     setIsLoading(true);
   }, [page]);
@@ -95,9 +103,7 @@ function useProvideFilter() {
         return;
       }
 
-      const { items, total } = await getItems(debouncedFilter, page);
-      setItems(items);
-      setPages(Math.ceil(total / 30));
+      await fetchData();
 
       setIsLoading(false);
     })();
@@ -111,7 +117,8 @@ function useProvideFilter() {
     isLoading,
     updateFilter,
     resetFilter,
-    setPage
+    setPage,
+    fetchData
   };
 }
 
