@@ -2,9 +2,9 @@ import Link from 'next/link';
 import { Anchor, Button, Text } from '@mantine/core';
 import { IconBrandGithub } from '@tabler/icons-react';
 
-import classes from './SectionAdditional.module.scss';
+import classes from './Footer.module.scss';
 
-function SectionAdditional() {
+function Footer() {
   return (
     <div className={classes.root}>
       <div className={classes.wrapper}>
@@ -48,4 +48,4 @@ function SectionAdditional() {
   );
 }
 
-export default SectionAdditional;
+export default Footer;

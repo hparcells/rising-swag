@@ -1,6 +1,6 @@
 import Content from '@/components/Content/Content';
+import Footer from '@/components/Footer/Footer';
 import Hero from '@/components/Hero/Hero';
-import SectionAdditional from '@/components/SectionAdditional/SectionAdditional';
 
 function Index() {
   return (
@@ -9,7 +9,7 @@ function Index() {
         <Hero />
       </div>
       <Content />
-      <SectionAdditional />
+      <Footer />
     </>
   );
 }
