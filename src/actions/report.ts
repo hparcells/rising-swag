@@ -5,6 +5,8 @@ import axios from 'axios';
 
 import prisma from '@/database/database';
 
+import { FullReport } from '@/types/report';
+
 import { getItem } from './item';
 
 function parseReportType(reportType: ReportType) {
@@ -87,5 +89,31 @@ export async function createReport(itemId: string, type: ReportType) {
         }
       }
     ]
+  });
+}
+
+export async function getReports(): Promise<FullReport[]> {
+  const reports = await prisma.report.findMany({
+    include: {
+      item: {
+        include: {
+          shop: true,
+          tags: true
+        }
+      }
+    },
+    orderBy: {
+      timestamp: 'asc'
+    }
+  });
+
+  return reports;
+}
+
+export async function deleteReport(reportId: string) {
+  await prisma.report.delete({
+    where: {
+      id: reportId
+    }
   });
 }
