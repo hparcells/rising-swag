@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import clsx from 'clsx';
+
+import { montserrat } from '@/app/fonts';
 
 import classes from './Hero.module.scss';
 
@@ -6,7 +9,7 @@ import heroImage from '../../../public/hero.png';
 
 function Hero() {
   return (
-    <div className={classes.root}>
+    <div className={clsx(classes.root, montserrat.className)}>
       <div className={classes.primary}>
         <p className={classes.big}>Red Rising Swag</p>
         <p className={classes.light}>

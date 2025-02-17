@@ -3,9 +3,12 @@
 import { useState } from 'react';
 import { Button, Input, Text } from '@mantine/core';
 import { notifications } from '@mantine/notifications';
+import clsx from 'clsx';
 import isUrl from 'is-url';
 
 import { createRequest } from '@/actions/request';
+
+import { montserrat } from '@/app/fonts';
 
 import classes from './RequestSection.module.scss';
 
@@ -30,10 +33,10 @@ function RequestSection() {
 
   return (
     <div className={classes.root}>
-      <Text className={classes.big} mb='sm'>
+      <Text className={clsx(classes.big, montserrat.className)} mb='sm'>
         Request an Item
       </Text>
-      <Text mb='md'>
+      <Text mb='md' className={montserrat.className}>
         Request an item to be added. Entries will be looked at on a case-by-case basis.
       </Text>
       <Input
