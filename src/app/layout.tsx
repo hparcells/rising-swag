@@ -6,6 +6,7 @@ import '@mantine/notifications/styles.css';
 import '@/styles/global.scss';
 
 import DevNotice from '@/components/DevNotice/DevNotice';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import TheProviderProvider from '@/components/TheProviderProvider';
 
 const DESCRIPTION =
@@ -40,6 +41,7 @@ function RootLayout({ children }: { children: React.ReactNode }) {
       <body>
         {process.env.DATABASE_URL?.includes('dev') && <DevNotice />}
         <TheProviderProvider>{children}</TheProviderProvider>
+        <GoogleAnalytics />
       </body>
     </html>
   );
