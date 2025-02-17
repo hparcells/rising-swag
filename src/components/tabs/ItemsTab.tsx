@@ -71,7 +71,7 @@ function ItemsTab() {
                       </Anchor>
                     </Table.Td>
                     <Table.Td>
-                      <Anchor href={item.link} target='_blank'>
+                      <Anchor href={item.shop.url} target='_blank'>
                         {item.shop.name}
                       </Anchor>
                     </Table.Td>
