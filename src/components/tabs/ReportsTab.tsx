@@ -35,60 +35,64 @@ function ReportsTab() {
       }}
     >
       {reports ? (
-        <Table>
-          <Table.Thead>
-            <Table.Tr>
-              <Table.Th w={20}></Table.Th>
-              <Table.Th>Item</Table.Th>
-              <Table.Th>Shop</Table.Th>
-              <Table.Th>Report Type</Table.Th>
-              <Table.Th>Actions</Table.Th>
-            </Table.Tr>
-          </Table.Thead>
-          <Table.Tbody>
-            {reports.map((report) => {
-              return (
-                <Table.Tr key={report.id}>
-                  <Table.Td>
-                    <Image w={30} h={30} src={report.item.image} alt={report.item.name} />
-                  </Table.Td>
-                  <Table.Td>
-                    <Anchor href={report.item.link} target='_blank'>
-                      {report.item.name}
-                    </Anchor>
-                  </Table.Td>
-                  <Table.Td>
-                    <Anchor href={report.item.shop.url} target='_blank'>
-                      {report.item.shop.name}
-                    </Anchor>
-                  </Table.Td>
-                  <Table.Td>{report.type}</Table.Td>
-                  <Table.Td>
-                    <div
-                      style={{
-                        display: 'flex',
-                        gap: '2px'
-                      }}
-                    >
-                      <ActionIcon variant='filled'>
-                        <IconPencil style={{ width: '70%', height: '70%' }} />
-                      </ActionIcon>
-                      <ActionIcon
-                        variant='filled'
-                        color='red'
-                        onClick={() => {
-                          handleDelete(report.id);
+        reports.length > 0 ? (
+          <Table>
+            <Table.Thead>
+              <Table.Tr>
+                <Table.Th w={20}></Table.Th>
+                <Table.Th>Item</Table.Th>
+                <Table.Th>Shop</Table.Th>
+                <Table.Th>Report Type</Table.Th>
+                <Table.Th>Actions</Table.Th>
+              </Table.Tr>
+            </Table.Thead>
+            <Table.Tbody>
+              {reports.map((report) => {
+                return (
+                  <Table.Tr key={report.id}>
+                    <Table.Td>
+                      <Image w={30} h={30} src={report.item.image} alt={report.item.name} />
+                    </Table.Td>
+                    <Table.Td>
+                      <Anchor href={report.item.link} target='_blank'>
+                        {report.item.name}
+                      </Anchor>
+                    </Table.Td>
+                    <Table.Td>
+                      <Anchor href={report.item.shop.url} target='_blank'>
+                        {report.item.shop.name}
+                      </Anchor>
+                    </Table.Td>
+                    <Table.Td>{report.type}</Table.Td>
+                    <Table.Td>
+                      <div
+                        style={{
+                          display: 'flex',
+                          gap: '2px'
                         }}
                       >
-                        <IconTrash style={{ width: '70%', height: '70%' }} />
-                      </ActionIcon>
-                    </div>
-                  </Table.Td>
-                </Table.Tr>
-              );
-            })}
-          </Table.Tbody>
-        </Table>
+                        <ActionIcon variant='filled'>
+                          <IconPencil style={{ width: '70%', height: '70%' }} />
+                        </ActionIcon>
+                        <ActionIcon
+                          variant='filled'
+                          color='red'
+                          onClick={() => {
+                            handleDelete(report.id);
+                          }}
+                        >
+                          <IconTrash style={{ width: '70%', height: '70%' }} />
+                        </ActionIcon>
+                      </div>
+                    </Table.Td>
+                  </Table.Tr>
+                );
+              })}
+            </Table.Tbody>
+          </Table>
+        ) : (
+          <Text>No reports.</Text>
+        )
       ) : (
         <Text>Loading...</Text>
       )}
