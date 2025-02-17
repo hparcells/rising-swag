@@ -17,8 +17,7 @@ function Hero() {
       </div>
       <div className={classes.secondary}>
         <p className={classes.lighter}>
-          For any additions, takedowns, or any other inquiries, send an email to
-          contact@hunterparcells.com
+          For any takedowns or any other inquiries, send an email to contact@hunterparcells.com
         </p>
       </div>
 

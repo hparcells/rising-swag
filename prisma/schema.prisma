@@ -59,3 +59,12 @@ model Report {
 
   timestamp DateTime @default(now())
 }
+
+model Request {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+
+  url         String
+  requestedBy String
+
+  timestamp DateTime @default(now())
+}

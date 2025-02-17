@@ -33,11 +33,6 @@ function Footer() {
         </Button>
         <div className={classes.links}>
           <Text size='sm'>
-            <Anchor href='https://docs.risingswag.com/docs/api' target='_blank'>
-              API Docs
-            </Anchor>
-          </Text>
-          <Text size='sm'>
             <Anchor href='/shops' component={Link} passHref>
               All Shops
             </Anchor>

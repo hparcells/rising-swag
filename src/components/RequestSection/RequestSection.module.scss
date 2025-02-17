@@ -1,0 +1,20 @@
+.root {
+  background-color: #F8F9FA;
+
+  padding: 2em 1em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+}
+
+.big {
+  font-size: 28px;
+  font-weight: 500;
+}
