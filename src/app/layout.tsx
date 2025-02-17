@@ -5,6 +5,7 @@ import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
 import '@/styles/global.scss';
 
+import DevNotice from '@/components/DevNotice/DevNotice';
 import TheProviderProvider from '@/components/TheProviderProvider';
 
 const DESCRIPTION =
@@ -37,6 +38,7 @@ function RootLayout({ children }: { children: React.ReactNode }) {
         <ColorSchemeScript />
       </head>
       <body>
+        {process.env.DATABASE_URL?.includes('dev') && <DevNotice />}
         <TheProviderProvider>{children}</TheProviderProvider>
       </body>
     </html>
