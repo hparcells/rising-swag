@@ -1,10 +1,19 @@
-import { ActionIcon, Anchor, Button, Image, Pagination, Table, Text } from '@mantine/core';
+import {
+  ActionIcon,
+  Anchor,
+  Button,
+  Checkbox,
+  Image,
+  Pagination,
+  Table,
+  Text
+} from '@mantine/core';
 import { IconPencil, IconPlus, IconTrash } from '@tabler/icons-react';
 
 import { useFilter } from '@/hooks/filter';
 
 function ItemsTab() {
-  const { items, page, pages, isLoading, setPage } = useFilter();
+  const { filter, items, page, pages, isLoading, updateFilter, setPage } = useFilter();
 
   return (
     <div
@@ -17,8 +26,17 @@ function ItemsTab() {
       }}
     >
       <Button leftSection={<IconPlus size={14} />}>Add Item</Button>
+
       {!isLoading ? (
         <>
+          <Checkbox
+            label='Show expired items'
+            checked={filter.showExpired}
+            onChange={(event) => {
+              updateFilter({ showExpired: event.currentTarget.checked });
+            }}
+            mt='sm'
+          />
           <Table>
             <Table.Thead>
               <Table.Tr>
@@ -31,7 +49,12 @@ function ItemsTab() {
             <Table.Tbody>
               {items.map((item) => {
                 return (
-                  <Table.Tr key={item.id}>
+                  <Table.Tr
+                    key={item.id}
+                    style={{
+                      opacity: item.expired ? 0.5 : 1
+                    }}
+                  >
                     <Table.Td>
                       <Image w={30} h={30} src={item.image} alt={item.name} />
                     </Table.Td>

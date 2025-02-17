@@ -34,6 +34,8 @@ export async function getUrls(): Promise<string[]> {
 }
 
 export async function getItems(filter: IFilter, page: number): Promise<SearchReturn> {
+  console.log(filter);
+
   const whereFilter: any = {};
   if (filter.search.trim()) {
     whereFilter['OR'] = [
