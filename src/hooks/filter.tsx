@@ -23,7 +23,7 @@ const FilterContext = createContext({
     },
     showExpired: false
   } as IFilter,
-  items: [] as FullItem[] | null,
+  items: [] as FullItem[],
   page: 1,
   pages: 1,
   isLoading: false,
@@ -35,7 +35,7 @@ const FilterContext = createContext({
 // Our hook.
 export function useFilter(): {
   filter: IFilter;
-  items: FullItem[] | null;
+  items: FullItem[];
   page: number;
   pages: number;
   isLoading: boolean;
@@ -58,7 +58,7 @@ function useProvideFilter() {
     showExpired: false
   });
   const [debouncedFilter] = useDebounce(filter, 500);
-  const [items, setItems] = useState<FullItem[] | null>(null);
+  const [items, setItems] = useState<FullItem[]>(null as any);
   const [page, setPage] = useState<number>(1);
   const [pages, setPages] = useState<number>(1);
   const [isLoading, setIsLoading] = useState<boolean>(true);

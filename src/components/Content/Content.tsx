@@ -25,7 +25,7 @@ function Content() {
         </div>
 
         <div className={clsx(classes.cards, classes.squeeze)} ref={topCards}>
-          {!isLoading && items ? (
+          {!isLoading ? (
             items.length > 0 ? (
               <>
                 {items.map((item, i) => {
