@@ -4,8 +4,11 @@
   "private": true,
   "scripts": {
     "prepare": "husky install",
+    "postinstall": "npx prisma generate",
+    "predev": "npx prisma generate",
     "dev": "next dev --turbopack -p 8000",
     "build:next": "next build",
+    "prebuild": "npx prisma generate",
     "build": "turbo build:next",
     "start": "next start -p 8012",
     "export": "next export",
