@@ -16,6 +16,11 @@ Requests for additions or removes to/from this page can be made a number of ways
 ## Development
 - Download or clone this repository.
 - Install needed dependencies with `npm i` with [Node.js](https://nodejs.org/en/).
+- Create a `.env` file with the following keys:
+  - `DATABASE_URL`: MongoDB connection string.
+  - `IRON_SESSION_SECRET`: 32+ character secret.
+  - `IRON_SESSION_PASSWORD`: Password to access admin pages.
+  - `DISCORD_WEBHOOK_URL`: Discord webhook URL.
 - Run the development server with `npm run dev`.
 - Create a production build with `npm run build` and start the production server with `npm start`.
 
