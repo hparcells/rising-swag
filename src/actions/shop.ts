@@ -12,10 +12,17 @@ export async function getShop(name: string): Promise<Shop | null> {
   });
 }
 
-export async function getShops(): Promise<Shop[]> {
+export async function getShops() {
   return await prisma.shop.findMany({
     orderBy: {
       name: 'asc'
+    },
+    include: {
+      _count: {
+        select: {
+          items: true
+        }
+      }
     }
   });
 }

@@ -31,6 +31,7 @@ async function Stores() {
                 <a href={shop.url} target='_blank'>
                   {shop.name}
                 </a>{' '}
+                ({shop._count.items})
               </li>
             );
           })}
@@ -47,6 +48,7 @@ async function Stores() {
                 <a href={shop.url} target='_blank'>
                   {shop.name}
                 </a>{' '}
+                ({shop._count.items})
               </li>
             );
           })}
