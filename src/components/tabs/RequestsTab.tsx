@@ -39,7 +39,7 @@ function RequestsTab() {
             <Table.Thead>
               <Table.Tr>
                 <Table.Th>Link</Table.Th>
-                <Table.Th>Actions</Table.Th>
+                <Table.Th w={0}>Actions</Table.Th>
               </Table.Tr>
             </Table.Thead>
             <Table.Tbody>

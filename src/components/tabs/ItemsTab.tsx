@@ -50,7 +50,7 @@ function ItemsTab() {
                 <Table.Th w={20}></Table.Th>
                 <Table.Th>Item</Table.Th>
                 <Table.Th>Shop</Table.Th>
-                <Table.Th>Actions</Table.Th>
+                <Table.Th w={0}>Actions</Table.Th>
               </Table.Tr>
             </Table.Thead>
             <Table.Tbody>

@@ -43,7 +43,7 @@ function ReportsTab() {
                 <Table.Th>Item</Table.Th>
                 <Table.Th>Shop</Table.Th>
                 <Table.Th>Report Type</Table.Th>
-                <Table.Th>Actions</Table.Th>
+                <Table.Th w={0}>Actions</Table.Th>
               </Table.Tr>
             </Table.Thead>
             <Table.Tbody>
