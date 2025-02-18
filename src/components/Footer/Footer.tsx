@@ -37,6 +37,16 @@ function Footer() {
               All Shops
             </Anchor>
           </Text>
+          <Text size='sm'>
+            <Anchor href='https://www.lit-escalates.com/' component={Link} passHref target='_blank'>
+              Official Merch
+            </Anchor>
+          </Text>
+          <Text size='sm'>
+            <Anchor href='https://www.piercebrown.com/' component={Link} passHref target='_blank'>
+              Pierce Brown
+            </Anchor>
+          </Text>
         </div>
       </div>
     </div>

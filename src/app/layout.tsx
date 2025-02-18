@@ -10,7 +10,7 @@ import GoogleAnalytics from '@/components/GoogleAnalytics';
 import TheProviderProvider from '@/components/TheProviderProvider';
 
 const DESCRIPTION =
-  "Looking for the perfect gift? Represent the world of Pierce Brown's Red Rising with style with a curated list of merch and other Red Rising related items from members across the community, all in one place.";
+  "Represent the world of Pierce Brown's Red Rising with style with a curated list of merch and other Red Rising related items from members across the community, all in one place.";
 
 export const metadata: Metadata = {
   title: 'Rising Swag',
@@ -24,7 +24,11 @@ export const metadata: Metadata = {
   openGraph: {
     description: DESCRIPTION,
     url: 'https://risingswag.com/',
-    images: ['/icon/favicon-310.png']
+    images: ['/icon/favicon-310.png'],
+    type: 'website'
+  },
+  alternates: {
+    canonical: 'https://risingswag.com/'
   }
 };
 

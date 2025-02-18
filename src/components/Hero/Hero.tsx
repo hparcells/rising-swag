@@ -11,7 +11,7 @@ function Hero() {
   return (
     <div className={clsx(classes.root, montserrat.className)}>
       <div className={classes.primary}>
-        <p className={classes.big}>Red Rising Swag</p>
+        <h1 className={classes.big}>Red Rising Swag</h1>
         <p className={classes.light}>
           {
             "Represent the world of Pierce Brown's Red Rising with style with a curated list of merch and other Red Rising related items from members across the community, all in one place."
