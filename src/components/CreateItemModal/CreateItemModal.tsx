@@ -52,6 +52,9 @@ function CreateItemModal({
         if (!value.trim()) {
           return 'Tags are required';
         }
+        if (!/^[A-Za-z]+(,[A-Za-z]+)*$/.test(value)) {
+          return 'Tags must be alphanumeric and separated by commas';
+        }
         return null;
       },
       shopName: (value) => {

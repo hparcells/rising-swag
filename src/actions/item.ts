@@ -133,6 +133,10 @@ export async function toggleExpiry(itemId: string) {
 }
 
 export async function createItem(data: ItemFormData) {
+  if (await urlExists(data.link.trim())) {
+    return;
+  }
+
   await prisma.item.create({
     data: {
       name: data.name.trim(),
@@ -176,6 +180,10 @@ export async function createItem(data: ItemFormData) {
 }
 
 export async function updateItem(data: ItemFormData, itemId: string) {
+  if (await urlExists(data.link.trim())) {
+    return;
+  }
+
   await prisma.item.update({
     where: {
       id: itemId
