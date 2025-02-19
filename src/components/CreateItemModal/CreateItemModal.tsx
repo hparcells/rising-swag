@@ -46,6 +46,9 @@ function CreateItemModal({
         if (!value.trim()) {
           return 'Image is required';
         }
+        if (!isUrl(value.trim())) {
+          return 'Image URL is not valid';
+        }
         return null;
       },
       tags: (value) => {
