@@ -56,6 +56,12 @@ export async function getItems(filter: IFilter, page: number): Promise<SearchRet
             mode: 'insensitive'
           }
         }
+      },
+      {
+        link: {
+          contains: filter.search.trim(),
+          mode: 'insensitive'
+        }
       }
     ];
   }

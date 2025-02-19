@@ -89,71 +89,75 @@ function ItemsTab({
               }}
               mt='sm'
             />
-            <Table>
-              <Table.Thead>
-                <Table.Tr>
-                  <Table.Th w={20}></Table.Th>
-                  <Table.Th>Item</Table.Th>
-                  <Table.Th>Shop</Table.Th>
-                  <Table.Th w={0}>Actions</Table.Th>
-                </Table.Tr>
-              </Table.Thead>
-              <Table.Tbody>
-                {items.map((item) => {
-                  return (
-                    <Table.Tr
-                      key={item.id}
-                      style={{
-                        opacity: item.expired ? 0.5 : 1
-                      }}
-                    >
-                      <Table.Td>
-                        <Image w={30} h={30} src={item.image} alt={item.name} />
-                      </Table.Td>
-                      <Table.Td>
-                        <Anchor href={item.link} target='_blank'>
-                          {item.name}
-                        </Anchor>
-                      </Table.Td>
-                      <Table.Td>
-                        <Anchor href={item.shop.url} target='_blank'>
-                          {item.shop.name}
-                        </Anchor>
-                      </Table.Td>
-                      <Table.Td>
-                        <div
-                          style={{
-                            display: 'flex',
-                            gap: '2px'
-                          }}
-                        >
-                          <ActionIcon
-                            variant='filled'
-                            onClick={() => {
-                              handleExpiryClick(item.id);
+            {items.length > 0 ? (
+              <Table>
+                <Table.Thead>
+                  <Table.Tr>
+                    <Table.Th w={20}></Table.Th>
+                    <Table.Th>Item</Table.Th>
+                    <Table.Th>Shop</Table.Th>
+                    <Table.Th w={0}>Actions</Table.Th>
+                  </Table.Tr>
+                </Table.Thead>
+                <Table.Tbody>
+                  {items.map((item) => {
+                    return (
+                      <Table.Tr
+                        key={item.id}
+                        style={{
+                          opacity: item.expired ? 0.5 : 1
+                        }}
+                      >
+                        <Table.Td>
+                          <Image w={30} h={30} src={item.image} alt={item.name} />
+                        </Table.Td>
+                        <Table.Td>
+                          <Anchor href={item.link} target='_blank'>
+                            {item.name}
+                          </Anchor>
+                        </Table.Td>
+                        <Table.Td>
+                          <Anchor href={item.shop.url} target='_blank'>
+                            {item.shop.name}
+                          </Anchor>
+                        </Table.Td>
+                        <Table.Td>
+                          <div
+                            style={{
+                              display: 'flex',
+                              gap: '2px'
                             }}
                           >
-                            {item.expired ? (
-                              <IconEyeOff style={{ width: '70%', height: '70%' }} />
-                            ) : (
-                              <IconEye style={{ width: '70%', height: '70%' }} />
-                            )}
-                          </ActionIcon>
-                          <ActionIcon
-                            variant='filled'
-                            onClick={() => {
-                              handleEditClick(item);
-                            }}
-                          >
-                            <IconPencil style={{ width: '70%', height: '70%' }} />
-                          </ActionIcon>
-                        </div>
-                      </Table.Td>
-                    </Table.Tr>
-                  );
-                })}
-              </Table.Tbody>
-            </Table>
+                            <ActionIcon
+                              variant='filled'
+                              onClick={() => {
+                                handleExpiryClick(item.id);
+                              }}
+                            >
+                              {item.expired ? (
+                                <IconEyeOff style={{ width: '70%', height: '70%' }} />
+                              ) : (
+                                <IconEye style={{ width: '70%', height: '70%' }} />
+                              )}
+                            </ActionIcon>
+                            <ActionIcon
+                              variant='filled'
+                              onClick={() => {
+                                handleEditClick(item);
+                              }}
+                            >
+                              <IconPencil style={{ width: '70%', height: '70%' }} />
+                            </ActionIcon>
+                          </div>
+                        </Table.Td>
+                      </Table.Tr>
+                    );
+                  })}
+                </Table.Tbody>
+              </Table>
+            ) : (
+              <Text mt='sm'>No items.</Text>
+            )}
             <Pagination
               total={pages}
               value={page}
