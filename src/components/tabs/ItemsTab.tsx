@@ -1,16 +1,24 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   ActionIcon,
   Anchor,
   Button,
   Checkbox,
   Image,
+  Input,
   Pagination,
   Table,
   Text
 } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
-import { IconEye, IconEyeOff, IconPencil, IconPlus, IconTrash } from '@tabler/icons-react';
+import { useDebouncedValue, useDisclosure } from '@mantine/hooks';
+import {
+  IconEye,
+  IconEyeOff,
+  IconPencil,
+  IconPlus,
+  IconSearch,
+  IconTrash
+} from '@tabler/icons-react';
 
 import { toggleExpiry } from '@/actions/item';
 
@@ -22,6 +30,9 @@ import CreateItemModal from '../CreateItemModal/CreateItemModal';
 
 function ItemsTab() {
   const { filter, items, page, pages, isLoading, updateFilter, setPage, fetchData } = useFilter();
+
+  const [search, setSearch] = useState('');
+  const [debounced] = useDebouncedValue(search, 250, { leading: true });
 
   const [opened, { open, close }] = useDisclosure(false);
   const [modalMode, setModalMode] = useState<'create' | 'edit'>('create');
@@ -45,6 +56,10 @@ function ItemsTab() {
     open();
   }
 
+  useEffect(() => {
+    updateFilter({ search: debounced });
+  }, [debounced]);
+
   return (
     <>
       <div
@@ -56,6 +71,16 @@ function ItemsTab() {
           margin: '1em 0.5em'
         }}
       >
+        <Input
+          leftSection={<IconSearch />}
+          placeholder='Search items, stores, etc...'
+          value={search}
+          onChange={(event) => {
+            setSearch(event.currentTarget.value);
+          }}
+          mb='sm'
+          w='100%'
+        />
         <Button leftSection={<IconPlus size={14} />} onClick={handleCreateClick}>
           Add Item
         </Button>
