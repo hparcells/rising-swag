@@ -4,6 +4,8 @@ import { useEffect } from 'react';
 import { Button, Checkbox, Modal, Textarea, TextInput } from '@mantine/core';
 import { useForm } from '@mantine/form';
 
+import { deleteItemReports } from '@/actions/report';
+
 import { FullItem } from '@/types/item';
 
 function CreateItemModal({
@@ -33,10 +35,16 @@ function CreateItemModal({
     }
   });
 
-  function handleSubmit() {
+  async function handleSubmit(closeReports: boolean) {
     form.onSubmit((values) => {
       console.log(values);
     });
+
+    if (closeReports && mode === 'edit' && item?.id) {
+      await deleteItemReports(item.id);
+    }
+
+    close();
   }
 
   useEffect(() => {
@@ -70,7 +78,11 @@ function CreateItemModal({
       title={`${mode === 'create' ? 'Create' : 'Edit'} Item`}
       transitionProps={{ transition: 'fade', duration: 200 }}
     >
-      <form onSubmit={handleSubmit}>
+      <form
+        onSubmit={() => {
+          handleSubmit(false);
+        }}
+      >
         <TextInput
           withAsterisk
           label='Name'
@@ -140,9 +152,31 @@ function CreateItemModal({
           key={form.key('nsfw')}
           {...form.getInputProps('nsfw', { type: 'checkbox' })}
         />
-        <Button onClick={handleSubmit} type='submit' mt='md'>
-          Submit
-        </Button>
+        <div
+          style={{
+            display: 'flex',
+            gap: '4px'
+          }}
+        >
+          <Button
+            onClick={() => {
+              handleSubmit(false);
+            }}
+            mt='md'
+          >
+            Submit
+          </Button>
+          {mode === 'edit' && (
+            <Button
+              onClick={() => {
+                handleSubmit(true);
+              }}
+              mt='md'
+            >
+              Submit and Close Reports
+            </Button>
+          )}
+        </div>
       </form>
     </Modal>
   );

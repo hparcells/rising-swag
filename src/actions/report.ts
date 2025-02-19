@@ -117,3 +117,11 @@ export async function deleteReport(reportId: string) {
     }
   });
 }
+
+export async function deleteItemReports(itemId: string) {
+  await prisma.report.deleteMany({
+    where: {
+      itemId
+    }
+  });
+}
