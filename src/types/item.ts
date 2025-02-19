@@ -91,3 +91,16 @@ export interface SearchReturn {
   items: FullItem[];
   total: number;
 }
+
+export interface ItemFormData {
+  name: string;
+  image: string;
+  tags: string;
+  shopName: string;
+  shopUrl: string;
+  description: string;
+  link: string;
+  expired: boolean;
+  spoiler: boolean;
+  nsfw: boolean;
+}

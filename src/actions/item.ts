@@ -3,7 +3,7 @@
 import prisma from '@/database/database';
 
 import { IFilter } from '@/types/filter';
-import { SearchReturn } from '@/types/item';
+import { ItemFormData, SearchReturn } from '@/types/item';
 
 export async function getItem(itemId: string) {
   const item = await prisma.item.findFirst({
@@ -128,6 +128,106 @@ export async function toggleExpiry(itemId: string) {
     },
     data: {
       expired: !item.expired
+    }
+  });
+}
+
+export async function createItem(data: ItemFormData) {
+  await prisma.item.create({
+    data: {
+      name: data.name.trim(),
+      image: data.image.trim(),
+      tags: {
+        connectOrCreate: data.tags.split(',').map((tag) => {
+          return {
+            where: {
+              name: tag.trim()
+            },
+            create: {
+              name: tag.trim()
+            }
+          };
+        })
+      },
+      shop: {
+        connectOrCreate: {
+          where: {
+            name: data.shopName.trim()
+          },
+          create: {
+            name: data.shopName.trim(),
+            url: data.shopUrl.trim()
+          }
+        }
+      },
+      description: data.description.trim(),
+      link: data.link.trim(),
+      expired: data.expired,
+      spoiler: data.spoiler,
+      nsfw: data.nsfw
+    }
+  });
+
+  await prisma.request.deleteMany({
+    where: {
+      url: data.link.trim()
+    }
+  });
+}
+
+export async function updateItem(data: ItemFormData, itemId: string) {
+  await prisma.item.update({
+    where: {
+      id: itemId
+    },
+    data: {
+      name: data.name.trim(),
+      image: data.image.trim(),
+      tags: {
+        set: [],
+        connectOrCreate: data.tags.split(',').map((tag) => {
+          return {
+            where: {
+              name: tag.trim()
+            },
+            create: {
+              name: tag.trim()
+            }
+          };
+        })
+      },
+      shop: {
+        connectOrCreate: {
+          where: {
+            name: data.shopName.trim()
+          },
+          create: {
+            name: data.shopName.trim(),
+            url: data.shopUrl.trim()
+          }
+        }
+      },
+      description: data.description.trim(),
+      link: data.link.trim(),
+      expired: data.expired,
+      spoiler: data.spoiler,
+      nsfw: data.nsfw
+    }
+  });
+
+  await prisma.tag.deleteMany({
+    where: {
+      items: {
+        none: {}
+      }
+    }
+  });
+
+  await prisma.shop.deleteMany({
+    where: {
+      items: {
+        none: {}
+      }
     }
   });
 }

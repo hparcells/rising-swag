@@ -3,10 +3,12 @@
 import { useEffect } from 'react';
 import { Button, Checkbox, Modal, Textarea, TextInput } from '@mantine/core';
 import { useForm } from '@mantine/form';
+import isUrl from 'is-url';
 
+import { createItem, updateItem } from '@/actions/item';
 import { deleteItemReports } from '@/actions/report';
 
-import { FullItem } from '@/types/item';
+import { FullItem, ItemFormData } from '@/types/item';
 
 function CreateItemModal({
   isOpen,
@@ -32,19 +34,90 @@ function CreateItemModal({
       expired: false,
       spoiler: false,
       nsfw: false
+    },
+    validate: {
+      name: (value) => {
+        if (!value.trim()) {
+          return 'Name is required';
+        }
+        return null;
+      },
+      image: (value) => {
+        if (!value.trim()) {
+          return 'Image is required';
+        }
+        return null;
+      },
+      tags: (value) => {
+        if (!value.trim()) {
+          return 'Tags are required';
+        }
+        return null;
+      },
+      shopName: (value) => {
+        if (!value.trim()) {
+          return 'Shop name is required';
+        }
+        return null;
+      },
+      shopUrl: (value) => {
+        if (!value.trim()) {
+          return 'Shop URL is required';
+        }
+        if (!isUrl(value.trim())) {
+          return 'Shop URL is not valid';
+        }
+        return null;
+      },
+      description: (value) => {
+        if (!value.trim()) {
+          return 'Description is required';
+        }
+        return null;
+      },
+      link: (value) => {
+        if (!value.trim()) {
+          return 'Link is required';
+        }
+        if (!isUrl(value.trim())) {
+          return 'Link is not valid';
+        }
+        return null;
+      }
     }
   });
 
-  async function handleSubmit(closeReports: boolean) {
-    form.onSubmit((values) => {
-      console.log(values);
-    });
+  function handleSubmit(closeReports: boolean) {
+    (async () => {
+      const validate = form.validate();
+      if (validate.hasErrors) {
+        return;
+      }
 
-    if (closeReports && mode === 'edit' && item?.id) {
-      await deleteItemReports(item.id);
-    }
+      const itemFormData: ItemFormData = {
+        name: form.getValues().name.trim(),
+        image: form.getValues().image.trim(),
+        tags: form.getValues().tags.trim(),
+        shopName: form.getValues().shopName.trim(),
+        shopUrl: form.getValues().shopUrl.trim(),
+        description: form.getValues().description.trim(),
+        link: form.getValues().link.trim(),
+        expired: form.getValues().expired,
+        spoiler: form.getValues().spoiler,
+        nsfw: form.getValues().nsfw
+      };
 
-    close();
+      if (mode === 'create') {
+        await createItem(itemFormData);
+      } else if (mode === 'edit') {
+        await updateItem(itemFormData, item?.id || '');
+
+        if (closeReports && item?.id) {
+          await deleteItemReports(item.id);
+        }
+      }
+      close();
+    })();
   }
 
   useEffect(() => {
