@@ -246,4 +246,20 @@ export async function deleteItem(itemId: string) {
       id: itemId
     }
   });
+
+  await prisma.tag.deleteMany({
+    where: {
+      items: {
+        none: {}
+      }
+    }
+  });
+
+  await prisma.shop.deleteMany({
+    where: {
+      items: {
+        none: {}
+      }
+    }
+  });
 }
