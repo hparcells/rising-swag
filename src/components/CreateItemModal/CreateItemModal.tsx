@@ -5,7 +5,7 @@ import { Button, Checkbox, Modal, Textarea, TextInput } from '@mantine/core';
 import { useForm } from '@mantine/form';
 import isUrl from 'is-url';
 
-import { createItem, updateItem } from '@/actions/item';
+import { createItem, deleteItem, updateItem } from '@/actions/item';
 import { deleteItemReports } from '@/actions/report';
 
 import { FullItem, ItemFormData } from '@/types/item';
@@ -118,6 +118,11 @@ function CreateItemModal({
       }
       close();
     })();
+  }
+
+  async function handleDelete() {
+    await deleteItem(item?.id || '');
+    close();
   }
 
   useEffect(() => {
@@ -240,14 +245,19 @@ function CreateItemModal({
             Submit
           </Button>
           {mode === 'edit' && (
-            <Button
-              onClick={() => {
-                handleSubmit(true);
-              }}
-              mt='md'
-            >
-              Submit and Close Reports
-            </Button>
+            <>
+              <Button
+                onClick={() => {
+                  handleSubmit(true);
+                }}
+                mt='md'
+              >
+                Submit and Close Reports
+              </Button>
+              <Button onClick={handleDelete} mt='md' color='red'>
+                Delete
+              </Button>
+            </>
           )}
         </div>
       </form>

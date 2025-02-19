@@ -231,3 +231,11 @@ export async function updateItem(data: ItemFormData, itemId: string) {
     }
   });
 }
+
+export async function deleteItem(itemId: string) {
+  await prisma.item.deleteMany({
+    where: {
+      id: itemId
+    }
+  });
+}

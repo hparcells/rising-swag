@@ -11,14 +11,7 @@ import {
   Text
 } from '@mantine/core';
 import { useDebouncedValue } from '@mantine/hooks';
-import {
-  IconEye,
-  IconEyeOff,
-  IconPencil,
-  IconPlus,
-  IconSearch,
-  IconTrash
-} from '@tabler/icons-react';
+import { IconEye, IconEyeOff, IconPencil, IconPlus, IconSearch } from '@tabler/icons-react';
 
 import { toggleExpiry } from '@/actions/item';
 
@@ -153,9 +146,6 @@ function ItemsTab({
                             }}
                           >
                             <IconPencil style={{ width: '70%', height: '70%' }} />
-                          </ActionIcon>
-                          <ActionIcon variant='filled' color='red'>
-                            <IconTrash style={{ width: '70%', height: '70%' }} />
                           </ActionIcon>
                         </div>
                       </Table.Td>
