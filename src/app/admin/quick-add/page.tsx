@@ -3,6 +3,8 @@
 import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 
+import CreateItemModal from '@/components/CreateItemModal/CreateItemModal';
+
 function QuickAdd() {
   const searchParams = useSearchParams();
 
@@ -10,24 +12,50 @@ function QuickAdd() {
   const image = searchParams.get('image');
   const shopName = searchParams.get('shopName');
   const shopUrl = searchParams.get('shopUrl');
+  const description = searchParams.get('description');
   const link = searchParams.get('link');
 
   return (
-    <>
-      <p>Name: {name}</p>
-      <p>Image: {image}</p>
-      <p>Shop Name: {shopName}</p>
-      <p>Shop URL: {shopUrl}</p>
-      <p>Link: {link}</p>
-    </>
+    <CreateItemModal
+      isOpen={true}
+      mode='create'
+      item={{
+        id: '',
+        date: new Date(),
+        name: name || '',
+        image: image || '',
+        tags: [],
+        tagIds: [],
+        shop: {
+          id: '',
+          name: shopName || '',
+          url: shopUrl || ''
+        },
+        shopId: '',
+        description: description || '',
+        link: link || '',
+        expired: false,
+        spoiler: false,
+        nsfw: false
+      }}
+      close={() => {
+        window.close();
+      }}
+    />
   );
 }
 
 function QuickAddWrapper() {
   return (
-    <Suspense>
-      <QuickAdd />
-    </Suspense>
+    <div
+      style={{
+        padding: '1em 0.5em'
+      }}
+    >
+      <Suspense>
+        <QuickAdd />
+      </Suspense>
+    </div>
   );
 }
 

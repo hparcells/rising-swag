@@ -180,10 +180,6 @@ export async function createItem(data: ItemFormData) {
 }
 
 export async function updateItem(data: ItemFormData, itemId: string) {
-  if (await urlExists(data.link.trim())) {
-    return;
-  }
-
   await prisma.item.update({
     where: {
       id: itemId
