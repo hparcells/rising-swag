@@ -1,5 +1,6 @@
 'use client';
 
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 
 function QuickAdd() {
@@ -22,4 +23,12 @@ function QuickAdd() {
   );
 }
 
-export default QuickAdd;
+function QuickAddWrapper() {
+  return (
+    <Suspense>
+      <QuickAdd />
+    </Suspense>
+  );
+}
+
+export default QuickAddWrapper;
