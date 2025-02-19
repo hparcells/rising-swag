@@ -4,14 +4,29 @@ import { IconPencil, IconTrash } from '@tabler/icons-react';
 
 import { deleteReport, getReports } from '@/actions/report';
 
+import { FullItem } from '@/types/item';
 import { FullReport } from '@/types/report';
 
-function ReportsTab() {
+function ReportsTab({
+  setModalMode,
+  setEditingItem,
+  open
+}: {
+  setModalMode: (mode: 'create' | 'edit') => void;
+  setEditingItem: (item: FullItem | null) => void;
+  open: () => void;
+}) {
   const [reports, setReports] = useState<FullReport[]>(null as any);
 
   async function fetchReports() {
     const reports = await getReports();
     setReports(reports);
+  }
+
+  function handleEditClick(item: FullItem) {
+    setEditingItem(item);
+    setModalMode('edit');
+    open();
   }
 
   useEffect(() => {
@@ -71,7 +86,12 @@ function ReportsTab() {
                           gap: '2px'
                         }}
                       >
-                        <ActionIcon variant='filled'>
+                        <ActionIcon
+                          variant='filled'
+                          onClick={() => {
+                            handleEditClick(report.item);
+                          }}
+                        >
                           <IconPencil style={{ width: '70%', height: '70%' }} />
                         </ActionIcon>
                         <ActionIcon

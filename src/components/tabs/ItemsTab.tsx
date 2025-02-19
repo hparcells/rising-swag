@@ -10,7 +10,7 @@ import {
   Table,
   Text
 } from '@mantine/core';
-import { useDebouncedValue, useDisclosure } from '@mantine/hooks';
+import { useDebouncedValue } from '@mantine/hooks';
 import {
   IconEye,
   IconEyeOff,
@@ -26,17 +26,19 @@ import { useFilter } from '@/hooks/filter';
 
 import { FullItem } from '@/types/item';
 
-import CreateItemModal from '../CreateItemModal/CreateItemModal';
-
-function ItemsTab() {
+function ItemsTab({
+  setModalMode,
+  setEditingItem,
+  open
+}: {
+  setModalMode: (mode: 'create' | 'edit') => void;
+  setEditingItem: (item: FullItem | null) => void;
+  open: () => void;
+}) {
   const { filter, items, page, pages, isLoading, updateFilter, setPage, fetchData } = useFilter();
 
   const [search, setSearch] = useState('');
   const [debounced] = useDebouncedValue(search, 250, { leading: true });
-
-  const [opened, { open, close }] = useDisclosure(false);
-  const [modalMode, setModalMode] = useState<'create' | 'edit'>('create');
-  const [editingItem, setEditingItem] = useState<FullItem | null>(null);
 
   async function handleExpiryClick(itemId: string) {
     await toggleExpiry(itemId);
@@ -52,7 +54,6 @@ function ItemsTab() {
   function handleEditClick(item: FullItem) {
     setEditingItem(item);
     setModalMode('edit');
-    // Fetch data.
     open();
   }
 
@@ -176,7 +177,6 @@ function ItemsTab() {
           <Text mt='sm'>Loading...</Text>
         )}
       </div>
-      <CreateItemModal isOpen={opened} close={close} mode={modalMode} item={editingItem} />
     </>
   );
 }
